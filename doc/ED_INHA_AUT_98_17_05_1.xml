@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre à Léon Curmer, 16 mai 1843</title>
+                <author key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL - Centre André Chastel</edition>
+                <respStmt>
+                    <name>Gaëlle Lafage</name>
+                    <resp>Transcription</resp>
+                    <resp>Editeur scientifique</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL - Centre André Chastel</publisher>
+                <date when="2019"/>
+                <idno>AC_ED_000002_A</idno>
+                <!--il faut revoir les identifiants-->
+                <availability status="restricted">
+                    <!--il faut mettre notre propre licence-->
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <p>Copyright © 2015 Université Paris-Sorbonne, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d'Eugène Delacroix</title>
+                <title type="sub">Hôtel
+                    Lambert<!--titre sous corpus! ex Correspondance de Delacroix avec Joséphine de Forget--></title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque de l'Institut national d'histoire de
+                            l'art</institution>
+                        <repository/>
+                        <idno>Autographes 98, 17, 05 (1)</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure type="page">3</measure>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <accMat type=""> </accMat>
+                        <!--pour les pièces accompagnant la lettre ex : envelope-->
+                    </physDesc>
+                    <history>
+                        <provenance>
+                            <p/>
+                        </provenance>
+                    </history>
+                </msDesc>
+                <listBibl>
+                    <bibl>
+                        <author>Burty Philippe</author>, <title>Lettres de Eugène Delacroix</title>,
+                            <pubPlace>Paris</pubPlace>, <publisher>A. Quantin</publisher>,
+                            <date>1878</date>, <biblScope>t.I, p. 277-279</biblScope>. </bibl>
+                    <bibl>
+                        <author>Joubin André</author>, <title>Correspondance générale de Eugène
+                            Delacroix,</title>, <pubPlace>Paris</pubPlace>,
+                            <publisher>Plon</publisher>, <date>1936-1938</date>, <biblScope>t. II,
+                            p. 136-137</biblScope>. </bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"
+                        ref="https://data.bnf.fr/fr/11899161">Eugène Delacroix</persName>
+                    <date when="1843-05-16"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Curmer, Léon (1801-1870)"
+                        ref="https://data.bnf.fr/fr/13006646/leon_curmer/">Léon Curmer</persName>
+                    <placeName key="Paris" ref="https://www.geonames.org/2988507">Paris</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="next" target="http://test"/>
+                    <ref type="prev" target="http://test"/>
+                    <ref type="replyTo" target="http://test"/>
+                    <ref type="repliedBy" target="http://test"/>
+                </correspContext>
+            </correspDesc>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb xml:id="AC_ED_000002_A_I1" n="1" facs="URL"/>
+                <!-- L'attribut "facs" permet d'indiquer l'URL de l'image -->
+                <opener>
+                    <address>
+                        <addrLine>Monsieur Curmer, 49 rue Richelieu, Paris</addrLine>
+                    </address>
+                    <stamp>16 mars 1846</stamp>
+                    <pb xml:id="AC_ED_000002_A_I2" n="2" facs="http://tests"/>
+                    <salute><persName key="Curmer, Léon (1801-1870)">Monsieur</persName>,</salute>
+                </opener>
+                <p>Je vous écris de chez <persName
+                        key="Boissard de Boisdenier, Joseph Fernand(1813-1866)">M.
+                        Boissard</persName> au sujet de l’article sur <placeName key="hotel_lambert"
+                        >l’hôtel Lambert</placeName><note type="editor" place="bottom">Boissard
+                        habitait au 3 quai d’Anjou, comme nous l’apprend <ref type="letter"
+                            target="URI">la lettre</ref> que Delacroix lui adressa la veille pour
+                        dire qu’il se rendrait chez lui afin de discuter de l’article. Son article
+                        fut publié dans la revue de Curmer,<hi rend="it">Beaux-Arts</hi>, 1843, p.
+                        198-199.</note>. Il a déjà fait un travail que vous avez entre les mains, je
+                    n’ai donc pu en prendre connaissance, mais d’après ce qu’il m’en a dit voici, je
+                    crois, comment on pourrait tirer parti de ses idées et des miennes. Son article,
+                    sauf modifications, paraîtrait en même temps qu’une lettre que j’adresserais au
+                    journal sur le même objet<note type="editor" place="bottom">Aucune lettre ne fut
+                        finalement publiée dans la revue avec l’article.</note>. Il se chargerait
+                    bien entendu de la partie historique et descriptive, nécessaire je crois pour
+                    faire sentir l’importance de la conservation et mes réflexions seraient à
+                    l’appui <note resp="editor" place="bottom">Les deux amis étaient préoccupés du
+                        sort de cet hôtel qui était en vente dans un état de délabrement assez
+                        avancé, après avoir appartenu à l’administration des Lits militaires. On
+                        croyait l’hôtel, ainsi que les chefs-d’œuvre de Le Brun et de Le Sueur qu’il
+                        enfermait, promis à la démolition. Il fut heureusement acheté le 10 juin de
+                        la même année par la princesse Czartoryska (<hi rend="it">Journal des
+                            débats</hi>, 17 juillet 1843), sur les conseils de Delacroix (voir <ref
+                            type="letter" target="URI">la lettre d’Albert Grzymala à George Sand et
+                            Frédéric Chopin de juillet 1843</ref>). Delacroix travailla à rétablir
+                        les décors endommagés de Le Brun et de Le Sueur. Il évoque ce travail
+                        délicat et difficile dans plusieurs lettres :<ref type="letter" target="URI"
+                            >une première adressée à Albert Grzymala</ref> et<ref type="letter"
+                            target="URI"> une seconde adressée à Joséphine de Forget le 1er août
+                            1844</ref>.</note>. </p>
+                <p>Vous lui aviez aussi parlé d’une vue à faire de <placeName key="hotel_lambert"
+                        >l’hôtel Lambert</placeName> pour être gravée sur bois. Outre qu’il ne se
+                    chargerait pas avec plaisir de ce travail d’architecte qui sort de son genre, il
+                    n’y aurait <pb xml:id="AC_ED_000002_A_I3" n="3" facs="http://tests"/> sans doute
+                    pas le temps suffisant pour graver le bois, mais il pourrait faire une eau-forte
+                    d’un des sujets de peinture et pourrait être en mesure de paraître en même temps
+                    que l’article. Il y a un frontispice de <persName
+                        key="Le Sueur, Eustache (1617-1655)"
+                        ref="https://data.bnf.fr/fr/13965157/eustache_le_sueur/">Le Sueur</persName>
+                    que je pourrais faire volontiers en lithographie et que je crois intéressant,
+                    mais, pour ne pas encombrer le numéro du même objet peut-être un peu serieux, on
+                    pourrait renvoyer ce dernier un peu plus tard <note resp="editor" place="bottom"
+                        >En effet, aucune illustration n’accompagna l’article de Boissard.</note>. </p>
+                <p>
+                    <persName key="Boissard de Boisdenier, Joseph Fernand(1813-1866)">M.
+                        Boissard</persName> ira demain matin <add place="above">mercredi</add> à 8 h
+                    causer avec vous si vous le permettez et vous demander vos intentions sur tout
+                    cela. Il aurait la bonté de me les transmettre immédiatement après pour agir en
+                    conséquence.</p>
+                <closer>
+                    <salute><lb/>Agréez, en attendant, <persName key="Curmer, Léon (1801-1870)"
+                            >Monsieur</persName>, l’assurance de ma haute considération et de mes
+                        sentiments bien dévoués. </salute>
+                    <lb/><dateline>Ce mardi 16 mai</dateline>
+                    <signed>Eug. Delacroix</signed>
+                </closer>
+
+            </div>
+        </body>
+    </text>
+</TEI>

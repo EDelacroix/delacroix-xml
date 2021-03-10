@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre à [Joseph-Fernand Boissard], 15 [mai 1843]</title>
+                <author key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>OBVIL - Centre André Chastel</edition>
+                <respStmt>
+                    <name>Brice Ameille</name>
+                    <resp>Transcription</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Gaëlle Lafage</name>
+                    <resp>Editeur scientifique</resp>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, LABEX OBVIL - Centre André Chastel</publisher>
+                <date when="2019"/>
+                <idno>AC_ED_000001_A</idno>
+                <availability status="restricted">
+                    <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+                        <!--il faut mettre notre propre licence-->
+                        <p>Copyright © 2015 Université Paris-Sorbonne, agissant pour le Laboratoire
+                            d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé
+                            OBVIL).</p>
+                        <p>Cette ressource électronique protégée par le code de la propriété
+                            intellectuelle sur les bases de données (L341-1) est mise à disposition
+                            de la communauté scientifique internationale par l’OBVIL, selon les
+                            termes de la licence Creative Commons : « Attribution - Pas
+                            d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND
+                            3.0 FR) ».</p>
+                        <p>Attribution : afin de référencer la source, toute utilisation ou
+                            publication dérivée de cette ressource électroniques comportera le nom
+                            de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+                        <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté
+                            scientifique, toute utilisation commerciale est interdite.</p>
+                        <p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette
+                            ressource électronique, notamment en intégrant toutes les contributions
+                            extérieures, la diffusion de versions modifiées de cette ressource n’est
+                            pas souhaitable.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d'Eugène Delacroix</title>
+                <title type="sub">Hôtel
+                    Lambert<!--titre sous corpus! ex Correspondance de Delacroix avec Joséphine de Forget--></title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Département des manuscrits</repository>
+                        <idno>NAF 24019, fol. 197 r - 198 v</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure type="page">3</measure>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <accMat type=""> </accMat>
+                        <!--pour les pièces accompagnant la lettre ex : enveloppe-->
+                    </physDesc>
+                    <history>
+                        <provenance>Collection d’autographes du comte Maurice Allard du
+                            Chollet.</provenance>
+                    </history>
+                </msDesc>
+                <listBibl>
+                    <bibl>
+                        <author>Johnson Lee</author>, <title rend="it">Eugène Delacroix. Futher
+                            Correspondence, 1817-1863</title>, <pubPlace>Oxford</pubPlace>,
+                            <publisher>Clarendon Press</publisher>, <date>1991</date>, <biblScope>p.
+                            103</biblScope>. </bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"
+                        ref="https://data.bnf.fr/fr/11899161">Eugène Delacroix</persName>
+                    <date when="1843-05-15" cert="high" resp="editor"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Boissard de Boisdenier, Joseph Fernand(1813-1866)">Joseph Fernand
+                        Boissard</persName>
+                    <placeName key="Paris" ref="https://www.geonames.org/2988507">Paris</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="next" target="http://test"/>
+                    <ref type="prev" target="http://test"/>
+                    <ref type="replyTo" target="http://test"/>
+                    <ref type="repliedBy" target="http://test"/>
+                </correspContext>
+            </correspDesc>
+            <langUsage>
+                <language ident="fre"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb xml:id="AC_ED_000001_A_I1" n="1" facs="URL"/>
+                <opener>
+                    <address>
+                        <addrLine>Monsieur Boissard, peintre, quai d'Anjou n°3, île Saint-Louis
+                                <note type="editor" place="bottom">Il était soucieux, ainsi que
+                                Delacroix, de l’avenir de l’édifice mis en vente et qu’ils pensaient
+                                menacé de démolition. Il écrivit même au ministre de l’Intérieur
+                                afin que l’hôtel fût acheté par l’État, proposant d’en faire la
+                                bibliothèque de la Ville de Paris (<hi rend="it"
+                                >L’Illustration</hi>, t. 1, n° 15, 27 mai 1843, p. 196). Blanche
+                                Penaud-Lambert a retrouvé et publié la lettre que Boissard adressa
+                                au ministre de l’Intérieur, conservé à la Médiathèque de
+                                l’Architecture et du patrimoine (MH 81/075/04/17/1 carton 31)
+                                (Penaud-Lambert, <hi rend="it">Un siècle de restauration à l’hôtel
+                                    Lambert (1843-1949)</hi>, mémoire de Master II sous la direction
+                                d’Alain Mérot, Université Paris IV – Sorbonne, 2006, p.
+                            99).</note></addrLine>
+                    </address>
+                    <pb xml:id="AC_ED_000001_A_I2" n="2" facs="http://tests"/>
+                    <salute>Mon cher <persName
+                            key="Boissard de Boisdenier, Joseph Fernand(1813-1866)"
+                            >Monsieur</persName>,</salute>
+                </opener>
+
+                <p>Votre lettre arrive on ne peut plus à propos. Je comptais aujourd’hui même lundi
+                    aller vous surprendre le matin pour vous demander de vouloir bien me communiquer
+                    les détails en question <note type="editor" place="bottom">Boissard avait écrit
+                        un article sur l’hôtel Lambert pour le faire paraître dans la revue de Léon
+                        Curmer, <hi rend="it">Les Beaux-Arts</hi> (publié en 1843, 12e livraison, p.
+                        192). Comme nous l’apprend <ref type="letter" target="URI">la lettre que
+                            Delacroix adressa le lendemain de celle-ci à Curmer</ref>, le peintre
+                        prévoyait d’accompagner l’article d’une lettre et peut-être également d’une
+                        lithographie. Toutefois, seul l’article de Boissard fut publié.</note>, mais
+                    j’ai été dérangé de bonne heure et à present qu’il est près de midi, je crains
+                    de ne pas vous rencontrer. Mais si vous permettez, j’irai demain matin <hi
+                        rend="u">mardi</hi> vous voir et j’irai de bonne heure pour ne pas trop
+                        <del>vous</del> déranger votre journée.</p>
+                <closer>
+                    <salute>Agréez d’avance mes remerciements pour votre empressement à une cause si
+                        digne d’intérêt et les assurances de mille amitiés et compliments bien
+                        sincères.</salute>
+                    <dateline>Ce lundi 15 <note type="editor" place="bottom">La datation a été
+                            établie par Lee Johnson à partir de <ref type="letter"
+                                target="http://test">la lettre de Delacroix à Curmer du 16 mai
+                                1843</ref> (voir <hi rend="it">Eugène Delacroix. Futher
+                                Correspondence, 1817-1863</hi>, 1991, p. 103, note
+                        1).</note></dateline>
+                    <signed>E Delacroix</signed>
+                </closer>
+
+            </div>
+        </body>
+    </text>
+</TEI>
