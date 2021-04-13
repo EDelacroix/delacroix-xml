@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Pierre-Antoine Labouchère, 11 octobre [1835]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub"/>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Nantes</settlement>
+            <institution>Bibliothèque municipale,</institution>
+            <repository>Fonds Labouchère,</repository>
+            <idno>ms 820/52</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure type="page">3</measure>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, V, p. 166-167</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1835-10-11"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Labouchère, Pierre-Antoine (1807-1873)"/>
+          <placeName key="Paris, 7 rue de La Rochefoucauld"/>
+          <placeName/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <opener>
+        <pb n="p.1"
+          facs="https://api.nakala.fr/iiif/10.34847/nkl.3c0316s8/8e148e14dbad139cdb6a92904428c8854a90b6e0/full/full/0/default.jpg"/>
+        <address>
+          <persName key="Labouchère, Pierre-Antoine (1807-1873)">Monsieur de Labouchère</persName>
+          <note place="bottom">Pierre-Antoine Labouchère, issu d’une famille de banquiers, fit des
+            études et commença sa carrière dans le domaine du commerce, avant de devenir peintre et
+            collectionneur. Il se forma auprès de Paul Delaroche avec lequel il resta ami sa vie
+            durant. Il était également ami avec la famille Vernet, d’autant qu’à partir de 1835 les
+            deux familles étaient liées : la fille d’Horace Vernet, Louise, ayant épousé Paul
+            Delaroche.</note>
+          <addrLine><placeName key="Paris, 7 rue de La Rochefoucauld">rue de la Rochefoucauld,
+              n°7</placeName></addrLine>
+        </address>
+        <pb n="p.2"
+          facs="https://api.nakala.fr/iiif/10.34847/nkl.3c0316s8/7ced266e6de33f8db6cac474bf84781410b78464/full/full/0/default.jpg"/>
+        <salute><persName key="Labouchère, Pierre-Antoine (1807-1873)">Monsieur</persName>,</salute>
+      </opener>
+      <p>Le tableau<note place="bottom">Cette lettre, annotée par son destinataire au crayon permet
+          d’avoir des informations sur le tableau dont il est question (voir la note de Labouchère
+          ci-après). Il s’agit d’une copie par Géricault de la grande esquisse du baron Gros pour<hi
+            rend="it">La Bataille de Nazareth.</hi>Cette copie, conservée au musée Calvet à Avignon,
+          se trouvait dans l’atelier d’Horace Vernet au 15, quai Voltaire. Après le départ de
+          Vernet, qui avait été nommé directeur de l’Académie de France à Rome en 1828, Delacroix
+          reprit l’atelier qu’il occupait. Le 7 décembre 1828, Delacroix délivra à Vernet <ref
+            target="../CAC_ED_inha-ms242-004">un reçu pour garder ce tableau pendant son
+            absence</ref>.</note> que vous avez fait demander hier chez moi est maintenant chez
+          <persName key="Auguste, Jules Robert (1789-1850)">M. Auguste</persName><note
+          place="bottom">Jules Robert Auguste, peintre et sculpteur, était un proche de
+          Delacroix.</note>, l’un des amis d’<persName key="Vernet, Horace (1789-1863)"
+          >Horace</persName> auquel il a été prêté depuis plusieurs mois. <persName
+          key="Pujol, Louise (1789-1858)">Mme Vernet</persName> aura ignoré cette circonstance. Je
+        lui écris pour lui en faire part.</p>
+      <closer>
+        <salute>Je regrette beaucoup, <persName key="Labouchère, Pierre-Antoine (1807-1873)"
+            >Monsieur</persName>, la contrariété que cet incident peut vous causer, et vous prie de
+          recevoir l’assurance de ma considération très distinguée.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName></signed>
+        <dateline><date when="1835-10-11">Ce 11 octobre</date><note place="bottom">La lettre datée
+            de 1835 au crayon par son destinataire, Pierre-Antoine Labouchère, a été publiée par
+            Joubin avec la même datation. En l’absence d’autre indication, nous reprenons cette date
+            qui semble cohérente, car elle correspond également au retour de Vernet en France,
+            Ingres lui ayant succédé au poste de directeur de l’Académie de France à Rome.
+          </note>.</dateline>
+      </closer>
+      <pb n="p.3"
+        facs="https://api.nakala.fr/iiif/10.34847/nkl.3c0316s8/8acd8f24236cbd89cdd569a04b98d9e44f9756a6/full/full/0/default.jpg"/>
+      <add><hi rend="it">(annotation au crayon de Pierre-Antoine Labouchère)</hi>
+        <p>C’était la copie, faite par <persName key="Géricault, Théodore (1791-1824)"
+            >Géricault</persName>, de l’esquisse de <persName key="Gros, Antoine Jean (1771-1835)"
+            >Gros</persName> pour le tableau que lui avait commandé Junot du <hi rend="it">Combat de
+              <hi rend="underline">Nazareth</hi></hi><note place="bottom">Le tableau représente le
+            général Jean-Andoche Junot mettant en déroute l’armée turque lors de la campagne
+            d’Egypte en 1799. Gros remporta le concours lancé en 1801, mais la commande initiale fut
+            annulée, certainement pour les raisons indiquée plus loin par Labouchère.<ref
+              target="https://www.photo.rmn.fr/CS.aspx?VP3=SearchResult&amp;VBID=2CO5PCZIIA7YR&amp;SMLS=1&amp;RW=1366&amp;RH=632"
+              >Le modèle peint par Gros</ref>, de dimensions réduites par rapport à la commande
+            initiale, se trouve aujourd’hui au musée des beaux-arts de Nantes.</note>. <persName
+            key="Gros, Antoine Jean (1771-1835)">M. Gros</persName> m’a dit que cette composit[ion]
+          était déjà tracée par lui. « Comme je savais alors dessiner », ajouta-t-il, sur une toile
+          si grande qu’« elle m’a servi ensuite à peindre <hi rend="underline">Les Pestiférés de
+            Jaffa</hi> et <hi rend="underline">Eylau</hi><note place="bottom"><ref
+              target="https://collections.louvre.fr/ark:/53355/cl010062570"><hi rend="it">Bonaparte
+                visitant les pestiférés de Jaffa</hi></ref>, 1804, huile sur toile, 532 x 720 cm,
+            Paris, Musée du Louvre et <ref
+              target="https://collections.louvre.fr/ark:/53355/cl010066486"><hi rend="it">Napoléon
+                sur le champ de bataille d’Eylau, le 9 février 1807</hi></ref>, 1808, huile sur
+            toile, 521 x 784 cm, Paris, Musée du Louvre. Si l’indication de Labouchère est vraie,
+            cela signifie que Gros avait esquissé son tableau du <hi rend="it">Combat de
+              Nazareth</hi> sur une toile de 15 mètres de long.</note>. «<persName
+            key="Bonaparte, Napoléon (1769-1821">Bonaparte</persName>, qui n’aimait pas, me dit
+            <persName key="Gros, Antoine Jean (1771-1835)">M. Gros</persName> en 1835, que ses
+          lieutenants fissent faire de grands tableaux <hi rend="underline">où il ne figurait
+            pas</hi>, ne permit pas l’exécution de ce tableau qui eut été l’un de mes
+          meilleurs ».</p>
+        <p><persName key="Labouchère, Pierre-Antoine (1807-1873)">P[ierre] A[ntoine]
+            L[abouchère]</persName></p></add>
+    </body>
+  </text>
+</TEI>
