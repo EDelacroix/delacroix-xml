@@ -45,9 +45,7 @@
                                 </extent>
                             </supportDesc>
                         </objectDesc>
-
                     </physDesc>
-
                 </msDesc>
                 <listBibl>
                     <bibl/>
@@ -59,7 +57,7 @@
                 <correspAction type="sent">
                     <persName key="Delacroix, Eugène (1798-1863)"/>
                     <date when="1857-04-12"/>
-                    <placeName key="Paris, 58 rue Notre-Dame-de-Lorette"/>
+                    <placeName key="Paris, rue Notre-Dame-de-Lorette, 58"/>
                 </correspAction>
                 <correspAction type="received">
                     <persName key="Barye, Antoine Louis (1795-1875)"/>
@@ -105,7 +103,7 @@
                 <salute>Recevez mille amitiés bien sincères.</salute>
                 <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
                 <address>
-                    <addrLine><placeName key="Paris, 58 rue Notre-Dame-de-Lorette">Rue
+                    <addrLine><placeName key="Paris, rue Notre-Dame-de-Lorette, 58">Rue
                             Notre-Dame-de-Lorette 58</placeName>.</addrLine>
                 </address>
             </closer>

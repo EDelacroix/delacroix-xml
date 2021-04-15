@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Jules Robert Auguste, 2 [août] 1827</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription et annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub"/>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>Pays-Bas</country>
+            <settlement>Amsterdam</settlement>
+            <institution>Bibliothèque de l’Université</institution>
+
+            <idno>OTM hs. 43 Bt 1</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure type="page">3</measure>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Saunier, <hi rend="it">Gazette des Beaux-Arts</hi>, 1910, II, p. 57 </bibl>
+          <bibl>Joubin, I, p. 191-192</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1827-08-02"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Auguste, Jules Robert (1789-1850)"/>
+          <placeName key="Paris, rue des Martyrs, 11"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <pb n="p.1"
+          facs="https://api.nakala.fr/iiif/10.34847/nkl.ce06a219/c5983c9fab3bf2904fddb2180e9296ab236ad218/full/full/0/default.jpg"/>
+        <address>
+          <addrLine><persName key="Auguste, Jules Robert (1789-1850)">Monsieur
+              Auguste</persName><note place="bottom">Jules Robert Auguste, peintre, sculpteur et ami
+              de Delacroix.</note>, <placeName key="Paris, rue des Martyrs, 11">rue des Martyrs n°
+              11</placeName>.</addrLine>
+        </address>
+        <salute><persName key="Auguste, Jules Robert (1789-1850)">Monsieur</persName>,</salute>
+      </opener>
+
+
+      <p><pb n="p.2"
+          facs="https://api.nakala.fr/iiif/10.34847/nkl.ce06a219/ab47bbad6552ca5524be4be157a97740b9e55a17/full/full/0/default.jpg"
+          /><persName key="Champmartin, Charles-Emile (1797-1883)">M. Champmartin</persName> vient
+        d’arriver et se propose d’aller vous voir<note place="bottom">Charles-Emile Callande de
+          Champmartin était un peintre avec lequel Delacroix se lia d’amitié durant leur passage
+          dans l’atelier de Guérin. Il venait de rentrer d’un voyage en Orient, qui l’avait
+          notamment conduit à Constantinople et en Terre sainte, d’où il rapporta des milliers de
+          dessins qu’il exposa et dont il se servit pour des peintures présentées au Salon. Une
+          lettre annonçant son retour et décrivant son voyage a été publiée dans la <hi rend="it"
+            >Gazette universelle de Lyon. Courrier du Midi</hi>, n° 526 du jeudi 2 août 1827, ce qui
+          nous a permis de dater précisément la lettre de Delacroix.</note>. Il revient avec une
+        immensité de renseignements. Comme <persName key="Mérimée, Prosper (1803-1870)">M. Prosper
+          Mérimée</persName> m’avait souvent manifesté le désir de l’entendre causer à son arrivée,
+        attendu que l’impression en sera toute fraîche, est-il indiscret à moi de vous prier de
+        l’inviter par un mot, parce que je ne l’ai pas averti que vos soirées avaient lieu
+          régulièrement<note place="bottom">Auguste tenait un salon artistique et littéraire où se
+          rendaitDelacroix.</note>.</p>
+
+
+      <closer>
+        <salute>Veuillez agréer, avec mes<pb n="p.3"
+            facs="https://api.nakala.fr/iiif/10.34847/nkl.ce06a219/1c8a8701c6c40aa63bc0d15ad2595a7d2eb9dec9/full/full/0/default.jpg"
+          /> excuses pour la liberté que je prends, l’assurance de ma considération la plus
+          distinguée.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName></signed>
+        <dateLine><date when="1827-08-02">Ce jeudi matin</date>.</dateLine>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
