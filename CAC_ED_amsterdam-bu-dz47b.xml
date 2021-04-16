@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Adolphe Mouilleron, 13 mai [1845]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub"/>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>Pays-Bas</country>
+            <settlement>Pays-Bas</settlement>
+            <institution>Bibliothèque de l’Université</institution>
+
+            <idno>OTM hs. Dz 47 b</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure type="page">2</measure>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl><emph>Nouvelles lettres</emph>, p. 55-56</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1845-05-13"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Mouilleron, Adolphe (1820-1881)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+      <pb n="1"
+        facs="https://api.nakala.fr/iiif/10.34847/nkl.f3bb255m/8a916ed52fbd0aaaf46b921e886492cf81e4ed61/full/full/0/default.jpg"/>
+      <opener>
+        <salute><persName key="Mouilleron, Adolphe (1820-1881)">Mon cher Monsieur</persName><note
+            place="bottom">La teneur de cette lettre permet d’en connaître le destinataire, le
+            lithographe Adolphe Mouilleron, très apprécié de Delacroix.</note>,</salute>
+      </opener>
+
+
+      <p>La personne qui a conduit à Paris les Indiens que l’on voit actuellement à la <placeName
+          key="Paris, salle Valentino">salle Valentino</placeName><note place="bottom">Des Indiens
+          Iowais, arrivés à Paris en 1845, se produisaient à la salle Valentino, suscitant un fort
+          engouement de la part du public parisien (<hi rend="it">Nouvelles lettres</hi>,p. 55).
+          Cette précision permet de dater la lettre.</note> m’a chargé de trouver une personne de
+        talent pour lithographier un daguerréotype fait d’après un groupe de ces sauvages. J’ai
+        pensé que personne n’était plus propre que vous à le bien faire. Vous feriez de cela une
+        chose tout à fait intéressante. Dites-moi promptement si vous pourriez vous en charger pour
+        que je lui réponde, ou si à votre défaut vous connaîtriez quelqu’un qui voulut
+        l’entreprendre.</p>
+      <p>Je voudrais bien aussi que vous me montriez la lithographie que vous avez faite d’après <rs
+          type="work">le tableau</rs> appartenant à <persName key="Dumas, Alexandre (1802-1870)"
+          >Dumas</persName><note place="bottom">Il s’agit de son tableau <hi rend="it">Le Tasse en
+            prison</hi>(J106) exécuté en 1824 et acquis par Alexandre Dumas. Delacroix y fait
+          allusion dans <ref target="CAC_ED_joubin-1938-2-p239">une autre lettre adressée à
+            Mouilleron</ref> en date du 1<hi rend="sup">er</hi>octobre 1845 : « Vous m’aviez fait
+          espérer quelques épreuves de la lithographie que vous avez faite du <hi rend="it">Tasse en
+            prison</hi>. J’y tiens d’autant plus que c’est une de mes plus réussies que vous ayez
+          faites. »</note>. Je vois bien que mon changement de quartier nous éloigne beaucoup plus
+        que <pb n="p.2"
+          facs="https://api.nakala.fr/iiif/10.34847/nkl.f3bb255m/de69585e3202735d3c50ed3e8fde45f7eb1f8426/full/full/0/default.jpg"
+        />je ne voudrais<note place="bottom">Delacroix avait emménagé rue Notre-Dame-de-Lorette en
+          octobre 1844. Avant cette date, il vivait au 17, rue des Marais Saint-Germain.</note>.</p>
+
+
+      <closer>
+        <salute>Recevez en attendant mille amitiés bien sincères.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName>.</signed>
+        <dateline>ce <date when="1845-05-13">13 mai</date>.</dateline>
+        <address>
+          <addrLine><placeName key="Paris, rue Notre-Dame-de-Lorette, 54">rue Notre-Dame de Lorette,
+              54</placeName>.</addrLine>
+          <addrLine>le matin <placeName key="Paris, rue de la Rochefoucauld, 29">rue de La
+              Rochefoucauld, 29</placeName></addrLine>
+        </address>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
