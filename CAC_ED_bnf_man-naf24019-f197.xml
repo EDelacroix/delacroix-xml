@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
-<?xml-stylesheet type="text/css" href="theme/author-tei.css"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
     <teiHeader>
         <fileDesc>

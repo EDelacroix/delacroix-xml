@@ -1,0 +1,11 @@
+/* 
+@import "https://oeuvres.github.io/teinte/author-tei.css";
+ */
+
+persName:after,
+placeName:after,
+note {
+  display: none;
+}
+
+
