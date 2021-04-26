@@ -1,108 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
 <?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
 <?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Lettre d’Eugène Delacroix à Antoine-Louis Barye, [20 juin 1829]</title>
-                <author key="Delacroix, Eugène (1798-1863)"/>
-            </titleStmt>
-            <editionStmt>
-                <edition>OCentre André Chastel — ObTiC</edition>
-                <respStmt>
-                    <resp>Transcription, annotation et balisage</resp>
-                    <name>Gaëlle Lafage</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Corrections</resp>
-                    <name>Catherine Gros</name>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Sorbonne Université, Centre André Chastel</publisher>
-                <date when="2021"/>
-                <availability status="restricted">
-                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
-                </availability>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="main">Correspondance d'Eugène Delacroix</title>
-                <title type="sub"/>
-            </seriesStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <country>France</country>
-                        <settlement>Paris</settlement>
-                        <institution>Bibliothèque de l'Institut national d'histoire de
-                            l'art</institution>
-                        <idno>Archives 166, 2, 34, 10</idno>
-                    </msIdentifier>
-                    <physDesc>
-                        <objectDesc form="letter">
-                            <supportDesc>
-                                <extent>
-                                    <measure type="page">2</measure>
-                                </extent>
-                            </supportDesc>
-                        </objectDesc>
-                    </physDesc>
-                </msDesc>
-                <listBibl>
-                    <bibl>Joubin, I, p. 225.</bibl>
-                </listBibl>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Delacroix, Eugène (1798-1863)"/>
-                    <date when="1829-06-20"/>
-                </correspAction>
-                <correspAction type="received">
-                    <persName key="Barye, Antoine Louis (1795-1875)"/>
-                    <placeName key="Paris, passage Sainte-Marie"/>
-                </correspAction>
-
-            </correspDesc>
-            <langUsage>
-                <language ident="fr"/>
-            </langUsage>
-        </profileDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <pb n="p.1"
-                facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/2a/a4/3b/f4/2aa43bf4-49cf-4e4f-9f85-5ed99885b8f9/iiif/1101_doucet_ARCHIVES166_2_34_001-020_000001.tif/full/full/0/default.jpg"/>
-            <opener>
-                <address>
-                    <addrLine><persName key="Barye, Antoine Louis (1795-1875)">Monsieur
-                            Barye</persName>
-                        <placeName key="Paris, passage Sainte-Marie">Passage
-                            Sainte-Marie</placeName></addrLine>
-                </address></opener>
-            <pb n="p.2"
-                facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/2a/a4/3b/f4/2aa43bf4-49cf-4e4f-9f85-5ed99885b8f9/iiif/1101_doucet_ARCHIVES166_2_34_001-020_000002.tif/full/full/0/default.jpg"/>
-            <p>Le lion est mort.<note type="editor" place="bottom">Ce billet, publié par Joubin (I,
-                    p. 225), a été rapproché des études de lion effectuées par Barye et Delacroix au
-                    Muséum d’histoire naturelle après la mort de l’un des spécimens (voir notamment
-                    : Laugée Thierry, « La ménagerie d'Eugène Delacroix. Études d'un jeune peintre
-                    rugissant », <hi rend="it">Bulletin de la Société des amis du musée Eugène
-                        Delacroix</hi>, n°11-2013, 2014, p. 28-51). Deux lions, l’un mort le 19 juin
-                    1829 et l’autre entre 1837 et 1838, furent l’objet d’étude des deux camarades.
-                    Toutefois, cette lettre ne peut avoir été adressée à Barye après 1832, date à
-                    laquelle il quitta le passage Sainte-Marie. Elle fut donc certainement écrite en
-                    1829, le lendemain de la mort du lion Coco, qui avait été offert l’année
-                    précédente au Muséum par le comte de Rigny.</note> Au galop. Le temps qu’il fait
-                doit nous activer. Je vous y attends. </p>
-            <closer>
-                <salute>Mille amitiés,</salute>
-                <dateline>Ce samedi.</dateline>
-                <signed><persName key="Delacroix, Eugène (1798-1863)">E
-                    Delacroix</persName></signed>
-            </closer>
-        </body>
-    </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Antoine-Louis Barye, [20 juin 1829]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>OCentre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription, annotation et balisage</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub"/>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l'Institut national d'histoire de l'art</institution>
+            <idno>Archives 166, 2, 34, 10</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="2" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, I, p. 225.</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1829-06-20"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Barye, Antoine Louis (1795-1875)"/>
+          <placeName key="Paris, passage Sainte-Marie"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="p.1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/2a/a4/3b/f4/2aa43bf4-49cf-4e4f-9f85-5ed99885b8f9/iiif/1101_doucet_ARCHIVES166_2_34_001-020_000001.tif/full/full/0/default.jpg"/>
+      <opener>
+        <address>
+          <addrLine><persName key="Barye, Antoine Louis (1795-1875)">Monsieur Barye</persName>
+            <placeName key="Paris, passage Sainte-Marie">Passage Sainte-Marie</placeName></addrLine>
+        </address></opener>
+      <pb n="p.2" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/2a/a4/3b/f4/2aa43bf4-49cf-4e4f-9f85-5ed99885b8f9/iiif/1101_doucet_ARCHIVES166_2_34_001-020_000002.tif/full/full/0/default.jpg"/>
+      <p>Le lion est mort.<note resp="editor" place="bottom">Ce billet, publié par Joubin (I, p. 225), a été rapproché des études de lion effectuées par Barye et Delacroix au Muséum d’histoire naturelle après la mort de l’un des spécimens (voir notamment : Laugée Thierry, « La ménagerie d'Eugène Delacroix. Études d'un jeune peintre rugissant », <hi rend="it">Bulletin de la Société des amis du musée Eugène Delacroix</hi>, n°11-2013, 2014, p. 28-51). Deux lions, l’un mort le 19 juin 1829 et l’autre entre 1837 et 1838, furent l’objet d’étude des deux camarades. Toutefois, cette lettre ne peut avoir été adressée à Barye après 1832, date à laquelle il quitta le passage Sainte-Marie. Elle fut donc certainement écrite en 1829, le lendemain de la mort du lion Coco, qui avait été offert l’année précédente au Muséum par le comte de Rigny.</note> Au galop. Le temps qu’il fait doit nous activer. Je vous y attends. </p>
+      <closer>
+        <salute>Mille amitiés,</salute>
+        <dateline>Ce samedi.</dateline>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">E Delacroix</persName></signed>
+      </closer>
+    </body>
+  </text>
 </TEI>

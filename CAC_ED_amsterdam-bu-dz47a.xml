@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
 <?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
 <?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
@@ -34,7 +35,6 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Correspondance d'Eugène Delacroix</title>
-        <title type="sub"/>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -48,7 +48,7 @@
             <objectDesc form="letter">
               <supportDesc>
                 <extent>
-                  <measure type="page">2</measure>
+                  <measure quantity="2" unit="page"/>
                 </extent>
               </supportDesc>
             </objectDesc>

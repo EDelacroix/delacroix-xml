@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
 <?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
 <?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
@@ -50,7 +51,7 @@
             <objectDesc form="letter">
               <supportDesc>
                 <extent>
-                  <measure type="page">3</measure>
+                  <measure unit="page" quantity="3"/>
                 </extent>
               </supportDesc>
             </objectDesc>

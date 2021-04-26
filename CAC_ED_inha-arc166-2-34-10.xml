@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
 <?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
 <?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
@@ -43,7 +44,7 @@
             <objectDesc form="letter">
               <supportDesc>
                 <extent>
-                  <measure type="page">1</measure>
+                  <measure unit="page" quantity="1"/>
                 </extent>
               </supportDesc>
             </objectDesc>
@@ -74,9 +75,9 @@
     <body>
       <pb n="p.1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/2a/a4/3b/f4/2aa43bf4-49cf-4e4f-9f85-5ed99885b8f9/iiif/1101_doucet_ARCHIVES166_2_34_001-020_000019.tif/full/full/0/default.jpg "/>
       <opener>
-        <dateline>Ce <date when="1857-04-12">dimanche 12</date><note type="editor" place="bottom">Delacroix évoquant dans sa lettre un projet pour Félix Solar, il est possible de proposer la date du 12 avril 1857 pour son écriture. En effet, Delacroix nota dans son journal au 17 mai 1857 : « J’ai été à Paris pour me trouver avec Solar, Barye et l’architecte » (Hannoosh, 2009 ; p. 1153). Le douzième jour du mois d’avril tomba bien un dimanche cette année-là.</note></dateline>
+        <dateline>Ce <date when="1857-04-12">dimanche 12</date><note resp="editor" place="bottom">Delacroix évoquant dans sa lettre un projet pour Félix Solar, il est possible de proposer la date du 12 avril 1857 pour son écriture. En effet, Delacroix nota dans son journal au 17 mai 1857 : « J’ai été à Paris pour me trouver avec Solar, Barye et l’architecte » (Hannoosh, 2009 ; p. 1153). Le douzième jour du mois d’avril tomba bien un dimanche cette année-là.</note></dateline>
         <salute>Mon <persName key="Barye, Antoine Louis (1795-1875)">cher Barye</persName>,</salute></opener>
-      <p>Je reçois le plan que <persName key="Solar, Félix (1815-1870)">M. Solar</persName> m’envoie comme à vous. Je désirerais bien que nous pussions nous réunir tous deux pour en causer avant de le voir ainsi que l’architecte, c’est au reste ce que je lui ai écrit.<note type="editor" place="bottom"><ref type="letter" target="#CAC_ED_inha-arc166-2-34-11">Une autre lettre contemporaine</ref> donne quelques détails sur ce projet qui concernait le décor de la bibliothèque de Solar. Ce bibliophile, homme d’affaires et journaliste avait réuni une belle collection et souhaitait certainement demander à Delacroix et Barye de faire le décor du lieu qui l’abriterait.</note></p>
+      <p>Je reçois le plan que <persName key="Solar, Félix (1815-1870)">M. Solar</persName> m’envoie comme à vous. Je désirerais bien que nous pussions nous réunir tous deux pour en causer avant de le voir ainsi que l’architecte, c’est au reste ce que je lui ai écrit.<note resp="editor" place="bottom"><ref type="letter" target="#CAC_ED_inha-arc166-2-34-11">Une autre lettre contemporaine</ref> donne quelques détails sur ce projet qui concernait le décor de la bibliothèque de Solar. Ce bibliophile, homme d’affaires et journaliste avait réuni une belle collection et souhaitait certainement demander à Delacroix et Barye de faire le décor du lieu qui l’abriterait.</note></p>
       <p>Comme c’est la seule chose qui m’empêche de partir pour la campagne, dont j’ai un grand besoin, si vous pouviez m’indiquer un jour très prochain, j’irai vous trouver où vous viendriez chez moi, à votre choix. Voulez-vous après demain <hi rend="underline">mardi</hi> ? Dans ce cas, écrivez-le moi ainsi que l’heure et le lieu de notre réunion. Nous donnerions ensuite avis à <persName key="Solar, Félix (1815-1870)">M. Solar</persName> pour nous entendre définitivement. </p>
       <closer>
         <salute>Recevez mille amitiés bien sincères.</salute>

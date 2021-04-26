@@ -1,138 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
 <?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
 <?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Lettre d’Eugène Delacroix à [Joseph-Fernand Boissard], 15 [mai 1843]</title>
-                <author key="Delacroix, Eugène (1798-1863)"/>
-            </titleStmt>
-            <editionStmt>
-                <edition>Centre André Chastel — ObTiC</edition>
-                <respStmt>
-                    <resp>Transcription</resp>
-                    <name>Brice Ameille</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Annotation, balisage et corrections</resp>
-                    <name>Gaëlle Lafage</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Corrections</resp>
-                    <name>Catherine Gros</name>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Sorbonne Université, Centre André Chastel</publisher>
-                <date when="2021"/>
-                <availability status="restricted">
-                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
-                </availability>
-            </publicationStmt>
-            <seriesStmt>
-                <title type="main">Correspondance d'Eugène Delacroix</title>
-                <title type="sub">Hôtel Lambert</title>
-            </seriesStmt>
-            <sourceDesc>
-                <msDesc>
-                    <msIdentifier>
-                        <country>France</country>
-                        <settlement>Paris</settlement>
-                        <institution>Bibliothèque nationale de France</institution>
-                        <repository>Département des manuscrits</repository>
-                        <idno>NAF 24019, fol. 197 r - 198 v</idno>
-                    </msIdentifier>
-                    <physDesc>
-                        <objectDesc form="letter">
-                            <supportDesc>
-                                <extent>
-                                    <measure type="page">3</measure>
-                                </extent>
-                            </supportDesc>
-                        </objectDesc>
-
-                    </physDesc>
-                    <history>
-                        <provenance>Collection d’autographes du comte Maurice Allard du
-                            Chollet.</provenance>
-                    </history>
-                </msDesc>
-                <listBibl>
-                    <bibl>
-                        <hi rend="it">Further Correspondence</hi>, p. 103.</bibl>
-                </listBibl>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <correspDesc>
-                <correspAction type="sent">
-                    <persName key="Delacroix, Eugène (1798-1863)"/>
-                    <date when="1843-05-15"/>
-                </correspAction>
-                <correspAction type="received">
-                    <persName key="Boissard de Boisdenier, Joseph Fernand (1813-1866)"/>
-                    <placeName key="Paris, quai d'Anjou, 3"/>
-                </correspAction>
-            </correspDesc>
-            <langUsage>
-                <language ident="fr"/>
-            </langUsage>
-        </profileDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <pb n="p.1" facs="URL"/>
-            <opener>
-                <address>
-                    <addrLine><persName key="Boissard de Boisdenier, Joseph Fernand (1813-1866)"
-                            >Monsieur Boissard</persName>, peintre, <placeName
-                            key="Paris, quai d'Anjou, 3">quai d'Anjou n°3, île
-                            Saint-Louis</placeName>
-                        <note type="editor" place="bottom">Il était soucieux, ainsi que Delacroix,
-                            de l’avenir de l’édifice mis en vente et qu’ils pensaient menacé de
-                            démolition. Il écrivit même au ministre de l’Intérieur afin que l’hôtel
-                            fût acheté par l’État, proposant d’en faire la bibliothèque de la Ville
-                            de Paris (<hi rend="it">L’Illustration</hi>, t. 1, n° 15, 27 mai 1843,
-                            p. 196). Blanche Penaud-Lambert a retrouvé et publié la lettre que
-                            Boissard adressa au ministre de l’Intérieur, conservé à la Médiathèque
-                            de l’Architecture et du patrimoine (MH 81/075/04/17/1 carton 31)
-                            (Penaud-Lambert, <hi rend="it">Un siècle de restauration à l’hôtel
-                                Lambert (1843-1949)</hi>, mémoire de Master II sous la direction
-                            d’Alain Mérot, Université Paris IV – Sorbonne, 2006, p.
-                        99).</note></addrLine>
-                </address>
-                <pb n="p.2" facs="URL"/>
-                <salute>Mon cher <persName key="Boissard de Boisdenier, Joseph Fernand (1813-1866)"
-                        >Monsieur</persName>,</salute>
-            </opener>
-
-            <p>Votre lettre arrive on ne peut plus à propos. Je comptais aujourd’hui même lundi
-                aller vous surprendre le matin pour vous demander de vouloir bien me communiquer les
-                détails en question <note type="editor" place="bottom">Boissard avait écrit un
-                    article sur l’hôtel Lambert pour le faire paraître dans la revue de Léon Curmer,
-                        <hi rend="it">Les Beaux-Arts</hi> (publié en 1843, 12e livraison, p. 192).
-                    Comme nous l’apprend <ref target="CAC_ED_inha-aut098-17-05-01">la lettre que
-                        Delacroix adressa le lendemain de celle-ci à Curmer</ref>, le peintre
-                    prévoyait d’accompagner l’article d’une lettre et peut-être également d’une
-                    lithographie. Toutefois, seul l’article de Boissard fut publié.</note>, mais
-                j’ai été dérangé de bonne heure et à present qu’il est près de midi, je crains de ne
-                pas vous rencontrer. Mais si vous permettez, j’irai demain matin <hi
-                    rend="underline">mardi</hi> vous voir et j’irai de bonne heure pour ne pas trop
-                    <del>vous</del> déranger votre journée.</p>
-            <closer>
-                <salute>Agréez d’avance mes remerciements pour votre empressement à une cause si
-                    digne d’intérêt et les assurances de mille amitiés et compliments bien
-                    sincères.</salute>
-                <dateline><date when="1843-05-15">Ce lundi 15</date>
-                    <note type="editor" place="bottom">La datation a été établie par Lee Johnson à
-                        partir de <ref target="CAC_ED_inha-aut098-17-05-01">la lettre de Delacroix à
-                            Curmer du 16 mai 1843</ref> (voir <hi rend="it">Further
-                            Correspondence</hi> p. 103, note 1).</note></dateline>
-                <signed><persName key="Delacroix, Eugène (1798-1863)">E
-                    Delacroix</persName></signed>
-            </closer>
-        </body>
-    </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à [Joseph-Fernand Boissard], 15 [mai 1843]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation, balisage et corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Hôtel Lambert</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque nationale de France</institution>
+            <repository>Département des manuscrits</repository>
+            <idno>NAF 24019, fol. 197 r - 198 v</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="3" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <provenance>Collection d’autographes du comte Maurice Allard du Chollet.</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>
+            <hi rend="it">Further Correspondence</hi>, p. 103.</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1843-05-15"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Boissard de Boisdenier, Joseph Fernand (1813-1866)"/>
+          <placeName key="Paris, quai d'Anjou, 3"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="p.1" facs="URL"/>
+      <opener>
+        <address>
+          <addrLine><persName key="Boissard de Boisdenier, Joseph Fernand (1813-1866)">Monsieur Boissard</persName>, peintre, <placeName key="Paris, quai d'Anjou, 3">quai d'Anjou n°3, île Saint-Louis</placeName>
+            <note resp="editor" place="bottom">Il était soucieux, ainsi que Delacroix, de l’avenir de l’édifice mis en vente et qu’ils pensaient menacé de démolition. Il écrivit même au ministre de l’Intérieur afin que l’hôtel fût acheté par l’État, proposant d’en faire la bibliothèque de la Ville de Paris (<hi rend="it">L’Illustration</hi>, t. 1, n° 15, 27 mai 1843, p. 196). Blanche Penaud-Lambert a retrouvé et publié la lettre que Boissard adressa au ministre de l’Intérieur, conservé à la Médiathèque de l’Architecture et du patrimoine (MH 81/075/04/17/1 carton 31) (Penaud-Lambert, <hi rend="it">Un siècle de restauration à l’hôtel Lambert (1843-1949)</hi>, mémoire de Master II sous la direction d’Alain Mérot, Université Paris IV – Sorbonne, 2006, p. 99).</note></addrLine>
+        </address>
+        <pb n="p.2" facs="URL"/>
+        <salute>Mon cher <persName key="Boissard de Boisdenier, Joseph Fernand (1813-1866)">Monsieur</persName>,</salute>
+      </opener>
+      <p>Votre lettre arrive on ne peut plus à propos. Je comptais aujourd’hui même lundi aller vous surprendre le matin pour vous demander de vouloir bien me communiquer les détails en question <note resp="editor" place="bottom">Boissard avait écrit un article sur l’hôtel Lambert pour le faire paraître dans la revue de Léon Curmer, <hi rend="it">Les Beaux-Arts</hi> (publié en 1843, 12e livraison, p. 192). Comme nous l’apprend <ref target="CAC_ED_inha-aut098-17-05-01">la lettre que Delacroix adressa le lendemain de celle-ci à Curmer</ref>, le peintre prévoyait d’accompagner l’article d’une lettre et peut-être également d’une lithographie. Toutefois, seul l’article de Boissard fut publié.</note>, mais j’ai été dérangé de bonne heure et à present qu’il est près de midi, je crains de ne pas vous rencontrer. Mais si vous permettez, j’irai demain matin <hi rend="underline">mardi</hi> vous voir et j’irai de bonne heure pour ne pas trop <del>vous</del> déranger votre journée.</p>
+      <closer>
+        <salute>Agréez d’avance mes remerciements pour votre empressement à une cause si digne d’intérêt et les assurances de mille amitiés et compliments bien sincères.</salute>
+        <dateline><date when="1843-05-15">Ce lundi 15</date>
+          <note resp="editor" place="bottom">La datation a été établie par Lee Johnson à partir de <ref target="CAC_ED_inha-aut098-17-05-01">la lettre de Delacroix à Curmer du 16 mai 1843</ref> (voir <hi rend="it">Further Correspondence</hi> p. 103, note 1).</note></dateline>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">E Delacroix</persName></signed>
+      </closer>
+    </body>
+  </text>
 </TEI>
