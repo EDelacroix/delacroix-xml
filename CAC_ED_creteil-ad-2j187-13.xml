@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription et annontation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Créteil</settlement>
+            <institution>Archives départementales du Val-de-Marne</institution>
+
+            <idno>2 J 187, pièce 13</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="3"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+      <p><pb n="p.1"
+          facs="https://api.nakala.fr/iiif/10.34847/nkl.e0fa9k1w/3a2aea7f372770eab1b29c95f7fcad00be1636e1/full/full/0/default.jpg"
+        /> Je regrette vivement, <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName>,
+        que vous ne m’ayez pas écrit mercredi que vous étiez engagé pour aujourd’hui : moi-même j’ai
+        disposé mes soirées pour plusieurs jours, comptant vous voir ce soir.</p>
+      <p>Demain samedi, j’ai invité la belle-sœur d’<persName
+          key="Querelles, Hortense de (1812-1851)">Hortense</persName>,
+        pour aller le soir au spectacle. Dimanche, je compte aller chez Mme de Crepieux<note
+          place="bottom"> Il s’agit peut-être d’une parente de Philippe Louis Joseph Crépieux,
+          (1787-1849), capitaine aide de camp dans les armées napoléoniennes, chevalier de la Légion
+          d’Honneur en 1813.</note>, et lundi, je dîne chez les Beauharnais<note place="bottom">La
+          famille de Joséphine de Forget du côté de sa mère, née Émilie de Beauharnais. En revanche,
+          il est impossible de savoir de qui il s’agit dans la famille.</note>. Si vous êtes libre
+        mardi prochain, venez dîner avec nous : cela fera neuf jours sans se voir, il est cruel
+        d’être ainsi privé du bonheur de se voir souvent, lorsqu’on habite la même ville… mais que
+        voulez-vous ? La vie est ainsi faite, il faut la subir comme elle est ; quant à moi, j’en
+          <pb n="p.2"
+          facs="https://api.nakala.fr/iiif/10.34847/nkl.e0fa9k1w/914ebb5238ba17f638f0528cdf943d96b19bad02/full/full/0/default.jpg"
+        /> suis fort lasse, je me suis ennuyée à mourir depuis que je ne vous ai vu, et de plus,
+        j’ai été souffrante. J’ai voulu vous éviter de l’ennui et de la fatigue, en vous écrivant de
+        ne pas venir hier soir, et j’ai bien fait puisque vous vous êtes reposé, et vous en aviez
+        grand besoin. Je suis enchantée que vous vous portiez bien, et que tous vos excès ne vous
+        fatiguent pas, faites en tant que vous pourrez ; hélas ! la vie est si longue qu’il faut
+        tâcher de l’abréger en s’amusant le plus que l’on peut.</p>
+      <p>Adieu, <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName>, à mardi donc, si vous vouliez me voir avant, un mot,
+        et j’irai vous voir dans la journée, mais vous savez que de moi-même, je risque peu <hi
+          rend="u">ces escapades</hi>, craignant trop de vous gêner.</p>
+
+      <closer>
+        <salute><pb n="p.3"
+            facs="https://api.nakala.fr/iiif/10.34847/nkl.e0fa9k1w/f52916d29e3b6a4522bf70b931b61a6b2dc0ae5c/full/full/0/default.jpg"
+          /> Adieu encore une fois, et mille amitiés</salute>
+        <dateline>Ce vendredi<note place="bottom">Cette lettre reste impossible à dater en l’absence
+            d’adresse et d’indices précis sur un contexte particulier.</note></dateline>
+      </closer>
+
+
+    </body>
+  </text>
+</TEI>
