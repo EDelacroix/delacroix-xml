@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à un destinataire inconnu, 6 juin [1860 ?]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country></country>
+            <settlement></settlement>
+            <institution></institution>
+
+            <idno></idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="1"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Vente Ader 14 juin 2012, n° 74 ; Drouot (Aguttes - les collections
+              Aristophil) 18 juin 2018, n° 574 ; Aguttes, 18 mars 2021, lot 10.</provenance>
+          </history>
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1860-06-06"/>
+          <placeName key="France, Paris, rue de Furstenberg, 6">Paris, rue de Furstenberg, 6</placeName>
+        </correspAction>
+
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Ce <date when="1860-06-06">6 juin</date></dateline>
+        <salute>Monsieur, </salute>
+      </opener>
+
+
+      <p>C’est par un malentendu que je regrette infiniment que je n’ai pas eu le plaisir de vous
+        voir ce matin. J’ai reçu le résultat de votre travail que je trouve des plus
+        satisfaisants.</p>
+      <p>Je suis forcé de me trouver demain matin à l’exposition pour concourir à l’examen des
+        tableaux comme membre du jury : je vous prie donc de vouloir bien passer chez moi vers <hi
+          rend="u">trois heures</hi> de l’après-midi. Je serai très heureux de voir votre second
+          essai<note place="bottom"><ref type="letter" target="">Une autre lettre écrite par Delacroix un 6
+            juin</ref>évoque des essais de reproduction à partir de croquis du peintre qu’il fit
+          remettre par l’intermédiaire d’Haro à l’éditeur Furne. Joubin a également rapproché cette
+          lettre d’unenote de Delacroix du 6 juillet 1860 (<hi rend="it">Journal</hi>,p. 1353), dans
+          laquelle on apprend qu’il a donné au photographe Charles Nègre des études pour des essais
+          de photogravure permettant de reproduire ses œuvres. Cette lettre pourrait donc être
+          relative à ces différents essais de reproduction par le photographie. Elle serait donc
+          datable de 1860, mais nous manquons d’information pour identifier le
+        destinataire.</note>.</p>
+
+
+      <closer>
+        <salute>Agréez les assurances de ma sincère considération. </salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eg. Delacroix </persName></signed>
+        <address>
+          <addrLine><placeName key="France, Paris, rue de Furstemberg, 6">rue de Furstemberg 6</placeName>.</addrLine>
+        </address>
+      </closer>
+    </body>
+  </text>
+</TEI>

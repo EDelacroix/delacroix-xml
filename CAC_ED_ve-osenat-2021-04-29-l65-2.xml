@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Sarah de Pron</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage (d’après édition)</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country/>
+            <settlement/>
+            <institution/>
+
+            <idno/>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Vente Fontainebleau, Osenat, 29 avril 2021, lot 65.</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Michèle Hannoosh et Bertrand et Lorraine Servois « Delacroix "J" and <hi rend="it"
+              >Still life with lobsters</hi> », <hi rend="it">Burlington Magazine</hi>, septembre
+            2009, p. 606 (partiellement transcrite).</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="182.-..-.."/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName
+            key="Pron, Louise Rossignol de, dite Sarah, née du Bois des Cours de La Maisonfort (1787-1842)"
+          />
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+      <p>Je rentre le cœur tout bouleversé<note place="bottom">Cette lettre adressée par Delacroix à
+          Mme dePron est une transcription partielle issue du catalogue de la vente Osenat du
+          29 avril 2021. Malheureusement, il ne nous a pas été possible de voir la lettre. Les cinq
+          dernières phrases proviennent de l’édition, très partielle également,de cette lettre dans
+          l’article de Michèle Hannoosh et Bertrand et Lorraine Servois « Delacroix "J" and <hi
+            rend="it">Still life with lobsters</hi> »,<hi rend="it">BurlingtonMagazine</hi>,
+          septembre 2009, p. 606.</note>. Quelle bonne soirée ! Mais quelle cruelle soirée si c’est
+        le commencement d’un tourment que j’ai appris à redouter. Je me flatte quelquefois qu’il
+        peut se rencontrer dans la vie des cas de passion qui ne sont pas en même temps un
+        supplice : faudra-t-il toujours payer le bonheur par un lendemain amer et souvent par une
+        longue suite de chagrins ? Cependant l’imagination écarte les tristes pensées : quel est
+        l’avenir si obscur qu’une main pressée, qu’un regard seulement n’efface pas à nos yeux.
+        Regardez-moi, ô <persName
+          key="Pron, Louise Rossignol de, dite Sarah, née du Bois des Cours de La Maisonfort (1787-1842)"
+          >Julie</persName><note place="bottom">Delacroix surnomme ici son amie Julie, etla désigne
+          par l’initiale « J » dans son journal, certainement d’après l’héroïne du roman de
+            Rousseau,<hi end="it">Julie ou La Nouvelle Héloïse</hi>. Comme Julie d’Étange et
+          Saint-Preux, Mme de Pron et Delacroix étaient obligés de cacher leur relation car la dame
+          était mariée, bien que séparée de son mari, mais surtout avait eu pour amant Soulier,
+          l’ami d’enfance de Delacroix. Voir à ce sujet : Hannoosh,<hi rend="it">Journal</hi>,
+          p. 93, n. 82, p. 2308-2310. Le 27 octobre 1822, Delacroix nota dans son journal sa crainte
+          que Soulier, rentréd’Italie, découvre une lettre de Mme de Pron chez lui. Plus loin, il
+          confie ses tourments et écrivit même le 15 avril 1823, plusieurs lignes de brouillon pour
+          une ultime lettre d’adieu (<hi rend="it">Journal</hi>, p. 93-95,98). Plusieurs lettres de
+          Mme de Pron à Delacroixsont conservées au Getty Research Institute (sousla
+          cote860470).</note>, avec les yeux si tendres : rassurez-moi bien contre les fantômes que
+        mes souvenirs passés amassent autour de moi. Quelquefois je me dis : « Pourquoi l’ai-je
+        revue ? » Dans la paisible retraite où je vivais, même au milieu des liens insipides que je
+        m’étais formés, que j’avais cherché avec ardeur pour oublier et pour fuir, quand son image
+        traversait ma pensée, je parvenais à faire taire mon cœur. Je ne sentais plus la violence de
+        mes premiers transports. Je fuyais et je pouvais fuir les occasions de vous revoir,
+        enchanteresse charmante, j’avais cette cruelle force-là. Je me suis figuré quelquefois que
+        vous étiez heureuse. Vous étiez au moins calme, n’est-ce pas ? C’est quelque chose dans la
+        vie, mais ce n’est rien quand on a entrevu le bonheur, même dans un avenir lointain. Je me
+        dis aussi qu’autrefois cette passion eût été plus douce. J’ai conçu à présent une effroyable
+        idée que je n’avais pas alors : faut-il vous le dire encore ? Je crains que vous ne puissiez
+        pas aimer parfaitement. Il s’est fait dans vos sentiments une lacune qui vous a été fatale.
+        Votre cœur qui était peut-être plus naïf, s’est endormi dans l’insipidité et à présent il a
+        perdu la vivacité et la fraîcheur de l’entraînement. Est-ce que vous trouvez cette idée
+        affreuse ? Tenez, en vous le disant, non, je ne veux pas y croire et d’ailleurs comment
+        pourriez-vous me détromper ? Ce ne serait que par une longue épreuve. Oh l’esprit ! Je le
+        déteste, s’il sert à flétrir l’âme et à la dessécher. Dis-moi que non, amour. Dis le moi de
+        toutes les manières, trompe-moi si tu veux, je te croirai, je veux tant te croire et j’en ai
+        si besoin. Mais quelle folie ! quel roman que notre vie et que nos cœurs [. . .]</p>
+      <closer>
+        <salute>Adieu amour, as-tu le cœur d’autrefois ? Dis’.</salute>
+      </closer>
+
+
+    </body>
+  </text>
+</TEI>

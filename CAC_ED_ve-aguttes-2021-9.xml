@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à [Louis Guillemardet ?], 3 août [1850]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country/>
+            <settlement/>
+            <institution/>
+
+            <idno/>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="4"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Vente Piasa (Drouot) 27 mars 2003, n°84 ; vente Aguttes, 18 mars 2021, lot
+              9</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Inédite, publiée partiellement dans Johnson, <hi rend="it">Further
+              correspondence</hi>, p. 113, d’après Sérullaz, <hi rend="it">Delacroix</hi>, 1989, p.
+            296-97.</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1850-08-03"/>
+          <placeName key="Allemagne, Bad Ems">Ems</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Guillemardet, Louis (1790-1865)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <placeName key="Allemagne, Bad Ems">Ems</placeName>, <date when="1850-08-03">3
+          août</date></dateline>
+        <salute><persName key="Guillemardet, Louis (1790-1865)">Cher ami</persName><note
+            place="bottom">Cette lettre, publiée seulement de façon partielle par Sérullaz (<hi
+              rend="it">Delacroix</hi>, 1989,p. 296-97) puis reprise par Johnson (<hi rend="it"
+              >Further correspondance</hi>, 1991 , p. 113-114), est passée en vente en 2003 puis
+            2021, sans enveloppe, ni adresse. Sérullaz et Johnson identifièrent le destinataire
+            comme étant Charles Soulier, certainement à cause de la tonalité très amicale de la
+            lettre. Toutefois, des extraits de la lettre que Delacroix adressa à Soulier lorsqu’il
+            était à Ems furent publiés par Piron en 1865 (p. 95-96 ; repris par Burty, II, p. 52
+            puis Joubin, III, p. 29-30) et le début de celle-ci indique qu’il n’a pas encore écrit à
+            son correspondant depuis son arrivée. De plus, le reste de la lettre montre bien que le
+            destinataire de Delacroix est l’un de ses amis habitant à Paris, ce qui n’était pas
+            alors le cas de Soulier. Le ton de cette lettre, la référence aux achats de tableaux par
+            l’État et son long développement sur Rubens, nous font plutôt proposer le nom de Louis
+            Guillemardet, qui possédait une petite collection d’œuvres et faisait partie des amis
+            intimes de Delacroix. </note>, </salute>
+      </opener>
+
+
+      <p>Je suis un infâme paresseux : moins j’ai eu d’occupation et moins j’ai eu le courage
+        d’écrire. Je ne veux pourtant pas revenir sans remplir ma promesse et t’écrire deux mots de
+        la vie que j’ai menée. Je suis ici depuis trois semaines, j’en avais passé une à peu près en
+          <placeName key="Belgique">Belgique</placeName><note place="bottom">Delacroix partit pour
+          Bruxelles le 6 juillet, il arriva le 11 juillet à Ems où il venait se soigner et en
+          repartit le 4 août (<hi rend="it">Journal</hi>, p. 517, 522, 533).</note>. Je venais
+        prendre les eaux qui ne me vont qu’à moitié ; en revanche, l’air des montagnes et l’exercice
+        m’ont fait tout le bien nécessaire et surtout la vue des tableaux dont la route est semée.
+        J’écris à <persName key="Villot, Frédéric (1809-1875)">Villot</persName> par le même
+        courrier pour l’engager à profiter de l’occasion de la vente du <persName
+          key="Guillaume II, roi des Pays-Bas (1792-1849)">roi de Hollande</persName> pour voir les
+        tableaux de <persName key="Rubens, Pierre Paul (1577-1640)">Rubens</persName><note
+          place="bottom">Après la mortde Guillaume II, roi des Pays-Bas (1792-1849), sa collection
+          fut mise en vente à La Haye. Le catalogue de cette vente qui débuta le 12 août 1850 montre
+          la richesse de cette collection aujourd’hui dispersée dans le monde entier et qui
+          comprenait notamment sept tableaux de Rubens (voir le <ref
+            target="https://archive.org/details/tableauxanciens00vrie/page/n23/mode/2up">catalogue
+            numérisé</ref>). Le Louvre acquit alors <ref
+            target="http://cartelfr.louvre.fr/cartelfr/visite?srv=car_not_frame&amp;idNotice=8212"
+            >le portrait du<hi rend="it">Baron Henri de Vicq</hi></ref></note> ; <pb n="2"
+          xml:id="p2"/> ni toi ni lui ne vous doutez ce que c’est que des Rubens. Vous n’avez pas à
+          <placeName key="France, Paris">Paris</placeName> ce qu’on peut appeler des chefs-d’œuvre.
+        Je n’avais pas vu encore ceux de <placeName key="Belgique, Bruxelles">Bruxelles</placeName>
+        qui étaient cachés quand j’étais venu dans le pays. Il y en [a] encore qui me restent à voir
+        car il en a mis partout : enfin dis-toi, brave Crillon, que tu ne connais pas <persName
+          key="Rubens, Pierre Paul (1577-1640)">Rubens</persName> et crois-en mon amour pour ce
+        furibond. Vous n’avez que des Rubens en toilette, dont l’âme est dans un fourreau. C’est par
+        ici qu’il faut voir l’éclair et le tonnerre à la fois. Je te conterai tout cela en détail
+        pour te faire venir l’eau à la bouche.</p>
+      <p>Je m’étais bien promis de consacrer huit jours à aller voir la collection de <placeName
+          key="Pays-Bas, La Haye">La Haye</placeName> avant sa dispersion, mais mes arrangements
+        n’ont pu <pb n="3" xml:id="p3"/> définitivement cadrer avec ce projet. Je m’en vais me
+        consoler avec les Rubens de <placeName key="Allemagne, Cologne">Cologne</placeName> et de
+          <placeName key="Belgique, Malines">Malines</placeName> que je n’ai pas encore vus<note
+          place="bottom">Delacroix nota dans son journal les musées, les églises et les œuvres qu’il
+          put admirer du 4 au 14 août entre Cologne, Malines, Anvers et Bruxelles (voir<hi rend="it"
+            >Journal</hi>,p. 533-545).</note>. J’irai en chercher dans la lune si je croyais en
+        trouver de tels. Je m’en vais apprendre l’allemand en revenant à <placeName
+          key="France, Paris">Paris</placeName> et je compte bien sur tes conseils pour cela, pour
+        aller un de ces jours à <placeName key="Allemagne, Munich">Munich</placeName> où il y en a
+        une soixantaine et à <placeName key="Autriche, Vienne">Vienne</placeName> où ils pleuvent
+          également<note place="bottom">Delacroix ne fit jamais le voyage à Vienne et Munich et
+          n’apprit pas l’allemand.</note>. Comment négligent-ils au Musée d’acquérir les <hi
+          rend="u"><hi rend="it">Miracles de saint Benoît</hi></hi><note place="bottom">Acquis par
+          Léopold II, <ref
+            target="https://www.fine-arts-museum.be/fr/la-collection/peter-paul-rubens-les-miracles-de-saint-benoit?artist=rubens-peter-paul-1"
+            >ce tableau</ref>, aujourd’hui dans les collections des Musées royaux des Beaux-Arts de
+          Belgique , avait été copié par Delacroix alors que l’œuvre était en France et aurait donc
+          pu être achetée par le Louvre. <ref
+            target="https://www.fine-arts-museum.be/fr/la-collection/eugene-delacroix-d-apres-peter-paul-rubens-les-miracles-de-saint-benoit?artist=rubens-peter-paul-1"
+            >La copie de Delacroix</ref> est également conservée aux Musées royaux de
+          Belgique.</note> ? Voilà dans de petites dimensions quelque chose qui, avec la <hi
+          rend="it">Kermesse</hi><note place="bottom"><ref
+            target="https://www.louvre.fr/oeuvre-notices/la-kermesse-ou-noce-de-village">Ce tableau
+            de Rubens </ref> entra dans la collection de Louis XIV en 1685 et est conservé au musée
+          du Louvre.</note> remplirait nos lacunes. Mais quant à des grands Rubens, à moins que la
+          <placeName key="Belgique">Belgique</placeName> ne fasse banqueroute, nous n’en aurons
+        jamais de la grande espèce.</p>
+      <p>Ne me trouves-tu pas redevenu jeune ? <pb n="4" xml:id="p4"/> Ce ne sont pas les eaux :
+        c’est <persName key="Rubens, Pierre Paul (1577-1640)">Rubens</persName> qui a fait ce
+        miracle. Toutes les fois que je me suis ennuyé, je n’ai eu qu’à y penser pour être heureux.
+        Et je me suis très peu ennuyé. Je n’ai vu personne. Songe à ce grand mot, point
+          d’affaires<note place="bottom">Delacroix reprit la même expression dans la lettre qu’il
+          adressa à Soulier pour lui conter son voyage (Joubin, III, p. 29-30).</note> ! Et puis
+        comme dit <persName key="Hugo, Victor (1802-1885)">le grand Victor</persName>, <hi rend="u"
+          >la liberté sur la montagne</hi><note place="bottom">Il cite le dernier vers du poème <hi
+            rend="it">Lazzara</hi>de Victor Hugo, publié en 1829 dans <hi rend="it">Les
+            Orientales</hi>.</note>. Je pense être à <placeName key="France, Paris"
+          >Paris</placeName> dans 10 à 12 jours un peu refait et très en train de te conter toutes
+        ces nouvelles.</p>
+
+
+      <closer>
+        <salute>Je t’embrasse donc fort, en attendant, et me recommande au souvenir de tous les
+          tiens et des amis. </salute>
+        <salute>Je t’embrasse, </salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+      <postscript>
+        <p>Je ne sais où je recevrai tes réponses car je quitte ce lieu après-demain
+          probablement.</p>
+      </postscript>
+    </body>
+  </text>
+</TEI>

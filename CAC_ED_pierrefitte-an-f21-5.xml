@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Edmond Cavé, 10 juillet 1838</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro et Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Pierrefitte</settlement>
+            <institution>Archives nationales</institution>
+
+            <idno>F21 5</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, II, p. 13.</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1838-07-10"/>
+          <placeName key="France, Paris, rue des Marais-Saint-Germain, 17">Paris, rue des
+            Marais-Saint-Germain, 17</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Cavé, Hygin-Auguste, appelé Edmond (769-1852)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="1" xml:id="p1"/>
+            <persName key="Cavé, Hygin-Auguste, appelé Edmond (769-1852)">Monsieur
+              Cavé</persName><note place="bottom">Il fut directeur de la division des Beaux-Arts de
+              1833 à 1848.</note>,</addrLine>
+          <addrLine>chef de la division des Belles-Lettres et Arts</addrLine>
+          <addrLine>ministère de l’Intérieur</addrLine>
+        </address>
+        <dateline>
+          <pb n="2" xml:id="p2"/> Ce <date when="1838-07-10">10 juillet 1838</date>.</dateline>
+        <salute><persName key="Cavé, Hygin-Auguste, appelé Edmond (769-1852)"
+          >Monsieur</persName>,</salute>
+      </opener>
+
+
+      <p>Je n’ai pu répondre de suite à la lettre que vous avez bien voulu m’écrire relativement à
+        mon tableau de <rs type="work"><hi rend="it">Médée</hi></rs> : je n’étais pas à <placeName
+          key="France, Paris">Paris</placeName>.</p>
+      <p>J’accepte la proposition que vous voulez bien me faire de la part du ministre, quoique
+        l’exposition passagère au <placeName key="France, Paris, Musée du Luxembourg">musée du
+          Luxembourg</placeName> soit loin de remplir mon objet comme l’eut été la certitude que le
+        tableau ne sortirait pas de <placeName key="France, Paris">Paris</placeName><note
+          place="bottom">Delacroix avait exposé son tableau <ref
+            target="https://pba.lille.fr/Collections/Chefs-d-OEuvre/Peintures-XVI-sup-e-sup-XXI-sup-e-sup-siecles/Medee/(plus)"
+              ><hi rend="it">Médée furieuse</hi></ref> au Salon de 1838 (Lille, inv. P. 542). Il fut
+          acheté 4 000 francs par le Ministère de l’Intérieur pour le musée de Lille. Delacroix
+          semble déçu dans sa lettre que le tableau ne reste pas à Paris. Les courriers relatifs à
+          l’achat de ce tableau sont conservés dans le même dossier que cette lettre aux Archives
+          nationales.</note>. J’ose espérer qu’à cette considération vous serez assez bon pour
+        insister de nouveau sur le parti à prendre relativement aux <rs type="work">travaux de la
+          Chambre des députés</rs><note place="bottom">Delacroix avait achevé, l’année précédente,
+          le décor du Salon du roi et allait obtenir la décoration du plafond de la bibliothèque de
+          l’Assemblée, officiellement en septembre. Cette lettre montre que Delacroix avait l’appui
+          de Cavé pour obtenir cette prestigieuse commande.</note>. Votre bienveillance soutenue à
+        mon égard me donne cette confiance.</p>
+
+
+      <closer>
+        <salute>Recevez les assurances de la haute considération avec laquelle j’ai l’honneur
+          d’être, <persName key="Cavé, Hygin-Auguste, appelé Edmond (769-1852)">Monsieur</persName>, votre très obéissant serviteur,</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName></signed>
+        <address>
+          <addrLine><placeName key="France, Paris, rue des Marais-Saint-Germain, 17">Rue des Marais-Saint-Germain, n° 17</placeName></addrLine>
+        </address>
+      </closer>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Sarah de Pron, 5 novembre 1823</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage (d’après édition)</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country></country>
+            <settlement></settlement>
+            <institution></institution>
+
+            <idno></idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="0"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Vente Genève, Galerie Koller, 12 novembre 2006, lot 1613 ; Vente
+              Fontainebleau, Osenat, 29 avril 2021, lot 65.</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Michèle Hannoosh et Bertrand et Lorraine Servois « Delacroix "J" and <hi rend="it"
+              >Still life with lobsters</hi> », <hi rend="it">Burlington Magazine</hi>, septembre
+            2009, p. 606.</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1823-11-05"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName
+            key="Pron, Louise Rossignol de, dite Sarah, née du Bois des Cours de La Maisonfort (1787-1842)"
+          />
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+      <p>Dis-moi, <persName
+          key="Pron, Louise Rossignol de, dite Sarah, née du Bois des Cours de La Maisonfort (1787-1842)"
+          >amie chérie</persName>, que tu ne regrettes pas les instants de bonheur que tu donnes à
+        ton ami ; dis-moi que tu ne m’en veux pas<note place="bottom">Cette lettre témoigne de la
+          relation amoureuse que Delacroix entretint avec Sarah de Pron entre 1822 et 1823. Elle fut
+          aussi l’amie de Soulier. Des détails de cette relation compliquée sont donnés par
+          Delacroix dans son journal, dans lequel il la nomme « J ».Àce sujet voir Hannoosh,<hi
+            rend="it">Journal</hi>, p. 93, n. 82, p. 2308-2310 et Michèle Hannoosh et Bertrand et
+          Lorraine Servois,« Delacroix "J" and<hi rend="it">Still life with lobsters</hi> »,<hi
+            rend="it">BurlingtonMagazine</hi>, septembre 2009, p. 606, qui publièrent cette lettre
+          ainsi que plusieurs lettres de Madame de Pron adressées à Delacroix conservées au J. P.
+          Getty Research Institute (sousla cote860470).<ref
+            target="CAC_ED_ve-osenat-2021-04-29-l65-2.xml">Une autre lettre</ref>, vraisemblablement
+          contemporaine, vendue dans le même lot que celle-ci, donne un témoignage de la passion que
+          la jeune femme inspira au peintre.</note>. Je rentre le cœur tout plein de bonheur, et ta
+        jolie petite mine boudeuse, je n’en veux pas croire un mot pour passer une bonne nuit
+        complète. Aurais-tu eu le courage d’en garder rancune en rentrant dans ta petite chambre
+        adorée, et en reposant toutes tes grâces dans ce lit que mon amour jaloux ne peut partager?
+        Aime-moi comme je t’aime, comme l’amour veut qu’on aime. En ôter une parcelle de ces divines
+        jouissances, c’est le tromper, c’est aller contre son vœu. Tu le sais, c’est un tyran : il
+        veut tout, et quand il a tout, il voudrait l’impossible. Je voudrais circuler avec ton sang
+        dans tes veines et aller dans ton cœur, y voir si je l’occupe tout entier. Dis, puis-je
+        l’occuper et te mérité-je? Encore une fois, ne refuse rien au tendre amour. Pourquoi est-ce
+        que je baise encore mon mouchoir qui t’a touchée tout à l’heure, qui t’a touchée partout ?
+        Oseras-tu dire que c’est folie : de toi que ne dois-je pas aimer ? Quel moment que celui où
+        il faut quitter ce qu’on aime ! Quelle solitude jusqu’à ce qu’on retrouve et qu’on presse sa
+        main ! Demain je te verrai. Que tes yeux me disent que tu m’aimes. N’est-ce pas ! Demain
+        soir tu m’écriras pour que je lise de toi vendredi, dans cette maudite journée qui aurait dû
+        être divine. Que je reçoive quelque chose et bien long encore de toi, amour, pendant ce
+        jour-là qui me paraîtra néfaste.</p>
+
+      <closer>
+        <salute>Adieu, aime-moi comme je t’aime. Me coucher ! C’est me séparer de toi une seconde
+          fois, car ton souvenir est encore avec moi, et qui sait ce que m’apportera le vague des
+          songes. Sera-ce ta douce image? Ou ma triste imagination enfantera-t-elle encore des
+          monstres horribles ? Il est tard, je ne puis encore renoncer au souvenir de ma soirée.
+          Toi, tu dors sans doute. Si je pouvais t’occuper en songe. Adieu, il le faut à la fin.
+            <persName
+            key="Pron, Louise Rossignol de, dite Sarah, née du Bois des Cours de La Maisonfort (1787-1842)"
+            >Amour</persName>, aime-moi. </salute>
+        <dateline><date when="1823-11-05">mercredi 5 novembre</date>.</dateline>
+      </closer>
+
+
+    </body>
+  </text>
+</TEI>
