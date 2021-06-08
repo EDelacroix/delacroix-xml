@@ -100,8 +100,8 @@
 
 
       <p>Je n’ai pu répondre de suite à la lettre que vous avez bien voulu m’écrire relativement à
-        mon tableau de <rs type="work" key="Médée furieuse (J261)"><hi rend="it">Médée</hi></rs> : je n’étais pas à <placeName
-          key="France, Paris">Paris</placeName>.</p>
+        mon tableau de <rs type="work" key="Médée furieuse (J261)"><hi rend="it">Médée</hi></rs> :
+        je n’étais pas à <placeName key="France, Paris">Paris</placeName>.</p>
       <p>J’accepte la proposition que vous voulez bien me faire de la part du ministre, quoique
         l’exposition passagère au <placeName key="France, Paris, Musée du Luxembourg">musée du
           Luxembourg</placeName> soit loin de remplir mon objet comme l’eut été la certitude que le
@@ -113,20 +113,23 @@
           semble déçu dans sa lettre que le tableau ne reste pas à Paris. Les courriers relatifs à
           l’achat de ce tableau sont conservés dans le même dossier que cette lettre aux Archives
           nationales.</note>. J’ose espérer qu’à cette considération vous serez assez bon pour
-        insister de nouveau sur le parti à prendre relativement aux <rs type="work">travaux de la
-          Chambre des députés</rs><note place="bottom">Delacroix avait achevé, l’année précédente,
-          le décor du Salon du roi et allait obtenir la décoration du plafond de la bibliothèque de
-          l’Assemblée, officiellement en septembre. Cette lettre montre que Delacroix avait l’appui
-          de Cavé pour obtenir cette prestigieuse commande.</note>. Votre bienveillance soutenue à
-        mon égard me donne cette confiance.</p>
+        insister de nouveau sur le parti à prendre relativement aux <rs type="work"
+          key="Assemblée nationale, Bibliothèque">travaux de la Chambre des députés</rs><note
+          place="bottom">Delacroix avait achevé, l’année précédente, le décor du Salon du roi et
+          allait obtenir la décoration du plafond de la bibliothèque de l’Assemblée, officiellement
+          en septembre. Cette lettre montre que Delacroix avait l’appui de Cavé pour obtenir cette
+          prestigieuse commande.</note>. Votre bienveillance soutenue à mon égard me donne cette
+        confiance.</p>
 
 
       <closer>
         <salute>Recevez les assurances de la haute considération avec laquelle j’ai l’honneur
-          d’être, <persName key="Cavé, Hygin-Auguste, appelé Edmond (769-1852)">Monsieur</persName>, votre très obéissant serviteur,</salute>
+          d’être, <persName key="Cavé, Hygin-Auguste, appelé Edmond (769-1852)">Monsieur</persName>,
+          votre très obéissant serviteur,</salute>
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName></signed>
         <address>
-          <addrLine><placeName key="France, Paris, rue des Marais-Saint-Germain, 17">Rue des Marais-Saint-Germain, n° 17</placeName></addrLine>
+          <addrLine><placeName key="France, Paris, rue des Marais-Saint-Germain, 17">Rue des
+              Marais-Saint-Germain, n° 17</placeName></addrLine>
         </address>
       </closer>
     </body>
