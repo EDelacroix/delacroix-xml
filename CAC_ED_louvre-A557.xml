@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, 29 février [1832]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>{corrections}</name>
+          <name>{corrections}</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec les amis de jeunesse</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Musée du Louvre</institution>
+            <repository>Département des Arts graphiques</repository>
+            <idno>A 557</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="4"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Etienne Moreau-Nélaton</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, I, p. 318-320</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1832-02-29"/>
+          <placeName key="Maroc, Tanger">Tanger</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Pierret, Jean-Baptiste (1795-1854)"/>
+          <placeName key="France, Paris, rue Sainte-Anne, 18"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="1" xml:id="p1"/><persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur
+              Pierret</persName>
+            <placeName key="France, Paris, rue Sainte-Anne, 18">Rue Sainte-Anne n° 18,
+              Paris</placeName></addrLine>
+        </address>
+        <dateline>
+          <pb n="2" xml:id="p2"/><placeName key="Maroc, Tanger">Tanger</placeName>, <date
+            when="1832-02-29">29 février</date></dateline>
+      </opener>
+
+
+      <p>Tu ne mérites guère qu’on te réponde. Je reçois hier les premières nouvelles que j’aie eues
+        de <placeName key="France">France</placeName> et tu m’écris à tout hasard quatre lignes, en
+        me disant que tu n’as rien de curieux à me dire. Je ne te demande pas de nouvelles, je n’en
+        suis pas plus avide ici qu’à <placeName key="France, Paris">Paris</placeName>, où j’ai
+        l’habitude aussi bien qu’ici de ne vivre qu’au gré des émotions que mon cœur me donne. Mais
+        tu ignores donc le plaisir de recevoir de celui que l’on aime des lignes au bout de lignes
+        qui lui marquent seulement de la tendresse. Je te jure, <persName
+          key="Pierret, Jean-Baptiste (1795-1854)">cher et bon ami</persName>, que sur ce sol où la
+        vie est si douce, les seuls regrets que l’on puisse éprouver sont les affections que nous
+        avons laissées en <placeName key="France">France</placeName> ; je ne tiens que par ces
+        anneaux de chair et d’affection à ce pays qui n’est pas plus le mien que celui-ci où je me
+        trouve bien, dénué à la vérité du charme que le cœur trouve à aimer (si j’en excepte
+        pourtant un petit amour sentimental que je file ici avec une très jolie et décente petite
+          Anglaise<note place="bottom">Il s’agit de la fille du consul d’Angleterre, le capitaine
+          Edward Drummond Hay (Joubin, I, p. 318).</note>). <persName
+          key="Pierret, Jean-Baptiste (1795-1854)">Mon ami</persName>, quel bonheur d’être loin du
+        champ des ambitions et des intrigues. J’emploie avec <pb n="3&#10;" xml:id="p3&#10;"/>
+        plaisir une part de mon temps au travail, une autre considérable à me laisser vivre. Mais
+        jamais l’idée de réputation, de ce Salon que je devais manquer, comme on disait, ne se
+        présente à moi ; je suis même sûr que la quantité assez notable de renseignements curieux
+        que je rapporterai d’ici ne me servira que médiocrement. Loin du pays où je les trouve, ce
+        sera comme des arbres arrachés de leur sol natal ; mon esprit oubliera ces impressions, et
+        je dédaignerai de rendre imparfaitement et froidement le sublime vivant et frappant qui
+        court ici dans les rues et qui vous assassine de sa réalité. Imagine, <persName
+          key="Pierret, Jean-Baptiste (1795-1854)">mon ami</persName>, ce que c’est que de voir
+        couchés au soleil, se promenant dans les rues, raccommodant des savates, des personnages
+        consulaires, des <persName key="Caton l'Ancien (234BC-149BC)">Catons</persName>, des
+          <persName key="Brutus, Marcus Junius (85BC-42BC)">Brutus</persName>, auxquels il ne manque
+        même pas l’air dédaigneux que devaient avoir les maîtres du monde. Ces gens-ci ne possèdent
+        qu’une couverture dans laquelle ils marchent, dorment et sont enterrés, et ils ont l’air
+        aussi satisfaits que <persName key="Cicéron (106BC-43BC)">Cicéron</persName> le devait être
+        de sa chaise curule. Je te le dis, vous ne pourrez jamais croire à ce que je rapporterai,
+        parce que ce sera bien loin de la vérité et de la noblesse de ces natures. <pb n="4"
+          xml:id="p4"/> L’antique n’a rien de plus beau. Il passait hier un paysan qui était foutu
+        comme tu vois ici<note place="bottom">Delacroix esquisse sur cette page un dessin
+          représentant les passants qu’il voit dans les rues de Tanger. </note>. – Plus loin, voici
+        la tournure qu’avait avant-hier un vil Maure auquel on donne vingt sous. Tout cela en blanc
+        comme les sénateurs de <placeName key="Italie, Rome">Rome</placeName> et les Panathénées
+          d’<placeName key="Grèce, Athènes">Athènes</placeName>.</p>
+      <p>Adieu, je ferme ma lettre. Embrasse <persName key="Guillemardet, Félix (1796-1842)"
+          >Félix</persName> et tous nos amis. Ces musulmans sont très temporiseurs. Nous ne partons
+        pour <placeName key="Meknès, Maroc">Mékinez</placeName> que lundi, après-demain. Embrasse
+          <persName key="Heidinger, Marguerite-Jeanne-Aimée (1797-?)">ta femme</persName> pour moi
+        et quand tu écriras, daigne remplir les pages, répète les choses qui te viendront à l’esprit
+        sans t’inquiéter de me donner des nouvelles du temps présent. Je ne m’en soucie pas.
+        J’apprends que le choléra est à <placeName key="Royaume-Uni, Londres"
+          >Londres</placeName><note place="bottom">À l’époque, l’épidémie de choléra qui avait
+          éclaté en France était en train de se répandre en Europe. </note>. Diable !</p>
+
+
+      <closer>
+        <salute>Adieu, <persName key="Pierret, Jean-Baptiste (1795-1854)">cher et bon</persName>.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène</persName></signed>
+      </closer>
+
+      <postscript>
+        <p>Jette à la poste la lettre ci-jointe.</p>
+      </postscript>
+    </body>
+  </text>
+</TEI>
