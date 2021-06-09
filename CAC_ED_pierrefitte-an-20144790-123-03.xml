@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à [Alphonse de Cailleux], 31 mars 1846</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Pierrefitte-sur-Seine</settlement>
+            <institution>Archives nationales</institution>
+
+            <idno>20144790/123/03</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="1"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1846-03-31"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Cailleux, Alphonse de (1788-1876)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="1" xml:id="p1"/> à <persName key="Cailleux, Alphonse de (1788-1876)">Monsieur le
+              directeur général des Musées Royaux</persName><note place="bottom">Alphonse de
+              Cailleux fut directeur des Musées royaux de 1841 à 1848.</note>. </addrLine>
+        </address>
+      </opener>
+
+
+      <p>J'ai l’honneur de prier <persName key="Cailleux, Alphonse de (1788-1876)">Monsieur le
+          directeur général des Musées royaux</persName> de vouloir bien accorder à <persName
+          key="Masson, Alphonse (1814-1898)">Mr. Masson</persName><note place="bottom">Alphonse
+          Masson (1814-1898), peintre et graveur, exécuta de nombreuses estampes d’après les œuvres
+          de Delacroix.</note>, graveur, l’autorisation nécessaire pour graver mon tableau
+        représentant le <rs type="work" key="Dante et Virgile aux enfers (J100)">Dante et
+          Virgile</rs> et faisant partie du <placeName key="France, Paris, Musée du Luxembourg"
+          >musée du Luxembourg</placeName><note place="bottom">Delacroix ne tarda pas à adresser à
+          nouveau sa demande à Adolphe de Cailleux dans une lettre en date du <ref type="letter"
+            target="CAC_ED_pierrefitte-an-20144790-123-02.xml">2 avril 1846</ref>.</note>. La
+        gravure serait exécutée d’après une copie faite audit <placeName
+          key="France, Paris, Musée du Luxembourg">musée</placeName> par <persName
+          key="Masson, Alphonse (1814-1898)">Mr. Masson</persName><note place="bottom">Masson semble
+          avoir exécuté bien plus tard cette estampe. Le cuivre d’une eau-forte et burin est
+          conservé à la Chalcographie du Louvre après une commande à l’artiste datant de 1881 (5998
+          C -
+          http://arts-graphiques.louvre.fr/detail/oeuvres/21/531837-Dante-et-Virgile-conduits-par-Phlegias-traversent-le-lac-qui-entoure-la-ville-infernale-de-Dite).
+        </note>.</p>
+
+
+      <closer>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+        <dateline>Ce <date when="1846-03-31">31 mars 1846</date>.</dateline>
+      </closer>
+    </body>
+  </text>
+</TEI>
