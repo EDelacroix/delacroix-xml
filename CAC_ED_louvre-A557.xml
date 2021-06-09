@@ -35,7 +35,7 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Correspondance d'Eugène Delacroix</title>
-        <title type="sub">Correspondance avec les amis de jeunesse</title>
+        <title type="sub">Les amis de jeunesse</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -153,12 +153,15 @@
 
 
       <closer>
-        <salute>Adieu, <persName key="Pierret, Jean-Baptiste (1795-1854)">cher et bon</persName>.</salute>
+        <salute>Adieu, <persName key="Pierret, Jean-Baptiste (1795-1854)">cher et
+          bon</persName>.</salute>
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène</persName></signed>
       </closer>
 
       <postscript>
-        <p>Jette à la poste la lettre ci-jointe.</p>
+        <p>Jette à la poste la lettre ci-jointe.<note place="bottom">Il s’agit d’une lettre destinée
+            à Eugénie Dalton, qui était à l’époque la maîtresse de Delacroix (Joubin, I, p. 320).
+          </note>.</p>
       </postscript>
     </body>
   </text>
