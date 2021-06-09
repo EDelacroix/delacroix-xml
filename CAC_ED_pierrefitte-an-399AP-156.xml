@@ -34,6 +34,7 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Eugène Delacroix et l'estampe</title>
 
       </seriesStmt>
       <sourceDesc>
@@ -64,7 +65,7 @@
       <correspDesc>
         <correspAction type="sent">
           <persName key="Delacroix, Eugène (1798-1863)"/>
-          <date when="1843/44-10-03"/>
+          <date notbefore="1843-10-03" notafter="1844-10-03"/>
 
         </correspAction>
         <correspAction type="received">
@@ -84,29 +85,29 @@
 
       <opener>
         <pb n="1" xml:id="p1"/>
-        <p><persName key="Gihaut">Monsieur Gihaut</persName><note place="bottom">Gihaut était
-            éditeur d’estampes.</note></p>
+        <address><persName key="Gihaut">Monsieur Gihaut</persName>
+        <note place="bottom">Gihaut était éditeur d’estampes.</note></address>
+        <pb n="2" xml:id="p2"/>
+        <salute>
+          <persName key="Gihaut">Monsieur</persName>,</salute>
       </opener>
-
-
-      <pb n="2" xml:id="p2"/>
-      <salute>
-        <persName key="Gihaut">Monsieur</persName>,</salute>
+      
       <p>Je n’avais pas réfléchi l’autre jour quand je vous ai proposé de vendre au détail les <rs
-          type="work" key="Hamlet, lithographies">épreuves sur Chine</rs> 30 sous que ce serait meilleur marché qu’en les
-        prenant ensemble. Je pense qu’il faudrait les augmenter ; ainsi on les mettrait à 35 <hi
-          rend="u">sous</hi> et les ordinaires à 25 sous, comme nous avions dit<note place="bottom"
-          >Il doit s’agir de la série d’<hi rend="it">Hamlet</hi>, constituée de treize
-          planches.</note>.</p>
+          type="work" key="Hamlet, lithographies">épreuves sur Chine</rs> 30 sous que ce serait
+        meilleur marché qu’en les prenant ensemble. Je pense qu’il faudrait les augmenter ; ainsi on
+        les mettrait à 35 <hi rend="u">sous</hi> et les ordinaires à 25 sous, comme nous avions
+          dit<note place="bottom">Il doit s’agir de la série d’<hi rend="it">Hamlet</hi>, constituée
+          de treize planches.</note>.</p>
 
 
       <closer>
         <salute>Recevez, <persName key="Gihaut">Monsieur</persName>, tous mes compliments et
           salutations.</salute>
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
-        <dateline>Ce <date when="1843/44-10-03">3 octobre</date><note place="bottom">Ces estampes ont été
-            publiées en 1843-1844 donc la lettre doit vraisemblablement dater du moment de leur mise
-            en vente (<hi rend="it">Journal</hi>, p. 1385).</note></dateline>
+        <dateline>Ce <date notbefore="1843-10-03" notafter="1844-10-03">3 octobre</date><note
+            place="bottom">Ces estampes ont été publiées en 1843-1844 donc la lettre doit
+            vraisemblablement dater du moment de leur mise en vente (<hi rend="it">Journal</hi>, p.
+            1385).</note></dateline>
       </closer>
     </body>
   </text>

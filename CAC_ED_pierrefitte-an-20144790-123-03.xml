@@ -34,6 +34,7 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Eugène Delacroix et l'estampe</title>
 
       </seriesStmt>
       <sourceDesc>
@@ -94,7 +95,7 @@
 
       <p>J'ai l’honneur de prier <persName key="Cailleux, Alphonse de (1788-1876)">Monsieur le
           directeur général des Musées royaux</persName> de vouloir bien accorder à <persName
-          key="Masson, Alphonse (1814-1898)">Mr. Masson</persName><note place="bottom">Alphonse
+          key="Masson, Alphonse (1814-1898)">M. Masson</persName><note place="bottom">Alphonse
           Masson (1814-1898), peintre et graveur, exécuta de nombreuses estampes d’après les œuvres
           de Delacroix.</note>, graveur, l’autorisation nécessaire pour graver mon tableau
         représentant le <rs type="work" key="Dante et Virgile aux enfers (J100)">Dante et
@@ -104,12 +105,11 @@
             target="CAC_ED_pierrefitte-an-20144790-123-02.xml">2 avril 1846</ref>.</note>. La
         gravure serait exécutée d’après une copie faite audit <placeName
           key="France, Paris, Musée du Luxembourg">musée</placeName> par <persName
-          key="Masson, Alphonse (1814-1898)">Mr. Masson</persName><note place="bottom">Masson semble
-          avoir exécuté bien plus tard cette estampe. Le cuivre d’une eau-forte et burin est
-          conservé à la Chalcographie du Louvre après une commande à l’artiste datant de 1881 (5998
-          C -
-          http://arts-graphiques.louvre.fr/detail/oeuvres/21/531837-Dante-et-Virgile-conduits-par-Phlegias-traversent-le-lac-qui-entoure-la-ville-infernale-de-Dite).
-        </note>.</p>
+          key="Masson, Alphonse (1814-1898)">M. Masson</persName><note place="bottom">Masson semble
+          avoir exécuté bien plus tard cette estampe. Le <ref
+            target="http://arts-graphiques.louvre.fr/detail/oeuvres/21/531837-Dante-et-Virgile-conduits-par-Phlegias-traversent-le-lac-qui-entoure-la-ville-infernale-de-Dite"
+            >cuivre d’une eau-forte et burin</ref> est conservé à la Chalcographie du Louvre après
+          une commande à l’artiste datant de 1881 (5998 C).</note>.</p>
 
 
       <closer>
