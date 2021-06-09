@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à [Alphonse de Cailleux], 20 décembre 1846</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Eugène Delacroix et l'estampe</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Pierrefitte-sur-Seine</settlement>
+            <institution>Archives nationales</institution>
+
+            <idno>20144790/123/01</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="1"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1846-12-20"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Cailleux, Alphonse de (1788-1876)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <pb n="1" xml:id="p1"/>
+        <salute>
+          <persName key="Cailleux, Alphonse de (1788-1876)">Monsieur</persName><note place="bottom"
+            >Le destinataire de la lettre peut être identifié comme Alphonse de Cailleux, en sa
+            qualité de directeur des musées royaux. Il commença sa carrière dans les musées sous la
+            Restauration en qualité de secrétaire général, avant de devenir directeur adjoint, puis
+            directeur général en 1841. Il quitta ses fonctions suite à la chute du régime de
+            Louis-Philippe. D’autres lettres conservées dans le même fonds aux Archives nationales
+            se rapportent à des demandes similaires (lettres des <ref type="letter"
+              target="CAC_ED_pierrefitte-an-20144790-123-03.xml">31 mars</ref> et <ref type="letter"
+              target="CAC_ED_pierrefitte-an-20144790-123-02.xml">2 avril
+          1846</ref>).</note>,</salute>
+      </opener>
+
+
+      <p>Je prends la liberté de vous demander pour <persName key="Carey, Charles (1824-1897)">M. Carey</persName><note
+          place="bottom">Charles Carey, peintre et graveur, fut élève de Tony Johannot et Pierre
+          Raymond Jacques Monvoisin. Il exposa au Salon de 1844 à 1876.</note>, graveur,
+        l’autorisation nécessaire pour faire un <hi rend="u">dessin</hi> et <hi rend="u">une
+          gravure</hi> d’après mon tableau <hi rend="u">des</hi>
+        <rs type="work" key="Les Femmes d'Alger (J356)">Femmes d’Alger</rs><note place="bottom"><hi rend="it">Les Femmes
+            d’Alger</hi> (J 356), acquis par l’Etat au Salon de 1834, conservé au Louvre (INV 3824 –
+            <ref target="https://collections.louvre.fr/ark:/53355/cl010065869"
+            >https://collections.louvre.fr/ark:/53355/cl010065869</ref>).</note>. J'ai vu de ses
+        ouvrages qui me paraissent donner une idée avantageuse de sa capacité pour entreprendre ce
+        travail, et j’ai pensé que vous seriez assez bon pour lui en faciliter les moyens.</p>
+
+
+      <closer>
+        <salute>Agréez, <persName key="Cailleux, Alphonse de (1788-1876)">Monsieur</persName>, les assurances de ma haute considération.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+        <dateline>Ce <date when="1846-12-20">20 décembre 1846</date>.</dateline>
+      </closer>
+    </body>
+  </text>
+</TEI>
