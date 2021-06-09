@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à [Alphonse de Cailleux], 2 avril 1846</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Eugène Delacroix et l'estampe</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Pierrefitte-sur-Seine</settlement>
+            <institution>Archives nationales</institution>
+
+            <idno>20144790/123/02</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1846-04-02"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Cailleux, Alphonse de (1788-1876)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <salute>
+          <pb n="1" xml:id="p1"/>
+          <persName>Monsieur</persName><note place="bottom">Le destinataire de la lettre peut être
+            identifié comme Alphonse de Cailleux (1788-1876), en sa qualité de directeur des musées
+            royaux. Il commença sa carrière dans les musées sous la Restauration en qualité de
+            secrétaire général, avant de devenir directeur adjoint, puis directeur général en 1841.
+            Il quitta ses fonctions suite à la chute du régime de Louis-Philippe.</note>,</salute>
+      </opener>
+
+
+      <p><persName>M. Masson</persName><note place="bottom">Alphonse Masson (1814-1898), peintre et
+          graveur, exécuta de nombreuses estampes d’après les œuvres de Delacroix.</note>, graveur,
+        a eu l’honneur de vous présenter de ma part une autorisation pour graver <rs type="work">mon
+          tableau de Dante</rs><note place="bottom"><hi rend="it">Dante et Virgile aux enfers</hi>
+          (J 100), acquis par l’Etat au Salon de 1822, conservé au Louvre (INV 3820 ; L 3837 – <ref
+            target="https://collections.louvre.fr/ark:/53355/cl010065871"
+            >https://collections.louvre.fr/ark:/53355/cl010065871</ref>).</note> qui fait partie de
+        la <placeName>galerie du Luxembourg</placeName>. Vous aviez bien voulu lui dire que cette
+        autorisation suffirait pour obtenir la vôtre ; cependant cette lettre ne paraît pas suffire
+        parce que vous avez jugé à propos de refuser ou du moins d’ajourner votre permission. Il me
+        serait très préjudiciable de ne pouvoir lui faire commencer de suite cette entreprise<note
+          place="bottom">Delacroix avait déjà écrit une première fois à Alphonse de Cailleux pour
+          lui demander l’autorisation de faire graver le tableau par Masson (lettre du <ref
+            type="letter">31 mars 1846</ref>).</note>. <persName>M. Masson</persName> a quitté
+        d’autres travaux pour celui-ci <pb n="2" xml:id="p2"/> et je ne sais s’il pourrait le
+        reprendre plus tard. J’ose donc vous prier de vouloir bien accorder cette permission qui
+        jusqu’ici ne m’avait pas été refusée pour d’autres ouvrages dans le même cas.</p>
+
+
+      <closer>
+        <salute>Agréez, <persName>Monsieur</persName>, les assurances de la considération très
+          distinguée avec laquelle j’ai l’honneur d’être votre très obéissant serviteur.</salute>
+        <signed><persName>Eug. Delacroix</persName></signed>
+        <dateline>le <date>2 avril 1846</date>.</dateline>
+      </closer>
+    </body>
+  </text>
+</TEI>
