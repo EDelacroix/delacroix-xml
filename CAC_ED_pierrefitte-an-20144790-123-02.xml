@@ -86,38 +86,43 @@
       <opener>
         <salute>
           <pb n="1" xml:id="p1"/>
-          <persName>Monsieur</persName><note place="bottom">Le destinataire de la lettre peut être
-            identifié comme Alphonse de Cailleux (1788-1876), en sa qualité de directeur des musées
-            royaux. Il commença sa carrière dans les musées sous la Restauration en qualité de
-            secrétaire général, avant de devenir directeur adjoint, puis directeur général en 1841.
-            Il quitta ses fonctions suite à la chute du régime de Louis-Philippe.</note>,</salute>
+          <persName key="Cailleux, Alphonse de (1788-1876)">Monsieur</persName><note place="bottom"
+            >Le destinataire de la lettre peut être identifié comme Alphonse de Cailleux
+            (1788-1876), en sa qualité de directeur des musées royaux. Il commença sa carrière dans
+            les musées sous la Restauration en qualité de secrétaire général, avant de devenir
+            directeur adjoint, puis directeur général en 1841. Il quitta ses fonctions suite à la
+            chute du régime de Louis-Philippe.</note>,</salute>
       </opener>
 
 
-      <p><persName>M. Masson</persName><note place="bottom">Alphonse Masson (1814-1898), peintre et
-          graveur, exécuta de nombreuses estampes d’après les œuvres de Delacroix.</note>, graveur,
-        a eu l’honneur de vous présenter de ma part une autorisation pour graver <rs type="work">mon
+      <p><persName key="Masson, Alphonse (1814-1898)">M. Masson</persName><note place="bottom"
+          >Alphonse Masson (1814-1898), peintre et graveur, exécuta de nombreuses estampes d’après
+          les œuvres de Delacroix.</note>, graveur, a eu l’honneur de vous présenter de ma part une
+        autorisation pour graver <rs type="work" key="Dante et Virgile aux enfers (J100)">mon
           tableau de Dante</rs><note place="bottom"><hi rend="it">Dante et Virgile aux enfers</hi>
           (J 100), acquis par l’Etat au Salon de 1822, conservé au Louvre (INV 3820 ; L 3837 – <ref
             target="https://collections.louvre.fr/ark:/53355/cl010065871"
             >https://collections.louvre.fr/ark:/53355/cl010065871</ref>).</note> qui fait partie de
-        la <placeName>galerie du Luxembourg</placeName>. Vous aviez bien voulu lui dire que cette
-        autorisation suffirait pour obtenir la vôtre ; cependant cette lettre ne paraît pas suffire
-        parce que vous avez jugé à propos de refuser ou du moins d’ajourner votre permission. Il me
-        serait très préjudiciable de ne pouvoir lui faire commencer de suite cette entreprise<note
-          place="bottom">Delacroix avait déjà écrit une première fois à Alphonse de Cailleux pour
-          lui demander l’autorisation de faire graver le tableau par Masson (lettre du <ref
-            type="letter">31 mars 1846</ref>).</note>. <persName>M. Masson</persName> a quitté
-        d’autres travaux pour celui-ci <pb n="2" xml:id="p2"/> et je ne sais s’il pourrait le
-        reprendre plus tard. J’ose donc vous prier de vouloir bien accorder cette permission qui
-        jusqu’ici ne m’avait pas été refusée pour d’autres ouvrages dans le même cas.</p>
+        la <placeName key="France, Paris, Musée du Luxembourg">galerie du Luxembourg</placeName>.
+        Vous aviez bien voulu lui dire que cette autorisation suffirait pour obtenir la vôtre ;
+        cependant cette lettre ne paraît pas suffire parce que vous avez jugé à propos de refuser ou
+        du moins d’ajourner votre permission. Il me serait très préjudiciable de ne pouvoir lui
+        faire commencer de suite cette entreprise<note place="bottom">Delacroix avait déjà écrit une
+          première fois à Alphonse de Cailleux pour lui demander l’autorisation de faire graver le
+          tableau par Masson (lettre du <ref type="letter"
+            target="CAC_ED_pierrefitte-an-20144790-123-03.xml">31 mars 1846</ref>).</note>.
+          <persName key="Masson, Alphonse (1814-1898)">M. Masson</persName> a quitté d’autres
+        travaux pour celui-ci <pb n="2" xml:id="p2"/> et je ne sais s’il pourrait le reprendre plus
+        tard. J’ose donc vous prier de vouloir bien accorder cette permission qui jusqu’ici ne
+        m’avait pas été refusée pour d’autres ouvrages dans le même cas.</p>
 
 
       <closer>
-        <salute>Agréez, <persName>Monsieur</persName>, les assurances de la considération très
-          distinguée avec laquelle j’ai l’honneur d’être votre très obéissant serviteur.</salute>
-        <signed><persName>Eug. Delacroix</persName></signed>
-        <dateline>le <date>2 avril 1846</date>.</dateline>
+        <salute>Agréez, <persName key="Cailleux, Alphonse de (1788-1876)">Monsieur</persName>, les
+          assurances de la considération très distinguée avec laquelle j’ai l’honneur d’être votre
+          très obéissant serviteur.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+        <dateline>le <date when="1846-04-02">2 avril 1846</date>.</dateline>
       </closer>
     </body>
   </text>
