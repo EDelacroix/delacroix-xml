@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, 8 février [1832]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>{corrections}</name>
+          <name>{corrections}</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec les amis de jeunesse</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Musée du Louvre</institution>
+            <repository>Département des Arts graphiques</repository>
+            <idno>A 556</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="5"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Etienne Moreau-Nélaton</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, I, p. 310-312.</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1832-02-08"/>
+          <placeName key="Maroc, Tanger">Tanger</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Pierret, Jean-Baptiste (1795-1854)"/>
+          <placeName key="France, Paris, rue Sainte-Anne, 18"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="4&#10;" xml:id="p4&#10;"/>
+            <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur Pierret jeune</persName> Et
+            à <persName key="Guillemardet, Félix (1796-1842)">M. Guillemardet (Félix)</persName>
+            <placeName key="France, Paris, rue Sainte-Anne, 18">Rue Sainte-Anne n°
+            18</placeName></addrLine>
+        </address>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <placeName key="Maroc, Tanger">Tanger</placeName>, <date when="1832-02-08">8
+            février</date></dateline>
+      </opener>
+
+
+      <p>Chers amis, je vous écris à tous deux. Vous ne pouvez ni l’un ni l’autre vous en
+        formaliser, attendu que mes sentiments pour tous deux sont, vous le savez, les mêmes, et que
+        ce que je dis à l’un, je le dis à l’autre. Il y a eu une occasion dernièrement dont j’ai été
+        averti trop tard pour en profiter. Il faut faire comme on peut. Je suis vraiment dans
+          <placeName key="Maroc">un pays</placeName> fort curieux. Ma santé y est bonne, je crains
+        seulement un peu pour mes yeux. Quoique le soleil ne soit pas encore très fort, l’éclat et
+        la réverbération des maisons, qui sont toutes peintes en blanc, ma fatiguent excessivement.
+        Je m’insinue petit à petit dans les façons du pays, de manière à arriver à dessiner à mon
+        aise bien de ces figures de Maures. Leurs préjugés sont très grands contre <pb n="2"
+          xml:id="p2"/> le bel art de la peinture, mais quelques pièces d’argent par-ci par-là
+        arrangent leurs scrupules. Je fais des promenades à cheval aux environs qui me font un
+        plaisir infini, et j’ai des moments de paresse délicieuse dans un jardin aux portes de la
+        ville, sous des profusions d’orangers en fleurs et couverts de fruits. Au milieu de cette
+        nature vigoureuse, j’éprouve des sensations pareilles à celles que j’avais dans l’enfance.
+        Peut-être que le souvenir confus du soleil du <placeName key="France, Marseille"
+          >Midi</placeName>, que j’ai vu dans ma première jeunesse<note place="bottom">De 1803 à
+          1805 Delacroix a vécu avec sa famille à Marseille, lorsque son père y était préfet.
+        </note>, se réveille en moi. Tout ce que je pourrai faire ne sera que bien peu de chose en
+        comparaison de ce qu’il y a à faire ici. Quelquefois les bras m’en tombent, et je suis
+        certain de n’en rapporter qu’une ombre.</p>
+      <p>Je ne me souviens pas si j’ai pu, dans ma dernière lettre, vous parler de ma réception chez
+          <persName key="Saïdi Sidi, Larabi">le pacha</persName><note place="bottom">Il s’agit de
+          Sidi Larabi Saïdi, pacha et gouverneur de Tanger. </note>, trois jours après celle qu’il
+        nous fit sur le port ; je vous en <pb n="3"/> fatiguerai du reste. Je ne crois pas
+        non plus vous avoir écrit depuis une course que nous avons faite aux environs de la ville
+        avec <persName key="Drummond Hay, Edward">le consul anglais</persName><note place="bottom"
+          >Il s’agit du capitaine Edward Drummond Hay.</note>, qui a la manie de monter les chevaux
+        difficiles du pays, et ce n’est pas peu dire car les plus doux sont tous des diables. Deux
+        de ces chevaux ont pris dispute, et j’ai vu la bataille la plus acharnée qu’on puisse
+          imaginer<note place="bottom">Cette scène de combat a été reprise par Delacroix dans
+          plusieurs œuvres, notamment dans la toile <hi rend="it">Rencontre de Cavaliers
+          Maures</hi>, qui a été refusée au Salon de 1834 (Joubin, I, p. 311 et Robaut, p. 41 et
+          125).</note> : tout ce que <persName key="Gros, Antoine-Jean (1771-1835)">Gros</persName>
+        et <persName key="Rubens, Pierre Paul (1577-1640)">Rubens</persName> ont inventé de folies
+        n’est que peu de chose auprès. Après s’être mordus de toutes les manières en se grimpant
+        l’un sur l’autre, et en marchant sur leurs pieds de derrière comme des hommes, après s’être,
+        bien entendu, débarrassés de leurs cavaliers, ils ont été se jeter dans une petite rivière
+        dans laquelle le combat a continué avec une fureur inouïe. Il a fallu des peines de diable
+        pour les tirer de là.</p>
+      <p><persName key="Abd-el-Rahman, Moulay (1778-1859)">L’empereur</persName><note place="bottom"
+          >Il s’agit du sultan du Maroc Moulay Abd-er-Rahman (1778-1859), que Delacroix représentera
+          dans son tableau de 1845 <hi rend="it">Moulay Abd-Er-Rahman, sultan du Maroc, sortant de
+            son palais de Meknès, entouré de sa garde et de ses principaux officiers</hi>. </note>
+        s’apprête à nous faire une réception des plus magnifiques. Il veut nous donner une haute
+        idée de sa puissance. <pb n="4"/> Nous commençons à craindre qu’il ne lui prenne
+        fantaisie d’aller à <placeName key="Marrakech, Maroc">Maroc</placeName><note place="bottom"
+          >Il s’agit de la ville de Marrakech.</note> nous recevoir, ce qui nous ferait faire près
+        de 400 lieues à cheval pour aller et venir. Il est vrai que c’est un voyage des plus curieux
+        et que très peu de chrétiens peuvent se vanter d’avoir fait. Il est probable qu’il nous
+        recevra à <placeName key="Meknès, Maroc">Méquinez</placeName><note place="bottom">Il s’agit
+          de la ville de Meknès.</note>, une des capitales de l’Empire. La meilleure manière de
+        m’écrire est celle-ci : affranchir jusqu’à la frontière et mettre cette adresse : A M.
+        Thibeaudier, agent consulaire de France, à <placeName key="Royaume-Uni, Gibraltar"><hi
+            rend="u">Gibraltar</hi></placeName>, pour remettre à <placeName key="Maroc, Tanger"><hi
+            rend="u">Tanger</hi></placeName>, à <persName key="Delacroix, Eugène (1798-1863)">M.
+          Delacroix</persName>. <pb n="p.4bis"/> Ou plutôt envoyez vos lettres à <persName
+          key="Piron, Achille (1798-1865)">Piron</persName>, qui les enverra franches. Je lui écris
+          <hi rend="u">à cet effet</hi>. Je crois que cette voie est plus sûre que celle de
+        <persName key="Feuillet de Conches, Félix (1798-1887)">Feuillet</persName><note place="bottom">Officiellement, c’est Félix Feuillet de
+          Conches (1798-1887) qui devait s’occuper d’expédier le courrier de Delacroix à Tanger, en
+          qualité de chef du protocole au ministère des Affaires étrangères (Joubin, I, p.
+          306).</note>, attendu que les Affaires étrangères sont quelquefois négligentes ; <pb n="1"
+            xml:id="p1bis"/> Je prie <persName key="Pierret, Jean-Baptiste (1795-1854)">Pierret</persName> d’écrire à
+          Bastien<note place="bottom">Bastien était un modèle de Delacroix, qui
+          s’occupait également des tâches domestiques (Joubin, I, p. 312).</note> de faire souvent
+        battre mes habits de peur des vers.</p>
+    </body>
+  </text>
+</TEI>
