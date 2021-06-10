@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à [Hippolyte Fortoul], 6 décembre 1852</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">L'Institut</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Pierrefitte-sur-Seine</settlement>
+            <institution>Archives nationales</institution>
+
+            <idno>F/17/3592</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1852-12-06"/>
+          <placeName key="France, Paris">Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Fortoul, Hippolyte 1811-1856)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <placeName key="France, Paris">Paris</placeName>, <date when="1852-12-06">6 décembre
+            1852</date></dateline>
+        <salute><persName key="Fortoul, Hippolyte 1811-1856)">Monsieur le Ministre</persName><note
+            place="bottom">La lettre est vraisemblablement adressée à Hippolyte Fortoul (1811-1856),
+            ministre de l’Instruction publique et des Cultes du 3 décembre 1851 au 1<hi rend="sup"
+              >er</hi> juillet 1856.</note>, </salute>
+      </opener>
+
+
+      <p>Des motifs impérieux me forcent à renoncer à la faveur que j’avais obtenue d’occuper un
+        logement dans les bâtiments de l’<placeName key="France, Paris, Institut"
+          >Institut</placeName> et j’ai l’honneur de vous prévenir de cette résolution<note
+          place="bottom">Dans une lettre du <ref type="letter"
+            target="CAC_ED_pierrefitte-an-f17-3592-02.xml">7 octobre 1850</ref> adressée à son
+          prédécesseur Félix Esquirou de Parieu (1815-1893), Delacroix sollicitait l’obtention d’un
+          logement au palais de l’Institut. Pour ce faire, le peintre avait notamment sollicité
+          l’aide de son amie Joséphine de Forget (lettre du <ref type="letter"
+            target="CAC_ED_inha-aut120-1398-04g-3">16 novembre 1850</ref>). Une autre lettre du <ref
+            type="letter" target="CAC_ED_pierrefitte-an-f17-3592-03">8 octobre 1851</ref> rend
+          compte des autres démarches entreprises par Delacroix pour l’obtention d’un
+          logement.</note>. En refusant cette distinction pour moi-même, me sera-t-il permis
+        d’appeler votre bienveillance sur une demande qui y est relative, et que j’ose espérer que
+        vous trouverez recommandable à plus d’un titre ; c’est celle qu’a eu l’honneur de vous
+        adresser <persName key="Alaux, Jean (1786-1864)">M. Alaux</persName><note place="bottom"
+          >Jean Alaux, dit le Romain (1786-1864), ancien élève de Guérin, bénéficia sous la
+          monarchie de Juillet des faveurs du régime, obtenant des commandes officielles pour le
+          Louvre, le Conseil d’État et le palais du Luxembourg. Il occupa le poste de directeur de
+          l’Académie de France à Rome de 1847 à 1852 et entra à l’Institut en 1851.</note>,
+        directeur de l’<placeName key="Italie, Rome, Académie de France à Rome">École française à
+          Rome</placeName>, lequel est sans fortune et possède tous les mérites qui donnent des
+        droits à de semblables faveurs du gouvernement. Je ne prends la liberté <pb n="2"
+          xml:id="p2"/> d’introduire cette demande auprès de vous, <persName
+          key="Fortoul, Hippolyte 1811-1856)">Monsieur le Ministre</persName>, qu’en vous priant
+        instamment de vouloir bien excuser ce qu’elle peut avoir d’indiscret et ne puis me reposer
+        dans cette circonstance que sur la bienveillance extrême dont vous voulez bien
+        m’honorer.</p>
+
+
+      <closer>
+        <salute>J’ai l’honneur d’être avec la plus respectueuse considération, <persName
+            key="Fortoul, Hippolyte 1811-1856)">Monsieur le Ministre</persName>, votre très humble
+          et très obéissant serviteur</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+        <address>
+          <addrLine>peintre d’Histoire, <placeName
+              key="France, Paris, rue Notre-Dame de Lorette, 58">rue Notre-Dame de Lorette,
+              58</placeName></addrLine>
+        </address>
+      </closer>
+    </body>
+  </text>
+</TEI>

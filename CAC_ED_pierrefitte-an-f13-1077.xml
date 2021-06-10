@@ -69,7 +69,7 @@
         <correspAction type="sent">
           <persName key="Delacroix, Eugène (1798-1863)"/>
           <date when="1834-06-03"/>
-          <placeName>Paris</placeName>
+          <placeName key="France, Paris">Paris</placeName>
         </correspAction>
         <correspAction type="received">
           <persName key="Edmond Blanc (1813-1882)"/>

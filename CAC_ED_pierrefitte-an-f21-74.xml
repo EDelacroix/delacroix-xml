@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à [Achille Fould], 5 mai 1858</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Pierrefitte-sur-Seine</settlement>
+            <institution>Archives nationales</institution>
+
+            <idno>F/21/74</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, IV, p. 29</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1858-05-05"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Fould, Achille (1800-1867)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Ce <date>5 mai 1858</date></dateline>
+        <salute><persName key="Fould, Achille (1800-1867)">Monsieur le Ministre</persName><note
+            place="bottom">Achille Fould (1800-1867) fut ministre d’État de 1852 à
+          1860.</note>,</salute>
+      </opener>
+
+
+      <p>Retenu encore par une longue convalescence et souvent absent de <placeName
+          key="France, Paris">Paris</placeName>, j’avais négligé de rappeler à <persName
+          key="Fould, Achille (1800-1867)">Votre Excellence</persName> qu’elle avait bien voulu me
+        faire espérer que le ministère d’État pourrait faire l’acquisition de mon tableau
+        représentant la <rs type="work" key="La Mort de Marc-Aurèle (J281)">Mort de
+        Marc-Aurèle</rs>, lequel a figuré à l’Exposition de 1855<note place="bottom">Sous le Second
+          Empire, le ministre d’État pouvait intervenir dans la politique des beaux-arts, notamment
+          en réalisant des acquisitions. Depuis l’Exposition universelle de 1855, Delacroix essayait
+          de vendre son tableau peint plus de dix ans auparavant et qui avait été présenté au Salon
+          de 1845 (n° 436).</note>. C’est un ouvrage d’une dimension moyenne, trop considérable
+        cependant pour figurer dans la galerie d’un particulier. <persName
+          key="Fould, Achille (1800-1867)">Votre Excellence</persName> avait bien voulu accueillir
+        cette considération et trouver l’acquisition convenable, soit pour un musée de province,
+        soit pour l’un des palais impériaux<note place="bottom">Le tableau de Delacroix fut acquis
+          par l’État par arrêté du 21 mai 1858 pour la somme de 10 000 francs et envoyé au musée des
+          beaux-arts de Lyon (Inv. A 2928 - <ref
+            target="https://www.mba-lyon.fr/fr/fiche-oeuvre/dernieres-paroles-de-lempereur-marc-aurele"
+            >https://www.mba-lyon.fr/fr/fiche-oeuvre/dernieres-paroles-de-lempereur-marc-aurele</ref>).</note>.</p>
+      <p>En prenant la liberté de rappeler à <persName key="Fould, Achille (1800-1867)">Votre
+          Excellence</persName> la demande que j’avais eu l’honneur de lui faire et que mon
+        indisposition prolongée m’a empêché de suivre, j’étais passé également pour vous <pb n="2"
+          xml:id="p2"/> présenter mes devoirs après ma longue absence et pour vous assurer de
+        nouveau qu’elle n’a pas affaibli le souvenir reconnaissant de toutes les marques d’intérêt
+        que j’ai reçues de votre haute bienveillance.</p>
+
+
+      <closer>
+        <salute>J’ai l’honneur d’être, avec un profond respect, <persName
+            key="Fould, Achille (1800-1867)">Monsieur le Ministre</persName>, de <persName
+            key="Fould, Achille (1800-1867)">Votre Excellence</persName>, le très humble et très
+          obéissant serviteur</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+        <address>
+          <addrLine><placeName key="France, Paris, rue de Furstemberg, 6">rue de Furstemberg, n° 6,
+              faubourg Saint-Germain</placeName>,</addrLine>
+        </address>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
