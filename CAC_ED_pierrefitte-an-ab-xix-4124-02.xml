@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à [Alexandre Thierry], 16 mai [1853]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Le conseil municipal de Paris</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Pierrefitte-sur-Seine</settlement>
+            <institution>Archives nationales</institution>
+
+            <idno>AB/XIX/4124</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1853-05-16"/>
+          <placeName key="France, Champrosay">Champrosay</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Thierry, Alexandre (1803-1858)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <placeName key="France, Champrosay">Champrosay</placeName> ce <date when="1853-05-16">16
+            mai</date><note place="bottom">Le contenu de la lettre permet de la dater de
+            1853.</note></dateline>
+        <salute><persName key="Thierry, Alexandre (1803-1858)">Cher collègue</persName><note
+            place="bottom">Le destinataire est Alexandre Thierry <hi rend="it">fils</hi>
+            (1803-1858), comme le laisse supposer la provenance et la teneur de la lettre. Thierry,
+            médecin et docteur en chirurgie, fit la connaissance de Delacroix au Conseil municipal
+            de la Ville de Paris.</note>,</salute>
+      </opener>
+
+
+      <p>Je ne puis assez-vous remercier de vos deux bonnes lettres et de ce que vous voulez bien me
+        dire d’obligeant et d’aimable pour moi en particulier. Je ne vous l’ai pas écrit tout de
+        suite parce que je comptais vous le dire moi-même vendredi dernier et quoique j’ai été ce
+        jour-là à <placeName key="France, Paris">Paris</placeName> pour affaires, je n’ai pu aller
+        au Conseil<note place="bottom">Alexandre Thierry fut membre du Conseil municipal de 1843 à
+          1848, avant de le redevenir en juillet de la même année jusqu’à sa mort en 1858.</note>
+        comme je l’espérais. Je suis bien heureux de voir que vous ne désespérez pas d’obtenir un
+        bon résultat pour l’affaire du <persName key="Rogat, Albert (1841-1903)">jeune
+          Rogat</persName><note place="bottom">Albert Rogat, dit Borel-Rogat (1841-1903), était le
+          fils d’Émile Rogat (1770-1850), sculpteur et médailleur, ami de David d’Angers. Ce dernier
+          se préoccupait de l’avenir du jeune Rogat qui n’avait obtenu qu’une demi-bourse pour le
+          lycée Napoléon, alors que sa mère, veuve, ne pouvait payer le complément. Delacroix évoque
+          cette demande dans son journal au 2 mai 1853 (Hannoosh, p. 646-647). La lettre
+          qu’Alexandre Thierry écrivit à Delacroix le 6 mai 1853, précédant celle-ci, est conservée
+          à la bibliothèque de l’INHA, fonds BCMN, Ms. 507 (06), pièce 77. Albert Rogat devint
+          journaliste.</note>. Je n’avais pas attendu votre seconde lettre pour en instruire
+          <persName key="David d'Angers, Pierre Jean (1788-1856)">David</persName><note
+          place="bottom">Pierre-Jean David d’Angers (1788-1856), qui demanda l’aide de Delacroix
+          pour le fils de son ami.</note> qui sera bien sensible, je n’en doute pas, à l’intérêt <pb
+          n="2" xml:id="p2"/> que vous prenez à sa demande. Vous ignorez qu’il est à <placeName
+          key="France, Paris">Paris</placeName> et rentré. J’espère qu’il aura fait comme beaucoup
+        d’honnêtes gens entraînés passagèrement et qu’il aura compris le creux de toutes les utopies
+        que nous avons vu exalter sous nos yeux. Au reste, ce sont des questions que nous n’avons
+        jamais traitées ensemble, attendu que je n’avais pas attendu ces récentes épreuves pour être
+        complètement désabusé.</p>
+
+
+      <closer>
+        <salute>Je vous répéterai tout cela vendredi prochain, <persName>cher collègue</persName>,
+          en vous priant d’avance de croire à la sincérité de mon sentiment d’estime et de
+          dévouement.</salute>
+        <signed>Eug. Delacroix.</signed>
+      </closer>
+    </body>
+  </text>
+</TEI>
