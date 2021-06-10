@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à [Félix Esquirou de Parieu], 7 octobre 1850</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">L'Institut</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Pierrefitte-sur-Seine</settlement>
+            <institution>Archives nationales</institution>
+
+            <idno>F/17/3592</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1850-10-07"/>
+          <placeName key="France, Paris">Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Esquirou de Parieu, Félix (1815-1893)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <placeName key="France, Paris">Paris</placeName>, le <date when="1850-10-07">7 octobre
+            1850</date></dateline>
+        <salute><persName key="Esquirou de Parieu, Félix (1815-1893)">Monsieur le
+            Ministre</persName><note place="bottom">Félix Esquirou de Parieu (1815-1893) fut
+            ministre de l’Instruction publique et des cultes du 31 octobre 1849 au 24 janvier
+            1851.</note>,</salute>
+      </opener>
+
+
+      <p>J’ai l’honneur de vous soumettre une demande relative à l’obtention d’un logement au
+          <placeName key="France, Paris, Institut">palais de l’Institut</placeName><note
+          place="bottom">Delacroix réitéra sa demande dans une lettre du <ref type="letter"
+            target="CAC_ED_pierrefitte-an-f17-3592-03">8 octobre 1851</ref>. Il obtint gain de cause
+          en 1852, mais écrivit au successeur de Parieu, Hippolyte Fortoul (1811-1856), pour
+          l’informer qu’il renonçait au logement (lettre du <ref type="letter"
+            target="CAC_ED_pierrefitte-an-3592-01">6 décembre 1852</ref>).</note>. Je suis placé
+        depuis longtemps au ministère de l’Intérieur au nombre des artistes auxquels une vacance
+        donnerait droit à une indemnité de logement. Si mes titres à la faveur que je sollicite vous
+        paraissaient suffisamment fondés, je prendrais la liberté de vous désigner comme pouvant
+        devenir disponible prochainement le logement occupé par <persName
+          key="Ampère, Jean Jacques (1800-1864)">M. Ampère</persName><note place="bottom"
+          >Jean-Jacques Ampère (1800-1864), historien spécialiste du Moyen Âge et d’histoire
+          romaine, fit son entrée à l’Institut en 1842.</note>, en vous priant d’observer que ce
+        logement avait été précédemment attribué à des artistes. <persName
+          key="Ampère, Jean Jacques (1800-1864)">M. Ampère</persName> n’étant plus bibliothécaire à
+          l’<placeName key="France, Paris, Institut">Institut</placeName> paraît vouloir renoncer à
+        y habiter. Dans le cas néanmoins où je serais induit en erreur à cet égard et où il
+        conserverait son logement, j’oserais vous prier de vouloir bien vous rappeler, pour la plus
+        prochaine occasion, la demande que j’ai l’honneur de vous adresser et qui sera, comme je
+        l’espère, recommandée près de vous par <persName key="Baroche, Pierre Jules (1802-1870)"
+          >Monsieur le Ministre de l’Intérieur</persName><note place="bottom">Pierre Jules Baroche
+          (1802-1870) fut ministre de l'Intérieur du 15 mars 1850 au 24 janvier 1851.</note>.</p>
+
+
+      <closer>
+        <salute>J’ai l’honneur <pb n="2" xml:id="p2"/> d’être avec la plus haute considération,
+            <persName key="Esquirou de Parieu, Félix (1815-1893)">Monsieur le Ministre</persName>,
+          votre très humble et très obéissant serviteur,</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName>, peintre
+          d’histoire</signed>
+        <address>
+          <addrLine><placeName key="France, Paris, rue Notre-Dame de Lorette, 58">rue
+              Notre-Dame-de-Lorette, n° 58</placeName></addrLine>
+        </address>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

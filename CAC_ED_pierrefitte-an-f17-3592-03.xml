@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à [Frédéric Dombidau de Crouseilhes], 8 octobre
+          1851</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">L'Institut</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Pierrefitte-sur-Seine</settlement>
+            <institution>Archives nationales</institution>
+
+            <idno>F/17/3592</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1838-02-06"/>
+          <placeName key="France, Paris">Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Frédéric Dombidau de Crouseilhes (1792-1861)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <pb n="1" xml:id="p1"/>
+        <dateline><placeName key="France, Paris">Paris</placeName>, ce <date when="1851-10-08">8
+            octobre 1851</date></dateline>
+        <salute><persName key="Frédéric Dombidau de Crouseilhes (1792-1861)">Monsieur le
+            Ministre</persName><note place="bottom">Frédéric Dombidau de Crouseilhes (1792-1861) fut
+            ministre de l’Instruction publique et des Cultes du 10 avril au 26 octobre 1851.</note>,
+        </salute>
+      </opener>
+
+
+      <p>Depuis que j’ai eu l’honneur de vous adresser une demande relative au logement vacant de
+          l’<placeName key="France, Paris, Institut">Institut</placeName> par le décès de <persName
+          key="Legendre-Héral, Jean François (1796-1851)">M. Legendre-Héral</persName><note
+          place="bottom">Le sculpteur Jean François Legendre-Héral (1796-1851) avait bénéficié en
+          1841 d’un logement au palais de l’Institut.</note>, j’ai appris qu’un second local était
+        également à votre disposition ; ce logement est celui qui était occupé par <persName
+          key="Etex, Antoine (1808-1888)">M. Étex</persName><note place="bottom">Antoine Étex
+          (1808-1888), sculpteur, mais aussi peintre, graveur et architecte, eut des relations
+          difficiles avec l’Institut.</note>, à qui il a été retiré. Je prends la liberté de vous en
+        faire la demande en supprimant celle que j’avais formée précédemment<note place="bottom"
+          >Delacroix avait déjà formulé une demande pour le logement libéré par Jean-Jacques Ampère
+          (1800-1864) (lettre du <ref type="letter" target="CAC_ED_pierrefitte-an-f17-3592-02.xml">7
+            octobre 1850</ref> à Hippolyte Fortoul).</note>. Cette démarche que j’ose faire près de
+        vous est fondée sur une plus grande convenance du logement. Je serais bien heureux,
+          <persName key="Frédéric Dombidau de Crouseilhes (1792-1861)">Monsieur le
+          Ministre</persName>, que vous ne me trouvassiez pas indigne de la faveur que je sollicite
+        de votre bienveillance.</p>
+
+
+      <closer>
+        <salute>J’ai l’honneur d’être avec <pb n="2" xml:id="p2"/> respect, <persName
+            key="Frédéric Dombidau de Crouseilhes (1792-1861)">Monsieur le Ministre</persName>,
+          votre très humble et très obéissant serviteur.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName> peintre
+          d’histoire, officier de la Légion d’honneur</signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

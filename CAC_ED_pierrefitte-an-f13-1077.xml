@@ -7,13 +7,14 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Lettre d’Eugène Delacroix à Gihaut, 3 octobre 1843-44</title>
+        <title>Lettre d’Eugène Delacroix à [Edmond Blanc], 3 août 1834</title>
         <author key="Delacroix, Eugène (1798-1863)"/>
       </titleStmt>
       <editionStmt>
         <edition>Centre André Chastel — ObTiC</edition>
         <respStmt>
           <resp>Transcription</resp>
+          <name>Brice Ameille</name>
           <name>Baptiste Dumas-Piro</name>
         </respStmt>
         <respStmt>
@@ -34,7 +35,7 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Correspondance d'Eugène Delacroix</title>
-        <title type="sub">Eugène Delacroix et l'estampe</title>
+        <title type="sub">Les grandes commandes publiques</title>
 
       </seriesStmt>
       <sourceDesc>
@@ -43,13 +44,14 @@
             <country>France</country>
             <settlement>Pierrefitte-sur-Seine</settlement>
             <institution>Archives nationales</institution>
-            <idno>339AP/156</idno>
+
+            <idno>F/13/1077</idno>
           </msIdentifier>
           <physDesc>
             <objectDesc form="letter">
               <supportDesc>
                 <extent>
-                  <measure unit="page" quantity="2"/>
+                  <measure unit="page" quantity="1"/>
                 </extent>
               </supportDesc>
             </objectDesc>
@@ -57,18 +59,20 @@
           </physDesc>
 
         </msDesc>
-
+        <listBibl>
+          <bibl>Joubin, I, p. 379</bibl>
+        </listBibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <correspDesc>
         <correspAction type="sent">
           <persName key="Delacroix, Eugène (1798-1863)"/>
-          <date notbefore="1843-10-03" notafter="1844-10-03"/>
-
+          <date when="1834-06-03"/>
+          <placeName key="France, Paris">Paris</placeName>
         </correspAction>
         <correspAction type="received">
-          <persName key="Gihaut"/>
+          <persName key="Edmond Blanc (1813-1882)"/>
         </correspAction>
 
       </correspDesc>
@@ -81,32 +85,36 @@
     <body>
 
 
-
       <opener>
-        <pb n="1" xml:id="p1"/>
-        <address><persName key="Gihaut">Monsieur Gihaut</persName>
-        <note place="bottom">Gihaut était éditeur d’estampes.</note></address>
-        <pb n="2" xml:id="p2"/>
-        <salute>
-          <persName key="Gihaut">Monsieur</persName>,</salute>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <placeName key="France, Paris">Paris</placeName>, <date when="1834-06-03">3 août
+            1834</date></dateline>
+        <salute><persName key="Edmond Blanc (1813-1882)">Monsieur</persName><note place="bottom">Le
+            contenu de la lettre laisse comprendre que son destinataire est Edmond Blanc
+            (1813-1882), directeur des Bâtiments publics au ministère de l’Intérieur (Joubin, I, p.
+            379).</note>, </salute>
       </opener>
-      
-      <p>Je n’avais pas réfléchi l’autre jour quand je vous ai proposé de vendre au détail les <rs
-          type="work" key="Hamlet, lithographies">épreuves sur Chine</rs> 30 sous que ce serait
-        meilleur marché qu’en les prenant ensemble. Je pense qu’il faudrait les augmenter ; ainsi on
-        les mettrait à 35 <hi rend="u">sous</hi> et les ordinaires à 25 sous, comme nous avions
-          dit<note place="bottom">Il doit s’agir de la série d’<hi rend="it">Hamlet</hi>, constituée
-          de treize planches.</note>.</p>
+
+
+      <p>Les <persName key="Lelong, Paul (1799-1846)"><persName
+            key="Lesueur, Jean-Baptiste (1794-1883)">architectes</persName></persName> de la
+          <placeName key="France, Paris, Assemblée nationale">Chambre des députés</placeName><note
+          place="bottom">Il s’agit des architectes Paul Lelong (1799-1846) et Jean-Baptiste Lesueur
+          (1794-1883).</note> m’ayant dit qu’ils vous avaient présenté les devis des ornements que
+        nous avons jugé nécessaires d’ajouter à la <rs type="work"
+          key="Salon du Roi, Assemblée nationale">décoration du Salon du Roi</rs>, et le moment
+        approchant où il faudra commencer à dorer, je viens vous prier de vouloir bien donner
+        l’autorisation nécessaire auprès des personnes chargées de fournir lesdits ornements.</p>
+      <p>J’use de la liberté que vous avez bien voulu me donner de vous rappeler cette petite
+        affaire.</p>
 
 
       <closer>
-        <salute>Recevez, <persName key="Gihaut">Monsieur</persName>, tous mes compliments et
-          salutations.</salute>
+        <salute>Recevez en même temps, l’assurance de la haute considération avec laquelle j’ai
+          l’honneur d’être, <signed><persName key="Edmond Blanc (1813-1882)"
+            >Monsieur</persName></signed>, votre très humble et très obéissant serviteur.</salute>
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
-        <dateline>Ce <date notbefore="1843-10-03" notafter="1844-10-03">3 octobre</date><note
-            place="bottom">Ces estampes ont été publiées en 1843-1844 donc la lettre doit
-            vraisemblablement dater du moment de leur mise en vente (<hi rend="it">Journal</hi>, p.
-            1385).</note></dateline>
       </closer>
     </body>
   </text>
