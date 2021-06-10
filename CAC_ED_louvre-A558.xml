@@ -179,10 +179,10 @@
         espèce de brouette traînée par une mule. Me voici donc au but. Il s’agit maintenant de ne
         pas pourrir trop longtemps en <placeName key="Afrique">Afrique</placeName>. Je crains qu’on
         ne nous retienne un peu à <placeName key="Maroc, Tanger">Tanger</placeName><note
-          place="bottom">À cet endroit, Joubin rajoute un passage dans lequel Delacroix se plaint de
-          ne pas recevoir des lettres depuis la France et réclame des nouvelles de ses amis (Joubin,
-          I, p.323-324). Cependant, il est à présent impossible de retrouver ce fragment de lettre,
-          qui ne fait pas partie des collections du Louvre.</note>.</p>
+          place="bottom">Par erreur, Joubin transcrit ici un passage appartenant à la lettre
+          suivante que Delacroix écrit à Pierret : <ref type="letter"
+            target="CAC_ED_louvre-A559.xml">CAC_ED_louvre-A559</ref> (Joubin, I, p.323-324). La
+          version présentée ici est fidèle au manuscrit de la lettre.</note>.</p>
       <p><persName key="Pierret, Jean-Baptiste (1795-1854)">Pierret</persName>, veux-tu, quand tu
         iras à mon atelier, faire descendre le ressort du chevalet qui porte la <rs type="work"
           key="Bataille de Nancy (J143)"><hi rend="it">Bataille de Nancy</hi></rs><note
@@ -193,7 +193,10 @@
       <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène</persName></signed>
       <postscript>
         <p>Mets à la poste cette lettre pour <persName key="Dalton, Eugénie (1803-1859)">Mme
-            Dalton</persName>. Avertis-la quand tu auras une occasion.</p>
+            Dalton</persName>. Avertis-la quand tu auras une occasion. Profites de toutes les
+          occasions. Les lettres venues par sol sont encore les seules que j’ai reçues. N’écrivez
+          pas par les Affaires Étrangères. Par <persName key="Piron, Achille (1798-1865)"
+            >Piron</persName>, cela vaut mieux. </p>
       </postscript>
     </body>
   </text>
