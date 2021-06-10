@@ -128,10 +128,11 @@
       <p>Je ne me souviens pas si j’ai pu, dans ma dernière lettre, vous parler de ma réception chez
           <persName key="Saïdi Sidi, Larabi">le pacha</persName><note place="bottom">Il s’agit de
           Sidi Larabi Saïdi, pacha et gouverneur de Tanger. </note>, trois jours après celle qu’il
-        nous fit sur le port ; je vous en <pb n="3"/> fatiguerai du reste. Je ne crois pas
-        non plus vous avoir écrit depuis une course que nous avons faite aux environs de la ville
-        avec <persName key="Drummond Hay, Edward">le consul anglais</persName><note place="bottom"
-          >Il s’agit du capitaine Edward Drummond Hay.</note>, qui a la manie de monter les chevaux
+        nous fit sur le port ; je vous en <pb n="3"/> fatiguerai du reste. Je ne crois pas non plus
+        vous avoir écrit depuis une course que nous avons faite aux environs de la ville avec
+          <persName key="Hay, Edward Drummond (1785-1845)">le consul anglais</persName><note
+          place="bottom">Il s’agit d’Edward Drummond Hay (1785-1845), consul de la Grande Bretagne à
+          Tanger au moment de la mission Mornay.</note>, qui a la manie de monter les chevaux
         difficiles du pays, et ce n’est pas peu dire car les plus doux sont tous des diables. Deux
         de ces chevaux ont pris dispute, et j’ai vu la bataille la plus acharnée qu’on puisse
           imaginer<note place="bottom">Cette scène de combat a été reprise par Delacroix dans
@@ -149,28 +150,29 @@
           dans son tableau de 1845 <hi rend="it">Moulay Abd-Er-Rahman, sultan du Maroc, sortant de
             son palais de Meknès, entouré de sa garde et de ses principaux officiers</hi>. </note>
         s’apprête à nous faire une réception des plus magnifiques. Il veut nous donner une haute
-        idée de sa puissance. <pb n="4"/> Nous commençons à craindre qu’il ne lui prenne
-        fantaisie d’aller à <placeName key="Marrakech, Maroc">Maroc</placeName><note place="bottom"
-          >Il s’agit de la ville de Marrakech.</note> nous recevoir, ce qui nous ferait faire près
-        de 400 lieues à cheval pour aller et venir. Il est vrai que c’est un voyage des plus curieux
-        et que très peu de chrétiens peuvent se vanter d’avoir fait. Il est probable qu’il nous
-        recevra à <placeName key="Meknès, Maroc">Méquinez</placeName><note place="bottom">Il s’agit
-          de la ville de Meknès.</note>, une des capitales de l’Empire. La meilleure manière de
-        m’écrire est celle-ci : affranchir jusqu’à la frontière et mettre cette adresse : A M.
-        Thibeaudier, agent consulaire de France, à <placeName key="Royaume-Uni, Gibraltar"><hi
-            rend="u">Gibraltar</hi></placeName>, pour remettre à <placeName key="Maroc, Tanger"><hi
-            rend="u">Tanger</hi></placeName>, à <persName key="Delacroix, Eugène (1798-1863)">M.
+        idée de sa puissance. <pb n="4"/> Nous commençons à craindre qu’il ne lui prenne fantaisie
+        d’aller à <placeName key="Marrakech, Maroc">Maroc</placeName><note place="bottom">Il s’agit
+          de la ville de Marrakech.</note> nous recevoir, ce qui nous ferait faire près de 400
+        lieues à cheval pour aller et venir. Il est vrai que c’est un voyage des plus curieux et que
+        très peu de chrétiens peuvent se vanter d’avoir fait. Il est probable qu’il nous recevra à
+          <placeName key="Meknès, Maroc">Méquinez</placeName><note place="bottom">Il s’agit de la
+          ville de Meknès.</note>, une des capitales de l’Empire. La meilleure manière de m’écrire
+        est celle-ci : affranchir jusqu’à la frontière et mettre cette adresse : A M. Thibeaudier,
+        agent consulaire de France, à <placeName key="Royaume-Uni, Gibraltar"><hi rend="u"
+            >Gibraltar</hi></placeName>, pour remettre à <placeName key="Maroc, Tanger"><hi rend="u"
+            >Tanger</hi></placeName>, à <persName key="Delacroix, Eugène (1798-1863)">M.
           Delacroix</persName>. <pb n="p.4bis"/> Ou plutôt envoyez vos lettres à <persName
           key="Piron, Achille (1798-1865)">Piron</persName>, qui les enverra franches. Je lui écris
           <hi rend="u">à cet effet</hi>. Je crois que cette voie est plus sûre que celle de
-        <persName key="Feuillet de Conches, Félix (1798-1887)">Feuillet</persName><note place="bottom">Officiellement, c’est Félix Feuillet de
-          Conches (1798-1887) qui devait s’occuper d’expédier le courrier de Delacroix à Tanger, en
-          qualité de chef du protocole au ministère des Affaires étrangères (Joubin, I, p.
-          306).</note>, attendu que les Affaires étrangères sont quelquefois négligentes ; <pb n="1"
-            xml:id="p1bis"/> Je prie <persName key="Pierret, Jean-Baptiste (1795-1854)">Pierret</persName> d’écrire à
-          Bastien<note place="bottom">Bastien était un modèle de Delacroix, qui
-          s’occupait également des tâches domestiques (Joubin, I, p. 312).</note> de faire souvent
-        battre mes habits de peur des vers.</p>
+          <persName key="Feuillet de Conches, Félix (1798-1887)">Feuillet</persName><note
+          place="bottom">Officiellement, c’est Félix Feuillet de Conches (1798-1887) qui devait
+          s’occuper d’expédier le courrier de Delacroix à Tanger, en qualité de chef du protocole au
+          ministère des Affaires étrangères (Joubin, I, p. 306).</note>, attendu que les Affaires
+        étrangères sont quelquefois négligentes ; <pb n="1" xml:id="p1bis"/> Je prie <persName
+          key="Pierret, Jean-Baptiste (1795-1854)">Pierret</persName> d’écrire à Bastien<note
+          place="bottom">Bastien était un modèle de Delacroix, qui s’occupait également des tâches
+          domestiques (Joubin, I, p. 312).</note> de faire souvent battre mes habits de peur des
+        vers.</p>
     </body>
   </text>
 </TEI>
