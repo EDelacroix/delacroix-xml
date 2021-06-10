@@ -70,7 +70,7 @@
         <correspAction type="sent">
           <persName key="Delacroix, Eugène (1798-1863)"/>
           <date when="1819-10-29"/>
-          <placeName key="France, Mansle">Mansle</placeName>
+          <placeName key="France, Mansle"></placeName>
         </correspAction>
         <correspAction type="received">
           <persName key="Pierret, Jean-Baptiste (1795-1854)"/>
@@ -115,7 +115,7 @@
         émouvoir ton cœur plus que la réalité ? Quand je me retournerais en cent façons pour te
         présenter des images profondes et désespérantes, qu’est-ce que je t’apprendrais ? Tu as donc
         veillé auprès de <persName key="Pierret, Nicolas">ton père</persName> mort. Cette nuit-là,
-        pauvre <persName key="Pierret, Jean-Baptiste (1795-1854)">cher ami</persName>, elle ne
+        <persName key="Pierret, Jean-Baptiste (1795-1854)">pauvre cher ami</persName>, elle ne
         sortira pas de ta mémoire. Ce que cette nuit-là a vu, ce que cette chambre a vu, est gravé
         devant tes yeux ; ce lit, cette lumière, ce silence à cette heure auprès des restes de
           <persName key="Pierret, Nicolas">ton père</persName>, cela est immortel dans ton
@@ -151,7 +151,7 @@
           ami</persName>, mes larmes m’empêchent de voir ce que j’écris. Après cela elle ne fut plus
         à moi, je ne devais plus la toucher, mais je la vis encore. La chambre se trouva encore
         pleine et c’était un désordre. <persName key="Verninac, Henriette de (1782-1827)">Ma
-          sœur</persName> se prosternait sur le lit, <persName
+          sœur</persName> se prosternait sur ce lit, <persName
           key="Delacroix, Charles-Henry (1779-1845)">mon frère</persName> sanglotait : nos cousins,
         tous nos amis, étaient là. J’étais au pied du lit et je voulus tout voir. Tout d’un coup,
         sans qu’il parut un mouvement, sans que les yeux soient fermés davantage, les couleurs
@@ -168,7 +168,7 @@
         tu pleureras, parce que tu as vu souffrir longtemps celui que tu perds : ta douleur sera
         douce par l’idée de sa délivrance et de ce que tu as fait pour lui. Moi, à cette heure, je
         ne puis me persuader mon isolement : je cherche autour de moi ce qui s’effaça si vite et
-        j’ai rendu <persName key="Œben, Victoire (1758-1814)">ma mère</persName> sans la payer de ce
+        j’ai perdu <persName key="Œben, Victoire (1758-1814)">ma mère</persName> sans la payer de ce
         qu’elle a souffert pour moi et de sa tendresse pour moi. Si j’avais dû ne la voir mourir
         qu’aujourd’hui ou dans quelques années, ma douleur eût été plus vive et plus profonde, mais
         j’aurais véritablement joui de sa vie. Car j’étais trop jeune pour lui marquer à tous les
@@ -200,7 +200,7 @@
         la tête de <persName key="Pierret, Nicolas">ton père</persName> et tu as eu son dernier
         regard. Tu n’as rien perdu de ses souffrances et tu as consommé tous tes sacrifices. Je te
         crois suffisamment dispensé, dans ces circonstances et en considération de <pb n="4"
-          xml:id="p4bis"/> la position de <persName key="Henrion, Annette">ta mère</persName>, de
+          xml:id="p4bis"/>la position de <persName key="Henrion, Annette">ta mère</persName>, de
         toute autre espèce d’engagement, et ton choix ne peut être douteux. Tu te dois à elle, et
         c’est pour elle encore que tu travailleras, quand tu prendras le parti de t’occuper de ce
         que nous projetons. Nous en aurons bien long à nous dire sur tout cela. Je souhaite vivement
