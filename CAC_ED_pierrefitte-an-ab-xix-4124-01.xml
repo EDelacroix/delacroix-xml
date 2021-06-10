@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Alexandre Thierry, 11 janvier [1857]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">L'Institut</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Pierrefitte-sur-Seine</settlement>
+            <institution>Archives nationales</institution>
+
+            <idno>AB/XIX/4124/01</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="1"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1857-01-11"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Thierry, Alexandre (1803-1858)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Ce <date when="1857-01-11">11 janvier</date><note place="bottom"
+            >Il est fort probable que la lettre évoque l’élection de Delacroix à l’Académie des
+            beaux-arts le 10 janvier 1857. En effet, le 22 novembre 1856, Delacroix nota dans son
+            journal : « Thierry vient me trouver à table pour parler de l’Institut » (Hannoosh, p.
+            1045). Le « bon résultat » qu’il évoque plus bas pour lequel son correspondant eut « une
+            bonne part », associé à sa maladie qui l’empêche de sortir depuis trois semaines semble
+            correspondre au contexte de ce début d’année 1857. </note>.</dateline>
+        <salute><persName key="Thierry, Alexandre (1803-1858)">Cher Thierry</persName><note
+            place="bottom">Alexandre Thierry <hi rend="it">fils</hi> (1803-1858), médecin et docteur
+            en chirurgie, fut membre du Conseil municipal de la Ville de Paris de 1843 à 1848, puis
+            à nouveau la même année à partir du mois de juillet jusqu’en 1858, année de sa mort.
+            C’est dans ce contexte qu’il fit la connaissance de Delacroix avec lequel il se lia
+            d’amitié.</note>,</salute>
+      </opener>
+
+
+      <p>Voilà un bon résultat. Vous y avez une bien bonne part, par l’empressement d’ami que vous
+        m’avez montré dès le commencement, ce qui était le point le plus difficile. Vous avez su
+        peut-être que depuis plus de trois semaines je n’ai pu mettre le pied dehors. Cela venait
+        bien mal à propos. Enfin, nous y voilà, et j’ai hâte de vous voir pour vous embrasser !</p>
+
+
+      <closer>
+        <salute>À vous de cœur,</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">E. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
