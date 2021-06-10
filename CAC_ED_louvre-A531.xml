@@ -209,14 +209,18 @@
           ami</persName>, il est tard et il faut faire la part aux autres qui ont aussi daigné
         penser à moi et qui veulent bien m’aimer. Vous êtes de bons amis ; vous n’oubliez pas
         l’absent et l’orphelin. Il n’a que vous, que votre sein où mettre la tête à l’abri de ses
-        petits chagrins humains. Adieu donc. Je t’embrasse tendrement. Ah ! j’oubliais. Est-ce
+        petits chagrins humains. 
+        <closer>
+          <salute>Adieu donc. Je t’embrasse tendrement.</salute>
+        </closer> 
+      <postscript><p> Ah ! j’oubliais. Est-ce
         exiger trop que demander une réponse. Mais ne t’effraye pas. Tu la feras à ton aise et tu
         n’auras pas besoin de l’aide de <persName key="Piron, Achille (1798-1865)">Piron</persName>,
           <pb n="4" xml:id="p4bis"/> pour la remettre à mon portier, pour qu’elle m’attende à mon
         retour et que j’aie encore une fois le plaisir de te lire. Je t’embrasserai déjà en idée.
         Oh ! que le cœur me battra quand j’entrerai dans ta maison. Je m’arrêterai à chaque étage.
         Tâche, ce jour-là, de ne pas avoir le visage ensavonné. Il est bon de s’embrasser tout de
-        suite, à la minute, entends-tu ?</p>
+        suite, à la minute, entends-tu ?</p></postscript>
     </body>
   </text>
 </TEI>

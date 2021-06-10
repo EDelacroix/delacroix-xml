@@ -7,7 +7,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Lettre d’Eugène Delacroix à [Emilien de Nieuwerkerke], 2 avril 1861</title>
+        <title>Lettre d’Eugène Delacroix à Alexandre Thierry, 11 janvier [1857]</title>
         <author key="Delacroix, Eugène (1798-1863)"/>
       </titleStmt>
       <editionStmt>
@@ -18,7 +18,7 @@
         </respStmt>
         <respStmt>
           <resp>Annotation</resp>
-          <name>Baptiste Dumas-Piro</name>
+          <name>Gaëlle Lafage</name>
         </respStmt>
         <respStmt>
           <resp>Corrections</resp>
@@ -34,7 +34,7 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Correspondance d'Eugène Delacroix</title>
-        <title type="sub">Les Salons</title>
+        <title type="sub">L'Institut</title>
 
       </seriesStmt>
       <sourceDesc>
@@ -44,7 +44,7 @@
             <settlement>Pierrefitte-sur-Seine</settlement>
             <institution>Archives nationales</institution>
 
-            <idno>20150042/129</idno>
+            <idno>AB/XIX/4124/01</idno>
           </msIdentifier>
           <physDesc>
             <objectDesc form="letter">
@@ -65,11 +65,11 @@
       <correspDesc>
         <correspAction type="sent">
           <persName key="Delacroix, Eugène (1798-1863)"/>
-          <date when="1861-04-02"/>
+          <date when="1857-01-11"/>
 
         </correspAction>
         <correspAction type="received">
-          <persName key="Nieuwerkerke, Emilien de (1811-1892)"/>
+          <persName key="Thierry, Alexandre (1803-1858)"/>
         </correspAction>
 
       </correspDesc>
@@ -80,30 +80,38 @@
   </teiHeader>
   <text>
     <body>
+
+
+
       <opener>
         <dateline>
-          <pb n="1" xml:id="p1"/> Ce <date when="1861-04-02">2 avril 1861</date></dateline> À
-          <persName key="Nieuwerkerke, Emilien de (1811-1892)">Monsieur le Président du
-          Jury</persName><note place="bottom">Le jury du Salon de 1861 se composait des membres des
-          membres libres et des membres des quatre premières sections de l’Académie des beaux-arts,
-          ainsi que responsables de l’administration des beaux-arts.</note>
+          <pb n="1" xml:id="p1"/> Ce <date when="1857-01-11">11 janvier</date><note place="bottom"
+            >Il est fort probable que la lettre évoque l’élection de Delacroix à l’Académie des
+            beaux-arts le 10 janvier 1857. En effet, le 22 novembre 1856, Delacroix nota dans son
+            journal : « Thierry vient me trouver à table pour parler de l’Institut » (Hannoosh, p.
+            1045). Le « bon résultat » qu’il évoque plus bas pour lequel son correspondant eut « une
+            bonne part », associé à sa maladie qui l’empêche de sortir depuis trois semaines semble
+            correspondre au contexte de ce début d’année 1857. </note>.</dateline>
+        <salute><persName key="Thierry, Alexandre (1803-1858)">Cher Thierry</persName><note
+            place="bottom">Alexandre Thierry <hi rend="it">fils</hi> (1803-1858), médecin et docteur
+            en chirurgie, fut membre du Conseil municipal de la Ville de Paris de 1843 à 1848, puis
+            à nouveau la même année à partir du mois de juillet jusqu’en 1858, année de sa mort.
+            C’est dans ce contexte qu’il fit la connaissance de Delacroix avec lequel il se lia
+            d’amitié.</note>,</salute>
       </opener>
-      <salute><persName key="Nieuwerkerke, Emilien de (1811-1892)">Monsieur le
-        Président</persName>,</salute><p>Il m’est impossible de distraire des travaux qui
-        m’occupent, et auxquels je consacre tous mes instants<note place="bottom">Delacroix acheva
-          les décors de la chapelle des Saints-Anges à Saint-Sulpice en 1861.</note>, le temps
-        nécessaire aux opérations du jury<note place="bottom">Le livret du Salon de 1861 mentionne
-          l'absence de Delacroix aux séances du jury d'admission.</note>. J’éprouve donc le regret
-        de ne pouvoir y participer et ai l’honneur de vous en informer en vous priant de vouloir
-        bien faire agréer mes excuses aux membres présents<note place="bottom">Dans une lettre du
-          jour suivant (3 avril 1861), il informe Adolphe Ferdinand Moreau <hi rend="it">fils</hi>
-          qu’il ne pourra lui apporter l’appui que ce dernier lui réclame, du fait de ce refus de
-          participer au jury (Joubin, IV, p. 245).</note>.</p>
+
+
+      <p>Voilà un bon résultat. Vous y avez une bien bonne part, par l’empressement d’ami que vous
+        m’avez montré dès le commencement, ce qui était le point le plus difficile. Vous avez su
+        peut-être que depuis plus de trois semaines je n’ai pu mettre le pied dehors. Cela venait
+        bien mal à propos. Enfin, nous y voilà, et j’ai hâte de vous voir pour vous embrasser !</p>
+
+
       <closer>
-        <salute>Agréez, <persName key="Nieuwerkerke, Emilien de (1811-1892)">Monsieur le
-            Président</persName>, l’assurance de ma haute considération.</salute>
-        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+        <salute>À vous de cœur,</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">E. Delacroix</persName></signed>
       </closer>
+
     </body>
   </text>
 </TEI>
