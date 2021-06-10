@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à [Edmond Blanc], 3 août 1834</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les grandes commandes publiques</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Pierrefitte-sur-Seine</settlement>
+            <institution>Archives nationales</institution>
+
+            <idno>F/13/1077</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="1"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, I, p. 379</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1834-06-03"/>
+          <placeName>Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Edmond Blanc (1813-1882)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <placeName key="France, Paris">Paris</placeName>, <date when="1834-06-03">3 août
+            1834</date></dateline>
+        <salute><persName key="Edmond Blanc (1813-1882)">Monsieur</persName><note place="bottom">Le
+            contenu de la lettre laisse comprendre que son destinataire est Edmond Blanc
+            (1813-1882), directeur des Bâtiments publics au ministère de l’Intérieur (Joubin, I, p.
+            379).</note>, </salute>
+      </opener>
+
+
+      <p>Les <persName key="Lelong, Paul (1799-1846)"><persName
+            key="Lesueur, Jean-Baptiste (1794-1883)">architectes</persName></persName> de la
+          <placeName key="France, Paris, Assemblée nationale">Chambre des députés</placeName><note
+          place="bottom">Il s’agit des architectes Paul Lelong (1799-1846) et Jean-Baptiste Lesueur
+          (1794-1883).</note> m’ayant dit qu’ils vous avaient présenté les devis des ornements que
+        nous avons jugé nécessaires d’ajouter à la <rs type="work"
+          key="Salon du Roi, Assemblée nationale">décoration du Salon du Roi</rs>, et le moment
+        approchant où il faudra commencer à dorer, je viens vous prier de vouloir bien donner
+        l’autorisation nécessaire auprès des personnes chargées de fournir lesdits ornements.</p>
+      <p>J’use de la liberté que vous avez bien voulu me donner de vous rappeler cette petite
+        affaire.</p>
+
+
+      <closer>
+        <salute>Recevez en même temps, l’assurance de la haute considération avec laquelle j’ai
+          l’honneur d’être, <signed><persName key="Edmond Blanc (1813-1882)"
+            >Monsieur</persName></signed>, votre très humble et très obéissant serviteur.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+    </body>
+  </text>
+</TEI>
