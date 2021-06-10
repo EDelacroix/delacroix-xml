@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à [Emilien de Nieuwerkerke], 2 avril 1861</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+<name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+<name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Pierrefitte-sur-Seine</settlement>
+            <institution>Archives nationales</institution>
+            
+            <idno>20150042/129</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="1"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+            
+          </physDesc>
+          
+        </msDesc>
+        
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1861-04-02"/>
+          
+        </correspAction>
+        
+        
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+<opener>
+<dateline>
+<pb n="1" xml:id="p1"/> Ce <date>2 avril 1861</date></dateline>
+<p>À <persName>Monsieur le Président du Jury</persName><note place="bottom">Le jury du Salon de 1861 se composait des membres des membres libres et des membres des quatre premières sections de l’Académie des beaux-arts, ainsi que responsables de l’administration des beaux-arts.</note></p>
+</opener>
+
+
+<salute><persName>Monsieur le Président</persName>, </salute>
+<p>Il m’est impossible de distraire des travaux qui m’occupent, et auxquels je consacre tous mes instants<note place="bottom">Delacroix acheva les décors de la chapelle des Saints-Anges à Saint-Sulpice en 1861.</note>, le temps nécessaire aux opérations du jury<note place="bottom"/>. J’éprouve donc le regret de ne pouvoir y participer et ai l’honneur de vous en informer en vous priant de vouloir bien faire agréer mes excuses aux membres présents<note place="bottom">Dans une lettre du jour suivant <ref type="letter">(3 avril 1861)</ref>, il informe Adolphe Ferdinand Moreau <hi rend="it">fils</hi> qu’il ne pourra lui apporter l’appui que ce dernier lui réclame, du fait de ce refus de participer au jury.</note>.</p>
+
+
+<closer>
+<salute>Agréez, <persName>Monsieur le Président</persName>, l’assurance de ma haute considération.</salute>
+<signed><persName>Eug. Delacroix</persName></signed>
+</closer>
+
+<lb type="line"/>
+</body>
+  </text>
+</TEI>
