@@ -7,7 +7,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Lettre d’Eugène Delacroix à [Alphonse de Cailleux], 31 mars 1846</title>
+        <title>Lettre d’Eugène Delacroix à [Emilien de Nieuwerkerke], 2 avril 1861</title>
         <author key="Delacroix, Eugène (1798-1863)"/>
       </titleStmt>
       <editionStmt>
@@ -34,7 +34,7 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Correspondance d'Eugène Delacroix</title>
-        <title type="sub">Eugène Delacroix et l'estampe</title>
+        <title type="sub">Les Salons</title>
 
       </seriesStmt>
       <sourceDesc>
@@ -44,7 +44,7 @@
             <settlement>Pierrefitte-sur-Seine</settlement>
             <institution>Archives nationales</institution>
 
-            <idno>20144790/123/03</idno>
+            <idno>20150042/129</idno>
           </msIdentifier>
           <physDesc>
             <objectDesc form="letter">
@@ -65,11 +65,11 @@
       <correspDesc>
         <correspAction type="sent">
           <persName key="Delacroix, Eugène (1798-1863)"/>
-          <date when="1846-03-31"/>
+          <date when="1861-04-02"/>
 
         </correspAction>
         <correspAction type="received">
-          <persName key="Cailleux, Alphonse de (1788-1876)"/>
+          <persName key="Nieuwerkerke, Emilien de (1811-1892)"/>
         </correspAction>
 
       </correspDesc>
@@ -80,41 +80,29 @@
   </teiHeader>
   <text>
     <body>
-
-
-
       <opener>
-        <address>
-          <addrLine>
-            <pb n="1" xml:id="p1"/> à <persName key="Cailleux, Alphonse de (1788-1876)">Monsieur le
-              directeur général des Musées Royaux</persName><note place="bottom">Alphonse de
-              Cailleux (1788-1876) fut directeur des Musées royaux de 1841 à 1848.</note>. </addrLine>
-        </address>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Ce <date when="1861-04-02">2 avril 1861</date></dateline> À
+          <persName key="Nieuwerkerke, Emilien de (1811-1892)">Monsieur le Président du
+          Jury</persName><note place="bottom">Le jury du Salon de 1861 se composait des membres des
+          membres libres et des membres des quatre premières sections de l’Académie des beaux-arts,
+          ainsi que responsables de l’administration des beaux-arts.</note>
       </opener>
-
-
-      <p>J'ai l’honneur de prier <persName key="Cailleux, Alphonse de (1788-1876)">Monsieur le
-          directeur général des Musées royaux</persName> de vouloir bien accorder à <persName
-          key="Masson, Alphonse (1814-1898)">M. Masson</persName><note place="bottom">Alphonse
-          Masson (1814-1898), peintre et graveur, exécuta de nombreuses estampes d’après les œuvres
-          de Delacroix.</note>, graveur, l’autorisation nécessaire pour graver mon tableau
-        représentant le <rs type="work" key="Dante et Virgile aux enfers (J100)">Dante et
-          Virgile</rs> et faisant partie du <placeName key="France, Paris, Musée du Luxembourg"
-          >musée du Luxembourg</placeName><note place="bottom">Delacroix ne tarda pas à adresser à
-          nouveau sa demande à Adolphe de Cailleux dans une lettre en date du <ref type="letter"
-            target="CAC_ED_pierrefitte-an-20144790-123-02.xml">2 avril 1846</ref>.</note>. La
-        gravure serait exécutée d’après une copie faite audit <placeName
-          key="France, Paris, Musée du Luxembourg">musée</placeName> par <persName
-          key="Masson, Alphonse (1814-1898)">M. Masson</persName><note place="bottom">Masson semble
-          avoir exécuté bien plus tard cette estampe. Le <ref
-            target="http://arts-graphiques.louvre.fr/detail/oeuvres/21/531837-Dante-et-Virgile-conduits-par-Phlegias-traversent-le-lac-qui-entoure-la-ville-infernale-de-Dite"
-            >cuivre d’une eau-forte et burin</ref> est conservé à la Chalcographie du Louvre après
-          une commande à l’artiste datant de 1881 (5998 C).</note>.</p>
-
-
+      <salute><persName key="Nieuwerkerke, Emilien de (1811-1892)">Monsieur le
+        Président</persName>,</salute><p>Il m’est impossible de distraire des travaux qui
+        m’occupent, et auxquels je consacre tous mes instants<note place="bottom">Delacroix acheva
+          les décors de la chapelle des Saints-Anges à Saint-Sulpice en 1861.</note>, le temps
+        nécessaire aux opérations du jury<note place="bottom">Le livret du Salon de 1861 mentionne
+          l'absence de Delacroix aux séances du jury d'admission.</note>. J’éprouve donc le regret
+        de ne pouvoir y participer et ai l’honneur de vous en informer en vous priant de vouloir
+        bien faire agréer mes excuses aux membres présents<note place="bottom">Dans une lettre du
+          jour suivant (3 avril 1861), il informe Adolphe Ferdinand Moreau <hi rend="it">fils</hi>
+          qu’il ne pourra lui apporter l’appui que ce dernier lui réclame, du fait de ce refus de
+          participer au jury (Joubin, IV, p. 245).</note>.</p>
       <closer>
+        <salute>Agréez, <persName key="Nieuwerkerke, Emilien de (1811-1892)">Monsieur le
+            Président</persName>, l’assurance de ma haute considération.</salute>
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
-        <dateline>Ce <date when="1846-03-31">31 mars 1846</date>.</dateline>
       </closer>
     </body>
   </text>
