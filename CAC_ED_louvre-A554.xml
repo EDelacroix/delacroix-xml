@@ -145,13 +145,14 @@
         autres puissances, par le <persName key="Saïdi Sidi, Larabi">pacha</persName><note
           place="bottom">Il s’agit de Sidi Larabi Saïdi, pacha et gouverneur de Tanger. </note>,
         etc. – Je t’écrirai par la première occasion. Je l’aurais fait de <placeName
-          key="Royaume-Uni, Gibraltar">Gibraltar</placeName>, si nous avions pu débarquer. Embrasse
+          key="Royaume-Uni, Gibraltar">Gibraltar</placeName>, si nous avions pu débarquer.</p>
+        <closer><salute>Embrasse
         pour moi <persName key="Heidinger, Marguerite-Jeanne-Aimée (1797-?)">Mme Pierret</persName>
         et <persName key="Pierret, Anne-Claire (1821-1904)"><persName
             key="Pierret, Marguerite-Juliette (1822-1878)"><persName
               key="Pierret, Henri-Maximilien (1828-?)">tes enfants</persName></persName></persName>
-        et dis mille choses à nos amis.</p>
-      <p>N’oublie pas de prier <persName key="Villot, Marie-Joseph-Frédéric (1809-1875)"
+        et dis mille choses à nos amis.</salute></closer>
+      <postscript><p>N’oublie pas de prier <persName key="Villot, Marie-Joseph-Frédéric (1809-1875)"
           >Villot</persName> de copier le plut tôt possible la musique dont il a bien voulu <pb
           n="4" xml:id="p4"/> se charger. Par la même occasion, tu lui donneras de mes nouvelles et
         me rappelleras à son souvenir. J’imagine que le moyen le plus simple de correspondre est que
@@ -165,7 +166,7 @@
         presse-le. <persName key="Dalton, Eugénie (1803-1859)">Mme Dalton</persName> doit aussi
         t’envoyer une lettre pour moi. Je le lui écris par la même occasion et j’écris aussi au bon
           <persName key="Feuillet de Conches, Félix (1798-1887)">Feuillet</persName> qui, je n’en
-        doute pas, se chargera de la commission.</p>
+        doute pas, se chargera de la commission.</p></postscript>
     </body>
   </text>
 </TEI>
