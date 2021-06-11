@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, 23 septembre [1834]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>{corrections}</name>
+          <name>{corrections}</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les amis de jeunesse</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Musée du Louvre</institution>
+            <repository>Département des Arts graphiques</repository>
+            <idno>A 564</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="4"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Etienne Moreau-Nélaton</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, I, p. 383-384</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1834-09-23"/>
+          <placeName key="France, Valmont">Valmont</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Pierret, Jean-Baptiste (1795-1854)"/>
+          <placeName key="France, Paris, rue Sainte-Anne, 18"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="1" xml:id="p1"/>
+            <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur Pierret</persName><placeName
+              key="France, Paris, rue Sainte-Anne, 18">Rue Sainte-Anne n° 18, à
+            Paris</placeName></addrLine>
+        </address>
+        <dateline>
+          <pb n="2" xml:id="p2"/>
+          <date when="1834-09-23">Mardi, 23 septembre</date></dateline>
+      </opener>
+
+
+      <p>Je commence bien tard à te donner de mes nouvelles, <persName
+          key="Pierret, Jean-Baptiste (1795-1854)">cher ami</persName>. Ce ne sont pourtant pas les
+        grandes distractions que j’ai ici qui m’en ont empêché, mais une certaine indolence à
+        laquelle je me suis laissé aller et que je me reproche, car si je t’avais écrit plus tôt ou
+        plusieurs fois, j’aurais eu la bonne chance d’avoir de toi une ou plusieurs bonnes réponses.
+        C’est un parti pris de la destinée que nous n’aurons jamais le plaisir de jouir ensemble de
+        quelque beau pays ou de quelque admiration lointaine. Tu me raconteras toujours ce que tu
+        auras vu et moi de même. Ne nous plaignons cependant pas trop de notre lot. Il n’y a pas
+        beaucoup d’hommes qui à notre âge aient conservé des liens de pure amitié aussi vifs que
+        ceux qui nous attachent depuis la jeunesse. Les <pb n="3" xml:id="p3"/> sages de la belle
+        antiquité mettaient au premier rang des biens l’inestimable trésor d’une amitié pure ; et
+        quand je me querelle intérieurement sur mes tristes faiblesses, je reprends un peu de
+        courage et crois valoir un peu mieux, quand je songe que j’ai trouvé et que j’ai conservé un
+        ami tel que toi. On sent vivement dans la solitude le besoin d’un être qui comprend vos
+        pensées. Je suis ici avec des gens dont le cœur est excellent. Mais cela ne suffit pas
+        encore. Depuis quinze jours je n’ai pu échanger aucune de ces idées qui font vivre ; jamais
+        je n’ai laissé voir un seul élan vers les beautés de la nature. Je renferme tout cela et je
+        prends la figure la plus provinciale que je puis. – Je ferai peut-être un petit tour à
+          <placeName key="France, Dieppe">Dieppe</placeName> et au <placeName
+          key="France, Eu, Château d'Eu">château d’Eu</placeName>. J’irai voir ce que <persName
+          key="Guillemardet, Félix (1796-1842)">Guillemardet</persName> a vu. Je me réserve de lui
+        écrire de <placeName key="France, Paris">Paris</placeName>, attendu que je ne <pb n="4"
+          xml:id="p4"/> sais où lui adresser mes lettres. Si tu lui écris, dis-le-lui. – La mer m’a
+        fait moins de plaisir qu’à l’ordinaire. Peut-être est-ce un signe que je vieillis ou bien
+        est-ce le souvenir des nausées que j’y ressentis pendant mon voyage sur le dos de la plaine
+          liquide<note place="bottom">Delacroix se réfère ici à son voyage au Maroc de janvier à
+          juillet 1832.</note>. Le fait est que l’autre jour, rien qu’à la voir monter et descendre
+        le long des <placeName key="France, Valmont, quais de Fécamp">quais de Fécamp</placeName>,
+        je me sentais tout affadi et les entrailles retournées.</p>
+
+
+      <closer>
+        <salute>Adieu, adieu. Je t’embrasse bien. Le présent est seulement pour nous aider à
+          patienter jusqu’à ce que nous nous revoyons. Mille choses à <persName
+            key="Heidinger, Marguerite-Jeanne-Aimée (1797-?)">ta femme</persName> et de plus à tous
+          nos amis. Ce petit voyage sera une page blanche dans ma mémoire et dans ma vie
+          probablement. Peut-être y trouverai-je plus de repos pour reprendre ensuite mes travaux.
+          Adieu encore.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
