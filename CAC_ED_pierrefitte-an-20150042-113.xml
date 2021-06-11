@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Billet d’Eugène Delacroix pour L.-D. Lancôme, 3 avril 1847</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Eugène Delacroix et l'estampe</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Pierrefitte-sur-Seine</settlement>
+            <institution>Archives nationales</institution>
+
+            <idno>20150042/113</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="1"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1847-04-03"/>
+
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+      <p>
+        <pb n="1" xml:id="p1"/> J'autorise <persName key="Lancôme, L. D.">M. L. D.
+          Lancôme</persName><note>Il n'a pas été possible d'identifier ce L. D. Lancôme</note> à
+        lithographier mon tableau représentant une <rs type="work" key="Odalisque (J372)"
+          >odalisque</rs><note place="bottom">Delacroix exposa une <hi rend="it">Odalisque</hi>
+          (J372) au Salon de 1847 (n° 464). Il est probable que ce billet ait servi à Lancôme à s’y
+          rendre pour travailler à la copie de l’œuvre pour réaliser la lithographie. Le
+          collectionneur et marchand Van Isaker aurait souhaité l’acquérir, mais le tableau n’était
+          plus disponible (Hannoosh, <hi rend="it">Journal</hi>, p. 367). Delacroix l’aurait offert
+          à Auguste Eynaud (Hannoosh, <hi rend="it">Journal</hi>, p. 2182).</note> exposée au
+          Musée<note place="bottom">Musée du Louvre, Salon de 1847.</note>.</p>
+
+      <closer>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+        <dateline>Ce <date when="1847-04-03">3 avril 1847</date>.</dateline>
+      </closer>
+
+
+    </body>
+  </text>
+</TEI>
