@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à [Alphonse de Cailleux], 6 mars [1838]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les Salons</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Pierrefitte-sur-Seine</settlement>
+            <institution>Archives nationales</institution>
+
+            <idno>20150042/109</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>L. Hamrick, « Etre artiste en 1838 », <hi rend="it">Romantisme</hi>, 1986, p. 79 ;
+            Johnson, <hi rend="it">Further Correspondance</hi>, p. 97-98.</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1838-03-06"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Cailleux, Alphonse de (1788-1876)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <salute>
+          <pb n="1" xml:id="p1"/>
+          <persName key="Cailleux, Alphonse de (1788-1876)">Monsieur</persName><note place="bottom"
+            >Le destinataire de la lettre peut être identifié comme Alphonse de Cailleux
+            (1788-1876), en sa qualité de directeur des musées royaux (Johnson, <hi rend="it"
+              >Further Correspondance</hi>, p. 97). Il commença sa carrière dans les musées sous la
+            Restauration en qualité de secrétaire général, avant de devenir directeur adjoint, puis
+            directeur général en 1841. Il quitta ses fonctions suite à la chute du régime de
+            Louis-Philippe.</note>,</salute>
+      </opener>
+
+
+      <p>J'ose solliciter de votre obligeance une nouvelle faveur<note place="bottom">Il est
+          question de l’accrochage des œuvres que Delacroix a exposé au Salon de 1838.</note> après
+        toutes celles dont je vous suis si redevable. Je n’ai pris cette liberté que parce que j’ai
+        pensé que cela ne dérangerait personne : ce serait de faire substituer à mon tableau des <rs
+          type="work" key="Les COnvulsionnaires de Tanger (J360)">Convulsionnaires de
+          Tanger</rs><note place="bottom"><hi rend="it">Les Convulsionnaires de Tanger</hi> (J360) ;
+          Salon de 1838, n° 457. Conservé au Minneapolis Institute of Arts <ref
+            target="https://collections.artsmia.org/art/1978/convulsionists-of-tangier-eugene-delacroix"
+            >(https://collections.artsmia.org/art/1978/convulsionists-of-tangier-eugene-delacroix)</ref>.</note>
+        celui du <rs type="work" key="Le Kaïd, chef marocain (J359)">Kaïd marocain</rs><note
+          place="bottom"><hi rend="it">Le Kaïd, chef marocain</hi> (J359) ; Salon de 1838, n° 458.
+          Conservé au Musée d’arts de Nantes (inv. 892 – <ref
+            target="https://museedartsdenantes.nantesmetropole.fr/home/au-cur-du-musee/les-collections/toutes-les-collections.html"
+            >https://museedartsdenantes.nantesmetropole.fr/home/au-cur-du-musee/les-collections/toutes-les-collections.html</ref>).</note>
+        qui est au côté opposé de la <placeName key="France, Paris, Musée du Louvre"
+          >galerie</placeName>.</p>
+      <p>Recevez de nouveau mes remerciements de la belle place que vous avez donnée à mon tableau
+        de <rs type="work" key="Médée furieuse (J261)">Medée</rs><note place="bottom"><hi rend="it"
+            >Médée furieuse</hi> (J261) ; Salon de 1838, n° 456. Conservé au Palais des beaux-arts
+          de Lille (P. 542 – <ref
+            target="https://pba.lille.fr/Collections/Chefs-d-OEuvre/Peintures-XVI-sup-e-sup-XXI-sup-e-sup-siecles/Medee"
+              ><seg rend="lienhypertexte"
+              >https://pba.lille.fr/Collections/Chefs-d-OEuvre/Peintures-XVI-sup-e-sup-XXI-sup-e-sup-siecles/Medee</seg></ref>).</note>
+        et aussi d’avoir bien voulu la lui <pb n="2" xml:id="p2"/> conserver au renouvellement.</p>
+
+
+      <closer>
+        <salute>Agréez en même temps l’expression de la haute considération avec laquelle j’ai
+          l’honneur d’être, <persName key="Cailleux, Alphonse de (1788-1876)">Monsieur</persName>,
+          votre très obéissant serviteur,</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+        <dateline>le <date when="1838-03-06">6 mars</date><note>L'année 1838 peut être avancée, du
+            fait que les trois oeuvres mentionnées ont été exposées au Salon cette
+          année-là.</note>.</dateline>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
