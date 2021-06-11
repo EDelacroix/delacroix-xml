@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Alexandre Colonna Walewski, 26 décembre 1862</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Achats par l'Etat, les municipalités et les institutions publiques</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Pierrefitte-sur-Seine</settlement>
+            <institution>Archives nationales</institution>
+
+            <idno>F/21/550</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="3"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>la minute de la lettre a été publiée dans Piron, <hi rend="it">Eugène Delacroix : sa
+              vie et ses œuvres</hi>, Paris, 1865, p. 490-491</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1862-12-26"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Colonna Walewski, Alexandre (1810-1868)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Ce <date when="1862-12-26">26 décembre 1862</date></dateline>
+        <salute><persName key="Colonna Walewski, Alexandre (1810-1868)">Monsieur le
+            Ministre</persName><note place="bottom">Alexandre Florian Joseph Colonna, comte
+            Walewski, fils naturel de Napoléon I<hi rend="sup">er</hi> et de la comtesse Marie
+            Walewska, fit une carrière de diplomate et d’homme politique. Il fut ministre d’État de
+            1860 à 1863, l’amenant à se prononcer sur les acquisitions d’œuvres par
+          l’État.</note>,</salute>
+      </opener>
+
+
+      <p>Un <rs type="work" key="Christ en croix (J421)">tableau</rs> dont je suis l’auteur et
+        représentant un <rs type="work" key="Christ en croix (J421)">Crucifiement</rs><note
+          place="bottom">Il s’agit du <hi rend="it">Christ en croix</hi> (J421).</note> fut acheté
+        par le <persName key="Thiers, Adolphe (1797-1877)">ministre de l’Intérieur</persName><note
+          place="bottom">Il s’agissait alors d’Adolphe Thiers (1797-1877).</note> au Salon de 1835
+        et destiné à la ville de <placeName key="France, Vannes">Vannes</placeName>, qui en fit don
+        à l’une de ses églises, <placeName key="France, Vannes, église Saint-Paterne"
+          >Saint-Paterne</placeName>. J’apprends que <rs type="work" key="Christ en croix (J421)"
+          >cet ouvrage</rs>, placé depuis longtemps dans une chapelle humide et obscure et dans les
+        conditions les plus défavorables pour sa conservation, est effectivement menacé d’une
+        destruction complète<note place="bottom">Le lendemain, Delacroix adressa une lettre <ref
+            type="letter" target="CAC_ED_pierrefitte-an-f21-550-01.xml">(27 décembre 1862)</ref> à
+          Henry Courmont, chef de la division des Beaux-Arts, faisant état de la dégradation de
+          l’œuvre et de sa volonté de le retirer de l’église Saint-Paterne pour qu’elle soit
+          restaurée.</note>. Un avis officieux donné il y a quelque temps à cet égard au curé de la
+        paroisse n’a rien changé à la situation.</p>
+      <p>Je prends la liberté de m’adresser à <persName
+          key="Colonna Walewski, Alexandre (1810-1868)">Votre Excellence</persName> pour savoir s’il
+        n’y aurait pas lieu de demander à la ville le renvoi à <placeName key="France, Paris"
+          >Paris</placeName> du <rs type="work">tableau menacé</rs>, afin de pourvoir d’abord à
+        d’urgentes réparations, sauf à disposer ensuite du <rs type="work"
+          key="Christ en croix (J421)">tableau</rs>
+        <pb n="2" xml:id="p2"/> comme il plaira à <persName
+          key="Colonna Walewski, Alexandre (1810-1868)">Votre Excellence</persName> ; elle trouvera
+        peut-être que la ville, qui ne possède pas de musée, serait peu fondée à le revendiquer pour
+        le rendre à la fabrique de l’église, laquelle n’a pas su pourvoir à sa conservation. Il m’a
+        été suggéré en outre que la place défavorable assignée depuis tant d’années à mon <rs
+          type="work" key="Christ en croix (J421)">tableau</rs> avait pu avoir pour objet une figure
+        de Madeleine qui n’aurait pas paru au clergé suffisamment drapée. Cela pourrait sembler à
+          <persName key="Colonna Walewski, Alexandre (1810-1868)">Votre Excellence</persName> une
+        nouvelle raison pour que ce tableau, que j’avais composé sans intention de le voir figurer
+        dans une église, obtînt une nouvelle destination après avoir été convenablement réparé. Je
+        conserverais une bien vive reconnaissance de tout ce que <persName
+          key="Colonna Walewski, Alexandre (1810-1868)">Votre Excellence</persName> voudrait bien
+        ordonner dans cette circonstance pour sauver un ouvrage auquel j’attache quelque prix, et
+        j’ose l’espérer, de la haute et bienveillante sollicitude qu’elle étend à tout ce qui
+        intéresse les arts.</p>
+
+
+      <closer>
+        <salute>J’ai l’honneur d’être <pb n="3" xml:id="p3"/> avec respect, <persName
+            key="Colonna Walewski, Alexandre (1810-1868)">Monsieur le Ministre</persName>, de
+            <persName key="Colonna Walewski, Alexandre (1810-1868)">Votre Excellence</persName>, le
+          très humble, très obéissant serviteur,</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName>, membre de
+            l’<placeName key="France, Paris, Institut">Institut</placeName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
