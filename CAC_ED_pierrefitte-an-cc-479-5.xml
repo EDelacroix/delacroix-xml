@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Copie de la lettre d’Eugène Delacroix à un destinataire inconnu, 4 décembre
+          1860</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Le conseil municipal de Paris</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Pierrefitte-sur-Seine</settlement>
+            <institution>Archives nationales</institution>
+
+            <idno>CC/475/5</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="1"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, IV, p. 217 ; Hustin, <hi rend="it">Le Luxembourg</hi>, II, p. 145</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1860-12-04"/>
+
+        </correspAction>
+
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <pb n="1" xml:id="p1"/>
+        <hi rend="it">(d’une autre main :)</hi>
+        <persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName>, membre de
+          l'<placeName key="France, Paris, Institut">Institut</placeName>, commandant de la légion
+        d’honneur <dateline>Ce <date when="1860-12-04">4 décembre 1860</date></dateline>
+      </opener>
+
+
+      <salute>Monsieur<note>Il n'a pas été permis d'identifier le destinataire de la
+        lettre</note>,</salute>
+      <p>Malgré toutes les sympathies que je ne puis manquer d’avoir pour les idées émises dans
+        votre mémoire, je ne puis en ma qualité de membre du Conseil municipal<note place="bottom"
+          >Delacroix fut nommé membre du Conseil municipal de la Ville de Paris par décret impérial
+          en date du 27 décembre 1851. Il le resta jusqu’à sa démission en 1861.</note> me joindre à
+        votre protestation : c’est dans le sein du Conseil seulement que je puis faire valoir les
+        raisons qui, <hi rend="u">au nom du goût</hi>, militent en faveur de la conservation de la
+        belle fontaine et de l’allée<note place="bottom">La fontaine Médicis, œuvre de l’ingénieur
+          florentin Thomas Francine vers 1630, avait été restaurée et modifiée par Chalgrin au début
+          du XIX<hi rend="sup">e</hi> siècle. Sa destruction fut envisagée dans le cadre de travaux
+          d’urbanisme entrepris en 1860. Elle fut finalement démontée et déplacée en 1862.
+          L’architecte Alphonse de Gisors la dota d’un bassin à cette occasion. </note>, mais il
+        n’est pas interdit de <hi rend="u">faire des vœux sincères pour que le</hi>
+        <persName key="Troplong, Raymond Théodore (1795-1869)">président du Sénat</persName><note
+          place="bottom">Raymond Théodore Troplong (1795-1869), président du Sénat du 30 décembre
+          1852 au 1<hi rend="sup">er</hi> mars 1869.</note><hi rend="u"> et les sénateurs adressent
+          à l’</hi><persName key="Napoléon III (1808-1873)">Empereur</persName><hi rend="u"> des
+          demandes et s’il le faut des supplications</hi> pour que le projet de la Ville soit
+        modifié dans le sens de celui de <persName key="Gisors, Alphonse de (1796-1866)">Mr de
+          Gisors</persName><note place="bottom">Alphonse de Gisors (1796-1866) devint architecte des
+          bâtiments civils en 1823. Il se vit confié de nombreux projets de restauration, dont celui
+          de la fontaine Médicis. Il réalisa également la Salle des séances entre 1836 et 1841 en sa
+          qualité d’architecte du Palais du Luxembourg, poste auquel il fut nommé en
+        1834.</note>.</p>
+
+
+      <closer>
+        <salute>Agréez, Monsieur, les assurances de ma sincère considération.</salute>
+        <signed>signé <persName key="Delacroix, Eugène (1798-1863)">Eugène
+          Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
