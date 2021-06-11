@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Henry Courmont, 27 décembre 1862</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Achats par l'Etat, les municipalités et les institutions publiques</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Pierrefitte-sur-Seine</settlement>
+            <institution>Archives nationales</institution>
+
+            <idno>F/21/550</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="3"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1862-12-27"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Courmont, Henry"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <pb n="1" xml:id="p1"/>
+        <persName key="Courmont, Henry">Monsieur Courmont</persName>
+        <addrLine><address>chef de la division des Beaux-Arts</address></addrLine>
+        <dateline>
+          <pb n="2" xml:id="p2"/> Ce <date when="1862-12-27">27 décembre 1862</date></dateline>
+      </opener>
+
+
+      <salute><persName key="Courmont, Henry">Monsieur</persName>,</salute>
+      <p>Je suis arrivé trop tard pour avoir l’honneur de vous rencontrer. Je vous laisse un croquis
+        fort vague de la disposition du <rs type="work" key="Christ en croix (J421)">tableau</rs> de
+          <placeName key="France, Vannes">Vannes</placeName><note place="bottom">Il s’agit du <hi
+            rend="it">Christ en Croix</hi> (J421), conservé au musée de la Cohue à Vannes. Présentée
+          au Salon de 1835, l’œuvre fut achetée par l’État à la demande d’Achille Vigier
+          (1801-1868), député du Morbihan (Jobert, p. 238). Elle fut installée dans l’église
+          Saint-Paterne.</note> mais qui peut faire juger du nombre de figures qu’il renferme. La
+        toile ne doit pas avoir plus de 6 pieds et quelque chose. Ma demande expose l’affaire aussi
+        succinctement que possible. J’ai pris la liberté de vous apporter une lettre que j’ai jointe
+        à ma demande et que je vous prierai de vouloir bien me conserver quand vous en aurez pris
+        connaissance. Vous y verrez qu’il est question <pb n="3" xml:id="p3"/> de dégradations très
+        notables dans la peinture et combien ces messieurs seraient peu admissibles à vouloir le
+        reprendre après sa restauration<note place="bottom">Le tableau, une fois installé dans
+          l’église Saint-Paterne, eut à souffrir de l’humidité et se dégrada. Dans sa lettre écrite
+          la veille au comte Alexandre Walewski (1810-1868, fils naturel de Napoléon I<hi rend="sup"
+            >er</hi>) ministre d’État (lettre du <ref type="letter"
+            target="CAC_ED_pierrefitte-an-f21-550-02.xml">26 décembre 1862</ref>), Delacroix
+          revenait sur ces dégradations et expliquait que le clergé n’approuvait pas l’œuvre du fait
+          de la présence au premier plan d’une Madeleine dévêtue.</note>.</p>
+      <p>Oserais-je vous prier d’avoir l’extrême bonté de me faire avertir quand vous aurez envoyé
+        l’affaire au ministère des Cultes pour ce qui le concerne<note place="bottom">Le ministre de
+          l’Instruction publique et des Cultes était Gustave Rouland (1806-1878), nommé en 1856,
+          resté en poste jusqu’en 1863.</note> ? Je tâcherais aussi de me ménager de ce côté des
+        dispositions favorables.</p>
+
+
+      <closer>
+        <salute>Veuillez agréer en particulier tous mes remerciements pour l’extrême obligeance que
+          vous avez bien voulu me montrer ainsi que l’assurance de ma haute considération.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">E. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
