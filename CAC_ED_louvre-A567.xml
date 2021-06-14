@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, 10 mars 1836</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>{corrections}</name>
+          <name>{corrections}</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Musée du Louvre</institution>
+            <repository>Département des Arts graphiques</repository>
+            <idno>A 567</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Etienne Moreau-Nélaton</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, I, p. 412</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1836-03-10"/>
+          <placeName key="France, Paris">[Paris]</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Pierret, Jean-Baptiste (1795-1854)"/>
+          <placeName key="France, Paris, rue Neuve du Luxembourg, 1"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="1" xml:id="p1"/>
+            <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur Pierret,
+              littérateur</persName><placeName key="France, Paris, rue Neuve du Luxembourg, 1">Rue
+              Neuve du Luxembourg, n° 1</placeName></addrLine>
+        </address>
+        <salute>
+          <pb n="2" xml:id="p2"/>
+          <persName key="Pierret, Jean-Baptiste (1795-1854)">Cher ami</persName>,</salute>
+      </opener>
+
+
+      <p>Demain, en allant à ton bureau, mets dans ta poche mes petits argents<note place="bottom"
+          >Delacroix se réfère ici au paiement qu’il avait reçu pour la décoration du Salon du Roi à
+          l’Assemblée nationale (Joubin, I, p. 412).</note>. Tu me les apporteras en venant me
+        prendre pour aller au Musée. Aie bon courage, cher, pousse ce sillon comme nous poussons
+        tous le nôtre. Les dieux sont en aide aux cœurs qui luttent contre le sort.</p>
+
+
+      <closer>
+        <salute>Adieu et à demain,</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
