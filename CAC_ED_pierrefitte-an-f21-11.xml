@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à [Edmond Cavé], 26 [juillet 1840]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Pierrefitte-sur-Seine</settlement>
+            <institution>Archives nationales</institution>
+
+            <idno>F/21/11</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="1"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Angrand, « Théodore Rousseau et Eugène Delacroix », <hi rend="it">Gazette des
+              beaux-arts</hi>, octobre 1966, p. 216-217 ; Johnson, <hi rend="it">Further
+              Correspondence</hi>, p. 100-101</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1840-07-26"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Edmond Cavé (1794-1852)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <salute>
+          <pb n="1" xml:id="p1"/>
+          <persName key="Edmond Cavé (1794-1852)">Mon cher ami</persName><note place="bottom">Le
+            destinataire peut être identifié comme Edmond Cavé (1794-1852) (Johson, <hi rend="it"
+              >Further Correspondance</hi>, p. 100), il fut nommé sous la monarchie de Juillet chef
+            de division, puis directeur des beaux-arts au ministère de l’Intérieur.</note>,</salute>
+      </opener>
+
+
+      <p>C’est effectivement le tableau de l’Avenue<note place="bottom">Il s’agit de <hi rend="it"
+            >L’Allée des châtaigniers</hi> exécuté par Théodore Rousseau entre 1837 et 1840. Le
+          tableau fut retenu par l’Etat en 1840 alors qu’il n’était pas encore achevé. En revanche,
+          Rousseau ne remis pas l’œuvre au ministère de l’Intérieur en raison du refus du jury du
+          Salon de 1841 de l’exposer. Il entra dans les collections du Louvre en 1912 après une
+          acquisition en vente publique.</note> qui me paraît le plus propre à être acquis. Il n’est
+        pas encore tout à fait terminé, mais ce serait peu de chose. Je suis bien enchanté de vous
+        voir encourager <persName key="Rousseau, Théodore (1812-1867)">un homme</persName> si
+        intéressant par sa position et par son talent. Soyez sûr que c’est de l’argent bien
+        placé.</p>
+
+
+      <closer>
+        <salute>Recevez mille amitiés et dévouements.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix </persName></signed>
+        <dateline>Ce <date when="1840-07-26">26</date>.</dateline>
+      </closer>
+    </body>
+  </text>
+</TEI>
