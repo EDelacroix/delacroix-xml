@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Marie Louis Anicet de Blanc de Guizard, 5 avril
+          1835</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les grandes commandes publiques</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Pierrefitte-sur-Seine</settlement>
+            <institution>Archives nationales</institution>
+
+            <idno>F/13/1078/A</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, I, p. 397</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1835-04-05"/>
+          <placeName key="France, Paris">Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Anicet de Blanc de Guizard, Marie Louis (1797-1879)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <pb n="1" xml:id="p1"/> à <persName
+          key="Anicet de Blanc de Guizard, Marie Louis (1797-1879)">Monsieur</persName>
+        <persName key="Anicet de Blanc de Guizard, Marie Louis (1797-1879)">Monsieur
+          Guizard</persName><note place="bottom">Marie Louis Anicet de Blanc de Guizard (1797-1879),
+          alors préfet de l’Aveyron, fut nommé directeur des Bâtiments et Monuments publics et
+          président du Conseil des Bâtiments civils par ordonnance du 25 avril 1834. Il fut remplacé
+          par Jean Vatout (1791-1848) en 1837.</note>
+        <address>
+          <addrLine>Directeur des Travaux publics</addrLine>
+          <addrLine>au Ministère de l’Intérieur</addrLine>
+        </address>
+      </opener>
+
+
+      <p>
+        <pb n="2" xml:id="p2"/><hi rend="it"> (note d’une autre main, dans l’angle supérieur
+          gauche :)</hi> Voila déjà plusieurs fois que M. <hi rend="it">(mot illisible rayé)</hi>
+        <persName key="Delacroix, Eugène (1798-1863)">Delacroix</persName> réclame les menus travaux
+        mentionnés dans cette lettre. Me dire pourquoi on ne lui donne pas satisfaction. La lui
+        donner si, comme cela me semble, sa demande n’est que juste.</p>
+      <p><persName key="Anicet de Blanc de Guizard, Marie Louis (1797-1879)">Guizard</persName></p>
+      <dateline><placeName key="France, Paris">Paris</placeName>
+        <date when="1835-04-05">5 avril 1835</date>.</dateline>
+      <salute><persName key="Anicet de Blanc de Guizard, Marie Louis (1797-1879)"
+          >Monsieur</persName>,</salute>
+      <p>Le devis des ornements nécessaires au complément des archivoltes de <rs type="work"
+          key="Assemblée nationale, Salon du Roi">la salle que je décore</rs> à la <placeName
+          key="France, Paris, Assemblée nationale">chambre des députés</placeName><note
+          place="bottom">Delacroix avait été chargé à partir de 1833 de la décoration du Salon du
+          Roi du palais Bourbon. Il acheva la commande en 1836.</note> a été je crois arrêté dans
+        les bureaux. J'ai prié également <persName key="Lelong, Paul (1799-1846)"
+          >l’architecte</persName><note place="bottom">Il s’agit vraisemblablement de Paul Lelong
+          (1799-1846).</note> de demander une échelle destinée à peindre les côtés ainsi que
+        quelques objets nécessaires pour l’échafaud, etc. Oserais-je vous prier de vouloir bien
+        ordonner que ces différentes demandes obtiennent leur exécution pour que je n’éprouve point
+        de nouveaux retards dans l’achèvement de mes travaux que je suis en mesure de pousser avec
+        activité.</p>
+
+
+      <closer>
+        <salute>Veuillez recevoir l’assurance de la haute considération avec laquelle j’ai l’honneur
+          d’être, <persName key="Anicet de Blanc de Guizard, Marie Louis (1797-1879)"
+            >Monsieur</persName>, votre très dévoué et obéissant serviteur,</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName>.</signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
