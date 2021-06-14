@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à [Jean Jacques Berger], [1<hi rend="sup">er</hi> février
+          1849]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les grandes commandes publiques</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Pierrefitte-sur-Seine</settlement>
+            <institution>Archives nationales</institution>
+
+            <idno>F/21/24</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="1"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Hannoosh, <hi rend="it">Nouvelles lettres</hi>, p. 63</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1849-02-01"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Berger, Jean Jacques (1791-1859)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+      <p>
+        <pb n="1" xml:id="p1"/> Le <persName key="Faucher, Léon (1803-1854)">ministre de
+          l’Intérieur</persName><note place="bottom">Léon Faucher (1803-1854) fut ministre de
+          l’Intérieur du 29 décembre 1848 au 2 juin 1849.</note> désirant charger <persName
+          key="Delacroix, Eugène (1798-1863)">M. Eugène Delacroix</persName> de peindre et de
+        décorer la <rs type="work" key="chapelle des Saints-Anges, église Saint-Sulpice">chapelle
+          des fonts baptismaux</rs> à <placeName>Saint-Sulpice</placeName><note place="bottom">Au
+          début de l’année 1849, Delacroix fut chargé de réaliser les peintures murales de la
+          chapelle des fonts baptismaux de l’église Saint-Sulpice. Suite à des conflits l’ayant
+          notamment opposé à l’architecte Victor Baltard, il fut décidé de déplacer les fonts
+          baptismaux. Le vocable de ladite chapelle à décorer fut transformé en chapelle des
+          Saints-Anges, comme en atteste un arrêté préfectoral du 10 août 1849.</note>, demande à
+          <persName key="Berger, Jean Jacques (1791-1859)">M. le préfet de la Seine</persName><note
+          place="bottom">Jean Jacques Berger (1791-1859) fut préfet de la Seine du 20 décembre 1848
+          au 22 juin 1853, date à laquelle il fut remplacé par le baron Haussmann
+          (1809-1891).</note> que la Ville consente à accorder dix mille francs moitié du prix total
+        fixé ordinairement pour les chapelles. Il fournirait le reste de la somme, s’engageant à
+        opérer les premiers paiements, ce qui permettrait à la Ville de reculer les siens sur des
+        crédits subséquents<note place="bottom">Le partage des dépenses entre la Ville de Paris et
+          le ministère de l’Intérieur fut accepté par le préfet de la Seine.</note>.</p>
+    </body>
+  </text>
+</TEI>
