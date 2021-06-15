@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Adrien Dauzats, 8 février 1845-1862</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Musée Carnavalet</institution>
+
+            <idno>AUT106</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="1"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date notbefore="1845-02-08" notafter="1862-02-08"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Dauzats, Adrien (1804-1868)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Ce <date>8 février</date>.</dateline>
+      </opener>
+
+
+      <salute>Cher <persName key="Dauzats, Adrien (1804-1868)">Dauzats</persName><note
+          place="bottom">Adrien Dauzats (1804-1868), peintre et explorateur, noua une amitié avec
+          Delacroix lorsque ce dernier emménagea en 1844 à proximité de son logement, rue Notre-Dame
+          de Lorette. Il fut désigné par Delacroix pour faire partie de ses exécuteurs
+          testamentaires.</note>, il m’arrive un lièvre et c’est bientôt la fin du gibier. Venez
+        dîner avec moi <date notbefore="1845-02-12" notafter="1862-02-12"><hi rend="u">mercredi</hi>
+          12</date><note place="bottom">La date du mercredi 12 février permet de proposer les années
+          1845, 1851 et 1862.</note> si vous le pouvez et tâchez de le pouvoir, vous me rendrez bien
+        heureux. J'écris à <persName key="Pérignon, Alexis Jules (1808-1882)"
+          >Pérignon</persName><note place="bottom">Alexis Jules Pérignon (1808-1882), artiste
+          peintre, fut formé dans l’atelier de Gros. Il exposa au Salon de 1834 à 1881. Il fut
+          directeur de l’Ecole des beaux-arts de Dijon et directeur du musée de la même
+          ville.</note> que j’espère aussi : nous trinquerons en petit comité.</salute>
+
+
+      <closer>
+        <salute>A vous de cœur.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+        <p>à six heures et demie</p>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
