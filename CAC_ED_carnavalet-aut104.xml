@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Alexandre Dumas, 6 avril [1855]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Musée Carnavalet</institution>
+
+            <idno>AUT104</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, III, p. 253 ; « Mon cher Delacroix », <hi rend="it">Cahiers Alexandre
+              Dumas</hi>, n° 30, 2003, p. 182-183</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1855-04-06"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Dumas, Alexandre (1802-1870)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Ce <date when="1855-04-06">6 avril</date>.</dateline>
+        <salute>Cher <persName key="Dumas, Alexandre (1802-1870)">Dumas</persName><note
+            place="bottom">Alexandre Dumas (1802-1870) collectionnait les œuvres de son ami
+            peintre.</note>,</salute>
+      </opener>
+
+
+      <p>Depuis deux mois je suis plongé dans un travail effroyable qui me prend mes journées et
+        m’envoie le soir dans mon lit : j’ai été retenu en outre par toutes sortes de petits maux et
+        d’accidents ; je ne peux davantage dans ce moment-ci, occupé jusqu’au dernier moment à finir
+        mes tableaux, vous aller demander si vous voulez bien me confier pour le mettre à
+        l’exposition le tableau du <rs type="work" key="Le Tasse en prison (J106)">Tasse à l’hôpital
+          des fous</rs><note place="bottom"><hi rend="it">Le Tasse en prison</hi> ou <hi rend="it"
+            >Le Tasse à l’hôpital de Sant’Anna</hi> (J106), peint en 1824, avait été exposé au Salon
+          la même année. Il est question dans cette lettre de l’exposer au Salon se déroulant au
+          même moment que l’exposition universelle de 1855 où Delacroix présenta de nombreuses
+          œuvres réalisées tout au long de sa carrière. Le tableau du <hi rend="it">Tasse en
+            prison</hi> était mentionné dans le livret du Salon sous le n° 2929, accompagné de la
+          mention « Appartient à M. Alexandre Dumas ».</note>.Si vous me le permettez, j’enverrai
+        chez <pb n="2" xml:id="p2"/> vous d’ici à deux ou trois jours des personnes soigneuses et
+        accoutumées en maniement des tableaux pour l’enlever et le transporter.</p>
+
+
+      <closer>
+        <salute>Je vous embrasse.</salute>
+        <signed><persName key="Dumas, Alexandre (1802-1870)">Eug. Delacroix</persName></signed>
+        <address>
+          <addrLine><placeName key="France, Paris, rue Notre-Dame de Lorette, 58">58 rue Notre-Dame
+              de Lorette</placeName></addrLine>
+        </address>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
