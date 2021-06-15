@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à [Georges Eugène Haussmann], 21 mai 1860</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Le conseil municipal de Paris</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’Hôtel de Ville</institution>
+
+            <idno>Ms 2195 pièce 3</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Burty, II, p. 235 ; Joubin, IV, p. 176-477</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1860-05-21"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Haussmann, Georges Eugène (1809-1891)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Ce <date when="1860-05-21">21 mai 1860</date></dateline>
+        <salute><persName key="Haussmann, Georges Eugène (1809-1891)">Monsieur le
+            préfet</persName><note place="bottom">Georges Eugène Haussmann (1809-1891) fut préfet de
+            la Seine du 22 juin 1853 au 5 janvier 1870. Delacroix lui écrit en sa qualité de
+            conseiller municipal. Le peintre avait été nommé le 27 décembre 1851 et fut renouvelé à
+            deux reprises, une première fois le 11 août 1855 et une seconde le 1<hi rend="sup"
+              >er</hi> novembre 1859. Il donna sa démission en 1861, soit deux ans avant sa mort, en
+            alléguant de problèmes de santé <ref type="letter"
+              target="CAC_ED_paris-hdv-ms2195-04.xml">(lettre antérieure au 13 novembre 1861)</ref>.
+            Il siégeait au 2e comité du Conseil municipal compétent en matière de travaux
+            d’architecture et d’urbanisme et des affaires intéressant les
+          beaux-arts.</note>,</salute>
+      </opener>
+
+
+      <p>J’étais venu à <placeName key="France, Paris">Paris</placeName> pour avoir l’honneur de
+        vous rendre mes devoirs et pour rappeler à votre bienveillant souvenir les noms de deux
+        sculpteurs, MM. <persName key="Caillouette, Louis Denis (1790-1868)"
+          >Caillouet</persName><note place="bottom">Louis Denis Caillouette, dit Caillouet
+          (1790-1868), sculpteur, obtint le troisième prix de Rome en 1809 pour son <hi rend="it"
+            >Marius sur les ruines de Carthage</hi>. En 1818, il obtint un second prix de Rome avec
+            <hi rend="it">Chélonis implorant la grâce de son époux Cléombrotte.</hi></note> et
+          <persName key="Préault, Auguste (1809-1879)">Préault</persName><note place="bottom"
+          >Auguste Perrault (1809-1879), sculpteur et médailleur, gagna en reconnaissance à compter
+          du Salon de 1849. Il entretenait une amitié avec Delacroix.</note>, en faveur desquels
+        j’avais pris la liberté de vous présenter une recommandation que vous aviez bien voulu
+        accueillir favorablement. Vous m’aviez fait espérer, pour le premier de ces artistes, des
+        travaux de sculpture dans la <placeName key="France, Paris, tour Saint-Germain l'Auxerrois"
+          >tour de Saint-Germain l’Auxerrois</placeName><note place="bottom">La conception de la
+          tour avait été confiée par la Ville de Paris à l’architecte Théodore Ballu. Les travaux
+          durèrent de 1858 à 1861. La tour, inspirée de l’architecture gothique du XV<hi rend="sup"
+            >e</hi> siècle, permet de faire la jonction entre l’église Saint-Germain l’Auxerrois et
+          la nouvelle mairie du 1<hi rend="sup">er</hi> arrondissement et aide à souligner la
+          symétrie des façades des deux monuments.</note>, ou à leur défaut des travaux analogues.
+          <persName key="Caillouette, Louis Denis (1790-1868)">M. Caillouet</persName>, depuis un
+        grand nombre d’années, rend à la ville de véritables services comme professeur de dessin de
+        l’une des écoles gratuites de dessin<note place="bottom">A partir de 1836, Caillouet donna
+          des cours dans une école de dessin gratuite destinée à former des ouvriers du faubourg
+          Saint-Denis. La Ville de Paris soutenait ces initiatives en leur apportant notamment des
+          allocations aidant à leur fonctionnement.</note>. Son dévouement et son désintéressement,
+        en particulier dans cette situation peu rétribuée, nous avait vivement frappés, <persName
+          key="Perrier, Alexandre Gabriel (1783-1867)">M. Perrier</persName><note place="bottom"
+          >Alexandre Gabriel Périer (1783-1867) fut conseiller municipal de 1849 à 1864 et pu
+          fréquenter Delacroix à l’occasion des séances du Conseil.</note> et moi, dans une visite
+        que nous faisions à cet établissement, il y a quelques années. Il occupe d’ailleurs un rang
+        très honorable parmi nos sculpteurs.</p>
+      <p>Quant à <persName key="Préault, Auguste (1809-1879)">M. Préault</persName>, j’avais pris la
+        liberté de vous prier de lui confier l’exécution de la statue de saint Louis qui est l’une
+        des trois qui vont être données pour l’<placeName
+          key="France, Paris, Saint-Paul-Saint-Louis">église Saint-Paul et Saint-Louis au
+          Marais</placeName>, et pour lesquelles malheureusement il se présente neuf
+          concurrents<note place="bottom">Préault obtint l’une des trois commandes passées par la
+          Ville de Paris pour l’église Saint-Paul-Saint-Louis. Il exécuta en revanche une <hi
+            rend="it">Sainte Catherine</hi>, Eugène Louis Lequesne ayant été chargé de représenter
+          saint Louis.</note>. C’est demander beaucoup, <pb n="2" xml:id="p2"/> je ne me le
+        dissimule pas, en présence de candidatures nombreuses et qui ont sans doute leur valeur :
+        c’est donc une faveur véritable que je sollicite de votre bienveillance et qui serait
+        justifiée, j’ose le dire, par le talent de <persName key="Préault, Auguste (1809-1879)"
+          >l’artiste</persName>, tout à fait en harmonie avec le sujet.</p>
+      <p>J’ai le regret, <persName key="Haussmann, Georges Eugène (1809-1891)">Monsieur le
+          préfet</persName>, de n’avoir pu que bien tard user du seul remède qui me remette
+        véritablement de la singulière langueur et de la prostration absolue dans laquelle j’ai
+        passé la convalescence d’une maladie dangereuse dans son principe. J’éprouve de mon séjour à
+        la campagne des effets tellement remarquables que je me flatte de reprendre avant quinze
+        jours et d’occuper d’une manière continue ma place au conseil municipal, de manière à me
+        faire pardonner par vous, <persName key="Haussmann, Georges Eugène (1809-1891)">Monsieur le
+          préfet</persName>, et par mes collègues, ma longue et trop involontaire absence.</p>
+
+
+      <closer>
+        <salute>Veuillez agréer, <persName key="Haussmann, Georges Eugène (1809-1891)">Monsieur le
+            préfet</persName>, l’expression de ma haute considération et de mon respect.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">E. Delacroix</persName></signed>
+      </closer>
+    </body>
+  </text>
+</TEI>
