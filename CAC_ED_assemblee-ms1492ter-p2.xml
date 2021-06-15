@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Paul Lelong, 27 juin [1833]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les grandes commandes publiques</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Assemblée nationale</institution>
+
+            <idno>Ms 1492 ter, pièce 2</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, I, p. 359</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1833-06-27"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Lelong, Paul (1799-1846)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="1" xml:id="p1"/>
+            <persName key="Lelong, Paul (1799-1846)">Monsieur Lelong</persName><note place="bottom"
+              >Paul Lelong (1799-1846).</note></addrLine>
+          <addrLine>architecte à la Chambre des députés</addrLine>
+        </address>
+        <salute>
+          <pb n="2" xml:id="p2"/>
+          <persName key="Lelong, Paul (1799-1846)">Monsieur</persName>,</salute>
+      </opener>
+
+
+      <p>Je vous remercie beaucoup de l’avis que vous voulez bien me donner. Je ne profiterai
+        pourtant pas de suite de la faculté de peindre, attendu que les dernières couches de
+        peinture venant d’être appliquées, je regarderais comme tout à fait propre à compromettre
+          <rs type="work" key="Assemblée nationale, Salon du Roi">mes peintures</rs> une préparation
+        aussi récente<note place="bottom">Delacroix s’était vu confié les décors du Salon du Roi du
+          palais Bourbon en 1833. Il les acheva en 1836.</note>.</p>
+
+
+      <closer>
+        <salute>J’ai l’honneur d’être, avec une très haute considération, <persName
+            key="Lelong, Paul (1799-1846)">Monsieur</persName>, votre très humble et obéissant
+          serviteur.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+        <dateline>Ce <date when="27-06-1833">27 juin</date><note place="bottom">Il est permis de
+            dater la lettre de 1833, Delacroix n’ayant pas encore entamé les peintures murales du
+            Salon du Roi du palais Bourbon.</note></dateline>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
