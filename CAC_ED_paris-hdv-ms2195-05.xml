@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à [Georges Eugène Haussmann], [1862]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Le conseil municipal de Paris</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’Hôtel de Ville</institution>
+
+            <idno>Ms 2195 pièce 5</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1862"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Haussmann, Georges Eugène (1809-1891)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+      <salute>
+        <pb n="1" xml:id="p1"/>
+        <pb/><persName key="Haussmann, Georges Eugène (1809-1891)">Monsieur le
+          préfet</persName><note place="bottom">Georges Eugène Haussmann (1809-1891) fut préfet de
+          la Seine du 22 juin 1853 au 5 janvier 1870.</note>,</salute>
+      <p>J’ai reçu avec une vive reconnaissance l’album photographié<note place="bottom">Il n’a pas
+          été possible d’identifier ledit album.</note> que vous avez eu l’extrême bonté de
+        m’envoyer. C’est un cadeau splendide et qui me parait, comme objet d’art, l’un des plus
+        heureux qui ait été mis en lumière sous votre administration. Ce témoignage d’estime si
+        flatteur pour moi, dans un moment où je n’ai plus l’honneur de faire partie du Conseil
+          municipal<note place="bottom">Delacroix avait été nommé conseiller municipal le 27
+          décembre 1851 et avait été renouvelé à deux reprises. Il avait informé Haussmann de sa
+          démission en raison de sa santé difficile en 1861 (lettre antérieure au 13 novembre
+          1861).</note>, me devient plus précieux encore, grâce à l’attention pleine de
+        bienveillance qui vous a porté à me l’accorder et je m’empresse de vous en exprimer les plus
+        sincères remerciements.</p>
+
+      <opener>
+        <salute>Agréez en même temps, <persName key="Haussmann, Georges Eugène (1809-1891)">Monsieur
+            le préfet</persName>, l’expression de la plus respectueuse considération.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </opener>
+
+
+    </body>
+  </text>
+</TEI>
