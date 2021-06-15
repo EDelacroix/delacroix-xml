@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Joseph Guichard, mercredi 27</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les grandes commandes publiques</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Assemblée nationale</institution>
+
+            <idno>Ms 1492 ter, pièce non cotée</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date notbefore="1833" notafter="1836"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Guichard, Joseph (1806-1880)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <pb n="1" xml:id="p1"/>
+        <persName key="Guichard, Joseph (1806-1880)">Monsieur Guichard</persName>, peintre<note
+          place="bottom">Joseph Guichard (1806-1880), peintre, fréquenta l’atelier de Delacroix
+          durant ses années de formation.</note>
+        <addrLine><address>
+            <placeName key="France, Paris, rue de Rochechouart, 41">rue de Rochechouart, Cité Rodier
+              41</placeName>
+          </address></addrLine>
+        <salute>
+          <pb n="2" xml:id="p2"/> Mon cher <persName key="Guichard, Joseph (1806-1880)"
+            >Monsieur</persName>,</salute>
+      </opener>
+
+
+      <p>Je serai demain <hi rend="u">jeudi</hi> et <hi rend="u">vendredi</hi> de 11 h à 1 h à la
+          <placeName key="France, Paris, Assemblée nationale">Chambre des députés</placeName><note
+          place="bottom">Delacroix réalisa les décors du Salon du Roi du palais Bourbon de 1833 à
+          1836. Il s’en vit également confié en 1838 les décors de la bibliothèque, achevés en
+          1847.</note>. Si vous avez quelques instants, je serais très content de vous montrer mon
+        travail.</p>
+
+
+      <closer>
+        <salute>Recevez mille amitiés.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+        <dateline>Ce <date notbefore="1833" notafter="1836">mercredi 27</date>.</dateline>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
