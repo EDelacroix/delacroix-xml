@@ -90,8 +90,8 @@
         <address>
           <addrLine>
             <pb n="1" xml:id="p1"/>
-            <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur Pierret</persName><placeName
-              key="France, Paris, rue Tronchet, 11">Rue Tronchet, n° 11, près de la
+            <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur Pierret</persName></addrLine><addrLine><placeName
+              key="France, Paris, rue Tronchet, 11">Rue Tronchet, n° 11, près la
               Madeleine</placeName></addrLine>
         </address>
         <salute>
