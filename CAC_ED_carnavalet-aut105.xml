@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à [destinataire inconnu], 7 février [1854]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les grandes commandes publiques</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Musée Carnavalet</institution>
+
+            <idno>AUT105</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1854-02-07"/>
+
+        </correspAction>
+
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Ce <date when="1854-02-07">7 février</date><note place="bottom">La
+            mention du mardi 7 février permet de dater la lettre de 1854. </note>.</dateline>
+      </opener>
+
+
+      <salute>M’est-il permis de vous demander de faire le voyage de l’<placeName>Hôtel de Ville
+        </placeName>pour voir <rs type="work">mon plafond</rs><note place="bottom">Delacroix
+          travailla au plafond du salon de la Paix de l’Hôtel de Ville de 1852 à 1854, ce qui
+          concorde avec sa découverte par le public. Il représenta dans la partie centrale une <hi
+            rend="it">Allégorie de la Paix</hi>, entourée par un ensemble de huit caissons
+          représentant des divinités antiques et de onze tympans relatant des épisodes de la vie
+          d'Hercule.</note> avant que je n’y fasse venir le bon public ? Je ne puis aller vous en
+        prier n’ayant plus que cette semaine pour y travailler : j’y serai toute la semaine de une
+        heure à quatre. Demain <hi rend="u">mercredi</hi> j’y serai plus tôt. Ne suis-je pas indigne
+        de la faveur que je vous demande et vous offrirai-je en compensation quelque chose dans <rs
+          type="work" key="Salon de la Paix, Hôtel de Ville">cette peinture</rs> qui puisse
+        m’excuser de tant espérer. Je suis aussi mécontent d’elle que de moi. Pardonnez-moi donc <pb
+          n="2" xml:id="p2"/> et recevez en attendant les plus dévoués hommages de cœur<note
+          place="bottom">Il n’a pas été possible d’identifier le destinataire de la
+        lettre.</note>.</salute>
+
+      <closer>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
