@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Edmond Cavé, 30 mai 1833</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les grandes commandes publiques</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Assemblée nationale</institution>
+
+            <idno>Ms 1492 ter, pièce 1</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, I, p. 358</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1833-05-30"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Cavé, Edmond (1794-1852)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <pb n="1" xml:id="p1"/>
+        <addrLine><placeName key="France, Paris, rue de Grenelle">rue de Grenelle</placeName></addrLine>
+        <addrLine><persName key="Cavé, Edmond (1794-1852)">Monsieur Cavé</persName></addrLine>
+        <address>
+          <addrLine>Chef de la division des Belles lettres sciences et arts</addrLine>
+          <addrLine>Au ministère de l’Intérieur et du Commerce.</addrLine>
+        </address>
+        <salute>
+          <pb n="2" xml:id="p2"/>
+          <persName key="Cavé, Edmond (1794-1852)">Monsieur</persName><note place="bottom">Edmond
+            Cavé (1794-1852), homme politique, journaliste et écrivain, occupa le poste de chef de
+            la division des beaux-arts au ministère de l’Intérieur, avant d’en devenir le directeur
+            jusqu’à la chute de Louis-Philippe.</note>,</salute>
+      </opener>
+
+
+      <p>Seriez-vous assez bon pour solliciter le plus tôt possible de <persName
+          key="Argout, Antoine Maurice Apollinaire d' (1782-1858)">Monsieur le
+          Ministre</persName><note place="bottom">Antoine Maurice Apollinaire d’Argout (1782-1858)
+          fut ministre de l’Intérieur du 31 décembre 1832 au 4 avril 1834.</note>, l’autorisation de
+        faire préparer le plafond de <placeName key="Salon du Roi, Assemblée nationale">la salle que
+          je dois peindre</placeName><note place="bottom">Delacroix réalisa les décors du Salon du
+          Roi de l’Assemblée nationale de 1833 à 1836.</note> d’après le procédé de <persName
+          key="Darcet, Jean (1777-1844)">M. Darcet</persName><note place="bottom">Il pourrait s’agir
+          du chimiste Jean Darcet, ou d’Arcet (1777-1844), chimiste et industriel.</note> contre
+        l’humidité ? Toute celle qui avait été absorbée antérieurement est encore dans les plâtres,
+        puisqu’elle a reparu après cinq couches successives de peinture. Les mêmes taches ne
+        tarderaient pas à se manifester sur la peinture définitive et sur la dorure. <placeName
+          key="France, Paris, Notre-Dame de Lorette">L’église de
+          Notre-Dame-de-Lorette</placeName><note place="bottom">L’église Notre-Dame de Lorette,
+          érigée en bordure du quartier de la Nouvelle Athènes, est l’œuvre de l’architecte
+          Hippolyte Lebas (1782-1867). A la fin de la Restauration et durant les premières années de
+          la monarchie de Juillet elle fit l’objet de nombreuses commandes, permettant à de nombreux
+          peintres de recourir à la peinture murale.</note>, qu’on est en train de peindre
+        actuellement, a été soumise à cette pratique, indispensable seulement dans le plafond de
+          <placeName key="Salon du Roi, Assemblée nationale">la salle que je peins</placeName>.
+          <persName key="Lelong, Paul (1799-1846)">L’architecte</persName><note place="bottom">Paul
+          Lelong (1799-1846).</note> vous donnera un devis de ce que cela doit coûter.</p>
+
+
+      <closer>
+        <salute>J’ai l’honneur d’être avec une haute considération, <persName
+            key="Cavé, Edmond (1794-1852)">Monsieur</persName>, votre très obéissant et dévoué
+          serviteur.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+        <dateline>Ce <date when="1833-05-30">30 mai 1833</date>.</dateline>
+        <placeName key="France, Paris, quai Voltaire, 15">Quai Voltaire, n° 15</placeName>. </closer>
+
+    </body>
+  </text>
+</TEI>
