@@ -91,8 +91,8 @@
           <addrLine>
             <pb n="1" xml:id="p1"/>
             <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur Jean-Baptiste
-              Pierret</persName>
-            <placeName key="France, Paris, rue Sainte-Anne, 18">Rue Sainte-Anne n° 18,
+              Pierret</persName></addrLine>
+            <addrLine><placeName key="France, Paris, rue Sainte-Anne, 18">Rue Sainte-Anne n° 18,
               Paris</placeName></addrLine>
         </address>
         <dateline>

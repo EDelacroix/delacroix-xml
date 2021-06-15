@@ -93,28 +93,35 @@
         <address>
           <addrLine>
             <pb n="1" xml:id="p1"/>
-            <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur Pierret</persName>
-            <placeName key="France, Paris, rue Sainte-Anne, 18">Rue Sainte-Anne n° 18, A Paris</placeName></addrLine>
+            <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur Pierret</persName></addrLine>
+            <addrLine><placeName key="France, Paris, rue Sainte-Anne, 18">Rue Sainte-Anne n° 18, A
+              Paris</placeName></addrLine>
         </address>
         <dateline>
           <pb n="2" xml:id="p2"/>
-          <placeName key="Maroc, Tanger">Tanger</placeName>, <date when="1832-01-25">25 janvier</date></dateline>
+          <placeName key="Maroc, Tanger">Tanger</placeName>, <date when="1832-01-25">25
+            janvier</date></dateline>
       </opener>
 
 
-      <p>J’arrive maintenant à <placeName key="Maroc, Tanger">Tanger</placeName>. Je viens de parcourir la ville. Je
-        suis tout étourdi de tout ce que j’ai vu. Je ne veux pas laisser partir le courrier, qui ira
-        tout à l’heure à <placeName key="Royaume-Uni, Gibraltar">Gibraltar</placeName>, sans te faire part de mon étonnement de
-        toutes les choses que j’ai vues. Nous avons débarqué au milieu du peuple le plus étrange. Le
-        <persName key="Saïdi Sidi, Larabi">pacha de la ville</persName><note place="bottom">Il s’agit de Sidi Larabi Saïdi,
-          pacha et gouverneur de Tanger. </note> nous a reçus au milieu de ses soldats. Il faudrait
-        avoir 20 bras et 48 heures par journée pour faire passablement et donner une idée de tout
-        cela. Les Juives sont admirables. Je crains qu’il soit difficile d’en faire autre chose que
-        de les peindre : ce sont des perles d’Eden. Notre réception a été des plus brillantes pour
-        le lieu. On nous a régalés d’une musique militaire des plus bizarres. Je suis dans ce moment
-        comme un homme qui rêve et qui voit des choses qu’il craint de voir lui échapper.</p>
-<closer> Adieu, je ferme. Communique à <persName key="Guillemardet, Félix (1796-1842)">Félix</persName>. Je vous embrasse tous.</salute>
-        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène</persName></signed></closer>
+      <p>J’arrive maintenant à <placeName key="Maroc, Tanger">Tanger</placeName>. Je viens de
+        parcourir la ville. Je suis tout étourdi de tout ce que j’ai vu. Je ne veux pas laisser
+        partir le courrier, qui ira tout à l’heure à <placeName key="Royaume-Uni, Gibraltar"
+          >Gibraltar</placeName>, sans te faire part de mon étonnement de toutes les choses que j’ai
+        vues. Nous avons débarqué au milieu du peuple le plus étrange. Le <persName
+          key="Saïdi Sidi, Larabi">pacha de la ville</persName><note place="bottom">Il s’agit de
+          Sidi Larabi Saïdi, pacha et gouverneur de Tanger. </note> nous a reçus au milieu de ses
+        soldats. Il faudrait avoir 20 bras et 48 heures par journée pour faire passablement et
+        donner une idée de tout cela. Les Juives sont admirables. Je crains qu’il soit difficile
+        d’en faire autre chose que de les peindre : ce sont des perles d’Eden. Notre réception a été
+        des plus brillantes pour le lieu. On nous a régalés d’une musique militaire des plus
+        bizarres. Je suis dans ce moment comme un homme qui rêve et qui voit des choses qu’il craint
+        de voir lui échapper.</p>
+      <closer>
+        <salute> Adieu, je ferme. Communique à <persName key="Guillemardet, Félix (1796-1842)"
+            >Félix</persName>. Je vous embrasse tous.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène</persName></signed>
+      </closer>
     </body>
   </text>
 </TEI>

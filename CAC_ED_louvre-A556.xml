@@ -92,10 +92,10 @@
       <opener>
         <address>
           <addrLine>
-            <pb n="4&#10;" xml:id="p4&#10;"/>
-            <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur Pierret jeune</persName> Et
-            à <persName key="Guillemardet, Félix (1796-1842)">M. Guillemardet (Félix)</persName>
-            <placeName key="France, Paris, rue Sainte-Anne, 18">Rue Sainte-Anne n°
+            <pb n="4" xml:id="p4"/>
+            <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur Pierret jeune</persName></addrLine> <addrLine>Et
+            à <persName key="Guillemardet, Félix (1796-1842)">M. Guillemardet (Félix)</persName></addrLine>
+           <addrLine> <placeName key="France, Paris, rue Sainte-Anne, 18">Rue Sainte-Anne n°
             18</placeName></addrLine>
         </address>
         <dateline>

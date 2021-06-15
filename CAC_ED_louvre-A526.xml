@@ -92,8 +92,8 @@
         <hi rend="u">port payé</hi>
         <address>
           <addrLine>À <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur Jean-Baptiste
-              Pierret jeune</persName>
-            <placeName key="France, Paris, rue du Four, 50">rue du Four n° 50. Faubourg
+              Pierret jeune</persName></addrLine>
+           <addrLine> <placeName key="France, Paris, rue du Four, 50">rue du Four n° 50. Faubourg
               Saint-Germain, à Paris.</placeName></addrLine>
         </address>
         <dateline>

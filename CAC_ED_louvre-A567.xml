@@ -93,7 +93,7 @@
           <addrLine>
             <pb n="1" xml:id="p1"/>
             <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur Pierret,
-              littérateur</persName><placeName key="France, Paris, rue Neuve du Luxembourg, 1">Rue
+              littérateur</persName></addrLine><addrLine><placeName key="France, Paris, rue Neuve du Luxembourg, 1">Rue
               Neuve du Luxembourg, n° 1</placeName></addrLine>
         </address>
         <salute>

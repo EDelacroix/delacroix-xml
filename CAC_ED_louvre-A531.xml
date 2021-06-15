@@ -92,8 +92,8 @@
         <address>
           <addrLine>
             <pb n="4" xml:id="p4"/> À <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur
-              Jean-Baptiste Pierret</persName>
-            <placeName key="France, Paris, rue du Four, 50">Rue du Four, Saint-Germain n° 50, À
+              Jean-Baptiste Pierret</persName></addrLine>
+           <addrLine> <placeName key="France, Paris, rue du Four, 50">Rue du Four, Saint-Germain n° 50, À
               Paris</placeName></addrLine>
         </address>
         <dateline>
@@ -209,7 +209,7 @@
           ami</persName>, il est tard et il faut faire la part aux autres qui ont aussi daigné
         penser à moi et qui veulent bien m’aimer. Vous êtes de bons amis ; vous n’oubliez pas
         l’absent et l’orphelin. Il n’a que vous, que votre sein où mettre la tête à l’abri de ses
-        petits chagrins humains. 
+        petits chagrins humains.</p> 
         <closer>
           <salute>Adieu donc. Je t’embrasse tendrement.</salute>
         </closer> 
