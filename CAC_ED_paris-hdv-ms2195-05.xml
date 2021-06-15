@@ -82,11 +82,14 @@
     <body>
 
 
-      <salute>
-        <pb n="1" xml:id="p1"/>
-        <pb/><persName key="Haussmann, Georges Eugène (1809-1891)">Monsieur le
-          préfet</persName><note place="bottom">Georges Eugène Haussmann (1809-1891) fut préfet de
-          la Seine du 22 juin 1853 au 5 janvier 1870.</note>,</salute>
+      <opener>
+        <salute>
+          <pb n="1" xml:id="p1"/>
+          <pb/><persName key="Haussmann, Georges Eugène (1809-1891)">Monsieur le
+            préfet</persName><note place="bottom">Georges Eugène Haussmann (1809-1891) fut préfet de
+            la Seine du 22 juin 1853 au 5 janvier 1870.</note>,</salute>
+      </opener>
+
       <p>J’ai reçu avec une vive reconnaissance l’album photographié<note place="bottom">Il n’a pas
           été possible d’identifier ledit album.</note> que vous avez eu l’extrême bonté de
         m’envoyer. C’est un cadeau splendide et qui me parait, comme objet d’art, l’un des plus
@@ -99,11 +102,11 @@
         bienveillance qui vous a porté à me l’accorder et je m’empresse de vous en exprimer les plus
         sincères remerciements.</p>
 
-      <opener>
+      <closer>
         <salute>Agréez en même temps, <persName key="Haussmann, Georges Eugène (1809-1891)">Monsieur
             le préfet</persName>, l’expression de la plus respectueuse considération.</salute>
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
-      </opener>
+      </closer>
 
 
     </body>
