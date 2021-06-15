@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Georges Eugène Haussmann, 10 novembre 1859</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Le conseil municipal de Paris</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Musée Carnavalet</institution>
+
+            <idno>AUT103</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="1"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, IV, p. 127 ; Escholier, <hi rend="it">Delacroix, peintre, graveur,
+              écrivain</hi>, III, 1929, p. 252.</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1859-11-10"/>
+          <placeName>Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Haussmann, Georges Eugène (1809-1891)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <placeName key="France, Paris">Paris</placeName> ce <date when="1859-11-10">10 novembre
+            1859</date>.</dateline>
+        <salute><persName key="Haussmann, Georges Eugène (1809-1891)">Monsieur le
+            préfet</persName><note place="bottom">Georges Eugène Haussmann (1809-1891) fut préfet de
+            la Seine du 22 juin 1853 au 5 janvier 1870.</note>,</salute>
+      </opener>
+
+
+      <p>Je n’ai reçu que tardivement la lettre que vous m’avez fait l’honneur de m’adresser et dans
+        laquelle vous m’annoncez que <persName key="Napoléon III (1808-1873)">Sa Majesté
+          l’Empereur</persName> a daigné m’appeler de nouveau à faire partie du Conseil municipal
+          réorganisé<note place="bottom">Delacroix était conseiller municipal depuis le 27 décembre
+          1851. Il fut renouvelé une première fois le 11 août 1855. Il est ici fait allusion au
+          second renouvellement, intervenu le 1<hi rend="sup">er</hi> novembre 1859. Delacroix donna
+          sa démission en 1861, soit deux ans avant sa mort, en alléguant de problèmes de santé. Il
+          siégeait au 2<hi rend="sup">e</hi> comité du Conseil municipal compétent en matière de
+          travaux d’architecture et d’urbanisme et des affaires intéressant les beaux-arts.</note>
+        en vue de l’extension des limites de <placeName key="France, Paris">Paris</placeName><note
+          place="bottom">En 1860, les limites de Paris furent repoussées au-delà des douze
+          arrondissements préexistants, intégrant à la ville les communes limitrophes.</note>.</p>
+      <p>Au sentiment de ma profonde reconnaissance pour la faveur que je reçois de <persName
+          key="Napoléon III (1808-1873)">Sa Majesté</persName>, se joint celui de la vive
+        satisfaction que j’éprouve à continuer près de vous des fonctions qui m’associent, dans la
+        faible mesure de mes connaissances spéciales, à ces travaux grandioses auxquels vos talents
+        et votre sollicitude ont donné une si énergique impulsion.</p>
+
+
+      <closer>
+        <salute>Veuillez agréer, <persName key="Haussmann, Georges Eugène (1809-1891)">Monsieur le
+            préfet</persName>, l’assurance de ma respectueuse et bien haute considération.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
