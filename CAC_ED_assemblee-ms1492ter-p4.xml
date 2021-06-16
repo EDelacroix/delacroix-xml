@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Pierre Luc Charles Ciceri, 11 octobre 1845</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les grandes commandes publiques</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Assemblée nationale</institution>
+
+            <idno>1482 ter, pièce 4</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1845-10-11"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Ciceri, Pierre Luc Charles (1782-1868)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+      <opener>
+        <pb n="1" xml:id="p1"/>
+        <persName key="Ciceri, Pierre Luc Charles (1782-1868)">Monsieur Ciceri</persName><note
+          place="bottom">Pierre Luc Charles Ciceri (1782-1868), peintre décorateur et aquarelliste
+          devint un ami de Delacroix. Delacroix avait notamment manifesté un intérêt pour ses décors
+          destinés au théâtre et à l’opéra suite à leur rencontre en 1824.</note>
+        <address>
+          <addrLine><placeName key="France, Paris, Hôtel des Menus-Plaisirs">aux
+              Menus-Plaisirs</placeName><note place="bottom">Ciceri travaillait à l’hôtel des Menus
+              Plaisirs.</note>
+            <placeName key="France, Paris, rue du faubourg Poissonière">rue du
+              Faubourg-Poissonnière</placeName></addrLine>
+        </address>
+        <pb n="2" xml:id="p2"/>
+        <salute><persName key="Ciceri, Pierre Luc Charles (1782-1868)">Mon cher Monsieur
+            Ciceri</persName></salute>,</opener>
+
+      <p>Je m’en vais placer d’ici au mois de décembre ce qui me reste à coller de mes figures de la
+          <placeName key="France, Paris, Assemblée nationale">Chambre des députés</placeName><note
+          place="bottom">Delacroix avait reçu la commande de la part du ministère de l’Intérieur de
+          la décoration de la bibliothèque de l’Assemblée nationale en 1838 à laquelle il travailla
+          jusqu’en 1847. Il avait déjà travaillé à l’Assemblée par le passé, ayant décoré le Salon
+          du Roi de 1833 à 1836.</note>. Serez-vous assez bon pour me donner d’ici à quelques jours
+        quelques personnes pour faire les moulures qui encadreront les <rs type="work"
+          key="Assemblée nationale, Bibliothèque">tableaux</rs> et retoucher les ciels ainsi que
+        l’ornement qui fait le tour de la lanterne, lequel a besoin, comme nous en sommes convenus,
+        d’être un peu plus soutenu ?</p>
+      <p>Je vous écrirai pour quel moment je désirerais avoir ces messieurs, c’est-à-dire quand la
+        colle sera assez sèche pour leur permettre de travailler<note place="bottom">Cicéri a en
+          effet aidé Delacroix à la décoration ornementale du plafond de la
+        bibliothèque.</note>.</p>
+
+      <closer>
+        <salute>Recevez mille amitiés et compliments de votre très dévoué</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+        <p><placeName key="France, paris, rue Notre-Dale de Lorette, 54">Rue Notre-Dame-de-Lorette,
+            n° 54</placeName>.</p>
+        <dateline>Ce <date when="1845-10-11">11 octobre 1845</date>.</dateline>
+      </closer>
+    </body>
+  </text>
+</TEI>
