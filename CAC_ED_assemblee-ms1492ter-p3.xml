@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Auguste Préault, 7 décembre [1836]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+<name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Assemblée nationale</institution>
+            
+            <idno>1492 ter, pièce 3</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="4"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+            
+          </physDesc>
+          
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, I, p. 403-404</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1836-12-07"/>
+          
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Préault, Auguste (1809-1879)"/>
+        </correspAction>
+        
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+<opener>
+<p>
+<pb n="1" xml:id="p1"/> <persName>Monsieur A. Préault</persName>, statuaire</p>
+<address>
+<addrLine><placeName>boulevard Bourdon n° 1 ou 2</placeName></addrLine>
+<addrLine><placeName>près la Bastille</placeName></addrLine></address>
+</opener>
+
+
+<lb type="line"/>
+<p>
+<pb n="2" xml:id="p2"/> <persName>Mon cher ami</persName><note place="bottom">Auguste Préault (1809-1879) était un ami de Delacroix. Ce dernier s’intéressait à ses œuvres et eut notamment l’occasion de le recommander au baron Haussmann des années plus tard, lorsqu’il était conseiller municipal de la Ville de Paris, l’aidant à obtenir une commande destinée à l’église Saint-Paul-Saint-Louis (lettre du 21 mai 1860).</note>,</p>
+<p>J’ai à vous demander un petit service qu’il sera peut-être de votre pouvoir de me rendre. Plusieurs journaux, presque tous même, ont annoncé je ne sais sur quel fondement que mes travaux à la <placeName>Chambre</placeName> ne seraient pas terminés cette année<note place="bottom">Il est question des décors du Salon du Roi à l’Assemblée nationale que Delacroix fut chargé de décorer à partir de 1833. Delacroix considérait la commande honorée dans une lettre du 27 décembre 1836, dans laquelle il réclamait à Nicolas Martin du Nord, alors ministre des Travaux publics, une indemnité.</note>. Vous sentez qu’il m’importe que cette annonce soit contredite. Pouvez-vous demander à <persName>Decamps</persName><note place="bottom">Alexandre Gabriel Decamps (1803-1860), peintre et lithographe.</note>, dont j’ignore l’adresse ainsi qu’à <persName>Th. Gauthier</persName> de faire mettre une petite note l’un dans <hi rend="it">La Presse</hi>, l’autre dans <hi rend="it">Le National</hi> pour rectifier cela ? Comme
+<pb n="3" xml:id="p3"/> serait par exemple la note suivante : « Plusieurs journaux ont annoncé sans fondement que les peintures de <persName>M. Delacroix</persName> à la <placeName>Chambre des députés</placeName> ne seraient pas terminées pour l’ouverture de la session. Les travaux qui ne consistaient qu’en simples retouches sont entièrement achevés et seront découverts pour le <hi rend="u">18</hi> », ou tout ce qu’ils voudront d’analogue.</p>
+<p>Si vous pouviez passer quelque jour, nous causerions de sculptures que j’ai demandées à un architecte pour vous<note place="bottom">Il n’a pas été permis de déterminer de quelle commande il aurait pu être question.</note>. Seulement
+<pb n="4" xml:id="p4"/> je ne sais pas si les conditions seraient bien avantageuses. Cela serait en province, mais près de <placeName>Paris</placeName>, enfin, cela pourrait mener à autre chose.</p>
+<p>Dans tous les cas, voudrez-vous me faire une réponse par écrit pour me dire si <persName>ces Messieurs</persName> pourront se charger de ma petite réclamation ?</p>
+
+
+<closer>
+<p>À vous de cœur,</p>
+<signed><persName>Eug. Delacroix</persName></signed>
+<dateline>Ce <date>7 décembre</date><note place="bottom">La lettre peut être datée de 1836, Delacroix ayant achevé sa commande à la fin de l’année.</note>.</dateline>
+</closer>
+
+<lb type="line"/>
+</body>
+  </text>
+</TEI>
