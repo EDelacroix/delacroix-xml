@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, 2 juillet 1841</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>{corrections}</name>
+          <name>{corrections}</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les amis de jeunesse</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Musée du Louvre</institution>
+            <repository>Département des Arts graphiques</repository>
+            <idno>A 577</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Etienne Moreau-Nélaton</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, II, p. 80</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1841-07-03"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Pierret, Jean-Baptiste (1795-1854)"/>
+          <placeName key="France, Paris, Ministère de l'Intérieur"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="1" xml:id="p1"/>
+            <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur Pierret, chef de bureau à
+              l’administration des communes</persName>.</addrLine>
+          <addrLine><placeName key="France, Paris, Ministère de l'Intérieur">Ministère de
+              l’Intérieur, rue de Grenelle-Saint-Germain</placeName>.</addrLine>
+        </address>
+        <salute>
+          <pb n="2" xml:id="p2"/>
+          <persName key="Pierret, Jean-Baptiste (1795-1854)">Cher ami</persName>,</salute>
+      </opener>
+
+
+      <p><persName key="Delacroix, Charles-Henry (1779-1845)">Mon frère</persName> est ici et <date
+          when="1841-07-02">aujourd’hui vendredi</date><note place="bottom">Lettre datée grâce au
+          cachet postal.</note> il dîne avec moi et <persName key="Riesener, Léon (1808-1878)"
+          >Riesener</persName>. Fais-moi le plaisir de venir aussi. J’écris en même temps à
+          <persName key="Heidinger, Marguerite-Jeanne-Aimée (1797-?)">ta femme</persName>, pour
+        qu’elle ne t’attende pas tantôt, afin de t’éviter d’aller la prévenir. Je compte sur toi. À
+        6 heures.</p>
+
+
+      <closer>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug</persName>.</signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
