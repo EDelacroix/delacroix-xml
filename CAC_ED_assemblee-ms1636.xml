@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Charles Paillet, 26 octobre 1838</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les grandes commandes publiques</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Assemblée nationale</institution>
+
+            <idno>Ms 1636</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1838-10-26"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Paillet, Charles (1780-1848)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <pb n="1" xml:id="p1"/>
+        <persName key="Paillet, Charles (1780-1848)">Monsieur Charles Paillet</persName>
+        <note place="bottom">Charles Paillet (1780-1848) devint commissaire expert des musées royaux
+          dans les dernières années de la Restauration.</note>
+        <address>
+          <addrLine>Commissaire expert honoraire du Musée royal</addrLine>
+        </address>
+      </opener>
+
+
+      <p>
+        <pb n="2" xml:id="p2"/> Je reçois avec bien de la reconnaissance, <persName
+          key="Paillet, Charles (1780-1848)">mon cher Monsieur</persName>, tout ce que vous voulez
+        bien me dire de bon et d’aimable sur <rs type="work" key="Assemblée nationale, Salon du Roi"
+          >mon travail</rs> de la <placeName key="France, Paris, Assemblée nationale">Chambre des
+          députés</placeName><note place="bottom">Delacroix se vit confier en 1838 le décor du
+          plafond de la bibliothèque de l’Assemblée nationale. Toutefois, il est probable que
+          Paillet fasse plutôt allusion au décor du Salon du Roi que Delacroix avait achevé en 1836,
+          le peintre étant encore à cette date aux balbutiements de son projet.</note>. Recevez-en
+        mes remerciements bien sincères et croyez que votre suffrage est précisément un de ceux qui
+        ont le plus le droit de me flatter. Vous vivez pour ainsi dire avec les grands maîtres :
+        l’habitude d’estime et de comparer leurs ouvrages vous donne certainement, indépendamment du
+        sentiment qui vous est propre, une délicatesse de coup d’œil et d’appréciation que doivent
+        redouter les ouvrages médiocres<note place="bottom">Paillet s’était construit une réputation
+          de connaisseur notamment par l’intermédiaire d’expositions pour lesquelles il sollicitait
+          des dons d’œuvres par l’Etat ou des particuliers.</note>. Si, donc, <rs type="work"
+          key="Assemblée nationale, Salon du Roi">mon travail</rs> ne vous a pas choqué, si même il
+        vous a plu en quelques parties, je me considère comme m’étant élevé de [p.3]quelques degrés
+        vers les exemples immortels que nous ont laissé les maîtres. Je vous le répète, <persName
+          key="Paillet, Charles (1780-1848)">Monsieur</persName>, votre éloge me touche infiniment
+        précisément parce que c’est vous qui me le donnez. Je recevrai avec bien du plaisir le
+        catalogue que vous m’annoncez du cabinet de <persName
+          key="Sommariva, Gian Battista (1762-1826)">M. de Sommariva</persName><note place="bottom"
+          >La fortune de Gian Battista Sommariva (1762-1826) revint à son fils, Luigi Gaetano, qui
+          décéda à son tour en 1838. La vente de la collection formée par son père fut décidée,
+          avant même le décès de son petit-fils âgé de 8 ans, qui survint l’année suivante. Charles
+          Paillet fut chargé de réaliser un catalogue de vente qui fut édité en 1839 (Charles
+          Paillet, <hi rend="it">Catalogue de la galerie du comte de Sommariva (…)</hi>, Paris,
+          1839). Ce catalogue comprenait plusieurs sections, dont deux principales consacrées à la
+          peinture française contemporaine et à la peinture italienne de l’époque moderne.</note>.
+        Je ne manquerai pas d’y aller. Je vous remercie aussi d’avoir pensé que cela me procurerait
+        un très grand plaisir.</p>
+
+
+      <closer>
+        <salute>Agréez, avec mes bien sincères remerciements, l’assurance de la haute considération
+          avec laquelle je suis, <persName key="Paillet, Charles (1780-1848)">mon cher
+            Monsieur</persName>, votre bien dévoué serviteur.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+        <dateline>Ce <date when="1838-10-26">26 octobre 1838</date>.</dateline>
+      </closer>
+    </body>
+  </text>
+</TEI>
