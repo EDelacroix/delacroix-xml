@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, 7 juin 1842</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>{corrections}</name>
+          <name>{corrections}</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les amis de jeunesse</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Musée du Louvre</institution>
+            <repository>Département des Arts graphiques</repository>
+            <idno>A 580</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="6"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Etienne Moreau-Nélaton</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, II, p. 106-109</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1842-07-07"/>
+          <placeName key="France, Nohant">Nohant</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Pierret, Jean-Baptiste (1795-1854)"/>
+          <placeName key="France, Paris, rue Tronchet, 13"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="1" xml:id="p1"/>
+            <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur
+            Pierret</persName></addrLine>
+          <addrLine><placeName key="France, Paris, rue Tronchet, 13">Rue Tronchet, n° 13, près la
+              Madeleine, Paris</placeName></addrLine>
+        </address>
+        <salute>
+          <pb n="2" xml:id="p2"/>
+          <persName key="Pierret, Jean-Baptiste (1795-1854)">Cher ami</persName>, </salute>
+      </opener>
+
+
+      <salute>je suis ici<note place="bottom">Delacroix se trouve dans la maison de George Sand
+          (1804-1876) à Nohant.</note> depuis quelques jours et ai fait le voyage très heureusement,
+        sauf les inconvénients qui accompagnent tous les voyages et surtout une chaleur de chien et
+        une poussière <hi rend="it">idem</hi>. À peine installé, j’éprouve que mes projets de ne
+        rien faire ne peuvent pas tenir et que je m’ennuierais horriblement si je n’entreprenais
+        quelque chose. Je vais m’amuser avec <persName key="Sand, Maurice (1823-1889)">le fils de la
+          maison</persName> à entreprendre <rs type="work" key="L'Education de la Vierge (J426)
+            ">un petit tableau</rs> pour l’église du lieu<note place="bottom">Il s’agit de
+            <hi rend="it">L’Éducation de la Vierge</hi> (J426) (Joubin, I, p.107).</note>. De plus,
+        je me sens en train de faire <rs type="work" key="Goetz de Berlichingen, lithographies
+          ">les bois</rs> de <persName key="Charton, Edouard (1807-1890)"
+          >Charton</persName><note place="bottom">Delacroix se réfère ici à des estampes destinées
+          au <hi rend="it">Magasin Pittoresque</hi>, dirigé par Édouard Charton (1807-1890).
+        </note>. Tu vois d’ici que j’ai recours à toi pour l’exécution de tout ceci : je te
+        l’expliquerai tout de suite. La fin de ma lettre sera consacrée à la partie romantique du
+        voyage. D’abord il s’agirait de mettre dans une boîte quelconque les <hi rend="u">deux
+          bois</hi> qui restent à la maison, plus les trois dessins qui restent à faire, plus une
+        feuille de <hi rend="u">papier végétal</hi> ou deux que tu plieras en 4 et qui sont
+        nécessaires pour calquer. Il y en a chez moi dans un des <pb n="3" xml:id="p3"/> grands
+        cartons qui sont sous le <rs type="work" key="La Mort de Sardanapale (J125)
+          "><hi rend="it">Sardanapale</hi></rs><rs type="work">.</rs> Les 3 dessins doivent
+        courir sur la grande table couverte d’un tapis vert. S’ils n’y étaient point, ils se
+        trouveront sans doute dans une masse de dessins et gravures que j’avais emportée <placeName
+          key="France, Frépillon">chez <persName key="Riesener, Félicité (1783/1784-1845)">ma
+            tante</persName></placeName> et au milieu desquels sont les dessins pour <rs type="work"
+          key="Hamlet, lithographies
+          "><hi rend="it">Hamlet</hi></rs> et <rs type="work"
+          key="Goetz de Berlichingen, lithographies
+            "><hi rend="it">Berlichingen</hi></rs><note place="bottom">Quatre gravures de
+          la série <hi rend="it">Goetz de Berlichingen</hi>, inspirée par le drame de Goethe et à
+          laquelle il travaille de 1836 à 1843, sont publiées dans <hi rend="it">Le Magasin
+            Pittoresque</hi>, 13<hi rend="sup">e</hi> année, n° 18, 1845, p. 140-141 et n° 21, p.
+          164-165. Il s’agit de <hi rend="it">Frère Martin et Goetz de Berlichingen, Goetz de
+            Berlichingen écrivant ses mémoires, Goetz de Berlichingen blessé</hi> et <hi rend="it"
+            >Mort de Goetz de Berlichingen</hi> (Robaut, 778-781). </note>. Ce paquet de dessins
+        doit être en bloc dans l’armoire de l’atelier.</salute>
+      <p>Pour les couleurs dont j’ai besoin pour le tableau, tu les désigneras à <persName
+          key="Le Guillou, Jeanne-Marie (1801-1869)">Jenny</persName> et les prendras dans ce qui
+        reste de couleurs à l’atelier. S’il en manquait, elle irait les prendre chez <persName
+          key="Haro, Jacques-François (1797-1844)">Haro</persName>. J’en insère la liste : <hi
+          rend="u">8 blanc de plomb, 6 jaune Naples, 4 ocre jaune, 2 rouge Venise, 1 rouge Van Dyck,
+          2 terre verte, 6 laque garance, 2 terre Cassel, 4 noir pêche, 1 noir d’ivoire, 2 bleu de
+          Prusse, 6 laque robert n° 8</hi>. <persName key="Le Guillou, Jeanne-Marie (1801-1869)"
+          >Jenny</persName> trouvera peut-être dans le grenier quelque boîte qui puisse contenir <pb
+          n="4"/> tout ceci. Je désirerais même que la boîte fut notablement plus grande qu’il ne
+        faut, quitte à la remplir de foin ou de papier, parce que j’avais si peu de place pour
+        mettre mes affaires en venant, que je me trouverais à l’aise, ayant un nouveau réceptacle
+        pour mon retour. <persName key="Le Guillou, Jeanne-Marie (1801-1869)">Jenny</persName> irait
+        mettre tout cela à la diligence de <placeName key="France, Paris, Notre-Dame-des-Victoires"
+          >Notre-Dame-des-Victoires</placeName> sans perdre de temps, en payerait le port à
+        l’adresse suivante écrite dessus : <persName key="Delacroix, Eugène (1798-1863)">M.
+          Delacroix</persName>, à <placeName key="France, Nohant">Nohant</placeName>, près
+          <placeName key="France, La Châtre">La Châtre</placeName>, par <placeName
+          key="France, Châteauroux">Châteauroux</placeName>, <placeName key="France, Indre"
+          >Indre</placeName>. C’est donc à la diligence de <placeName key="France, Châteauroux"
+          >Châteauroux</placeName> qu’il faudrait que cela fût mis. –</p>
+      <p>J’agrée que voilà jusqu’ici une lettre qui ressemble à celle d’un procureur, et point du
+        tout à celle d’un ami. Je m’arrête donc et je reprends le fil du commencement. Le lieu est
+        très agréable et <persName key="Sand, George (1804-1876)">les hôtes</persName> on ne peut
+        plus aimables pour me plaire. Quand on n’est pas réunis pour dîner, déjeuner, jouer au
+        billard et se promener, on est dans sa chambre à <pb n="5" xml:id="p5"/> lire ou à se
+        goberger sur le canapé. Par instants, il vous arrive par la fenêtre entr’ouverte sur le
+        jardin des bouffées de la musique de <persName key="Chopin, Frédéric (1810-1849)"
+          >Chopin</persName>, qui travaille de son côté ; cela se mêle au chant des rossignols et à
+        l’odeur des rosiers. Tu vois que jusqu’ici je ne suis pas très à plaindre, et cependant il
+        faut que le travail vienne donner le grain de sel à tout cela. Cette vie est trop facile. Il
+        faut que je l’achète par un peu de cassement de tête et, comme le chasseur qui mange avec
+        plus d’appétit quand il s’est écorché aux buissons, il faut s’évertuer un peu après les
+        idées pour sentir le charme de ne rien faire. Malgré toutes les occupations que je vais me
+        faire, je ne prendrai pas racine au-delà du temps que je me suis fixé à peu près : je pense
+        même, plus que jamais, que sans l’injonction de la médecine je n’aurais pas laissé passer
+        tout le beau soleil loin de l’<rs type="work" key="Sénat, Bibliothèque, Coupole (J569)
+          "><hi rend="it">Elysée d’Homère</hi></rs> qui me tend les bras au <placeName
+          key="France, Paris, Palais du Luxembourg">Luxembourg</placeName><note place="bottom">C’est
+          le sujet du décor de la coupole de la Bibliothèque du Sénat (J569), à laquelle il
+          travaille depuis 1840.</note>. Le travail qui <pb n="6" xml:id="p6"/> m’attend s’augmente
+        encore en perspective et je fais des vœux bien ardents pour reprendre toutes les forces qui
+        me sont nécessaires.</p>
+      <p>Parle-moi de toi et des tiens. Je te plains de ne pas voyager de temps et temps ; c’est
+        aussi nécessaire à la santé de l’âme qu’à celle du corps : on sort de son ornière
+        habituelle, et cela allonge la vie en la variant. Arrange-toi donc pour venir passer la fin
+        de juillet chez <persName key="Soulier, Charles (1792-1866)">Soulier</persName>. Rien ne s’y
+        oppose, puisque ce sera congé au ministère. Il y a la question d’argent, m’as-tu dit. Qu’il
+        est dur que tu ne puisses surmonter cette cruelle nécessité : un peu moins de la philosophie
+        que tu as, et un peu plus de celle qu’il faut avoir, celle qui consiste à ne pas se laisser
+        prendre au dépourvu par la fatalité, et tu ne serais pas obligé d’y regarder, ni à bien
+        d’autres choses.</p>
+      <salute>Adieu, <persName key="Pierret, Jean-Baptiste (1795-1854)">cher</persName>. Je
+        t’embrasse tout en te sermonnant. Je te demande pardon d’avance de tout ce que je te
+        demande, et par-dessus le marché une longue lettre. Vole le gouvernement pour m’écrire plus
+        longuement. Tu me feras un plaisir énorme.</salute>
+      <salute>À tout à toi [<hi rend="it">sic</hi>]</salute>
+      <address>
+        <addrLine><placeName key="France, Nohant">À Nohant, près La Châtre,
+          Indre</placeName></addrLine>
+      </address>
+    </body>
+  </text>
+</TEI>
