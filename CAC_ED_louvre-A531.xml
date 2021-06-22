@@ -22,8 +22,7 @@
         </respStmt>
         <respStmt>
           <resp>Corrections</resp>
-          <name>{corrections}</name>
-          <name>{corrections}</name>
+          <name>Gaëlle Lafage</name>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -93,7 +92,8 @@
           <addrLine>
             <pb n="4" xml:id="p4"/> À <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur
               Jean-Baptiste Pierret</persName></addrLine>
-           <addrLine> <placeName key="France, Paris, rue du Four, 50">Rue du Four, Saint-Germain n° 50, À
+          <addrLine>
+            <placeName key="France, Paris, rue du Four, 50">Rue du Four, Saint-Germain n° 50, À
               Paris</placeName></addrLine>
         </address>
         <dateline>
@@ -123,14 +123,14 @@
         bout en moins de rien ; les yeux ont dévoré et tout emporté : il semblerait que la lecture
         n’ait pas dû être complète, et il semble cependant aussi que les yeux n’en aient pas été et
         qu’on se trouve avoir senti ce que tu as pensé, de la même façon qu’on est électrisé.
-        L’étincelle a passé sans intermédiaire. – Je crois malheureusement me rappeler que je te
+        L’étincelle a passé sans intermédiaire. Je crois malheureusement me rappeler que je te
         répète, ou peu s’en faut, ce que je t’ai déjà dit cent fois. Mais c’est aussi à recommencer
         toutes les fois que je te lis.</p>
       <p>Le courrier arrive ici plus lentement qu’à la <placeName
           key="France, Charente, Forêt de Boixe, Maison des Gardes">Forêt</placeName><note
           place="bottom">Delacroix se réfère ici à la propriété familiale où il avait séjourné le
           mois précédent, située dans la forêt de Boixe, en Charente.</note>, ce qui fait que j’ai
-        déjà éprouvé quelques désappointements en attendant votre paquet. Il m’en enfin arrivé <pb
+        déjà éprouvé quelques désappointements en attendant votre paquet. Il m’est enfin arrivé <pb
           n="2" xml:id="p2"/> par le canal de <persName key="Piron, Achille (1798-1865)"
           >Piron</persName>. C’est un bon garçon que j’aime bien. Par la lettre de notre bon
           <persName key="Guillemardet, Félix (1796-1842)">Félix</persName>, qui s’est jointe à la
@@ -138,68 +138,69 @@
         entre nous puisque notre affection se reporte jusque sur l’ami de notre ami. <persName
           key="Piron, Achille (1798-1865)">Piron</persName> est quelque peu susceptible en amitié,
         mais chez lui cela prouve précisément son amitié. Pour <persName
-          key="Guillemardet, Félix (1796-1842)">Félix</persName>, il va bientôt rentrer ;
-        marque-t-il chez son avoué ? Dure chose ! avoue-le : malgré tes traverses, ton sort est plus
-        heureux que le sien et ton avenir aussi. La nature de son caractère est la seule chose qui
-        puisse le sauver ; toi, je te regarde déjà comme peintre, tu es de l’état<note
-          place="bottom">Delacroix était persuadé du talent artistique de ses amis, qui étaient
-          destinés selon lui à une carrière florissante. À ce propos, voir Marie-Christine Natta,
-          « L’amitié selon Eugène Delacroix », <hi rend="it">Bulletin de la Société des Amis du
-            musée national Eugène Delacroix</hi>, n° 9, 2011, p. 29-31. </note>.</p>
+          key="Guillemardet, Félix (1796-1842)">Félix</persName>, il va bientôt rentrer marque-t-il,
+        chez son avoué. Dure chose ! avoue-le : malgré tes traverses, ton sort est plus heureux que
+        le sien et ton avenir aussi. La nature de son caractère est la seule chose qui puisse le
+        sauver ; toi, je te regarde déjà comme peintre, tu es de l’état<note place="bottom"
+          >Delacroix était persuadé du talent artistique de ses amis, qui étaient destinés selon lui
+          à une carrière florissante. À ce propos, voir Marie-Christine Natta, « L’amitié selon
+          Eugène Delacroix », <hi rend="it">Bulletin de la Société des Amis du musée national Eugène
+            Delacroix</hi>, n° 9, 2011, p. 29-31. </note>.</p>
       <p>Par une lettre d’<persName key="Bertin, François-Edouard (1797-1871)">Édouard</persName>
-        qui répond à une où je lui parlais de ma fièvre, il me parle avec éloge du tableau de
+        qui répond à une où je lui parlais de ma fièvre, il me parle avec éloges du tableau de
           <persName key="Cogniet, Léon (1794-1880)">Cogniet</persName><note place="bottom">Il s’agit
           probablement d’un des envois de Rome de Léon Cogniet, qui avait remporté le prix de Rome
           en 1817 (Joubin, I, p. 101). </note>. Il paraît bien, comme tu le dis, que c’est ce qu’il
-        y a là de meilleur ; son dernier ne promettait pas. Je suis bien aise qu’il se soit <hi
-          rend="u">ramiché</hi> quelque peu ; mais j’ai peur que ce ne soit pas encore de la Roche
+        y a là de meilleur, son dernier ne promettait pas. Je suis bien aise qu’il se soit <hi
+          rend="u">ramiché</hi> quelque peu ; mais j’ai peur que ce ne soit pas encore de la roche
         sévère. Il a manqué son séjour en <placeName key="Italie">Italie</placeName>, je le crains
         du moins.</p>
       <p>Nous nous disons ce qui nous passe par la tête avec une naïveté si grande, que nous
         finirons par nous louer nous-mêmes l’un à l’autre avec tout autant de bonne foi. Tu me
         parles de mes <hi rend="u">trésors</hi> en homme bien pauvre. Est-ce par un effet de cette
         vertu prétendue qu’on appelle modestie ? Qu’est-ce que c’est que de la modestie ? Est-ce de
-        ne pas faire sentir aux autres sa supériorité, de ne s’en point vanter ? C’est cela sans
-        doute, ou ça n’est rien. Je pars de là pour m’examiner dans toute la sincérité de mon cœur
-        et deviner un peu ce que je pense de moi. Il est doux, n’est-ce pas, d’en être à ce point
-        entre amis, de s’ouvrir l’un à l’autre ces caches si profondes où s’enveloppe
-        l’amour-propre. Hélas ! j’en ai beaucoup et rien ne le dirige. Il m’exalte quelquefois
-        beaucoup devant moi-même, mais à l’habitude, il me donne moins d’estime pour moi, qu’une
-        nausée continuelle sur les traces battues que suit la foule des hommes. J’ai l’orgueil
-        ridicule de bouder et de m’indigner quand je suis méconnu tout à fait, et les éloges qui
-        m’enivrent et me transportent toujours me font voir en même temps combien, combien je suis
-        éloigné d’un grand but. Pourquoi me <pb n="3" xml:id="p3"/> loues-tu et me dis-tu des choses
-        exagérées ? Pourquoi est-tu le seul qui, en dépassant énormément ce que mes plus forts accès
-        de vanité m’aient pu inspirer, m’a pourtant un peu remis à mon rang ? Chose singulière :
-        avant de te connaître il y avait eu dedans de moi un sentiment d’orgueil qui se consolait
-        lui-même et se suffisait. À présent, tu me fais rire en me parlant de mon énergie et de
-        cette kyrielle de trésors donnés si gratuitement. Au total, nous sommes tous des êtres
-        misérables, et toute âme bien placée rougira jusqu’au sang d’éloges exagérés qui flattent,
-        mais qui lui grossissent aussi son vide, sa faiblesse, son inertie. Mais écoute. Ton amitié
-        a bien deviné une chose : c’est qu’il y aura toujours quelque chose pour toi dans tout ce
-        que je produirai. Ton suffrage, tout seul dans une balance, emportera tous les suffrages
-        réunis dans l’autre. Puisque le premier tu m’as dit que tu sentais quelque chose dans ce que
-        je fais, il est juste que tu aies ta récompense du bien que tu m’as fait et du courage que
-        tu m’as donné dans mes efforts pour te plaire. Récompense ! ce mot-là s’adresse à ton cœur,
-        que ton esprit le laisse passer sans contrôle. Admirable amitié : j’ose penser que la beauté
-        de mes ouvrages me paiera une dette auprès de <persName
+        ne pas reconnaître le mérite qu'on a de ne pas le sentir ? C'est au moins rare. Est-ce de ne
+        pas faire sentir aux autres sa supériorité, de s’en point vanter ? C’est cela sans doute, ou
+        ça n’est rien. Je pars de là pour m’examiner dans toute la sincérité de mon cœur et deviner
+        un peu ce que je pense de moi. Il est doux, n’est-ce pas, d’en être à ce point entre amis,
+        de s’ouvrir l’un à l’autre ces caches si profondes où s’enveloppe l’amour-propre. Hélas !
+        j’en ai beaucoup et rien ne le dirige. Il m’exalte quelquefois beaucoup devant moi-même,
+        mais à l’habitude, il me donne moins d’estime pour moi, qu’une nausée continuelle sur les
+        traces battues que suit la foule des hommes. J’ai l’orgueil ridicule de bouder et de
+        m’indigner quand je suis méconnu tout à fait, et les éloges qui m’enivrent et me
+        transportent toujours me font voir en même temps combien, combien je suis éloigné d’un grand
+        but. Pourquoi me <pb n="3" xml:id="p3"/> loues-tu et me dis-tu des choses exagérées ?
+        Pourquoi es-tu le seul qui, en dépassant énormément ce que mes plus forts accès de vanité
+        m’aient pu inspirer, m’a pourtant un peu remis à mon rang ? Chose singulière : avant de te
+        connaître il y avait au dedans de moi un sentiment d’orgueil qui se consolait lui-même et se
+        suffisait. À présent, tu me fais rire en me parlant de mon énergie et de cette kyrielle de
+        trésors donnés si gratuitement. Au total, nous sommes tous des êtres misérables, et toute
+        âme bien placée rougira jusqu’au sang d’éloges exagérés qui flattent, mais qui lui
+        grossissent aussi son vide, sa faiblesse, son inertie. Mais écoute. Ton amitié a bien deviné
+        une chose : c’est qu’il y aura toujours quelque chose pour toi dans tout ce que [je]
+        produirai. Ton suffrage, tout seul dans une balance, emportera tous les suffrages réunis
+        dans l’autre. Puisque le premier tu m’as dit que tu sentais quelque chose dans ce que je
+        fais, il est juste que tu aies ta récompense du bien que tu m’as fait et du courage que tu
+        m’as donné dans mes efforts pour te plaire. Récompense ! ce mot-là s’adresse à ton cœur, que
+        ton esprit le laisse passer sans contrôle. Admirable amitié : j’ose penser que la beauté de
+        mes ouvrages me paiera une dette auprès de <persName
           key="Pierret, Jean-Baptiste (1795-1854)">mon ami</persName>. J’ai commencé sans feu et
-        presque pour écrire quelque chose, cet alinéa de ma lettre. Il est si embarrassé et marche
-        si gauchement que je voulais le jeter au feu. Mais puisqu’il m’a amené ici, je lui rends
+        presque pour écrire quelque chose cet alinéa de ma lettre. Il est si embarrassé et marche si
+        gauchement que je voulais le jeter au feu. Mais puisqu’il m’a amené ici, je lui rends
         grâces. Vois donc toute l’étendue de mon ambition et de mon orgueil : je te demande ton
         suffrage ; je me sens à présent quelque force. J’ai pour moi de l’estime en pensant à la
         tienne. Mais aussi sois moins indulgent, il faut le dire, moins faible que souvent. Frappe
-        des coups vigoureux dans les ouvrages auxquels tu verras que je tiens par un fol amour de
-        père. Que si ton avis <hi rend="u">bien franc</hi> n’est point écouté, laisse-moi ma
-        liberté, que je la mérite ou non, parce que je veux avoir ma voix sur mon propre ouvrage.
-        Mais nous sentons trop bien à l’unisson. Je prends vis-à-vis de toi les mêmes engagements.
-        Je sais, par ma propre expérience, qu’on se trompe souvent en conseillant, et quand je donne
-        un conseil, bien que désintéressé, n’est-ce pas moi toujours qui le donne, c’est-à-dire
-        celui qui sent à sa façon, voit à sa façon, enfin a sa façon d’être qui ne peut coïncider de
-        tout point avec une autre ? Je vais te voir enfin entamer la besogne. <persName
-          key="Guillemardet, Félix (1796-1842)">Félix</persName> me dit que tu es décidé à
-        fréquenter cet hiver une académie du soir. Il ne pouvait m’apprendre de nouvelle plus
-        agréable. C’est là que nous en découdrons. Je félicite <persName
+        des coups vigoureux dans les [<hi rend="it">lacune</hi>] auxquelles tu verras que je tiens
+        par un fol amour de père. Que si ton avis <hi rend="u">bien franc</hi> n’[<hi rend="it"
+          >est</hi>] point écouté, laisse-moi ma liberté, que je la mérite ou non, parce que je veux
+        avoir ma voix sur mon propre ouvrage. Mais nous sentons trop bien à l’unisson. Je prends
+        vis-à-vis de toi les mêmes engagements. Je sais, par ma propre expérience, qu’on se trompe
+        souvent en conseillant, et quand je donne un conseil, bien que désintéressé, n’est-ce pas
+        moi toujours qui le donne, c’est-à-dire celui qui préssent à sa façon, voit à sa façon, enfin a
+        sa façon d’être qui ne peut coïncider de tout point avec une autre ? Je vais te voir enfin
+        entamer la besogne. <persName key="Guillemardet, Félix (1796-1842)">Félix</persName> me dit
+        que tu es décidé à fréquenter cet hiver une académie du soir. Il ne pouvait m’apprendre de
+        nouvelle plus agréable. C’est là que nous en découdrons. Je félicite <persName
           key="Heidinger, Marguerite-Jeanne-Aimée (1797-?)">ta femme</persName> de ce qu’elle
         l’est ; j’espère n’être plus un monstre à ses yeux… Quand on est heureux, on pardonne
         aisément, dit la tragédie. D’ailleurs, elle ne peut m’en vouloir d’avoir été ton ami en te
@@ -208,19 +209,21 @@
         peux assez l’appeler. Adieu, <persName key="Pierret, Jean-Baptiste (1795-1854)">mon cher
           ami</persName>, il est tard et il faut faire la part aux autres qui ont aussi daigné
         penser à moi et qui veulent bien m’aimer. Vous êtes de bons amis ; vous n’oubliez pas
-        l’absent et l’orphelin. Il n’a que vous, que votre sein où mettre la tête à l’abri de ses
-        petits chagrins humains.</p> 
-        <closer>
-          <salute>Adieu donc. Je t’embrasse tendrement.</salute>
-        </closer> 
-      <postscript><p> Ah ! j’oubliais. Est-ce
-        exiger trop que demander une réponse. Mais ne t’effraye pas. Tu la feras à ton aise et tu
-        n’auras pas besoin de l’aide de <persName key="Piron, Achille (1798-1865)">Piron</persName>,
-          <pb n="4" xml:id="p4bis"/> pour la remettre à mon portier, pour qu’elle m’attende à mon
-        retour et que j’aie encore une fois le plaisir de te lire. Je t’embrasserai déjà en idée.
-        Oh ! que le cœur me battra quand j’entrerai dans ta maison. Je m’arrêterai à chaque étage.
-        Tâche, ce jour-là, de ne pas avoir le visage ensavonné. Il est bon de s’embrasser tout de
-        suite, à la minute, entends-tu ?</p></postscript>
+        l’absent et l’orphelin. Il n’a que vous, que votre sein où mettre sa tête à l’abri de ses
+        petits chagrins humains.</p>
+      <closer>
+        <salute>Adieu donc. Je t’embrasse tendrement.</salute>
+      </closer>
+      <postscript>
+        <p> Ah ! j’oubliais. Est-ce exiger trop que demander une réponse. Mais ne t’effraye pas. Tu
+          la feras à ton aise et tu n’auras pas besoin de l’aide de <persName
+            key="Piron, Achille (1798-1865)">Piron</persName>, <pb n="4" xml:id="p4bis"/> pour la
+          remettre à mon portier, pour qu’elle m’attende à mon retour et que j’aie encore une fois
+          le plaisir de te lire. Je t’embrasserai déjà en idée. Oh ! que le cœur me battra quand
+          j’entrerai dans ta maison. Je m’arrêterai à chaque étage. Tâche, ce jour-là, de ne pas
+          avoir le visage ensavonné. Il est bon de s’embrasser tout de suite, à la minute,
+          entends-tu ?</p>
+      </postscript>
     </body>
   </text>
 </TEI>
