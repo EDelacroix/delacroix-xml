@@ -90,8 +90,7 @@
           <addrLine>
             <pb n="1" xml:id="p1"/>
             <persName key="Lelong, Paul (1799-1846)">Monsieur Lelong</persName><note place="bottom"
-              >Paul Lelong (1799-1846).</note></addrLine>
-          <addrLine>architecte à la Chambre des députés</addrLine>
+              >Paul Lelong (1799-1846).</note>architecte à la Chambre des députés</addrLine>
         </address>
         <salute>
           <pb n="2" xml:id="p2"/>
@@ -112,7 +111,7 @@
             key="Lelong, Paul (1799-1846)">Monsieur</persName>, votre très humble et obéissant
           serviteur.</salute>
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
-        <dateline>Ce <date when="27-06-1833">27 juin</date><note place="bottom">Il est permis de
+        <dateline>Ce <date when="1833-06-27">27 juin</date><note place="bottom">Il est permis de
             dater la lettre de 1833, Delacroix n’ayant pas encore entamé les peintures murales du
             Salon du Roi du palais Bourbon.</note></dateline>
       </closer>

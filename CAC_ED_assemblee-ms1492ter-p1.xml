@@ -88,12 +88,14 @@
 
       <opener>
         <pb n="1" xml:id="p1"/>
-        <addrLine><placeName key="France, Paris, rue de Grenelle">rue de Grenelle</placeName></addrLine>
-        <addrLine><persName key="Cavé, Edmond (1794-1852)">Monsieur Cavé</persName></addrLine>
         <address>
-          <addrLine>Chef de la division des Belles lettres sciences et arts</addrLine>
-          <addrLine>Au ministère de l’Intérieur et du Commerce.</addrLine>
+          <addrLine><placeName key="France, Paris, rue de Grenelle">rue de
+            Grenelle</placeName></addrLine>
+          <persName key="Cavé, Edmond (1794-1852)">Monsieur Cavé</persName>
+          <addrLine>Chef de la division des Belles lettres sciences et arts. Au ministère de
+            l’Intérieur et du Commerce.</addrLine>
         </address>
+
         <salute>
           <pb n="2" xml:id="p2"/>
           <persName key="Cavé, Edmond (1794-1852)">Monsieur</persName><note place="bottom">Edmond
@@ -133,7 +135,7 @@
           serviteur.</salute>
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
         <dateline>Ce <date when="1833-05-30">30 mai 1833</date>.</dateline>
-        <placeName key="France, Paris, quai Voltaire, 15">Quai Voltaire, n° 15</placeName>. </closer>
+        <address><addrLine><placeName key="France, Paris, quai Voltaire, 15">Quai Voltaire, n° 15</placeName>.</addrLine></address></closer>
 
     </body>
   </text>

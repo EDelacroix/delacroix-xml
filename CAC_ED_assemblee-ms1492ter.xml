@@ -86,16 +86,16 @@
 
       <opener>
         <pb n="1" xml:id="p1"/>
-        <persName key="Guichard, Joseph (1806-1880)">Monsieur Guichard</persName>, peintre<note
+        <address><persName key="Guichard, Joseph (1806-1880)">Monsieur Guichard</persName>, peintre<note
           place="bottom">Joseph Guichard (1806-1880), peintre, fréquenta l’atelier de Delacroix
           durant ses années de formation.</note>
-        <addrLine><address>
+        <addrLine>
             <placeName key="France, Paris, rue de Rochechouart, 41">rue de Rochechouart, Cité Rodier
               41</placeName>
-          </address></addrLine>
+          </addrLine></address>
         <salute>
-          <pb n="2" xml:id="p2"/> Mon cher <persName key="Guichard, Joseph (1806-1880)"
-            >Monsieur</persName>,</salute>
+          <pb n="2" xml:id="p2"/><persName key="Guichard, Joseph (1806-1880)"
+            >Mon cher Monsieur</persName>,</salute>
       </opener>
 
 

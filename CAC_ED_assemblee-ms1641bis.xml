@@ -87,9 +87,9 @@
 
       <opener>
         <pb n="1" xml:id="p1"/>
-        <persName key="Balze, Paul (1815-1884)"><persName key="Balze, Raymond (1818-1909)">Messieurs
+        <address><persName key="Balze, Paul (1815-1884)"><persName key="Balze, Raymond (1818-1909)">Messieurs
             Paul et Raymond Balze</persName></persName><note place="bottom">Paul (1815-1884) et
-          Raymond Balze (1818-1909), peintres.</note>, peintres. <address>
+          Raymond Balze (1818-1909), peintres.</note>, peintres. 
           <addrLine><placeName key="France, Paris, quai de Conti, 17">Quai de Conti
             17</placeName>.</addrLine>
         </address>
@@ -113,7 +113,7 @@
           en 1836 et qui lui permit d’obtenir cette seconde commande.</note>.</p>
 
 
-      <closer>
+      <p>
         <hi rend="it">(de la main de Delacroix :)</hi>
         <persName key="Balze, Paul (1815-1884)"><persName key="Balze, Raymond (1818-1909)">MM.
             Balze</persName></persName> de la part de <persName key="Delacroix, Eugène (1798-1863)"
@@ -123,7 +123,7 @@
           des copies des fresques des Loges du Vatican par Raphaël. Au nombre de cinquante-deux, ces
           copies furent exposées à partir de 1840 dans la chapelle de l’Ecole des beaux-arts de
           Paris. L’architecte Félix Duban (1797-1870) proposa alors de les installer dans les
-          galeries hautes, ce qui fut fait entre 1854 et 1855.</note>. </closer>
+          galeries hautes, ce qui fut fait entre 1854 et 1855.</note>.</p>
 
     </body>
   </text>

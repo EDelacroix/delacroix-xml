@@ -84,20 +84,22 @@
 
       <opener>
         <pb n="1" xml:id="p1"/>
-        <persName key="Ciceri, Pierre Luc Charles (1782-1868)">Monsieur Ciceri</persName><note
-          place="bottom">Pierre Luc Charles Ciceri (1782-1868), peintre décorateur et aquarelliste
-          devint un ami de Delacroix. Delacroix avait notamment manifesté un intérêt pour ses décors
-          destinés au théâtre et à l’opéra suite à leur rencontre en 1824.</note>
         <address>
+          <persName key="Ciceri, Pierre Luc Charles (1782-1868)">Monsieur Ciceri</persName>
+          <note place="bottom">Pierre Luc Charles Ciceri (1782-1868), peintre décorateur et
+            aquarelliste devint un ami de Delacroix. Delacroix avait notamment manifesté un intérêt
+            pour ses décors destinés au théâtre et à l’opéra suite à leur rencontre en 1824.</note>
+
           <addrLine><placeName key="France, Paris, Hôtel des Menus-Plaisirs">aux
               Menus-Plaisirs</placeName><note place="bottom">Ciceri travaillait à l’hôtel des Menus
-              Plaisirs.</note>
-            <placeName key="France, Paris, rue du faubourg Poissonière">rue du
+              Plaisirs.</note></addrLine>
+          <addrLine><placeName key="France, Paris, rue du faubourg Poissonière">rue du
               Faubourg-Poissonnière</placeName></addrLine>
         </address>
         <pb n="2" xml:id="p2"/>
         <salute><persName key="Ciceri, Pierre Luc Charles (1782-1868)">Mon cher Monsieur
-            Ciceri</persName></salute>,</opener>
+            Ciceri</persName>,</salute>
+      </opener>
 
       <p>Je m’en vais placer d’ici au mois de décembre ce qui me reste à coller de mes figures de la
           <placeName key="France, Paris, Assemblée nationale">Chambre des députés</placeName><note
@@ -117,8 +119,10 @@
       <closer>
         <salute>Recevez mille amitiés et compliments de votre très dévoué</salute>
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
-        <p><placeName key="France, paris, rue Notre-Dale de Lorette, 54">Rue Notre-Dame-de-Lorette,
-            n° 54</placeName>.</p>
+        <address>
+          <addrLine><placeName key="France, paris, rue Notre-Dale de Lorette, 54">Rue
+              Notre-Dame-de-Lorette, n° 54</placeName>.</addrLine>
+        </address>
         <dateline>Ce <date when="1845-10-11">11 octobre 1845</date>.</dateline>
       </closer>
     </body>

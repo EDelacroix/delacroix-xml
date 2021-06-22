@@ -87,8 +87,8 @@
 
 
       <opener>
+        <pb n="1" xml:id="p1"/>
         <dateline>
-          <pb n="1" xml:id="p1"/>
           <placeName key="France, Paris">Paris</placeName> ce <date when="1859-11-10">10 novembre
             1859</date>.</dateline>
         <salute><persName key="Haussmann, Georges Eugène (1809-1891)">Monsieur le

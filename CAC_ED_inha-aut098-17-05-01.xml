@@ -52,8 +52,7 @@
           </physDesc>
         </msDesc>
         <listBibl>
-          <bibl> Burty, 1878, I, p. 277-279.</bibl>
-          <bibl> Joubin, II, p. 136-137.</bibl>
+          <bibl> Burty, 1878, I, p. 277-279 ; Joubin, II, p. 136-137.</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
@@ -75,24 +74,65 @@
   </teiHeader>
   <text>
     <body>
-      <pb n="p.1" facs="https://api.nakala.fr/iiif/10.34847/nkl.9df12e17/e7888cbd65851d6c8bef65ec4eef2f717319cb42/full/full/0/default.jpg"/>
+      <pb n="p.1"
+        facs="https://api.nakala.fr/iiif/10.34847/nkl.9df12e17/e7888cbd65851d6c8bef65ec4eef2f717319cb42/full/full/0/default.jpg"/>
       <opener>
         <address>
-          <addrLine><persName key="Curmer, Léon (1801-1870)">Monsieur Curmer</persName>, <placeName key="Paris, rue de Richelieu, 49">49 rue Richelieu, Paris</placeName></addrLine>
+          <addrLine><persName key="Curmer, Léon (1801-1870)">Monsieur Curmer</persName>, <placeName
+              key="Paris, rue de Richelieu, 49">49 rue Richelieu, Paris</placeName></addrLine>
         </address>
         <stamp>
           <date when="1846-05-16">16 mai 1846</date>
         </stamp>
-        <pb n="p.2" facs="https://api.nakala.fr/iiif/10.34847/nkl.9df12e17/9516f40ce126ef9bb39f76c417eefa807862e96e/full/full/0/default.jpg"/>
+        <pb n="p.2"
+          facs="https://api.nakala.fr/iiif/10.34847/nkl.9df12e17/9516f40ce126ef9bb39f76c417eefa807862e96e/full/full/0/default.jpg"/>
         <salute><persName key="Curmer, Léon (1801-1870)">Monsieur</persName>,</salute>
       </opener>
-      <p>Je vous écris de chez <persName key="Boissard de Boisdenier, Joseph Fernand(1813-1866)">M. Boissard</persName> au sujet de l’article sur <placeName key="Paris, Hôtel Lambert">l’hôtel Lambert</placeName><note place="bottom">Boissard habitait au 3 quai d’Anjou, comme nous l’apprend <ref type="letter" target="CAC_ED_bnf_man-naf24019-f197.xml">la lettre</ref> que Delacroix lui adressa la veille pour dire qu’il se rendrait chez lui afin de discuter de l’article. Son article fut publié dans la revue de Curmer,<hi rend="it">Beaux-Arts</hi>, 1843, p. 198-199.</note>. Il a déjà fait un travail que vous avez entre les mains, je n’ai donc pu en prendre connaissance, mais d’après ce qu’il m’en a dit voici, je crois, comment on pourrait tirer parti de ses idées et des miennes. Son article, sauf modifications, paraîtrait en même temps qu’une lettre que j’adresserais au journal sur le même objet<note place="bottom">Aucune lettre ne fut finalement publiée dans la revue avec l’article.</note>. Il se chargerait bien entendu de la partie historique et descriptive, nécessaire je crois pour faire sentir l’importance de la conservation et mes réflexions seraient à l’appui <note place="bottom">Les deux amis étaient préoccupés du sort de cet hôtel qui était en vente dans un état de délabrement assez avancé, après avoir appartenu à l’administration des Lits militaires. On croyait l’hôtel, ainsi que les chefs-d’œuvre de Le Brun et de Le Sueur qu’il enfermait, promis à la démolition. Il fut heureusement acheté le 10 juin de la même année par la princesse Czartoryska (<hi rend="it">Journal des débats</hi>, 17 juillet 1843), sur les conseils de Delacroix (voir <ref type="letter" target="CAC_ED_custodia-1997-a-1063">la lettre d’Albert Grzymala à George Sand et Frédéric Chopin de juillet 1843</ref>). Delacroix travailla à rétablir les décors endommagés de Le Brun et de Le Sueur. Il évoque ce travail délicat et difficile dans plusieurs lettres :<ref type="letter"
-            target="CAC_ED_inha-ms242-041">une première adressée à Albert Grzymala</ref> et<ref type="letter" target="CAC_ED_inha-aut120-1398-4a-3"> une seconde adressée à Joséphine de Forget le 1er août 1844</ref>.</note>. </p>
-      <p>Vous lui aviez aussi parlé d’une vue à faire de <placeName key="Paris, Hôtel Lambert">l’hôtel Lambert</placeName> pour être gravée sur bois. Outre qu’il ne se chargerait pas avec plaisir de ce travail d’architecte qui sort de son genre, il n’y aurait <pb n="p.3" facs="https://api.nakala.fr/iiif/10.34847/nkl.9df12e17/027e7bb23454bd387a384cce3cd8169875f65db0/96,38,3120,3728/full/0/default.jpg"/> sans doute pas le temps suffisant pour graver le bois, mais il pourrait faire une eau-forte d’un des sujets de peinture et pourrait être en mesure de paraître en même temps que l’article. Il y a un frontispice de <persName key="Le Sueur, Eustache (1617-1655)">Le Sueur</persName> que je pourrais faire volontiers en lithographie et que je crois intéressant, mais, pour ne pas encombrer le numéro du même objet peut-être un peu serieux, on pourrait renvoyer ce dernier un peu plus tard <note place="bottom">En effet, aucune illustration n’accompagna l’article de Boissard.</note>. </p>
+      <p>Je vous écris de chez <persName key="Boissard de Boisdenier, Joseph Fernand(1813-1866)">M.
+          Boissard</persName> au sujet de l’article sur <placeName key="Paris, Hôtel Lambert"
+          >l’hôtel Lambert</placeName><note place="bottom">Boissard habitait au 3 quai d’Anjou,
+          comme nous l’apprend <ref type="letter" target="CAC_ED_bnf_man-naf24019-f197.xml">la
+            lettre</ref> que Delacroix lui adressa la veille pour dire qu’il se rendrait chez lui
+          afin de discuter de l’article. Son article fut publié dans la revue de Curmer,<hi
+            rend="it">Beaux-Arts</hi>, 1843, p. 198-199.</note>. Il a déjà fait un travail que vous
+        avez entre les mains, je n’ai donc pu en prendre connaissance, mais d’après ce qu’il m’en a
+        dit voici, je crois, comment on pourrait tirer parti de ses idées et des miennes. Son
+        article, sauf modifications, paraîtrait en même temps qu’une lettre que j’adresserais au
+        journal sur le même objet<note place="bottom">Aucune lettre ne fut finalement publiée dans
+          la revue avec l’article.</note>. Il se chargerait bien entendu de la partie historique et
+        descriptive, nécessaire je crois pour faire sentir l’importance de la conservation et mes
+        réflexions seraient à l’appui <note place="bottom">Les deux amis étaient préoccupés du sort
+          de cet hôtel qui était en vente dans un état de délabrement assez avancé, après avoir
+          appartenu à l’administration des Lits militaires. On croyait l’hôtel, ainsi que les
+          chefs-d’œuvre de Le Brun et de Le Sueur qu’il enfermait, promis à la démolition. Il fut
+          heureusement acheté le 10 juin de la même année par la princesse Czartoryska (<hi
+            rend="it">Journal des débats</hi>, 17 juillet 1843), sur les conseils de Delacroix (voir
+            <ref type="letter" target="CAC_ED_custodia-1997-a-1063">la lettre d’Albert Grzymala à
+            George Sand et Frédéric Chopin de juillet 1843</ref>). Delacroix travailla à rétablir
+          les décors endommagés de Le Brun et de Le Sueur. Il évoque ce travail délicat et difficile
+          dans plusieurs lettres :<ref type="letter" target="CAC_ED_inha-ms242-041">une première
+            adressée à Albert Grzymala</ref> et<ref type="letter"
+            target="CAC_ED_inha-aut120-1398-4a-3"> une seconde adressée à Joséphine de Forget le 1er
+            août 1844</ref>.</note>. </p>
+      <p>Vous lui aviez aussi parlé d’une vue à faire de <placeName key="Paris, Hôtel Lambert"
+          >l’hôtel Lambert</placeName> pour être gravée sur bois. Outre qu’il ne se chargerait pas
+        avec plaisir de ce travail d’architecte qui sort de son genre, il n’y aurait <pb n="p.3"
+          facs="https://api.nakala.fr/iiif/10.34847/nkl.9df12e17/027e7bb23454bd387a384cce3cd8169875f65db0/96,38,3120,3728/full/0/default.jpg"
+        /> sans doute pas le temps suffisant pour graver le bois, mais il pourrait faire une
+        eau-forte d’un des sujets de peinture et pourrait être en mesure de paraître en même temps
+        que l’article. Il y a un frontispice de <persName key="Le Sueur, Eustache (1617-1655)">Le
+          Sueur</persName> que je pourrais faire volontiers en lithographie et que je crois
+        intéressant, mais, pour ne pas encombrer le numéro du même objet peut-être un peu serieux,
+        on pourrait renvoyer ce dernier un peu plus tard <note place="bottom">En effet, aucune
+          illustration n’accompagna l’article de Boissard.</note>. </p>
       <p>
-        <persName key="Boissard de Boisdenier, Joseph Fernand(1813-1866)">M. Boissard</persName> ira demain matin <add place="above">mercredi</add> à 8 h causer avec vous si vous le permettez et vous demander vos intentions sur tout cela. Il aurait la bonté de me les transmettre immédiatement après pour agir en conséquence.</p>
+        <persName key="Boissard de Boisdenier, Joseph Fernand(1813-1866)">M. Boissard</persName> ira
+        demain matin <add place="above">mercredi</add> à 8 h causer avec vous si vous le permettez
+        et vous demander vos intentions sur tout cela. Il aurait la bonté de me les transmettre
+        immédiatement après pour agir en conséquence.</p>
       <closer>
-        <salute>Agréez, en attendant, <persName key="Curmer, Léon (1801-1870)">Monsieur</persName>, l’assurance de ma haute considération et de mes sentiments bien dévoués.</salute>
+        <salute>Agréez, en attendant, <persName key="Curmer, Léon (1801-1870)">Monsieur</persName>,
+          l’assurance de ma haute considération et de mes sentiments bien dévoués.</salute>
         <dateline><date when="1843-05-16">Ce mardi 16 mai</date></dateline>
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
       </closer>

@@ -88,8 +88,9 @@
       </opener>
 
 
-      <salute>M’est-il permis de vous demander de faire le voyage de l’<placeName>Hôtel de Ville
-        </placeName>pour voir <rs type="work">mon plafond</rs><note place="bottom">Delacroix
+      <p>M’est-il permis de vous demander de faire le voyage de l’<placeName
+          key="France, Paris, Hôtel de Ville">Hôtel de Ville </placeName>pour voir <rs type="work"
+          key="Salon de la Paix, Hôtel de Ville">mon plafond</rs><note place="bottom">Delacroix
           travailla au plafond du salon de la Paix de l’Hôtel de Ville de 1852 à 1854, ce qui
           concorde avec sa découverte par le public. Il représenta dans la partie centrale une <hi
             rend="it">Allégorie de la Paix</hi>, entourée par un ensemble de huit caissons
@@ -102,7 +103,7 @@
         m’excuser de tant espérer. Je suis aussi mécontent d’elle que de moi. Pardonnez-moi donc <pb
           n="2" xml:id="p2"/> et recevez en attendant les plus dévoués hommages de cœur<note
           place="bottom">Il n’a pas été possible d’identifier le destinataire de la
-        lettre.</note>.</salute>
+        lettre.</note>.</p>
 
       <closer>
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>

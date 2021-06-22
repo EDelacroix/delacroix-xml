@@ -86,10 +86,10 @@
 
       <opener>
         <pb n="1" xml:id="p1"/>
-        <persName key="Paillet, Charles (1780-1848)">Monsieur Charles Paillet</persName>
+        <address><persName key="Paillet, Charles (1780-1848)">Monsieur Charles Paillet</persName>
         <note place="bottom">Charles Paillet (1780-1848) devint commissaire expert des musées royaux
           dans les dernières années de la Restauration.</note>
-        <address>
+        
           <addrLine>Commissaire expert honoraire du Musée royal</addrLine>
         </address>
       </opener>

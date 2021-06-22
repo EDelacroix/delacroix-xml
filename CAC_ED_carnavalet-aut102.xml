@@ -83,8 +83,8 @@
       <opener>
         <dateline>
           <pb n="1" xml:id="p1"/> Ce <date when="1851-01-13">13 janvier 1851</date></dateline>
-          Monsieur<note place="bottom">Il n’a pas été permis d’identifier le destinataire de cette
-          lettre.</note>, </opener>
+          <salute>Monsieur<note place="bottom">Il n’a pas été permis d’identifier le destinataire de cette
+          lettre.</note>,</salute></opener>
 
 
       <p>Si je ne vous ai pas donné plus tôt le tableau<note place="bottom">Il n’a pas été permis

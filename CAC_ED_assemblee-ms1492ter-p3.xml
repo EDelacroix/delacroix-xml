@@ -135,8 +135,9 @@
         charger de ma petite réclamation ?</p>
 
 
-      <closer>À vous de cœur, <signed><persName key="Delacroix, Eugène (1798-1863)">Eug.
-            Delacroix</persName></signed>
+      <closer>
+        <salute>À vous de cœur,</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
         <dateline>Ce <date when="1836-12-07">7 décembre</date><note place="bottom">La lettre peut
             être datée de 1836, Delacroix ayant achevé sa commande à la fin de
           l’année.</note>.</dateline>
