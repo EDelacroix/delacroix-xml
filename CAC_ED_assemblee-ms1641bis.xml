@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Paul et Raymond Balze, [début 1848]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les grandes commandes publiques</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Assemblée nationale</institution>
+
+            <idno>Ms 1641 bis</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1848"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Balze, Paul (1815-1884)"/>
+          <persName key="Balze, Raymond (1818-1909)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <pb n="1" xml:id="p1"/>
+        <persName key="Balze, Paul (1815-1884)"><persName key="Balze, Raymond (1818-1909)">Messieurs
+            Paul et Raymond Balze</persName></persName><note place="bottom">Paul (1815-1884) et
+          Raymond Balze (1818-1909), peintres.</note>, peintres. <address>
+          <addrLine><placeName key="France, Paris, quai de Conti, 17">Quai de Conti
+            17</placeName>.</addrLine>
+        </address>
+      </opener>
+
+
+      <p>
+        <pb n="2" xml:id="p2"/>
+        <hi rend="it">(en caractères typographiques :)</hi></p>
+      <p>QUESTURE DE LA <placeName key="France, Paris, Assemblée nationale">CHAMBRE DES
+          DEPUTES</placeName>.</p>
+
+      <p>M.</p>
+      <p>Sera admis à la <placeName key="France, Paris, Assemblée nationale">Bibliothèque de la
+          Chambre des Députés</placeName>, pour visiter <rs type="work"
+          key="Assemblée nationale, Bibliothèque">les peintures de </rs><persName
+          key="Delacroix, Eugène (1798-1863)">M. Eugène Delacroix</persName>, le dimanche, de neuf
+        heures à midi, et les autres jours de neuf à onze heures<note place="bottom">Delacroix
+          travailla de 1838 à 1848 au décor plafonnant de la bibliothèque de l’Assemblée nationale.
+          Il avait déjà reçu une première commande en 1833 pour le Salon du Roi, décor qu’il acheva
+          en 1836 et qui lui permit d’obtenir cette seconde commande.</note>.</p>
+
+
+      <closer>
+        <hi rend="it">(de la main de Delacroix :)</hi>
+        <persName key="Balze, Paul (1815-1884)"><persName key="Balze, Raymond (1818-1909)">MM.
+            Balze</persName></persName> de la part de <persName key="Delacroix, Eugène (1798-1863)"
+          >M. Delacroix</persName> avec ses compliments bien sincères de leurs beaux travaux d’après
+          <persName key="Raphaël (1483-1520)">Raphaël</persName><note place="bottom">Paul et Raymond
+          Balze réalisèrent, à la demande d’Ingres, alors directeur de l’Académie de France à Rome,
+          des copies des fresques des Loges du Vatican par Raphaël. Au nombre de cinquante-deux, ces
+          copies furent exposées à partir de 1840 dans la chapelle de l’Ecole des beaux-arts de
+          Paris. L’architecte Félix Duban (1797-1870) proposa alors de les installer dans les
+          galeries hautes, ce qui fut fait entre 1854 et 1855.</note>. </closer>
+
+    </body>
+  </text>
+</TEI>
