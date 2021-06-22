@@ -75,6 +75,7 @@
         </correspAction>
         <correspAction type="received">
           <persName key="Pierret, Jean-Baptiste (1795-1854)"/>
+          <persName key="Guillemardet, Félix (1796-1842)"/>
           <placeName key="France, Paris, rue Sainte-Anne, 18"/>
         </correspAction>
 
@@ -93,9 +94,12 @@
         <address>
           <addrLine>
             <pb n="4" xml:id="p4"/>
-            <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur Pierret jeune</persName></addrLine> <addrLine>Et
-            à <persName key="Guillemardet, Félix (1796-1842)">M. Guillemardet (Félix)</persName></addrLine>
-           <addrLine> <placeName key="France, Paris, rue Sainte-Anne, 18">Rue Sainte-Anne n°
+            <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur Pierret
+            jeune</persName></addrLine>
+          <addrLine>Et à <persName key="Guillemardet, Félix (1796-1842)">M. Guillemardet
+              (Félix)</persName></addrLine>
+          <addrLine>
+            <placeName key="France, Paris, rue Sainte-Anne, 18">Rue Sainte-Anne n°
             18</placeName></addrLine>
         </address>
         <dateline>
