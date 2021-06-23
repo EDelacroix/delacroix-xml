@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, 3 janvier 1846</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>{corrections}</name>
+          <name>{corrections}</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les amis de jeunesse</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Musée du Louvre</institution>
+            <repository>Département des Arts graphiques</repository>
+            <idno>A 586</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="3"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Etienne Moreau-Nélaton</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, II, p. 251-252</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1846-01-03"/>
+          <placeName key="France, Bordeaux">Bordeaux</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Pierret, Jean-Baptiste (1795-1854)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <placeName key="France, Bordeaux">Bordeaux</placeName>, <date when="1846-01-03">3 janvier
+            1846</date></dateline>
+        <salute><persName key="Pierret, Jean-Baptiste (1795-1854)">Cher ami</persName>,</salute>
+      </opener>
+
+
+      <p>Je suis arrivé trop tard pour trouver <persName key="Delacroix, Charles Henry (1779-1845)"
+          >mon pauvre ami</persName> vivant<note place="bottom">Son frère Charles Henry (1779-1845)
+          était décédé à Bordeaux quelques jours auparavant, le 30 décembre 1845.</note>. Cette
+        phrase te dit tout ce que j’ai souffert et tout ce que je souffrirai encore dans cette ville
+        qui aura les os de <persName key="Delacroix, Charles (1741-1805)">mon père</persName><note
+          place="bottom">Après sa mort, survenue à Bordeaux lorsqu’il en était le préfet, Charles
+          Delacroix (1741-1805) avait été enterré au cimetière de la Chartreuse. </note> et de
+          <persName key="Delacroix, Charles Henry (1779-1845)">mon frère</persName>. Pardonne-moi de
+        ne t’avoir pas écrit tout de suite. Encore maintenant c’est pour moi un office cruel et
+        c’est pour te donner de mes nouvelles que je le fais. Au milieu de tant de cruelles
+        émotions, j’ai trouvé ici quelques personnes aimant <persName
+          key="Delacroix, Charles Henry (1779-1845)">mon frère</persName>, qui se sont chargées de
+        presque tout ce qui était à faire pour les funérailles. Elles se sont faites hier. J’ai été
+        bien touché de l’empressement des militaires<note place="bottom">Charles Henry Delacroix
+          était général dans la marine. </note>. Il y avait une émotion de respect plein de
+        convenance dans ces jeunes officiers à la vue de ces nobles restes, de cette vie modeste et
+        de cette noble vie. <persName key="Pierret, Jean-Baptiste (1795-1854)">Mon bon
+          ami</persName>, en t’écrivant ceci ma douleur recommence et je vois bien pourquoi <pb
+          n="2" xml:id="p2"/> je voulais tarder à écrire. Toi, qui as enseveli ton fils, tu
+        comprends ce qui se passe dans le cœur de celui qui embrasse <persName
+          key="Delacroix, Charles Henry (1779-1845)">un tel frère</persName> glacé par la mort. Je
+        tire un voile, <persName key="Pierret, Jean-Baptiste (1795-1854)">cher ami</persName>, sur
+        cette chère image qui vivra toujours pour moi. Elle m’est douce au moins, je m’en repais et
+        je ne pouvais m’en rassasier. Quel bonheur encore que je sois arrivé à temps pour que tout
+        fût ce qu’il devait être, pour que cette mémoire fut entourée de respect et d’honneur.
+          <persName key="Pierret, Jean-Baptiste (1795-1854)">Cher ami</persName>, j’écrirai le moins
+        que je pourrai, tu le sens, dis à ceux auxquels je n’écris pas tout ce que tu sens que je
+        leur écrirais. Je voudrais que tu me rendisse le service de voir <persName
+          key="Guillemardet, Lazarette Hugues (1769-1855)">Madame Guillemardet</persName> et de le
+        lui dire de manière à ne pas lui donner d’émotion fâcheuse pour sa santé. Tu l’écriras pour
+        moi à <persName key="Soulier, Charles (1792-1866)">Soulier</persName>, à <persName
+          key="Villot, Frédéric (1809-1875)">Villot</persName>, etc. Ils m’excuseront je
+        l’espère.</p>
+      <p>Je ne sais encore quand je pourrai revenir. Il y a bien des choses à faire après <pb n="3"
+          xml:id="p3"/> cet événement dans un endroit si éloigné de <placeName key="France, Paris"
+          >Paris</placeName>. Ne m’en veux pas de mon silence.</p>
+
+
+      <closer>
+        <salute>Embrasse tous les tiens pour moi et reçois toute ma tendresse. </salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName>.</signed>
+        <address>
+          <addrLine><placeName key="France, Bordeaux, Hôtel du Commerce">Hôtel du Commerce, rue des
+              Chapelets [sic]</placeName>.</addrLine>
+        </address>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
