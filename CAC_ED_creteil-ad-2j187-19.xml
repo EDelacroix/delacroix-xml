@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, 27 juillet [1845]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Créteil</settlement>
+            <institution>Archives départementales du Val-de-Marne</institution>
+
+            <idno>2 J 187, pièce 19</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="5"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date when="1845-07-27"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+      <p>
+        <pb n="1" xml:id="p1"/> Enfin, <persName key="Delacroix, Eugène (1798-1863)">mon
+          ami</persName>, j’ai reçu des nouvelles de ton arrivée <placeName key="Paris, Eaux-Bonnes"
+          >aux eaux</placeName><note place="bottom">Delacroix était parti soigner ses problèmes de
+          gorge et de larynx aux Eaux-Bonnes. Il y resta environ un mois.</note> ! J’en suis bien
+        heureuse car on est toujours inquiet lorsqu’on est éloigné de ses amis, et au milieu de tes
+        tribulations de voyage, tu ne me parles pas de ta santé ? J’espère que ces eaux vont te
+        faire beaucoup de bien ; mais consulte le médecin et si elles te sont salutaires, restes-y
+        le temps nécessaire. Tu as dû être bien heureux d’embrasser <persName
+          key="Delacroix, Charles Henry (1779-1845)">ton bon frère</persName><note place="bottom">Le
+          frère de Delacroix vivait alors à Bordeaux. Le peintre profita donc de son voyage aux
+          Eaux-Bonnes pour séjourner quelques jours chez son frère qu’il ne voyait que très
+          rarement.</note> ? Mais je comprends son chagrin de ton silence et de ton indifférence
+        apparente : tu aimes, <persName key="Delacroix, Eugène (1798-1863)">mon pauvre
+          ami</persName>, avec ton excellent cœur, mais aussi avec ton imagination d’artiste,
+        c’est-à-dire qu’elle te fait négliger de témoigner ton affection à ceux qui t’aiment et qui
+        en souffrent cruellement ! Moi j’en ai été découragée bien souvent, et il faut que je sois
+        bien convaincue de ta tendresse, pour <hi rend="u">tenir ferme</hi> comme je le fais avec
+        toi ! Cependant, je dois aujourd’hui te rendre justice, tu as été bien exact à me donner de
+        tes nouvelles et j’en suis reconnaissante, car je souffre de ton absence, <persName
+          key="Delacroix, Eugène (1798-1863)">mon pauvre ami</persName> ; combien j’aurais été
+        heureuse de te suivre dans <pb n="2" xml:id="p2"/> tes excursions, que nos promenades
+        seraient ravissantes ensemble dans ce beau pays que tu habites ! Oh <persName
+          key="Delacroix, Eugène (1798-1863)">mon pauvre ami</persName>, le sort est quelques fois
+        bien cruel envers nous ! Au lieu d’être auprès de toi, j’en suis réduite à mes promenades à
+          <placeName key="France, Ville-d'Avray">Ville d’Avray</placeName>, que tu retrouveras bien
+        affreux lorsque tu sortiras de tes montagnes et de tes précipices.</p>
+      <p>J’ai lu hier dans mon journal que tu étais dans <placeName key="France, Berry">le
+          Berry</placeName> chez <persName key="Sand, George (1804-1876)">George Sand</persName> et
+        que le gouvernement avait acheté ton <rs type="work" key="La Mort de Marc-Aurèle (J281)"
+          >Marc-Aurèle</rs> ; voilà comme on écrit l’histoire<note place="bottom"><hi rend="it">Le
+            Constitutionnel</hi> du 26 juillet avait en effet fait paraître un article sur le Salon
+          dans lequel est mentionné l’achat du <hi rend="it">Marc-Aurèle</hi> (voir note suivante)
+          et le séjour de Delacroix chez George Sand dans le Berry. Pourtant le peintre ne rendit
+          pas visite à son amie cet été là, mais prenait les eaux dans les Pyrénées pour sa
+          santé.</note>… Mais les <persName key="Vieillard, Narcisse (1791-1857)"
+          >Vieillard</persName>, que j’ai vus jeudi dernier, m’ont dit que ton <rs type="work"
+          key="Le Sultan du Maroc et son entourage (J370)">tableau d’Alger</rs> venait d’être
+          acheté<note place="bottom">L’État avait d’abord acheté au Salon <ref
+            target="https://www.mba-lyon.fr/fr/fiche-oeuvre/dernieres-paroles-de-lempereur-marc-aurele"
+            >Marc-Aurèle</ref> (Lyon, Musée des Beaux-Arts), mais Delacroix demanda le 30 juin dans
+            <ref type="letter" target="../CAC_ED_bnf-man-naf24019-f192">une lettre à Cavé</ref> de
+          le remplacer par <hi rend="it">le</hi>
+          <ref
+            target="https://musees-occitanie.fr/oeuvre/moulay-abd-er-rahman-sultan-du-maroc-sortant-de-son-palais-de-meknes/"
+            >Sultan du Maroc</ref> (Toulouse, Musée des Augustins), qui avait été exposé en même
+          temps au Salon. Son <hi rend="it">Marc Aurèle</hi> ne fut acheté par l’État qu’en
+          1858.</note>. Je crois que tu ne m’en avais pas parlé, j’en suis enchantée, <persName
+          key="Delacroix, Eugène (1798-1863)">mon ami</persName>. Ces bons <persName
+          key="Vieillard, Narcisse (1791-1857)"><persName key="Huet, Eliza Caroline (1797-1847)"
+            >Vieillard</persName></persName> sont décidés à voyager et à aller, non pas à <placeName
+          key="France, Trouville">Trouville</placeName>, mais à <placeName key="France, Touques"
+          >Touques</placeName>, qui est un mauvais petit village à la porte de <placeName
+          key="France, Trouville">Trouville</placeName>. Quelle idée bizarre ! mais le médecin a
+        défendu l’air de la mer aux nerfs agités de <persName key="Huet, Eliza Caroline (1797-1847)"
+          >Mme Vieillard</persName>. Tu ferais bien d’écrire à <persName
+          key="Vieillard, Narcisse (1791-1857)">son mari</persName> avant son départ ; aussitôt
+        après ta dernière visite chez eux, celui-ci avait couru chez toi pour t’inviter à dîner,
+        lorsqu’on lui dit que tu étais parti pour ton grand voyage, ils m’ont demandé <pb n="3"
+          xml:id="p3"/> souvent et avec intérêt de tes nouvelles, car on t’aime, <persName
+          key="Delacroix, Eugène (1798-1863)">mon ami</persName>, malgré tes crimes de
+        lèse-amitié !</p>
+      <p>Il faut que je te félicite du luxe de <placeName
+          key="France, Paris, rue Notre-Dame-de-Lorette, 54">tes appartements</placeName>, car je
+        les ai vus et admirés, <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName><note
+          place="bottom">Delacroix faisait aménager l’appartement qu’il avait pris au 54, rue
+          Notre-Dame-de-Lorette.</note> ! Oui vraiment, j’ai été chez toi, j’ai vu ton ouvrière, et
+        j’ai causé longtemps avec ta gouvernante. Voilà pourquoi : tu m’avais envoyé le jour de ton
+        départ la mesure de ta portière, dont je dois faire la tapisserie, mais elle se ressentait
+        de l’agitation de tes esprits… Elle n’était pas exacte, et comme j’étais fort préoccupée de
+        l’idée de commencer ma tapisserie j’ai été quelques jours après en voiture, et munie d’un
+        mètre, d’un crayon et du papier, dans <placeName
+          key="France, Paris, rue Notre-Dame-de-Lorette, 54">ton domicile</placeName>, <persName
+          key="Delacroix, Eugène (1798-1863)">mon ami</persName>, où je suis arrivée le cœur bien
+        gros, puisque tu n’y étais pas ; cependant, c’est avec plaisir, que j’ai visité ta chambre,
+        la petite pièce à côté, car ta gouvernante m’a fait les honneurs de chez toi à merveille :
+        tout cela est vraiment charmant, les papiers, les étoffes sont très jolies, de très bon
+        goût, ton ouvrière travaillait, et j’ai pris avec elle toutes mes mesures, je vais donc
+        commencer mes bordures de tapisseries, qui seront fort belles.</p>
+      <p>
+        <pb n="4" xml:id="p4"/> Le lendemain de ce jour, <persName
+          key="Gaultron, Hippolyte (après 1805-1878)">M. Gaultron</persName> et ton architecte
+        devaient venir faire l’état des lieux. <persName key="Delacroix, Eugène (1798-1863)">Mon
+          ami</persName>, quand pourrais-je donc t’embrasser dans ce charmant petit appartement, mon
+        Dieu ! quel beau et heureux jour que celui-là !! Cependant, je t’engage, <persName
+          key="Delacroix, Eugène (1798-1863)">mon chéri</persName>, de prendre les eaux le temps
+        nécessaire pour ta santé, surtout si elles te font du bien, il vaut mieux rester quelques
+        jours de plus et faire une bonne provision de santé pour cet hiver. Aussitôt que tu auras
+        reçu ma lettre, réponds-moi, parle-moi de ta santé, avec détail des personnes que tu vois,
+        puisqu’il faut deviser… de tes projets. Lorsque tu verras <persName
+          key="Delacroix, Charles Henry (1779-1845)">ton frère</persName> tu lui diras combien j’ai
+        été reconnaissante de son bon souvenir. Est-ce qu’il compte rester à
+          <placeName key="France, Bordeaux">Bordeaux</placeName>, ne viendra-t-il pas encore à
+        <placeName key="France, Paris">Paris</placeName> ? Il est triste de vivre ainsi loin d’un seul ami, d’un seul
+        frère ?</p>
+      <p>Adieu, <persName key="Delacroix, Eugène (1798-1863)">bon cher ami</persName>, je pense bien
+        souvent à toi, mon cœur est sans cesse avec toi, mais cela ne suffit pas, et je serai bien
+        heureuse lorsque tu nous reviendras. Mille compliments de la part de <persName
+          key="Querelles, Hortense de (1812-1851)">Mme de Querelles</persName>, elle se porte assez
+        bien, <persName key="Querelles, Richard de (1811-1846)">son mari</persName>
+        <pb n="5" xml:id="p5"/> est toujours à <placeName>Nancy</placeName> auprès de son père qui
+        se meurt !</p>
+      <closer>
+        <salute>Adieu encore une fois, je t’envoie mes caresses et mille bonnes tendresses.</salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">Consuelo</persName></signed>
+        <dateline>Ce <date when="1845-07-27">dimanche 27 juillet</date>.</dateline>
+      </closer>
+    </body>
+  </text>
+</TEI>
