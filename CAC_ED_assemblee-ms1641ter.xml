@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Alfred Auguste Cuvillier-Fleury, 3 novembre
+          [1833]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les grandes commandes publiques</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Assemblée nationale</institution>
+
+            <idno>Ms 1641 ter</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="4"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1833-11-03"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Cuvillier-Fleury, Alfred Auguste (1802-1887)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="1" xml:id="p1"/>
+            <persName key="Cuvillier-Fleury, Alfred Auguste (1802-1887)">Monsieur
+              Cuvillier-Fleury</persName><note place="bottom">Alfred Auguste Cuvillier-Fleury
+              (1802-1887), ami de Delacroix, fut journaliste et contribua au <hi rend="it">Journal
+                des Débats</hi>.</note></addrLine>
+          <addrLine>Gouverneur de <persName key="duc d'Aumale, d'Orléans, Henri (1822-1897)">S. A.
+              R. Mgr. le duc d’Aumale</persName><note place="bottom">En 1827, Cuvillier-Fleury
+              devint précepteur d’Henri d’Orléans, duc d’Aumale (1822-1897), plus jeune fils de
+              Louis-Philippe d’Orléans (1773-1850), devenu Louis-Philippe I<hi rend="sup"
+              >er</hi>.</note></addrLine>
+          <addrLine><placeName key="France, Paris, palais des Tuileries"
+            >Tuileries</placeName></addrLine>
+        </address>
+      </opener>
+
+
+      <p>
+        <pb n="2" xml:id="p2"/> Il est toujours temps, n’est-ce pas, <persName
+          key="Cuvillier-Fleury, Alfred Auguste (1802-1887)">mon cher ami</persName>, de réparer une
+        faute, surtout quand on se la reproche aussi souvent que je l’ai fait depuis que je l’ai
+        commise. À la lettre si aimable, si amicale que vous m’avez écrite, il y a déjà bien
+        longtemps, je n’ai point répondu ; je ne vous ai point vu. Enfin, vous avez pu et dû m’en
+        vouloir ; précisément parce que je crois que vous avez de l’amitié pour moi, que, surtout,
+        elle date déjà de loin et qu’elle est fondée sur autre chose que sur des rapports agréables
+        de société. Vous dire que quand votre lettre est arrivée chez moi, j’étais absent, que je ne
+          <pb n="3" xml:id="p3"/> l’ai trouvée qu’à mon retour et que, de jour en jour, voulant y
+        répondre, je suis arrivé jusqu’à ce jour sans le faire, ensuite ne l’osant presque plus, ce
+        ne seraient pas des motifs suffisants, si je ne comptais un peu sur cette affection que je
+        crois vraie de votre part, et qui chez moi est bien sincère et vous est bien acquise à tant
+        de titres. Pardonnez-moi donc, <persName key="Cuvillier-Fleury, Alfred Auguste (1802-1887)"
+          >mon cher ami</persName>. Je ne pourrais vous donner pour excuse de grands chagrins, de
+        ces tristesses qui vous serrent la gorge. Comme à vous et à moi, il est arrivé plus d’une
+        fois d’en éprouver. Ma vie, au contraire, est toute calme et toute monotone. C’est la vraie
+        vie, <persName key="Cuvillier-Fleury, Alfred Auguste (1802-1887)">mon cher ami</persName>.
+        Fuyons <pb n="4" xml:id="p4"/> les tempêtes, surtout celles du cœur. Je ne suis uniquement
+        occupé que de <rs type="work" key="Assemblée nationale, Salon du Roi">mes travaux</rs>. J’ai
+        le bonheur de m’y plaire. Vous ignorez peut-être que <persName
+          key="Thiers, Adolphe (1797-1877)">M. Thiers</persName> m’a donné <rs type="work">un
+          travail important</rs> à la <placeName>Chambre des députés</placeName> et que <rs
+          type="work" key="Assemblée nationale, Salon du Roi">ce travail</rs>, tout en harmonie avec
+        mes goûts me domine entièrement mais, vous le voyez, me laisse encore le temps de me
+        rappeler à vous<note place="bottom">Adolphe Thiers (1797-1877) attribua en 1833 la commande
+          pour le décor du Salon du Roi à l’Assemblée nationale à Delacroix, décor qu’il acheva en
+          1836.</note>.</p>
+
+
+      <closer>
+        <salute>Adieu. Plus de rancune, n’est-ce pas ? Plus nous avancerons, <persName
+            key="Cuvillier-Fleury, Alfred Auguste (1802-1887)">mon cher ami</persName>, plus nous
+          verrons qu’il faut à tout prix conserver ses anciens amis. Adieu encore et amitié bien
+          sincère.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+        <dateline>Ce <date when="1833-11-03">3 novembre</date><note place="bottom">La lettre peut
+            être datée de 1833, année d’attribution de la commande à Delacroix.</note>.</dateline>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
