@@ -67,7 +67,7 @@
       <correspDesc>
         <correspAction type="sent">
           <persName key="Forget, Joséphine de (1802-1886)"/>
-          <date when="1840-09-27 ?"/>
+          <date when="1840-09-27"/>
 
         </correspAction>
         <correspAction type="received">
@@ -85,40 +85,42 @@
 
 
       <p>Je me doutais bien que les charmes de la campagne te retiendraient quelques jours de plus
-        et je suis bien sensible à ton aimable souvenir. Je suis persuadée, <persName>mon
-          ami</persName>, que ce petit séjour à la campagne te fera du bien, puisque le repos est
-        quelquefois nécessaire à ta santé ; tu vois bien que tu as tort de maudire la nécessité qui
-        te force à travailler, puisque l’oisiveté que tu désires si souvent t’ennuie à mourir :
-        voilà donc un motif de plus pour être content de ton sort<note place="bottom">René Huyghe,
-          qui a été le premier à publier cette lettre, y a vu une réponse à la lettre écrite par
-          Delacroix à Champrosay, que Joubin a publié à la date du 15 juillet 1844 (voir la note 3).
-          Pourtant, le ton amical de cette lettre ne correspond pas à celui, bien plus amoureux, de
-          la lettre de Delacroix. De plus, les allusions à sa peinture, son ennui et son
-          découragement ne se retrouvent aucunement dans la lettre publiée par Joubin. Il est donc
-          très difficile de situer dans quelle campagne Delacroix était parti s’ennuyer, loin de son
-          amie. Peut-être, si l’on considère que la lettre a été écrite en 1840, s’agit-il de
-          Valmont ? Delacroix y séjourna les deux dernières semaines de septembre, comme nous
-          l’apprennent ses lettres envoyées à cette période.</note>. De quoi te plains-tu donc,
-          <persName>mon pauvre ami</persName> ? Tu es un artiste <hi rend="u">privilégié</hi> parce
-        que ta peinture t’occupe exclusivement. C’est ta plus forte passion, la plus dominante et
-        aucune autre n’absorbe celle-ci.</p>
-      <p>Je crois donc, <persName>mon ami</persName>, que c’est un bonheur, pour un artiste, et,
-        s’il y a des chagrins attachés à cette vie préoccupée d’une seule pensée, d’un seul but, il
-        y a aussi bien des compensations. Je me suis aperçue, <persName>ami</persName>, que les
-        consolations qui conviennent à beaucoup de personnes, ne te sont pas nécessaires ; je m’y
-        suis prise de mille manières et je n’ai pas réussi ; je suis donc convaincue, maintenant,
-        que ces consolations, qui viennent d’une affection tendre et dévouée, sont absorbées par ton
-        imagination si vive, si impressionnable, si changeante et quelquefois si malheureuse !
-          <persName>Mon pauvre ami</persName>, les remèdes à tes maux sont donc en toi seul ;
-        d’abord, il faut de la force pour repousser toutes les idées sombres, lorsqu’elles te
-        passent par la tête et, tout en soignant, en ménageant ta santé, ne pas t’en inquiéter comme
-        tu le fais ; rechercher toutes les distractions, tous les plaisirs qui n’iront pas jusqu’à
-        la fatigue, à cause de ta peinture, et pourquoi te chagriner des ennuis qu’elle te donne ?
-        Elle est pour toi une véritable amie, une consolation, une ressource et la passion qu’elle
-        t’inspire n’est pas une passion malheureuse, tu en conviendras ? et elle te préservera de
-        bien des chagrins, des découragements de cœur, que tu ne connaîtras jamais ; et que l’on est
-        heureux, <persName>mon ami</persName>, d’avoir du talent qui vous occupe constamment, et
-        d’avoir en soi-même tous les éléments du bonheur !</p>
+        et je suis bien sensible à ton aimable souvenir. Je suis persuadée, <persName
+          key="Delacroix, Eugène (1798-1863)">mon ami</persName>, que ce petit séjour à la campagne
+        te fera du bien, puisque le repos est quelquefois nécessaire à ta santé ; tu vois bien que
+        tu as tort de maudire la nécessité qui te force à travailler, puisque l’oisiveté que tu
+        désires si souvent t’ennuie à mourir : voilà donc un motif de plus pour être content de ton
+          sort<note place="bottom">René Huyghe, qui a été le premier à publier cette lettre, y a vu
+          une réponse à la lettre écrite par Delacroix à Champrosay, que Joubin a publié à la date
+          du 15 juillet 1844 (voir la note 3). Pourtant, le ton amical de cette lettre ne correspond
+          pas à celui, bien plus amoureux, de la lettre de Delacroix. De plus, les allusions à sa
+          peinture, son ennui et son découragement ne se retrouvent aucunement dans la lettre
+          publiée par Joubin. Il est donc très difficile de situer dans quelle campagne Delacroix
+          était parti s’ennuyer, loin de son amie. Peut-être, si l’on considère que la lettre a été
+          écrite en 1840, s’agit-il de Valmont ? Delacroix y séjourna les deux dernières semaines de
+          septembre, comme nous l’apprennent ses lettres envoyées à cette période.</note>. De quoi
+        te plains-tu donc, <persName key="Delacroix, Eugène (1798-1863)">mon pauvre ami</persName> ?
+        Tu es un artiste <hi rend="u">privilégié</hi> parce que ta peinture t’occupe exclusivement.
+        C’est ta plus forte passion, la plus dominante et aucune autre n’absorbe celle-ci.</p>
+      <p>Je crois donc, <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName>, que c’est
+        un bonheur, pour un artiste, et, s’il y a des chagrins attachés à cette vie préoccupée d’une
+        seule pensée, d’un seul but, il y a aussi bien des compensations. Je me suis aperçue,
+          <persName key="Delacroix, Eugène (1798-1863)">ami</persName>, que les consolations qui
+        conviennent à beaucoup de personnes, ne te sont pas nécessaires ; je m’y suis prise de mille
+        manières et je n’ai pas réussi ; je suis donc convaincue, maintenant, que ces consolations,
+        qui viennent d’une affection tendre et dévouée, sont absorbées par ton imagination si vive,
+        si impressionnable, si changeante et quelquefois si malheureuse ! <persName
+          key="Delacroix, Eugène (1798-1863)">Mon pauvre ami</persName>, les remèdes à tes maux sont
+        donc en toi seul ; d’abord, il faut de la force pour repousser toutes les idées sombres,
+        lorsqu’elles te passent par la tête et, tout en soignant, en ménageant ta santé, ne pas t’en
+        inquiéter comme tu le fais ; rechercher toutes les distractions, tous les plaisirs qui
+        n’iront pas jusqu’à la fatigue, à cause de ta peinture, et pourquoi te chagriner des ennuis
+        qu’elle te donne ? Elle est pour toi une véritable amie, une consolation, une ressource et
+        la passion qu’elle t’inspire n’est pas une passion malheureuse, tu en conviendras ? et elle
+        te préservera de bien des chagrins, des découragements de cœur, que tu ne connaîtras
+        jamais ; et que l’on est heureux, <persName key="Delacroix, Eugène (1798-1863)">mon
+          ami</persName>, d’avoir du talent qui vous occupe constamment, et d’avoir en soi-même tous
+        les éléments du bonheur !</p>
       <p>Quant à moi, tu me demandes si je m’ennuie et ce que je fais : je suis tellement convaincue
         qu’une grande intelligence est le premier élément du bonheur, que je n’ai pas besoin,
         d’après cela, de te faire mes plaintes ; elles seraient sans fin et fort ennuyeuses.</p>
@@ -127,55 +129,62 @@
         qu’il est devenu un peu <hi rend="u">huître lui-même</hi> ; je sors beaucoup plus depuis
         quelque temps, le mouvement du corps et la distraction des yeux me font du bien. Je tâche de
         ne pas penser ; le passé me rappelle des souvenirs cruels, l’avenir est fort triste et le
-        présent passe vite ; tout en s’ennuyant beaucoup, tu vois, <persName>mon ami</persName>, que
-        ton existence est préférable à la mienne ; tant que le cœur n’est pas atteint, il y a bien
-        des ressources contre le sort et surtout contre des maux imaginaires comme les tiens. Avec
-        ton caractère, il te faut prendre des distractions, des plaisirs, partout où tu en
-        trouveras, mais pour cela, il ne faut pas être <hi rend="u">trop paquet</hi>. Si tu pouvais
-        voyager maintenant, je crois que cette distraction te ferait grand bien. Mais je conçois que
-        cela est impossible dans ce moment-ci. Pense à exécuter ce projet dans quelques mois, au
-        printemps prochain, comme je te l’avais déjà conseillé ; jusque-là, occupe-toi de ta
-        peinture <hi rend="u">physiquement et moralement</hi> et le temps passera bien vite.</p>
-      <p><persName>M. de Bercagny</persName><note place="bottom">Joseph Claude Anne Legras de
-          Bercagny (1761-1842), ami commun de Delacroix et Joséphine de Forget. Voir à son sujet la
-          lettre de la baronne du 26 mars 1842 qui nous a permis de l’identifier. </note>, qui était
-        chez moi hier, avec lequel je philosophais, me disait que, pour être heureux, il n’y avait
-        qu’un moyen, c’était d’avoir une préoccupation continuelle ; on la prend où l’on peut. La
-        tienne, c’est la peinture ; tu n’as pas affaire à une ingrate, tes amis viendront après. Ne
-        crois pas, <persName>ami</persName>, que j’ai voulu te fâcher en te parlant aussi
-        franchement de ton caractère ; mon Dieu ! je le connais bien et je ne lui en veux pas le
-        moins du monde. Je ne lui fais aucun reproche ; on ne peut changer son caractère, il reste
-        tel que Dieu vous l’a donné ; ce qu’il faut acquérir, c’est de la philosophie et savoir se
-        résigner à son sort. Il t’en faut aussi, <persName>mon ami</persName>, et ne pas dire encore
-        « que tu ne sais pas jouir de la vie comme tout le monde, et que le Ciel t’a créé dans un
-        moment d’humeur ». Tu serais bien injuste, si tu l’accusais, il a été assez généreux envers
+        présent passe vite ; tout en s’ennuyant beaucoup, tu vois, <persName
+          key="Delacroix, Eugène (1798-1863)">mon ami</persName>, que ton existence est préférable à
+        la mienne ; tant que le cœur n’est pas atteint, il y a bien des ressources contre le sort et
+        surtout contre des maux imaginaires comme les tiens. Avec ton caractère, il te faut prendre
+        des distractions, des plaisirs, partout où tu en trouveras, mais pour cela, il ne faut pas
+        être <hi rend="u">trop paquet</hi>. Si tu pouvais voyager maintenant, je crois que cette
+        distraction te ferait grand bien. Mais je conçois que cela est impossible dans ce moment-ci.
+        Pense à exécuter ce projet dans quelques mois, au printemps prochain, comme je te l’avais
+        déjà conseillé ; jusque-là, occupe-toi de ta peinture <hi rend="u">physiquement et
+          moralement</hi> et le temps passera bien vite.</p>
+      <p><persName key="Bercagny, Joseph Claude Anne Legras de (1761-1842)">M. de
+          Bercagny</persName><note place="bottom">Joseph Claude Anne Legras de Bercagny (1761-1842),
+          ami commun de Delacroix et Joséphine de Forget. Voir à son sujet la lettre de la baronne
+          du 26 mars 1842 qui nous a permis de l’identifier. </note>, qui était chez moi hier, avec
+        lequel je philosophais, me disait que, pour être heureux, il n’y avait qu’un moyen, c’était
+        d’avoir une préoccupation continuelle ; on la prend où l’on peut. La tienne, c’est la
+        peinture ; tu n’as pas affaire à une ingrate, tes amis viendront après. Ne crois pas,
+          <persName key="Delacroix, Eugène (1798-1863)">ami</persName>, que j’ai voulu te fâcher en
+        te parlant aussi franchement de ton caractère ; mon Dieu ! je le connais bien et je ne lui
+        en veux pas le moins du monde. Je ne lui fais aucun reproche ; on ne peut changer son
+        caractère, il reste tel que Dieu vous l’a donné ; ce qu’il faut acquérir, c’est de la
+        philosophie et savoir se résigner à son sort. Il t’en faut aussi, <persName
+          key="Delacroix, Eugène (1798-1863)">mon ami</persName>, et ne pas dire encore « que tu ne
+        sais pas jouir de la vie comme tout le monde, et que le Ciel t’a créé dans un moment
+        d’humeur ». Tu serais bien injuste, si tu l’accusais, il a été assez généreux envers
         toi.</p>
       <p>Quant à <hi rend="u">toutes tes petites misères</hi>, elles ne viennent pas de Dieu, mais
         de toi et il faut de la force pour les supporter.</p>
-      <p>J’ai l’air, <persName>ami</persName>, de vouloir être comme
-          <persName>Saint-Simon</persName>, un réformateur. Je ne veux rien changer, rien réformer,
-        je me laisse aller, je cause avec toi. Mille pardons de mes plaintes. Quant aux tiennes, je
-        n’en serai jamais <hi rend="u">assommée</hi>, sois en persuadé et je compte toujours sur ton
+      <p>J’ai l’air, <persName key="Delacroix, Eugène (1798-1863)">ami</persName>, de vouloir être
+        comme <persName key="Saint-Simon, Claude-Henri de Rouvroy de (1760-1825)"
+          >Saint-Simon</persName>, un réformateur. Je ne veux rien changer, rien réformer, je me
+        laisse aller, je cause avec toi. Mille pardons de mes plaintes. Quant aux tiennes, je n’en
+        serai jamais <hi rend="u">assommée</hi>, sois en persuadé et je compte toujours sur ton
         amitié inaltérable.</p>
-      <closer><signed><persName>Joséphine</persName></signed></closer>
-      
+      <closer>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">Joséphine</persName></signed>
+      </closer>
+
       <postscript>
-        <p>Mille excuses de cette longue lettre. Si tu reviens la semaine prochaine à
-            <placeName>Paris</placeName>, viens me demander à dîner, sans me faire rien dire, jeudi
-          prochain.</p>
-      
-      <dateline>Ce dimanche 11h1/2<note place="bottom">Cette lettre est très difficile à dater car
-          une grande partie des lettres écrites par Delacroix à son amie jusqu’en 1844 a disparu.
-          René Huyghe a publié cette lettre à la date du 21 juillet 1844, comme une réponse à la
-          lettre de Delacroix, publiée par Joubin, datée du 15 juillet de la même année. Toutefois,
-          la mention par Joséphine de Forget de la visite de Bercagny, mort le 27 mars 1842, permet
-          de savoir que cette lettre est antérieure. La signature « Joséphine », le tutoiement
-          employé, ainsi que l’expression « mon ami », permettraient plutôt de situer cette lettre
-          vers 1840 (voir notamment les lettres du 16 février et du 11 novembre 1840). Les « coups
-          dans le cœur » qu’elle dit avoir reçu depuis l’hiver pourraient être une allusion à
-          l’escapade de Delacroix avec Elisabeth Boulanger à la fin du mois de septembre 1839, mais
-          tout cela reste très hypothétique tant leur correspondance est lacunaire à cette
-          période.</note>. </dateline></postscript>
+        <p>Mille excuses de cette longue lettre. Si tu reviens la semaine prochaine à <placeName
+            key="France, Paris">Paris</placeName>, viens me demander à dîner, sans me faire rien
+          dire, jeudi prochain.</p>
+
+        <dateline>Ce dimanche 11h1/2<note place="bottom">Cette lettre est très difficile à dater car
+            une grande partie des lettres écrites par Delacroix à son amie jusqu’en 1844 a disparu.
+            René Huyghe a publié cette lettre à la date du 21 juillet 1844, comme une réponse à la
+            lettre de Delacroix, publiée par Joubin, datée du 15 juillet de la même année.
+            Toutefois, la mention par Joséphine de Forget de la visite de Bercagny, mort le 27 mars
+            1842, permet de savoir que cette lettre est antérieure. La signature « Joséphine », le
+            tutoiement employé, ainsi que l’expression « mon ami », permettraient plutôt de situer
+            cette lettre vers 1840 (voir notamment les lettres du 16 février et du 11 novembre
+            1840). Les « coups dans le cœur » qu’elle dit avoir reçu depuis l’hiver pourraient être
+            une allusion à l’escapade de Delacroix avec Elisabeth Boulanger à la fin du mois de
+            septembre 1839, mais tout cela reste très hypothétique tant leur correspondance est
+            lacunaire à cette période.</note>. </dateline>
+      </postscript>
     </body>
   </text>
 </TEI>
