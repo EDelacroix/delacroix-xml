@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, 5 août [1845]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Créteil</settlement>
+            <institution>Archives départementales du Val-de-Marne</institution>
+
+            <idno>2 J 187, pièce 20</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="3"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date when="1845-08-05"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+      <p>
+        <pb n="1" xml:id="p1"/>
+        <persName key="Delacroix, Eugène (1798-1863)">Mon cher ami</persName>, j’ai reçu hier ta
+        dernière lettre. Je te remercie de ton exactitude, et si j’étais égoïste je te souhaiterais
+        souvent cette vie triste et ennuyeuse, parce qu’alors tu penses et tu écris à ton amie<note
+          place="bottom">Delacroix séjournait depuis la fin du mois de juillet aux Eaux-Bonnes pour
+          se soigner. Malheureusement, les lettres qu’il adressa à Joséphine de Forget durant son
+          séjour semblent perdues. En revanche, des lettres qu’il écrivit à Villot
+          (CAC_ED_inha-ms248-p23), Pierret (CAC_ED_louvre-A585) et Gaultron (CAC_ED_louvre-A763 et
+          CAC_ED_louvre-A764) relatent également son voyage.</note>… Mais je suis trop malheureuse
+        de ton absence pour ne pas désirer vivement que notre correspondance ne dure pas trop
+        longtemps. Seulement je te félicite de ton exactitude, et je suis vivement reconnaissante de
+        ton bon souvenir. Pense souvent à moi, <persName key="Delacroix, Eugène (1798-1863)">mon
+          ami</persName>, et amuse-toi le plus que tu pourras : il y a donc des <hi rend="u"
+          >poupées</hi> au nombre de vos compagnons d’infortune ? Elles sont très jolies, j’en suis
+        sûre, ce qui vaut mieux que le naturel, aussi je commence à être fort jalouse de ces
+        promenades dans les environs… Malgré ma <hi rend="u">féroce jalousie</hi>, amuse toi,
+        promène toi, porte toi bien, et ta tendresse pour moi sera j’espère ma sauvegarde.</p>
+      <p>As-tu reçu une lettre de notre ami <persName key="Gaultron, Hippolyte (après 1805-1878)"
+          >Gaultron</persName> ? Je ne sais quel effet aura produit la tienne à l’ami <persName
+          key="Vieillard, Narcisse (1791-1857)">Vieillard</persName>, un très bon sans doute, car tu
+        es fort aimé de ce <pb n="2" xml:id="p2"/> côté-là ; j’ai appris, que <persName
+          key="Vieillard, Eliza Caroline Huet, épouse (1797-1847)">Mme Vieillard</persName>, plus
+        capricieuse que jamais, avait renoncé à des voyages pour cet été ; au reste, on se console
+        facilement de rester à <placeName key="France, Paris">Paris</placeName>, par ce temps affreux. Figure toi que,
+        depuis ton départ, il a plu presque tous les jours. Hier lundi, nous avons été passer la
+        journée à <placeName key="France, Ville-d'Avray">Ville-d’Avray</placeName>, il y avait 10 jours que [nous] n’avions pu y
+        aller ; le temps était beau le matin, et à 5 heures nous avons eu une averse terrible, qui a
+        mouillé toute la terre, et à midi le temps fort humide. Dans <placeName key="France, Pyrénées">vos
+          montagnes</placeName>, vous avez au moins une belle vue et de la chaleur, mais je conçois,
+          <persName key="Delacroix, Eugène (1798-1863)">mon pauvre ami</persName>, votre tristesse
+        au milieu de cette belle et sauvage nature, et sans une figure amie autour de vous : la
+        mienne vous manque, n’est-ce pas <persName key="Delacroix, Eugène (1798-1863)">mon
+          chéri</persName> ? Que je serais heureuse, de faire de belles promenades avec vous,
+        toujours avec vous !!!</p>
+      <p>Mon Dieu, <persName key="Delacroix, Eugène (1798-1863)">mon pauvre ami</persName>, je
+        commence à être ennuyée cruellement de cette vie triste et insipide et surtout lorsque vous
+        n’êtes pas là, je suis découragée complètement !</p>
+      <p>
+        <pb n="3" xml:id="p3"/> Recevez-vous les journaux de <placeName key="France, Paris">Paris</placeName> ?
+          <persName key="Bosio, François Joseph (1768-1845)">Bosio</persName><note place="bottom">François Joseph Bosio (1768-1845) était un
+          sculpteur d’origine monégasque qui séjourna longuement en Italie avant de revenir en
+          France où il eut un grand succès durant l’Empire et la Restauration, recevant de
+          nombreuses commandes officielles. </note>, le sculpteur, vient de mourir, mais il était
+        âgé, et je crois que vous ne le connaissiez pas particulièrement.</p>
+      <p><persName key="Querelles, Richard de (1811-1846)">Richard</persName> est toujours à <placeName key="France, Nancy">Nancy</placeName>, son père n’est
+        pas mort, mais il est mourant et le pauvre garçon assiste à toutes ces scènes
+        cruelles !!!</p>
+      <p>Il n’y a rien de nouveau ici, vous ne me parlez pas de votre santé, de votre gorge, ce qui
+        me fait penser que tout va bien, vous devez <hi rend="u">manger énormément</hi>, et
+        l’estomac dans un si bon air doit digérer facilement. Enfin, <persName
+          key="Delacroix, Eugène (1798-1863)">ami</persName>, je te recommande ta santé et de rester
+        le temps nécessaire pour que l’hiver prochain tu te <hi rend="u">conduises comme un homme
+          ordinaire</hi>.</p>
+
+      <closer>
+        <salute>Adieu, je t’aime et t’embrasse bien tendrement, continue à m’écrire aussi exactement
+          c’est mon seul plaisir dans ma solitude. Mille amitiés de la part
+          d’<persName key="Querelles, Hortense de (1812-1851)">Hortense</persName>.</salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">Consuelo</persName></signed>
+        <dateline>ce <date when="1845-08-05">mardi 5 août</date></dateline>
+      </closer>
+
+
+    </body>
+  </text>
+</TEI>
