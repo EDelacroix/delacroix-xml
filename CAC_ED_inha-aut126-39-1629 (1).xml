@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Augustin Varcollier, [11 février 1852]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>INHA</institution>
+
+            <idno>Aut126-39-1629</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="1"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1852-02-11"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Varcollier, Augustin (1795-1882)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <date when="1852-02-11">Ce mercredi</date><note place="bottom">Delacroix précise dans son
+              <hi rend="it">Journal</hi>, le samedi 14 février 1852, qu’il a dîné chez le préfet de
+            la Seine et qu’il devait retrouver Augustin Varcollier chez François de Chabrier de
+            Peloubet (Hannoosh, <hi rend="it">Journal</hi>, p. 578). La lettre fut donc écrite le
+            mercredi 11 février 1852.</note>.</dateline>
+        <salute><persName key="Varcollier, Augustin (1795-1882)">Mon cher ami</persName><note
+            place="bottom">Augustin Varcollier (1795-1882) était chef de la division des beaux-arts
+            de la préfecture du département de la Seine. Ils ont pu se rencontrer à l’occasion de la
+            commande à Delacroix d’une peinture murale pour l’une des chapelles d’angles de l’église
+            Saint-Denys-du-Saint-Sacrement ; suite à de longues tractations, il réalisa une <hi
+              rend="it">Pietà</hi> (J564) pour la chapelle Sainte-Geneviève. Si les premières
+            lettres à Varcollier, datées des années 1840, s’inscrivent dans une relation
+            professionnelle, à compter de la décennie suivante de nombreuses lettres prennent une
+            tournure plus personnelle.</note>,</salute>
+      </opener>
+
+
+      <p>J'espérais pouvoir aller vous voir hier et d’ici à vendredi je crains d’être occupé de
+        manière à ne pas le pouvoir. Voulez-vous que je vous mène aux <placeName
+          key="France, Paris, Archives de l'Empire">Archives</placeName>
+        <hi rend="u">samedi</hi> chez <persName key="Chabrier de Peloubet, François de (1789-1871)"
+          >M. de Chabrier</persName><note place="bottom">François de Chabrier de Peloubet
+          (1789-1871) était garde général des Archives du Royaume depuis 1848. Après la proclamation
+          du second Empire, il conserva son poste en 1853, devenant directeur général des Archives
+          de l’Empire. Il resta en place jusqu’en 1857 et fut remplacé par Léon de Laborde
+          (1807-1869).</note> ? Je dîne ce jour-là chez <persName
+          key="Berger, Jean Jacques (1790-1859)">le préfet</persName><note place="bottom">Jean
+          Jacques Berger (1790-1859) fut préfet de la Seine du 20 décembre 1848 au 22 juin
+          1853.</note> : si vous y dînez, nous irions tout droit. Sinon, vous trouveriez peut-être
+        bon d’y venir dans la soirée, ou si vous vouliez même j’irais vous prendre là où vous me le
+        diriez. Ne prenez pas la peine de me répondre : je vous verrai vendredi. J'ai arrangé cela
+        avec <persName key="Chabrier de Peloubet, François de (1789-1871)">Chabrier</persName>, mais
+        si vous aviez un engagement ce serait pour une autre fois<note place="bottom">Varcollier ne
+          put se rendre chez Chabrier (Hannoosh, <hi rend="it">Journal</hi>, p. 578).</note>.</p>
+
+
+      <closer>
+        <salute>Votre bien dévoué,</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
