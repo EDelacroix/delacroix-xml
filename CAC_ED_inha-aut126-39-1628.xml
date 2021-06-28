@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Augustin Varcollier, 13 juillet [1862]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">La nature (Champrosay ; Dieppe, etc.)</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>INHA</institution>
+
+            <idno>Aut126-39-1628</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="4"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1862-07-13"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Varcollier, Augustin (1795-1882)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Ce <date when="1862-07-13">13 juillet</date><note place="bottom"
+            >L’année de 1862 a été proposée lors du passage en vente de la lettre en 2005 (Thierry
+            Bodin, « Les autographes », <hi rend="it">Bulletin de la Société des Amis du Musée
+              national Eugène Delacroix</hi>, n° 6, 2008, p. 64).</note></dateline>
+        <salute><persName key="Varcollier, Augustin (1795-1882)">Mon cher ami</persName><note
+            place="bottom">Augustin Varcollier (1795-1882) était chef de la division des beaux-arts
+            de la préfecture du département de la Seine. Ils ont pu se rencontrer à l’occasion de la
+            commande à Delacroix d’une peinture murale pour l’une des chapelles d’angles de l’église
+            Saint-Denys-du-Saint-Sacrement ; suite à de longues tractations, il réalisa une <hi
+              rend="it">Pietà</hi> (J564) pour la chapelle Sainte-Geneviève. Si les premières
+            lettres à Varcollier, datées des années 1840, s’inscrivent dans une relation
+            professionnelle, à compter de la décennie suivante de nombreuses lettres prennent une
+            tournure plus personnelle.</note>,</salute>
+      </opener>
+
+
+      <p>je n’ai pas la force de vous blâmer d’avoir décliné le voyage de <placeName
+          key="France, Champrosay">Champrosay</placeName>, quoique j’y perde une bonne séance avec
+        vous, ce qui est précieux pour un solitaire. Le temps s’est décidément armé et il n’y a
+        aucune trêve à l’affreuse chaleur. Ne croyez pas cependant que je sois aussi à plaindre
+        qu’il vous le semble, à vous autres enfermés dans vos cages de pierre sous ce soleil
+        brûlant. L'endroit que j’habite est aussi frais qu’il soit possible de l’être en ce moment.
+        Je ne bouge pas dans la journée à la vérité, mais rien ne me force à sortir, ce qui n’est le
+        cas de personne à <placeName key="France, Paris">Paris</placeName> où il est impossible de
+        se mettre à l’abri des ennuis, lesquels sont doubles quand il faut souffrir de la chaleur
+        par-dessus le marché. J'ai des voisins que <pb n="2" xml:id="p2"/> je vois le soir ; ou bien
+        à cette heure-là je fais des promenades où je trouve de la fraîcheur. Le matin, je travaille
+        aussi régulièrement qu’à <placeName key="France, Paris">Paris</placeName> et bien que mes
+        couleurs soient sèches sur ma palette avant la fin de la séance, je tiens bon, je tiens
+        l’ennui en échec et n’ai pas le temps d’avoir d’idées noires. Voilà la vie que je mène et
+        que je voudrais beaucoup pouvoir prolonger dans ce moment surtout.</p>
+      <p>La perspective du travail dans mon atelier de <placeName key="France, Paris"
+          >Paris</placeName> est un grave épouvantail et cependant il n’y a pas à reculer. <hi
+          rend="u"><hi rend="it">Dimicandum</hi></hi><note place="bottom">Terme latin se traduisant
+          par « combat ».</note>, c’est une très belle devise que j’arbore par force et un peu par
+        tempérament. J'y joins celle-ci : <hi rend="u"><hi rend="it">renovare animos</hi></hi><note
+          place="bottom">Locution latine pouvant se traduire par « le courage de
+          renouveler ».</note>. Passer du grave au doux, de la ville à la campagne, du monde à la
+        solitude jusqu’à ce qu’on passe définitivement du <hi rend="u">quelque chose</hi> au <hi
+          rend="u">rien</hi> ; <pb n="3" xml:id="p3"/>
+        <pb/>mais alors quoiqu’en pense <persName key="Hamlet">Hamlet</persName>, les songes, dans
+        ce repos profond, ne viendront pas nous apporter les images du mouvement et c’est un
+        bienfait de l’incompréhensible Nature que cette autre rénovation des êtres dans ce grand
+        creuset ou elle nous jette, tête, bras ventre, esprit, sentiments, basses natures, nobles
+        esprits, pour en tirer de nouveau et éternellement d’autres apparences animées et rajeunir
+        le grand et éternel spectacle. Mourons, mais après avoir vécu. Beaucoup s’inquiètent s’ils
+        revivront après la mort et ils ne vivent point dès à présent. Combien d’hommes vivent à
+        votre gré. Sans parler du sommeil, des maladies, etc. Combien passe-t-il de notre vie dans
+        des emplois abrutissants pour l’esprit, combien à fumer, combien à des spectacles insipides
+        qui tiennent de la place dans la vie sans l’occuper d’une manière <pb n="4" xml:id="p4"/>
+        digne de l’homme. Beaucoup d’hommes qui n’ont pas essayé de vivre disent qu’il n’est plus
+        temps et ils retombent sur l’oreiller où ils se bercent sans plaisir. Il faudrait veiller
+        sans cesse sur soi, car la paresse est un entraînement de tous les moments. Donc il faut
+        combattre ou crever honteusement.</p>
+      <p>Adieu, <persName key="Varcollier, Augustin (1795-1882)">mon cher ami</persName>. En voici
+        beaucoup pour le temps qu’il fait ; j’ai eu là un mouvement qui promettait beaucoup et j’ai
+        tourné court, par paresse probablement. Dieu vous préserve de cette rouille. Mais votre
+        esprit n’est pas de ceux qui s’endorment et même dans les souffrances qui le tiennent
+        éveillé et tout en enrageant, vous êtes comme le brahmine de Voltaire qui ne voudrait pas
+        être une bête.</p>
+
+
+      <closer>
+        <salute>Je vous verrai bientôt et vous embrasse en attendant.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
