@@ -94,17 +94,19 @@
             <pb n="1" xml:id="p1"/>
             <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur Jean-Baptiste
               Pierret</persName></addrLine>
-           <addrLine> <placeName key="France, Paris, rue Sainte-Anne, 18">Rue Sainte-Anne n° 18, à
+          <addrLine>
+            <placeName key="France, Paris, rue Sainte-Anne, 18">Rue Sainte-Anne n° 18, à
               Paris</placeName></addrLine>
         </address>
         <dateline>
           <pb n="2" xml:id="p2"/>
           <placeName key="France, Vaux">Vaux</placeName>, <date when="1834-04-10">10
           avril</date></dateline>
+        <salute><persName key="Pierret, Jean-Baptiste (1795-1854)">Cher ami</persName>, </salute>
       </opener>
 
 
-      <salute><persName key="Pierret, Jean-Baptiste (1795-1854)">Cher ami</persName>, </salute>
+
       <p>j’ai fait un grand oubli en quittant <placeName key="France, Paris">Paris</placeName>,
         c’est de prévenir le <persName key="Desmaisons, François Marie (1804-1856)"
           >docteur</persName> que j’avais totalement confondu et oublié que je ne pouvais pas aller
