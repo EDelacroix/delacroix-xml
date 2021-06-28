@@ -113,10 +113,10 @@
           je dois peindre</placeName><note place="bottom">Delacroix réalisa les décors du Salon du
           Roi de l’Assemblée nationale de 1833 à 1836.</note> d’après le procédé de <persName
           key="Darcet, Jean (1777-1844)">M. Darcet</persName><note place="bottom">Il pourrait s’agir
-          du chimiste Jean Darcet, ou d’Arcet (1777-1844), chimiste et industriel.</note> contre
-        l’humidité ? Toute celle qui avait été absorbée antérieurement est encore dans les plâtres,
-        puisqu’elle a reparu après cinq couches successives de peinture. Les mêmes taches ne
-        tarderaient pas à se manifester sur la peinture définitive et sur la dorure. <placeName
+          de Jean Darcet, ou d’Arcet (1777-1844), chimiste et industriel.</note> contre l’humidité ?
+        Toute celle qui avait été absorbée antérieurement est encore dans les plâtres, puisqu’elle a
+        reparu après cinq couches successives de peinture. Les mêmes taches ne tarderaient pas à se
+        manifester sur la peinture définitive et sur la dorure. <placeName
           key="France, Paris, Notre-Dame de Lorette">L’église de
           Notre-Dame-de-Lorette</placeName><note place="bottom">L’église Notre-Dame de Lorette,
           érigée en bordure du quartier de la Nouvelle Athènes, est l’œuvre de l’architecte
@@ -135,7 +135,11 @@
           serviteur.</salute>
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
         <dateline>Ce <date when="1833-05-30">30 mai 1833</date>.</dateline>
-        <address><addrLine><placeName key="France, Paris, quai Voltaire, 15">Quai Voltaire, n° 15</placeName>.</addrLine></address></closer>
+        <address>
+          <addrLine><placeName key="France, Paris, quai Voltaire, 15">Quai Voltaire,
+              n° 15</placeName>.</addrLine>
+        </address>
+      </closer>
 
     </body>
   </text>
