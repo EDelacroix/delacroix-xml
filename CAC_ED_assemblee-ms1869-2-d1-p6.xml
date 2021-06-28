@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Edmond Cavé, 3 décembre 1833</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les grandes commandes publiques</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Assemblée nationale</institution>
+
+            <idno>Ms 1869-2, dossier 1, pièce 6</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="1"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1833-12-03"/>
+          <placeName>Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Cavé, Edmond (1794-1852)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <placeName key="France, Paris">Paris</placeName>
+          <date when="1833-12-03">3 décembre 1833</date></dateline>
+        <salute><persName key="Cavé, Edmond (1794-1852)">Monsieur</persName><note place="bottom"
+            >Edmond Cavé (1794-1852), homme politique, journaliste et écrivain, occupa le poste de
+            chef de la division des beaux-arts au ministère de l’Intérieur, avant d’en devenir le
+            directeur jusqu’à la chute de Louis-Philippe.</note>,</salute>
+      </opener>
+
+
+      <p>En réponse à la lettre par laquelle vous m’annoncez que <persName
+          key="Thiers, Adolphe (1797-1877)">M. le ministre</persName> a bien voulu porter à 35 000 F
+        le prix alloué pour <rs type="work" key="Assemblée nationale, Salon du Roi">les peintures
+          dont je suis chargé</rs> à la <placeName key="France, Paris, Assemblée nationale">Chambre
+          des députés</placeName>, et dans laquelle vous me donnez la faculté de demander un à
+        compte, vu l’avancement des <rs type="work" key="Assemblée nationale, Salon du Roi"
+          >travaux</rs> que j’estime au moins au sixième de l’exécution, j’ai l’honneur de vous
+        prier de vouloir bien me faire ordonnancer une somme de 6 000 frs pour cet objet<note
+          place="bottom">Delacroix réalisa les décors du Salon du Roi du palais Bourbon de 1833 à
+          1836. La commande lui fut confiée par Adolphe Thiers (1797-1877), ministre du Commerce et
+          des Travaux publics du 31 décembre 1832 au 4 avril 1834. L’arrêté ministériel du 31 août
+          1833 disposait que Delacroix recevrait « une somme de trente-cinq mille francs payable par
+          à comptes selon les degrés d’avancement du travail » (document conservé aux Archives
+          nationales).</note>.</p>
+
+
+      <closer>
+        <salute>Veuillez agréer, <persName key="Cavé, Edmond (1794-1852)">Monsieur</persName>, avec
+          mes remerciements bien empressés, l’assurance de la haute considération avec laquelle j’ai
+          l’honneur d’être, votre très humble et très obéissant serviteur,</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+        <placeName key="France, Paris, quai Voltaire, 15">quai Voltaire n° 15</placeName>
+      </closer>
+    </body>
+  </text>
+</TEI>
