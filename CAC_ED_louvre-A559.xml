@@ -92,41 +92,41 @@
             <pb n="4" xml:id="p4"/>
             <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur Jean-Baptiste
               Pierret</persName></addrLine>
-            <addrLine><placeName key="France, Paris, rue Sainte-Anne, 18">Rue Sainte-Anne n° 18, à
+          <addrLine><placeName key="France, Paris, rue Sainte-Anne, 18">Rue Sainte-Anne n° 18, à
               Paris</placeName></addrLine>
         </address>
         <dateline>
           <pb n="1" xml:id="p1"/>
           <placeName key="Maroc, Meknès">Méquinez</placeName>, <date when="1832-04-02">2
             avril</date></dateline>
+        <salute><persName key="Pierret, Jean-Baptiste (1795-1854)"><persName
+              key="Guillemardet, Félix (1796-1842)">Chers amis</persName></persName>,</salute>
       </opener>
-      <persName key="Pierret, Jean-Baptiste (1795-1854)"><persName
-          key="Guillemardet, Félix (1796-1842)">Chers amis</persName></persName>, <p>je suis encore
-        ici. Vous voyez que nous ne nous trompions pas beaucoup quand nous calculions que les trois
-        mois au moins seraient employés au voyage. Heureusement les affaires sont terminées et nous
-        partons après-demain pour retourner à <placeName key="Maroc, Tanger">Tanger</placeName>,
-        d’où, je pense, nous ne tarderons pas à nous embarquer. Il y a la perspective de la
-        quarantaine qui n’est pas amusante<note place="bottom">À cause de l’épidémie de choléra qui
-          était en train de ravager le pays, une quarantaine était obligatoire à l’arrivée en
-          France.</note>. Mais quand on a une fois touché terre et surtout celle où l’on a laissé
-        tous ses souvenirs, c’est une pénitence moins dure que celle à laquelle je suis soumis
-        depuis 18 ou 20 jours que je suis ici comme un prisonnier. Je vous ai mandé dans ma dernière
-        lettre que nous avions eu l’audience de <persName key="Abd-el-Rahman, Moulay (1778-1859)"
-          >l’empereur</persName>. A partir de ce moment, nous étions censés avoir la permission de
-        nous promener par la ville ; mais c’est une permission dont moi seul j’ai profité entre mes
-        compagnons de voyage, attendu que l’habit et la figure de chrétien sont en antipathie à ces
-        gens-ci, au point qu’il faut toujours être escortés de soldats, ce qui <pb n="2" xml:id="p2"
-        /> n’a pas empêché deux ou trois querelles qui pouvaient être fort désagréables à cause de
-        notre position d’envoyés. Je suis escorté, toutes les fois que je sors, d’une bande énorme
-        de curieux qui ne m’épargnent pas les injures de chien, d’infidèle, de <hi rend="u"
-          >caracco</hi>, etc., qui se poussent pour m’approcher ou pour me faire une grimace de
-        mépris sous le nez. Vous ne sauriez imaginer quelle démangeaison on se sent de se mettre en
-        colère, et il faut toute l’envie que j’ai de voir, pour m’exposer à toutes ces gueuseries.
-        J’ai passé la plupart du temps ici dans un ennui extrême, à cause qu’il m’était impossible
-        de dessiner ostensiblement d’après nature, même une masure ; même de monter sur la terrasse
-        vous expose à des pierres ou à des coups de fusil. La jalousie des Maures est extrême, et
-        c’est sur les terrasses que les femmes vont ordinairement prendre le frais ou se voir entre
-        elles. </p>
+      <p>je suis encore ici. Vous voyez que nous ne nous trompions pas beaucoup quand nous
+        calculions que les trois mois au moins seraient employés au voyage. Heureusement les
+        affaires sont terminées et nous partons après-demain pour retourner à <placeName
+          key="Maroc, Tanger">Tanger</placeName>, d’où, je pense, nous ne tarderons pas à nous
+        embarquer. Il y a la perspective de la quarantaine qui n’est pas amusante<note
+          place="bottom">À cause de l’épidémie de choléra qui était en train de ravager le pays, une
+          quarantaine était obligatoire à l’arrivée en France.</note>. Mais quand on a une fois
+        touché terre et surtout celle où l’on a laissé tous ses souvenirs, c’est une pénitence moins
+        dure que celle à laquelle je suis soumis depuis 18 ou 20 jours que je suis ici comme un
+        prisonnier. Je vous ai mandé dans ma dernière lettre que nous avions eu l’audience de
+          <persName key="Abd-el-Rahman, Moulay (1778-1859)">l’empereur</persName>. A partir de ce
+        moment, nous étions censés avoir la permission de nous promener par la ville ; mais c’est
+        une permission dont moi seul j’ai profité entre mes compagnons de voyage, attendu que
+        l’habit et la figure de chrétien sont en antipathie à ces gens-ci, au point qu’il faut
+        toujours être escortés de soldats, ce qui <pb n="2" xml:id="p2"/> n’a pas empêché deux ou
+        trois querelles qui pouvaient être fort désagréables à cause de notre position d’envoyés. Je
+        suis escorté, toutes les fois que je sors, d’une bande énorme de curieux qui ne m’épargnent
+        pas les injures de chien, d’infidèle, de <hi rend="u">caracco</hi>, etc., qui se poussent
+        pour m’approcher ou pour me faire une grimace de mépris sous le nez. Vous ne sauriez
+        imaginer quelle démangeaison on se sent de se mettre en colère, et il faut toute l’envie que
+        j’ai de voir, pour m’exposer à toutes ces gueuseries. J’ai passé la plupart du temps ici
+        dans un ennui extrême, à cause qu’il m’était impossible de dessiner ostensiblement d’après
+        nature, même une masure ; même de monter sur la terrasse vous expose à des pierres ou à des
+        coups de fusil. La jalousie des Maures est extrême, et c’est sur les terrasses que les
+        femmes vont ordinairement prendre le frais ou se voir entre elles. </p>
       <p>On nous a envoyé l’autre jour des chevaux pour <persName
           key="Louis-Philippe, roi des Français (1773-1850)">le roi</persName> (on vient de m’en
         envoyer un), une lionne, un tigre, des autruches, des antilopes, une gazelle, etc. Un de ces
@@ -161,8 +161,8 @@
         Je vous prie de me rappeler à tous les amis. Étant très bien avec mes deux compagnons,
         j’éprouve cependant le regret de ne pouvoir parler d’aucun de mes amis avec eux. Enfin,
         priez le ciel qu’il ne prolonge pas trop mon exil et écrivez toujours. </p>
-      <salute>Adieu, adieu. </salute>
-      <p><persName key="Delacroix, Eugène (1798-1863)">Eugène</persName></p>
+      <closer><salute>Adieu, adieu. </salute>
+      <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène</persName></signed></closer>
       <postscript>
         <p><persName key="Guillemardet, Félix (1796-1842)">Félix</persName>, donne de mes nouvelles
           à <persName key="Hugues, Henri (1784-1840)">Henry</persName>. Cette lettre est pour lui
@@ -176,8 +176,9 @@
             chargé par le sultan Mulay Abd-el-Rahman de négocier avec Charles de Mornay lors de la
             mission du gouvernement français. </note>, qui traite avec <persName
             key="Mornay, Charles de (1803-1878)">Mornay</persName>, a envoyé demander une feuille de
-          papier pour nous donner la réponse de <persName key="Abd-el-Rahman, Moulay (1778-1859)">l’empereur</persName>. Avant-hier, on lui
-          avait envoyé une selle en velours et en or qui est inestimable.</p>
+          papier pour nous donner la réponse de <persName key="Abd-el-Rahman, Moulay (1778-1859)"
+            >l’empereur</persName>. Avant-hier, on lui avait envoyé une selle en velours et en or
+          qui est inestimable.</p>
       </postscript>
     </body>
   </text>

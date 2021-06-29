@@ -66,7 +66,7 @@
         <correspAction type="sent">
           <persName key="Delacroix, Eugène (1798-1863)"/>
           <date when="1833-12-03"/>
-          <placeName>Paris</placeName>
+          <placeName key="Paris, quai Voltaire, 15">Paris</placeName>
         </correspAction>
         <correspAction type="received">
           <persName key="Cavé, Edmond (1794-1852)"/>
@@ -99,16 +99,16 @@
           key="Thiers, Adolphe (1797-1877)">M. le ministre</persName> a bien voulu porter à 35 000 F
         le prix alloué pour <rs type="work" key="Assemblée nationale, Salon du Roi">les peintures
           dont je suis chargé</rs> à la <placeName key="France, Paris, Assemblée nationale">Chambre
-          des députés</placeName>, et dans laquelle vous me donnez la faculté de demander un à
-        compte, vu l’avancement des <rs type="work" key="Assemblée nationale, Salon du Roi"
+          des députés</placeName>, et dans laquelle vous me donnez la faculté de demander un 
+        acompte, vu l’avancement des <rs type="work" key="Assemblée nationale, Salon du Roi"
           >travaux</rs> que j’estime au moins au sixième de l’exécution, j’ai l’honneur de vous
-        prier de vouloir bien me faire ordonnancer une somme de 6 000 frs pour cet objet<note
+        prier de vouloir bien me faire ordonnancer une somme de 6 000 F pour cet objet<note
           place="bottom">Delacroix réalisa les décors du Salon du Roi du palais Bourbon de 1833 à
           1836. La commande lui fut confiée par Adolphe Thiers (1797-1877), ministre du Commerce et
           des Travaux publics du 31 décembre 1832 au 4 avril 1834. L’arrêté ministériel du 31 août
           1833 disposait que Delacroix recevrait « une somme de trente-cinq mille francs payable par
           à comptes selon les degrés d’avancement du travail » (document conservé aux Archives
-          nationales).</note>.</p>
+          nationales)<!-- IL FAUT DONNER LA COTE -->.</note>.</p>
 
 
       <closer>
@@ -116,7 +116,7 @@
           mes remerciements bien empressés, l’assurance de la haute considération avec laquelle j’ai
           l’honneur d’être, votre très humble et très obéissant serviteur,</salute>
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
-        <placeName key="France, Paris, quai Voltaire, 15">quai Voltaire n° 15</placeName>
+        <address><addrLine><placeName key="France, Paris, quai Voltaire, 15">quai Voltaire n° 15</placeName></addrLine></address>
       </closer>
     </body>
   </text>
