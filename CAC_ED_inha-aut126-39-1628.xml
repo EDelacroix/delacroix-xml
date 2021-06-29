@@ -7,7 +7,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Lettre d’Eugène Delacroix à Augustin Varcollier, 13 juillet [1862]</title>
+        <title>Lettre d’Eugène Delacroix à Augustin Varcollier, 13 juillet [1852]</title>
         <author key="Delacroix, Eugène (1798-1863)"/>
       </titleStmt>
       <editionStmt>
@@ -65,7 +65,7 @@
       <correspDesc>
         <correspAction type="sent">
           <persName key="Delacroix, Eugène (1798-1863)"/>
-          <date when="1862-07-13"/>
+          <date when="1852-07-13"/>
 
         </correspAction>
         <correspAction type="received">
@@ -86,9 +86,9 @@
       <opener>
         <dateline>
           <pb n="1" xml:id="p1"/> Ce <date when="1862-07-13">13 juillet</date><note place="bottom"
-            >L’année de 1862 a été proposée lors du passage en vente de la lettre en 2005 (Thierry
-            Bodin, « Les autographes », <hi rend="it">Bulletin de la Société des Amis du Musée
-              national Eugène Delacroix</hi>, n° 6, 2008, p. 64).</note></dateline>
+            >La lettre est datée du 13 juillet 1852. Delacroix était satisfait de sa lettre, en
+            ayant retranscrit la majeure partie dans son <hi rend="it">Journal</hi> à la date du 7
+            juillet 1852 (Hannoosh, <hi rend="it">Journal</hi>, p. 593-594).</note></dateline>
         <salute><persName key="Varcollier, Augustin (1795-1882)">Mon cher ami</persName><note
             place="bottom">Augustin Varcollier (1795-1882) était chef de la division des beaux-arts
             de la préfecture du département de la Seine. Ils ont pu se rencontrer à l’occasion de la
@@ -124,27 +124,29 @@
           place="bottom">Locution latine pouvant se traduire par « le courage de
           renouveler ».</note>. Passer du grave au doux, de la ville à la campagne, du monde à la
         solitude jusqu’à ce qu’on passe définitivement du <hi rend="u">quelque chose</hi> au <hi
-          rend="u">rien</hi> ; <pb n="3" xml:id="p3"/>
-        mais alors quoiqu’en pense <persName key="Hamlet">Hamlet</persName>, les songes, dans
-        ce repos profond, ne viendront pas nous apporter les images du mouvement et c’est un
-        bienfait de l’incompréhensible Nature que cette autre rénovation des êtres dans ce grand
-        creuset ou elle nous jette, tête, bras ventre, esprit, sentiments, basses natures, nobles
-        esprits, pour en tirer de nouveau et éternellement d’autres apparences animées et rajeunir
-        le grand et éternel spectacle. Mourons, mais après avoir vécu. Beaucoup s’inquiètent s’ils
-        revivront après la mort et ils ne vivent point dès à présent. Combien d’hommes vivent à
-        votre gré. Sans parler du sommeil, des maladies, etc. Combien passe-t-il de notre vie dans
-        des emplois abrutissants pour l’esprit, combien à fumer, combien à des spectacles insipides
-        qui tiennent de la place dans la vie sans l’occuper d’une manière <pb n="4" xml:id="p4"/>
-        digne de l’homme. Beaucoup d’hommes qui n’ont pas essayé de vivre disent qu’il n’est plus
-        temps et ils retombent sur l’oreiller où ils se bercent sans plaisir. Il faudrait veiller
-        sans cesse sur soi, car la paresse est un entraînement de tous les moments. Donc il faut
-        combattre ou crever honteusement.</p>
+          rend="u">rien</hi> ; <pb n="3" xml:id="p3"/> mais alors quoiqu’en pense <persName
+          key="Hamlet">Hamlet</persName>, les songes, dans ce repos profond, ne viendront pas nous
+        apporter les images du mouvement et c’est un bienfait de l’incompréhensible Nature que cette
+        autre rénovation des êtres dans ce grand creuset ou elle nous jette, tête, bras ventre,
+        esprit, sentiments, basses natures, nobles esprits, pour en tirer de nouveau et
+        éternellement d’autres apparences animées et rajeunir le grand et éternel spectacle.
+        Mourons, mais après avoir vécu. Beaucoup s’inquiètent s’ils revivront après la mort et ils
+        ne vivent point dès à présent. Combien d’hommes vivent à votre gré. Sans parler du sommeil,
+        des maladies, etc. Combien passe-t-il de notre vie dans des emplois abrutissants pour
+        l’esprit, combien à fumer, combien à des spectacles insipides qui tiennent de la place dans
+        la vie sans l’occuper d’une manière <pb n="4" xml:id="p4"/> digne de l’homme. Beaucoup
+        d’hommes qui n’ont pas essayé de vivre disent qu’il n’est plus temps et ils retombent sur
+        l’oreiller où ils se bercent sans plaisir. Il faudrait veiller sans cesse sur soi, car la
+        paresse est un entraînement de tous les moments. Donc il faut combattre ou crever
+        honteusement.</p>
       <p>Adieu, <persName key="Varcollier, Augustin (1795-1882)">mon cher ami</persName>. En voici
         beaucoup pour le temps qu’il fait ; j’ai eu là un mouvement qui promettait beaucoup et j’ai
         tourné court, par paresse probablement. Dieu vous préserve de cette rouille. Mais votre
         esprit n’est pas de ceux qui s’endorment et même dans les souffrances qui le tiennent
-        éveillé et tout en enrageant, vous êtes comme le brahmine de Voltaire qui ne voudrait pas
-        être une bête.</p>
+        éveillé et tout en enrageant, vous êtes comme le brahmine de <persName
+          key="Voltaire, Arouet, François Marie, dit (1694-1778)">Voltaire</persName> qui ne
+        voudrait pas être une bête<note>Delacroix fait allusion au conte de Voltaire, <hi rend="it"
+            >Histoire d'un bon Bramin</hi>, datant de 1759.</note>.</p>
 
 
       <closer>
