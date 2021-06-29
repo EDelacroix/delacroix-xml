@@ -7,7 +7,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Lettre d’Eugène Delacroix à Augustin Varcollier, [11 février 1852]</title>
+        <title>Lettre d’Eugène Delacroix à Augustin Varcollier, 18 [février 1856]</title>
         <author key="Delacroix, Eugène (1798-1863)"/>
       </titleStmt>
       <editionStmt>
@@ -34,6 +34,7 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Le cercle familial de Delacroix (Verninac, Riesener...</title>
 
       </seriesStmt>
       <sourceDesc>
@@ -41,7 +42,7 @@
           <msIdentifier>
             <country>France</country>
             <settlement>Paris</settlement>
-            <institution>Bibliothèque de l'INHA</institution>
+            <institution>Bibliothèque de l’INHA</institution>
 
             <idno>Aut126-39-1629</idno>
           </msIdentifier>
@@ -64,7 +65,7 @@
       <correspDesc>
         <correspAction type="sent">
           <persName key="Delacroix, Eugène (1798-1863)"/>
-          <date when="1852-02-11"/>
+          <date when="1856-02-18"/>
 
         </correspAction>
         <correspAction type="received">
@@ -84,12 +85,8 @@
 
       <opener>
         <dateline>
-          <pb n="1" xml:id="p1"/>
-          <date when="1852-02-11">Ce mercredi</date><note place="bottom">Delacroix précise dans son
-              <hi rend="it">Journal</hi>, le samedi 14 février 1852, qu’il a dîné chez le préfet de
-            la Seine et qu’il devait retrouver Augustin Varcollier chez François de Chabrier de
-            Peloubet (Hannoosh, <hi rend="it">Journal</hi>, p. 578). La lettre fut donc écrite le
-            mercredi 11 février 1852.</note>.</dateline>
+          <pb n="1" xml:id="p1"/> Ce <date when="1856-02-18">18</date><note place="bottom">Le
+            contenu de la lettre permet de la dater du 18 février 1856.</note>.</dateline>
         <salute><persName key="Varcollier, Augustin (1795-1882)">Mon cher ami</persName><note
             place="bottom">Augustin Varcollier (1795-1882) était chef de la division des beaux-arts
             de la préfecture du département de la Seine. Ils ont pu se rencontrer à l’occasion de la
@@ -102,27 +99,26 @@
       </opener>
 
 
-      <p>J'espérais pouvoir aller vous voir hier et d’ici à vendredi je crains d’être occupé de
-        manière à ne pas le pouvoir. Voulez-vous que je vous mène aux <placeName
-          key="France, Paris, Archives de l'Empire">Archives</placeName>
-        <hi rend="u">samedi</hi> chez <persName key="Chabrier de Peloubet, François de (1789-1871)"
-          >M. de Chabrier</persName><note place="bottom">François de Chabrier de Peloubet
-          (1789-1871) était garde général des Archives du Royaume depuis 1848. Après la proclamation
-          du second Empire, il conserva son poste en 1853, devenant directeur général des Archives
-          de l’Empire. Il resta en place jusqu’en 1857 et fut remplacé par Léon de Laborde
-          (1807-1869).</note> ? Je dîne ce jour-là chez <persName
-          key="Berger, Jean Jacques (1790-1859)">le préfet</persName><note place="bottom">Jean
-          Jacques Berger (1790-1859) fut préfet de la Seine du 20 décembre 1848 au 22 juin
-          1853.</note> : si vous y dînez, nous irions tout droit. Sinon, vous trouveriez peut-être
-        bon d’y venir dans la soirée, ou si vous vouliez même j’irais vous prendre là où vous me le
-        diriez. Ne prenez pas la peine de me répondre : je vous verrai vendredi. J'ai arrangé cela
-        avec <persName key="Chabrier de Peloubet, François de (1789-1871)">Chabrier</persName>, mais
-        si vous aviez un engagement ce serait pour une autre fois<note place="bottom">Varcollier ne
-          put se rendre chez Chabrier (Hannoosh, <hi rend="it">Journal</hi>, p. 578).</note>.</p>
+      <p>j’ai eu depuis que je vous ai vu un bien grand chagrin : j’ai perdu <persName
+          key="Lamey, Alexandrine (1786-1856)">le dernier parent que j’avais du coté de ma
+          mère</persName> : c’était une mère et une fille pour moi<note place="bottom">Le 8 février
+          1856, Delacroix écrit dans son <hi rend="it">Journal</hi> « Je reçois en rentrant la
+          lettre déchirante du pauvre Lamey [Auguste Lamey (1771-1861)], qui m’annonce la mort de ma
+          chère cousine » (Hannoosh, <hi rend="it">Journal</hi>, p. 996). Alexandrine Lamey
+          (1786-1856) avait été une mère de substitution pour son cousin germain, suite au décès de
+          Victoire Delacroix survenu en 1814.</note>. Vous savez mieux que tout autre ce que c’est
+        que les pertes qui tranchent une des racines qui attachent le cœur ; l’irréparable est
+        affreux.</p>
+      <p>J'ai donc vécu bien tristement et mal portant. Nous nous étions rencontrés au milieu du
+        deuil et ce n’est pas encore le seul chagrin que j’ai éprouvé dans cet espace de temps si
+        court. Ils naissent vite et durent longtemps.</p>
 
 
       <closer>
-        <salute>Votre bien dévoué,</salute>
+        <salute>Je vous embrasse en attendant jeudi<note place="bottom">Delacroix indique dans son
+              <hi rend="it">Journal</hi> qu’il a dîné ce jour-là chez Mme. de Nerville, sans
+            préciser s’il a rencontré Varcollier à cette occasion (Hannoosh, <hi rend="it"
+              >Journal</hi>, p. 997).</note>.</salute>
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
       </closer>
 
