@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Augustin Varcollier, [30 septembre 1854]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Musique et spectacles (Rossini ; Berlioz ; Ciceri ; Duponchel ;
+          etc.</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA</institution>
+
+            <idno>Aut126-39-1629</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="1"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1854-09-30"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Varcollier, Augustin (1795-1882)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Ce <date when="1854-09-30">samedi matin</date><note place="bottom"
+            >Le contenu de la lettre permet de la dater du 30 septembre 1854.</note></dateline>
+        <salute><persName key="Varcollier, Augustin (1795-1882)">Mon cher ami</persName><note
+            place="bottom">Augustin Varcollier (1795-1882) était chef de la division des beaux-arts
+            de la préfecture du département de la Seine. Ils ont pu se rencontrer à l’occasion de la
+            commande à Delacroix d’une peinture murale pour l’une des chapelles d’angles de l’église
+            Saint-Denys-du-Saint-Sacrement ; suite à de longues tractations, il réalisa une <hi
+              rend="it">Pietà</hi> (J564) pour la chapelle Sainte-Geneviève. Si les premières
+            lettres à Varcollier, datées des années 1840, s’inscrivent dans une relation
+            professionnelle, à compter de la décennie suivante de nombreuses lettres prennent une
+            tournure plus personnelle.</note>,</salute>
+      </opener>
+
+
+      <p>je viens vous demander s’il vous serait indifférent de remettre notre dîner à <hi rend="u"
+          >lundi</hi> ou à <hi rend="u">mercredi</hi>. Voici le fait. <persName
+          key="Forget, Joséphine de (1802-1886)">Une personne très aimable</persName> m’offre de me
+        conduire à l’ouverture des <placeName key="France, Paris, Théâtre-Italien"
+          >Italiens</placeName> mardi pour y voir <hi rend="it">Semiramide</hi><note place="bottom"
+          >Delacroix note dans son journal le mardi 3 octobre 1854 qu’il a assisté à une
+          représentation de <hi rend="it">Sémiramide</hi> en compagnie de Joséphine de Forget
+          (Hannoosh, <hi rend="it">Journal</hi>, p. 846). Cet opéra de Rossini était parmi les
+          favoris du peintre.</note>. Il me semble qu’il y a 10 ans que je n’ai entendu de musique.
+        Comme il faudrait que j’aille prendre <persName key="Forget, Joséphine de (1802-1886)">cette
+          personne-là</persName> chez elle pour la conduire dans la loge qu’elle a la bonté de me
+        proposer, nous n’aurions pas le temps, dînant ensemble, de nous dire quatre paroles, et je
+        voudrais bien passer au contraire le plus de temps possible avec vous. J'espère que ce petit
+        changement ne vous contrariera pas trop maintenant que vous êtes un peu libre. Je vous
+        propose donc, ou la veille <hi rend="u">lundi</hi> ou le lendemain <hi rend="u"
+          >mercredi</hi> même lieu et même heure<note place="bottom">Delacroix dîna avec Varcollier
+          la veille de la représentation au Véry, restaurant situé au Palais-Royal (Hannoosh, <hi
+            rend="it">Journal</hi>, p. 845).</note>.</p>
+
+
+      <closer>
+        <salute>Un mot de réponse ; je vous serre bien la main.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">E. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
