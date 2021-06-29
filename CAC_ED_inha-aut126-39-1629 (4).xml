@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Augustin Varcollier, lundi 21</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA</institution>
+
+            <idno>Aut126-39-1629</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="4"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="18..-..-21"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Varcollier, Augustin (1795-1882)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Ce <date when="18..-..-21">21 au soir</date><note place="bottom"
+            >Cette lettre a été écrite par Delacroix entre 1852 et 1861, puisque le contenu de la
+            lettre fait allusion à sa qualité de conseiller municipal.</note>.</dateline>
+      </opener>
+
+
+      <p>Oh la bonne, l’aimable lettre, et quel coupable de n’avoir pas cédé une seule fois aux
+        envies qui m’ont pris vingt fois de vous écrire. Vous aller chercher, où et quand ! Dans la
+        journée les heures sont courtes et le soir on succombe de fatigue. Car je travaille comme un
+        nègre et cela uniquement pour ne pas penser et ne pas m’ennuyer. J'ai pourtant bien pensé à
+        vous et vous me manquerez bien, <persName key="Varcollier, Augustin (1795-1882)">mon cher
+          ami</persName><note place="bottom">Augustin Varcollier (1795-1882) était chef de la
+          division des beaux-arts de la préfecture du département de la Seine. Ils ont pu se
+          rencontrer à l’occasion de la commande à Delacroix d’une peinture murale pour l’une des
+          chapelles d’angles de l’église Saint-Denys-du-Saint-Sacrement ; suite à de longues
+          tractations, il réalisa une <hi rend="it">Pietà</hi> (J564) pour la chapelle
+          Sainte-Geneviève. Si les premières lettres à Varcollier, datées des années 1840,
+          s’inscrivent dans une relation professionnelle, à compter de la décennie suivante de
+          nombreuses lettres prennent une tournure plus personnelle.</note>, quand j’irai remplir
+        mes fonctions civiques dans <placeName key="France, Paris, Hôtel de Ville">ce
+          lieu</placeName> qui comptera moins dans mes souvenirs par ce qui se rattacha <pb n="2"
+          xml:id="p2"/> à ces dernières, que par ces bonnes séances dans votre bureau qui sont
+        restées dans votre souvenir et que je n’oublierais pas non plus<note place="bottom"
+          >Delacroix avait été nommé conseiller municipal le 27 décembre 1851 et fut renouvelé à
+          deux reprises jusqu’à sa démission dix ans plus tard. Il assistait de ce fait aux séances
+          du Conseil qui se tenait à l’Hôtel de Ville, où se trouvait également le bureau de
+          Varcollier.</note>.</p>
+      <p>Il faut que vous sachiez que je tousse d’une façon opiniâtre depuis deux mois et que je
+        suis malade deux jours sur trois. Où aller encore vous chercher ? Soyez donc jusqu’au bout
+        bon ami ; dites-moi quel jour vous voulez venir manger un poulet avec moi à 6 heures, les
+        coudes sur la table, personne en tiers. Là, nous dirons ou plutôt nous penserons tout haut.
+        Voulez-vous que je vous propose un jour, que je ne vous impose pas <pb n="3" xml:id="p3"/>
+        au moins et qui ne serait que suivant vos convenances. Si vous n’aviez pas de répugnance
+        pour après demain <hi rend="u">mercredi</hi>, d’abord je vous verrai plus tôt, car j’ai à
+        cœur de vous recevoir, et nous irions ensuite chez <persName
+          key="Boilay, Antoine Fortuné (1802-1866)">Boilay</persName><note place="bottom">Antoine
+          Fortuné Boilay (1802-1866), administrateur et journaliste.</note> dont la femme a été ou
+        est encore malade et où nous reverrions un certain cercle d’amis que j’ai négligé comme tout
+        le monde. Si un autre vous plaît mieux, mandez-le-moi par un mot et si c’est mercredi
+        dites-le moi de mieux, pour que je n’aille pas promener ma fortune et ma toux ailleurs.
+        Pauvre homme !</p>
+      <p>
+        <pb n="4" xml:id="p4"/> Je comprends bien vos ennuis, moi qui suis l’homme le plus libre de
+        la terre et gâté par cet excès de liberté.</p>
+
+
+      <closer>
+        <salute>Un mot, <persName key="Varcollier, Augustin (1795-1882)">cher ami</persName>, et en
+          attendant mille vraies tendresses de votre sincère et dévoué.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
