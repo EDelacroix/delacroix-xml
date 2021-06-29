@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Augustin Varcollier, 18 [février 1856]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Le cercle familial de Delacroix (Verninac, Riesener...</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA</institution>
+
+            <idno>Aut126-39-1629</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="1"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1856-02-18"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Varcollier, Augustin (1795-1882)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Ce <date when="1856-02-18">18</date><note place="bottom">Le
+            contenu de la lettre permet de la dater du 18 février 1856.</note>.</dateline>
+        <salute><persName key="Varcollier, Augustin (1795-1882)">Mon cher ami</persName><note
+            place="bottom">Augustin Varcollier (1795-1882) était chef de la division des beaux-arts
+            de la préfecture du département de la Seine. Ils ont pu se rencontrer à l’occasion de la
+            commande à Delacroix d’une peinture murale pour l’une des chapelles d’angles de l’église
+            Saint-Denys-du-Saint-Sacrement ; suite à de longues tractations, il réalisa une <hi
+              rend="it">Pietà</hi> (J564) pour la chapelle Sainte-Geneviève. Si les premières
+            lettres à Varcollier, datées des années 1840, s’inscrivent dans une relation
+            professionnelle, à compter de la décennie suivante de nombreuses lettres prennent une
+            tournure plus personnelle.</note>,</salute>
+      </opener>
+
+
+      <p>j’ai eu depuis que je vous ai vu un bien grand chagrin : j’ai perdu <persName
+          key="Lamey, Alexandrine (1786-1856)">le dernier parent que j’avais du coté de ma
+          mère</persName> : c’était une mère et une fille pour moi<note place="bottom">Le 8 février
+          1856, Delacroix écrit dans son <hi rend="it">Journal</hi> « Je reçois en rentrant la
+          lettre déchirante du pauvre Lamey [Auguste Lamey (1771-1861)], qui m’annonce la mort de ma
+          chère cousine » (Hannoosh, <hi rend="it">Journal</hi>, p. 996). Alexandrine Lamey
+          (1786-1856) avait été une mère de substitution pour son cousin germain, suite au décès de
+          Victoire Delacroix survenu en 1814.</note>. Vous savez mieux que tout autre ce que c’est
+        que les pertes qui tranchent une des racines qui attachent le cœur ; l’irréparable est
+        affreux.</p>
+      <p>J'ai donc vécu bien tristement et mal portant. Nous nous étions rencontrés au milieu du
+        deuil et ce n’est pas encore le seul chagrin que j’ai éprouvé dans cet espace de temps si
+        court. Ils naissent vite et durent longtemps.</p>
+
+
+      <closer>
+        <salute>Je vous embrasse en attendant jeudi<note place="bottom">Delacroix indique dans son
+              <hi rend="it">Journal</hi> qu’il a dîné ce jour-là chez Mme. de Nerville, sans
+            préciser s’il a rencontré Varcollier à cette occasion (Hannoosh, <hi rend="it"
+              >Journal</hi>, p. 997).</note>.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
