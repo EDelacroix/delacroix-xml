@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Edmond Cavé, 18 décembre 1835</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les grandes commandes publiques</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’Assemblée nationale</institution>
+
+            <idno>Ms 1869-2, dossier 1, pièce 13</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1835-12-18"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Cavé, Edmond (1794-1852)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="1" xml:id="p1"/>
+            <persName key="Cavé, Edmond (1794-1852)">Monsieur Cavé</persName><note place="bottom"
+              >Edmond Cavé (1794-1852), homme politique, journaliste et écrivain, occupa le poste de
+              chef de la division des beaux-arts au ministère de l’Intérieur, avant d’en devenir le
+              directeur jusqu’à la chute de Louis-Philippe.</note></addrLine>
+          <addrLine>chef de la division des Beaux-Arts et au Ministère de l’Intérieur</addrLine>
+        </address>
+        <salute>
+          <pb n="2" xml:id="p2"/>
+          <persName key="Cavé, Edmond (1794-1852)">Monsieur</persName>,</salute>
+      </opener>
+
+
+      <p>Il ne me reste plus à exécuter pour la <rs type="work"
+          key="Assemblée nationale, Salon du Roi">peinture du Salon du roi</rs> à la <placeName
+          key="France, Paris, Assemblée nationale">Chambre des députés</placeName>, que des figures
+        arabesques qui doivent compléter les trumeaux qui séparent les croisées. J’ai l’honneur de
+        vous adresser une demande tendant à me faire ordonnancer un nouvel acompte sur le prix de
+          <rs type="work" key="Assemblée nationale, Salon du Roi">ces travaux</rs> qui touchent à
+        leur terme<note place="bottom">Delacroix s’était vu confier la commande pour le décor du
+          Salon du Roi à l’Assemblée nationale en 1833, sur l’initiative d’Adolphe Thiers
+          (1797-1877). Il l’acheva en 1836. L’arrêté ministériel du 31 août 1833 disposait que
+          Delacroix recevrait « une somme de trente-cinq mille francs payable par à comptes selon
+          les degrés d’avancement du travail » (document conservé aux Archives
+        nationales).</note>.</p>
+
+
+      <closer>
+        <salute>J’ai l’honneur d’être, avec une très haute considération, <persName
+            key="Cavé, Edmond (1794-1852)">Monsieur</persName>, votre très humble et obéissant
+          serviteur.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+        <dateline>Le <date when="1835-12-18">18 décembre 1835</date>.</dateline>
+        <placeName key="France, Paris, rue des marais Saint-Germain, 17">Rue des marais
+          Saint-Germain, n° 17</placeName>. </closer>
+
+    </body>
+  </text>
+</TEI>
