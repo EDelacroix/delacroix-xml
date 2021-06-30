@@ -64,7 +64,7 @@
       <correspDesc>
         <correspAction type="sent">
           <persName key="Delacroix, Eugène (1798-1863)"/>
-          <date when="18..-..-21"/>
+          <date notbefore="1852-06-21" notafter="1861-10-21"/>
 
         </correspAction>
         <correspAction type="received">
@@ -84,9 +84,10 @@
 
       <opener>
         <dateline>
-          <pb n="1" xml:id="p1"/> Ce <date when="18..-..-21">21 au soir</date><note place="bottom"
-            >Cette lettre a été écrite par Delacroix entre 1852 et 1861, puisque le contenu de la
-            lettre fait allusion à sa qualité de conseiller municipal.</note>.</dateline>
+          <pb n="1" xml:id="p1"/> Ce <date notbefore="1852-06-21" notafter="1861-10-21">21 au
+            soir</date><note place="bottom">Cette lettre a été écrite par Delacroix entre 1852 et
+            1861, puisque le contenu de la lettre fait allusion à sa qualité de conseiller
+            municipal.</note>. </dateline>
       </opener>
 
 
