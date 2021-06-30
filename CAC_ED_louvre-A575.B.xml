@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, 3 septembre 1840</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>{corrections}</name>
+          <name>{corrections}</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les amis de jeunesse</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Musée du Louvre</institution>
+            <repository>Département des Arts graphiques</repository>
+            <idno>A 575.B</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Etienne Moreau-Nélaton</provenance>
+          </history>
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1840-09-03"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Pierret, Jean-Baptiste (1795-1854)"/>
+          <placeName key="France, Paris, rue Tronchet, 13"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="1" xml:id="p1"/>
+            <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur
+            Pierret</persName></addrLine>
+          <addrLine><placeName key="France, Paris, rue Tronchet, 13">Rue Tronchet, n° 13. Quartier
+              de la Madeleine.</placeName></addrLine>
+        </address>
+      </opener>
+
+
+      <p>
+        <pb n="2" xml:id="p2"/> Viens dîner avec moi <date when="1840-09-04">demain vendredi</date>, veux-tu,
+          <persName key="Pierret, Jean-Baptiste (1795-1854)">bon et cher bon</persName> ?</p>
+      <p>J’espère que le docteur viendra aussi.</p>
+      <p>[mot illisible]</p>
+
+
+      <closer>
+        <dateline><date when="1840-09-03">Jeudi</date></dateline>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
