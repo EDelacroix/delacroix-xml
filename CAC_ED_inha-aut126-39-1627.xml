@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Augustin Varcollier, 12 juillet 1855</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">La nature (Champrosay ; Dieppe, etc.)</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA</institution>
+
+            <idno>Aut126-39-1627</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="4"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1855-07-12"/>
+          <placeName>Champrosay</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Varcollier, Augustin (1795-1882)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <hi rend="it">(d’une autre main :)</hi>
+          <date when="1855-07-12">12 juillet 1855</date>.</dateline>
+        <address>
+          <addrLine><placeName key="France, Champrosay">Champrosay</placeName> par
+            Draveil</addrLine>
+          <addrLine>Seine et Oise.</addrLine>
+        </address>
+        <salute><persName key="Varcollier, Augustin (1795-1882)">Mon cher ami</persName><note
+            place="bottom">Augustin Varcollier (1795-1882) était chef de la division des beaux-arts
+            de la préfecture du département de la Seine. Ils ont pu se rencontrer à l’occasion de la
+            commande à Delacroix d’une peinture murale pour l’une des chapelles d’angles de l’église
+            Saint-Denys-du-Saint-Sacrement ; suite à de longues tractations, il réalisa une <hi
+              rend="it">Pietà</hi> (J564) pour la chapelle Sainte-Geneviève. Si les premières
+            lettres à Varcollier, datées des années 1840, s’inscrivent dans une relation
+            professionnelle, à compter de la décennie suivante de nombreuses lettres prennent une
+            tournure plus personnelle.</note>,</salute>
+      </opener>
+
+
+      <p>je remplis bien tard la promesse que je vous avais faite de vous écrire. Je n’ai pas été
+        comme à mon ordinaire, mais quand je me réfugie dans mes pénates campagnardes, éloigné
+        complètement des affaires et des ennuis de <placeName key="France, Paris">Paris</placeName>.
+        J'ai été au contraire dérangé à tout moment et je suis dans ce moment même m’apprêtant pour
+        un petit voyage aux environs qui me prendra encore huit jours. Le temps qui était magnifique
+        est devenu affreux et contrarie cruellement mes projets ; mais nous ne faisons autre chose
+        dans ce monde qui trouve des déceptions là où nous attendions du plaisir. <pb n="2"
+          xml:id="p2"/> A travers mes allées et venues j’ai trouvé le moyen de travailler un peu :
+        j’ai des voisins qui ne sont pas importuns et qui me prennent quand je viens. De mes
+        fenêtres je vois <placeName key="France, Fromont">l’habitation</placeName> d’<persName
+          key="Halévy, Fromental (1799-1862)">Halevy</persName><note place="bottom">Fromental Halévy
+          (1799-1862), compositeur et ami de Delacroix. Il fit l’acquisition en août 1853 de la
+          propriété de Fromont, près de Champrosay, mais des problèmes de santé l’obligèrent à
+          s’installer à Nice en 1861.</note> que j’ai vu aussi de temps en temps, mais c’est une
+        affaire : il faut traverser la rivière pour aller le voir et une certaine distance qui était
+        particulièrement incommode pendant les derniers jours de chaleur. Il est lui-même fort
+        dérangé et obligé à tout instant de venir à <placeName key="France, Paris"
+        >Paris</placeName>, mais je crois qu’il n’a pas au même degré que moi les vertus champêtres
+        et cette vie de mouvement lui convient. Moi, je voudrais vivre dans l’immobilité. J'ai
+        toujours envié la situation du grand lama qui ne bouge jamais et qui ne rend ses oracles
+        qu’en remuant le sourcil. J'étais né pour être un savant ou un bénédic <pb n="3" xml:id="p3"
+        />tin enfoncé dans les bouquins et ne quittant jamais son cabinet. Le sort m’a donné une
+        profession qui exige des soins matériels et des mouvements continuels. Encore si j’étais un
+        rimeur, un faiseur de tragédies, je n’aurais besoin ni de mes échelles, ni de mes modèles et
+        surtout je n’aurais pas de palette à nettoyer. Enfin comme il faut voir aussi les bons côtés
+        et que j’aime au demeurant cette pauvre peinture qui me martyrise quelquefois, je me console
+        en pensant aux ennuis qui accablent tous les hommes. Que je voudrais, <persName
+          key="Varcollier, Augustin (1795-1882)">mon cher ami</persName>, ne vous [faire] voir que
+        ceux que je ressens dans l’exercice de cet art adorable<note place="bottom">Il est probable
+          que Delacroix ait oublié le mot « faire », sa phrase étant difficilement compréhensible.
+          Il renverrait dans ce cas aux ennuis que lui causent sa peinture.</note> ! Votre vie
+        entière et votre mérite devaient vous conduire à un port sûr et agréable. Dites-moi quelques
+        mots si vous en avez le temps avant huit jours. Je reviens ici au bout de ce terme pour
+        faire mes paquets et je retourne aussitôt à <placeName key="France, Paris"
+        >Paris</placeName>, où je ne tarderai pas à <pb n="4" xml:id="p4"/> vous voir. Nous referons
+        une de ces innocentes parties dans lesquelles on a le temps de dire bien des choses.</p>
+      <p>Je fais des vœux bien sincères pour vous voir dans ce calme et ce bonheur rare et permis
+        après une vie occupée comme la vôtre. Je voudrais qu’en nous voyant de temps en temps, nous
+        adoucissions le présent en nous rappelant le passé et en parlant des belles choses.</p>
+
+
+      <closer>
+        <salute>Adieu, <persName key="Varcollier, Augustin (1795-1882)">mon cher ami</persName>,
+          recevez de nouvelles assurances de mon dévouement.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
