@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, 29 septembre 1848</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>{corrections}</name>
+          <name>{corrections}</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les amis de jeunesse</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Musée du Louvre</institution>
+            <repository>Département des Arts graphiques</repository>
+            <idno>A 595</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Etienne Moreau-Nélaton</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, II, p. 368-369</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1848-09-29"/>
+          <placeName key="France, Champrosay">Champrosay</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Pierret, Jean-Baptiste (1795-1854)"/>
+          <placeName key="France, Paris, rue Saint-Florentin, 11"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="1" xml:id="p1"/>
+            <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur
+            Pierret</persName></addrLine>
+          <addrLine><placeName key="France, Paris, rue Saint-Florentin, 11">Rue Saint-Florentin, n°
+              11, à Paris</placeName></addrLine>
+        </address>
+        <dateline>
+          <pb n="2" xml:id="p2"/>
+          <placeName key="France, Champrosay">Champrosay</placeName>, <date when="1848-09-29"
+            >vendredi</date></dateline>
+        <salute><persName key="Pierret, Jean-Baptiste (1795-1854)">Cher ami</persName>, </salute>
+      </opener>
+
+
+      <p>Je reçois ta lettre et m’empresse de te prier de venir (je crois que tu le pourras dimanche
+        auquel nous touchons). J’ai fait <rs type="work"
+          key="Corbeille de fruits posée dans un jardin (J501)"><rs type="work"
+            key="Corbeille de fleurs renversée dans un parc (J502)">une entreprise très
+          forte</rs></rs><note place="bottom">Il s’agit des tableaux de fleurs que Delacroix a
+          présentés au Salon de 1849 (Joubin, II, p. 368) : <hi rend="it">Corbeille de fruits posée
+            dans un jardin</hi> (J501) et<hi rend="it"> Corbeille de fleurs renversée dans un
+            parc</hi> (J502).</note> et une journée de moins me serait très préjudiciable. Les
+        fleurs s’en vont et à la première gelée je serai sans modèle. Prends le convoi qui part <hi
+          rend="u">de la gare à 3 heures précises</hi> ; ainsi j’aurai eu le temps de faire ma
+        journée le matin et nous aurons pour causer jusqu’à 9 heures du soir. Tu prendras la fortune
+        du pot et nous parlerons de nous et de <persName key="Soulier, Charles (1792-1866)">notre
+          pauvre naufragé</persName><note place="bottom">Delacroix se réfère ici à leur ami Charles
+          Soulier (1792-1866), qui avait à l’époque des problèmes financiers. En effet, il exprimait
+          son inquiétude face à cette situation dans une lettre envoyée à Pierret quelques jours
+          auparavant.</note>.</p>
+      <p>Sa situation que je devine me touche excessivement : c’est <persName
+          key="Soulier, Charles (1792-1866)">mon vieux compagnon</persName>, mais pour cela même je
+        le connais bien. Prêter à lui ! J’aimerais autant prêter à l’Achéron ou à l’Océan. Tu
+        verras, <persName key="Pierret, Jean-Baptiste (1795-1854)">cher</persName>, que je m’échine
+        depuis un mois pour accrocher quelques mille francs qui boucheront les trous que la
+        République fait à mes minces intérêts. <hi rend="it">Primo vivere</hi>.</p>
+
+
+      <closer>
+        <salute>Je t’embrasse et je t’attends <date>dimanche</date> avec impatience.</salute>
+        <p><persName>Eug. Delacroix</persName></p>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
