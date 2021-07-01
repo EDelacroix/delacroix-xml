@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Nicolas Martin du Nord, 27 décembre 1836</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les grandes commandes publiques</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’Assemblée nationale</institution>
+
+            <idno>Ms 1869-2, dossier 1, pièce 16</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="3"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L’Art</hi>, t. XXXVIII, 1<hi rend="sup">er</hi> juin 1885, p. 225 ;
+            Joubin, I, p. 419-421</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1836-12-27"/>
+          <placeName>Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Martin du Nord, Nicolas (1790-1847)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <placeName key="France, Paris">Paris</placeName>, <date when="1836-12-27">27 décembre
+            1836</date><note place="bottom">Delacroix avait envoyé deux lettres au ministre des
+            Travaux publics, datées du même jour, la première pour solliciter le paiement complet de
+            la commande <ref type="letter" target="CAC_ED_assemblee-ms1869-2-d1-p15.xml">(lettre du
+              27 décembre 1836)</ref>.</note>.</dateline>
+        <salute><persName key="Martin du Nord, Nicolas (1790-1847)">Monsieur le
+            Ministre</persName><note place="bottom">Nicolas Martin du Nord (1790-1847) fut ministre
+            des Travaux publics du 19 septembre 1836 au 31 mars 1839.</note>,</salute>
+      </opener>
+
+
+      <p><rs type="work" key="Assemblée nationale, Salon du Roi">La décoration du Salon du roi</rs>
+        à la <placeName key="France, Paris, Assemblée nationale">Chambre des députés</placeName>
+        était loin de présenter dans le plan primitif la complication qu’elle offre aujourd’hui et à
+        laquelle j’ai été conduit pour tirer le meilleur parti possible des localités<note
+          place="bottom">Delacroix venait d’achever le décor du Salon du Roi qui lui avait été
+          confié en 1833.</note>. Dans le premier projet, il n’y avait à peindre que les caissons du
+          <rs type="work" key="Assemblée nationale, Salon du Roi">plafond</rs> et les trumeaux qui
+        séparent les fenêtres. La longue frise formée par les figures qui occupent maintenant le
+        dessus des arcades a été entièrement ajoutée. Or, par le nombre et l’importance, elles ont
+        plus que doublé le travail et entraîné un emploi de temps considérable. Dans la première
+        disposition, il se trouvait au-dessous des moulures qui supportent le <rs type="work"
+          key="Assemblée nationale, Salon du Roi">plafond</rs> un bandeau qui ne laissait qu’un
+        espace médiocre et qu’on ne pouvait remplir qu’avec des accessoires de pure décoration. On
+        juge dès lors que cet arrangement n’offrait qu’un aspect lourd et disgracieux, augmenté par
+        l’extrême maigreur qui résultait de ces quatre figures isolées dans le plafond. Il fut
+        question de détruire entièrement le <rs type="work" key="Assemblée nationale, Salon du Roi"
+          >plafond</rs> et de le remplacer par un autre où la <rs type="work"
+          key="Assemblée nationale, Salon du Roi">peinture</rs> se trouvât plus à l’aise et plus
+        appropriée à la destination du salon.</p>
+      <p>Je demanderai alors, au lieu de cette destruction <pb n="2" xml:id="p2"/> et de la
+        reconstruction qui en devait être la suite, la seule suppression du bandeau qui pesait sur
+        les ouvertures des fenêtres et des portes. Cette mesure arrêtée de concert avec <persName
+          key="Lelong, Paul (1799-1846)">l’architecte</persName><note>Paul Lelong (1799-1846).</note> et approuvée par <persName
+          key="Thiers, Adolphe (1797-1877)">M. Thiers</persName>, alors ministre des Travaux
+        publics, reçut son exécution<note place="bottom">Adolphe Thiers (1797-1877) avait été à
+          l’origine du choix de Delacroix pour ladite commande.</note>. Il en résulta l’économie de
+        tous les frais qu’eût entraînés la reconstruction du <rs type="work">plafond</rs> et l’on
+        n’eut pas à regretter la perte de ce que l’ancien avait pu coûter. Mais, dans ce plan
+        nouveau, ce qui pour le peintre n’avait été qu’un accessoire insignifiant, est devenu la
+        partie principale de tout l’ouvrage, cette frise ne comprenant pas moins de 60 à 70 figures
+        plus ou moins développées.</p>
+      <p>J’avoue que je trouvais une compensation à un emploi du temps qui dépassait si
+        excessivement mes prévisions et les exigences même du <persName
+          key="Martin du Nord, Nicolas (1790-1847)">ministre</persName> dans la satisfaction de
+        rendre plus complète la <rs type="work" key="Assemblée nationale, Salon du Roi"
+          >décoration</rs> tout entière. Je vous prierai cependant, <persName
+          key="Martin du Nord, Nicolas (1790-1847)">Monsieur le Ministre</persName>, de vouloir bien
+        examiner s’il n’y a pas lieu de m’accorder une indemnité proportionnée à l’importance que
+        les travaux ont acquise. Je prends également la liberté de vous exposer que les ornements
+        qui accompagnent les figures ont été exécutés par des décorateurs de profession, et avec des
+        frais considérables qui sont restés à ma charge. Toutes les parties de dorures qui entrent
+        dans les ornements se trouvent également comprises dans ces dépenses.</p>
+      <p>Je ferai valoir encore que la modicité du prix, lequel avait été fixé à 35 000 francs quand
+        le travail se trouvait plus borné, devient extrême si l’on considère le temps qu’il a fallu
+        employer à l’exécution <pb n="3" xml:id="p3"/> du plan subséquent. Elle l’est surtout si
+        l’on considère les prix qui, depuis, ont été alloués à divers artistes pour des travaux
+        analogues. Je citerai entre autres l’hémicycle de l’École des Beaux-Arts, les tableaux
+        isolés de l’église de la Madeleine, dont chacun est payé 25 000 francs, et quelques autres
+          encore<note place="bottom">Delacroix n’obtint pas gain de cause. Le ministre secrétaire
+          d’Etat au département de l’Intérieur n’était pas favorable à l’indemnité. Le refus du
+          ministre des Travaux publics fut notifié au peintre le 31 janvier 1837 (cf. Serullaz, <hi
+            rend="it">Les peintures murales de Delacroix</hi>, p. 36-37).</note>.</p>
+
+
+      <closer>
+        <salute>J’ai l’honneur d’être avec respect, <persName
+            key="Martin du Nord, Nicolas (1790-1847)">Monsieur le Ministre</persName>, votre très
+          humble et très obéissant serviteur.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+        <placeName key="France, paris, rue des marais Saint-Germain, 17">Rue des marais
+          Saint-Germain, n° 17</placeName>. </closer>
+
+    </body>
+  </text>
+</TEI>
