@@ -67,7 +67,7 @@
       <correspDesc>
         <correspAction type="sent">
           <persName key="Delacroix, Eugène (1798-1863)"/>
-          <date when="18..-..-.."/>
+          <date notbefore="1840" notafter="1854"/>
 
         </correspAction>
         <correspAction type="received">
@@ -104,7 +104,7 @@
       <closer>
         <salute>Je t’embrasse,</salute>
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
-        <dateline>Ce jeudi.</dateline>
+        <dateline><date notbefore="1840" notafter="1854">Ce jeudi.</date></dateline>
       </closer>
 
     </body>
