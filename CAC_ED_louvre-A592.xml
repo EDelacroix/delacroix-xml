@@ -7,7 +7,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, [s.d.]</title>
+        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, 26 août 1847</title>
         <author key="Delacroix, Eugène (1798-1863)"/>
       </titleStmt>
       <editionStmt>
@@ -44,7 +44,7 @@
             <settlement>Paris</settlement>
             <institution>Musée du Louvre</institution>
             <repository>Département des Arts graphiques</repository>
-            <idno>A 591</idno>
+            <idno>A 592</idno>
           </msIdentifier>
           <physDesc>
             <objectDesc form="letter">
@@ -60,16 +60,17 @@
             <provenance>Collection Etienne Moreau-Nélaton</provenance>
           </history>
         </msDesc>
-
+        <listBibl>
+          <bibl>Joubin, II, p. 323</bibl>
+        </listBibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <correspDesc>
         <correspAction type="sent">
           <persName key="Delacroix, Eugène (1798-1863)"/>
-          <date notbefore="1840" notafter="1854"/>
-
-
+          <date when="1847-08-26"/>
+          <placeName key="France, Paris">Paris</placeName>
         </correspAction>
         <correspAction type="received">
           <persName key="Pierret, Jean-Baptiste (1795-1854)"/>
@@ -102,22 +103,24 @@
       </opener>
 
 
-      <p>On profitera de l’intervention d’un député pour activer la demande que je t’ai transmise
-        l’autre jour<note place="bottom">Delacroix se réfère à <ref type="letter" target="CAC_ED_louvre-A590.xml">une lettre</ref>
-          destinée à Pierret dans laquelle il lui demandait un service pour « le jeune de Forget ».
-        </note>, mais, si tu peux, écris un mot au chef de bureau dont tu m’as parlé ; cela activera
-        encore la démarche. Je te remercie des renseignements et M. de Forget<note place="bottom">Il
-          s’agit de l’un des deux fils de Joséphine de Forget : Eugène de Forget (1819-1885) ou
-          Émilien de Forget (1822-1857).</note> me charge bien de t’en faire autant pour son compte.
-        Je suis toujours cahin-caha.</p>
+      <p>On me demande à l’instant un bon maître de paysage pour des étrangers. J’ai pensé à
+          <persName key="Huet, Paul (1803-1869)">Huet</persName> : comme la leçon serait bien payée,
+        cela lui conviendra peut-être. Au lieu de m’écrire son adresse, écris-lui toi-même
+        directement pour ne pas perdre de temps et dis-lui de me répondre s’il consent. Je crois
+        t’avoir entendu dire qu’il était à <placeName key="France, Paris">Paris</placeName>.</p>
 
 
       <closer>
-        <salute>À toi,</salute>
-        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène</persName></signed>
-        <dateline><date notbefore="1840" notafter="1854">Mardi</date>.</dateline>
+        <salute>Je t’embrasse, <persName key="Pierret, Jean-Baptiste (1795-1854)">cher
+            ami</persName>.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName>.</signed>
+        <dateline><date when="1847-08-26">Ce jeudi matin</date>.</dateline>
       </closer>
 
+      <postscript>
+        <p>Si <persName key="Huet, Paul (1803-1869)">Huet</persName> n’était pas ici, connais-tu un
+          autre paysagiste à qui cela ferait plaisir ?</p>
+      </postscript>
     </body>
   </text>
 </TEI>
