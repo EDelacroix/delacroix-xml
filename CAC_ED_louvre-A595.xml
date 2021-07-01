@@ -130,8 +130,9 @@
 
 
       <closer>
-        <salute>Je t’embrasse et je t’attends <date>dimanche</date> avec impatience.</salute>
-        <p><persName>Eug. Delacroix</persName></p>
+        <salute>Je t’embrasse et je t’attends <date when="1848-10-01">dimanche</date> avec
+          impatience.</salute>
+        <p><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></p>
       </closer>
 
     </body>
