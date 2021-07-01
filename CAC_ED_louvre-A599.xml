@@ -7,7 +7,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Lettre d’Eugène Delacroix à Marie Pierret, 22 novembre 1849</title>
+        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, 30 mai 1850</title>
         <author key="Delacroix, Eugène (1798-1863)"/>
       </titleStmt>
       <editionStmt>
@@ -44,7 +44,7 @@
             <settlement>Paris</settlement>
             <institution>Musée du Louvre</institution>
             <repository>Département des Arts graphiques</repository>
-            <idno>A 596</idno>
+            <idno>A 599</idno>
           </msIdentifier>
           <physDesc>
             <objectDesc form="letter">
@@ -61,7 +61,7 @@
           </history>
         </msDesc>
         <listBibl>
-          <bibl>Joubin, II, p. 410</bibl>
+          <bibl>Joubin, III, p. 21-22</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
@@ -69,11 +69,12 @@
       <correspDesc>
         <correspAction type="sent">
           <persName key="Delacroix, Eugène (1798-1863)"/>
-          <date when="1849-11-22"/>
-          <placeName key="France, Champrosay">Champrosay</placeName>
+          <date when="1850-05-30"/>
+
         </correspAction>
         <correspAction type="received">
-          <persName key="Pierret, Marie (1835-1876)"/>
+          <persName key="Pierret, Jean-Baptiste (1795-1854)"/>
+          <placeName key="France, Paris, rue Saint-Florentin, 11"/>
         </correspAction>
 
       </correspDesc>
@@ -88,33 +89,32 @@
 
 
       <opener>
+        <address>
+          <addrLine>
+            <pb n="1" xml:id="p1"/>
+            <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur
+            Pierret</persName></addrLine>
+          <addrLine><placeName key="France, Paris, rue Saint-Florentin, 11">Rue Saint-Florentin,
+              11</placeName></addrLine>
+        </address>
         <dateline>
-          <pb n="1" xml:id="p1"/>
-          <placeName key="France, Champrosay">Champrosay</placeName>, <date when="1849-11-22">22
-            novembre 1849</date></dateline>
-        <salute><persName key="Pierret, Marie (1835-1876)">Ma chère Marie</persName>,</salute>
+          <pb n="2" xml:id="p2"/>
+          <date when="1850-05-30">Ce jeudi matin</date></dateline>
+        <salute><persName key="Pierret, Jean-Baptiste (1795-1854)">Cher ami</persName>,</salute>
       </opener>
 
 
-      <p>Je te remercie beaucoup de ta bonne lettre<note place="bottom">Étant sa filleule, elle lui
-          avait écrit le 15 novembre, à l’occasion de la Saint-Eugène (Joubin, II, p. 410).</note> :
-        je t’écris de la campagne où je suis encore, mais pour très peu de jours. Aussitôt mon
-        arrivée, j’irai près de <persName key="Pierret, Jean-Baptiste (1795-1854)">ton bon
-          père</persName> savoir de tes nouvelles et des siennes. Je n’ai pas été content de sa
-        santé, ni de sa manière de se soigner : si tu veux m’être agréable, tu emploieras toute la
-        force que te donne ta tendresse pour lui, à le prier pour ses amis et pour toi de ne rien
-        négliger pour se remettre tout à fait. Je m’attends à tes progrès de toutes sortes<note
-          place="bottom">Marie Pierret, qui allait devenir une dessinatrice de talent, apprenait à
-          l’époque à peindre sur porcelaine (Joubin, II, p. 410). </note> et aurai grand plaisir au
-        mois de <pb n="2" xml:id="p2"/> janvier, quand nous nous reverrons, à en juger par
-        moi-même.</p>
+      <p>J’ai oublié de te demander hier de me procurer, s’il t’est encore possible, une entrée au
+          <placeName key="France, Paris, Musée d'histoire naturelle">Musée d’Histoire
+          naturelle</placeName> les jours non publics, afin de faire quelques croquis dont j’ai
+        besoin. Autrefois tu en avais facilement. Tu me le mettrais à la poste.</p>
+      <p>Nous avons passé une bonne soirée et je ne suis pas du tout fatigué comme je le
+        craignais.</p>
 
 
       <closer>
-        <salute>En attendant, <persName key="Pierret, Marie (1835-1876)">ma chère amie</persName>,
-          je t’embrasse tendrement et me recommande à ton souvenir.</salute>
-        <signed><persName key="Delacroix, Eugène (1798-1863)"
-          >Eug. Delacroix </persName></signed>
+        <salute>Je t’embrasse</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">E. D.</persName></signed>
       </closer>
 
     </body>
