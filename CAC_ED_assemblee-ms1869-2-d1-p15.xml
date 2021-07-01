@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Nicolas Martin du Nord, 27 décembre 1836</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les grandes commandes publiques</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’Assemblée nationale</institution>
+
+            <idno>Ms 1869-2, dossier 1, pièce 15</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="1"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Serullaz, <hi rend="it">Les peintures murales de Delacroix</hi>, p. 35</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1836-12-27"/>
+          <placeName>Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Martin du Nord, Nicolas (1790-1847)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <placeName key="France, Paris">Paris</placeName>, <date when="1836-12-27">27 décembre
+            1836</date></dateline>
+        <salute><persName key="Martin du Nord, Nicolas (1790-1847)">Monsieur le
+            Ministre</persName><note place="bottom">Nicolas Martin du Nord (1790-1847) fut ministre
+            des Travaux publics du 19 septembre 1836 au 31 mars 1839.</note>,</salute>
+      </opener>
+
+
+      <p>J’ai l’honneur de vous exposer qu’ayant terminé <rs type="work"
+          key="Assemblée nationale, Salon du Roi">le travail qui m’avait été confié</rs> à la
+          <placeName key="France, Paris, Assemblée nationale">Chambre des députés</placeName><note
+          place="bottom">Delacroix s’était vu confié la commande pour le Salon du Roi de l’Assemblée
+          nationale et commença le travail en 1833. Adolphe Thiers (1797-1877) avait été à l’origine
+          du choix de Delacroix.</note> et pour lequel j’ai reçu divers à comptes depuis le
+        commencement de son exécution, je sollicite de votre bonté le paiement complet de <rs
+          type="work" key="Assemblée nationale, Salon du Roi">cet ouvrage</rs><note place="bottom"
+          >Un arrêté du 31 décembre 1836 dispose que la « somme de treize mille cent
+          soixante-dix-huit francs sera ordonnancée au nom de M. Eugène Delacroix pour solde du prix
+          alloué par décision du 31 août 1833 pour l’exécution des peintures du Salon du Roi à la
+          Chambre des Députés ». En revanche, Delacroix fit parvenir une seconde lettre le même jour
+          à Nicolas Martin du Nord (1790-1847) dans laquelle il réclamait une indemnité
+          supplémentaire (lettre du 27 décembre 1836).</note>.</p>
+
+
+      <closer>
+        <salute>J’ai l’honneur d’être avec respect, <persName
+            key="Martin du Nord, Nicolas (1790-1847)">Monsieur le Ministre</persName>, votre très
+          humble et très obéissant serviteur,</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+        <placeName key="France, Paris, rue des marais Sain-Germain, 17">Rue des marais
+          Saint-Germain, n° 17</placeName>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
