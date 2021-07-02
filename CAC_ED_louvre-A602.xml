@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, 24 septembre 1852</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>{corrections}</name>
+          <name>{corrections}</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les amis de jeunesse</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Musée du Louvre</institution>
+            <repository>Département des Arts graphiques</repository>
+            <idno>A 602</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Etienne Moreau-Nélaton</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, III, p. 125</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1852-09-24"/>
+          <placeName key="France, Paris">Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Pierret, Jean-Baptiste (1795-1854)"/>
+          <placeName key="France, Paris, rue Saint-Florentin, 11"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="1" xml:id="p1"/>
+            <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur
+            Pierret</persName></addrLine>
+          <addrLine><placeName key="France, Paris, rue Saint-Florentin, 11">Rue Saint-Florentin,
+              11</placeName></addrLine>
+        </address>
+        <dateline>
+          <pb n="2" xml:id="p2"/>
+          <date when="1852-09-24">Ce 24.</date></dateline>
+        <salute><persName key="Pierret, Jean-Baptiste (1795-1854)">Cher ami</persName>,</salute>
+      </opener>
+
+
+      <p>Tu as pris la peine de passer. Je suis revenu de <placeName key="France, Dieppe"
+          >Dieppe</placeName> il y a <date when="1852-09-14">un peu plus de huit jours</date><note
+          place="bottom">Delacroix était revenu à Paris le 14 septembre, comme le témoigne son
+          journal (Hannoosh, <hi rend="it">Journal</hi>, p. 603). </note>. Depuis, je n’ai cessé de
+        travailler beaucoup et je me suis trouvé le soir trop fatigué pour aller te voir. J’ai
+        encore un coup de collier à donner jusqu’au <date when="1852-10-08">8</date> ou <date
+          when="1852-10-10">10 octobre</date> environ. C’est alors qu’on collera toutes <rs
+          type="work" key="Salon de la Paix, Hôtel de Ville">mes figures</rs><note place="bottom">Il
+          se réfère ici au décor du plafond et des tympans du <hi rend="it">Salon de la Paix</hi> à
+          l’Hôtel de Ville (Joubin, III, p. 125). </note>. Cela me donnera un peu de répit ; puis je
+        retoucherai sur place. J’espère que le travail que je fais maintenant m’évitera un peu de
+        celui que j’aurai à faire sur place. J’irai pourtant te voir un soir.</p>
+
+
+      <closer>
+        <salute>Je t’embrasse,</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">E. D. </persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
