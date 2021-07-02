@@ -86,7 +86,7 @@
 
 
       <opener>
-        <pb n="1" xml:id="p1"/>
+        <pb n="1"/>
         <dateline><date when="1848-08-29">Mardi</date><note place="bottom">Joubin a daté cette
             lettre du 29 août 1848, car le 25 août l’Assemblée constituante autorisa les poursuites
             contre Louis Blanc dont il est question plus loin dans la lettre.</note></dateline>
@@ -108,7 +108,7 @@
           politique. </note>. Comme jusqu’ici le hasard bien plus que toute espèce de combinaisons a
         fait tourner les choses d’une manière tolérable, je me berce de l’espoir que la Providence
         agira encore de même : cependant, quand on voit quel abyme nous avions à nos côtés et
-        quelles <pb n="2" xml:id="p2"/>passions sauvages nous avons encore en face de nous, il est
+        quelles <pb n="2"/>passions sauvages nous avons encore en face de nous, il est
         permis de ne pas être tranquille. Cette affaire de <persName
           key="Blanc, Louis Jean Joseph (1811-1882)">Louis Blanc</persName> est des plus sottes : si
         on voulait juger ces gens-là, il fallait que ce fût l’affaire de l’Assemblée. Il est évident
@@ -117,7 +117,7 @@
         donnera cent coudées à ces messieurs. Il valait donc mieux, dans cette hypothèse, les
         laisser tranquilles en faisant semblant de croire qu’ils étaient innocents. Voilà ma petite
         politique de peintre. Il est bien fâcheux qu’on ne me demande pas de temps en temps quelques
-        conseils. Je commence à me trouver propre au gouvernement <pb n="3" xml:id="p3"/>depuis que
+        conseils. Je commence à me trouver propre au gouvernement <pb n="3"/>depuis que
         je vois que mes prévisions se réalisent souvent et que ce n’est absolument que parce que je
         raisonne d’après le plus simple sens commun ; j’en conclus par la même raison que nous
         sommes très mal gouvernés, puisqu’on fait toujours le contrepied de ce que la prudence la
