@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Edmond Cavé, 12 août 1845</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les grandes commandes publiques</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’Assemblée nationale</institution>
+
+            <idno>Ms 1869-2, dossier 2, pièce 41</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1845-08-12"/>
+          <placeName>Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Cavé, Edmond (1794-1852)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <placeName key="France, Paris">Paris</placeName>, <date when="1845-08-12">12 août
+            1845</date></dateline>
+        <salute><persName key="Cavé, Edmond (1794-1852)">Mon cher ami</persName><note place="bottom"
+            >Edmond Cavé (1794-1852), homme politique, journaliste et écrivain, qui occupa le poste
+            de chef de la division des beaux-arts au ministère de l’Intérieur, avant d’en devenir le
+            directeur jusqu’à la chute de Louis-Philippe. Le ton employé est plus informé que dans
+            les lettres où le peintre sollicite des acomptes (lettres de <ref type="letter"
+              target="CAC_ED_assemblee-ms1869-2-d2-p3.xml">novembre 1839</ref>, du <ref
+              type="letter" target="CAC_ED_assemblee-ms1869-2-d2-p7.xml">16 août 1842</ref> et du
+              <ref type="letter" target="CAC_ED_assemblee-ms1869-2-d2-p11.xml">22 novembre
+              1843</ref>).</note>,</salute>
+      </opener>
+
+
+      <p>Je suis passé il y a quelques jours au ministère pour avoir le plaisir de vous voir, tout
+        en vous rendant réponse relativement à l’achèvement de mes travaux<note place="bottom">Après
+          s’être occupé du décor du Salon de Roi qu’il réalisa de 1833 à 1836, Delacroix s’était vu
+          confier le décor de la coupole de la bibliothèque de l’Assemblée nationale en 1838. La
+          décision revint à Camille de Montalivet (1801-1880), ministre de l’Intérieur du 15 avril
+          1837 au 31 mars 1839. L’arrêté ministériel du 30 août 1838 disposait que « M. Eugène
+          Delacroix est chargé de l’exécution des peintures de la Salle de la Bibliothèque à la
+          Chambre des Députés ».</note>. Comme on m’a dit que vous étiez encore absent, je prends le
+        parti de vous écrire. Je suis tout à fait en mesure pour le mois prochain, ma besogne étant
+        presque terminée, ainsi vous pouvez demander l’ordonnancement en sûreté de conscience.</p>
+      <p>J’aurais à vous reparler d’une demande que vous avez déjà accueillie : celle d’indemnités
+        pour les dépenses où m’ont entraînées forcément, d’abord la nature <rs type="work"
+          key="Assemblée nationale, Bibliothèque"><rs type="work" key="Sénat, Bibliothèque">des
+            travaux et des localités</rs></rs> tant pour la <placeName key="Paris, France, Sénat"
+          >Chambre des pairs</placeName> que pour <placeName
+          key="Paris, France, Assemblée nationale">celle des députés</placeName>, puis pour le
+        dommage que j’ai éprouvé en recommençant entièrement un des deux hémicycles qui étaient
+        presque terminés à cause des fentes qui se sont manifestées dans la voûte. <persName
+          key="Lelong, Paul (1799-1846)">L’architecte</persName><note place="bottom">Paul Lelong
+          (1799-1846).</note> lui-même est déjà convenu qu’il était indispensable de <pb n="2"
+          xml:id="p2"/> demander aux travaux publics de faire construire un toit en dehors qui
+        puisse protéger cette coupole qui n’a pas un demi-pied d’épaisseur et est exposée sans
+        protection à l’action incessante du soleil de midi et aux intempéries de l’hiver. Ce serait
+        le seul moyen d’empêcher un peu la dilatation extraordinaire des fentes à l’occasion des
+        grandes chaleurs, qui entraînerait dans très peu de temps l’entière destruction de <rs
+          type="work" key="Assemblée nationale, Bibliothèque">la peinture</rs>. Vous serait-il
+        possible de faire mention et de prendre note de ma demande ?</p>
+      <p>Il me restera, à la fin de ce travail, une nouvelle obligation à remplir en vous remerciant
+        de nouveau mille fois, et du fond du cœur, de toute votre bonté et votre obligeance pour moi
+        dans cette occasion comme dans tant d’autres.</p>
+
+
+      <closer>
+        <salute>Voulez-vous, <persName key="Cavé, Edmond (1794-1852)">cher Monsieur et
+            ami</persName>, me rappeler au souvenir de <persName
+            key="Cavé, Marie-Elisabeth (1806-1883)">Madame Cavé</persName> et recevoir les nouvelles
+          assurances de mon sincère dévouement ?</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
