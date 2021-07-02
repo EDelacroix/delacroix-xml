@@ -34,31 +34,32 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Correspondance d'Eugène Delacroix</title>
-        
+
       </seriesStmt>
       <sourceDesc>
         <msDesc>
           <msIdentifier>
-            <country>{cotepays}</country>
-            <settlement>{coteville}</settlement>
-            <institution>{coteinstitution}</institution>
-            
-            
+            <country/>
+            <settlement/>
+            <institution/>
+
+
           </msIdentifier>
           <physDesc>
             <objectDesc form="letter">
               <supportDesc>
                 <extent>
-                  <measure unit="page" quantity="0"/>
+                  <measure/>
                 </extent>
               </supportDesc>
             </objectDesc>
-            
+
           </physDesc>
-          
+
         </msDesc>
         <listBibl>
-          <bibl>Escholier, <hi rend="it">Delacroix et les femmes</hi>, 1963, p. 217-218</bibl>
+          <bibl>Raymond Escholier, <hi rend="it">Delacroix et les femmes</hi>, 1963, p.
+            217-218</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
@@ -67,12 +68,12 @@
         <correspAction type="sent">
           <persName key="Forget, Joséphine de (1802-1886)"/>
           <date when="1845-08-02"/>
-          
+
         </correspAction>
         <correspAction type="received">
           <persName key="Delacroix, Eugène (1798-1863)"/>
         </correspAction>
-        
+
       </correspDesc>
       <langUsage>
         <language ident="fr"/>
@@ -84,28 +85,90 @@
 
 
 
-<opener>
-<dateline>Ce <date>2 août</date><date>, samedi</date><note place="bottom">Cette lettre est facilement datable du 2 août 1845 grâce aux nombreux détails qu’elle contient. </note></dateline>
-</opener>
+      <opener>
+        <dateline>Ce <date when="1845-08-02">2 août</date><date>, samedi</date><note place="bottom"
+            >Cette lettre est facilement datable du 2 août 1845 grâce aux nombreux détails qu’elle
+            contient. </note></dateline>
+      </opener>
 
 
-<p>J’ai reçu ta lettre, <persName>mon pauvre ami</persName>, tu as dû recevoir la mienne il y a déjà plusieurs jours ; hélas ! le temps me paraît bien long aussi, je t’assure, éloignée de toi, et soupirant après des nouvelles<note place="bottom">Delacroix étaient aux Eaux-Bonnes depuis le fin du mois de juillet pour se soigner. Plusieurs lettres écrites par Joséphine de Forget rendent compte de l’ennuie qu’ils partageaient tous deux à ce moment.  </note> ! Je suis contente de ce que tu m’écris sur ta santé. Tu vois qu’il n’y a rien de grave, seulement il faut du repos, des soins, mais ceux qui te conseillent de partir me paraissent de fameux bavards… Je conçois ton isolement, <persName>mon ami</persName>, ta tristesse au milieu de ces montagnes et de cette belle nature mélancolique ! C’est moi qu’il te faudrait pour t ‘accompagner dans ces promenades sentimentales… Mon Dieu, que je serais ainsi heureuse avec toi !!! Je ne sais si vous jouissez d’un beau temps et d’un soleil. Quant à nous, c’est de la pluie continuelle, il ne fait pas chaud du tout, enfin c’est un temps affreux, et pour ta santé, je crois qu’il est très heureux que tu sois éloigné de notre vilain climat. Je gémis beaucoup de cette pluie à cause de mon cher <placeName>Ville-d’Avray</placeName>, où il fait humide, par la quantité d’arbres qui entourent la maison ; nous avions le projet d’aller y dîner aujourd’hui. Eh bien il pleut depuis plusieurs heures : je n’y vais pas coucher ; mais j’espère qu’à ton retour, la chaleur viendra enfin nous visiter, tu seras plus fort, mieux portant, et tu pourras venir dîner avec nous, <hi rend="u">en plein air</hi>, cela est très amusant ! Voilà mes seules consolations, ce sont des projets lorsque tu seras revenu, mais qui ne se réaliseront pas tous, car tu vas te remettre au travail avec <hi rend="u">fureur</hi>, et je sais bien que cela est nécessaire, il faudra rattraper le temps perdu<note place="bottom">A cette période, Delacroix conduisait en même temps les décors de la bibliothèque de l’Assemblée nationale et du Sénat.</note>.</p>
-<p>J’ai reçu hier une lettre de <persName>M. Gaultron</persName>, que je n’ai pas vu depuis un siècle, et qui me demande de vos nouvelles et votre adresse, parce qu’il désire vous écrire, pour affaires<note place="bottom">Delacroix répondit à Gaultron le 8 août (CAC_ED_louvre-A763), car il s’occupait durant l’absence de Delacroix du bail de location de son atelier rue Notre-Dame-de-Lorette.</note> : je la lui ai donnée ; il me dit aussi que <persName>votre camériste</persName> vient souvent chez lui, pour savoir de vos nouvelles, et qu’elle s’inquiète de ne pas en avoir : quelle brave femme !!!</p>
-<p>J’ai commencé vos bandes de tapisserie, pour votre portière, ce sont de grosses fleurs, bien nuancées, qui ont de brillantes couleurs, je crois que ce sera très beau : cet ouvrage m’amuse beaucoup.</p>
-<p>Il paraît que les <persName>Vieillard</persName> ne vont ni à <placeName>Trouville</placeName>, ni à <placeName>Touques</placeName>, ils vont rester à <placeName>Paris</placeName> ; <persName>notre ami</persName> a un commencement de goutte. Ne lui écrirez-vous pas, pour le consoler de ses ennuis ?</p>
-<p><persName>Hortense</persName> te remercie de ton bon souvenir, elle t’envoie mille amitiés, elle se porte assez bien : <persName>son mari</persName> est toujours à Nancy, auprès de son père mourant et de sa mère qui est tombée dangereusement malade, de chagrin et de fatigue : le pauvre <persName>Richard</persName> passe des moments bien cruels, et désire vivement revenir auprès de nous. <persName>Mme Méneval</persName> m’écrit de Gif que <persName>Louise</persName> est au désespoir du départ de <persName>son mari</persName> pour la <placeName>Sologne</placeName><note place="bottom">Aimée Virginie Joséphine Comte de Montvernot, baronne de Méneval (1792-1871) était une amie de Joséphine de Forget. Sa fille Louise (1819-1856), avait épousé en 1841 Marian Constantin, comte Ledóchowski (1806-1877).</note>. Ce sont des cris, des pleurs, elle ne sait qu’en faire : on ne se serait pas douté de cette tendresse, de cette passion. Voilà ce que nous sommes, lorsque nos maris sont bons et gentils pour nous…</p>
-<p>Vous n’avez donc pas trouvé de <persName>Roqueplan</persName>, ni aucune figure de connaissance<note place="bottom">Dans <ref target="../CAC_ED_louvre-A585">sa lettre à Pierret</ref>, notamment, Delacroix raconte avoir retrouvé aux Eaux-Bonnes, Camille Roqueplan et Paul Huet. </note> ? J’en suis fâchée, ce serait une ressource pour vous, n’ayant pas <persName>votre frère</persName>. Le pauvre homme, il vous verra bien peu de temps ; ne m’oubliez pas auprès de lui<note place="bottom">En effet, Delacroix ne passe que quelques jours avec son frère à Bordeaux avant de rentrer à Paris.</note>.</p>
-<p>Adieu, <persName>mon ami chéri</persName>. Ecris-moi, c’est aussi mon seul bonheur, ma seule consolation. Je vais compter les jours avec impatience jusqu’au 15 du mois. Cependant, s’il te faut quelques jours de plus pour prendre les eaux, résigne-toi et pense à l’hiver et aux vilains rhumes que tu gagnes. Le médecin de l’endroit est-il habile ? et t’inspire-t-il quelque confiance ? adieu, <persName>mon bon chéri</persName>, il faut <hi rend="u">m’arracher</hi> au bonheur de causer avec toi.</p>
+      <p>J’ai reçu ta lettre, <persName key="Delacroix, Eugène (1798-1863)">mon pauvre
+          ami</persName>, tu as dû recevoir la mienne il y a déjà plusieurs jours ; hélas ! le temps
+        me paraît bien long aussi, je t’assure, éloignée de toi, et soupirant après des
+          nouvelles<note place="bottom">Delacroix étaient aux Eaux-Bonnes depuis le fin du mois de
+          juillet pour se soigner. Plusieurs lettres écrites par Joséphine de Forget rendent compte
+          de l’ennuie qu’ils partageaient tous deux à ce moment. </note> ! Je suis contente de ce
+        que tu m’écris sur ta santé. Tu vois qu’il n’y a rien de grave, seulement il faut du repos,
+        des soins, mais ceux qui te conseillent de partir me paraissent de fameux bavards… Je
+        conçois ton isolement, <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName>, ta
+        tristesse au milieu de ces montagnes et de cette belle nature mélancolique ! C’est moi qu’il
+        te faudrait pour t ‘accompagner dans ces promenades sentimentales… Mon Dieu, que je serais
+        ainsi heureuse avec toi !!! Je ne sais si vous jouissez d’un beau temps et d’un soleil.
+        Quant à nous, c’est de la pluie continuelle, il ne fait pas chaud du tout, enfin c’est un
+        temps affreux, et pour ta santé, je crois qu’il est très heureux que tu sois éloigné de
+        notre vilain climat. Je gémis beaucoup de cette pluie à cause de mon cher <placeName
+          key="France, Ville-D'Avray">Ville-d’Avray</placeName>, où il fait humide, par la quantité
+        d’arbres qui entourent la maison ; nous avions le projet d’aller y dîner aujourd’hui. Eh
+        bien il pleut depuis plusieurs heures : je n’y vais pas coucher ; mais j’espère qu’à ton
+        retour, la chaleur viendra enfin nous visiter, tu seras plus fort, mieux portant, et tu
+        pourras venir dîner avec nous, <hi rend="u">en plein air</hi>, cela est très amusant ! Voilà
+        mes seules consolations, ce sont des projets lorsque tu seras revenu, mais qui ne se
+        réaliseront pas tous, car tu vas te remettre au travail avec <hi rend="u">fureur</hi>, et je
+        sais bien que cela est nécessaire, il faudra rattraper le temps perdu<note place="bottom">A
+          cette période, Delacroix conduisait en même temps les décors de la bibliothèque de
+          l’Assemblée nationale et du Sénat.</note>.</p>
+      <p>J’ai reçu hier une lettre de <persName key="Gaultron, Hippolyte (après 1805-1878)">M. Gaultron</persName>, que je n’ai pas vu depuis un
+        siècle, et qui me demande de vos nouvelles et votre adresse, parce qu’il désire vous écrire,
+        pour affaires<note place="bottom">Delacroix répondit <ref type="letter"
+            target="CAC_ED_louvre-A763">à Gaultron le 8 août</ref>, car il s’occupait durant
+          l’absence de Delacroix du bail de location de son atelier rue
+          Notre-Dame-de-Lorette.</note> : je la lui ai donnée ; il me dit aussi que <persName key="Le Guillou, Jeanne Marie (1801-1869)">votre
+          camériste</persName> vient souvent chez lui, pour savoir de vos nouvelles, et qu’elle
+        s’inquiète de ne pas en avoir : quelle brave femme !!!</p>
+      <p>J’ai commencé vos bandes de tapisserie, pour votre portière, ce sont de grosses fleurs,
+        bien nuancées, qui ont de brillantes couleurs, je crois que ce sera très beau : cet ouvrage
+        m’amuse beaucoup.</p>
+      <p>Il paraît que les <persName
+        key="Vieillard, Narcisse (1791-1857)"><persName
+          key="Vieillard, Eliza Caroline Huet, épouse (1797-1847)">Vieillard</persName></persName> ne vont ni à <placeName
+          key="France, Trouville">Trouville</placeName>, ni à <placeName key="France, Touques"
+          >Touques</placeName>, ils vont rester à <placeName key="France, Paris">Paris</placeName> ;
+        <persName key="Vieillard, Narcisse (1791-1857)">notre ami</persName> a un commencement de goutte. Ne lui écrirez-vous pas, pour
+        le consoler de ses ennuis ?</p>
+      <p><persName key="Querelles, Hortense de (1812-1851)">Hortense</persName> te remercie de ton bon souvenir, elle t’envoie mille amitiés,
+        elle se porte assez bien : <persName key="Querelles, Richard de (1811-1846)">son mari</persName> est toujours à <placeName key="France, Nancy">Nancy</placeName>, auprès de son
+        père mourant et de sa mère qui est tombée dangereusement malade, de chagrin et de fatigue :
+        le pauvre <persName key="Querelles, Richard de (1811-1846)">Richard</persName> passe des moments bien cruels, et désire vivement
+        revenir auprès de nous. <persName key="Méneval, Aimée
+          Virginie Joséphine Comte de Montvernot, baronne de (1792-1871)">Mme Méneval</persName> m’écrit de <placeName key="France, Gif">Gif</placeName> que
+        <persName key="Ledóchowska, Louise de Méneval, épouse(1819-1856)">Louise</persName> est au désespoir du départ de <persName key="Ledóchowski, Marian Constantin,
+          comte (1806-1877)">son mari</persName>
+        pour la <placeName key="france, Sologne">Sologne</placeName><note place="bottom">Aimée
+          Virginie Joséphine Comte de Montvernot, baronne de Méneval (1792-1871) était une amie de
+          Joséphine de Forget. Sa fille Louise (1819-1856), avait épousé en 1841 Marian Constantin,
+          comte Ledóchowski (1806-1877).</note>. Ce sont des cris, des pleurs, elle ne sait qu’en
+        faire : on ne se serait pas douté de cette tendresse, de cette passion. Voilà ce que nous
+        sommes, lorsque nos maris sont bons et gentils pour nous…</p>
+      <p>Vous n’avez donc pas trouvé de <persName key="Roqueplan, Camille (1803-1855)">Roqueplan</persName>, ni aucune figure de
+          connaissance<note place="bottom">Dans <ref type="letter" target="../CAC_ED_louvre-A585">sa
+            lettre à Pierret</ref>, notamment, Delacroix raconte avoir retrouvé aux Eaux-Bonnes,
+          Camille Roqueplan et Paul Huet.</note> ? J’en suis fâchée, ce serait une ressource pour
+        vous, n’ayant pas <persName key="Delacroix, Charles Henry (1779-1845)">votre frère</persName>. Le pauvre homme, il vous verra bien peu
+        de temps ; ne m’oubliez pas auprès de lui<note place="bottom">En effet, Delacroix ne passe
+          que quelques jours avec son frère à Bordeaux avant de rentrer à Paris.</note>.</p>
+      <p>Adieu, <persName key="Delacroix, Eugène (1798-1863)">mon ami chéri</persName>. Ecris-moi,
+        c’est aussi mon seul bonheur, ma seule consolation. Je vais compter les jours avec
+        impatience jusqu’au 15 du mois. Cependant, s’il te faut quelques jours de plus pour prendre
+        les eaux, résigne-toi et pense à l’hiver et aux vilains rhumes que tu gagnes. Le médecin de
+        l’endroit est-il habile ? et t’inspire-t-il quelque confiance ? adieu, <persName
+          key="Delacroix, Eugène (1798-1863)">mon bon chéri</persName>, il faut <hi rend="u"
+          >m’arracher</hi> au bonheur de causer avec toi.</p>
 
 
-<closer>
-<salute>Je t’embrasse et je t’aime de toute la force de mon cœur. </salute>
-<signed><persName>Consuelo</persName></signed>
-</closer>
-
-<lb type="line"/>
-<lb type="line"/>
-<lb type="line"/>
-</body>
+      <closer>
+        <salute>Je t’embrasse et je t’aime de toute la force de mon cœur. </salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">Consuelo</persName></signed>
+      </closer>
+    </body>
   </text>
 </TEI>
