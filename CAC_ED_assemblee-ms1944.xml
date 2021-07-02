@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Joséphine de Forget, [29 août 1848]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’Assemblée nationale</institution>
+
+            <idno>Ms. 1944</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="3"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, II, p. 362-363</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1848-08-29"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <pb n="1" xml:id="p1"/>
+        <dateline><date when="1848-08-29">Mardi</date><note place="bottom">Joubin a daté cette
+            lettre du 29 août 1848, car le 25 août l’Assemblée constituante autorisa les poursuites
+            contre Louis Blanc dont il est question plus loin dans la lettre.</note></dateline>
+      </opener>
+
+
+      <p>J’ai reçu hier, <persName key="Forget, Joséphine de (1802-1886)">bonne amie</persName>, ta
+        chère petite lettre et je te réponds tout de suite pour te donner de meilleures nouvelles de
+        ma santé. Nous avons eu hier une chaleur excessive qui me promettait de beaux jours pour les
+        études que je veux faire pour mes tableaux de fleurs. Ce matin au contraire, il fait un
+        brouillard très épais qui a l’air de vouloir se changer en pluie ce qui changera encore mes
+        projets de travail.</p>
+      <p>Tu essaies de me remonter, <persName key="Forget, Joséphine de (1802-1886)">bonne
+          amie</persName>, à l’endroit de la politique<note place="bottom">Joséphine de Forget avait
+          alors dans son entourage de fervents républicains, dont Narcisse Vieillard, mais surtout
+          son cousin Louis-Napoléon Bonaparte. Elle avait ainsi certainement des échos assez précis
+          des événements qu’elle partageait avec Delacroix. Toutefois, dans la cinquantaine de
+          lettres aujourd’hui connues qu’elle adressa à Delacroix, aucune ne parle précisément de
+          politique. </note>. Comme jusqu’ici le hasard bien plus que toute espèce de combinaisons a
+        fait tourner les choses d’une manière tolérable, je me berce de l’espoir que la Providence
+        agira encore de même : cependant, quand on voit quel abyme nous avions à nos côtés et
+        quelles <pb n="2" xml:id="p2"/>passions sauvages nous avons encore en face de nous, il est
+        permis de ne pas être tranquille. Cette affaire de <persName
+          key="Blanc, Louis Jean Joseph (1811-1882)">Louis Blanc</persName> est des plus sottes : si
+        on voulait juger ces gens-là, il fallait que ce fût l’affaire de l’Assemblée. Il est évident
+        que si on les renvoie devant une cour d’assises, on trouvera très peu de jurés en humeur de
+        se poser en martyrs pour les condamner. Il s’en suivra donc probablement un acquittement qui
+        donnera cent coudées à ces messieurs. Il valait donc mieux, dans cette hypothèse, les
+        laisser tranquilles en faisant semblant de croire qu’ils étaient innocents. Voilà ma petite
+        politique de peintre. Il est bien fâcheux qu’on ne me demande pas de temps en temps quelques
+        conseils. Je commence à me trouver propre au gouvernement <pb n="3" xml:id="p3"/>depuis que
+        je vois que mes prévisions se réalisent souvent et que ce n’est absolument que parce que je
+        raisonne d’après le plus simple sens commun ; j’en conclus par la même raison que nous
+        sommes très mal gouvernés, puisqu’on fait toujours le contrepied de ce que la prudence la
+        plus ordinaire semble conseiller. Pourquoi donc ne puis-je me gouverner moi-même et suis-je
+        toujours tantôt en haut, tantôt au plus bas ?</p>
+      <p>Tu es ma république et je te donne ma voix. J’irai au commencement de la semaine prochaine
+        te dire que je t’aime et que cela au moins ne varie pas dans mes tergiversations.</p>
+
+
+      <closer>
+        <salute>Adieu, <persName key="Forget, Joséphine de (1802-1886)">bonne chérie</persName>, je
+          t’embrasse mille fois. </salute>
+      </closer>
+
+      <postscript>
+        <p>Tu ne m’as pas parlé de ta <hi rend="u">santé.</hi></p>
+      </postscript>
+    </body>
+  </text>
+</TEI>
