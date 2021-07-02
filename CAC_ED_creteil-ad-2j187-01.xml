@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, [s.d.]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Créteil</settlement>
+            <institution>Archives départementales du Val-de-Marne</institution>
+
+            <idno>2 J 187, pièce 1</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date when="18..-..-.."/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+      <p>
+        <pb n="1"
+          facs="https://api.nakala.fr/iiif/10.34847/nkl.7cb1gfgr/8c20b22d71e9c559a04a40782560431a46f0f8c2/full/full/0/default.jpg"
+        /> Si je veux de toi, <persName key="Delacroix, Eugène (1798-1863)">mon amour</persName> ?
+        Mais je crois bien que j’en veux, à tous les instants, si tu le désires. Combien j’ai été
+        heureuse, en recevant hier ton petit mot, <persName key="Delacroix, Eugène (1798-1863)">mon
+          bon chéri</persName>. Je me suis arrangée pour être toute seule, tu ne me le demandes pas,
+        mais il me semble que tu n’en seras pas fâché non plus ; nous pourrons causer de mille
+        choses, et je pourrai baiser ta main tout à mon aise, on est si bien dans ma petite
+        bibliothèque, et tous les deux ! Ainsi, ne va pas me manquer de parole. Il me semble que tu
+        aurais pu aller voir <pb n="2"
+          facs="https://api.nakala.fr/iiif/10.34847/nkl.7cb1gfgr/46e7cf710d728f15da33cb6e03ae969720d2f07e/full/full/0/default.jpg"
+        /> ton cousin<note place="bottom">Il est difficile de savoir de quel cousin il est question.
+          Peut-être Léon Riesener ou Henri-Pierre Hugues, tous deux proches de Delacroix.</note>
+        avant ton dîner, et revenir dîner avec moi ; mais d’après ce que j’ai compris, tu as arrangé
+        cette course plus tard : au reste <persName key="Delacroix, Eugène (1798-1863)">mon
+          ami</persName>, arrange cela comme tu voudras, mais viens de bonne heure, j’ai tant de
+        choses tendres à te dire ! Ta bonne petite lettre a couché avec moi, et elle est restée <hi
+          rend="u">en bon lieu</hi>.</p>
+      <p>Adieu, <persName key="Delacroix, Eugène (1798-1863)">amour chéri</persName> ; j’ai mille
+        courses à faire, je vais sortir et ne rentrerai que vers 6 heures : ensuite je t’attendrai
+        avec anxiété. Tu me donnes tant de bonheur, et il devient si rare !</p>
+
+      <closer>
+        <salute>Adieu, je t’embrasse.</salute>
+        <dateline>ce mardi à 9 heures<note place="bottom">Cette lettre est difficile à dater, car
+            les informations qu’elle contient restent imprécises. Toutefois, le ton si passionné et
+            si intime de la lettre semble la situer au début de la liaison de Delacroix avec
+            Joséphine de Forget. Ainsi, cette lettre fut très certainement écrite entre la fin de
+            l’année 1834 et les dernières années de la décennie 1830. Elle ne semble pas être
+            postérieure à 1844 puisqu’elle est signée d’un simple paraphe et non du surnom
+            « Consuelo » adopté par Joséphine à partir de cette date. À partir des années 1850, les
+            lettres, plus retenues, emploient le vouvoiement.</note></dateline>
+      </closer>
+
+
+    </body>
+  </text>
+</TEI>
