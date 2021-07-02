@@ -82,7 +82,7 @@
 
 
       <p>
-        <pb n="p1"
+        <pb n="p.1"
           facs="https://api.nakala.fr/iiif/10.34847/nkl.ee49v475/d1210c9bbca24cfdb45bfa6809acce5933176642/full/full/0/default.jpg"
         /> Je voulais, hier soir, te dire plusieurs <hi rend="u">bonnes choses</hi>, <persName
           key="Delacroix, Eugène (1798-1863)">cher ami</persName>, mais je n’ai pu en trouver
@@ -103,7 +103,7 @@
           (actuelle avenue de Matignon), alors que Delacroix habitait 17 rue des Marais
           Saint-Germain (actuelle rue Visconti), de l’autre côté de la Seine.</note>.</p>
       <p>
-        <pb n="p2"
+        <pb n="p.2"
           facs="https://api.nakala.fr/iiif/10.34847/nkl.ee49v475/c8779cf737c23b78383f1e505e444213cea411fb/full/full/0/default.jpg"
         /> Je voudrais savoir, <persName key="Delacroix, Eugène (1798-1863)">bon amour</persName>,
         si ce projet t’arrange, je te propose de nous trouver un moment de la nuit, car il me semble
@@ -118,7 +118,7 @@
         demande pardon, <persName key="Delacroix, Eugène (1798-1863)">ami</persName>, de te faire
         mes plaintes, je m’étais bien promis de ne plus t’en parler.</p>
       <p>
-        <pb n="p3"
+        <pb n="p;3"
           facs="https://api.nakala.fr/iiif/10.34847/nkl.ee49v475/d7877e42ce87e67e0207fa5472cfc8c1faaa0232/full/full/0/default.jpg"
         /> Je te promets qu’en commençant de l’<date when="1836">année 1837</date>, je tâcherai
         d’être bien raisonnable, que tu sois bien content de moi ; jusque-là, je veux bien me
@@ -131,7 +131,7 @@
       <p>Je t’ai trouvé hier mieux portant, moins <hi rend="u">endormi</hi>, cela m’a fait plaisir ;
         je souffre tant quand je te vois l’air fatigué, souffrant. Adieu, <persName
           key="Delacroix, Eugène (1798-1863)">amour que j’aime</persName>. Sais-tu bien qu’hier,
-        j’ai baisé et gardé ce cheveu dans ma <pb n="p4"
+        j’ai baisé et gardé ce cheveu dans ma <pb n="p;4"
           facs="https://api.nakala.fr/iiif/10.34847/nkl.ee49v475/829407f804280c239215504f9e857c614624cbcf/full/full/0/default.jpg"
         />bouche, et je crois même en avoir avalé un petit morceau, n’est-ce pas qu’il était à
         toi ?</p>
