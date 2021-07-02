@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, [1846 ?]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Créteil</settlement>
+            <institution>Archives départementales du Val-de-Marne</institution>
+
+            <idno>2 J 187, pièce 4</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="1"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date when="1846?"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+      <opener>
+        <dateline><pb n="p.1"
+            facs="https://api.nakala.fr/iiif/10.34847/nkl.447fd8f9/56c87e247ebcaa24eee5d68561ecabaf519c745f/full/full/0/default.jpg"/>
+          <hi rend="u">Ce vendredi 6 heures</hi><note place="bottom">Dans cette lettre non datée,
+            Joséphine de Forget écrit qu’elle se rend à la représentation de <hi rend="it"
+              >La Favorite</hi> à l’Opéra où chante Barroilhet. Elle ne semble pas parler de la
+            première représentation, donnée le 4 décembre 1840, mais plutôt d’une reprise. Il
+            pourrait s’agir d’une des représentations données en 1846, car Mme Vieillard était
+            encore en vie (elle meurt l’année suivante), Hortense de Querelles était veuve depuis
+            quelques mois, ce qui pourrait expliquer qu’il n’est pas question de son mari, et le
+            vouvoiement employé, ainsi que la signature « J » correspondent aux autres lettres
+            conservées pour cette période. Il est peu probable que la lettre soit antérieure, car
+            entre la fin de l’année 1840 et 1845, Hortense vécut une grande partie du temps avec son
+            mari alors en exil à Bruxelles avant d’emménager avec lui, en 1845, chez Joséphine de
+            Forget. De plus, les lettres écrites par Joséphine entre 1844 et le début de
+            l’année 1846 sont presque toutes signées « Consuelo ». Les représentations données le
+            vendredi en 1846 eurent lieu les 30 janvier, 22 mai et 4 septembre. </note></dateline>
+      </opener>
+      <p>Je vous envoie un commissionnaire, pour vous faire dire qu’à l’<placeName
+          key="France, Opéra">Opéra</placeName>, je serai ce soir avec <persName
+          key="Vieillard, Narcisse (1791-1857)">M.</persName> et <persName
+          key="Vieillard, Eliza Caroline Huet, épouse (1797-1847)">Mme Vieillard</persName> ;
+          <persName key="Querelles, Hortense de (1812-1851)">Mme de Querelles</persName><note
+          place="bottom">Hortense de Querelles, demi-tante de Joséphine de Forget.</note>, ayant
+        fort mal à la tête, ne vient pas avec moi, j’ai donc <hi rend="u">une place entière</hi> à
+        vous proposer : on donne <hi rend="it">La Favorite</hi> avec votre ami <persName key="Barroilhet, Paul (1810-1871)"
+          >Barroilhet</persName>, vous resterez le temps que vous voudrez : ne vous gênez pas, et ne
+        me répondez pas ; je serai, comme toujours, fort heureuse de passer quelques instants avec
+        vous, <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName>.</p>
+      <p>Loge de M. Poirson, seconde de face, la même que l’année dernière.</p>
+      <closer>
+        <salute>Adieu. Tout à vous de cœur.</salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">J</persName></signed>
+      </closer>
+      <postscript>
+        <p>De toutes façons, je ne disposerai pas de votre place.</p>
+      </postscript>
+    </body>
+  </text>
+</TEI>

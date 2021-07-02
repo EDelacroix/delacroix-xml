@@ -83,7 +83,7 @@
 
       <opener>
         <dateline>
-          <pb n="1" xml:id="p1"/> Ce <date when="1845-08-13">13 août mercredi</date></dateline>
+          <pb n="p.1"/> Ce <date when="1845-08-13">13 août mercredi</date></dateline>
       </opener>
       <p>Quelle bonne nouvelle tu m’apprends, <persName key="Delacroix, Eugène (1798-1863)">mon
           ami</persName> ! Et combien j’en suis heureuse, car une fois parti de <placeName
@@ -107,7 +107,7 @@
           demi-tante, Hortense de Querelles et son mari Richard. Elle donne ainsi de leurs nouvelles
           très régulièrement à Delacroix.</note> !</p>
       <p>
-        <pb n="2" xml:id="p2"/>Votre lettre spirituelle et intéressante a produit un <hi rend="u"
+        <pb n="p.2"/>Votre lettre spirituelle et intéressante a produit un <hi rend="u"
           >très bon et très grand effet</hi> auprès de nos <persName
           key="Vieillard, Narcisse (1791-1857)"><persName
             key="Vieillard, Eliza Caroline Huet, épouse (1797-1847)">amis
@@ -131,7 +131,7 @@
           place="bottom">Une lettre adressée à Gaultron le 8 août, conservée au Musée du Louvre
           (CAC_ED_louvre-a764), rend compte des services qu’il rendit pour l’installation de
           Delacroix dans son nouvel appartement au 54, rue Notre-Dame-de-Lorette.</note>. Il est
-        fort content du tien, <pb n="3" xml:id="p3"/> et il dit que bien arrangé, bien soigné, il
+        fort content du tien, <pb n="p.3"/> et il dit que bien arrangé, bien soigné, il
         sera charmant, et très confortable. J’en suis enchantée, <persName
           key="Delacroix, Eugène (1798-1863)">mon ami,</persName> car il est nécessaire d’être bien
         chez toi, de s’y plaire ; comme dit mon cousin de Quiqueran, il <hi rend="u">faut embellir sa
