@@ -7,7 +7,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, 1 octobre 1852</title>
+        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, 7 février 1853</title>
         <author key="Delacroix, Eugène (1798-1863)"/>
       </titleStmt>
       <editionStmt>
@@ -44,7 +44,7 @@
             <settlement>Paris</settlement>
             <institution>Musée du Louvre</institution>
             <repository>Département des Arts graphiques</repository>
-            <idno>A 603</idno>
+            <idno>A 605</idno>
           </msIdentifier>
           <physDesc>
             <objectDesc form="letter">
@@ -60,17 +60,15 @@
             <provenance>Collection Etienne Moreau-Nélaton</provenance>
           </history>
         </msDesc>
-        <listBibl>
-          <bibl>Joubin, III, p. 125-126</bibl>
-        </listBibl>
+
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <correspDesc>
         <correspAction type="sent">
           <persName key="Delacroix, Eugène (1798-1863)"/>
-          <date when="1852-10-01"/>
-          <placeName key="France, Paris">Paris</placeName>
+          <date when="1853-02-07"/>
+
         </correspAction>
         <correspAction type="received">
           <persName key="Pierret, Jean-Baptiste (1795-1854)"/>
@@ -94,38 +92,37 @@
             <pb n="1" xml:id="p1"/>
             <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur
             Pierret</persName></addrLine>
-          <addrLine><placeName key="France, Paris, rue Saint-Florentin, 11">Rue Saint-Florentin, n°
+          <addrLine><placeName key="France, Paris, rue Saint-Florentin, 11">Rue Saint-Florentin
               11</placeName></addrLine>
         </address>
         <dateline>
           <pb n="2" xml:id="p2"/>
-          <date when="1852-10-01">Ce vendredi</date> 2<note place="bottom">Il est probable que
-            Delacroix se soit trompé de date, le 2 octobre 1852 étant un samedi et le cachet postal
-            permettant de dater la lettre de la veille.</note> [<hi rend="it">sic</hi>]</dateline>
+          <date when="1853-02-07">Ce lundi 7</date>.</dateline>
         <salute><persName key="Pierret, Jean-Baptiste (1795-1854)">Cher ami</persName>,</salute>
       </opener>
 
 
-      <p>Je suis malade, embourbé dans <rs type="work" key="Salon de la Paix, Hôtel de Ville">mon
-          entreprise</rs><note place="bottom">Delacroix se réfère ici aux décorations du <hi
-            rend="it">Salon de la Paix</hi> à l’Hôtel de Ville.</note> par le sort qui me lie bras
-        et jambes. Je ne puis ni manger ni parler. Il me faut beaucoup de prudence pour sortir de ce
-        mauvais pas, dans la nécessité où je suis d’achever un ouvrage vraiment trop considérable
-        pour le peu de temps. Tout cela c’est te dire mon chagrin de manquer <date when="1852-10-02"
-          >demain samedi</date> au rendez-vous dont je m’étais fait fête. Je ne te dis pas la
-        centième partie de ma vexation. Mille regrets à <persName key="Durieu, Eugène (1800-1874)"
-          >M. Durieu</persName><note place="bottom">Il s’agit d’Eugène Durieu (1800-1874), chargé
-          depuis 1848 de la direction générale de l’administration des cultes et qui avait institué
-          une commission des arts et édifices religieux dont faisait partie Delacroix. </note> et à
-          <persName key="Pierret, Marie (1835-1876)">Marie</persName>. Je suis de beaucoup plus puni
-        qu’eux.</p>
+      <p>Veux-tu venir <date when="1853-02-10">jeudi 10</date> dîner avec moi et les amis ? Prie
+          <persName key="Vila, Corneille Frédéric (?-1877)">M. Vila</persName> de t’accompagner. Il
+        me fera grand plaisir. Tu mangeras un pâté de <placeName key="France, Strasbourg"
+          >Strasbourg</placeName> qui vient d’arriver.</p>
 
 
       <closer>
-        <salute>Je t’embrasse,</salute>
-        <signed><persName key="Delacroix, Eugène (1798-1863)">E. D.</persName></signed>
+        <salute>Je t’embrasse en attendant.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">E. Delacroix</persName></signed>
       </closer>
 
+      <postscript>
+        <p>À 6 heures.</p>
+      </postscript>
+      <postscript>
+        <p>Un mot de réponse.</p>
+      </postscript>
+      <postscript>
+        <p>Rapporte-moi le premier volume des mémoires de <persName key="Napoléon Ier (1769-1821)"
+            >Napoléon</persName> dont j’ai besoin et que je t’ai prêté il y a longtemps.</p>
+      </postscript>
     </body>
   </text>
 </TEI>
