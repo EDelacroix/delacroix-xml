@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Edmond Cavé, novembre 1839</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les grandes commandes publiques</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’Assemblée nationale</institution>
+
+            <idno>Ms 1869-2, dossier 2, pièce 3</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="1"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date notbefore="1839-11-01" notafter="1839-11-27"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Cavé, Edmond (1794-1852)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <salute>
+          <pb n="1" xml:id="p1"/>
+          <persName key="Cavé, Edmond (1794-1852)">Monsieur</persName><note place="bottom">Delacroix
+            adressait généralement ses demandes d’acompte à Edmond Cavé (1794-1852), homme
+            politique, journaliste et écrivain, qui occupa le poste de chef de la division des
+            beaux-arts au ministère de l’Intérieur, avant d’en devenir le directeur jusqu’à la chute
+            de Louis-Philippe. Si certaines lettres témoignent de leur amitié (<ref type="letter"
+              target="CAC_ED_assemblee-ms1869-2-d2-p41.xml">lettre du 12 août 1845</ref>), la
+            correspondance officielle atteste d’un ton davantage protocolaire (cf. également les
+            lettres des <ref type="letter" target="CAC_ED_assemblee-ms1869-2-d2-p7.xml">16 août
+              1842</ref> et <ref type="letter" target="CAC_ED_assemblee-ms1869-2-d2-p11.xml">22
+              novembre 1843</ref>).</note>,</salute>
+      </opener>
+
+
+      <p>J’ose vous prier de vouloir bien me faire ordonnancer un acompte sur le prix qui m’est
+        alloué pour <rs type="work" key="Assemblée nationale, Bibliothèque">mes travaux de la
+          bibliothèque</rs> de la <placeName key="France, Paris, Assemblée nationale">Chambre des
+          députés</placeName><note place="bottom">Après s’être occupé du décor du Salon de Roi qu’il
+          réalisa de 1833 à 1836, Delacroix s’était vu confier le décor de la coupole de la
+          bibliothèque de l’Assemblée nationale en 1838. La décision revint à Camille de Montalivet
+          (1801-1880), ministre de l’Intérieur du 15 avril 1837 au 31 mars 1839. L’arrêté
+          ministériel du 30 août 1838 disposait que « M. Eugène Delacroix est chargé de l’exécution
+          des peintures de la Salle de la Bibliothèque à la Chambre des Députés ».</note>. Il m’est
+        nécessaire pour mes études déjà faites et pour les décorateurs que je suis dans l’obligation
+        d’employer pour m’aider. Je désirerais que cet acompte fut de <hi rend="u">8000 F</hi><note
+          place="bottom">Il semble s’agir du premier acompte réclamé par Delacroix pour la présente
+          commande.</note>.</p>
+
+
+      <closer>
+        <salute>J’ai l’honneur d’être, avec la plus haute considération, <persName
+            key="Cavé, Edmond (1794-1852)">Monsieur</persName>, votre très humble et très obéissant
+          serviteur.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+        <placeName key="France, Paris, rue des marais Saint-Germain, 17">Rue des marais
+          Saint-Germain, n° 17</placeName>. </closer>
+
+    </body>
+  </text>
+</TEI>
