@@ -70,6 +70,7 @@
         <correspAction type="sent">
           <persName key="Delacroix, Eugène (1798-1863)"/>
           <date when="1850-05-30"/>
+          <placeName key="France, Paris">Paris</placeName>
 
         </correspAction>
         <correspAction type="received">
