@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, 21 juin 1853</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>{corrections}</name>
+          <name>{corrections}</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les amis de jeunesse</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Musée du Louvre</institution>
+            <repository>Département des Arts graphiques</repository>
+            <idno>A 606</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Etienne Moreau-Nélaton</provenance>
+          </history>
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1853-06-21"/>
+          <placeName key="France, Paris">Paris</placeName>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Pierret, Jean-Baptiste (1795-1854)"/>
+
+          <placeName key="France, Paris, rue Saint-Florentin, 11"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <p>
+          <pb n="1" xml:id="p1"/>
+          <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur Pierret</persName></p>
+        <address>
+          <addrLine><placeName key="France, Paris, rue Saint-Florentin, 11">Rue Saint-Florentin, n°
+              11</placeName></addrLine>
+        </address>
+        <dateline>
+          <pb n="2" xml:id="p2"/>
+          <date when="1853-06-21">Ce mardi</date></dateline>
+        <salute><persName key="Pierret, Jean-Baptiste (1795-1854)">Cher ami</persName>,</salute>
+      </opener>
+
+
+      <p>Je fais réflexion que la semaine prochaine je serai en plein dans mon travail<note
+          place="bottom">Delacroix se réfère ici aux décorations du <hi rend="it">Salon de la
+            Paix</hi> à l’Hôtel de Ville.</note> : je préfère donc, si tu n’as pas d’objection, te
+        demander de venir <date when="1853-06-23">jeudi après demain 23</date>. Prie <persName
+          key="Vila, Corneille Frédéric (?-1877)">Vila</persName> de t’accompagner, s’il le peut :
+        il me fera beaucoup de plaisir. J’écris sur le champ à <persName
+          key="Riesener, Léon (1808-1878)">Riesener</persName> pour lui demander si ce jour lui
+        convient. S’il ne pouvait pas, je te l’écrirai aussitôt. Ainsi, à jeudi si tu ne reçois
+        rien.</p>
+
+
+      <closer>
+        <salute>Tout à toi, <persName key="Pierret, Jean-Baptiste (1795-1854)">cher
+          ami</persName>.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">E. Delacroix </persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
