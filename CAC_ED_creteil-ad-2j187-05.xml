@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, [14 juillet 1841]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Créteil</settlement>
+            <institution>Archives départementales du Val-de-Marne</institution>
+
+            <idno>2 J 187, pièce 5</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="1"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date when="1841-07-14"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+      <p><pb n="p.1"
+          facs="https://api.nakala.fr/iiif/10.34847/nkl.807dlk1p/5cbac4d678995bfcd13f3b6a88ae990acc213ae1/full/full/0/default.jpg"
+        /> Combien je suis désolée, <persName key="Delacroix, Eugène (1798-1863)">mon
+        ami</persName>, de vous avoir manqué hier soir, et je le regrette d’autant plus que je suis
+        privée du plaisir de voir <persName key="Delacroix, Charles Henry (1779-1845)">Monsieur
+          votre frère</persName> avant son départ<note place="bottom">Le général Charles Delacroix,
+          qui habitait alors Bordeaux, rendit visite à son frère au début du mois de juillet. Il
+          partit le 15 juillet, comme nous l’apprend <ref type="letter"
+            target="CAC_ED_bnf-bnf-man-ms24019-f177">une lettre de Delacroix</ref> qui demande à
+          repousser son jour de garde nationale pour être présent le jour du départ de son frère
+          (BNF, Manuscrits, Ms. 24019, fol. 177 r°, éd. par Johnson, <hi rend="it">Further
+            letters</hi>, p. 101).</note> ; en voilà pour bien longtemps ! Veuillez, je vous prie,
+        lui en exprimer tous mes regrets bien véritables ; aussitôt qu’on l’a vu, on sent le désir
+        de le connaître davantage. Je vous plains, <persName key="Delacroix, Eugène (1798-1863)">mon
+          ami</persName>, car vous allez éprouver un grand vide autour de vous ; vous qui avez été
+          <hi rend="u">si gâté</hi> pendant quinze jours ! Je désire que mon amitié vous console un
+        peu de l’absence de <persName key="Delacroix, Charles Henry (1779-1845)">votre cher
+          frère</persName> : je crois qu’il doit partir demain matin ; voulez-vous venir dîner <date
+          when="1841-07-15">demain jeudi</date> : avec moi et <persName
+          key="Bercagny, Joseph Claude Anne Legras de (1761-1842)">notre ami
+          Bercagny</persName><note place="bottom">Certainement Joseph Claude Anne Legras de Bercagny
+          (1761-1842). Voir la note 3 de la <ref type="letter"
+            target="CAC_ED_creteil-ad-2j187-08.xml">lettre de Joséphine de Forget à Delacroix du 26
+            mars 1842</ref>.</note> ? <persName
+              key="Vieillard, Narcisse (1791-1857)"><persName
+                key="Vieillard, Eliza Caroline Huet, épouse (1797-1847)">Les Vieillard</persName></persName> viendront le soir.</p>
+
+      <closer>
+        <salute>Adieu, <persName key="Delacroix, Eugène (1798-1863)">ami</persName>, exprimez à <persName key="Delacroix, Charles Henry (1779-1845)">votre
+            frère</persName> tous les sentiments de sympathie, d’amitié, que j’espérais pour lui, et
+          combien je serai heureuse de le revoir ; qu’il ne tarde donc pas trop longtemps ! Mille et
+          mille amitiés tendres</salute>
+        <dateline>Ce <date when="1841-07-14">mercredi matin</date><note place="bottom">La lettre
+            peut être datée grâce au jour de départ du frère de Delacroix.</note>. </dateline>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">Joséphine</persName></signed>
+      </closer>
+
+
+    </body>
+  </text>
+</TEI>
