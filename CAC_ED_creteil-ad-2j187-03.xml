@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, [s.d.]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Créteil</settlement>
+            <institution>Archives départementales du Val-de-Marne</institution>
+
+            <idno>2 J 187, pièce 3</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="3"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+      <p><pb n="p.1"
+          facs="https://api.nakala.fr/iiif/10.34847/nkl.29f437ib/dcf55b941cbd3b325722a8c0d8078f4832bb216d/full/full/0/default.jpg"
+        /> Je suis rentrée à 6 heures pour dîner, <persName key="Delacroix, Eugène (1798-1863)">mon
+          cher ami</persName>, et j’ai reçu seulement à ce moment-là votre petit billet : je n’ai
+        donc pu envoyer chez vous, mais j’espérais bien que vous viendriez dîner avec nous, ou bien
+        que vous viendriez nous dire un petit bonsoir : vous auriez trouvé des amis enchantés de
+        vous voir<note place="bottom">Joséphine de Forget vécut avec sa mère jusqu’à son décès en
+          1855. Hortense de Querelles, demi-tante de Joséphine, demeura également chez elle durant
+          plusieurs périodes alors que son mari vivait en exil contraint en Belgique, entre 1840 et
+          1845. Au début de l’année 1845, il rentra en France et le couple s’installa chez Joséphine
+          de Forget. Après la mort de son mari en 1846, Hortense continua à vivre avec
+          Joséphine.</note>. Recevez donc tous mes regrets, <persName
+          key="Delacroix, Eugène (1798-1863)">mon ami</persName>, de n’avoir pu aller vous
+        chercher ; vous m’avez attendue, je vous aurais embrassé quelques instants plus tôt, aussi
+        je suis désolée d’être sortie de si bonne heure, et pour toute la journée : voulez-vous,
+          <persName key="Delacroix, Eugène (1798-1863)">mon pauvre ami</persName>, me pardonner tout
+        l’ennui que je vous ai causé aujourd’hui (bien involontairement) et remettre à demain notre
+        course d’aujourd’hui ? J’irai vous chercher avec la voiture à 4 heures, <pb n="p.2"
+          facs="https://api.nakala.fr/iiif/10.34847/nkl.29f437ib/aa595d37f0d4b47c78b78dc0dd7588f76f6c9859/full/full/0/default.jpg"
+        />nous irons faire notre course, et nous reviendrons dîner à la maison ; un mot de réponse
+        pour me prouver que vous n’êtes pas fâché et que vous pouvez accepter ce que je vous
+        propose.</p>
+
+      <closer>
+        <salute>Je serai bien heureuse de vous revoir, il y a si longtemps ! En attendant, je vous
+          envoie mille tendresses.</salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">Joséphine</persName></signed>
+        <dateline>Ce jeudi 11 h du soir<note place="bottom">S’il n’est pas possible de dater avec
+            précision cette lettre, le vouvoiement associé à la signature « Joséphine » conduisent à
+            la situer soit entre 1841 et 1844 environ, soit entre 1846 et le début des années 1850,
+            car les lettres envoyées après à Delacroix sont signées : « Baronne de
+          Forget ».</note>.</dateline>
+      </closer>
+
+
+    </body>
+  </text>
+</TEI>
