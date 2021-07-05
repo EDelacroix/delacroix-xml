@@ -7,7 +7,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, 10 juillet 1819</title>
+        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, vers octobre 1817</title>
         <author key="Delacroix, Eugène (1798-1863)"/>
       </titleStmt>
       <editionStmt>
@@ -44,7 +44,7 @@
             <settlement>Paris</settlement>
             <institution>Musée du Louvre</institution>
             <repository>Département des Arts graphiques</repository>
-            <idno>A 609</idno>
+            <idno>A 610</idno>
           </msIdentifier>
           <physDesc>
             <objectDesc form="letter">
@@ -60,16 +60,14 @@
             <provenance>Collection Etienne Moreau-Nélaton</provenance>
           </history>
         </msDesc>
-        <listBibl>
-          <bibl>Joubin, I, p. 39-40</bibl>
-        </listBibl>
+
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <correspDesc>
         <correspAction type="sent">
           <persName key="Delacroix, Eugène (1798-1863)"/>
-          <date when="1819-07-10"/>
+          <date when="1817-10-.."/>
 
         </correspAction>
         <correspAction type="received">
@@ -88,44 +86,35 @@
 
 
       <opener>
-
-        <pb n="1" xml:id="p1"/>
-        <persName key="Pierret, Jean-Baptiste (1795-1854)">Baptiste Pierret</persName>
+        <address>
+          <addrLine>
+            <pb n="1" xml:id="p1"/> À <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur
+              Pierret, employé au ministère de l’Intérieur</persName></addrLine>
+        </address>
         <dateline>
           <pb n="2" xml:id="p2"/>
-          <date when="1819-07-10">Samedi.</date></dateline>
-        <salute><persName key="Pierret, Jean-Baptiste (1795-1854)">Mon cher ami</persName>,</salute>
+          <date when="1817-10-..">Mardi matin</date><note place="bottom">Cette lettre a été datée
+            d’octobre 1817 puisque Albert Magdelaine Claude de Lezay-Marnésia (1772-1857) a été
+            nommé préfet du Rhône le 1<hi rend="sup">er</hi> octobre 1817.</note>.</dateline>
       </opener>
 
 
-      <p>On annonce dans une affiche que j’ai vu aujourd’hui une vente curieuse<note place="bottom"
-          >Delacroix se réfère à la vente de Luigi Ventenati de Pomposi (Joubin, I, p. 39).</note>,
-        de statues et bustes antiques de prix, des morceaux de la main de <persName
-          key="Michel-Ange, Buonarroti, Michelangelo (1475-1564)">Michel-Ange</persName>, des
-        fresques originales et des tableaux de l’<persName key="Albani, Francesco (1578-1660)"
-          >Albane</persName>, du <persName key="Corrège, Allegri, Antonio (1489-1534)"
-          >Corrège</persName> et du <persName key="Dominiquin, Zampieri, Domenico (1581-1641)"
-          >Dominiquin</persName>. Tout cela vaut assurément la peine d’être vu. L’exposition a lieu
-          <date when="1819-07-11">demain dimanche</date>, <date when="1819-07-12">lundi</date> et
-          <date when="1819-07-13">mardi</date>. Mon intention est d’y aller demain ; mais comme j’ai
-        plusieurs courses à faire et que je désespère de te voir, pour convenir de l’heure à
-        laquelle nous pourrions y aller ensemble, il faudrait presque y renoncer avec toi.
-        Cependant, si tu voulais passer assez matin à la maison, sans que cela te dérangeât trop,
-        c’est-à-dire jusqu’à dix heures, nous pourrions peut-être nous arranger pour cela, peut-être
-        aussi y aller avec <persName key="Guillemardet, Félix (1796-1842)">Félix</persName>, que
-        nous prendrions en passant, ce qui serait complet.</p>
+      <p>Pourrais-tu, <persName key="Pierret, Jean-Baptiste (1795-1854)">mon cher ami</persName>,
+        t’informer dans les bureaux de ton ministère si on a déjà nommé à la préfecture de
+          <placeName key="France, La Somme">La Somme</placeName>, vacante par la nomination de
+          <persName key="Lezay-Marnésia, Albert Magdelaine Claude (1772-1857)">M.
+          Lezay-Marnésia</persName> à celle de <placeName key="France, Lyon">Lyon</placeName>, ou
+        si, celle de <placeName key="France, La Somme">La Somme</placeName> étant déjà occupée, elle
+        en laisse d’autres vacantes ? Tu m’obligeras beaucoup. J’irai chez toi à 4 heures et demie
+        te demander ta réponse.</p>
 
 
       <closer>
-        <salute>Adieu donc, et à demain s’il est possible, ce que je souhaite vivement.</salute>
-        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène</persName>.</signed>
+        <salute>Adieu, <persName key="Pierret, Jean-Baptiste (1795-1854)">mon cher ami</persName>,
+          je suis tout à toi.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName></signed>
       </closer>
 
-      <postscript>
-        <p>L’adresse est, dans le cas où tu ne pourrais y venir avec moi, <placeName
-            key="France, Paris, boulevard des Italiens, 2 bis">Boulevard Italien, n° 2
-            bis</placeName>, à la grille.</p>
-      </postscript>
     </body>
   </text>
 </TEI>
