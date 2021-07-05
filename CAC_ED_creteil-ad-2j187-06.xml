@@ -88,8 +88,8 @@
         <address>
           <addrLine><persName key="Delacroix, Eugène (1798-1863)">Monsieur Eugène
               Delacroix</persName></addrLine>
-            <addrLine><placeName key="France, Paris, rue des marais Saint-Germain, 17">17 rue des marais
-              Saint-Germain <hi rend="u">Paris</hi></placeName></addrLine>
+          <addrLine><placeName key="France, Paris, rue des marais Saint-Germain, 17">17 rue des
+              marais Saint-Germain <hi rend="u">Paris</hi></placeName></addrLine>
         </address>
         <stamp><date when="1841-09-28">28 septembre 1841</date></stamp>
       </opener>
@@ -98,24 +98,24 @@
       <p><pb n="p.2"
           facs="https://api.nakala.fr/iiif/10.34847/nkl.9efczfap/bcefd6e6c4416f613c865933b246f36e83ae4623/full/full/0/default.jpg"
         />Nous sommes arrivées ce matin, brisées, moulues, après avoir passé deux nuits en voiture ;
-        je dis <hi rend="u">nous</hi> car j’ai ramené <persName>Hortense</persName> qui était fort
-        souffrante à <placeName>Bruxelles</placeName><note place="bottom">Hortense de Querelles,
-          demi-tante de Joséphine, avait rejoint son mari à Bruxelles. Ce dernier était alors en
-          exil forcé après avoir participé à l’attentat de Boulogne et réussi à s’échapper. </note>.
-        Je sais, <persName>mon ami</persName>, que vous avez passé chez moi hier soir pour vous
-        informer si j’étais arrivée : mille remerciements de cette bonne intention. Ne venez pas
-        aujourd’hui car nous n’avons pu nous coucher dans la journée, et notre nuit commencera à
-        7 heures ce soir. Je suis impatiente de vous voir, de voir votre bonne mine grasse et
-        fraîche. Si vous êtes libre demain jeudi, venez dîner avec nous, nous serons seules, et nous
-        serons bien enchantées de vous voir, et moi <hi rend="u">en particulier</hi> ; j’aurais
-        désiré vous demander demain l’hospitalité, mais cela me paraît difficile à arranger ;
-          <persName>mon fils</persName>
-        <pb n="p.3"
-          facs="https://api.nakala.fr/iiif/10.34847/nkl.9efczfap/4bfdc7568e43020a1c7e52b5712b1f2226661f99/full/full/0/default.jpg"/>
-        <persName>Eugène</persName> est de retour<note place="bottom">Il vivait alors en Auvergne au
+        je dis <hi rend="u">nous</hi> car j’ai ramené <persName
+          key="Querelles, Hortense de (1812-1851)">Hortense</persName> qui était fort souffrante à
+          <placeName key="Bruxelles">Bruxelles</placeName><note place="bottom">Hortense de
+          Querelles, demi-tante de Joséphine, avait rejoint son mari à Bruxelles. Ce dernier était
+          alors en exil forcé après avoir participé à l’attentat de Boulogne et réussi à s’échapper.
+        </note>. Je sais, <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName>, que vous
+        avez passé chez moi hier soir pour vous informer si j’étais arrivée : mille remerciements de
+        cette bonne intention. Ne venez pas aujourd’hui car nous n’avons pu nous coucher dans la
+        journée, et notre nuit commencera à 7 heures ce soir. Je suis impatiente de vous voir, de
+        voir votre bonne mine grasse et fraîche. Si vous êtes libre demain jeudi, venez dîner avec
+        nous, nous serons seules, et nous serons bien enchantées de vous voir, et moi <hi rend="u"
+          >en particulier</hi> ; j’aurais désiré vous demander demain l’hospitalité, mais cela me
+        paraît difficile à arranger ; mon fils <pb n="p.3"
+            facs="https://api.nakala.fr/iiif/10.34847/nkl.9efczfap/4bfdc7568e43020a1c7e52b5712b1f2226661f99/full/full/0/default.jpg"
+        /> <persName key="Forget, Eugène de (1819-1885)">Eugène</persName> est de retour<note place="bottom">Il vivait alors en Auvergne au
           château familial de Pagnant. </note>, mais une autre fois, nous arrangerons cette bonne
-        partie n’est-ce [pas] <persName>mon ami</persName> ? J’ai reçu votre seconde lettre de
-          <placeName>Trouville</placeName><note place="bottom">Si les deux lettres que Delacroix
+        partie n’est-ce [pas] <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName> ? J’ai reçu votre seconde lettre de
+          <placeName key="France, Trouville">Trouville</placeName><note place="bottom">Si les deux lettres que Delacroix
           adressa à Joséphine de Forget ne nous sont pas parvenues, la lettre qu’il envoya à George
           Sand le 11 septembre 1841 depuis Trouville permet de nous faire une idée de son séjour au
           bord de la mer.</note>.</p>
