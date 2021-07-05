@@ -134,23 +134,22 @@
         ces pauvres autruches et l’a embrochée de ses deux cornes, dont elle est trépassée ce matin.
         Voilà les événements qui varient notre existence. Du reste, point de nouvelles<note
           place="bottom">Joubin omet ici une partie de la lettre, qu’il transcrit par erreur dans la
-          lettre précédente envoyée par Delacroix à Pierret : <ref type="letter"
-            target="CAC_ED_louvre-A558.xml">CAC_ED_louvre-A558</ref> (Joubin, I, p. 326). La version
-          présentée ici est fidèle au manuscrit de la lettre.</note>. Mes compagnons ont reçu des
-        lettres de tous côtés. Moi seul je suis privé de celles de qui que ce soit. Je ne suis pas
-        trop surpris de n’en pas avoir reçu par les Affaires Étrangères, qui n’ont pas encore écrit,
-        mais je calcule que vous devez depuis longtemps avoir reçu la lettre où je vous prie de
-        m’écrire par <persName key="Piron, Achille (1798-1865)">Piron</persName>. Comme, malgré mon
-        espérance, rien n’est plus incertain encore que le moment de mon retour, écrivez-moi
-        jusqu’au dernier moment, et dans le cas où <persName key="Piron, Achille (1798-1865)"
-          >Piron</persName> n’aurait pas reçu la lettre où je lui donne l’adresse convenable, ayez
-        la bonté de lui remettre vos lettres en lui disant de les adresser à M. Thibaudier, agent
-        consulaire de <placeName key="France">France</placeName> à <placeName
-          key="Royaume-Uni, Gibraltar">Gibraltar</placeName> (pour remettre à <persName
-          key="Delacroix, Eugène (1798-1863)">M. Delacroix</persName> à <placeName
-          key="Maroc, Tanger">Tanger</placeName>). – Les moindres nouvelles sont précieuses à un
-        banni ; quand je dis nouvelles, ce ne sont ni celles de la politique ni de la littérature,
-        mais les vôtres, les choses les plus simples : comment se porte <persName
+            <ref type="letter" target="CAC_ED_louvre-A558.xml">lettre précédente envoyée par
+            Delacroix à Pierret</ref> (Joubin, I, p. 326). La version présentée ici est fidèle au
+          manuscrit de la lettre.</note>. Mes compagnons ont reçu des lettres de tous côtés. Moi
+        seul je suis privé de celles de qui que ce soit. Je ne suis pas trop surpris de n’en pas
+        avoir reçu par les Affaires Étrangères, qui n’ont pas encore écrit, mais je calcule que vous
+        devez depuis longtemps avoir reçu la lettre où je vous prie de m’écrire par <persName
+          key="Piron, Achille (1798-1865)">Piron</persName>. Comme, malgré mon espérance, rien n’est
+        plus incertain encore que le moment de mon retour, écrivez-moi jusqu’au dernier moment, et
+        dans le cas où <persName key="Piron, Achille (1798-1865)">Piron</persName> n’aurait pas reçu
+        la lettre où je lui donne l’adresse convenable, ayez la bonté de lui remettre vos lettres en
+        lui disant de les adresser à M. Thibaudier, agent consulaire de <placeName key="France"
+          >France</placeName> à <placeName key="Royaume-Uni, Gibraltar">Gibraltar</placeName> (pour
+        remettre à <persName key="Delacroix, Eugène (1798-1863)">M. Delacroix</persName> à
+          <placeName key="Maroc, Tanger">Tanger</placeName>). Les moindres nouvelles sont
+        précieuses à un banni ; quand je dis nouvelles, ce ne sont ni celles de la politique ni de
+        la littérature, mais les vôtres, les choses les plus simples : comment se porte <persName
           key="Guillemardet, Félix (1796-1842)">Félix</persName>, comment <persName
           key="Heidinger, Marguerite Jeanne Aimée (1797-?)">la femme de Pierret</persName> et
           <persName key="Pierret, Claire (1821-1904)"><persName
@@ -161,8 +160,10 @@
         Je vous prie de me rappeler à tous les amis. Étant très bien avec mes deux compagnons,
         j’éprouve cependant le regret de ne pouvoir parler d’aucun de mes amis avec eux. Enfin,
         priez le ciel qu’il ne prolonge pas trop mon exil et écrivez toujours. </p>
-      <closer><salute>Adieu, adieu. </salute>
-      <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène</persName></signed></closer>
+      <closer>
+        <salute>Adieu, adieu. </salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène</persName></signed>
+      </closer>
       <postscript>
         <p><persName key="Guillemardet, Félix (1796-1842)">Félix</persName>, donne de mes nouvelles
           à <persName key="Hugues, Henri (1784-1840)">Henry</persName>. Cette lettre est pour lui

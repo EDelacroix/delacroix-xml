@@ -22,8 +22,7 @@
         </respStmt>
         <respStmt>
           <resp>Corrections</resp>
-          <name>{corrections}</name>
-          <name>{corrections}</name>
+          <name>Gaëlle Lafage</name>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -95,11 +94,11 @@
             <pb n="1" xml:id="p1"/> À <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur
               Jean-Baptiste Pierret fils</persName></addrLine>
           <addrLine><placeName key="France, Paris, rue du Four, 50">Rue du Four, Saint-Germain, n°
-              50, au coin de la rue de l’Égoût, à Paris</placeName></addrLine>
+              50, au coin de la rue de l’égoût, à Paris</placeName></addrLine>
         </address>
-        <pb n="2" xml:id="p2"/> À la <placeName
+        <pb n="2" xml:id="p2"/> <address><addrLine>À la <placeName
           key="France, Charente, Forêt de Boixe, Maison des gardes">Maison des gardes, de la forêt
-          de Boixe</placeName>, <dateline>Le <date when="1818-09-18">18 septembre
+          de Boixe</placeName>,</addrLine></address><dateline>Le <date when="1818-09-18">18 septembre
           1818</date>.</dateline>
       </opener>
 
@@ -123,7 +122,7 @@
         rez-de-chaussée. Au dehors, elle n’a point l’apparence de certaines maisons du pays, mais
         au-dedans elle est aussi commodément et même aussi élégamment distribuée qu’une maison de
           <placeName key="France, Paris">Paris</placeName> ; ce qu’elle n’a pas de commun non plus
-        avec les habitations des gens riches de la Contrée. Ce sont partout de grands et véritables
+        avec les habitations des gens riches de la contrée. Ce sont partout de grands et véritables
         poulaillers, avec du papier de cabaret sur les murs du salon et point sur les autres murs,
         de grandes poutres déjetées dans les plafonds et des planchers enfoncés sous les pieds, ce
         qui rend notre maison un objet de jalousie pour tous les voisins, j’entends pour ces voisins
@@ -153,7 +152,7 @@
         passé, parce que rien ne lui prête plus de couleur dans l’imagination. Avec quel bonheur je
         me rappelle nos douces conversations, nos chers épanchements : avec quel plaisir je
         t’embrasserai à mon retour, toi, <persName key="Pierret, Jean-Baptiste (1795-1854)">mon bon
-          ami</persName>, qui as écouté toutes mes folies. Que tu vas trouver froid à ton tour le
+          ami</persName>, qui a écouté toutes mes folies. Que tu vas trouver froid à ton tour le
         commencement de cette lettre. Au milieu de mes occupations dissipantes, quand <pb n="4"
           xml:id="p4"/> je me rappelle quelques beaux vers, quand je me rappelle quelque sublime
         peinture, mon esprit s’indigne et foule aux pieds la vaine pâture du commun de hommes. De
@@ -187,10 +186,8 @@
 
 
       <closer>
-        <salute>Adieu, adieu, adieu.</salute>
-        <salute>Ces trois mots là me furent chers dans un temps : malheureux temps ! Heureux
-          temps !... Adieu.</salute>
-        <salute>Ton ami pour la vie,</salute>
+        <salute>Adieu, adieu, adieu. Ces trois mots là me furent chers dans un temps : malheureux temps ! Heureux
+          temps !... Adieu. Ton ami pour la vie,</salute>
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName></signed>
         <address>
           <addrLine>Poste restante à <placeName key="France, Mansle">Mansle, département de la

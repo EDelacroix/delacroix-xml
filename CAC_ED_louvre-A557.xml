@@ -22,8 +22,7 @@
         </respStmt>
         <respStmt>
           <resp>Corrections</resp>
-          <name>{corrections}</name>
-          <name>{corrections}</name>
+          <name>Gaëlle Lafage</name>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -108,7 +107,7 @@
         me disant que tu n’as rien de curieux à me dire. Je ne te demande pas de nouvelles, je n’en
         suis pas plus avide ici qu’à <placeName key="France, Paris">Paris</placeName>, où j’ai
         l’habitude aussi bien qu’ici de ne vivre qu’au gré des émotions que mon cœur me donne. Mais
-        tu ignores donc le plaisir de recevoir de celui que l’on aime des lignes au bout de lignes
+        tu ignores donc le plaisir de recevoir, de celui que l’on aime, des lignes au bout de lignes
         qui lui marquent seulement de la tendresse. Je te jure, <persName
           key="Pierret, Jean-Baptiste (1795-1854)">cher et bon ami</persName>, que sur ce sol où la
         vie est si douce, les seuls regrets que l’on puisse éprouver sont les affections que nous
@@ -119,7 +118,7 @@
           Anglaise<note place="bottom">Il s’agit de la fille du consul d’Angleterre, le capitaine
           Edward Drummond Hay (Joubin, I, p. 318).</note>). <persName
           key="Pierret, Jean-Baptiste (1795-1854)">Mon ami</persName>, quel bonheur d’être loin du
-        champ des ambitions et des intrigues. J’emploie avec <pb n="3&#10;" xml:id="p3&#10;"/>
+        champ des ambitions et des intrigues. J’emploie avec <pb n="3" xml:id="p3"/>
         plaisir une part de mon temps au travail, une autre considérable à me laisser vivre. Mais
         jamais l’idée de réputation, de ce Salon que je devais manquer, comme on disait, ne se
         présente à moi ; je suis même sûr que la quantité assez notable de renseignements curieux
@@ -138,7 +137,7 @@
         parce que ce sera bien loin de la vérité et de la noblesse de ces natures. <pb n="4"
           xml:id="p4"/> L’antique n’a rien de plus beau. Il passait hier un paysan qui était foutu
         comme tu vois ici<note place="bottom">Delacroix esquisse sur cette page un dessin
-          représentant les passants qu’il voit dans les rues de Tanger. </note>. – Plus loin, voici
+          représentant les passants qu’il voit dans les rues de Tanger. </note>. Plus loin, voici
         la tournure qu’avait avant-hier un vil Maure auquel on donne vingt sous. Tout cela en blanc
         comme les sénateurs de <placeName key="Italie, Rome">Rome</placeName> et les Panathénées
           d’<placeName key="Grèce, Athènes">Athènes</placeName>.</p>
