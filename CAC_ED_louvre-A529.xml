@@ -97,6 +97,7 @@
               Paris</placeName>
           </addrLine>
         </address>
+        <stamp><date when="1820-10-25">25 octobre 1820</date></stamp>
         <dateline>
           <pb n="1" xml:id="p1"/>
           <placeName key="France, Souillac">Souillac</placeName>, le <date when="1820-10-20">20
@@ -167,19 +168,19 @@
         partout. Toutes les sources de bonheur sont comme les sources minérales, moitié chaudes et
         moitié froides, troubles et limpides : il y a toujours un côté plus amer, parce que l’autre
         est plus délectable.</p>
-      <p>Nous allons bientôt nous revoir. Je serai, je crois, encore abandonné
-        à moi-même cet hiver. L’idée de ce <rs type="work" key="Vierge du Sacré Cœur (J153)"
-          >tableau</rs><note place="bottom">Il s’agit du <hi rend="it">Triomphe de la Religion</hi>
-          (Joubin, I, p. 87). Ce tableau, dit aussi <hi rend="it">La Vierge du Sacré Cœur</hi>
-          (J153), a été initialement commandé par l’évêque de la Cathédrale de Nantes à Théodore
-          Géricault, qui l’a confié clandestinement à Delacroix en juillet 1820.</note> que j’ai à
-        faire me poursuit comme un spectre. J’aurais bien désiré pouvoir retourner promptement à
-        l’atelier. Oh, que je suis ganache ! J’ai plus d’une fois essayé de dessiner pendant ma
-        fièvre, et ce qui m’a le plus affligé, c’est que tout ce que j’ai voulu chercher pour mon
-        tableau n’a été que misérable. Je me suis occupé davantage de toutes les folies qui me
-        passaient par la tête. On sait bien peu communément à combien de choses on peut s’employer.
-        Nous sommes toujours distraits, nous ne sommes jamais à nous. Nous n’avons jamais tout notre
-        corps d’armée sous notre main. Notre existence est toujours dissipée en mille riens qui ne
+      <p>Nous allons bientôt nous revoir. Je serai, je crois, encore abandonné à moi-même cet hiver.
+        L’idée de ce <rs type="work" key="Vierge du Sacré Cœur (J153)">tableau</rs><note
+          place="bottom">Il s’agit du <hi rend="it">Triomphe de la Religion</hi> (Joubin, I, p. 87).
+          Ce tableau, dit aussi <hi rend="it">La Vierge du Sacré Cœur</hi> (J153), a été
+          initialement commandé par l’évêque de la Cathédrale de Nantes à Théodore Géricault, qui
+          l’a confié clandestinement à Delacroix en juillet 1820.</note> que j’ai à faire me
+        poursuit comme un spectre. J’aurais bien désiré pouvoir retourner promptement à l’atelier.
+        Oh, que je suis ganache ! J’ai plus d’une fois essayé de dessiner pendant ma fièvre, et ce
+        qui m’a le plus affligé, c’est que tout ce que j’ai voulu chercher pour mon tableau n’a été
+        que misérable. Je me suis occupé davantage de toutes les folies qui me passaient par la
+        tête. On sait bien peu communément à combien de choses on peut s’employer. Nous sommes
+        toujours distraits, nous ne sommes jamais à nous. Nous n’avons jamais tout notre corps
+        d’armée sous notre main. Notre existence est toujours dissipée en mille riens qui ne
         conduisent à rien. L’esprit perd son ressort, il mollit lâchement devant la moindre
         difficulté. On se contente d’avoir tenté ; on se sait presque gré d’en avoir eu l’idée. Un
         homme qui se lève à huit ou neuf heures, fatigué de sa nuit, et qui va de là tout d’un trait
@@ -260,7 +261,7 @@
         je te le dis franchement : je suis très fâché qu’il en soit ainsi et je parie que ton cœur
         dirait la même chose à la place du mien. Mais enfin on ne se fait point les pentes de son
         cœur, pas plus qu’on ne le place entre deux poumons qu’on ne s’est pas fait davantage.</p>
-        <p>Adieu, bon soir : vous m’avez entortillé et brouillé dans la tête toutes sortes de
+      <p>Adieu, bon soir : vous m’avez entortillé et brouillé dans la tête toutes sortes de
         sentiments. Vous êtes un vrai monstre que j’aime pourtant bien tendrement. – Ne dirait-on
         pas la lettre d’une maîtresse à son amant ou réciproquement ? – Nous sommes bien fous. Ne
         m’oublie pas auprès de ton excellente famille.<persName
@@ -269,12 +270,13 @@
       <closer>
         <salute>Adieu, je t’embrasse.</salute>
       </closer>
-      <postscript><p>Écris vite sans perdre de temps, mais surtout bien serré. Adresse ta lettre à
-          <persName key="Delacroix, Eugène (1798-1863)">M. E. Delacroix</persName> chez <persName
-          key="Verninac, Raymond de (1761-1822)">M. Verninac</persName>, <placeName
-          key="France, Saint-Maur">Saint-Maur</placeName>, à <placeName key="France, Souillac"
-          >Souillac</placeName>, département du <placeName key="France, Lot"
-        >Lot</placeName>.</p></postscript>
+      <postscript>
+        <p>Écris vite sans perdre de temps, mais surtout bien serré. Adresse ta lettre à <persName
+            key="Delacroix, Eugène (1798-1863)">M. E. Delacroix</persName> chez <persName
+            key="Verninac, Raymond de (1761-1822)">M. Verninac</persName>, <placeName
+            key="France, Saint-Maur">Saint-Maur</placeName>, à <placeName key="France, Souillac"
+            >Souillac</placeName>, département du <placeName key="France, Lot">Lot</placeName>.</p>
+      </postscript>
     </body>
   </text>
 </TEI>

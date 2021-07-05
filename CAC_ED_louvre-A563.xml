@@ -96,6 +96,8 @@
               gouvernement</persName>, <hi rend="u">près la Chaîne</hi>.</addrLine>
           <addrLine>Poste restante, <placeName key="France, Brest">à Brest</placeName>.</addrLine>
         </address>
+        <stamp><date when="1834-07-29">29 juillet 1834</date></stamp>
+        <stamp><placeName key="France, Brest">Brest</placeName>, 1 août [illisible]</stamp>
         <dateline>
           <pb n="2" xml:id="p2"/>
           <placeName key="France, Paris">Paris</placeName>, <date when="1834-07-29">29

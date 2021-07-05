@@ -92,10 +92,14 @@
         <address>
           <addrLine>
             <pb n="1" xml:id="p1"/>
-            <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur Pierret</persName></addrLine><addrLine><placeName
-              key="France, Paris, rue Sainte-Anne, 18">Rue Sainte-Anne n° 18, à
-            Paris</placeName></addrLine>
+            <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur
+            Pierret</persName></addrLine>
+          <addrLine><placeName key="France, Paris, rue Sainte-Anne, 18">Rue Sainte-Anne n° 18, à
+              Paris</placeName></addrLine>
         </address>
+        <stamp><placeName key="France, Valmont">Valmont</placeName>, 23 septembre
+          [illisible]</stamp>
+        <stamp><date when="1834-09-25">25 septembre 1834</date></stamp>
         <dateline>
           <pb n="2" xml:id="p2"/>
           <date when="1834-09-23">Mardi, 23 septembre</date></dateline>

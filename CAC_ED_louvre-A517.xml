@@ -60,7 +60,7 @@
           </history>
         </msDesc>
         <listBibl>
-          <bibl>Joubin, I, p. 17-210</bibl>
+          <bibl>Joubin, I, p. 17-21</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
@@ -96,10 +96,18 @@
           <addrLine><placeName key="France, Paris, rue du Four, 50">Rue du Four, Saint-Germain, n°
               50, au coin de la rue de l’égoût, à Paris</placeName></addrLine>
         </address>
-        <pb n="2" xml:id="p2"/> <address><addrLine>À la <placeName
-          key="France, Charente, Forêt de Boixe, Maison des gardes">Maison des gardes, de la forêt
-          de Boixe</placeName>,</addrLine></address><dateline>Le <date when="1818-09-18">18 septembre
-          1818</date>.</dateline>
+        <stamp><date when="1818-09-28">28 septembre 1818</date></stamp>
+        <note place="bottom">La date du cachet est certainement erronée, cette lettre étant datée du
+          18 septembre. En effet, la lettre citée à la fin de celle-ci et destinée à Félix
+          Guillemardet est datée du jour suivant, le 19 septembre (Joubin, I, p. 21-22). Par
+          ailleurs, dans une autre lettre à Pierret du 23 octobre, Delacroix affirme avoir reçu la
+          veille sa réponse à la présente (Joubin, I, p. 22-30).</note>
+        <pb n="2" xml:id="p2"/>
+        <address>
+          <addrLine>À la <placeName key="France, Charente, Forêt de Boixe, Maison des gardes">Maison
+              des gardes, de la forêt de Boixe</placeName>,</addrLine>
+        </address>
+        <dateline>Le <date when="1818-09-18">18 septembre 1818</date>.</dateline>
       </opener>
 
 
@@ -186,8 +194,8 @@
 
 
       <closer>
-        <salute>Adieu, adieu, adieu. Ces trois mots là me furent chers dans un temps : malheureux temps ! Heureux
-          temps !... Adieu. Ton ami pour la vie,</salute>
+        <salute>Adieu, adieu, adieu. Ces trois mots là me furent chers dans un temps : malheureux
+          temps ! Heureux temps !... Adieu. Ton ami pour la vie,</salute>
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName></signed>
         <address>
           <addrLine>Poste restante à <placeName key="France, Mansle">Mansle, département de la

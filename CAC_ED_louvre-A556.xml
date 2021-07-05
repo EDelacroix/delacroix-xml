@@ -101,6 +101,7 @@
             <placeName key="France, Paris, rue Sainte-Anne, 18">Rue Sainte-Anne n°
             18</placeName></addrLine>
         </address>
+        <stamp><date when="1832-02-20">20 février 1832</date></stamp>
         <dateline>
           <pb n="1" xml:id="p1"/>
           <placeName key="Maroc, Tanger">Tanger</placeName>, <date when="1832-02-08">8
