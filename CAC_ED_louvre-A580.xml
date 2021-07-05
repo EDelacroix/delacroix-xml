@@ -103,7 +103,7 @@
       </opener>
 
 
-      <salute>je suis ici<note place="bottom">Delacroix se trouve dans la maison de George Sand
+      <p>je suis ici<note place="bottom">Delacroix se trouve dans la maison de George Sand
           (1804-1876) à Nohant.</note> depuis quelques jours et ai fait le voyage très heureusement,
         sauf les inconvénients qui accompagnent tous les voyages et surtout une chaleur de chien et
         une poussière <hi rend="it">idem</hi>. À peine installé, j’éprouve que mes projets de ne
@@ -111,8 +111,11 @@
         quelque chose. Je vais m’amuser avec <persName key="Sand, Maurice (1823-1889)">le fils de la
           maison</persName> à entreprendre <rs type="work" key="L'Education de la Vierge (J426)
             ">un petit tableau</rs> pour l’église du lieu<note place="bottom">Il s’agit de
-            <hi rend="it">L’Éducation de la Vierge</hi> (J426) (Joubin, I, p.107).</note>. De plus,
-        je me sens en train de faire <rs type="work" key="Goetz de Berlichingen, lithographies
+            <hi rend="it">L’Éducation de la Vierge</hi> (J426), aujourd'hui conservé au Musée
+          Delacroix
+          (http://www.musee-delacroix.fr/fr/collections/chefs-d-oeuvre/l-education-de-la-vierge-742)
+          (Joubin, I, p. 107).</note>. De plus, je me sens en train de faire <rs type="work"
+          key="Goetz de Berlichingen, lithographies
           ">les bois</rs> de <persName key="Charton, Edouard (1807-1890)"
           >Charton</persName><note place="bottom">Delacroix se réfère ici à des estampes destinées
           au <hi rend="it">Magasin Pittoresque</hi>, dirigé par Édouard Charton (1807-1890).
@@ -138,7 +141,7 @@
           164-165. Il s’agit de <hi rend="it">Frère Martin et Goetz de Berlichingen, Goetz de
             Berlichingen écrivant ses mémoires, Goetz de Berlichingen blessé</hi> et <hi rend="it"
             >Mort de Goetz de Berlichingen</hi> (Robaut, 778-781). </note>. Ce paquet de dessins
-        doit être en bloc dans l’armoire de l’atelier.</salute>
+        doit être en bloc dans l’armoire de l’atelier.</p>
       <p>Pour les couleurs dont j’ai besoin pour le tableau, tu les désigneras à <persName
           key="Le Guillou, Jeanne Marie (1801-1869)">Jenny</persName> et les prendras dans ce qui
         reste de couleurs à l’atelier. S’il en manquait, elle irait les prendre chez <persName
