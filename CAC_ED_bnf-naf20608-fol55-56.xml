@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Adolphe Thiers, 27 octobre 1838</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Brice Ameille</name>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les grandes commandes publiques</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque nationale de France</institution>
+            <repository>Département des manuscrits occidentaux</repository>
+            <idno>NAF 20608, fol 55-56</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="4"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>papiers Thiers</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>H. Malo, « M. Thiers et les artistes de son temps », <hi rend="it">La Revue de
+              Paris</hi>, 1<hi rend="sup">er</hi> juillet 1924, p. 146-147 ; Joubin, II,
+            p. 27-28</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1838-10-27"/>
+          <placeName>Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Thiers, Adolphe (1797-1877)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <placeName key="France, Paris">Paris</placeName>, <date when="1838-10-27">27 octobre
+            1838</date></dateline>
+        <salute><persName key="Thiers, Adolphe (1797-1877)">Monsieur</persName>,</salute>
+      </opener>
+
+
+      <p>Les journaux vous ont appris peut-être que je viens d’être chargé tout récemment de la <rs
+          type="work" key="Assemblée nationale, Bibliothèque">décoration de la bibliothèque</rs> de
+        la <placeName key="France, Paris, Assemblée nationale">Chambre</placeName><note
+          place="bottom">Delacroix venait de recevoir, le 30 août 1838, la commande de la décoration
+          de la bibliothèque de l’Assemblée nationale.</note>. Ils m’ont informé moi-même de ma
+        bonne fortune dans un moment où j’étais éloigné de <placeName key="France, Paris"
+          >Paris</placeName>, ayant tout à fait oublié cet objet, à cause de l’espèce d’obstination
+        où il me semblait qu’on était de ne pas s’en occuper, quand tout au contraire semblait
+        rendre facile une décision à cet égard. Vous vous rappelez peut-être que vous m’aviez dit
+        espérer que dans le cas où les fonds nécessaires <pb n="2" xml:id="p2"/> seraient votés,
+        vous consentiriez à me charger de <rs type="work" key="Assemblée nationale, Bibliothèque">ce
+          nouveau travail</rs>. Mais depuis deux ans environ<note place="bottom">Depuis avril 1837 ;
+          voir la <ref type="letter" target="CAC_ED_bnf-naf21537-fol40-41.xml">lettre du 4 mai 1837
+            à Charles de Vèze</ref> (Joubin, II, note 1, p. 27).</note> que la mesure a été
+        effectivement trouvée praticable, je n’avais plus trouvé le même appui bienveillant et cette
+        main que vous m’aviez tendue avec tant de bonté n’était plus là pour venir en aide à ma
+          fortune<note place="bottom">Du 6 septembre 1836 au 1<hi rend="sup">er</hi> mars 1840,
+          Adolphe Thiers (1797-1877) n’occupa aucun poste au gouvernement.</note>. Après plusieurs
+        vicissitudes dont je ne vous entretiendrai pas parce que je les ignore moi-même, des
+        considérations que je crois bien légères ont fait pencher la balance de mon côté, et ma
+        première pensée a été de me tourner vers vous, <persName key="Thiers, Adolphe (1797-1877)"
+          >Monsieur</persName>, comme celui à qui je dois mes premiers, mes seuls remerciements. De
+        retour à <placeName key="France, Paris">Paris</placeName> depuis quelques jours, je n’ai pu
+        m’informer qu’ici seulement comment je pourrais vous faire parvenir cette lettre que je vous
+        écris avec bien du plaisir et dans laquelle je m’acquitte d’une bien douce obligation.</p>
+      <p>Vous m’avez offert, par pure amitié pour moi<note place="bottom">La reconnaissance du
+          talent particulier de Delacroix par Thiers était réelle et sincère. Dans son <hi rend="it"
+            >Cahier autobiographique</hi> (1853), le peintre se souviendra ainsi : « M. Thiers est
+          le seul homme, placé pour être utile, qui m’ait tendu la main dans ma carrière. Après ce
+          premier article (<hi rend="it">Le Constitutionnel</hi>, 11 mai 1822), dont je n’avais pas
+          pensé à le remercier, tant je croyais que les choses allaient d’elles-mêmes dans ce monde,
+          il en fit un autre tout aussi pompeux au Salon suivant, sur le <hi rend="it">Massacre de
+            Scio</hi> (<hi rend="it">Le Constitutionnel</hi>, 25 et 30 août 1824). Même insouciance
+          de ma part. J’ignorais même à qui j’étais redevable de tant de bienveillance. Gérard
+          m’invita à Auteuil, où je vis enfin cet ami inconnu, qui ne parut pas du tout étonné de
+          mon peu d’empressement à le rechercher après tout ce qu’il avait fait pour moi. Quand
+          depuis il se trouva en situation de m’être utile d’une autre manière, il le fit avec la
+          même simplicité. C’est lui qui me donna à faire, étant ministre de l’Intérieur, le salon
+          du Roi au Palais-Bourbon. Il le fit malgré les avis charitables de mes ennemis, et même de
+          mes amis, qui lui disaient comme à l’envi que c’était me rendre un mauvais service,
+          attendu que je n’entendrais rien à la peinture monumentale, et que je déshonorerais les
+          murs que je peindrais. » (Hannoosh, <hi rend="it">Journal</hi>, t. II,
+          p. 1741-1742).</note>, une de ces occasions décisives qui ouvrent à un artiste une
+        carrière toute nouvelle et qui <pb n="3" xml:id="p3"/> doivent l’agrandir nécessairement si
+        elles ne mettent à nu son impuissance. Un esprit tel que le vôtre connaît, du reste, ce
+        charme et cet entraînement de la lutte qui double les forces et élève un homme au-dessus de
+        lui-même. Vous comprendrez donc mieux qu’un autre à quel point je vous suis reconnaissant.
+        Vos rares talents vous ont fait toucher cette borne glorieuse qui est le rêve de tous les
+        cœurs généreux et vos loisirs mêmes sont consacrés à de grandes idées<note place="bottom"
+          >Thiers travaillait à la rédaction de sa monumentale <hi rend="it">Histoire du Consulat et
+            de l’Empire</hi> (1845-1862) (Joubin, II, note 1, p. 28).</note>.</p>
+      <p>Je ne veux point abuser longtemps des instants d’une vie si bien remplie, mais j’ose
+        m’assurer que vous recevrez avec quelque plaisir cet élan sincère de l’attachement
+        respectueux et inaltérable que je ne cesserai d’avoir pour vous.</p>
+
+
+      <closer>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+      <postscript>
+        <p>J’ai appris avec bien de la joie que la santé de <persName
+            key="Thiers, Eulalie Elise (1818-1880)">Madame Thiers</persName><note place="bottom"
+            >Eulalie Élise Thiers (1818-1880).</note> était meilleure et je fais des vœux sincères
+          pour que cet état se soutienne à <placeName key="France, Paris">Paris</placeName>.
+          Voulez-vous lui offrir, ainsi qu’à <persName key="Dosne, Eurydice Sophie (1794-1869)"
+            >Madame Dosne</persName><note place="bottom">Eurydice Sophie Dosne (1794-1869),
+            belle-mère d’Adolphe Thiers, fut la femme la plus importante dans la vie personnelle et
+            intellectuelle de l’homme politique. Elle fut aussi, avant d’être sa belle-mère, sa
+            maîtresse.</note>,<pb n="4" xml:id="p4"/> l’hommage de mon respect<note place="bottom"
+            >Le 22 janvier 1839, Thiers répond au peintre : « Mon cher Delacroix, voilà un siècle
+            que j’ai reçu de vous, en Italie, la plus aimable lettre du monde. […] Je n’ai donc pas
+            eu un instant à donner à mes amis. Je profite du premier moment de liberté pour vous
+            remercier de votre bon souvenir. Je suis charmé de ce que j’ai pu faire pour vous. Aucun
+            de ceux que j’ai servis ne le méritait autant. Je suis chez moi […], venez me voir et
+            nous parlerons de Michel-Ange, de Raphaël et de l’Italie. J’aime cela au moins autant
+            que la politique. […] » (lettre BNF, NAF 20608, fol. 146).</note>.</p>
+      </postscript>
+    </body>
+  </text>
+</TEI>
