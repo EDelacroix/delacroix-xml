@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Gustave Planche, 9 mai [1854]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les grandes commandes publiques</title>
+        <title type="sub">Delacroix et la critique</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Archives de Paris</institution>
+
+            <idno>4AZ-11</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Burty, II, p. 110 ; Joubin, III, p. 212</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1854-05-09"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Planche, Gustave (1802-1886)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <pb n="1" xml:id="p1"/>
+        <dateline>Ce <date when="1854-05-09">9 mai</date><note place="bottom">Delacroix avait
+            exécuté le décor du plafond du Salon de la Paix de l’Hôtel-de-Ville qui lui avait été
+            confié par la préfecture du département de la Seine en 1851. Il y travailla de 1852 à
+            1854. Le contenu de la lettre laisse comprendre que le plafond était achevé depuis
+            peu.</note></dateline>
+        <salute><persName key="Planche, Gustave (1802-1886)">Monsieur</persName><note place="bottom"
+            >Gustave Planche (1808-1857), critique.</note>,</salute>
+      </opener>
+
+
+      <p>Ce n’est qu’en arrivant de la campagne il y a deux jours que j’ai lu l’article bienveillant
+        que vous avez bien voulu écrire au sujet de <rs type="work"
+          key="Salon de la paix, Hôtel de Ville">mon travail</rs> de l’<placeName
+          key="France, paris, Hôtel de Ville">Hôtel-de-Ville</placeName><note place="bottom">Gustave
+          Planche avait publié un article dans la <hi rend="it">Revue des Deux Mondes</hi> en date
+          du 15 avril 1854, « L’Apothéose de Napoléon et le Salon de la Paix : les deux écoles de
+          peinture à l’Hôtel-de-Ville » où il faisait une critique croisée du plafond de Delacroix
+          et de celui qui avait été confié à Jean Auguste Dominique Ingres pour l’un des salons
+          adjacents et pour lequel il avait représenté <hi rend="it">L’Apothéose de
+          Napoléon</hi>.</note>. J’en ai été bien heureux et je m’empresse de vous en exprimer mes
+        remerciements. Je ne sais si <persName key="Ingres, Jean Auguste Dominique (1780-1867)">mon
+          illustre confrère en plafonds</persName><note place="bottom">Jean Auguste Dominique Ingres
+          (1780-1867).</note> sera aussi satisfait de votre appréciation que je le suis pour ma
+        part. Je suis entièrement<pb n="2" xml:id="p2"/> de votre avis, à savoir que les camées ne
+        sont pas faits pour être mis en peinture et qu’il faut que chaque chose soit à sa place. Je
+        trouve aussi que vous avez bien fait d’exprimer l’opinion qu’il est ridicule de ne rien voir
+        à l’<placeName key="France, Paris, Hôtel de Ville">Hôtel-de-Ville </placeName>qui rappelle
+          l’<placeName key="France, Paris, Hôtel de Ville">Hôtel-de-Ville</placeName>. Mars, les
+        muses, <persName key="Napoléon Ier (1769-1821)">Napoléon</persName> dans les nuages n’ont
+        effectivement rien de commun avec ce qui se passe dans une municipalité et l’on pouvait
+        consacrer à cet objet une bonne partie des décorations.</p>
+
+
+      <closer>
+        <salute>Agréez, <persName key="Planche, Gustave (1802-1886)">Monsieur</persName>, avec mes
+          remerciements l’assurance de la plus haute considération.</salute>
+        <salute><persName key="Delacroix, Eugène (1798-1863)">E. Delacroix</persName></salute>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
