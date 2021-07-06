@@ -22,8 +22,7 @@
         </respStmt>
         <respStmt>
           <resp>Corrections</resp>
-          <name>{corrections}</name>
-          <name>{corrections}</name>
+          <name>Gaëlle Lafage</name>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -119,8 +118,8 @@
             key="Villot, Frédéric (1809-1875)">Villot</persName>. Dis-lui qu’il m’envoie le plus
           qu’il pourra de volumes de <persName key="Diderot, Denis (1713-1784)"
           >Diderot</persName>.</p>
+        <p><dateline><date when="1839-03-09">Ce samedi.</date></dateline></p>
       </postscript>
-      <dateline><date when="1839-03-09">Ce samedi.</date></dateline>
     </body>
   </text>
 </TEI>

@@ -103,7 +103,7 @@
             Basses-Pyrénées</placeName></addrLine>
         </address>
         <dateline><date when="1845-07-26">26 juillet</date></dateline>
-        <p><persName key="Pierret, Jean-Baptiste (1795-1854)">Cher ami</persName>,</p>
+        <salute><persName key="Pierret, Jean-Baptiste (1795-1854)">Cher ami</persName>,</salute>
       </opener>
 
 

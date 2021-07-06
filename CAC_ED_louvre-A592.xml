@@ -22,8 +22,7 @@
         </respStmt>
         <respStmt>
           <resp>Corrections</resp>
-          <name>{corrections}</name>
-          <name>{corrections}</name>
+          <name>Gaëlle Lafage</name>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -106,8 +105,11 @@
       <p>On me demande à l’instant un bon maître de paysage pour des étrangers. J’ai pensé à
           <persName key="Huet, Paul (1803-1869)">Huet</persName> : comme la leçon serait bien payée,
         cela lui conviendra peut-être. Au lieu de m’écrire son adresse, écris-lui toi-même
-        directement pour ne pas perdre de temps et dis-lui de me répondre s’il consent. Je crois
-        t’avoir entendu dire qu’il était à <placeName key="France, Paris">Paris</placeName>.</p>
+        directement pour ne pas perdre de temps et dis-lui de me répondre s’il consent<note
+          place="bottom">Delacroix écrivit <ref type="letter" target="CAC-ED-louvre-A593">une
+            seconde lettre à Pierret</ref>, un peu plus tard dans la journée, pour lui demander s'il
+          connaissait un autre peintre car Huet n'était pas disponible</note>. Je crois t’avoir
+        entendu dire qu’il était à <placeName key="France, Paris">Paris</placeName>.</p>
 
 
       <closer>

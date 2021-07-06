@@ -22,8 +22,7 @@
         </respStmt>
         <respStmt>
           <resp>Corrections</resp>
-          <name>{corrections}</name>
-          <name>{corrections}</name>
+          <name>Gaëlle Lafage</name>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -114,7 +113,7 @@
       <closer>
         <salute>À demain, <persName key="Pierret, Jean-Baptiste (1795-1854)"
           >bon</persName>.</salute>
-        <p><persName key="Delacroix, Eugène (1798-1863)">Eugène</persName>.</p>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène</persName>.</signed>
         <dateline><date when="1840-08-22">Samedi</date></dateline>
       </closer>
 

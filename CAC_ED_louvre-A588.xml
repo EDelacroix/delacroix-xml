@@ -120,7 +120,7 @@
 
       <closer>
         <salute>Je t’embrasse,</salute>
-        <signed key="Delacroix, Eugène (1798-1863)">Eugène</signed>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène</persName></signed>
         <dateline><date when="1846-10-06">Ce mardi</date></dateline>
       </closer>
 

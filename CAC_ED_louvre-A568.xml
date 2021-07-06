@@ -22,8 +22,7 @@
         </respStmt>
         <respStmt>
           <resp>Corrections</resp>
-          <name>{corrections}</name>
-          <name>{corrections}</name>
+          <name>Gaëlle Lafage</name>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -99,7 +98,7 @@
         <dateline>
           <pb n="2" xml:id="p2"/>
           <date when="1836-06-21">Mardi, 5 heures</date></dateline>
-        <p><persName key="Pierret, Jean-Baptiste (1795-1854)">Cher ami</persName>,</p>
+        <salute><persName key="Pierret, Jean-Baptiste (1795-1854)">Cher ami</persName>,</salute>
       </opener>
 
 

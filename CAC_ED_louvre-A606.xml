@@ -89,10 +89,12 @@
 
 
       <opener>
-        <p>
-          <pb n="1" xml:id="p1"/>
-          <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur Pierret</persName></p>
         <address>
+          <addrLine>
+            <pb n="1" xml:id="p1"/>
+            <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur
+            Pierret</persName></addrLine>
+
           <addrLine><placeName key="France, Paris, rue Saint-Florentin, 11">Rue Saint-Florentin, n°
               11</placeName></addrLine>
         </address>

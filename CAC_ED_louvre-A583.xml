@@ -119,8 +119,8 @@
 
       <closer>
         <salute>Un mot et mille tendresses.</salute>
-        <p><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></p>
-        <p><date when="1843-06-17">Ce samedi</date>.</p>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+        <dateline><date when="1843-06-17">Ce samedi</date>.</dateline>
       </closer>
 
       <postscript>
