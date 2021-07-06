@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix Adolphe Thiers,30 mars 1857</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Brice Ameille</name>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque nationale de France</institution>
+            <repository>Département des manuscrits occidentaux</repository>
+            <idno>NAF 20618, fol 423</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>papiers Thiers</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, III, p. 382-383</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1857-03-30"/>
+          <placeName>Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Thiers, Adolphe (1797-1877)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Ce <date when="1857-03-30">30 mars 1857</date></dateline>
+        <salute><persName key="Thiers, Adolphe (1797-1877)">Cher Monsieur</persName><note
+            place="bottom">Adolphe Thiers (1797-1877) était proche de Delacroix, ayant notamment
+            profité de ses différentes positions au sein de différents gouvernements pour confier
+            différentes commandes officielles à Delacroix, la première étant le décor du Salon du
+            Roi à l’Assemblée nationale.</note>,</salute>
+      </opener>
+
+
+      <p>J’ai reçu avec beaucoup de reconnaissance le quinzième volume de votre bel ouvrage<note
+          place="bottom">L’<hi rend="it">Histoire du Consulat et de l’Empire</hi> (1845-1862), à
+          laquelle Thiers s’était attelé dès la fin des années 1830. Les vingt et un volumes furent
+          publiés aux éditions Paulin. Delacroix écrivit une autre lettre à Thiers pour le remercier
+          de l’envoi de son dernier volume (<ref type="letter"
+            target="CAC_ED_bnf-naf20618-fol528.xml">lettre du 3 décembre 1860</ref>).</note>, qui va
+        devenir la consolation de ma longue convalescence<note place="bottom">Delacroix était tombé
+          sérieusement malade au début de l’année 1857. Il note ainsi le 17 février : « Cinquième
+          visite du docteur » (Hannoosh, <hi rend="it">Journal</hi>, p. 1113).</note>. Depuis plus
+        de trois mois, c’est-à-dire depuis que je vous ai vu, j’ai gardé la chambre et me suis vu
+        très maltraité. Je suis mieux mais il me faut beaucoup de soins encore. Une lecture comme
+        celle que je vais vous devoir sera une bien grande ressource pour remplir de longues <pb
+          n="2" xml:id="p2"/> heures pendant lesquelles je suis forcé encore de m’abstenir de
+        travail. Vous comprendrez mieux que personne, vous qui utilisez si bien les instants,
+        combien je suis peiné, mais aussi combien je vais vous être obligé de nouveau.</p>
+
+
+      <closer> Recevez, <persName key="Thiers, Adolphe (1797-1877)">cher Monsieur</persName>, les
+        assurances de mon ancien et bien complet dévouement. <signed><persName
+            key="Delacroix, Eugène (1798-1863)">E. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
