@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Adolphe Thiers, 3 décembre 1860</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Brice Ameille</name>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque nationale de France</institution>
+            <repository>Département des manuscrits occidentaux</repository>
+            <idno>NAF 20618, fol 528</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>papiers Thiers</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, IV, p. 216-217</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1860-12-03"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Thiers, Adolphe (1797-1877)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Ce <date when="1860-12-03">3 décembre 1860</date></dateline>
+        <salute><persName key="Thiers, Adolphe (1797-1877)">Cher Monsieur
+          Thiers</persName>,</salute>
+      </opener>
+
+
+      <p>Je reçois votre dernier volume<note place="bottom">L’un des derniers volumes (le dernier au
+          moment où écrit Delacroix) de l’<hi rend="it">Histoire du Consulat et de l’Empire</hi>
+          (1845-1862), à laquelle Adolphe Thiers (1797-1877) s’était attelé dès la fin des années
+          1830. Les vingt et un volumes furent publiés aux éditions Paulin. Delacroix le remerciait
+          déjà pour l’envoi de l’un des volumes dans une <ref type="letter"
+            target="CAC_ED_bnf-naf20618-fol423.xml">lettre du 30 mars 1857</ref>.</note> avec une
+        vive reconnaissance et vous rends grâce de votre souvenir. Ma petite santé se met toujours
+        en travers de toutes mes relations et même de celles qui me sont le plus chères et que je
+        respecte le plus. Voilà la cause de mes longues absences, et non le manque d’affection ni de
+        reconnaissance.</p>
+      <p>Vous avez fini votre monument. Ce sera un des plus glorieux de ce siècle, et le plus
+        original dans son genre de ce que les autres siècles nous ont <pb n="2" xml:id="p2"/>
+        laissé. Je suis bien heureux de voir que, grand dès le principe, il a grandi encore dans
+        l’opinion du public, qui a tant de peine ordinairement à se mettre du parti du génie et de
+        la raison.</p>
+      <p>Ma santé meilleure relativement et qui me permet, à raison de cela, de me livrer à des <rs
+          type="work" key="chapelle des Saints-Anges, église Saint-Sulpice">travaux
+          fatigants</rs><note place="bottom">Il est possible que Delacroix fasse allusion à ses
+          travaux de la chapelle des Saints-Anges de l’église Saint-Sulpice qu’il acheva l’année
+          suivante.</note>, que je ne puis achever comme vous achevez les vôtres, me permettra
+        pourtant d’aller vous porter les mêmes remerciements et les mêmes applaudissements.</p>
+
+
+      <closer>
+        <salute>Recevez, en attendant, l’expression de mon respect et de mon dévouement.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName><note
+            place="bottom">Le lendemain, 4 décembre 1860, Thiers répond au peintre : « Mon cher
+            Delacroix, […] si je vous ai envoyé, avant d’envoyer à la plupart de mes amis, les
+            parties de mon ouvrages successivement publiées, c’est que je vous aime, vous honore, et
+            vous range parmi les meilleurs juges. » (BNF, NAF 20618, fol. 552).</note></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
