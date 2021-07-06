@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Adolphe Thiers, 29 juillet 1861</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Brice Ameille</name>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les grandes commandes publiques</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque nationale de France</institution>
+            <repository>Département des manuscrits occidentaux</repository>
+            <idno>NAF 20618, fol 568</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>papiers Thiers</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, IV, p. 259</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1861-07-29"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Thiers, Adolphe (1797-1877)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Ce <date when="1861-07-29">29 juillet 1861</date></dateline>
+        <salute><persName key="Thiers, Adolphe (1797-1877)">Cher Monsieur Thiers</persName><note
+            place="bottom">Adolphe Thiers (1797-1877) avait été un fervent soutien de Delacroix.
+            C’est notamment sur son accord que le peintre avait reçu la commande pour le décor du
+            Salon du Roi à l’Assemblée nationale, auquel il travailla de 1833 à 1836.</note>,
+        </salute>
+      </opener>
+
+
+      <p>J’avais espéré pouvoir vous montrer <rs type="work"
+          key="chapelle des Saints-Anges, église Saint-Sulpice">ma chapelle</rs><note place="bottom"
+          >Il est question de la chapelle des Saints-Anges de l’église Saint-Sulpice. Delacroix
+          avait reçu la commande de la part de la préfecture du département de la Seine en 1849. La
+          chapelle ouvrit au public le 21 août 1861.</note> avant tout le monde. <persName
+          key="Colonna, Adèle d'Affry, duchesse de Castiglione (1837-1879)">Madame la duchesse
+          Colonna</persName><note place="bottom">Adèle d’Affry, duchesse de Castiglione Colonna
+          (1837-1879) devint une amie des Riesener en 1859, lorsqu’elle s’installa à Paris, et se
+          consacra à la peinture et à la sculpture (notamment sous le pseudonyme de « Marcello »).
+          Elle copia quelques œuvres de Delacroix. Le peintre et la duchesse échangèrent quelques
+          lettres ; deux écrites par la duchesse Colonna, trois par Delacroix, entre 1860 et 1862
+          (Hannoosh, <hi rend="it">Journal</hi>, p. 2145).</note>, qui a l’honneur de vous connaître
+        et de vous apprécier, m’avait fait espérer qu’elle vous amènerait. Vous êtes parti sur ces
+        entrefaites et je ne sais pas même si vous êtes de retour. J’aurais été m’en informer si,
+        par suite de l’enlèvement de mon échafaud, je ne m’étais trouvé engagé dans des retouches
+        qui me prennent toute la journée et me laissent le soir une grande fatigue.</p>
+      <p>Je vous envoie à tout hasard <pb n="2" xml:id="p2"/> une lettre pour entrer à <placeName
+          key="France, Paris, église Saint-Sulpice">Saint-Sulpice</placeName> toute la fin de la
+        semaine, mais ce serait avec la cohue et je préfèrerais bien, peu importe dans quel moment
+        et plus tard, avoir la bonne fortune de vous y conduire.</p>
+
+
+      <closer>
+        <salute>Je vous renouvelle l’assurance de mon respectueux attachement.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">E. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
