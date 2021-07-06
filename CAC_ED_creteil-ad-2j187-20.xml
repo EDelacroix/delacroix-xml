@@ -105,11 +105,12 @@
         es fort aimé de ce <pb n="2" xml:id="p2"/> côté-là ; j’ai appris, que <persName
           key="Vieillard, Eliza Caroline Huet, épouse (1797-1847)">Mme Vieillard</persName>, plus
         capricieuse que jamais, avait renoncé à des voyages pour cet été ; au reste, on se console
-        facilement de rester à <placeName key="France, Paris">Paris</placeName>, par ce temps affreux. Figure toi que,
-        depuis ton départ, il a plu presque tous les jours. Hier lundi, nous avons été passer la
-        journée à <placeName key="France, Ville-d'Avray">Ville-d’Avray</placeName>, il y avait 10 jours que [nous] n’avions pu y
-        aller ; le temps était beau le matin, et à 5 heures nous avons eu une averse terrible, qui a
-        mouillé toute la terre, et à midi le temps fort humide. Dans <placeName key="France, Pyrénées">vos
+        facilement de rester à <placeName key="France, Paris">Paris</placeName>, par ce temps
+        affreux. Figure toi que, depuis ton départ, il a plu presque tous les jours. Hier lundi,
+        nous avons été passer la journée à <placeName key="France, Ville-d'Avray"
+          >Ville-d’Avray</placeName>, il y avait 10 jours que [nous] n’avions pu y aller ; le temps
+        était beau le matin, et à 5 heures nous avons eu une averse terrible, qui a mouillé toute la
+        terre, et à midi le temps fort humide. Dans <placeName key="France, Pyrénées">vos
           montagnes</placeName>, vous avez au moins une belle vue et de la chaleur, mais je conçois,
           <persName key="Delacroix, Eugène (1798-1863)">mon pauvre ami</persName>, votre tristesse
         au milieu de cette belle et sauvage nature, et sans une figure amie autour de vous : la
@@ -120,15 +121,16 @@
         commence à être ennuyée cruellement de cette vie triste et insipide et surtout lorsque vous
         n’êtes pas là, je suis découragée complètement !</p>
       <p>
-        <pb n="3" xml:id="p3"/> Recevez-vous les journaux de <placeName key="France, Paris">Paris</placeName> ?
-          <persName key="Bosio, François Joseph (1768-1845)">Bosio</persName><note place="bottom">François Joseph Bosio (1768-1845) était un
-          sculpteur d’origine monégasque qui séjourna longuement en Italie avant de revenir en
-          France où il eut un grand succès durant l’Empire et la Restauration, recevant de
-          nombreuses commandes officielles. </note>, le sculpteur, vient de mourir, mais il était
-        âgé, et je crois que vous ne le connaissiez pas particulièrement.</p>
-      <p><persName key="Querelles, Richard de (1811-1846)">Richard</persName> est toujours à <placeName key="France, Nancy">Nancy</placeName>, son père n’est
-        pas mort, mais il est mourant et le pauvre garçon assiste à toutes ces scènes
-        cruelles !!!</p>
+        <pb n="3" xml:id="p3"/> Recevez-vous les journaux de <placeName key="France, Paris"
+          >Paris</placeName> ? <persName key="Bosio, François Joseph (1768-1845)"
+          >Bosio</persName><note place="bottom">François Joseph Bosio (1768-1845) était un sculpteur
+          d’origine monégasque qui séjourna longuement en Italie avant de revenir en France où il
+          eut un grand succès durant l’Empire et la Restauration, recevant de nombreuses commandes
+          officielles. </note>, le sculpteur, vient de mourir, mais il était âgé, et je crois que
+        vous ne le connaissiez pas particulièrement.</p>
+      <p><persName key="Querelles, Richard de (1811-1846)">Richard</persName> est toujours à
+          <placeName key="France, Nancy">Nancy</placeName>, son père n’est pas mort, mais il est
+        mourant et le pauvre garçon assiste à toutes ces scènes cruelles !!!</p>
       <p>Il n’y a rien de nouveau ici, vous ne me parlez pas de votre santé, de votre gorge, ce qui
         me fait penser que tout va bien, vous devez <hi rend="u">manger énormément</hi>, et
         l’estomac dans un si bon air doit digérer facilement. Enfin, <persName
@@ -138,8 +140,8 @@
 
       <closer>
         <salute>Adieu, je t’aime et t’embrasse bien tendrement, continue à m’écrire aussi exactement
-          c’est mon seul plaisir dans ma solitude. Mille amitiés de la part
-          d’<persName key="Querelles, Hortense de (1812-1851)">Hortense</persName>.</salute>
+          c’est mon seul plaisir dans ma solitude. Mille amitiés de la part d’<persName
+            key="Querelles, Hortense de (1812-1851)">Hortense</persName>.</salute>
         <signed><persName key="Forget, Joséphine de (1802-1886)">Consuelo</persName></signed>
         <dateline>ce <date when="1845-08-05">mardi 5 août</date></dateline>
       </closer>

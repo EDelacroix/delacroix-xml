@@ -193,7 +193,7 @@
         que tu as, et un peu plus de celle qu’il faut avoir, celle qui consiste à ne pas se laisser
         prendre au dépourvu par la fatalité, et tu ne serais pas obligé d’y regarder, ni à bien
         d’autres choses.</p>
-      <salute>Adieu, <persName key="Pierret, Jean-Baptiste (1795-1854)">cher</persName>. Je
+      <closer><salute>Adieu, <persName key="Pierret, Jean-Baptiste (1795-1854)">cher</persName>. Je
         t’embrasse tout en te sermonnant. Je te demande pardon d’avance de tout ce que je te
         demande, et par-dessus le marché une longue lettre. Vole le gouvernement pour m’écrire plus
         longuement. Tu me feras un plaisir énorme.</salute>
@@ -201,7 +201,7 @@
       <address>
         <addrLine><placeName key="France, Nohant">À Nohant, près La Châtre,
           Indre</placeName></addrLine>
-      </address>
+      </address></closer>
     </body>
   </text>
 </TEI>

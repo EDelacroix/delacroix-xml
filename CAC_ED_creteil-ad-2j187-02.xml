@@ -64,7 +64,7 @@
       <correspDesc>
         <correspAction type="sent">
           <persName key="Forget, Joséphine de (1802-1886)"/>
-          <date when="1836-..-.."/>
+          <date when="1836"/>
 
         </correspAction>
         <correspAction type="received">
@@ -82,7 +82,7 @@
 
 
       <p>
-        <pb n="p.1"
+        <pb n="1"
           facs="https://api.nakala.fr/iiif/10.34847/nkl.ee49v475/d1210c9bbca24cfdb45bfa6809acce5933176642/full/full/0/default.jpg"
         /> Je voulais, hier soir, te dire plusieurs <hi rend="u">bonnes choses</hi>, <persName
           key="Delacroix, Eugène (1798-1863)">cher ami</persName>, mais je n’ai pu en trouver
