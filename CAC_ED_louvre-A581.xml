@@ -97,6 +97,7 @@
           <addrLine><placeName key="France, Paris, rue Tronchet, 13">Rue Tronchet, n° 13, quartier
               de la Madeleine, Paris</placeName></addrLine>
         </address>
+        <stamp><placeName key="France, La Châtre">La Châtre</placeName>, 23 juin [illisible]</stamp>
         <dateline>
           <pb n="2" xml:id="p2"/>
           <date when="1842-06-22">22 juin</date>.</dateline>

@@ -97,6 +97,10 @@
           <addrLine><placeName key="France, Paris, rue Tronchet, 13">Rue Tronchet, n° 13. Quartier
               de la Madeleine, à Paris</placeName></addrLine>
         </address>
+        <stamp><placeName key="France, Valmont">Valmont</placeName>, <date when="1840-09-19">19
+            septembre 1840</date></stamp>
+        <stamp><placeName key="France, Paris">Paris</placeName>, <date when="1840-09-20">20
+            septembre 1840</date></stamp>
         <dateline>
           <pb n="1" xml:id="p1"/>
           <placeName key="France, Valmont">Valmont</placeName>, <date when="1840-09-19">19
@@ -154,8 +158,8 @@
             key="Pierret, Claire (1821-1904)"><persName
               key="Pierret, Marguerite Juliette (1822-1878)"><persName
                 key="Pierret, Marie (1835-1876)">ces
-            dames</persName></persName></persName></persName>, si elles le permettent, et me
-        rappelle à leur souvenir.</p>
+          dames</persName></persName></persName></persName>, si elles le permettent, et me rappelle
+        à leur souvenir.</p>
 
 
       <closer>
@@ -163,7 +167,8 @@
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eug.</persName></signed>
         <address>
           <addrLine>Chez <persName key="Bataille, Alexandre Marie (1777-1841)">M.
-              Bataille</persName>, à <placeName key="France, Valmont">Valmont, Seine-Inférieure</placeName>.</addrLine>
+              Bataille</persName>, à <placeName key="France, Valmont">Valmont,
+              Seine-Inférieure</placeName>.</addrLine>
         </address>
       </closer>
 

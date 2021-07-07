@@ -97,6 +97,8 @@
           <addrLine><placeName key="France, Paris, rue Tronchet, 13">Rue Tronchet n° 13,
               Paris</placeName></addrLine>
         </address>
+        <stamp><placeName key="France, La Châtre">La Châtre</placeName>, 23 juillet
+          [illisible]</stamp>
         <dateline>
           <pb n="2" xml:id="p2"/>
           <date when="1843-07-21">21 juillet</date>, <placeName key="France, Nohant">Nohant près La

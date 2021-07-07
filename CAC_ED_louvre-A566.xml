@@ -94,10 +94,13 @@
             <pb n="1" xml:id="p1"/>
             <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur Pierret, homme de
               lettres</persName></addrLine>
-            <addrLine><placeName key="France, Paris, rue Neuve du Luxembourg, 1">Rue Neuve du Luxembourg, n°
-              1, à Paris</placeName></addrLine>
-          
+          <addrLine><placeName key="France, Paris, rue Neuve du Luxembourg, 1">Rue Neuve du
+              Luxembourg, n° 1, à Paris</placeName></addrLine>
+
         </address>
+        <stamp><placeName key="France, Franconville">Franconville</placeName>, <date
+            when="1835-02-27">27 février 1835</date></stamp>
+        <stamp><date when="1835-02-28">28 février 1835</date></stamp>
         <dateline>
           <pb n="2" xml:id="p2"/>
           <date when="1835-02-26">Jeudi</date>

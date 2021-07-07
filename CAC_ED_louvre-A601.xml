@@ -97,6 +97,8 @@
           <addrLine><placeName key="France, Paris, rue Saint-Florentin, 11">Rue Saint-Florentin,
               11</placeName></addrLine>
         </address>
+        <stamp><placeName key="France, Paris">Paris</placeName>, <date when="1852-05-12">12 mai
+            1852</date></stamp>
         <dateline>
           <pb n="2" xml:id="p2"/>
           <date when="1852-05-12">Ce mercredi matin</date></dateline>

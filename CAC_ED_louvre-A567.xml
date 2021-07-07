@@ -93,9 +93,11 @@
           <addrLine>
             <pb n="1" xml:id="p1"/>
             <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur Pierret,
-              littérateur</persName></addrLine><addrLine><placeName key="France, Paris, rue Neuve du Luxembourg, 1">Rue
-              Neuve du Luxembourg, n° 1</placeName></addrLine>
+              littérateur</persName></addrLine>
+          <addrLine><placeName key="France, Paris, rue Neuve du Luxembourg, 1">Rue Neuve du
+              Luxembourg, n° 1</placeName></addrLine>
         </address>
+        <stamp><date when="1836-03-10">10 mars 1836</date></stamp>
         <salute>
           <pb n="2" xml:id="p2"/>
           <persName key="Pierret, Jean-Baptiste (1795-1854)">Cher ami</persName>,</salute>

@@ -97,6 +97,8 @@
           <addrLine><placeName key="France, Paris, rue Tronchet, 13">Rue Tronchet, n° 13,
               </placeName><placeName>près la Madeleine, à Paris</placeName></addrLine>
         </address>
+        <stamp><placeName key="France, Saint-Leu-Taverny">Saint-Leu-Taverny</placeName>, <date
+            when="1843-04-02">2 avril 1843</date></stamp>
       </opener>
 
 
@@ -139,8 +141,8 @@
 
       <closer>
         <salute>Mille choses aimables à <persName key="Heidinger, Marguerite Jeanne Aimée (1797-?)"
-            >Madame Pierret</persName> et à <persName key="Pierret, Claire (1821-1904)"
-              ><persName key="Pierret, Marguerite Juliette (1822-1878)"><persName
+            >Madame Pierret</persName> et à <persName key="Pierret, Claire (1821-1904)"><persName
+              key="Pierret, Marguerite Juliette (1822-1878)"><persName
                 key="Pierret, Marie Élisabeth Victoire (1835-1876)">ces
               demoiselles</persName></persName></persName> et à toi mille et mille
           tendresses.</salute>
@@ -148,7 +150,8 @@
       </closer>
 
       <postscript>
-        <p>Penses-tu à notre partie de Pâques ? Je serai à <placeName key="France, Paris">Paris</placeName> la semaine prochaine.</p>
+        <p>Penses-tu à notre partie de Pâques ? Je serai à <placeName key="France, Paris"
+            >Paris</placeName> la semaine prochaine.</p>
       </postscript>
     </body>
   </text>

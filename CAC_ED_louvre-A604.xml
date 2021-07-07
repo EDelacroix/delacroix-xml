@@ -97,6 +97,7 @@
           <addrLine><placeName key="France, Paris, rue Saint-Florentin, 11">Rue Saint-Florentin
               11</placeName></addrLine>
         </address>
+        <stamp>[Illisible], <date when="1852-11-10">10 novembre 1852</date></stamp>
         <dateline>
           <pb n="2" xml:id="p2"/>
           <date when="1852-11-10">Ce mercredi 10 novembre</date></dateline>
