@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, [26 mars 1842]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Créteil</settlement>
+            <institution>Archives départementales du Val-de-Marne</institution>
+
+            <idno>2 J 187, pièce 8</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="4"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date when="1842-03-26"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+      <p><pb n="p.1"
+          facs="https://api.nakala.fr/iiif/10.34847/nkl.f1d5js8t/528f1759926a0d2c2bbac2a2f08835a35eed5b66/full/full/0/default.jpg"
+        /> Je prévoyais bien, <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName>, que
+        vous resteriez quelques jours de plus à <placeName key="France, Frépillon">la
+          campagne</placeName>, où votre vie est réglée, où vous ne trouvez pas d’occasions de
+        causer avec tous les amis que vous rencontrez, et puis cette facilité de promenade est
+        inappréciable pour un malade<note place="bottom">Delacroix était depuis près d’un mois à
+          Frépillon où il s’était retiré pour se soigner, notamment la voix qu’il avait perdue.
+        </note> : guérissez-vous donc bien vite, <persName key="Delacroix, Eugène (1798-1863)">cher
+          ami</persName> ; je trouve le temps bien long, bien monotone, lorsque je suis éloignée de
+        vous, et votre douce société me manque d’autant plus que j’ai bien <hi rend="u">des petites
+          tuiles</hi> qui me tombent sur la tête ! <persName
+          key="Querelles, Hortense de (1812-1851)">Hortense</persName> est fort malade à
+          <placeName>Bruxelles</placeName><note place="bottom">Hortense de Querelles, demi-tante de
+          Joséphine de Forget, dont elle était très proche, s’était installée à Bruxelles avec son
+          mari, Richard de Querelles suite à l’exil forcé de ce dernier. Ayant participé aux côtés
+          de Louis Napoléon à l’attentat de Boulogne en 1840, Richard de Querelles ne pouvait
+          rentrer en France sans risquer le procès et l’emprisonnement. Voir à ce sujet <ref
+            type="letter" target="CAC_ED_escholier-1963-p212.xml">la lettre de Joséphine à Delacroix
+            du 21 novembre 1840</ref>.</note>, elle a une inflammation, elle est au lit très faible,
+        avec un médecin qui ne connaît pas son tempérament, et pour la soigner, <persName
+          key="Querelles, Richard de (1811-1846)">son mari</persName>, car elle n’a pas voulu
+        entendre parler de garde-malade ; je viens donc de lui envoyer ma femme de chambre, il y a
+        deux jours, pour la soigner et la ramener, lorsqu’il y aura moyen. Notre bon ami, <persName
+          key="Bercagny, Joseph Claude Anne Legras de (1761-1842)">M. de Bercagny</persName><note
+          place="bottom">Joséphine de Forget évoque dans plusieurs de ses lettres leur ami Bercagny
+          qui venait dîner chez elle. L’indication de son âge et de sa maladie donnée plus loin dans
+          cette lettre semble permettre de l’identifier. Joseph Claude Anne Legras de Bercagny, né
+          en 1761, mourut le 27 mars 1842 à Paris, donc le lendemain de l’écriture de cette lettre
+          (voir <hi rend="it">Dictionnaire de biographie française</hi>, tome XIX, Paris, Letouzey
+          et Ané, 2001, col. 1083-1084). Il est fort possible qu’il s’agisse de l’ami dont parle
+          Joséphine de Forget, même s’il approchait en réalité les 81 ans, au lieu des 82 ans
+          qu’elle lui donne dans cette lettre. Bercagny fut au service du roi Jérôme de Westphalie
+          entre 1808 et 1814, puis fut nommé par Napoléon préfet de la Côte-d’Or durant les
+          Cent-Jours. Sous la Monarchie de Juillet, il ne retrouva un poste que la dernière année de
+          sa vie, où il fut nommé auxiliaire au ministère de la Guerre.</note>, vient aussi d’être
+        fort dangereusement malade, d’une fluxion de poitrine ! Aujourd’hui il est mieux, et hors de
+        danger, mais on l’a <pb n="p.2"
+          facs="https://api.nakala.fr/iiif/10.34847/nkl.f1d5js8t/6d4aa6152de66f8a3cbaa88a2c89191d69fdfe9a/full/full/0/default.jpg"
+        /> saigné trois fois, et à 82 ans, toutes ces maladies sont fort dangereuses !</p>
+      <p>Je suis aussi fort ennuyée d’ouvriers, de réparations dans <placeName
+          key="France, Paris, rue de Matignon, 10">la maison</placeName><note place="bottom"
+          >Joséphine habitait alors au 10 rue de Matignon. </note> ; on a découvert qu’elle avait
+        été fort mal construite, les poutres sont pourries, et nous risquions de tomber dans la cour
+        si on n’avait mis force ouvriers pour remédier à cet inconvénient ! Mais rassurez-vous,
+          <persName key="Delacroix, Eugène (1798-1863)">ami</persName>, notre petite bibliothèque
+        est intacte, vous y retrouverez votre grand fauteuil et votre amie bien dévouée, et bien
+        heureuse de vous revoir ! Vous voyez que tous ces ennuis, ces inquiétudes, ne sont pas
+        compensés par mes plaisirs et mes distractions ! Vous savez que pour moi, c’est fort peu de
+        chose, lorsque je n’ai pas le cœur heureux, et il ne l’est certes pas depuis que vous êtes
+        malade, <persName key="Delacroix, Eugène (1798-1863)">mon pauvre ami</persName> : prenez
+        donc une bonne provision de santé, de forces, et que nous puissions retrouver quelques-uns
+        de ces moments si heureux qu’ils remplissent entièrement la vie et font oublier tout ce
+        qu’elle a de triste et de décourageant !</p>
+      <p>Nous n’avons ici, rien de bien nouveau ni de bien amusant ; le temps est froid et
+        désagréable, et les spectacles peu attrayants. Il y a aujourd’hui huit jours, <pb n="p.3"
+          facs="https://api.nakala.fr/iiif/10.34847/nkl.f1d5js8t/183381e36c4ef0d7473ee94ebe89c684b7e90847/full/full/0/default.jpg"
+        /> il y a eu à l’<placeName key="France, Paris, Théâtre de l'Odéon">Odéon</placeName> une
+        première représentation d’une pièce de <persName key="Balzac, Honoré de (1799-1850)"
+          >Balzac</persName> : <hi rend="u"><hi rend="it">Les Ressources de Quinola</hi></hi><note
+          place="bottom">La première fut jouée le 19 mars 1842. Elle fut malheureusement un échec
+          pour Balzac, comme l’explique plus loin Joséphine de Forget. </note>. L’administration a
+        donné à <persName key="Balzac, Honoré de (1799-1850)">Balzac</persName> le bénéfice des 3
+        premières représentations qu’il s’était réservées ; c’est donc lui qui a vendu lui-même les
+        loges, les places, et le plus possible puisque c’était à son profit. On dit qu’il en a
+        retiré dix-huit mille francs, mais il y a eu un tripotage dégoutant. Vous connaissez <hi
+          rend="u">ma passion</hi> pour les premières représentations et celle-là présentait
+        beaucoup d’intérêt. Je me suis mise en quête d’une loge, mais elle coûtait 60 F le moins ;
+        j’ai trouvé cela tellement fort que j’y ai renoncé, et je me suis applaudie de ma raison car
+        cette pièce est fort mauvaise, fort ennuyeuse, et je n’irai même pas la voir maintenant.
+          <persName key="Balzac, Honoré de (1799-1850)">Notre pauvre Balzac</persName> a encore
+        échoué complètement, et j’en suis fâchée car la lecture de ses ouvrages est ma seule
+        distraction !</p>
+      <p><persName key="Luchet, Auguste (1806-1872)">Notre ami Luchet</persName>, dont je vous avais
+        raconté le procès pour son roman <hi rend="u">immoral</hi>, vient de se sauver en <placeName
+          key="France, Angleterre">Angleterre</placeName> pour éviter les 2 années de prison<note
+          place="bottom">Dans <ref type="letter" target="CAC_ED_creteil-ad-2j187-07.xml">sa lettre
+            du 15 mars 1842</ref>, Joséphine de Forget avait fait à Delacroix le récit du procès de
+          Luchet qui venait de se dérouler suite à la publication de son livre <hi rend="it">Le Nom
+            de famille</hi> dans lequel il faisait le récit de plusieurs scandales familiaux
+          touchant des personnes clairement identifiées ou aisément identifiables de la société
+          contemporaine. </note>.</p>
+      <p><persName key="Vieillard, Narcisse (1791-1857)"><persName
+            key="Vieillard, Eliza Caroline Huet, épouse (1797-1847)">Nos amis
+          Vieillard</persName></persName>, <persName
+          key="Cerfbeer, Alfonse de Medelsheim (1817-1883)">Cerfbeer</persName> se portent fort
+        bien. Je n’ai pas encore été au Salon, qui est fort médiocre dit-on ; j’ai appris avec peine
+        que <persName key="Riesener, Léon (1808-1878)">votre cousin</persName> avait eu un de ses
+        tableaux <pb n="p.4"
+          facs="https://api.nakala.fr/iiif/10.34847/nkl.f1d5js8t/41179eb4b06a01c5cd1ee165fa3ab57a8bf93213/full/full/0/default.jpg"
+        /> refusé<note place="bottom">Léon Riesener présenta deux œuvres au Salon : <hi rend="it"
+            >Madeleine repentante</hi> qui fut refusée (non localisée ; voir <hi rend="it">Léon
+            Riesener, 1808-1878 : du romantisme à l’impressionnisme</hi>, cat. exp., Musée d’art et
+          d’histoire de Lisieux, 12 juin - 18 octobre 2010, Lisieux, Musée d’art et d’histoire de
+          Lisieux, 2010, p. 11) et <hi rend="it">Clythie changée en héliotrope</hi> exposée avec le
+          n° 1607 (non localisée ; voir <hi rend="it">Ibid.</hi> et Marion Doublet, <hi rend="it"
+            >Léon Riesener (1808-1878)</hi>, mémoire de Master 2, Université Paris-Sorbonne, sous la
+          direction de Barthélemy Jobert, 2011, cat. 197). </note> : les imbéciles !</p>
+      <p>Combien j’ai été touchée, <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName>,
+        de votre dernière lettre, de votre envoi de violettes pour la Saint-Joseph<note
+          place="bottom">Fêtée le 19 mars.</note> ! Mille remerciements de cet aimable et tendre
+        souvenir. Que j’aurais été heureuse, ce jour-là, de vous voir, de vous embrasser, de vous
+        serrer contre ce cœur si triste de votre absence ! <persName
+          key="Delacroix, Eugène (1798-1863)">Mon pauvre ami</persName>, vous ne me dites pas
+        l’époque à laquelle vous comptez revenir dans notre <placeName key="France, Paris"
+          >Paris</placeName> que vous avez pris <hi rend="u">en grippe</hi><note place="bottom"
+          >Delacroix devait se plaindre de Paris dans sa lettre à Joséphine, craignant son retour
+          dans la capitale, comme il l’avait fait quelques jours plus tôt dans une <ref
+            type="letter" target="CAC_ED_louvre-A579">lettre à son ami Pierret</ref>, écrivant « l’idée de Paris
+          m’épouvante ».</note> ? Je ne suis pas égoïste, ainsi je vous engage beaucoup à rester à
+        votre campagne tout le temps que vous en éprouverez du bien, du soulagement. Si vous ne
+        revenez pas encore, écrivez-moi. Je suis aussi de l’avis du poète persan (seulement pour les
+        promenades, ou autres plaisirs dans ce genre) qui dit que toujours du plaisir n’est pas du
+          plaisir<note place="bottom">Elle semble ici citer un extrait du <hi rend="it">Zadig</hi>
+          de Voltaire : « comme dit le Sadder, toujours du plaisir n’est pas du plaisir ».</note>,
+        mais lorsque le cœur est de la partie, <persName key="Delacroix, Eugène (1798-1863)">mon
+          ami</persName>, ne trouvez-vous pas, que du bonheur est toujours du bonheur ? Oh ! oui !
+        n’est-ce pas, <persName key="Delacroix, Eugène (1798-1863)">mon chéri</persName> ? Je
+        voudrais baiser tes cheveux et ta chère main toute la journée, et je ne m’en blaserais
+        jamais.</p>
+
+      <closer>
+        <salute>Adieu, je t’envoie mille bonnes tendresses, et mille baisers bien tendres.</salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">Joséphine</persName></signed>
+        <dateline>Ce <date when="1842-03-26">samedi</date><note place="bottom">Les indications
+            données dans la lettre, notamment concernant la première de la pièce de Balzac,
+            permettent de la dater précisément.</note></dateline>
+      </closer>
+
+
+    </body>
+  </text>
+</TEI>
