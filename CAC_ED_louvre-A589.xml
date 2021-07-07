@@ -94,6 +94,7 @@
           <addrLine><placeName key="France, Paris, rue Tronchet, 13">Rue Tronchet
             13</placeName></addrLine>
         </address>
+        <stamp><date when="1846-12-28">28 décembre 1846</date></stamp>
         <salute>
           <pb n="2" xml:id="p2"/>
           <persName key="Pierret, Jean-Baptiste (1795-1854)">Cher ami</persName>,</salute>

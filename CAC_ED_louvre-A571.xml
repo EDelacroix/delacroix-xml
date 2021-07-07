@@ -97,6 +97,9 @@
           <addrLine><placeName key="France, Paris, rue Tronchet, 11">Rue Tronchet, n° 11, près la
               Madeleine, à Paris</placeName></addrLine>
         </address>
+        <stamp><placeName key="France, Valmont">Valmont</placeName>, <date when="1838-09-05">5
+            septembre 1838</date></stamp>
+        <stamp><placeName key="France, Paris">Paris</placeName>, 6 septembre</stamp>
         <dateline>
           <pb n="2" xml:id="p2"/>
           <placeName key="France, Valmont">Valmont</placeName>, <date when="1838-09-05">5

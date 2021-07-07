@@ -97,6 +97,10 @@
           <addrLine><placeName key="France, Paris, rue Tronchet, 13">Rue Tronchet, n° 13, à
               Paris</placeName></addrLine>
         </address>
+        <stamp><placeName key="France, Saint-Leu-Taverny">Saint-Leu-Taverny</placeName>, <date
+            when="1842-03-05">5 mars 1842</date></stamp>
+        <stamp><placeName key="France, Paris">Paris</placeName>, <date when="1842-03-06">6 mars
+            1842</date></stamp>
         <dateline>
           <pb n="2" xml:id="p2"/>
           <date when="1842-03-05">Samedi</date></dateline>

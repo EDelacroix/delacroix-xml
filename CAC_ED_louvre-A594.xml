@@ -97,6 +97,8 @@
           <addrLine><placeName key="France, Paris, rue Saint-Florentin, 11">Rue Saint-Florentin, n°
               11, Paris</placeName></addrLine>
         </address>
+        <stamp><placeName key="France, Ris-Orangis">Ris-Orangis</placeName>, <date when="1848-09-27"
+          >27 septembre 1848</date></stamp>
         <dateline>
           <pb n="2" xml:id="p2"/>
           <placeName key="France, Champrosay">Champrosay</placeName>, <date when="1848-09-27"

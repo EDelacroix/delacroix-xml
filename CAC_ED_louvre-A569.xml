@@ -94,6 +94,7 @@
           <addrLine><placeName key="France, Paris, rue Tronchet, 11">Rue Tronchet, n° 11, quartier
               de la Madeleine</placeName></addrLine>
         </address>
+        <stamp><date when="1838-03-20">20 mars 1838</date></stamp>
         <salute>
           <pb n="2" xml:id="p2"/>
           <persName key="Pierret, Jean-Baptiste (1795-1854)">Cher ami</persName>,</salute>

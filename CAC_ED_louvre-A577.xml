@@ -68,7 +68,7 @@
       <correspDesc>
         <correspAction type="sent">
           <persName key="Delacroix, Eugène (1798-1863)"/>
-          <date when="1841-07-03"/>
+          <date when="1841-07-02"/>
 
         </correspAction>
         <correspAction type="received">
@@ -96,6 +96,7 @@
           <addrLine><placeName key="France, Paris, Ministère de l'Intérieur">Ministère de
               l’Intérieur, rue de Grenelle-Saint-Germain</placeName>.</addrLine>
         </address>
+        <stamp>[illisible] juillet 1841</stamp>
         <salute>
           <pb n="2" xml:id="p2"/>
           <persName key="Pierret, Jean-Baptiste (1795-1854)">Cher ami</persName>,</salute>

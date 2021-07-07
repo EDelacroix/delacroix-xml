@@ -96,6 +96,7 @@
           <addrLine><placeName key="France, Paris, rue Tronchet, 11">Rue Tronchet, n° 11, près la
               Madeleine</placeName>.</addrLine>
         </address>
+        <stamp><date when="1839-03-09">9 mars 1839</date></stamp>
         <salute>
           <pb n="2" xml:id="p2"/>
           <persName key="Pierret, Jean-Baptiste (1795-1854)">Mon bon mignon</persName>, </salute>
