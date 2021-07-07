@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, [7 mars 1842]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Créteil</settlement>
+            <institution>Archives départementales du Val-de-Marne</institution>
+
+            <idno>2 J 187, pièce 9</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="4"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date when="1842-03-07"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <pb n="p.1" facs=""/>
+        <dateline>Ce <date when="1842-03-07">lundi</date><note place="bottom">Les détails précis
+            donnés par Joséphine de Forget permettent de dater cette lettre du lundi 7 mars
+            1842.</note></dateline>
+        <salute><persName key="Delacroix, Eugène (1798-1863)">Cher bon ami</persName>, </salute>
+      </opener>
+
+
+      <p>Combien j’ai été heureuse d’avoir de vos nouvelles ! Le temps heureusement est assez beau,
+        et vous permet de jouir souvent du plaisir de la promenade<note place="bottom">Delacroix
+          arriva le 3 mars chez sa tante Félicité Riesener à Frépillon où il séjourna environ six
+          semaines afin de se rétablir d’un mal de gorge qui lui avait fait perdre la voix.
+          Joséphine lui écrivit de longues lettres, désolée de son absence auprès d’elle (voir les
+            <ref type="letter" target="CAC_ED_creteil-ad-2j187-07.xml">lettres du 15</ref> et <ref
+            type="letter" target="CAC_ED_creteil-ad-2j187-08.xml">26 mars</ref>). Les lettres que
+          Delacroix lui écrivit ne sont pas conservées, mais on devine en miroir dans les lettres de
+          Joséphine son humeur et ses projets. Dans plusieurs lettres conservées, adressées à
+          Pierret, à Lassalle-Bordes et à George Sand en mars et en avril 1842, il évoque son séjour
+          à la campagne.</note>. Quant à votre voix, hélas ! il faudra encore quelque temps pour
+        vous permettre de parler, et à nous, de vous entendre ; il y a tant de gens qui devraient se
+        taire, tant ils sont bêtes et ennuyeux, et une maladie comme la vôtre leur serait un
+        bienfait du ciel ; eh bien ! ceux-là peuvent brailler tout à leur aise, et vous, <persName
+          key="Delacroix, Eugène (1798-1863)">mon pauvre ami</persName>, si bon, si nécessaire à
+        entendre, nous sommes privés de votre spirituelle conversation : que les choses de ce monde
+        sont souvent mal arrangées, convenez-en ? Je conçois, <persName
+          key="Delacroix, Eugène (1798-1863)">mon ami</persName>, les émotions douces que vous
+        éprouvez auprès de <persName key="Riesener, Félicité (1783/1784-1845)">votre
+          tante</persName><note place="bottom">Félicité Riesener.</note>, et à la vue de <placeName
+          key="France, Frépillon">ce petit coin de terre</placeName> qui vous rappelle des souvenirs
+        bien chers. Je voudrais pouvoir les embellir encore en venant <hi rend="u">vous donner un
+          peu de moi</hi>, comme je l’ai fait quelquefois dans votre petite chambre que j’aime
+        tant ! Mais pour faire ce <hi rend="u">coup de tête</hi>, il n’y a pas d’exaltation et
+        d’amour qui tiennent, il faut s’en priver, à moins d’avoir un anneau mystérieux et féérique
+        qui faciliterait mon apparition auprès de vous<note place="bottom">Bien qu’ayant été amants
+          durant de longues années, Delacroix et Joséphine de Forget ne se marièrent jamais. Il
+          semble dans cette lettre que Joséphine regrette de ne pas être mariée à Delacroix, ce qui
+          lui aurait permis de ne pas avoir à conserver une discrétion permanente en société.
+          Delacroix, d’un tempérament solitaire et indépendant, ne voulut certainement jamais se
+          marier malgré les sentiments qu’il portait à Joséphine et dont ses lettres témoignent.
+        </note>. Hélas ! nous <pb n="p.2" facs=""/>sommes dans un temps trop positif où tout marche
+        d’une manière bien ordinaire, bien monotone. Ma vie suit le même système, ce qui fait que je
+        ne vous en parlerai pas : les jours se suivent et s’écoulent rapidement, malgré les
+        chagrins, les regrets dont on est sans cesse tourmenté. Depuis votre départ, la seule
+        distraction un peu piquante que je me sois permise, c’est une séance de magnétisme à
+        laquelle j’ai assisté avec <persName key="Pontécoulant, Honorine Gros, coomtesse de">Mme
+          de Pontécoulant</persName><note place="bottom">Honorine Gros, épouse de Louis-Adolphe Le
+          Doulcet, comte de Pontécoulant. Delacroix l’évoque dans son journal, car il la rencontra
+          chez des amis ou connaissances, certainement dans l’entourage de Joséphine de Forget (voir
+            Hannoosh<hi rend="it">, Journal</hi>, 2009, p. 882, 993).</note>. Comme je suis d’un
+        caractère fort crédule, et très croyant pour les choses extraordinaires, c’est avec
+        fanatisme que j’ai accepté tout ce que j’ai vu. C’est une pauvre malade paralytique depuis
+        cinq ans, condamnée des médecins les plus habiles, et traitée depuis trois mois par le
+        magnétisme, par <persName key="Du Potet, Jules de Sennevoy (1796-1881)"
+          >M. Dupotey</persName><note place="bottom">Jules Du Potet de Sennevoy (1796-1881), connu
+          aussi comme le baron Dupotet, était un célèbre magnétiseur. Il publia de nombreux ouvrages
+          en français et en anglais sur le magnétisme animal appelé aussi mesmérisme, qui connut une
+          grande vogue au XIX<hi rend="sup">e</hi> siècle. Il séjourna même en Angleterre en
+          1837-1838 où il transmit sa pratique. Voir notamment à ce sujet : Fred Kaplan, « ʻThe
+          Mesmeric Maniaʼ : The Early Victorians and Animal Magnetism », <hi rend="it">Journal of
+            the History of Ideas</hi>, vol. 35, n° 4, oct.-déc., 1974, p. 691-702.</note>. Elle
+        avait annoncé dans son sommeil qu’elle marcherait (ce qu’elle n’avait pas fait depuis cinq
+        ans) le 3 mars à 4h ; à l’heure dite, on nous l’a amenée, le magnétiseur l’a réveillée de
+        son sommeil magnétique et elle a marché<note place="bottom">Les détails donnés par Joséphine
+          correspondent précisément au traitement de Melle Léonie de Lahaye, dont la guérison
+          extraordinaire se déroula le 3 mars 1842 en public, comme le raconte Du Potet dans
+          plusieurs de ses livres (<hi rend="it">Essai sur l’enseignement philosophique du
+            magnétisme par le Baron Du Potet de Sennevoy</hi>, Paris, A. René, 1845, p. 120-132 ;
+            <hi rend="it">Manuel de l’étudiant magnétiseur, ou Nouvelle instruction pratique sur le
+            magnétisme, fondée sur 30 années d’observation par M. le baron Du Potet</hi>, 2<hi
+            rend="sup">e</hi> édition, corrigée et très augmentée, Paris, G. Baillière, 1850,
+          p. 387-396). Joséphine de Forget fit donc partie des cent personnes réunies chez Du Potet
+          pour assister à la guérison à l’heure et au jour fixé par la somnambule.</note> ! Mais je
+        suis aussi, <pb n="p.3" facs=""/><persName key="Delacroix, Eugène (1798-1863)">mon
+          ami</persName>, très exaltée pour consulter une somnambule sur votre maladie, si elle se
+        prolongeait : nous irions ensemble, et je vous assure que ces personnes-là font des cures
+        merveilleuses ; au reste, on en fait que ce que l’on veut, et il n’y a aucun danger à en
+        essayer.</p>
+      <p><persName key="Gaultron, Hippolyte (après 1805-1878)">M. Gaultron</persName> m’a dit qu’il
+        vous avait remis mes <hi rend="it">Mémoires</hi> de <persName
+          key="Épinay, Louise Tardieu d'Esclavelles, marquise d' (1726-1783)"
+          >Mme d’Épinay</persName>, vous amusent-ils<note place="bottom">Certainement cette
+          édition : <hi rend="it">Mémoires et correspondance de Madame d’Épinay</hi>, publiés par J.
+          P. A. Parison et J. C. Brunet, Paris, Brunet, 1818. Joséphine de Forget, qui aimait
+          beaucoup lire, donna souvent des livres, de recueils de passages choisis de ses auteurs
+          favoris ou des revues à Delacroix.</note> ?</p>
+      <p>Écrivez-moi, <persName key="Delacroix, Eugène (1798-1863)">ami</persName>, puisque vous
+        n’avez rien à faire, et je vous engage à prolonger votre séjour à <placeName
+          key="France, Frépillon">la campagne</placeName>, si elle vous fait du bien. Lorsque vous
+        reviendrez, nous irons nous promener au <placeName key="France, Paris, Bois-de-Boulogne"
+          >bois de Boulogne</placeName>, sans parler ; je serai sage, puisque hélas ! j’en vois la
+        nécessité, et puis nous dînerons ensemble, toujours sans parler, mais nous serons heureux,
+        nous nous sentirons à côté l’un de l’autre !</p>
+      <p>Que je voudrais, mon Dieu ! pouvoir prendre votre maladie, il importe fort peu à mes amis
+        et à la société que je parle, pour les choses intéressantes que j’ai à leur dire ! Et quel
+        bonheur de jouir d’un mal dont vous vous trouveriez délivré ! Mais voilà encore une de ces
+        choses malheureusement impossibles !</p>
+      <p>J’attends de vos nouvelles avec une bien vive impatience, <persName
+          key="Delacroix, Eugène (1798-1863)">mon ami</persName>, et vous le comprenez, ne m’en
+        voulez donc pas trop si je suis aussi exigeante. Mercredi dernier, j’ai été passer la soirée
+        chez <persName key="Vieillard, Narcisse (1791-1857)"><persName
+            key="Vieillard, Eliza Caroline Huet, épouse (1797-1847)">les
+          Vieillard</persName></persName> ; j’avais le cœur plein de vous, de notre promenade du
+        matin, ce qui me rendait fort mélancolique, et aussi fort peu aimable. Il y avait <hi
+          rend="u">foule</hi>, et quantité de personnes que je ne connaissais pas ; on était entassé
+        les uns contre les autres, les hommes faisaient un brouhaha, à ne pas s’entendre : je m’y
+        suis fort ennuyée.</p>
+
+
+      <closer>
+        <salute>Adieu, <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName>, tous vos
+          amis me demandent de vos nouvelles, je vous envoie toutes mes tendresses, qui vous
+          tiendront peut-être compagnie dans votre solitude. </salute>
+      </closer>
+
+      <postscript>
+        <p>Avez-vous écrit à <persName key="Delacroix, Charles Henry (1779-1845)">votre
+            frère</persName> pour mon vin<note place="bottom">Le frère de Delacroix habitait alors
+            Bordeaux et fournissait apparemment Joséphine de Forget en vin.</note> ? Adieu encore,
+            <persName key="Delacroix, Eugène (1798-1863)">ami bien cher</persName>, je pense à vous,
+          je vous regrette, je vous aime et ne vous quitte qu’à regret ; mais je ne veux pas vous
+            <hi rend="u">assommer</hi> !</p>
+      </postscript>
+    </body>
+  </text>
+</TEI>
