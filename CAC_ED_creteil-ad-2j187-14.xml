@@ -7,7 +7,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Lettre de Joséphine de Forget à Eugène Delacroix, [11 juillet 1842]</title>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, [11 juillet 1843]</title>
         <author key="Forget, Joséphine de (1802-1886)"/>
       </titleStmt>
       <editionStmt>
@@ -64,7 +64,7 @@
       <correspDesc>
         <correspAction type="sent">
           <persName key="Forget, Joséphine de (1802-1886)"/>
-          <date when="1842-07-11"/>
+          <date when="1843-07-11"/>
 
         </correspAction>
         <correspAction type="received">
@@ -171,7 +171,7 @@
       <closer>
         <salute>Tout à vous</salute>
         <signed><persName key="Forget, Joséphine de (1802-1886)">Joséphine</persName></signed>
-        <dateline>Ce <date when="1842-07-11">11 juillet</date>.</dateline>
+        <dateline>Ce <date when="1843-07-11">11 juillet</date>.</dateline>
       </closer>
     </body>
   </text>
