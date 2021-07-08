@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, 28 juillet [1850]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Créteil</settlement>
+            <institution>Archives départementales du Val-de-Marne</institution>
+
+            <idno>2 J 187, pièce 27</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="4"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date when="1850-07-28"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Ce <date when="1850-07-28">28 juillet</date></dateline>
+      </opener>
+      <p><persName key="Delacroix, Eugène (1798-1863)">Mon bon chéri</persName>, je reçois ta
+        dernière lettre aujourd’hui, datée du 22 ; que cette poste est lente à vous porter des
+        nouvelles ! Depuis que je suis ici, je suis dans une exaspération continuelle, ne recevant
+        pas de lettres de toi autant que je le voudrais ; alors je m’inquiète, je m’impatiente, je
+        t’accuse, enfin, je suis malheureuse de toutes les façons<note place="bottom">Delacroix
+          était parti de Paris le 6 juillet pour prendre les eaux à Ems et ne rentra que le 14 août,
+          profitant de son voyage pour visiter notamment des églises et des musées sur lesquels il
+          nota ses impressions dans son journal (voir Hannoosh, <hi rend="it">Journal</hi>,
+          p. 517-545).</note> ! Depuis ma dernière lettre, <persName
+          key="Forget, Émilien de (1822-1857)">Émilien</persName> a eu encore une petite rechute, il
+        a été fort souffrant pendant deux jours ; je ne sais si ces eaux lui feront du bien<note
+          place="bottom">Émilien de Forget, second fils de Joséphine, eut de nombreux problèmes de
+          santé qui sont évoqués dans plusieurs lettres. </note>. Quant aux médecins, tu as bien
+        raison de dire qu’ils n’y connaissent rien ; ils ont ordonné à <persName
+          key="Querelles, Hortense de (1812-1851)">Mme Laity</persName> et <persName
+          key="Forget, Émilien de (1822-1857)">à mon fils</persName> de venir à <placeName
+          key="France, Allevard">Allevard</placeName> pour prendre seulement des bains de
+        petit-lait, qu’ils ne prennent ni l’un ni l’autre ; quant aux eaux minérales, pas un mot, et
+        cependant, <persName key="Forget, Émilien de (1822-1857)">Émilien</persName> prend un bain
+        tous les jours : Dieu veuille qu’il n’en soit pas plus malade !</p>
+      <p>
+        <pb n="2" xml:id="p2"/>
+        <persName key="Querelles, Hortense de (1812-1851)">Mme Laity</persName> est souffrante et de
+        fort mauvaise humeur d’être venue dans cet affreux pays. <persName
+          key="Forget, Émilien de (1822-1857)">Émilien</persName> s’ennuie, moi je suis fort
+        chagrine d’être éloignée de toi ; <persName key="Laity, Armand (1812-1889)"
+          >M. Laity</persName> est le seul content, il court toute la journée sur ces hautes
+        montagnes, mais il n’en parle pas davantage ! Moi, je ne marche presque pas : nous faisons
+        quelques promenades en char à bancs, mais pour grimper dans ces horribles petits chemins, je
+        ne m’en sens pas le courage ; je n’aurai rien vu de ce pays-ci, et je serai enchantée de le
+        quitter. Décidément, nous partirons samedi prochain 3 août et nous arriverons le même soir à
+          <placeName key="France, Villette, château de Barral">Villette</placeName> chez <persName
+          key="Barral, Octave de (1791-1884)">M. de Barral</persName><note place="bottom">Octave de
+          Barral (1791-1884) était alors le propriétaire du château de Barral à Villette, comme nous
+          l’apprend l’ouvrage d’Auguste Bourne, <hi rend="it">Description pittoresque de la Grande
+            Chartreuse</hi> (1853, p. 14). Il était par sa mère, Anne Amédée de Beauharnais
+          (1760-1831), un cousin éloigné de Joséphine de Forget.</note> (je t’ai donné l’adresse).
+        Là, nous resterons 5 à 6 jours, ensuite nous irons chez <persName
+          key="Ideville, Henri Amédée Le Lorgne, comte d' (1830-1887)">M. d’Ideville</persName><note
+          place="bottom">Henri-Amédée Le Lorgne, comte d’Ideville (1830-1887), était un cousin
+          germain du baron de Forget et donc un cousin par alliance de Joséphine. </note> dans
+          <placeName key="France, Bourbonnais">le Bourbonnais</placeName> et, vers le 20, nous
+        serons de retour à <placeName key="France, Paris">Paris</placeName>. J’espère que je t’y
+        trouverai, <persName key="Delacroix, Eugène (1798-1863)">bon amour</persName>, sans cela,
+          <placeName key="France, Paris">Paris</placeName> me serait insupportable. J’espère que tu
+        m’écriras à <placeName key="France, Villette">Villette</placeName>, comme je t’en ai prié,
+        je saurai alors l’époque fixe de ton retour dans la capitale.</p>
+      <p>
+        <pb n="3" xml:id="p3"/> Je suis fâchée, <persName key="Delacroix, Eugène (1798-1863)">bon
+          ami</persName>, que tu ne puisses pas prendre tous les jours ton eau minérale qui te
+        ferait sans doute grand bien, et puisqu’on fait la corvée, faut-il au moins en tirer le
+        meilleur parti possible ; mais tu auras fait de l’exercice et tu auras terminé ton article
+        pour <persName key="Cavé, Marie-Elisabeth (1806-1883)">Mme Cavé</persName><note
+          place="bottom">Delacroix publia en septembre un article dans la <hi rend="it">Revue des
+            deux mondes</hi> (t. 7, 1850, p. 1139-1146) sur l’ouvrage d’Élisabeth Cavé, <hi
+            rend="it">Le dessin sans maître</hi>. <ref
+            target="https://www.revuedesdeuxmondes.fr/article-revue/de-lenseignement-du-dessin/"
+            >https://www.revuedesdeuxmondes.fr/article-revue/de-lenseignement-du-dessin/</ref>
+          <ref target="https://fr.wikisource.org/wiki/De_l%E2%80%99enseignement_du_dessin"
+            >https://fr.wikisource.org/wiki/De_l%E2%80%99enseignement_du_dessin</ref>
+        </note>. Tout cela t’aura coûté un peu cher, mais tu auras vu sans doute un magnifique pays,
+        de belles peintures, et tu reviendras gros et gras. Tu auras encore tiré plus de profit que
+        nous de ton voyage. Ma santé est assez bonne, et si tu étais avec moi, je serais
+        parfaitement heureuse. C’est-à-dire que c’est moi qui devrais être avec toi, car l’air de
+          <placeName key="France, Allevard">cette vallée</placeName> est très mauvais ; il fait très humide le soir,
+        étouffant dans la journée, on ne respire pas, et il n’y a de promenades possibles qu’à
+        cheval. La nourriture est assez bonne, quant aux individus ce sont tous des marchands des
+        environs, plus ou moins laids.</p>
+      <p>
+        <pb n="4" xml:id="p4"/> Tous les soirs à 9 heures, je rentre dans ma chambre et quelquefois
+        avant. Lorsque je n’écris pas, je lis. Heureusement, j’ai d’assez bons livres chez le
+        docteur, mais aussi je m’abîme les yeux. Mon Dieu, <persName
+          key="Delacroix, Eugène (1798-1863)">ami</persName>, que je serai heureuse de te revoir !
+        Ne nous quittons plus, je t’en conjure ! La vie est-elle déjà si agréable, qu’il faille
+        encore la rendre misérable, pour des raisons plus ou moins stupides ? Tu devrais bien
+        m’accorder ce que je rêve, et ce que je désire le plus au monde, ce serait de me laisser
+        quelquefois m’établir chez toi, dans un tout petit coin, où je travaillerais sans souffler
+        le mot ; au moins je serais près de toi, et je pourrais me faire quelque illusion... ! Tu
+        t’habituerais à me supporter, cela ne t’empêcherait pas de travailler : voilà ce que j’ai
+        rêvé dans ces montagnes, et toi ? Tes idées ne valent peut-être pas les miennes…</p>
+      <p>On m’écrit de <placeName key="France, Paris">Paris</placeName> que notre grande cousine
+        de Sailly vient d’épouser un duc napolitain, un <hi rend="u">homme d’âge</hi>, sans fortune,
+        mais elle est duchesse ! Voilà le rêve de toute sa vie qu’elle a réalisé : elle est bien
+        heureuse, non d’avoir épousé un duc, mais d’avoir réalisé sa chimère !</p>
+
+      <closer>
+        <salute>Adieu, <persName key="Delacroix, Eugène (1798-1863)">bon amour</persName>, je
+          t’aime, je t’adore, je voudrais être dans tes bras, sur ton cœur, je me trouverais un peu
+          mieux que sur ces montagnes.</salute>
+      </closer>
+
+
+      <postscript>
+        <p>[Ajouté dans la marge] Mille compliments de <persName
+            key="Forget, Émilien de (1822-1857)"><persName key="Querelles, Hortense de (1812-1851)"
+              >mes compagnons de voyage</persName></persName>.</p>
+      </postscript>
+    </body>
+  </text>
+</TEI>
