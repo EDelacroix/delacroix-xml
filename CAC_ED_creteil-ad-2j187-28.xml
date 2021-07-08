@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, 26 juin [1852]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Créteil</settlement>
+            <institution>Archives départementales du Val-de-Marne</institution>
+
+            <idno>2 J 187, pièce 28</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="3"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date when="1852-06-26"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Ce <date>26 juin</date></dateline>
+      </opener>
+
+
+      <p>J’ai été bien contente, <persName>ami</persName>, de recevoir de vos nouvelles, j’en
+        attendais avec impatience. Il est vrai que le temps est bien mauvais et surtout bien
+        maussade à <placeName>la campagne</placeName>, mais je suis avec de <persName>bons
+          amis</persName> au lieu d’être seule à <placeName>Paris</placeName>, ce qui me plaît bien
+          davantage<note place="bottom">Joséphine de Forget séjournait à Chailly-en-Brie, chez son
+          amie la baronne de Méneval.</note>. Depuis deux jours le temps nous a permis de faire
+        quelques promenades en voiture : le pays est plat, mais il y a de la verdure et ce calme et
+        cette mélancolie de la campagne, qui me font du bien. Je compte ne retourner à
+          <placeName>Paris</placeName> que dans une douzaine de jours ; et vous, <persName>mon cher
+          ami</persName>, n’avez-vous pas quelques distractions ? Vous ne me parlez pas de la
+        représentation d’<hi rend="it">Ulysse</hi> au <placeName>Français</placeName>
+        <pb n="2" xml:id="p2"/> de <persName>votre ami Ponsard</persName><note place="bottom">Cette
+          tragédie de François Ponsard mêlée de chœurs composés par Charles Gounod fut représentée
+          au Théâtre-Français pour la première fois le 18 juin 1852.</note> ? Vous avez dû
+        certainement aller entendre cette pièce le premier jour. J’en ai lu la relation dans le
+        journal, cela doit être intéressant et curieux à entendre. N’avez-vous pas aussi été chez
+        quelques bons amis ? Votre travail doit avancer énormément et votre santé assez bonne,
+        puisque vous ne m’en parlez pas. Je pense aussi que vous aurez consacré un de vos samedis à
+        l’amitié, c’est-à-dire à la soirée <persName>Chabrier</persName>.
+          <persName>Mme Méneval</persName> et <persName>Louise</persName> ont été bien sensibles à
+        votre bon et aimable souvenir<note place="bottom">La baronne de Méneval (1792-1871) épouse
+          de Claude François Méneval (1778-1850) et leur fille Louise Ledóchowska (1819-1856),
+          mariée en 1841 à Marian Constantin, comte Ledóchowski.</note>. <persName>Louise</persName>
+        nous fait quelquefois d’excellente musique. Elle a, dit-elle, <hi rend="u">du guignon</hi>
+        d’avoir une passion malheureuse pour un homme tel que vous, que l’on aimerait tant à voir,
+        et <pb n="3" xml:id="p3"/> que l’on ne voit jamais. Du reste, on ne peut s’ennuyer avec
+        elle, qui est toujours spirituelle et amusante : je crois vraiment que vous auriez fait très
+        bon ménage ensemble.</p>
+      <p>J’espère que vous aurez la suite des articles de <persName>Sainte-Beuve</persName>, au
+        moins, je l’ai bien recommandé avant de partir.</p>
+      <p>J’espère, <persName>mon ami</persName>, que nous aurons quelques bonnes soirées dans le
+        jardin, à rôder autour des rosiers ou bien à faire quelques parties de billard.</p>
+
+
+      <closer>
+        <salute>En attendant, je vous envoie mille assurances de ma sincère affection.</salute>
+        <signed><persName>Baronne de Forget</persName></signed>
+      </closer>
+
+      <postscript>
+        <p>Mille souvenirs affectueux de la part de <persName>ces dames</persName>. <persName>Votre
+            gouvernante</persName> doit être enfin revenue des eaux. Avez-vous toujours le projet
+          d’aller en prendre cet été ? Et comment s’en est-elle trouvée ?</p>
+      </postscript>
+    </body>
+  </text>
+</TEI>
