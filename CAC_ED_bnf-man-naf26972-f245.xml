@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Alexandre Denuelle, 27 mai 1861</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Brice Ameille</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les grandes commandes publiques</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque nationale de France</institution>
+            <repository>Département des manuscrits occidentaux</repository>
+            <idno>NAF 26972, fol 245</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Alexandre Denuelle. Lettres reçues (MF 12567)</provenance>
+          </history>
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1861-05-27"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Denuelle, Alexandre (1818-1879)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Ce <date when="1861-05-27">27 mai 1861</date></dateline>
+        <salute><persName key="Denuelle, Alexandre (1818-1879)">Monsieur</persName><note
+            place="bottom">Alexandre-Dominique Denuelle (1818-1879), peintre décorateur et
+            architecte. Attaché dès le milieu des années 1840 à la Commission des monuments
+            historiques, chargé de la surveillance des travaux de Saint-Sulpice, il réalise de
+            nombreuses décorations pour les églises parisiennes, ainsi qu’au Louvre (Hannoosh, <hi
+              rend="it">Journal</hi>, p. 2165).</note>, </salute>
+      </opener>
+
+
+      <p>J’ai presque terminé <rs type="work" key="chapelle des Saints-Anges, église Saint-Sulpice"
+          >mes peintures</rs> de <placeName key="France, Paris, église Saint-Sulpice"
+          >Saint-Sulpice</placeName><note place="bottom">Le 21 août 1861, la chapelle des
+          Saints-Anges ouvre au public.</note>, et comme j’ai le plus grand désir de les faire voir
+        aussitôt que possible, je vous en aurais instruit plus tôt si <persName
+          key="Boulangé, Louis (1812-1878)">M. Boulangé</persName> n’avait été absent et ne m’eût
+        tenu dans l’incertitude<note place="bottom">Chargé par Delacroix d’établir les fonds des
+          deux grandes compositions de l’église Saint-Sulpice, il provoque, par ses retards et ses
+          absences, la colère de son maître au début du mois d’avril 1860 (Hannoosh, <hi rend="it"
+            >Journal</hi>, p. 1341-1342).</note>. Il vient d’arriver et je viens vous demander de
+        lui donner l’autorisation nécessaire pour reprendre ses travaux.</p>
+      <p>J’avais l’intention de lui faire remanier assez notablement certaines parties, mais nous
+        nous bornerons à l’indispensable pour arriver plus tôt : cela évitera aussi des frais et
+        remplira par conséquent mon but principal. J’espère que me trouvant moi-même sur les lieux,
+        les choses n’en marcheront <pb n="2" xml:id="p2"/> que mieux.</p>
+
+
+      <closer>
+        <salute>Agréez, <persName key="Denuelle, Alexandre (1818-1879)">Monsieur</persName>,
+          l’assurance de ma bien sincère considération,</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
