@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, 19 [juillet 1843]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Créteil</settlement>
+            <institution>Archives départementales du Val-de-Marne</institution>
+
+            <idno>2 J 187, pièce 16</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date when="1843-07-19"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+      <pb n="p.1" facs=""/>
+      <p>Que devenez-vous donc, <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName> ?
+        Ou vous êtes malade, ou vous êtes tellement absorbé par les plaisirs de <placeName
+          key="France, Nohant">la campagne</placeName><note place="bottom">Delacroix était chez
+          George Sand à Nohant (voir <ref type="letter" target="CAC_ED_louvre-A584.xml">la lettre à
+            Pierret du 21 juillet 1843</ref> et <ref type="letter" target="CAC_ED_inha-ms236-34"
+            >celle à George Sand du 30 juillet 1843</ref>). Françoise Alexandre date son séjour du
+          17 au 27 juillet (Alexandre, 2005, p. 37).</note> que vous oubliez qu’il existe un
+          <placeName key="France, Paris">Paris</placeName>, et des amis qui se plaignent de votre
+        silence. Qu’avez-vous donc à faire ? Si ce n’est de penser quelquefois à eux et de leur
+        donner de vos nouvelles ; si ce n’était cette idée-là, qui domine toutes les autres, et qui
+        m’inquiète sur votre santé, je vous laisserais tranquille encore aujourd’hui, mais je vous
+        avoue que je commence à être inquiète ; j’ai reçu votre dernière lettre de <placeName
+          key="France, Vichy">Vichy</placeName>, écrite le 7<note place="bottom">Avant de se rendre
+          à Nohant, Delacroix était passé voir son frère qui prenait les eaux à Vichy (voir la
+          lettre à Pierret du 21 juillet 1843). </note>, le lundi 10, j’y ai répondu à <placeName
+          key="France, La Châtre">La Châtre</placeName> le mercredi suivant<note place="bottom"><ref
+            type="letter" target="CAC_ED_creteil-ad-2j187-14">La lettre</ref> qu’elle envoya est en
+          réalité datée du mardi 11 juillet 1843. </note>, ce qui fait aujourd’hui huit jours, et
+        pas encore de réponse ! C’était à vous à m’écrire, car en voyage il peut arriver des
+        accidents, vous pouvez être malade avec votre faible santé, au lieu que moi, qui ne bouge
+        pas plus qu’une borne, je ne cours aucun danger.</p>
+      <p>Il y a peu de nouvelles dans notre <placeName key="France, Paris">Paris</placeName> ; après
+        un assez vilain temps, nous avons eu une grande chaleur pendant trois jours, et depuis ce
+        matin, il pleut à verse.</p>
+      <p><persName key="Vieillard, Narcisse (1791-1857)"><persName
+            key="Vieillard, Eliza Caroline Huet, épouse (1797-1847)">Les bons
+          Vieillard</persName></persName>
+        <pb n="p.2" facs=""/> vont partir dans peu de jours pour la campagne, ils se plaignent (sans
+        rancune) de ne vous avoir pas vu avant votre départ, et de n’avoir pas reçu de vos nouvelles
+        depuis : vous feriez donc bien, si vos nombreuses occupations vous le permettent, d’écrire
+        une de vos lettres, si aimable, si spirituelle à <persName
+          key="Vieillard, Narcisse (1791-1857)">M. Vieillard</persName>, qui serait touché de votre
+        souvenir.</p>
+      <p>Quant à moi, <persName key="Delacroix, Eugène (1798-1863)">ami</persName>, je ne m’explique
+        pas ce long silence de votre part, il m’afflige, il m’inquiète, et je ne sais qu’en
+        penser !</p>
+      <p>Je suis contente <hi rend="u">pour vous</hi> de vous savoir à <placeName
+          key="France, Nohant">la campagne</placeName>, bien soigné, bien dorloté, bien gâté ;
+        restez-y le plus que vous pourrez si vous vous y plaisez, mais un mot, de grâce. Avez-vous
+        reçu des nouvelles de <persName key="Delacroix, Charles Henry (1779-1845)">votre
+          frère</persName><note place="bottom">Son frère était souffrant lorsque Delacroix le vit à
+          Vichy. (voir la lettre à Pierret du <ref type="letter" target="CAC_ED_louvre-A584.xml">21
+            juillet 1843</ref>).</note> ?</p>
+      <p><persName key="Querelles, Hortense de (1812-1851)">Notre malade</persName> va un peu
+          mieux<note place="bottom">Certainement Hortense de Querelles, <ref type="letter"
+            target="CAC_ED_creteil-ad-2j187-14.xml">voir la lettre du 11 juillet 1843, note 5</ref>.
+        </note>, elle commence à sortir. Nous avons été à <placeName
+          key="France, Paris, Cirque Franconi">Franconi</placeName><note place="bottom">Le Cirque
+          Olympique des Franconi, dont elle parle déjà dans sa précédente lettre. </note>, voilà
+        notre seul plaisir ! Elle vous envoie mille compliments affectueux, et moi, <persName
+          key="Delacroix, Eugène (1798-1863)">mon ami</persName>, je vous envoie un million de
+        tendresses, sans rancune, mais non sans chagrin de votre indifférence.</p>
+
+      <closer>
+        <salute>Tout à vous</salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">Joséphine</persName></signed>
+        <dateline>Le <date when="1843-07-19">19 mercredi</date>.</dateline>
+      </closer>
+
+
+      <postscript>
+        <p>La session de <placeName key="France, Paris, Sénat">la Chambre des pairs</placeName>
+          n’est pas encore terminée.</p>
+      </postscript>
+      <postscript>
+        <p><persName key="Forget, Eugène de (1819-1885)"><persName
+              key="Forget, Émilien de (1822-1857)">Mes enfants</persName></persName> sont toujours
+          en <placeName key="France, Auvergne">Auvergne</placeName>, <persName
+            key="Forget, Émilien de (1822-1857)">Émilien</persName> va beaucoup mieux.</p>
+      </postscript>
+    </body>
+  </text>
+</TEI>
