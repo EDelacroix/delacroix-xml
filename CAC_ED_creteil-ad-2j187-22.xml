@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, [13 et 15 octobre 1845 ?]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Créteil</settlement>
+            <institution>Archives départementales du Val-de-Marne</institution>
+
+            <idno>2 J 187, pièce 22</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="4"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date when="1845-10-13"/>
+          <date when="1845-10-15"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <placeName key="France, Ville-d'Avray">Ville-d’Avray</placeName> ce <date
+            when="1845-10-13">lundi</date><note place="bottom">D’après les jours indiqués par
+            Joséphine de Forget, cette lettre semble pouvoir être datée du 13 octobre 1845,
+            continuée le mercredi 15 suivant. Les autres dates possibles, notamment l’année 1851, où
+            le 15 octobre tomba également un mercredi, ne correspondent pas à la signature
+            « Consuelo », adoptée entre 1844 et 1846 par la baronne de Forget, ni au ton de la
+            lettre, car à partir des années 1850, les lettres de Delacroix emploient le plus souvent
+            le vouvoiement, tout comme celles de Joséphine de Forget.</note></dateline>
+      </opener>
+      <p>Tu seras bien étonné, <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName>, de
+        recevoir ma lettre datée de <placeName key="France, Ville-d'Avray"
+        >Ville-d’Avray</placeName> ? Mais le temps était si beau ce matin que je n’ai pu résister au
+        désir de venir faire une promenade mélancolique dans <placeName key="France, Ville-d'Avray"
+          >mes bois</placeName> et jouir tout à mon aise de ce beau soleil dont le ciel est si avare
+        cette année ! Je vais repartir à 5 heures, je suis seule et il m’a pris un désir bien vif de
+        venir causer avec toi, et de t’exprimer combien j’ai été heureuse un certain samedi, dont tu
+        dois te rappeler ? Mon Dieu, <persName key="Delacroix, Eugène (1798-1863)">mon
+          ami</persName>, que de bonheur j’ai éprouvé, et que j’avais besoin de cette consolation,
+        il y avait si longtemps que je ne t’avais serré sur mon cœur ! Tu me pardonneras, n’est-ce
+        pas, les reproches que je t’ai faits sur ta manière de vivre, sur ta sauvagerie, sur ton
+        originalité ? Eh <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName>, tu as dû
+        voir au fond de tout cela le regret seul de ne pas te voir aussi souvent que je le
+        désirerais ; je suis cependant peu exigeante, <pb n="2" xml:id="p2"/> je comprends ta
+        position, mais je suis sans force, sans courage lorsqu’il faut rester près de quinze jours
+        sans te voir, sans savoir de tes nouvelles ; ne me regrettes-tu pas aussi quelquefois ? Il y
+        a dans cette vie si sottement organisée tant de contrariétés, de mécomptes, de chagrins, et
+        que faire pour supporter tant de maux ? S’appuyer l’un sur l’autre ; nous avons tous les
+        deux un cœur si plein d’amour et de tendresse inépuisable que c’est déjà un bonheur pour
+        nous de pouvoir éprouver tant de sensations enivrantes ! Mais il faut pour en jouir que ces
+        deux cœurs si sympathiques se réunissent quelquefois, et ils se comprennent si bien,
+          <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName> !</p>
+      <p>J’espère que tu n’auras pas été fatigué de ma visite ; es-tu aujourd’hui, ainsi que moi,
+        dans <placeName key="France, Champrosay">tes bois</placeName> ? Ce beau temps doit te donner
+        la tentation d’y rester quelques jours et je le comprends ; ta santé en décidera. Je ne
+        t’enverrai cette lettre que mercredi prochain, 15 octobre ! J’y joindrai un bouquet pour te
+        rappeler l’anniversaire de notre bonheur<note place="bottom">Seules deux lettres conservées
+          de leur correspondance évoquent leur anniversaire du 15 octobre (la seconde est <ref
+            type="letter" target="CAC_ED_joubin-3-p39">une lettre de Delacroix à Joséphine du 14
+            octobre 1850</ref>, Joubin, <hi rend="it">Corr. gén.</hi>, t. III, p. 39). Il s’agit
+          vraisemblablement du jour où leur relation changea de nature, mais l’année reste difficile
+          à définir. Michèle Hannoosh (<hi rend="it">Journal</hi>, 2009, p. 2192) propose de situer
+          le début de leur liaison en 1836, s’appuyant sur cette lettre dans laquelle Joséphine
+          évoque la joie qu’elle avait éprouvée « un certain samedi ». Toutefois, rien ne permet de
+          penser qu’elle parle d’un samedi 15 octobre, mais plutôt qu’elle évoque un moment
+          différent, certainement quelques jours avant l’écriture de la lettre, puisqu’elle ajoute :
+          « il y avait si longtemps que je ne t’avais serré sur mon cœur ». Au contraire, une <ref
+            type="letter" target="CAC_ED_escholier-1963-p209">lettre de Joséphine, du 16 février
+            1840</ref>, publiée par Escholier (<hi rend="it">Delacroix et les femmes</hi>, 1963, p.
+          209) indique que leur liaison remonte plutôt à la fin de l’année 1834 puisqu’elle lui
+          écrivit : « Depuis plus de cinq ans, n’avons-nous pas eu les mêmes bonheurs […] ». Ainsi,
+          l’anniversaire, si cher à Joséphine de Forget, célèbrerait la date du 15 octobre 1834,
+          alors qu’elle était encore mariée au baron de Forget, mais en vivait séparée. <ref
+            type="letter" target="CAC_ED_joubin-1-p368">Une lettre de Delacroix datée du 25 février
+            1834</ref> (Joubin, <hi rend="it">Corr. gén.</hi>, t. I, p. 368-370), d’un ton assez
+          galant, mais lui donnant encore du « ma chère cousine » montre qu’ils n’étaient pas encore
+          amants à cette date. Il est donc vraisemblable que leur liaison débuta plus tard en 1834
+          et peut-être le 15 octobre de cette année. Malheureusement pour nous, une très grande
+          partie des lettres qu’ils échangèrent avant 1843 semble avoir été détruite, conformément
+          aux dernières volontés de la baronne. Seules quelques lettres de Joséphine de Forget ont
+          été conservées et témoignent de la passion qu’ils partagèrent pendant plusieurs années,
+          alors qu’ils ne vécurent jamais ensemble.</note> !!! Ne te verrai-je pas ce jour-là ? Il y
+        aura un an que l’année dernière, j’avais été te voir avec <persName
+          key="Querelles, Hortense de (1812-1851)">Hortense</persName><note place="bottom">Hortense
+          de Querelles, demi-tante de Joséphine de Forget, qui vécut chez elle et dont elle était
+          très proche.</note> à <placeName key="France, Champrosay">Champrosay</placeName> ; quelle
+        bonne journée ! J’espère que mes hôtes retiendront <pb n="3" xml:id="p3"/> un appartement
+        pour le mois de janvier prochain, peut-être plus tôt, je te tiendrai au courant de cette
+        affaire qui nous intéresse vivement. Depuis que je suis ici, <persName
+          key="Delacroix, Eugène (1798-1863)">mon ami</persName>, jouissant de la belle nature… de
+          <placeName key="France, Ville-d'Avray">Ville-d’Avray</placeName>, je fais des châteaux en
+        Espagne, sur un petit ermitage qui serait en ma possession : je jouis en imagination de mes
+        poules, de mes fleurs, de mes choux, et plus que tout cela, je pense au bonheur que j’aurais
+        de te recevoir, de te soigner, mais tu t’ennuierais peut-être bien avec moi, <persName
+          key="Delacroix, Eugène (1798-1863)">ami</persName> ? Et ce sont encore des promesses qui
+        seront dans ta tête et que tu ne pourras réaliser parce que tu t’imagineras qu’il y aura des
+        difficultés insurmontables… et puis ton travail, et puis ta santé, et puis les amis et les
+        indifférents. Oh, <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName>, si tu
+        m’aimes comme je t’aime, ne m’abandonne pas, et sois bien persuadé que la tendresse que j’ai
+        pour toi te donnera plus de bonheur que tu ne pourrais en trouver ailleurs : n’écoute pas
+        toujours ta tête, mais ton cœur ; tout est facile lorsqu’on s’aime !</p>
+
+      <closer>
+        <salute>Adieu pour aujourd’hui. Je tousse moins mais <hi rend="u">ma luette</hi> me gêne
+          beaucoup. Je t’aime et t’envoie mille tendresses de cœur. </salute>
+      </closer>
+
+
+      <dateline>Ce <date when="1845-10-15">mercredi</date></dateline>
+      <p>J’ai envoyé <placeName key="France, Paris, rue Notre-Dame-de-Lorette, 54">chez
+          toi</placeName>, hier dans la journée, pour savoir si tu étais à <placeName
+          key="France, Paris">Paris</placeName>, on a répondu que tu étais parti pour <placeName
+          key="France, Champrosay">la campagne</placeName> pour quelques jours. <pb n="4"
+          xml:id="p4"/> Je te reconnais bien là, <persName key="Delacroix, Eugène (1798-1863)"
+          >ami</persName>, tu es parti sans m’écrire un mot ; je vais donc t’envoyer ma lettre à
+          <placeName key="France, Champrosay">Champrosay</placeName>, hélas sans bouquet de fête !
+        Pour te punir, j’aurais dû faire <hi rend="u">un coup de tête</hi>, et aller aujourd’hui te
+        surprendre pour fêter notre anniversaire du 15 octobre ! Mais nous ne sommes plus au temps
+        des actions romanesques, sentimentales, n’est-ce pas, <persName
+          key="Delacroix, Eugène (1798-1863)">ami</persName> ? Si tu veux que j’aille déjeuner un
+        matin avec toi, écris-moi de suite un mot ; tu me donneras les indications nécessaires,
+        j’arriverai avec un pâté, ainsi ne t’inquiète aucunement de mon déjeuner, et je serai bien
+        heureuse, <persName key="Delacroix, Eugène (1798-1863)">ami</persName>, de passer ainsi
+        quelques heures avec toi ! Chez moi, on ne se doutera pas du tout de ma <hi rend="u">petite
+          fugue</hi>, et quant à tes voisins, je m’en moque… Enfin, écris-moi, ce que tu aurais déjà
+        dû faire. Toujours, <persName key="Delacroix, Eugène (1798-1863)">ami</persName>, tu
+        commences par penser à toi (ce qui est assez juste), à tes petites affaires, à tes petits
+        arrangements, à ton travail, et puis enfin à moi, si tu as le temps d’y songer.</p>
+
+
+      <closer>
+        <salute>Adieu, <persName key="Delacroix, Eugène (1798-1863)">cher ami</persName>, aussitôt
+          cette lettre reçue, réponds-moi, je t’en conjure, je t’aime et t’embrasse avec
+          passion !</salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">Consuelo </persName></signed>
+      </closer>
+
+      <postscript>
+        <p>Pardonne ma <hi rend="u">bête de lettre</hi> datée de <placeName
+            key="France, Ville-d'Avray">Ville-d’Avray</placeName></p>
+      </postscript>
+    </body>
+  </text>
+</TEI>
