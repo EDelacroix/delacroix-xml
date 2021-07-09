@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Paul Delaroche, 20 septembre 1850</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Brice Ameille</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque nationale de France</institution>
+            <repository>Département des manuscrits occidentaux</repository>
+            <idno>NAF 16800, fol 28-29</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="3"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>famille Delaroche-Vernet</provenance>
+          </history>
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1850-09-20"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delaroche, Paul (1797-1856)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="1" xml:id="p1"/>
+            <persName key="Delaroche, Paul (1797-1856)">Monsieur P. Delaroche</persName></addrLine>
+          <addrLine>Membre de l’<placeName key="France, Paris, Institut"
+            >Institut</placeName></addrLine>
+          <addrLine><placeName key="France, Paris, rue de la Tour-des-Dames, 7">rue de la
+              Tour-des-Dames, n° 7</placeName></addrLine>
+        </address>
+        <dateline>
+          <pb n="2" xml:id="p2"/> Ce <date when="1850-09-20">20</date><note place="bottom">La lettre
+            peut être datée du 20 septembre 1850. Le même jour, Delacroix envoya une lettre de la
+            même teneur à Mercey.</note></dateline>
+        <salute><persName key="Delaroche, Paul (1797-1856)">Mon cher ami</persName>, </salute>
+      </opener>
+
+
+      <p><persName key="Wappers, Gustave (1803-1874)">M. Wappers</persName><note place="bottom"
+          >Gustave Wappers (1803-1874), peintre et graveur belge, alors directeur de l’Académie
+          royale des beaux-arts d’Anvers (voir Hannoosh, <hi rend="it">Journal</hi>, t. II,
+          p. 2364).</note> doit partir mardi contre son attente. Il me demande de remettre notre
+        réunion à <hi rend="u">lundi</hi>. J’espère que rien ne vous empêchera pour ce jour<note
+          place="bottom">Delaroche ne put finalement se joindre au dîner : « <hi rend="it">23
+            septembre, lundi.</hi> – Wappers, Halévy, Mercey, Duban ont dîné avec moi. Delaroche
+          n’était pas à Paris. » (Hannoosh, <hi rend="it">Journal</hi>, p. 549).</note>.</p>
+
+
+      <closer>
+        <salute>À vous de cœur,</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+      <p>
+        <pb n="3" xml:id="p3"/>
+        <placeName key="France, Paris, rue Notre-Dame-de-Lorette, 58">rue Notre-Dame-de-Lorette,
+          n° 58.</placeName></p>
+      <p><placeName key="France, Paris">à Paris</placeName>, 4 h mardi</p>
+      <postscript>
+        <p>J’espère avoir <persName key="Duban, Félix (1797-1870)">Duban</persName> et <persName
+            key="Halévy, Fromental (1799-1862)">Halévy</persName>.</p>
+      </postscript>
+    </body>
+  </text>
+</TEI>
