@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, [3 décembre 1856]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Créteil</settlement>
+            <institution>Archives départementales du Val-de-Marne</institution>
+
+            <idno>2 J 187, pièce 41</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date when="1852-06-26"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <pb n="p.1"/>
+      <opener>
+        <dateline><date when="1852-06-26">ce mercredi</date></dateline>
+      </opener>
+
+
+      <p>Je m’empresse, <persName key="Delacroix, Eugène (1798-1863)">mon cher ami</persName>, de
+        vous remercier de vous être aussi promptement occupé de ma commission<note place="bottom"
+          >Joséphine de Forget, qui faisait des travaux dans son appartement de la rue de La
+          Rochefoucauld, demanda à Delacroix de lui conseiller un peintre pour décorer le plafond
+          d’une chambre d’un « ciel léger avec petits nuages ». Voir <ref type="letter"
+            target="CAC_ED_joubin-3-p345">la lettre de Delacroix à Louis Boulangé du 30 novembre
+            1856</ref> (Joubin, <hi rend="it">Corr. gén.</hi>, t. III, p. 345-346).</note>. Veuillez
+        m’envoyer <persName key="Boulangé, Louis (1812-1878)">la personne en
+          question</persName><note place="bottom">Louis Boulangé, élève puis collaborateur de
+          Delacroix.</note> un matin vers midi ; le prix qu’elle demande me convient très bien, et
+        ce sera bien meilleur marché que tout autre arrangement. Maintenant, il faut examiner le
+        plafond et l’état où il est<note place="bottom">Le jeudi 4 décembre, <ref type="letter"
+            target="CAC_ED_joubin-3-p346">Delacroix écrivit à Boulangé</ref> (Joubin, <hi rend="it"
+            >Corr. gén.</hi>, t. III, p. 346) pour lui demander s’il voulait bien passer chez
+          Joséphine de Forget pour constater l’état du plafond avant d’entreprendre les travaux, ce
+          qui permet de dater cette lettre.</note>.</p>
+      <p>J’espère, <persName key="Delacroix, Eugène (1798-1863)">ami</persName>, que je vous verrai
+        bientôt ; vendredi ou samedi je serai libre, venez me voir le soir, je serai bien heureuse
+        de passer quelques instants avec vous.</p>
+
+
+      <closer>
+        <salute>En attendant, mille tendresses.</salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">Baronne de
+          Forget</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
