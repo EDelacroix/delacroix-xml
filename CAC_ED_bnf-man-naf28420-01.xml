@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Hippolyte Taine, 13 mars 1863</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Brice Ameille</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque nationale de France</institution>
+            <repository>Département des manuscrits occidentaux</repository>
+            <idno>NAF 28420</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+            
+          </physDesc>
+          <history>
+            <provenance>Fonds Hippolyte Taine</provenance>
+          </history>
+        </msDesc>
+        
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1863-03-13"/>
+          
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Taine, Hippolyte (1828-1893)"/>
+        </correspAction>
+        
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+<opener>
+<dateline>
+<pb n="1" xml:id="p1"/> Ce <date>13 mars 1863</date></dateline>
+<salute><persName>Monsieur</persName><note place="bottom">Delacroix rencontre Hippolyte Taine(1828-1893) en janvier 1863, si l’on se fie à ce qu’écrit ce dernier dans ses notes personnelles (voir <hi rend="it">Hippolyte Taine, sa vie et sa correspondance</hi>, Paris, 1902-1907, vol. 2, p. 236-237). Cité dans Hannoosh, <hi rend="it">Journal</hi>, p. 1253, note 173.</note>,</salute>
+</opener>
+
+
+<p>J’ai bien des excuses à vous faire de vous renvoyer si tard votre excellent article<note place="bottom">Cet article n’a pu être identifié.</note>. J’ai voulu le relire, mais j’ai eu un accident aux yeux<note place="bottom">Cet accident n’est pas mentionné dans le <hi rend="it">Journal</hi>, mais Delacroix écrit à M. Damas-Hinard le 9 mars : « J’ai eu le bonheur de rencontrer une édition des fables <hi rend="it">in quarto</hi> [de La Fontaine] et en caractères énormes : de sorte que quand j’ai les yeux fatigués, je les repose avec cette unique lecture avec un enchantement égal pour l’esprit. »</note> qui m’a forcé à le garder plus longtemps. Votre peinture des côtes de la mer du Nord est vraiment terrible ; avec votre permission, je la mets au-dessus des poésies de ces sombres Anglais, malgré l’intérêt qu’elles présentent. Vous les rendez de manière à en augmenter l’effet.</p>
+
+
+<closer>
+<salute>Mille remerciements, <persName>Monsieur</persName> : vous m’avez procuré un véritable plaisir dont je veux vous remercier
+<pb n="2" xml:id="p2"/> en vous priant, en même temps, d’agréer l’expression de ma haute considération.</salute>
+<signed><persName>E. Delacroix</persName></signed>
+</closer>
+
+</body>
+  </text>
+</TEI>
