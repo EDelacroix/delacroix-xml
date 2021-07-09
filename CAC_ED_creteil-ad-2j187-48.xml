@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, 7 août 1860</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Créteil</settlement>
+            <institution>Archives départementales du Val-de-Marne</institution>
+            
+            <idno>2 J 187, pièce 48</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="4"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+            
+          </physDesc>
+          
+        </msDesc>
+        
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date when="1860-08-07"/>
+          <placeName>France, Château de Cordès</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+        <correspContext>
+          <ref target="CAC_ED_inha-aut120-1398-04i-2" type="replyTo"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+<opener>
+<address>
+<addrLine>
+<pb n="1" xml:id="p1"/> <persName>Monsieur Eugène Delacroix</persName>, 4 rue de Fürstenberg faubourg Saint-Germain <hi rend="u">Paris</hi></addrLine></address>
+<p>&lt;stamp&gt;Rochefort – Montagne : 9 août 1860 ; Clermont à Paris : 10 août 1860 ; Paris : 10 août 1860&lt;/stamp&gt;</p>
+<dateline>
+<pb n="2" xml:id="p2"/> <date>7 août</date>, <placeName>château de Cordès</placeName></dateline>
+</opener>
+
+
+<p>Où êtes-vous, <persName>mon cher ami</persName> ? Avez-vous quitté <placeName>Dieppe</placeName><note place="bottom">Joséphine de Forget répondait à la <ref type="letter">lettre de Delacroix datée du 26 juillet</ref>, alors qu’il séjournait à Dieppe, et écrivait qu’il voulait partir à cause du mauvais temps. Elle lui écrivit donc à Paris en pensant que son courrier lui serait transmis. </note> ? Je ne sais où vous adresser ma lettre, mais j’ai besoin de causer avec vous et de savoir de vos nouvelles. Moi, je suis partie de <placeName>Paris</placeName> le 2 août, et je suis arrivée, sans beaucoup de fatigue, le soir à <placeName>Clermont</placeName>, et de là dans une <placeName>ravissante campagne chez</placeName> <persName>Mme de Marpon</persName>, la nièce de <persName>Mme de Cordès</persName> ; le 4 nous sommes tous partis pour <placeName>Cordès</placeName>, où je suis bien installée dans ma chambre, que j’habitais lorsque je venais ici, il y a plus de trente ans<note place="bottom">Nous ignorons quels sont les liens de parenté entre Joséphine de Forget et Mme de Cordès. Mme de Cordès est probablement la fille de François Grangier de Lamothe (1757-1822), dernier seigneur du lieu, et entre autres maire de Clermont. Si elles n’ont pas de liens de parenté, elles ont des origines locales communes, au moins par alliance pour Joséphine.</note> ! Que d’événements pendant ces années ! Ce qui est triste, c’est de me retrouver vieille, lorsque j’étais si jeune et si fraîche quand je venais admirer ces belles montagnes, cette belle nature, qui, plus spirituelle que nous, ne vieillit pas ! <placeName>Le château</placeName> est bien antique puisqu’il date du XI<hi rend="sup">e</hi> siècle, il est bien curieux, bien pittoresque, et on s’y trouve très bien<note place="bottom">Le château de Cordès, situé près d’Orcival dans le Puy-de-Dôme, date en réalité du <num>xv<hi rend="sup">e</hi></num> siècle, mais sur des fondations plus anciennes ; il fut remanié au fil des siècles.</note>. 
+<pb n="3" xml:id="p3"/> <persName>Les hôtes</persName> de <placeName>cet antique manoir</placeName> sont bons et aimables pour moi, et cette vie douce et tranquille me rend bien heureuse, car il y a peu de monde. <persName>Mme de Cordès</persName> m’a beaucoup demandé de vos nouvelles et m’a dit qu’elle aurait été bien heureuse de vous recevoir<note place="bottom">Delacroix connaissait Mme de Cordès, car dans <ref type="letter">la lettre du 26 juillet</ref>, il demanda à Joséphine de lui présenter ses respects.</note> : quel bonheur aussi pour moi, <persName>mon ami</persName>, mais les bonnes choses de ce monde ne sont pas si faciles pour nous que pour les autres personnes.</p>
+<p>Êtes-vous de retour à <placeName>Paris</placeName> ? Votre séjour à <placeName>Dieppe</placeName> n’aura peut-être pas été très agréable pour vous car nous avons un été abominable, sans soleil, sans chaleur, et de la pluie presque tous les jours. Écrivez-moi, je vous en prie, car je suis triste de ne pas savoir où vous êtes, ce que vous faites et comment va votre santé. <persName>Eugène</persName><note place="bottom">Le fils aîné de Joséphine de Forget qui avait hérité du château de Pagnant, en Auvergne, par son père. </note> est en <placeName>Auvergne</placeName>, je l’attends cette semaine.</p>
+<salute>Adieu, <persName>cher bon ami</persName>, ne tardez pas à me répondre et soyez assuré de ma tendre et sincère affection. </salute>
+<p><persName>Baronne de Forget</persName></p>
+
+<pb n="4" xml:id="p4"/>
+<postscript>
+<p>Si vous avez besoin des trois <hi rend="it">Revue des Deux Mondes</hi> que vous m’avez prêtées avant votre départ, je vous les renverrais de chez moi, elles sont bien serrées. Voici mon adresse :</p></postscript>
+<address>
+<addrLine>Au château de Cordès, par Rochefort-Montagne (Puy-de-Dôme). </addrLine></address>
+<salute>Adieu encore, je vous embrasse de cœur, et mille tendresses.</salute>
+<lb type="line"/>
+</body>
+  </text>
+</TEI>
