@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, [19 août 1856]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Créteil</settlement>
+            <institution>Archives départementales du Val-de-Marne</institution>
+
+            <idno>2 J 187, pièce 43</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="4"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date when="1856-08-19"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Ce <date when="1856-08-19">mardi 19</date></dateline>
+      </opener>
+
+
+      <p>Il y a bien longtemps, <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName>,
+        que vous ne m’avez écrit. Heureusement que j’ai su de vos nouvelles : votre retour
+          <placeName key="France, Paris">à Paris</placeName> pour recevoir <persName
+          key="Lamey, Auguste (1772-1861)">votre vieux cousin</persName><note place="bottom">Auguste
+          Lamey séjourna chez Delacroix du 8 au 22 juillet (Hannoosh, <hi rend="it">Journal</hi>,
+          t. 1, p. 1030-1031).</note>, <rs type="work"
+          key="chapelle des Saints-Anges, église Saint-Sulpice">votre long et pénible
+          travail</rs><note place="bottom">Le décor de la chapelle des Saints-Anges à l’église
+          Saint-Sulpice.</note>, et par conséquent aucun moment à donner à vos amis. Je voulais
+        toujours, lorsque je vais <placeName key="France, Paris">à Paris</placeName>, courir un
+        instant pour vous demander de vos nouvelles, mais j’y reste si peu de temps que je me trouve
+        en retard pour toutes mes affaires. Lorsqu’on a commencé mes réparations, <placeName
+          key="France, Paris, rue de La Rochefoucauld, 19">rue de La Rochefoucauld</placeName>, on a
+        trouvé tant de choses en mauvais état qu’il a fallu <pb n="2" xml:id="p2"/> faire des
+        travaux énormes et impossible de rester <placeName key="France, Paris">à
+          Paris</placeName><note place="bottom">Depuis au moins 1849, Joséphine de Forget avait
+          emménagé au 19, rue de La Rochefoucauld. </note>. J’ai bien cherché dans les environs ;
+        enfin, à <placeName key="France, Saint-Germain-en-Laye">Saint-Germain</placeName>, j’ai
+        trouvé à louer une petite maison, assez laide mais commode et ayant un petit jardin : le
+        pays est joli, sain, et il y a de délicieuses promenades. Écrivez-moi pour me donner de vos
+        nouvelles : comment avez-vous supporté ces accablantes chaleurs ? N’avez-vous pas le projet
+        de voyager un peu ? Enfin, que je sache ce que vous faites, ce que vous devenez, je ne puis
+        rester aussi longtemps sans avoir de vos nouvelles. Moi, je me porte bien, ce séjour de la
+        campagne m’a fait grand bien car à <placeName key="France, Paris">Paris</placeName>
+        <pb n="3" xml:id="p3"/> j’étais souffrante et très fatiguée de tout ce tapage de <placeName
+          key="France, Paris, rue de La Rochefoucauld, 19">la maison</placeName> que j’ai supporté
+        pendant près d’une quinzaine de jours. Si vous saviez combien <placeName
+          key="France, Paris, rue de La Rochefoucauld, 19">cette pauvre maison</placeName> est
+        bouleversée, j’en ai été effrayée : il a fallu retoucher à tous les appartements. Maintenant
+        que je suis un peu calmée, je me réjouis fort de tous les embellissements nécessaires que je
+        fais faire<note place="bottom">Joséphine de Forget demanda à Delacroix de lui recommander
+          quelqu’un pour refaire un plafond. Voir à ce sujet les <ref type="letter"
+            target="CAC_ED_joubin-3-p345">lettres de Delacroix à Boulangé du 30 novembre</ref> et
+            <ref type="letter" target="CAC_ED_joubin-3-p346">4 décembre 1856</ref> (Joubin, <hi
+            rend="it">Corr. gén.</hi>, t. III, p. 345-346) ainsi que <ref type="letter"
+            target="CAC_ED_creteil-ad-2j187-41.xml">la lettre de Joséphine de Forget du 3 décembre
+            1856</ref> (Archives du Val-de-Marne, 2J 187, pièce 41).</note>. Je suis fort contente
+        de mon architecte.</p>
+      <p>Est-ce que <persName key="Rubempré, Alberthe de (1804-1873)">Mme de Rubempré</persName> est
+        ici ? Je n’aperçois pas <persName
+          key="Mareste, Apollinaire Louis Adolphe, baron de (1784-1867)">M. de Mareste</persName>
+        dans mes courses au chemin de fer.</p>
+      <p><persName key="Forget, Eugène de (1819-1885)">Mon fils Eugène</persName> est venu passer
+        quelques jours ici mais il est reparti pour son <placeName key="France, Auvergne"
+          >Auvergne</placeName>.</p>
+      <p>Lorsque j’irai à <placeName key="France, Paris">Paris</placeName>, <pb n="4" xml:id="p4"/>
+        et que j’aurai un instant à disposer, si je ne vous dérange pas, <persName
+          key="Delacroix, Eugène (1798-1863)">mon ami</persName>, j’irai vous dire un petit bonjour,
+        et je serai bien heureuse de vous voir.</p>
+
+
+      <closer>
+        <salute>En attendant, recevez toutes mes tendresses.</salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">Baronne de
+          Forget</persName></signed>
+      </closer>
+
+      <postscript>
+        <p>Vous seriez bien bon de m’envoyer quelques <hi rend="it">Revues des Deux Mondes</hi>
+          <placeName key="France, Paris, rue de La Rochefoucauld, 19">rue de
+            La Rochefoucauld</placeName>, pour lire ici. Lorsque vous voudrez mes revues
+          britanniques, je vous enverrai toutes celles que j’ai.</p>
+      </postscript>
+      <postscript>
+        <p>Adieu encore, <persName key="Delacroix, Eugène (1798-1863)">cher ami</persName>, ne
+          m’oubliez pas tout à fait.</p>
+      </postscript>
+    </body>
+  </text>
+</TEI>
