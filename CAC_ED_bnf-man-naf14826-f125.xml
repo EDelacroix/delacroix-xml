@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Charles et Sophie de Morny, 29 mai 1861</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Brice Ameille</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque nationale de France</institution>
+            <repository>Département des manuscrits occidentaux</repository>
+            <idno>NAF 4826, fol 125</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="1"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Johnson, <hi rend="it">Further Correspondence</hi>, p. 164</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1861-05-29"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Morny, Charles, duc de (1811-1865)"/>
+          <persName key="Morny, Sophie Troubetskoï, duchesse de (1838-1898)"/>
+        </correspAction>
+        <correspContext>
+          <ref target="lettres des familles Guérin et Strauss" type="replyTo"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Ce <date when="1861-05-29">29 mai 1861</date></dateline>
+      </opener>
+
+
+      <p><persName key="Delacroix, Eugène (1798-1863)">M. Eugène Delacroix</persName> ne manque pas
+        de se rendre avec beaucoup d’empressement à l’invitation que <persName
+          key="Morny, Charles, duc de (1811-1865)">Monsieur le Comte</persName> et <persName
+          key="Morny, Sophie Troubetskoï, duchesse de (1838-1898)">Madame la Comtesse de
+          Morny</persName><note place="bottom">Charles-Auguste-Louis-Joseph Morny (1811-1865), fils
+          naturel d’Hortense de Beauharnais et du général Charles de Flahaut, fut l’un des
+          principaux instigateurs du coup d’État qui, le 2 décembre 1851, maintint son demi-frère
+          Napoléon III à la tête du pays. Menant une active carrière politique sous le Second Empire
+          (ministre de l’Intérieur, puis président du Corps législatif, enfin ambassadeur pour la
+          Russie), il épousa en janvier 1857 la jeune Sophie Troubetskoï (1836-1896) (voir Hannoosh,
+            <hi rend="it">Journal</hi>, p. 2286).</note> lui ont fait l’honneur de lui adresser pour
+        le vendredi 31 mai.</p>
+    </body>
+  </text>
+</TEI>
