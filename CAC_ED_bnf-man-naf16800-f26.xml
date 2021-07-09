@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Paul Delaroche, 15 janvier 1851</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Brice Ameille</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">L'Institut</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque nationale de France</institution>
+            <repository>Département des manuscrits occidentaux</repository>
+            <idno>NAF 16800, fol 26-27</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="3"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>famille Delaroche-Vernet</provenance>
+          </history>
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1851-01-15"/>
+          <placeName>Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delaroche, Paul (1797-1856)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <placeName key="France, Paris">Paris</placeName>, ce <date when="1851-01-15">15 janvier
+            1851</date></dateline>
+        <salute><persName key="Delaroche, Paul (1797-1856)">Mon cher ami</persName>, </salute>
+      </opener>
+
+
+      <p>Vous m’avez bien manqué l’année dernière à pareille époque et vous me manquez bien encore
+        dans ces moments. J’aime à me flatter que vous m’auriez aidé et conseillé dans la recherche
+        où je suis lancé aujourd’hui comme je l’étais alors.</p>
+      <p>La mort de <persName key="Drolling, Michel Martin">Drolling</persName><note place="bottom"
+          >Michel Martin Drolling (1786-1851). Fils de Martin Drolling, il fut son élève, avant
+          d’entrer en 1806 dans l’atelier de David. Prix de Rome en 1810, il exposa au Salon de 1817
+          à 1850. Il fut élu à l’Académie des beaux-arts. Hannoosh, <hi rend="it">Journal</hi>,
+          t. II, p. 2169-2170.</note> laisse de nouveau une place vacante à l’<placeName
+          key="France, Paris, Institut">Académie</placeName>. Ma persistance est grande pour
+        l’obtenir, puisque voilà la sixième fois que je me présente<note place="bottom">Ce ne sera
+          toujours pas la bonne. Il sera élu, à sa huitième tentative, le 10 janvier
+        1857.</note>. Mais les concurrents sont redoutables. Je dois dire cependant que l’accueil
+        que j’ai reçu à ma <pb n="2" xml:id="p2"/> dernière candidature<note place="bottom">À
+          l’élection au fauteuil d’Étienne-Barthélémy Garnier, peintre décédé le 16 novembre 1849,
+          Delacroix avait été « présenté le quatrième par la section de peinture » (Joubin, <hi
+            rend="it">Corr. gén.</hi>, t. II, note 1, p. 415) et exprima sa reconnaissance au
+          président de l’Académie des beaux-arts « pour l’encouragement bienveillant qu’elle vient
+          de donner à ma candidature » (lettre du 28 décembre 1849) C’était sa quatrième tentative.
+          Il renonça de lui-même à la cinquième, comme il s’en explique dans cette même lettre :
+          « Je tiens d’autant plus à lui exprimer ce sentiment, que je renonce à solliciter ses
+          suffrages pour la nouvelle élection qu’elle va être appelée à faire, en remplacement de
+          l’illustre M. Granet, dont la perte récente vient d’affliger tous les amis des arts d’une
+          manière si sensible. M’étant abstenu comme tous les autres peintres d’histoire, à
+          l’occasion de la mort de M. Bidault, j’ai pensé que dans cette circonstance toute
+          analogue, je devais me contenter de supplier l’Académie de me conserver à l’avenir et pour
+          une autre occasion la faveur avec laquelle elle a bien voulu m’accueillir […] ».</note> a
+        été de nature à donner à mes espérances une sorte de corps. L’accueil de quelques personnes
+        que j’avais lieu de croire contraires a été différent de celui que j’avais rencontré à mes
+        présentations précédentes. En un mot, il y a progrès et je l’ai constaté par les 7 voix que
+        j’ai eues, contraste formel avec le résultat des candidatures antérieures.</p>
+      <p>Plusieurs de nos conversations et la connaissance que je crois avoir de vos sentiments me
+        donnent l’assurance que votre appui ne me manquerait pas dans cette circonstance. Est-ce que
+        l’influence d’un homme comme vous, même <pb n="3" xml:id="p3"/> à distance, n’aurait pas
+        d’effet sur les amis qui vous écoutent comme vous le méritez ? Je vous fais juge de la
+        possibilité de quelques démonstrations de votre part pour un vieux camarade qui a été
+        heureux de vous connaître un peu davantage depuis le temps assez récent où nous avons été
+        plus souvent réunis.</p>
+
+
+      <closer>
+        <salute>Dans tous les cas, un mot affectueux de vous me fera grand plaisir. Recevez, en
+          attendant, <persName key="Delaroche, Paul (1797-1856)">mon cher ami</persName>,
+          l’expression de mon regret pour le motif qui vous éloigne, puisque c’est la santé de votre
+          enfant, et celle de mon sincère attachement.</salute>
+        <signed><persName key="Delaroche, Paul (1797-1856)">Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
