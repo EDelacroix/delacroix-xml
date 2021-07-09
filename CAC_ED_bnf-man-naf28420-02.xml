@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Hippolyte Taine, 2 mai 1863</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Brice Ameille</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les grandes commandes publiques</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque nationale de France</institution>
+            <repository>Département des manuscrits occidentaux</repository>
+            <idno>NAF 28420</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Fonds Hippolyte Taine</provenance>
+          </history>
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1863-05-02"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Taine, Hippolyte (1828-1893)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Ce <date when="1863-05-02">2 mai 1863</date>.</dateline>
+        <salute><persName key="Taine, Hippolyte (1828-1893)">Monsieur</persName>, </salute>
+      </opener>
+
+
+      <p>J’ai l’honneur de vous adresser un mot pour <persName key="Martin, Paul">M. Paul
+          Martin</persName>, sous-bibliothécaire du Corps législatif. Je ne doute pas qu’il ne vous
+        donne toutes les facilités d’introduction pour la <rs type="work"
+          key="Assemblée nationale, Bibliothèque">bibliothèque</rs>, et pour le <rs type="work"
+          key="Assemblée nationale, Salon du Roi">salon du roi</rs>, si vous désirez aussi le
+          visiter<note place="bottom">Par cette lettre, Delacroix permet à Hippolyte Taine
+          (1828-1893) d’accéder aux décors qu’il a réalisés à l’Assemblée nationale. Il avait reçu
+          la commande pour le Salon du roi le 31 août 1833. À peine les peintures achevées en 1836,
+          il reçoit en août 1838 une nouvelle commande pour décorer cette fois la bibliothèque. Il y
+          travaillera près de dix ans.</note>. Je ne saurais trop vous engager à choisir un jour
+        très clair : il me faut absolument le soleil pour auxiliaire, car la place des peintures est
+        peu favorable.</p>
+
+
+      <closer>
+        <salute>Je suis heureux, moi aussi, de vous exprimer combien je me <pb n="2" xml:id="p2"/>
+          trouve flatté de votre désir de visiter de nouveau <rs type="work"
+            key="Assemblée nationale, Salon du Roi"><rs type="work"
+              key="Assemblée nationale, Bibliothèque">ces peintures</rs></rs> à peu près inconnues,
+          et vous prie bien d’agréer l’assurance de la considération la plus distinguée et la plus
+          sentie.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
