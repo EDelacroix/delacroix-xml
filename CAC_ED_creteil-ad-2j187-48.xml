@@ -126,8 +126,8 @@
           >Mme de Cordès était la fille de François Grangier de Lamothe (1757-1822), dernier
           seigneur du lieu, et entre autres maire de Clermont. Elle appartenait ainsi à la famille
           de Forget et était une parente par alliance de Joséphine de Forget. Voir Henry d'Ideville,
-            <hi rend="it">Les Châteaux de mon enfance (Auvergne et Bourbonnais), Paris, 1878, p.
-            205.</hi></note> ! Que d’événements pendant ces années ! Ce qui est triste, c’est de me
+            <hi rend="it">Les Châteaux de mon enfance (Auvergne et Bourbonnais)</hi>, Paris, 1878,
+          p. 205.</note> ! Que d’événements pendant ces années ! Ce qui est triste, c’est de me
         retrouver vieille, lorsque j’étais si jeune et si fraîche quand je venais admirer ces belles
         montagnes, cette belle nature, qui, plus spirituelle que nous, ne vieillit pas ! <placeName
           key="France, Château de Cordès">Le château</placeName> est bien antique puisqu’il date du
@@ -135,25 +135,30 @@
         très bien<note place="bottom">Le château de Cordès, situé près d’Orcival dans le
           Puy-de-Dôme, date en réalité du XV<hi rend="sup">e</hi> siècle, mais sur des fondations
           plus anciennes ; il fut remanié au fil des siècles.</note>. <pb n="3" xml:id="p3"/>
-        <persName key="Cordès, Madame de">Les hôtes</persName> de <placeName key="France, Château de Cordès">cet antique manoir</placeName> sont bons et
-        aimables pour moi, et cette vie douce et tranquille me rend bien heureuse, car il y a peu de
-        monde. <persName>Mme de Cordès</persName> m’a beaucoup demandé de vos nouvelles et m’a dit
-        qu’elle aurait été bien heureuse de vous recevoir<note place="bottom">Delacroix connaissait
-          Mme de Cordès, car dans <ref type="letter">la lettre du 26 juillet</ref>, il demanda à
-          Joséphine de lui présenter ses respects.</note> : quel bonheur aussi pour moi,
-          <persName>mon ami</persName>, mais les bonnes choses de ce monde ne sont pas si faciles
-        pour nous que pour les autres personnes.</p>
-      <p>Êtes-vous de retour à <placeName>Paris</placeName> ? Votre séjour à
-          <placeName>Dieppe</placeName> n’aura peut-être pas été très agréable pour vous car nous
-        avons un été abominable, sans soleil, sans chaleur, et de la pluie presque tous les jours.
-        Écrivez-moi, je vous en prie, car je suis triste de ne pas savoir où vous êtes, ce que vous
-        faites et comment va votre santé. <persName>Eugène</persName><note place="bottom">Le fils
-          aîné de Joséphine de Forget qui avait hérité du château de Pagnant, en Auvergne, par son
-          père. </note> est en <placeName>Auvergne</placeName>, je l’attends cette semaine.</p>
+        <persName key="Cordès, Madame de">Les hôtes</persName> de <placeName
+          key="France, Château de Cordès">cet antique manoir</placeName> sont bons et aimables pour
+        moi, et cette vie douce et tranquille me rend bien heureuse, car il y a peu de monde.
+          <persName key="Cordès, Madame de">Mme de Cordès</persName> m’a beaucoup demandé de vos
+        nouvelles et m’a dit qu’elle aurait été bien heureuse de vous recevoir<note place="bottom"
+          >Delacroix connaissait Mme de Cordès, car dans <ref type="letter"
+            target="CAC_ED_inha-aut120-1398-04i-2">la lettre du 26 juillet</ref>, il demanda à
+          Joséphine de Forget de lui présenter ses respects.</note> : quel bonheur aussi pour moi,
+          <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName>, mais les bonnes choses
+        de ce monde ne sont pas si faciles pour nous que pour les autres personnes.</p>
+      <p>Êtes-vous de retour à <placeName key="France, Paris">Paris</placeName> ? Votre séjour à
+          <placeName key="France, Dieppe">Dieppe</placeName> n’aura peut-être pas été très agréable
+        pour vous car nous avons un été abominable, sans soleil, sans chaleur, et de la pluie
+        presque tous les jours. Écrivez-moi, je vous en prie, car je suis triste de ne pas savoir où
+        vous êtes, ce que vous faites et comment va votre santé. <persName
+          key="Forget, Eugène de (1819-1885)">Eugène</persName><note place="bottom">Le fils aîné de
+          Joséphine de Forget qui avait hérité du château de Pagnant, en Auvergne, par son père.
+        </note> est en <placeName key="France, Auvergne">Auvergne</placeName>, je l’attends cette
+        semaine.</p>
       <closer>
-        <salute>Adieu, <persName>cher bon ami</persName>, ne tardez pas à me répondre et soyez
-          assuré de ma tendre et sincère affection. </salute>
-        <signed><persName>Baronne de Forget</persName></signed>
+        <salute>Adieu, <persName key="Delacroix, Eugène (1798-1863)">cher bon ami</persName>, ne
+          tardez pas à me répondre et soyez assuré de ma tendre et sincère affection. </salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">Baronne de
+          Forget</persName></signed>
       </closer>
 
       <pb n="4" xml:id="p4"/>
@@ -161,11 +166,13 @@
         <p>Si vous avez besoin des trois <hi rend="it">Revue des Deux Mondes</hi> que vous m’avez
           prêtées avant votre départ, je vous les renverrais de chez moi, elles sont bien serrées.
           Voici mon adresse :</p>
+        <p>
+          <address>
+            <addrLine><placeName key="France, Château de Cordès">Au château de Cordès, par
+                Rochefort-Montagne (Puy-de-Dôme)</placeName>. </addrLine>
+          </address></p>
+        <salute>Adieu encore, je vous embrasse de cœur, et mille tendresses.</salute>
       </postscript>
-      <address>
-        <addrLine>Au château de Cordès, par Rochefort-Montagne (Puy-de-Dôme). </addrLine>
-      </address>
-      <salute>Adieu encore, je vous embrasse de cœur, et mille tendresses.</salute>
     </body>
   </text>
 </TEI>
