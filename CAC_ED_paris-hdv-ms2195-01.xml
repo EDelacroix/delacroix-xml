@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à [Joséphine de Forget], [31 octobre 1853]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’Hôtel de Ville</institution>
+
+            <idno>Ms 2195, pièce 1</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="1"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, III, p. 174-175</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1853-10-31"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <date when="1853-10-31">Ce lundi matin</date></dateline>
+        <salute><persName key="Forget, Joséphine de (1802-1886)">Chère amie</persName>,</salute>
+      </opener>
+
+
+      <p>je revenais de <placeName key="France, Champrosay">Champrosay</placeName> pendant que votre
+        bonne lettre allait m’y chercher<note place="bottom">Il partit de Champrosay le 29 octobre
+            (<hi rend="it">Journal</hi>, p. 703).</note>. Je suis ici depuis trois jours et si je
+        n’ai pas été encore vous remercier de votre souvenir. C’est que je me suis trouvé forcé à
+          <rs type="work" key="Salon de la Paix, Hôtel de Ville">un travail extraordinaire au
+          plafond</rs> qui me fatigue le soir<note place="bottom">Delacroix travaillait alors au
+          décor du plafond du Salon de la Paix à l’Hôtel de Ville.</note>. Mais j’irai dans un jour
+        ou deux vous surprendre après votre dîner et vous raconter mes aventures. J’ai fini par
+        trouver que je ferais aussi bien de reprendre mes quartiers d’hiver à <placeName
+          key="France, Paris">Paris</placeName>, mais mes excursions m’ont été bien profitables et
+        me feront probablement terminer <rs type="work" key="Salon de la Paix, Hôtel de Ville">mon
+          travail</rs> plus tôt que je ne pensais. Ma santé aussi s’en trouve bien.</p>
+
+
+      <closer>
+        <salute>Je vous embrasse mille fois, <persName key="Forget, Joséphine de (1802-1886)">chère
+            amie</persName>, avec un grand désir de vous revoir.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
