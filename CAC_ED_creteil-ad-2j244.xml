@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Joséphine de Forget, [printemps 1848 ?]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Créteil</settlement>
+            <institution>Archives départementales du Val-de-Marne</institution>
+
+            <idno>2 J 244</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="5"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Escholier, <hi rend="it">Eugène Delacroix et sa « consolatrice »</hi>, 1932, p.
+            121-122 (éd. partielle)</bibl>
+          <bibl>Joubin, II, p. 382-383 (lettre datée du 21 juin 1849)</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1848"/>
+          <placeName>Champrosay</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="Enveloppe"/>
+            <persName key="Forget, Joséphine de (1802-1886)">Madame la Baronne de
+            Forget</persName></addrLine>
+        </address>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <placeName key="France, Champrosay">Champrosay</placeName>, <date>jeudi</date>.</dateline>
+        <salute><persName key="Forget, Joséphine de (1802-1886)">Bonne amie</persName>,</salute>
+      </opener>
+
+
+      <p>Merci mille fois de ta bonne et chère lettre. Elle m’a donné de tes nouvelles et mis au
+        courant de la situation. Depuis, j’ai lu un journal qui était, je crois, du lendemain et qui
+        m’a confirmé toutes tes nouvelles<note place="bottom">Il est très difficile de savoir à
+          quels événements précis Delacroix fait référence. Plus loin, son allusion à Louis Blanc et
+          aux « républicains enragés » comme Cerfbeer et Vieillard permet de les rapprocher de la
+          révolution de 1848 et donc possiblement à des événements postérieurs, notamment de 1849.
+          Malheureusement, Delacroix ayant perdu son agenda de 1848 (voir à ce sujet : Hannoosh, <hi
+            rend="it">Journal</hi>, 2009, p. 406), il nous est impossible de croiser les
+          informations données dans la lettre pour cette année.</note>. Le premier fruit que je
+        recueille de mon séjour ici, c’est de ne point penser le moins du monde à ce qui [se] passe
+        dans <placeName key="France, Paris">cet odieux Paris</placeName>. Je ne conçois même pas
+        quelle est la rage qui y retient tant de monde ; nous n’en sommes pas encore au pillage
+        général rêvé par <persName key="Blanc, Louis (1811-1882)">M. Louis Blanc</persName><note
+          place="bottom">Louis Blanc (1811-1882) était journaliste et historien. Il publia en 1839
+          une brochure qui le rendit célèbre intitulée <hi rend="it">L’Organisation du travail</hi>.
+          Il y propose la création d’ateliers sociaux pour répondre aux problèmes de l’économie et
+          des travailleurs. Défenseur du suffrage universel, il participe à la campagne des Banquets
+          qui fut à l’origine des barricades de février 1848 à Paris et de l’abdication de
+          Louis-Philippe. Au printemps 1848, il est appelé à présider la Commission du Luxembourg,
+          chargée d’améliorer la condition des travailleurs. Il participa ensuite à la manifestation
+          du 15 mai 1848 avec les républicains les plus radicaux. Elle se transforma en émeute,
+          l’Assemblée nationale fut envahie et un gouvernement insurrectionnel, dont Louis Blanc
+          faisait partie, fut proclamé. Ce fut finalement un échec et Louis Blanc dut s’exiler pour
+          éviter la prison. Ainsi, il est possible que Delacroix fasse référence dans sa lettre à
+          ces émeutes du 15 mai 1848. Si l’on suit cette hypothèse, la lettre pourrait être datée du
+          18 mai 1848.</note> et consorts : par conséquent, il me semble qu’un peu d’oubli dans un
+        pareil temps serait le bonheur suprême. Il est bien juste que les républicains enragés de
+        tout temps, tels que <persName key="Cerfbeer, Alfonse de Medelsheim (1817-1883)"
+          >Cerfbeer</persName> et <persName key="Vieillard, Narcisse (1791-1857)"
+          >Vieillard</persName>, <pb n="2" xml:id="p2"/>veillent de près à une si belle besogne qui
+        est la leur. Si c’est là la réalisation du rêve qu’ils ont fait depuis quarante ans pour le
+        bonheur de l’espèce humaine, ils font bien de n’en rien perdre. Je te plains donc beaucoup,
+        toi qui n’as nullement à recueillir le fruit de tout ceci, de rester au centre de la
+        fournaise. Sois sûre que si tu t’étais réfugiée dans une campagne quelconque au risque de
+        t’y ennuyer, tu aurais eu un calme incomparable.</p>
+      <p>Je ne suis pas encore content de ma santé : je suis souffrant de l’estomac tous les matins
+        et me fatigue facilement<note place="bottom">Les maux d’estomac mentionnés par Delacroix
+          pourraient également faire pencher pour l’année 1848, car dans <ref type="letter"
+            target="CAC_ED_inha-aut120-1398-04e-1">sa lettre du 14 juin 1849 à Joséphine
+            de Forget</ref> (datée par le cachet postal), il indique que sa « santé est
+          excellente ».</note>. C’est ce qui me fait encore redouter de retourner à <placeName
+          key="France, Paris">Paris</placeName> : je te récrirai pour te dire quand j’aurai le
+        plaisir de t’y revoir. Je suis bien heureux de ce que tu me dis de notre dernière entrevue.
+          <pb n="3" xml:id="p3"/> J’en ai conservé le souvenir rafraîchissant par-dessus
+        l’impression de <placeName key="France, Paris">ce maudit Paris</placeName>. J’entends ici
+        quelques échos de nouvelles mais je ramène autant que je peux la conversation sur les
+        cancans du village.</p>
+      <p>J’ai fait la connaissance d’un original qui vit ici et qui est <persName
+          key="Delarche, François Nicolas">le maire</persName><note place="bottom">Selon l’annuaire
+          de la mairie de Draveil, le maire était alors François Nicolas Delarche (maire du 13 mars
+          1848 à 1860).</note>. C’est un bavard infernal qui parle de tout et se connaît surtout en
+        jardins et en bâtisses. Il me prête son appui pour restaurer mon jardin mais je commence
+        déjà à le redouter : il ne croit déranger personne en vous tombant sur le dos à tout propos
+        et tu sais que sans être ours au point où je le suis, on peut souffrir beaucoup d’un
+        semblable compagnon.</p>
+      <p>Écris-moi encore, <persName key="Forget, Joséphine de (1802-1886)">bonne amie</persName>.
+        Parle-moi de toi, de ta santé, si tu as <pb n="4" xml:id="p4"/> encore rencontré <hi
+          rend="u">des voyageurs bruns</hi> et à <hi rend="u">nez retroussé</hi> dans mon genre.
+        Moi, je ne vois ici que l’azur du ciel, excepté aujourd’hui où il semble qu’il va y avoir de
+        l’orage. <persName key="Villot, Antoinette Daudet, épouse">La mère de <persName key="Villot, Frédéric (1809-1875)">M. Villot</persName></persName> est
+        bien souffrante et a bien mauvais air : pour lui et <persName
+          key="Villot, Pauline Florimonde Barbier, épouse (1812-1875)">sa femme</persName>, on ne
+        les voit pas autant<note place="bottom">Cette indication de Delacroix remet en question la
+          datation de la lettre par Joubin, car le peintre écrit dans son journal au 17 juin avoir
+          vu Villot tous les jours pendant une semaine, car il était venu se reposer, puis avoir
+          revu Mme Villot le 20 juin, à son retour de Paris (Hannoosh, 2009, p. 449-450).</note>.
+        Ses fonctions<note place="bottom">Frédéric Villot avait été nommé conservateur du
+          département des Peintures au Louvre le 24 mars 1848, et devint également, en 1849, membre
+          résidant de la Société nationale des antiquaires de France.</note> le retiennent et
+        l’absorbent.</p>
+
+
+      <closer>
+        <salute>Adieu, <persName key="Forget, Joséphine de (1802-1886)">ma bonne chérie</persName>.
+          Longue lettre et tendresse infinie.</salute>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
