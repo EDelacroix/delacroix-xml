@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, 28 mars [1846]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Créteil</settlement>
+            <institution>Archives départementales du Val-de-Marne</institution>
+
+            <idno>2 J 187, pièce 26</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date when="1846-03-28"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <placeName key="France, Paris, rue Notre-Dame-de-Lorette, 54"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="1" xml:id="p1"/>
+            <persName key="Delacroix, Eugène (1798-1863)">Monsieur Eugène Delacroix</persName>
+            <placeName key="France, Paris, rue Notre-Dame-de-Lorette, 54">54, rue notre Dame de
+              Lorette. Paris</placeName></addrLine>
+        </address>
+        <stamp><date when="....-03-29">29 mars</date></stamp>
+      </opener>
+
+
+      <p>
+        <pb n="2" xml:id="p2"/> Je ne sortirai pas demain dans le journée, si vous voulez venir, et
+        que vous ayez le temps, je serai enchantée de vous recevoir. Si vous aviez préféré, j’aurais
+        été visiter <placeName key="France, Paris, rue Notre-Dame-de-Lorette, 54">votre bel
+          atelier</placeName> ; dans ce cas-là, vous me le feriez dire demain matin. Si vous vouliez
+        venir déjeuner, je vous donnerai un tasse de café à midi.</p>
+
+
+      <closer>
+        <salute>Dans tous les cas, je vous donnerai à dîner mardi prochain, en attendant, <persName
+            key="Delacroix, Eugène (1798-1863)">ami</persName>, recevez toutes mes tendresses.</salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">Consuelo</persName></signed>
+        <dateline>Ce <date when="1846-03-28">samedi soir</date><note place="bottom">Le cachet postal
+            permet de lire la date du 29 mars et un autre tampon indique qu’il s’agit de la levée du
+            matin. Il est fort probable donc que la lettre écrite le samedi soir ne fut acheminée
+            que le dimanche matin. Durant la période où Joséphine de Forget signait ses lettres à
+            Delacroix « Consuelo », seul le 29 mars 1846 tomba un dimanche, ce qui permet de dater
+            l’écriture de la lettre de la veille. </note></dateline>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
