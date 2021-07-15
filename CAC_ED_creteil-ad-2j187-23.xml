@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, [entre 1844 et 1850]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Créteil</settlement>
+            <institution>Archives départementales du Val-de-Marne</institution>
+
+            <idno>2 J 187, pièce 23</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date notBefore="1844-10" notAfter="1850"/>
+
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <placeName key="France, Paris, rue Notre-Dame-de-Lorette, 54"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="1" xml:id="p1"/>
+            <persName key="Delacroix, Eugène (1798-1863)">Monsieur Eugène Delacroix</persName>.
+              <placeName key="France, Paris, rue Notre-Dame-de-Lorette, 54">54, rue
+              Notre-Dame-de-Lorette</placeName></addrLine>
+        </address>
+      </opener>
+
+
+      <p>
+        <pb n="2" xml:id="p2"/> Que devenez-vous, <persName key="Delacroix, Eugène (1798-1863)">mon
+          ami</persName> ? Êtes-vous malade, que vous est-il donc arrivé que je ne vous vois plus ?
+        J’envoie savoir de vos nouvelles, et vous avertir que probablement demain vendredi, j’irai
+        au spectacle, et que je ne serai pas chez moi. Alors, voudrez-vous venir dîner avec moi,
+        après-demain samedi ? Tous ces soirs, je suis restée chez moi, avec l’espoir de vous
+        voir !</p>
+
+
+      <closer>
+        <salute>Adieu et mille tendresses.</salute>
+        <p>Ne me répondez pas ce soir, mais demain par la poste.</p>
+        <salute>Tout à vous.</salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">Joséphine</persName></signed>
+        <dateline>Ce <date>jeudi soir</date><note place="bottom">Si cette lettre ne peut pas être
+            précisément datée, il est néanmoins possible de la situer, grâce à l'adresse de
+            Delacroix. En effet, il s'installa en 1844 au 54, rue Notre-Dame-de-Lorette qui devint
+            vers 1850 le numéro 58. C'est aussi à cette période que son amante signe parfois "Joséphine"
+            les lettres qu'elle lui écrit.</note></dateline>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
