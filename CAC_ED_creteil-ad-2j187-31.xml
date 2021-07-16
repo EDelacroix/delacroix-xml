@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, [s.d.]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Créteil</settlement>
+            <institution>Archives départementales du Val-de-Marne</institution>
+
+            <idno>2 J 187, pièce 31</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+      <p>
+        <pb n="1" xml:id="p1"/> Que devenez-vous donc, <persName key="Delacroix, Eugène (1798-1863)"
+          >cher ami</persName> ? Comment va votre santé, travaillez-vous toujours beaucoup ? Il y a
+        bien longtemps que je n’ai eu le bonheur de vous voir. Je n’ai pas été moi-même m’informer
+        de vos nouvelles, craignant de ne pas vous trouver. Répondez-moi un mot pour me parler de
+        votre santé et si vous voulez venir aux <placeName key="France, Paris, Théâtre-Italien"
+          >Italiens</placeName> samedi prochain, c’est mon jour de loge. Peut-être aurai-je <hi
+          rend="it">Sémiramis</hi> ou <hi rend="it">Le mariage secret</hi><note place="bottom"><hi
+            rend="it">Semiramide</hi> de Rossini, ainsi qu’<hi rend="it">Il Matrimonio Segreto</hi>
+          de Cimarosa eurent beaucoup de succès et furent régulièrement joués au Théâtre-Italien.
+          Delacroix assista à plusieurs représentations de ces deux opéras qu’il appréciait
+          beaucoup, ce qui ne permet pas de dater plus précisément cette lettre.</note>. Si l’on
+        donne <pb n="2" xml:id="p2"/> un de ces deux opéras, puis-je compter sur vous ? Si l’on
+        donne du <persName key="Verdi, Giuseppe (1813-1901)">Verdi</persName>, je ne vous ferai rien
+        dire. Je serai bien heureuse de passer quelques bons moments avec vous, et qui deviennent si
+        rares maintenant ! Je me porte bien, <persName key="Forget, Eugène de (1819-1885)"
+          >Eugène</persName> est de retour d’<placeName key="France, Auvergne">Auvergne</placeName>,
+        ce qui fait que je suis heureuse mais isolée.</p>
+
+      <closer>
+        <salute>Adieu, <persName key="Delacroix, Eugène (1798-1863)">cher bon ami</persName>,
+          j’espère que votre santé a bien supporté cet affreux temps si malsain. Je vous embrasse et
+          vous aime bien tendrement. </salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">Baronne de Forget</persName><note
+            place="bottom">Joséphine de Forget semble adopter cette signature dans ses lettres à
+            Delacroix à partir de 1852. Cette lettre serait donc postérieure.</note></signed>
+        <dateline>Ce mercredi matin</dateline>
+      </closer>
+
+
+    </body>
+  </text>
+</TEI>
