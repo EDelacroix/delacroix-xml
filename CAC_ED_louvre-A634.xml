@@ -7,7 +7,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, entre 1838 et 1848</title>
+        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, 5 novembre 1839</title>
         <author key="Delacroix, Eugène (1798-1863)"/>
       </titleStmt>
       <editionStmt>
@@ -44,7 +44,7 @@
             <settlement>Paris</settlement>
             <institution>Musée du Louvre</institution>
             <repository>Département des Arts graphiques</repository>
-            <idno>A 632</idno>
+            <idno>A 634</idno>
           </msIdentifier>
           <physDesc>
             <objectDesc form="letter">
@@ -61,7 +61,7 @@
           </history>
         </msDesc>
         <listBibl>
-          <bibl>Joubin, II, p. 11</bibl>
+          <bibl>Joubin, II, p. 42</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
@@ -69,12 +69,12 @@
       <correspDesc>
         <correspAction type="sent">
           <persName key="Delacroix, Eugène (1798-1863)"/>
-          <date notbefore="1838" notafter="1847"/>
+          <date when="1839-11-05"/>
 
         </correspAction>
         <correspAction type="received">
           <persName key="Pierret, Jean-Baptiste (1795-1854)"/>
-          <placeName key="France, Paris, rue Tronchet, 13"/>
+          <placeName key="France, Paris, rue Tronchet, 11"/>
         </correspAction>
 
       </correspDesc>
@@ -92,38 +92,34 @@
         <address>
           <addrLine>
             <pb n="1" xml:id="p1"/>
-            <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur
-            Pierret</persName></addrLine>
-          <addrLine><placeName key="France, Paris, rue Tronchet, 13">Rue Tronchet,
-            13</placeName></addrLine>
+            <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur Pierret</persName>
+          </addrLine>
+          <addrLine><placeName key="France, Paris, rue Tronchet, 11">Rue Tronchet, n° 11 ou 23,
+              quartier de la Madeleine</placeName></addrLine>
         </address>
-        
-        <dateline>
+        <salute>
           <pb n="2" xml:id="p2"/>
-          <date notbefore="1838" notafter="1847">Mardi 15</date>.</dateline>
-        <salute><persName key="Pierret, Jean-Baptiste (1795-1854)">Cher ami</persName>, </salute>
+          <persName key="Pierret, Jean-Baptiste (1795-1854)">Cher ami</persName>,</salute>
       </opener>
 
 
-      <p><persName key="Villot, Frédéric (1809-1875)">Villot</persName> vient demain <hi rend="u"
-          >mercredi</hi> de la campagne et dînera avec moi : tu serais bien aimable d’en être.
-        J’espère avoir <persName key="Riesener, Léon (1808-1878)">Riesener</persName>. Amène
-          <persName key="Pierret, Henri Maximilien (1828-?)">Henry</persName>, bien entendu.</p>
-      <p>Je n’ai pas été te voir l’autre jour au Ministère parce que j’ai causé un peu longuement
-        avec <persName key="Rivet, Charles (1800-1872)">Rivet</persName><note place="bottom">Il
-          s’agit de Charles Rivet (1800-1872), homme politique qui était un bon ami de
-          Delacroix.</note> et que le temps me pressait.</p>
+      <p>J’ai prié étourdiment Mlle Chose<note place="bottom">Selon Joubin (II, p. 42), il pourrait
+          s’agir de Marie de Rozières (1805?-1865), amie et élève de Chopin.</note> de me faire
+        entendre sa musique à midi. Comme elle a laissé à ma disposition que ce fût plus tard, je
+        lui écris pour le lui demander, parce que j’aurais le temps de faire une matinée de travail,
+        parce que je ne connais pas de musique capable de m’empêcher de regretter le temps perdu
+        maintenant.</p>
+      <p>Je ne lui fais aucune proposition immorale, par conséquent le service que tu me rends met à
+        couvert ton honneur. Mais il faut que tu mettes le numéro et que tu mettes cela à la
+        poste.</p>
 
 
       <closer>
-        <salute>Je t’embrasse, à demain.</salute>
+        <salute>Adieu, <persName key="Pierret, Jean-Baptiste (1795-1854)">bon et cher
+          ami</persName>.</salute>
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
       </closer>
 
-      <postscript>
-        <p>Prends note que je voudrais bien avoir : 3 savons à l’amande amère, 2 musc, deux
-          patchouly, une douzaine de savons communs.</p>
-      </postscript>
     </body>
   </text>
 </TEI>
