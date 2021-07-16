@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, 22 [novembre 1861]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Créteil</settlement>
+            <institution>Archives départementales du Val-de-Marne</institution>
+
+            <idno>2 J 187, pièce 29</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="3"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date when="1861-11-22"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Ce <date when="1861-11-22">vendredi 22</date></dateline>
+        <salute><persName key="Delacroix, Eugène (1798-1863)">Mon cher ami</persName>, </salute>
+      </opener>
+
+
+      <p>je reçois votre lettre et je regrette bien votre bonne visite demain samedi. Je ne sais si
+        j’aurai <hi rend="it">Alceste</hi> lundi prochain<note place="bottom"><hi rend="it"
+            >Alceste</hi> de Gluck avait été remonté sous la direction de Berlioz pour l’Opéra. Il
+          fut joué à partir du 21 octobre 1861 avec Pauline Viardot dans le rôle d’Alceste. Pauline
+          Viardot avait invité Delacoix à une répétition générale, mais il ne put s’y rendre.
+          Plusieurs lettres échangées avec Joséphine de Forget à cette période évoquent cet opéra
+          car ils partageaient une passion commune pour la musique.</note>, mais ce que je sais très
+        bien, c’est que je serai privée de votre société. Je conçois du reste vos craintes par ce
+        froid, mais revenez bientôt car en vérité le temps va devenir bien rude pour rester à
+          <placeName key="France, Champrosay">la campagne</placeName><note place="bottom">Delacroix
+          passait de plus en plus de temps dans sa maison de campagne à Champrosay.</note>. Je vous
+        donnerai à dîner samedi prochain avec le plus grand plaisir : c’est mon <pb n="2"
+          xml:id="p2"/> jour des <placeName key="France, Comédie-Italienne">Italiens</placeName> ;
+        je vous en avertis seulement pour que vous vous ne soyez pas <hi rend="u">ce jour</hi>-là
+          <hi rend="u">trop ébouriffé</hi> de ma toilette, et je vous sacrifierai bien aisément une
+        heure de mon spectacle et cela sans aucun mérite, je vous assure.</p>
+      <p>Adieu, <persName key="Delacroix, Eugène (1798-1863)">cher ami</persName>, vous avez bien
+        fait de donner votre démission<note place="bottom">Delacroix venait de démissionner du
+          conseil municipal de Paris où il siégeait depuis 1851.</note>, l’indépendance est une si
+        belle chose !</p>
+      <p><persName key="Forget, Eugène de (1819-1885)">Mon fils</persName> ne m’est pas encore
+        revenu.</p>
+      <p>Je ne sais à quelle heure vous recevrez cette lettre, mais demain samedi, je n’avais pas le
+        projet de sortir de la journée, et si vous vous ravisiez, vous me trouveriez <pb n="3"
+          xml:id="p3"/> et moi je serai enchantée de vous voir, comme toujours.</p>
+
+
+      <closer>
+        <salute>Adieu encore, <persName key="Delacroix, Eugène (1798-1863)">cher ami</persName>,
+          recevez toutes mes tendresses bien sincères. Je vous embrasse de tout cœur. </salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">Baronne de
+          Forget</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
