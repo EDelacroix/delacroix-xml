@@ -7,7 +7,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, 28 février 1846</title>
+        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, 7 janvier 1837</title>
         <author key="Delacroix, Eugène (1798-1863)"/>
       </titleStmt>
       <editionStmt>
@@ -44,7 +44,7 @@
             <settlement>Paris</settlement>
             <institution>Musée du Louvre</institution>
             <repository>Département des Arts graphiques</repository>
-            <idno>A 628</idno>
+            <idno>A 630</idno>
           </msIdentifier>
           <physDesc>
             <objectDesc form="letter">
@@ -61,7 +61,7 @@
           </history>
         </msDesc>
         <listBibl>
-          <bibl>Joubin, II, p. 264</bibl>
+          <bibl>Joubin, I, p. 423</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
@@ -69,7 +69,7 @@
       <correspDesc>
         <correspAction type="sent">
           <persName key="Delacroix, Eugène (1798-1863)"/>
-          <date when="1846-02-28"/>
+          <date when="1837-01-07"/>
 
         </correspAction>
         <correspAction type="received">
@@ -94,25 +94,26 @@
             <pb n="1" xml:id="p1"/>
             <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur
             Pierret</persName></addrLine>
-          <addrLine><placeName key="France, Paris, rue Tronchet, 13">Rue Tronchet,
-            13</placeName></addrLine>
+          <addrLine><placeName key="France, Paris, rue Tronchet, 13">Rue de Tronchet, n° 13, près la
+              Madeleine</placeName></addrLine>
         </address>
-        <stamp>28 février [illisible]</stamp>
-        <salute>
+        <stamp>7 janvier [illisible]</stamp>
+        <dateline>
           <pb n="2" xml:id="p2"/>
-          <persName key="Pierret, Jean-Baptiste (1795-1854)">Cher ami</persName>,</salute>
+          <date when="1837-01-07">Samedi</date></dateline>
+        <salute><persName key="Pierret, Jean-Baptiste (1795-1854)">Cher ami</persName>,</salute>
       </opener>
 
 
-      <p>Je t’écris <date when="1846-02-28">aujourd’hui samedi</date> pour te dire que je suis dans
-        le rangement des tableaux et que si tu veux passer quelques instants <date when="1846-03-01"
-          >demain dimanche</date>, tu me donneras tes avis. Comment vas-tu ?</p>
+      <p>Il m’arrive une volaille aux truffes. Viens <date when="1837-01-08">demain dimanche</date>
+        tirer les rois en même temps. Tu parleras pour moi. Envoie donc ta bonne prier <persName
+          key="Vila, Corneille Frédéric (?-1877)">M. Vila</persName> d’être des nôtres, il me fera
+        grand plaisir.</p>
 
 
       <closer>
-        <salute>À toi,</salute>
-        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
-        <dateline><date when="1846-02-28">Ce samedi 28</date></dateline>
+        <salute>Je t’embrasse,</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène</persName></signed>
       </closer>
 
     </body>
