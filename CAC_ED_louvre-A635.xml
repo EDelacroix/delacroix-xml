@@ -7,7 +7,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, 17 juin 1843</title>
+        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, entre 1838 et 1840</title>
         <author key="Delacroix, Eugène (1798-1863)"/>
       </titleStmt>
       <editionStmt>
@@ -44,7 +44,7 @@
             <settlement>Paris</settlement>
             <institution>Musée du Louvre</institution>
             <repository>Département des Arts graphiques</repository>
-            <idno>A 583</idno>
+            <idno>A 635</idno>
           </msIdentifier>
           <physDesc>
             <objectDesc form="letter">
@@ -60,21 +60,19 @@
             <provenance>Collection Etienne Moreau-Nélaton</provenance>
           </history>
         </msDesc>
-        <listBibl>
-          <bibl>Joubin, II, p. 137-138</bibl>
-        </listBibl>
+
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <correspDesc>
         <correspAction type="sent">
           <persName key="Delacroix, Eugène (1798-1863)"/>
-          <date when="1843-06-17"/>
+          <date notbefore="1838" notafter="1840"/>
 
         </correspAction>
         <correspAction type="received">
           <persName key="Pierret, Jean-Baptiste (1795-1854)"/>
-          <placeName key="France, Paris, rue Tronchet, 13"/>
+          <placeName key="France, Paris, rue Tronchet, 11"/>
         </correspAction>
 
       </correspDesc>
@@ -89,47 +87,28 @@
 
 
       <opener>
-        <address>
-          <addrLine>
-            <pb n="1" xml:id="p1"/>
-            <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur
-            Pierret</persName></addrLine>
-          <addrLine><placeName key="France, Paris, rue Tronchet, 13">Rue Tronchet, n° 13, près la
-              Madeleine.</placeName></addrLine>
-        </address>
-        <stamp><date when="1843-06-17">17 juin 1843</date></stamp>
+        <p>
+          <pb n="1" xml:id="p1"/>
+          <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur Pierret</persName></p>
+        <p><placeName key="France, Paris, rue Tronchet, 11">Rue Tronchet, n° 11</placeName></p>
         <salute>
           <pb n="2" xml:id="p2"/>
           <persName key="Pierret, Jean-Baptiste (1795-1854)">Cher ami</persName>,</salute>
       </opener>
 
 
-      <p>J’aurai mes épreuves d’<rs type="work" key="Hamlet, lithographies
-        "><hi rend="it">Hamlet</hi></rs> lundi dans la journée. Écris-moi si tu n’es pas trop
-        occupé dans ce moment-ci de la maladie de <persName key="Pierret, Annette">ta
-          sœur</persName> pour donner suite à tes démarches auprès de <persName
-          key="Gihaut, Michel-Ange (1800-1871)">Gihaut</persName><note place="bottom">C’est
-          effectivement chez Gihaut, éditeur d’estampes, que parut en 1843 <hi rend="it"
-          >Hamlet</hi>, une série de treize lithographies à laquelle Delacroix travaillait depuis
-          1834.</note>. Je désirerais pousser cela tout de suite avant de partir pour <placeName
-          key="France, Vichy">Vichy</placeName>, ce qui sera vers vendredi ou samedi de la semaine
-        prochaine. J’en ai déjà parlé à quelques journalistes outre <persName
-          key="Batissier, Louis (1813-1882)">Batissier</persName><note place="bottom">Louis
-          Batissier (1813-1882), critique d’art, avait loué Delacroix dans <hi rend="it"
-            >L’Artiste</hi> (Joubin, II, p. 137).</note>.</p>
+      <p>Je ne puis me trouver au cercle avec toi. J’irai à une heure de mon côté. Ne m’attendes
+        donc pas.</p>
 
 
       <closer>
-        <salute>Un mot et mille tendresses.</salute>
-        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
-        <dateline><date when="1843-06-17">Ce samedi</date>.</dateline>
+        <salute>À toi,</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">E.</persName></signed>
+        <dateline><date notbefore="1838" notafter="1840">Dimanche matin</date><note place="bottom"
+            >Cette lettre est datée entre 1838 et 1840, période à laquelle Delacroix adresse ses
+            lettres à Pierret au 11, rue Tronchet.</note></dateline>
       </closer>
 
-      <postscript>
-        <p>J’irai <date when="1843-06-18">demain dimanche</date> probablement voir <persName
-            key="Villot, Frédéric (1809-1875)">Villot</persName> à la campagne. Tu ne me trouverais
-          pas, écris-moi donc.</p>
-      </postscript>
     </body>
   </text>
 </TEI>

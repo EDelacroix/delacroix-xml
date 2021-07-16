@@ -69,7 +69,7 @@
         <correspAction type="sent">
           <persName key="Delacroix, Eugène (1798-1863)"/>
           <date when="1819-10-29"/>
-          <placeName key="France, Mansle"></placeName>
+          <placeName key="France, Mansle"/>
         </correspAction>
         <correspAction type="received">
           <persName key="Pierret, Jean-Baptiste (1795-1854)"/>
@@ -93,7 +93,8 @@
         <address>
           <addrLine>À <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur Jean-Baptiste
               Pierret jeune</persName></addrLine>
-           <addrLine> <placeName key="France, Paris, rue du Four, 50">rue du Four n° 50. Faubourg
+          <addrLine>
+            <placeName key="France, Paris, rue du Four, 50">rue du Four n° 50. Faubourg
               Saint-Germain, à Paris.</placeName></addrLine>
         </address>
         <dateline>
@@ -114,7 +115,7 @@
         émouvoir ton cœur plus que la réalité ? Quand je me retournerais en cent façons pour te
         présenter des images profondes et désespérantes, qu’est-ce que je t’apprendrais ? Tu as donc
         veillé auprès de <persName key="Pierret, Nicolas">ton père</persName> mort. Cette nuit-là,
-        <persName key="Pierret, Jean-Baptiste (1795-1854)">pauvre cher ami</persName>, elle ne
+          <persName key="Pierret, Jean-Baptiste (1795-1854)">pauvre cher ami</persName>, elle ne
         sortira pas de ta mémoire. Ce que cette nuit-là a vu, ce que cette chambre a vu, est gravé
         devant tes yeux ; ce lit, cette lumière, ce silence à cette heure auprès des restes de
           <persName key="Pierret, Nicolas">ton père</persName>, cela est immortel dans ton
@@ -194,18 +195,19 @@
         ma lettre me précède. On s’écrit mille choses qu’un je ne sais quoi vous empêche de dire. On
         se revoit, on s’embrasse en étouffant et ce qu’on n’épanche pas retombe sur le cœur et le
         serre. C’est encore un bonheur dans ta position de n’avoir pas eu sous les yeux la douleur
-        de ta sœur. Je pense que la pauvre Caroline vous aura été utile dans ces tristes moments.
-        Toi, tu as recueilli le fruit de ta tendresse filiale. Tu as soutenu jusqu’au dernier moment
-        la tête de <persName key="Pierret, Nicolas">ton père</persName> et tu as eu son dernier
-        regard. Tu n’as rien perdu de ses souffrances et tu as consommé tous tes sacrifices. Je te
-        crois suffisamment dispensé, dans ces circonstances et en considération de <pb n="4"
-          xml:id="p4bis"/>la position de <persName key="Henrion, Annette">ta mère</persName>, de
-        toute autre espèce d’engagement, et ton choix ne peut être douteux. Tu te dois à elle, et
-        c’est pour elle encore que tu travailleras, quand tu prendras le parti de t’occuper de ce
-        que nous projetons. Nous en aurons bien long à nous dire sur tout cela. Je souhaite vivement
-        que tu aies suivi ta résolution de m’écrire encore plusieurs fois, comme tu me le promets
-        dans la première partie de ta lettre. Pourvu que tes embarras ne t’ôtent pas ce loisir. Je
-        compte partir du 5 novembre au 7 ou 8 au plus tard. L’indisposition de <persName
+        de <persName key="Pierret, Annette">ta sœur</persName>. Je pense que la pauvre Caroline vous
+        aura été utile dans ces tristes moments. Toi, tu as recueilli le fruit de ta tendresse
+        filiale. Tu as soutenu jusqu’au dernier moment la tête de <persName key="Pierret, Nicolas"
+          >ton père</persName> et tu as eu son dernier regard. Tu n’as rien perdu de ses souffrances
+        et tu as consommé tous tes sacrifices. Je te crois suffisamment dispensé, dans ces
+        circonstances et en considération de <pb n="4" xml:id="p4bis"/>la position de <persName
+          key="Henrion, Annette">ta mère</persName>, de toute autre espèce d’engagement, et ton
+        choix ne peut être douteux. Tu te dois à elle, et c’est pour elle encore que tu
+        travailleras, quand tu prendras le parti de t’occuper de ce que nous projetons. Nous en
+        aurons bien long à nous dire sur tout cela. Je souhaite vivement que tu aies suivi ta
+        résolution de m’écrire encore plusieurs fois, comme tu me le promets dans la première partie
+        de ta lettre. Pourvu que tes embarras ne t’ôtent pas ce loisir. Je compte partir du 5
+        novembre au 7 ou 8 au plus tard. L’indisposition de <persName
           key="Verninac, Charles de (1803-1834)">Charles</persName><note place="bottom">Il s’agit du
           neveu de Delacroix, Charles de Verninac, fils de sa sœur Henriette et de Raymond de
           Verninac.</note>, comme je crois te l’avoir écrit, en est la cause. Adieu. Ménage-toi

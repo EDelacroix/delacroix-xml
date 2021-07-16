@@ -98,7 +98,7 @@
               11, Paris</placeName></addrLine>
         </address>
         <stamp><placeName key="France, Ris-Orangis">Ris-Orangis</placeName>, <date when="1848-09-27"
-          >27 septembre 1848</date></stamp>
+            >27 septembre 1848</date></stamp>
         <dateline>
           <pb n="2" xml:id="p2"/>
           <placeName key="France, Champrosay">Champrosay</placeName>, <date when="1848-09-27"
@@ -111,18 +111,18 @@
         prends au malheur de <persName key="Soulier, Charles (1792-1866)">notre ami</persName> ;
         mais pourquoi dans les trois premières lignes de ta lettre ne m’expliques-tu pas nettement
         ce qui lui arrive et la somme qu’il lui faudrait ? Elle ne peut être qu’effrayante, puisque
-        tu as l’air de douter que la vente de la rente de ta sœur puisse le sauver. En second lieu,
-        même pour trouver une médiocre somme dans ce moment-ci, il faudrait se résigner à un
-        sacrifice énorme et en pure perte.</p>
+        tu as l’air de douter que la vente de la rente de <persName key="Pierret, Annette">ta
+          sœur</persName> puisse le sauver. En second lieu, même pour trouver une médiocre somme
+        dans ce moment-ci, il faudrait se résigner à un sacrifice énorme et en pure perte.</p>
       <p>Permets-moi de te demander si en m’apprenant que <persName
           key="Soulier, Charles (1792-1866)">Soulier</persName> était malheureux au point où il
         paraît être, sans me dire précisément ce que c’est, tu as <pb n="3" xml:id="p3"/> craint que
         l’exposé clair et net de sa position ne m’effrayât à l’avance. Pour moi, je te dirai
         franchement que l’entraînement bien naturel de sa vue et de la tienne est fait pour m’ôter
         tout sang froid dans une résolution d’où dépendent des intérêts qui ont <hi rend="u">à notre
-          âge</hi> une gravité extrême. Permets-moi de te dire aussi qu’en engageant ta sœur à
-        disposer des ressources qui lui restent, tu prends une responsabilité considérable, mais
-        dont je te laisse juge.</p>
+          âge</hi> une gravité extrême. Permets-moi de te dire aussi qu’en engageant <persName
+          key="Pierret, Annette">ta sœur</persName> à disposer des ressources qui lui restent, tu
+        prends une responsabilité considérable, mais dont je te laisse juge.</p>
       <p>Réponds-moi donc de suite et explique-moi tout. Je suis doublement désespéré et du malheur
         de <persName key="Soulier, Charles (1792-1866)">notre ami</persName> et de l’impossibilité
         probable de venir à son aide.</p>
