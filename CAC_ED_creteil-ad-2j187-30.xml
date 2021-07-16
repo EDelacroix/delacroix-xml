@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, [avant juin 1855]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Créteil</settlement>
+            <institution>Archives départementales du Val-de-Marne</institution>
+
+            <idno>2 J 187, pièce 30</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="3"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date notAfter="1855-06"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+      <p>
+        <pb n="1" xml:id="p1"/> Je vous renvoie vos livres, <persName
+          key="Delacroix, Eugène (1798-1863)">mon ami</persName>, et je désir savoir si vous êtes
+        fondu ou cuit, car on n’entend plus parler de vous. Samedi dernier, j’ai bien regretté de ne
+        vous avoir pas vu, et de vous avoir fait faire cette course inutilement. Nous avions été à
+          <placeName key="France, Paris, Cirque Franconi">Franconi</placeName> avec quelques
+        personnes qui étaient chez moi. Soyez assez aimable pour venir dîner avec nous jeudi
+        prochain, ce sera probablement mon dernier jeudi. Je pense à mes paquets ; M. Gervais <pb
+          n="2" xml:id="p2"/> a écrit à <placeName key="France, Trouville">Trouville</placeName>
+        pour savoir s’il y a des appartements à occuper, j’attends la réponse qui ne peut tarder à
+        arriver pour fixer le jour de mon départ. Au reste, je n’en serai pas fâchée, on étouffe
+        ici, tous mes amis s’en vont, et le peu qui restent on les voit si peu que c’est absolument
+        comme s’ils n’habitaient pas Paris. J’espère vous voir avant jeudi. Tous ces jours-ci, j’ai
+        été me promener en voiture au <placeName key="France, Paris, Bois-de-Boulogne"
+          >Bois-de-Boulogne</placeName> le soir, le seul lieu où l’on respire, et c’est avec plaisir
+        que j’irais avec vous, si vous voulez y venir. Je ne partirai qu’à <pb n="3" xml:id="p3"/>
+        huit heures, s’il vous était agréable de vous trouver ici à cette heure-là, nous ferions
+        cette petite promenade avec <persName
+          key="Lavalette, Émilie de Beauharnais, comtesse de (1781-1855)">ma mère</persName>
+        aujourd’hui ou demain. Si vous veniez dîner, vous seriez toujours le bien reçu.</p>
+
+      <closer>
+        <salute>Répondez-moi un mot, je serai enchantée de savoir de vos nouvelle, par la même
+          occasion, et je vous prie de recevoir toutes mes amitiés.</salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">Joséphine</persName></signed>
+        <dateline>Ce mardi<note place="bottom">Cette lettre est antérieure au décès de la mère de
+            Joséphine de Forget donc écrite avant le mois de juin 1855 et son ton semble plutôt
+            indiquer qu’elle est postérieure à la seconde moitié des années 1840, mais aucun autre
+            élément ne permet actuellement de la dater plus précisément. </note></dateline>
+      </closer>
+
+
+    </body>
+  </text>
+</TEI>
