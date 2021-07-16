@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, 22 décembre 1846</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>{corrections}</name>
+          <name>{corrections}</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les amis de jeunesse</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Musée du Louvre</institution>
+            <repository>Département des Arts graphiques</repository>
+            <idno>A 629</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Etienne Moreau-Nélaton</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, II, p. 294.</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1846-12-22"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Pierret, Jean-Baptiste (1795-1854)"/>
+          <placeName key="France, Paris, rue Tronchet, 13"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <p>
+          <pb n="1" xml:id="p1"/>
+          <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur Pierret</persName></p>
+        <p><placeName key="France, Paris, rue Tronchet, 13">Rue Tronchet, 13, près la
+            Madeleine</placeName></p>
+        <salute>
+          <pb n="2" xml:id="p2"/>
+          <persName key="Pierret, Jean-Baptiste (1795-1854)">Cher ami</persName>, </salute>
+      </opener>
+
+
+      <p>Je t’envoie à la hâte une stalle pour la première représentation de <persName
+          key="Ponsard, François (1814-1867)">Ponsard</persName><note place="bottom">Il s’agit d’<hi
+            rend="it">Agnès de Méranie</hi>, une tragédie de François Ponsard (1814-1867) (Joubin,
+          II, p. 294). Cette pièce a été représentée pour la première fois à Paris le 22 décembre
+          1846, ce qui permet de dater la lettre.</note>
+        <date when="1846-12-22">ce soir</date> : j’espère que tu pourras en profiter. Mon regret est
+        de ne pouvoir de tonner le moyen d’y aller en compagnie. <persName
+          key="Pierret, Henri Maximilien (1828-?)">Henry</persName> m’a dit que tu allais mieux.</p>
+
+
+      <closer>
+        <salute>Je t’embrasse.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+        <dateline><date when="1846-12-22">Ce mardi</date>.</dateline>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
