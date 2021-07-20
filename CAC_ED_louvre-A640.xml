@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, 21 octobre 1845</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>{corrections}</name>
+          <name>{corrections}</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les amis de jeunesse</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Musée du Louvre</institution>
+            <repository>Département des Arts graphiques</repository>
+            <idno>A 640</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="3"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Etienne Moreau-Nélaton</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, II, p. 329-330</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1845-10-21"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Pierret, Jean-Baptiste (1795-1854)"/>
+          <placeName key="France, Paris, rue Tronchet, 13"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="1" xml:id="p1"/>
+            <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur
+            Pierret</persName></addrLine>
+          <addrLine><placeName key="France, Paris, rue Tronchet, 13">Rue Tronchet,
+            13</placeName></addrLine>
+        </address>
+        <dateline>
+          <pb n="2" xml:id="p2"/>
+          <date when="1845-10-21">Mardi matin</date><note place="bottom">Joubin (II, p.329) date
+            cette lettre de novembre 1847. Il s’agit cependant d’une erreur, puisqu’il est question
+            des obsèques de la tante de Delacroix, Félicité Riesener, décédée le vendredi 17 octobre
+            1845 (Hannoosh, <hi rend="it">Journal</hi>, II, p. 2316). Il est donc plus probable
+            qu’elle soit datée du mardi suivant le décès, c’est-à-dire le 21 octobre
+          1845.</note></dateline>
+        <salute><persName key="Pierret, Jean-Baptiste (1795-1854)">Cher ami</persName>,</salute>
+      </opener>
+
+
+      <p>Je te prie de remettre à <date when="1845-10-24">vendredi</date> notre promenade au
+        pavillon en question. J’appréhende, sans être tout à fait certain, d’être dérangé tous ces
+        jours-ci. On le laissera vivre pour nous jusque-là et je serai bien heureux de le voir avec
+        toi.</p>
+      <p>J’ai éprouvé <date when="1845-10-20">hier</date> de bien tristes secousses<note
+          place="bottom">Delacroix se réfère ici aux funérailles de sa tante, comme indiqué dans la
+          note précédente.</note>. Je t’écris bien fatigué, quoique ce soit <date when="1845-10-20"
+          >hier</date> que tout cela s’est passé. J’ai dit à <persName
+          key="Riesener, Léon (1808-1878)">Riesener</persName> la raison qui t’a fait retourner au
+        ministère. Je n’ai pas besoin de te dire qu’il l’a très bien compris.</p>
+
+
+      <closer>
+        <salute>Adieu, <persName key="Pierret, Jean-Baptiste (1795-1854)">cher</persName> : j’ai
+          bien regretté <date when="1845-10-19">dimanche</date> de n’avoir pu aller <pb n="3"
+            xml:id="p3"/> dîner avec toi. Nous renouerons cela. En attendant, je
+          t’embrasse.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug.</persName></signed>
+      </closer>
+
+      <postscript>
+        <p>Je n’ai jamais pu retrouver hier le tombeau de <persName
+            key="Guillemardet, Félix (1796-1840)">ce pauvre Félix</persName><note place="bottom"
+            >Félix Guillemardet (1796-1840), l’ami d’enfance de Delacroix et Pierret, était décédé
+            en 1840.</note>.</p>
+      </postscript>
+    </body>
+  </text>
+</TEI>
