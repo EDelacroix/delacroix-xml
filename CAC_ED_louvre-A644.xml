@@ -7,7 +7,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, première moitié de 1848</title>
+        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, mars 1848</title>
         <author key="Delacroix, Eugène (1798-1863)"/>
       </titleStmt>
       <editionStmt>
@@ -44,7 +44,7 @@
             <settlement>Paris</settlement>
             <institution>Musée du Louvre</institution>
             <repository>Département des Arts graphiques</repository>
-            <idno>A 643</idno>
+            <idno>A 644</idno>
           </msIdentifier>
           <physDesc>
             <objectDesc form="letter">
@@ -60,19 +60,21 @@
             <provenance>Collection Etienne Moreau-Nélaton</provenance>
           </history>
         </msDesc>
-
+        <listBibl>
+          <bibl>Joubin, II, p. 345</bibl>
+        </listBibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <correspDesc>
         <correspAction type="sent">
           <persName key="Delacroix, Eugène (1798-1863)"/>
-          <date notbefore="1848-01" notafter="1848-08"/>
+          <date when="1848-03-.."/>
 
         </correspAction>
         <correspAction type="received">
           <persName key="Pierret, Jean-Baptiste (1795-1854)"/>
-          <placeName key="France, Paris, rue de Clichy, 80"/>
+          <placeName key="France, Paris, rue de Clichy, 76"/>
         </correspAction>
 
       </correspDesc>
@@ -90,28 +92,35 @@
         <address>
           <addrLine>
             <pb n="1" xml:id="p1"/>
-            <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur
-            Pierret</persName></addrLine>
-          <addrLine><placeName key="France, Paris, rue de Clichy, 80">Rue de Clichy,
-            80</placeName></addrLine>
+            <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur Pierret</persName>, </addrLine>
+          <addrLine><placeName key="France, Paris, rue de Clichy, 76">Rue de Clichy,
+            76</placeName></addrLine>
         </address>
-        <salute>
+        <dateline>
           <pb n="2" xml:id="p2"/>
-          <persName key="Pierret, Jean-Baptiste (1795-1854)">Cher ami</persName>, </salute>
+          <date when="1848-03-..">Vendredi matin</date><note place="bottom">Joubin (II, p. 345) date
+            cette lettre de mars 1848, voir note successive.</note>.</dateline>
+        <salute><persName key="Pierret, Jean-Baptiste (1795-1854)">Cher ami</persName>,</salute>
       </opener>
 
 
-      <p>Je ne pourrai être demain soir jeudi chez moi. Excuse-moi donc. Je te reverrai bientôt et
-        nous prendrons un autre jour.</p>
-      <p>J’ai bien regretté de te quitter l’autre jour au milieu de la soirée. J’irai te voir.</p>
+      <p>Seras-tu assez bon pour porter pour moi ce matin au ministère une lettre que j’adresse à
+          <persName key="Garraud, Joseph (1807-1880)">M. Garraud</persName><note place="bottom">Il
+          s’agit du sculpteur Joseph Garraud (1807-1880), qui avait été nommé directeur des
+          Beaux-Arts de façon provisoire après la révolution de février jusqu’à la fin du mois de
+          mars 1848. Cette information permet à Joubin (II, p. 345) de dater la lettre.</note> pour
+        mon <rs type="work" key="La Liberté guidant le peuple (J144)
+            "><hi rend="it">Tableau des barricades</hi></rs><note place="bottom">Il s’agit
+          de <hi rend="it">La Liberté guidant le peuple</hi> (J144), qui avait été acquise en
+          octobre 1831 par Louis-Philippe et qui se trouvait encore dans l’atelier de Delacroix.
+        </note> ? Tu recommanderas qu’on la lui remette.</p>
+      <p>Je suis toujours bien souffrant et bien triste.</p>
 
 
       <closer>
-        <salute>À toi,</salute>
-        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
-        <dateline><date notbefore="1848-01" notafter="1848-08">Ce mercredi</date><note
-            place="bottom">Cette lettre serait datée de la première moitié de 1848, période à
-            laquelle Pierret réside au 76-80, rue de Clichy.</note>.</dateline>
+        <salute>Je t’embrasse.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">E. Delacroix</persName></signed>
+        <dateline><date when="1848-03-..">Ce vendredi</date></dateline>
       </closer>
 
     </body>
