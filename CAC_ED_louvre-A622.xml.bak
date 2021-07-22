@@ -7,7 +7,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, 21 juin 1836</title>
+        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, 28 août [1837]</title>
         <author key="Delacroix, Eugène (1798-1863)"/>
       </titleStmt>
       <editionStmt>
@@ -22,7 +22,8 @@
         </respStmt>
         <respStmt>
           <resp>Corrections</resp>
-          <name>Gaëlle Lafage</name>
+          <name>{corrections}</name>
+          <name>{corrections}</name>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -43,7 +44,7 @@
             <settlement>Paris</settlement>
             <institution>Musée du Louvre</institution>
             <repository>Département des Arts graphiques</repository>
-            <idno>A 568</idno>
+            <idno>A 622</idno>
           </msIdentifier>
           <physDesc>
             <objectDesc form="letter">
@@ -59,17 +60,15 @@
             <provenance>Collection Etienne Moreau-Nélaton</provenance>
           </history>
         </msDesc>
-        <listBibl>
-          <bibl>Joubin, I, p. 413</bibl>
-        </listBibl>
+
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <correspDesc>
         <correspAction type="sent">
           <persName key="Delacroix, Eugène (1798-1863)"/>
-          <date when="1836-06-21"/>
-          <placeName key="France, Paris">[Paris]</placeName>
+          <date when="1837-08-28"/>
+
         </correspAction>
         <correspAction type="received">
           <persName key="Pierret, Jean-Baptiste (1795-1854)"/>
@@ -91,35 +90,33 @@
         <address>
           <addrLine>
             <pb n="1" xml:id="p1"/>
-            <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur Pierret</persName></addrLine><addrLine><placeName
-              key="France, Paris, rue Neuve du Luxembourg, 1">Rue Neuve du Luxembourg, n°
-              1</placeName></addrLine>
+            <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur Pierret</persName>,
+            propriétaire</addrLine>
+          <addrLine><placeName key="France, Paris, rue Neuve du Luxembourg, 1">Rue Neuve du
+              Luxembourg, n° 1</placeName></addrLine>
         </address>
-        <stamp><date when="1836-06-22">22 juin 1836</date></stamp>
-        <dateline>
+        <salute>
           <pb n="2" xml:id="p2"/>
-          <date when="1836-06-21">Mardi, 5 heures</date></dateline>
-        <salute><persName key="Pierret, Jean-Baptiste (1795-1854)">Cher ami</persName>,</salute>
+          <persName key="Pierret, Jean-Baptiste (1795-1854)">Cher ami</persName>,</salute>
       </opener>
 
 
-      <p>J’espérais aller te voir ce soir, mais je ne peux pas. Viens dîner avec moi et <persName
-          key="Lamey, Alexandrine (1786/87-1856)"><persName key="Lamey, Auguste (1771/72-1861)">les
-            bons cousins</persName></persName><note place="bottom">Il s’agit des cousins Lamey,
-          venant de Strasbourg (Joubin, I, p. 413). Delacroix montre une grande affection à l’égard
-          de sa cousine germaine Alexandrine Lamey (1786/87-1856), épouse d’Auguste Lamey
-          (1771/72-1861). </note>, <hi rend="u">demain mercredi</hi>, pour me raconter tes
-        libertinages et voir mon chat.</p>
+      <p><persName key="Riesener, Léon (1808-1878)">Riesener</persName> me charge de t’annoncer que
+        nous ne dînerons chez lui que <date when="1837-09-02">samedi</date>, au lieu de <date
+          when="1837-08-30">mercredi</date>.</p>
+      <p>Je vais à <placeName key="France, Saint-Germain-en-Laye">Saint-Germain</placeName> ce soir
+        passer un jour, ce qui motive ce retard.</p>
+      <p>J’ai une requête à adresser à <persName key="Heidinger, Marguerite Jeanne Aimée (1797-?)"
+          >Madame Pierret</persName> depuis longtemps : c’est qu’elle me mette de côté le plus tôt
+        qu’elle pourra des petits chiffons propres à des pelotes, etc.</p>
 
 
       <closer>
+        <salute>On me tourmente beaucoup pour cela et je me recommande à elle, et à tes
+          prières.</salute>
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène</persName></signed>
       </closer>
 
-      <postscript>
-        <p>Je prends la liberté d’embrasser <persName
-            key="Pierret, Marguerite Jeanne Aimée Heidinger, épouse (1797-?)">Madame Pierret</persName>.</p>
-      </postscript>
     </body>
   </text>
 </TEI>

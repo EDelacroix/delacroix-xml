@@ -7,7 +7,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, 21 juin 1836</title>
+        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, [1820 ?]</title>
         <author key="Delacroix, Eugène (1798-1863)"/>
       </titleStmt>
       <editionStmt>
@@ -22,7 +22,8 @@
         </respStmt>
         <respStmt>
           <resp>Corrections</resp>
-          <name>Gaëlle Lafage</name>
+          <name>{corrections}</name>
+          <name>{corrections}</name>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -43,7 +44,7 @@
             <settlement>Paris</settlement>
             <institution>Musée du Louvre</institution>
             <repository>Département des Arts graphiques</repository>
-            <idno>A 568</idno>
+            <idno>A 612</idno>
           </msIdentifier>
           <physDesc>
             <objectDesc form="letter">
@@ -60,7 +61,7 @@
           </history>
         </msDesc>
         <listBibl>
-          <bibl>Joubin, I, p. 413</bibl>
+          <bibl>Joubin, I, p. 108</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
@@ -68,12 +69,11 @@
       <correspDesc>
         <correspAction type="sent">
           <persName key="Delacroix, Eugène (1798-1863)"/>
-          <date when="1836-06-21"/>
-          <placeName key="France, Paris">[Paris]</placeName>
+          <date notafter="1820-10-.."/>
+
         </correspAction>
         <correspAction type="received">
           <persName key="Pierret, Jean-Baptiste (1795-1854)"/>
-          <placeName key="France, Paris, rue Neuve du Luxembourg, 1"/>
         </correspAction>
 
       </correspDesc>
@@ -88,37 +88,41 @@
 
 
       <opener>
-        <address>
-          <addrLine>
-            <pb n="1" xml:id="p1"/>
-            <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur Pierret</persName></addrLine><addrLine><placeName
-              key="France, Paris, rue Neuve du Luxembourg, 1">Rue Neuve du Luxembourg, n°
-              1</placeName></addrLine>
-        </address>
-        <stamp><date when="1836-06-22">22 juin 1836</date></stamp>
+        <pb n="1" xml:id="p1"/> À <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur
+          Pierret</persName>
         <dateline>
           <pb n="2" xml:id="p2"/>
-          <date when="1836-06-21">Mardi, 5 heures</date></dateline>
-        <salute><persName key="Pierret, Jean-Baptiste (1795-1854)">Cher ami</persName>,</salute>
+          <date notafter="1820-10-..">Mardi soir</date><note place="bottom">Il est possible que
+            cette lettre date de 1819-1820, époque à laquelle Pierret entretenait une relation
+            amoureuse avec sa maîtresse Marguerite Jeanne Aimée Heidinger (1797- ?), qui devient son
+            épouse en octobre 1820. En effet, à partir de cette date Delacroix se réfère à elle en
+            employant des appellatifs différents, tels « ta femme » ou « Mme Pierret », comme
+            l’atteste <ref type="letter" target="CAC_ED_louvre-A531.xml">une lettre du 29 octobre
+              1820</ref>.</note>.</dateline>
       </opener>
 
 
-      <p>J’espérais aller te voir ce soir, mais je ne peux pas. Viens dîner avec moi et <persName
-          key="Lamey, Alexandrine (1786/87-1856)"><persName key="Lamey, Auguste (1771/72-1861)">les
-            bons cousins</persName></persName><note place="bottom">Il s’agit des cousins Lamey,
-          venant de Strasbourg (Joubin, I, p. 413). Delacroix montre une grande affection à l’égard
-          de sa cousine germaine Alexandrine Lamey (1786/87-1856), épouse d’Auguste Lamey
-          (1771/72-1861). </note>, <hi rend="u">demain mercredi</hi>, pour me raconter tes
-        libertinages et voir mon chat.</p>
+      <p>Je suis venu chez toi, <persName key="Pierret, Jean-Baptiste (1795-1854)">mon cher
+          ami</persName>, et désolé de ne te point trouver je laisse ici ce bout de lettre pour te
+        supplier de venir jeudi aux <placeName key="France, Paris, Théâtre-Français"
+          >Français</placeName> avec moi : tu ne saurais me faire de plus grand plaisir et ce n’est
+        pas jouir que jouir seul. Laisse l’amour pour cette soirée et sacrifie-la <persName
+          key="Delacroix, Eugène (1798-1863)">au meilleur de tes amis</persName>, n’en déplaise à
+          <persName key="Heidinger, Marguerite Jeanne Aimée (1797-?)">ta dulcinée</persName>. Tu
+        serais le plus aimable de tous les hommes si tu voulais demain, en sortant de ton bureau,
+        allonger tes pas jusque chez moi, pour prendre nos arrangements et me donner ta réponse.
+        Sinon écris-moi ce que tu auras résolu.</p>
 
 
       <closer>
-        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène</persName></signed>
+        <salute>Je t’attends demain. Tout à toi,</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix </persName></signed>
       </closer>
 
       <postscript>
-        <p>Je prends la liberté d’embrasser <persName
-            key="Pierret, Marguerite Jeanne Aimée Heidinger, épouse (1797-?)">Madame Pierret</persName>.</p>
+        <p>Tu me ferais plaisir d’apporter ton volume de <persName key="Diderot, Denis (1713-1784)"
+            >Diderot</persName> et d’y joindre, s’il est possible, l’<hi rend="it">Essai sur la
+            peinture</hi>. On me l’a perdu depuis longtemps et je grille de le lire. Adieu</p>
       </postscript>
     </body>
   </text>
