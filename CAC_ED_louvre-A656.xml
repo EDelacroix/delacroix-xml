@@ -7,7 +7,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Lettre d’Eugène Delacroix à Marguerite Jeanne Aimée Pierret, 1841</title>
+        <title>Lettre d’Eugène Delacroix à Marguerite Jeanne Aimée Pierret, 8 décembre 1857</title>
         <author key="Delacroix, Eugène (1798-1863)"/>
       </titleStmt>
       <editionStmt>
@@ -44,7 +44,7 @@
             <settlement>Paris</settlement>
             <institution>Musée du Louvre</institution>
             <repository>Département des Arts graphiques</repository>
-            <idno>A 655</idno>
+            <idno>A 656</idno>
           </msIdentifier>
           <physDesc>
             <objectDesc form="letter">
@@ -60,14 +60,16 @@
             <provenance>Collection Etienne Moreau-Nélaton</provenance>
           </history>
         </msDesc>
-
+        <listBibl>
+          <bibl>Joubin, III, p. 420</bibl>
+        </listBibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <correspDesc>
         <correspAction type="sent">
           <persName key="Delacroix, Eugène (1798-1863)"/>
-          <date when="1841-..-.."/>
+          <date when="1857-12-08"/>
 
         </correspAction>
         <correspAction type="received">
@@ -86,34 +88,40 @@
 
 
       <opener>
-        <address>
-          <addrLine>
-            <pb n="1" xml:id="p1"/>
-            <persName key="Pierret, Marguerite Jeanne Aimée Heidinger, épouse (1797-?)">Madame
-              Pierret</persName></addrLine>
-        </address>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <date when="1857-12-08">Ce 8 décembre</date></dateline>
+        <salute><persName key="Pierret, Marguerite Jeanne Aimée Heidinger, épouse (1797-?)">Ma chère
+            Madame Pierret</persName>,</salute>
       </opener>
 
 
-      <p>
-        <pb n="2" xml:id="p2"/> J’envoie à <persName
-          key="Pierret, Marguerite Jeanne Aimée Heidinger, épouse (1797-?)">Madame
-          Pierret</persName>, à <persName key="Pierret, Annette">Mademoiselle Annette</persName> et
-        à <persName key="Pierret, Juliette (1822-1878)">Mademoiselle Juliette</persName><note
-          place="bottom">Il s’agit respectivement de l’épouse, de la sœur et de l’une des filles de
-          Pierret.</note> une loge pour <placeName key="France, Paris, Théâtre-Italien">les
-          italiens</placeName> ce soir. Je serai bien enchanté qu’elles puissent en profiter. Elles
-        peuvent faire leurs adieux à <persName key="Rubini, Giovanni Battista (1794-1854)"
-          >Rubini</persName><note place="bottom">Delacroix se réfère ici au ténor italien Giovanni
-          Battista Rubini (1794-1854), qui interpréta Don Ottavio dans <hi rend="it">Don Juan</hi>
-          de Mozart au Théâtre-Italien en 1841, ce qui permet de dater la lettre.</note>, qui a un
-        bien bel air dans D. Juan.</p>
+      <p>J’ai bien regretté de ne pas m’être trouvé chez moi quand vous avez pris la peine d’y
+        passer, et notamment le jour où <persName key="Pierret, Marie (1835-1876)">Marie</persName>
+        et vous m’avez apporté les deux jolis vases dont je la remercie beaucoup<note place="bottom"
+          >Il s’agit du cadeau que Marie Pierret (1835-1876), la fille de Pierret et filleule de
+          Delacroix, lui faisait chaque année pour la Saint-Eugène, comme le témoignent <ref
+            type="letter" target="CAC_ED_louvre-A596.xml"><ref type="letter"
+              target="CAC_ED_louvre-A607.xml">deux autres lettres de 1849 et de
+          1854</ref></ref>.</note>.</p>
+      <p>J’ai été très enrhumé ces derniers temps. Je vais mieux maintenant et je profite de ce
+        mieux pour m’occuper de mon établissement dans <placeName
+          key="France, Paris, rue de Furstemberg, 4">le faubourg Saint-Germain</placeName><note
+          place="bottom">Delacroix déménagea rue de Furstemberg à la fin de l’année 1857, ce qui
+          permet de dater cette lettre. </note>. Quant aux visites, même celles qui me seraient les
+        plus agréables, je suis forcé de m’en abstenir et je ne vais véritablement nulle part que
+        pour des motifs impérieux. Soyez donc assez bonne pour ne pas m’en vouloir. J’ai été si
+        éprouvé l’hiver dernier, et ma santé est encore si facile à ébranler, que je prends toutes
+        les précautions imaginables pour traverser cette <pb n="2" xml:id="p2"/> saison sans trop
+        d’accidents.</p>
 
 
       <closer>
-        <salute>Mille compliments et amitiés,</salute>
-        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+        <salute>Recevez donc, en attendant que je puisse aller vous voir, mille et mille assurances
+          de mon bien sincère attachement.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">E. Delacroix</persName></signed>
       </closer>
+
 
     </body>
   </text>

@@ -7,7 +7,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Lettre d’Eugène Delacroix à Marguerite Jeanne Aimée Pierret, 1841</title>
+        <title>Lettre d’Eugène Delacroix à Marguerite Jeanne Aimée Pierret, mai 1837</title>
         <author key="Delacroix, Eugène (1798-1863)"/>
       </titleStmt>
       <editionStmt>
@@ -44,7 +44,7 @@
             <settlement>Paris</settlement>
             <institution>Musée du Louvre</institution>
             <repository>Département des Arts graphiques</repository>
-            <idno>A 655</idno>
+            <idno>A 658</idno>
           </msIdentifier>
           <physDesc>
             <objectDesc form="letter">
@@ -60,14 +60,16 @@
             <provenance>Collection Etienne Moreau-Nélaton</provenance>
           </history>
         </msDesc>
-
+        <listBibl>
+          <bibl>Joubin, I, p. 434-435</bibl>
+        </listBibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <correspDesc>
         <correspAction type="sent">
           <persName key="Delacroix, Eugène (1798-1863)"/>
-          <date when="1841-..-.."/>
+          <date when="1837-05-.."/>
 
         </correspAction>
         <correspAction type="received">
@@ -96,22 +98,20 @@
 
 
       <p>
-        <pb n="2" xml:id="p2"/> J’envoie à <persName
-          key="Pierret, Marguerite Jeanne Aimée Heidinger, épouse (1797-?)">Madame
-          Pierret</persName>, à <persName key="Pierret, Annette">Mademoiselle Annette</persName> et
-        à <persName key="Pierret, Juliette (1822-1878)">Mademoiselle Juliette</persName><note
-          place="bottom">Il s’agit respectivement de l’épouse, de la sœur et de l’une des filles de
-          Pierret.</note> une loge pour <placeName key="France, Paris, Théâtre-Italien">les
-          italiens</placeName> ce soir. Je serai bien enchanté qu’elles puissent en profiter. Elles
-        peuvent faire leurs adieux à <persName key="Rubini, Giovanni Battista (1794-1854)"
-          >Rubini</persName><note place="bottom">Delacroix se réfère ici au ténor italien Giovanni
-          Battista Rubini (1794-1854), qui interpréta Don Ottavio dans <hi rend="it">Don Juan</hi>
-          de Mozart au Théâtre-Italien en 1841, ce qui permet de dater la lettre.</note>, qui a un
-        bien bel air dans D. Juan.</p>
+        <pb n="2" xml:id="p2"/> Merci, ma chère commère n° 2. Vous êtes bien bonne d’avoir pensé à
+        tout ce qui me concerne. J’irai chez la bonne présidente<note place="bottom">Il n’a pas été
+          possible d’identifier cette personne.</note> puisque j’ai l’espoir de vous y trouver,
+        ainsi qu’elle. Dites donc en même temps à <persName key="Pierret, Jean-Baptiste (1795-1854)"
+          >Pierret</persName> de mettre dans la poche les billets doux qu’il a chez lui. Ce sera une
+        occasion toute claire de vous en débarrasser. Vous m’envoyez des chemises qui m’ont l’air
+          magnifiques<note place="bottom">Dans une autre lettre à Madame Pierret datée du 19 mai
+          1837, Delacroix lui demande des chemises (Joubin, I, p. 433-434). Cela permet de dater
+          cette lettre.</note>. Mille nouveaux remerciements que je vous envoie pour <persName
+          key="Pierret, Marie (1835-1876)">la jolie filleule</persName><note place="bottom">Il
+          s’agit de Marie Pierret, filleule de Delacroix, qui était née en 1835.</note>.</p>
 
 
       <closer>
-        <salute>Mille compliments et amitiés,</salute>
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
       </closer>
 
