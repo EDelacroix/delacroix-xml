@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, [27 juin 1855]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Créteil</settlement>
+            <institution>Archives départementales du Val-de-Marne</institution>
+
+            <idno>2 J 187, pièce 32</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="3"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date when="1855-06-27"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Ce <date when="1855-06-27">mercredi</date><note place="bottom"
+            >D’après les événements évoqués dans cette lettre, elle semble pouvoir être datée du
+            mercredi 27 juin 1855.</note></dateline>
+        <salute><persName key="Delacroix, Eugène (1798-1863)">Mon pauvre ami</persName>,</salute>
+      </opener>
+
+
+      <p>j’ai reçu hier votre bonne lettre, et je sens bien le chagrin que vous avez éprouvé de la
+        perte de <persName key="Guillemardet, Lazarette Hugues Lamare, épouse (1769-1855)">votre
+          vieille amie</persName><note place="bottom">Lazarette Hugues Guillemardet, la mère de
+          Félix et Louis, amis d’enfance de Delacroix était morte le 19 juin 1855. Delacroix, ayant
+          perdu ses parents très tôt, était très attaché à Mme Guillemardet, comme en témoignent les
+          notes qu’il prit dans son journal le jour de son enterrement (21 juin 1855, <hi rend="it"
+            >Journal</hi>, p. 916-917).</note>. Celle de <persName
+          key="Lavallette, Émilie de Beauharnais, comtesse de (1781-1855)">ma pauvre
+        mère</persName>, était le dernier lien qui formait la chaîne d’anciens souvenirs si doux et
+        si cruels en même temps<note place="bottom">Émilie de Lavallette, la mère de Joséphine de
+          Forget était morte le 18 juin 1855. </note> ! Cette séparation a été bien horrible pour
+        moi, je suis si triste, si isolée dans <placeName key="Paris, rue de la Rochefoucauld, 19"
+          >cette grande maison</placeName> ! Je ne forme aucun projet, je suis hébétée par le
+        chagrin ! Je n’ai pas besoin de vous <pb n="2" xml:id="p2"/> exprimer, <persName
+          key="Delacroix, Eugène (1798-1863)">cher ami</persName>, combien je suis toujours sensible
+        aux preuves d’affection que vous me donnerez ; car nous sommes amis de bien vieille date et
+        notre tendresse sera pour toute ma vie un souvenir bien doux à me rappeler ! Je serai donc
+        heureuse de vous revoir et surtout de vous savoir en bonne santé : c’est un bien fragile
+        hélas ! Soignez-vous et ne négligez aucune petite indisposition. Quant à moi, je me porte
+        bien, mais je voyagerai un peu cet été, car j’ai grand besoin d’air <pb n="3" xml:id="p3"/>
+        et de mouvement<note place="bottom">Joséphine de Forget séjourna à Pau chez Armand Laity,
+          ami et parent de la baronne. Voir à ce sujet <ref type="letter"
+            target="CAC_ED_joubin-3-275">les lettres de Delacroix des 17 juillet</ref> et <ref
+            type="letter" target="CAC_ED_joubin-3-282">16 août 1855</ref>.</note>. <persName
+          key="Forget, Eugène de (1819-1885)">Eugène</persName> est encore ici, et va bientôt partir
+        pour les eaux, ses rhumatismes en ont grand besoin. <persName
+          key="Forget, Émilien de (1822-1857)">Notre pauvre malade</persName> est entré dans une
+        autre phase, celle de l’agitation, je ne puis le voir dans ce moment-ci : voilà un sujet de
+        chagrin continuel<note place="bottom">Le second fils de Joséphine de Forget eut dans les
+          dernières années de sa vie des « crises » qui affectèrent sa santé, sans que l’on puisse
+          savoir exactement de quelle maladie il était atteint. En novembre 1855, Joséphine de
+          Forget évoque encore <ref type="letter" target="CAC_ED_creteil-ad-2J187-33">dans une
+            lettre</ref> l’état préoccupant de son fils. Il mourut le 17 janvier 1857. </note> ! Au
+        reste, <persName key="Delacroix, Eugène (1798-1863)">mon pauvre ami</persName>, je n’ai pas
+        été épargnée, et la tendresse de mes amis m’est bien nécessaire pour soutenir mon
+        courage.</p>
+      <p>Le temps est très beau depuis quelques jours et pas accablant, vous devez en jouir avec
+        bonheur.</p>
+
+
+      <closer>
+        <salute>Adieu, <persName key="Delacroix, Eugène (1798-1863)">cher et bon ami</persName>, je
+          vous embrasse de cœur en attendant le moment de vous revoir.</salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">Baronne de
+          Forget</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
