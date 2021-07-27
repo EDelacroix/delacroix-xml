@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Louise Rang-Babut, 4 mai [1849]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>Pays-Bas</country>
+            <settlement>Amsterdam</settlement>
+            <institution>Bibliothèque de l’Université</institution>
+
+            <idno>OTM hs. 43 Cp 37 c</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">Nouvelles lettres</hi>, p. 64-65</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1849-05-04"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Louise Rang-Babut (1805-1884)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <salute>
+          <pb n="1" xml:id="p1"/>
+          <persName key="Louise Rang-Babut (1805-1884)">Chère dame</persName>,</salute>
+      </opener>
+
+
+      <p>Je vous écris à la hâte pour vous envoyer la note ci-jointe qui précise la personne sur
+        laquelle je vous ai prié de faire des recherches, toujours en vous priant d’excuser
+        l’embarras que je vous donne. La bonne Mme Auger<note place="bottom">Dans son <hi rend="it"
+            >Journal</hi>, Delacroix rapporte la visite d’une Mme Auger, le lundi 14 mai 1849, en
+          compagnie de Mme Villot et de son époux. Toutefois, il est très difficile d’identifier
+          cette personne comme le montre Michèle Hannoosh dans son édition du <hi rend="it"
+            >Journal</hi>, p. 2097.</note> est venue hier pendant que je n’y étais pas,
+        malheureusement, car j’ai beaucoup regretté de ne pas la voir, attendu que je l’aime
+        beaucoup. Je vais faire votre commission des plâtres et vous les aurez avec <rs type="work"
+          >le tableau</rs><note place="bottom">S’il est complexe d’identifier l’œuvre en question,
+          les notes à la fin du <hi rend="it">Journal</hi> de 1849 indiquent que Mme Rang-Babut fit
+          l’acquisition vers 1845-1846 de <hi rend="it">La Dernière scène de Don Juan</hi> (J[L]101)
+          et de l’esquisse du<hi rend="it"> Cardinal de Richelieu disant la messe</hi> (J132). Cette
+          dernière œuvre n’était pas payée dans sa totalité en 1849 (<hi rend="it">Nouvelles
+            lettres</hi>, p. 65).</note> pour lequel je <pb n="2" xml:id="p2"/> prie de nouveau
+          <persName key="Babut, Théophile (1811-1886)">M. Babut</persName> de vouloir bien recevoir mes excuses à cause de mes
+        retards.</p>
+
+
+      <closer>
+        <salute>Adieu, <persName key="Louise Rang-Babut (1805-1884)">chère dame</persName>. Soyez heureuse et revenez quelque jour à
+            <placeName key="France, Paris">Paris</placeName>.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName></signed>
+        <dateline>le <date when="1849-05-04">4 mai</date>.</dateline>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
