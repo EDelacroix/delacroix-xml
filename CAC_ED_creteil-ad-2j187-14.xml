@@ -82,7 +82,7 @@
 
 
       <p>
-        <pb n="1" xml:id="p1"/> Je pense, <persName key="Delacroix, Eugène (1798-1863)">mon
+        <pb n="1" facs="https://api.nakala.fr/iiif/10.34847/nkl.87f8r442/89073b3c7a2017c5f5ee96af986094d4d499a151/full/full/0/default.jpg"/> Je pense, <persName key="Delacroix, Eugène (1798-1863)">mon
           ami</persName>, que vous voilà bien établi, bien installé, et que vous êtes arrivé
           <placeName key="France, Nohant">chez <persName key="Sand, George (1804-1876)"
             >Mme Sand</persName></placeName><note>En juillet 1843, Delacroix séjourna chez George
@@ -117,7 +117,7 @@
         sont à <persName key="France, Paris">Paris</persName> et ne parlent pas encore de retourner
         à la campagne ce qui me fait grand plaisir car l’été tout le monde se sauve. <persName
           key="Querelles, Hortense de (1812-1851)">Notre chère malade</persName>
-        <pb n="2" xml:id="p2"/> est bien sensible à votre bon souvenir, elle vous envoie mille
+        <pb n="2" facs="https://api.nakala.fr/iiif/10.34847/nkl.87f8r442/644ee5d8c1f7e4097d2e7f053f3d99c27a6953cb/full/full/0/default.jpg"/> est bien sensible à votre bon souvenir, elle vous envoie mille
         amitiés ; elle sort un peu mais elle souffre encore souvent, et je crains que cette maladie
         ne soit bien longue<note place="bottom">Joséphine mentionne « sa malade » dans plusieurs
           lettres, mais aucune ne nous donne son nom. Il pourrait s’agir de la mère de Joséphine de
@@ -143,7 +143,7 @@
           <placeName key="France, Paris, Champs-Élysées">Champs-Élysées</placeName>, ce qui est
         beaucoup moins poétique.</p>
       <p>
-        <pb n="3" xml:id="p3"/> On m’a renvoyé il y a quelques jours, les quatre volumes de <hi
+        <pb n="3" facs="https://api.nakala.fr/iiif/10.34847/nkl.87f8r442/e026f657a00f9962eff66135591646b92c377811/full/full/0/default.jpg"/> On m’a renvoyé il y a quelques jours, les quatre volumes de <hi
           rend="it">Consuelo</hi><note place="bottom">Ce roman de George Sand fut d’abord publié en
           feuilleton à partir de 1842 dans la<hi rend="it"> Revue indépendante</hi> qu’elle fonda,
           avant de paraître en 1843 en huit volumes chez L. de Potter. Quelques mois plus tard,
