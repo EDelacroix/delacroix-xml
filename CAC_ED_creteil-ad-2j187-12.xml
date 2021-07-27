@@ -76,7 +76,7 @@
 
 
       <opener>
-        <pb n="1" xml:id="p1"/>
+        <pb n="1" facs="https://api.nakala.fr/iiif/10.34847/nkl.8a100zxl/0664d19f9accd5e0c9d852dd4a16c0813d6f3f22/full/full/0/default.jpg"/>
         <address>
           <persName key="Delacroix, Eugène (1798-1863)">Monsieur Eugène Delacroix</persName>
           <addrLine><placeName key="Paris, rue des Marais-Saint-Germain, 17">17 rue des marais
@@ -86,7 +86,7 @@
 
 
       <p>
-        <pb n="2" xml:id="p2"/> Je suis d’autant plus désolée de ne pas vous voir ce soir, <persName
+        <pb n="2" facs="https://api.nakala.fr/iiif/10.34847/nkl.8a100zxl/f08a95e1f6fc80734b8b911fde08a63ef864d5c3/full/full/0/default.jpg"/> Je suis d’autant plus désolée de ne pas vous voir ce soir, <persName
           key="Delacroix, Eugène (1798-1863)">mon ami</persName>, que lundi prochain je dois dîner
         chez les Méneval, et je ne puis y manquer. Ne vous désolez pas pour votre peinture, et
         surtout portez-vous bien. Voilà l’essentiel, vous serez alors content de tout.</p>
