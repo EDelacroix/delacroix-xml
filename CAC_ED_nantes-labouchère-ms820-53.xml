@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Adolphe Ferdinand Moreau père, 5 avril 1855</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les Salons et les expositions</title>
+        <title type="sub">Les collectionneurs</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Nantes</settlement>
+            <institution>Bibliothèque municipale</institution>
+            <repository>Fonds Labouchère</repository>
+            <idno>ms 820/53</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, V, p. 195-196</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1855-04-05"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Moreau, Adolphe Ferdinand, père (1800-1859)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Ce <date when="1855-04-05">5 avril 1855</date>.</dateline>
+        <salute><persName key="Moreau, Adolphe Ferdinand, père (1800-1859)">Mon cher
+            ami</persName><note place="bottom">Adolphe Ferdinand Moreau père (1800-1859), agent de
+            change et amateur, ami de Delacroix. Il possédait de nombreuses œuvres de Delacroix. En
+            1858, sa collection de plus de huit cents tableaux en comportait vingt-cinq de l’artiste
+              (<hi rend="it">Journal</hi>, p. 2283).</note>,</salute>
+      </opener>
+
+
+      <p>Voici le moment de profiter de votre si aimable complaisance : je viens vous demander le
+        <rs type="work" key="Le Naufrage de Don Juan (J276)">tableau de la Barque</rs><note place="bottom"><ref
+            target="https://collections.louvre.fr/ark:/53355/cl010062961">Le Naufrage de Don
+            Juan</ref>, 1840, huile sur toile, Paris, Musée du Louvre, RF 359 (J276)</note> et celui
+        du <rs type="work" key="Le Prisonnier de Chillon (J264)">Prisonnier de Chillon</rs><note place="bottom"><ref
+            target="https://collections.louvre.fr/ark:/53355/cl010064058">Le Prisonnier de
+            Chillon</ref>,1834, huile sur toile, Paris, Musée du Louvre, RF 1660 (J254)</note>,
+        conformément à votre bonne promesse. Les personnes qui vont les enlever sont accoutumées au
+        maniement des tableaux et en auront tout le soin nécessaire.</p>
+      <p>Je n’ai pas encore fini : je n’enverrai que <hi rend="u">dimanche</hi> ou <hi rend="u"
+          >lundi</hi> les deux derniers auxquels je travaille encore<note place="bottom">Delacroix
+          préparait l’accrochage de ses œuvres pour l’Exposition universelle de 1855, à l’occasion
+          de laquelle une salle entière était consacrée à sa peinture. </note>. On dit que vous
+        allez avoir une révision des travaux du jury : cela me paraît bien considérable, à moins
+        qu’elle ne porte que sur des objets que <pb n="2" xml:id="p2"/> l’on a remarqués<note
+          place="bottom">Ferdinand Moreau fut membre de jurys et contribua à fonder des prix à
+          l’École des beaux-arts.</note>.</p>
+      <p><persName key="Moreau, Adolphe Ferdinand, fils (1827-1884)">M. votre fils</persName><note place="bottom">Adolphe Ferdinand Moreau fils
+          (1827-1884), conseiller d’État, était lui-même collectionneur. Il se rendit en Angleterre
+          en 1849. Il est le père d’Étienne Moreau-Nélaton qui poursuivit l’engouement familial pour
+          l’œuvre de Delacroix. </note> a eu la bonté de m’envoyer un charmant recueil de vues
+          d’<placeName key="Angleterre">Angleterre</placeName>. Je n’ai pu le remercier encore de vive voix, puisque
+        je ne sors pas.</p>
+
+
+      <closer>
+        <salute>Dites-lui mille choses pour moi en attendant et croyez, comme toujours, à mon bien
+          sincère dévouement.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
