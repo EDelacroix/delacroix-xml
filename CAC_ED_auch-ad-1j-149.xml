@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix au Conseil municipal d’Auch, 15 mars 1841</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Brice Ameille</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les élèves et les collaborateurs </title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Auch</settlement>
+            <institution>Archives départementales du Gers</institution>
+
+            <idno>1 J / 149</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, II, p. 72</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1841-03-15"/>
+          <placeName key="France, Paris, rue des Marais-Saint-Germain, 17"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Conseil municipal de la ville d’Auch"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <pb n="1" xml:id="p1"/>
+        <address>
+          <addrLine>À <persName key="Conseil municipal de la ville d’Auch">Messieurs les membres du
+              conseil municipal de la ville d’Auch</persName></addrLine>
+        </address>
+        <dateline><placeName key="France, Paris">Paris</placeName>, ce <date when="1841-03-15">15
+            mars 1841</date></dateline>
+        <salute><persName key="Conseil municipal de la ville d’Auch">Messieurs</persName>,</salute>
+      </opener>
+
+
+      <p>Le jeune <persName key="Ginovès, Auguste (1818-1859)">Auguste Ginovèze</persName><note
+          place="bottom">« Vincent-Auguste Ginovès (1818-1859), après son passage dans l’atelier de
+          Delacroix, s’est retiré à Auch, où il a peint des tableaux de genre, des portraits et des
+          paysages. » (Joubin, II, note 1, p. 72).</note> natif de la ville d’<placeName
+          key="France, Auch">Auch</placeName>, étudiant la peinture à <placeName key="France, Paris"
+          >Paris</placeName> et mon élève, est l’objet d’une demande qui vous sera présentée à
+        l’effet d’obtenir de votre bonté de vouloir bien lui faire accorder à titre d’encouragement
+        les moyens de continuer ses études. Permettez-moi de joindre à sa demande ce témoignage, que
+        je crois que les bienfaits de la ville ne sauraient être mieux placés que dans la personne
+        de <persName key="Ginovès, Auguste (1818-1859)">ce jeune homme</persName> [qui] donne <pb
+          n="2" xml:id="p2"/> de très belles espérances et qui, depuis le peu de temps qu’il étudie
+        à <placeName key="France, Paris">Paris</placeName>, a déjà fait des progrès tout à fait
+        remarquables. Il est parmi mes élèves un de ceux sur lesquels je compte le plus. Je verrais
+        avec bien du regret que la nécessité de se consacrer trop tôt à des travaux lucratifs dût
+        l’enlever à l’avenir d’un talent qui s’annonce déjà très heureusement.</p>
+
+
+      <closer>
+        <salute>J’ai l’honneur d’être, avec la plus haute considération, <persName
+            key="Conseil municipal de la ville d’Auch">Messieurs</persName>, votre très humble et
+          très obéissant serviteur.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug Delacroix</persName></signed>
+        <address>
+          <addrLine><placeName key="France, Paris, rue des Marais-Saint-Germain, 17">17, rue des
+              Marais-Saint-Germain, à Paris</placeName></addrLine>
+        </address>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
