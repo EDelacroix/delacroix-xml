@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à [Albert Grzymala ?], 14 janvier [1857]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Delacroix à l'Académie des beaux-arts</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Nantes</settlement>
+            <institution>Bibliothèque municipale</institution>
+            <repository>Fonds Labouchère</repository>
+            <idno>ms 820/51</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, V, p. 203</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1857-01-14"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Grzymala, Albert (1793-1871)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Ce <date when="1857-01-14">14 janvier</date><note place="bottom">La lettre date de
+            1857, année de l’élection de Delacroix à l’Académie des beaux-arts.</note></dateline>
+        <salute><persName key="Grzymala, Albert (1793-1871)">Cher ami</persName><note place="bottom">Rien n’indique que la lettre était
+            bien adressée à Grzymala sinon une inscription manuscrite au crayon en haut de la lettre
+            « au C<hi rend="sup">te</hi> de Ximala » qui servit certainement à Joubin pour
+            identifier le destinataire. Delacroix était bien ami avec Albert Grzymala donc nous
+            conservons cette identification du destinataire faute d’indice
+          supplémentaire.</note>,</salute>
+      </opener>
+
+
+      <p>je vous embrasse bien et vous remercie et ne vaut guère mieux que vous. Je suis collé dans
+        ma chambre depuis près d’un mois, non que je souffre beaucoup, au moins à présent, mais j’ai
+        une peur horrible que l’air extérieur me rende malade de nouveau. Cette élection<note
+          place="bottom">Delacroix fut élu à l’Académie des Beaux-Arts le 10 janvier 1857.</note>,
+        quoique tardive, est une bonne chose et je m’aperçois qu’elle était peut-être plus à propos
+        que je ne l’imaginais auparavant : il y a beaucoup d’admirateurs, à ce qu’ils croyaient, qui
+        ne sont pas fâchés d’être rassurés par <pb n="2" xml:id="p2"/> l’assentiment académique.
+        Vous n’êtes pas de ceux-là et je vous ai toujours trouvé au premier rang dans la mêlée et
+        arborant mes couleurs (ou mieux, <hi rend="u">ma couleur</hi>).</p>
+
+
+      <closer>
+        <salute>Adieu encore, <persName key="Grzymala, Albert (1793-1871)">cher ami</persName>, mille tendresses en attendant le
+          plaisir de vous voir.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">E. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
