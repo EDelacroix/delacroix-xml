@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix [au conservateur du Musée de La Rochelle ?], 24 mai
+          1859</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>La Rochelle</settlement>
+            <institution>Bibliothèque municipale</institution>
+
+            <idno>Ms 813, fol. 118</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="1"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, IV, p. 101.</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1859-05-24"/>
+          <placeName key="France, Paris, rue de Frustemberg, 6"/>
+
+        </correspAction>
+
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Ce <date when="1859-05-24">24 mai 1859</date></dateline>
+        <salute>Monsieur<note place="bottom">Il s’agit vraisemblablement du conservateur du Musée de
+            La Rochelle, désireux d’acquérir la dernière version du <hi rend="it">Saint
+              Sébastien</hi> peint en 1858 par Delacroix et présenté au Salon l’année
+            suivante.</note>,</salute>
+      </opener>
+
+
+      <p>Je m’empresse de répondre à la demande que vous voulez bien me faire pour le <placeName
+          key="France, La Rochelle, Musée">Musée de La Rochelle</placeName> du <rs type="work"
+          key="Saint-Sébastien (J467)">tableau de Saint Sébastien</rs><note place="bottom"><ref
+            target="https://collections.lacma.org/node/225602">Le tableau</ref> est conservé au
+          County Museum of Art de Los Angeles. Delacroix avait déjà peint un premier tableau sur le
+          même thème en 1836 et présenté au Salon la même année (J422), dont il fit une réplique
+          vers 1854-1855 (J465).</note>. Il ne m’appartient plus et vous en auriez trouvé
+        l’indication dans le livret<note place="bottom">Aucune précision n’est apportée dans le
+          livret du Salon de 1859 quant à l’acquisition du tableau.</note>.</p>
+      <p>Si votre départ de <placeName key="France, Paris">Paris</placeName> n’avait pas été aussi
+        précipité, je vous aurais proposé de passer à <placeName
+          key="France, Paris, rue de Frustemberg, 6">mon atelier</placeName> pour y voir quelques
+        ouvrages dont je pourrais disposer. Je suis ordinairement chez moi vers 2 heures, excepté le
+        vendredi.</p>
+
+
+      <closer>
+        <salute>Agréez, Monsieur, mes civilités bien empressées.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName></signed>
+        <address>
+          <addrLine><placeName key="France, Paris, rue de Frustemberg, 6">rue de Furstenberg,
+              6</placeName>.</addrLine>
+        </address>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
