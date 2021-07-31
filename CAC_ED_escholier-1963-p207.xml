@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, [vers 1842-43]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage (d’après Escholier)</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country/>
+            <settlement/>
+            <institution/>
+
+
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="0"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Escholier, <hi rend="it">Delacroix et les femmes</hi>, 1963, p. 207-208.</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date notBefore="1842" notAfter="1843"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+      <p>Vous avez bien fait de m’écrire, <persName key="Delacroix, Eugène (1798-1863)"
+          >ami</persName>, je commençais à vous en vouloir et à être fort triste de rester si
+        longtemps sans vous embrasser. Je ne compte pas demain aller au <placeName
+          key="France, Paris, Théâtre-Français">Français</placeName>, mais puisque vous êtes encore
+        un peu souffrant, je vous engage, ami, à venir dîner avec moi. Vous passerez votre soirée
+        sur mon bon canapé, et vous ne serez pas fatigué par le spectacle qui demain vous
+        fatiguerait peut-être plus qu’un autre jour. Dans quelques jours, je prendrai une loge pour
+        voir <hi rend="it">Iphigénie</hi><note place="bottom">Certainement l’<hi rend="it"
+            >Iphigénie</hi> de Racine, qui fut jouée au Théâtre-Français entre 1839 et 1843 à de
+          nombreuses reprises, ce qui ne nous permet pas de dater plus précisément cette
+          lettre.</note> et vous viendrez avec moi ; de cette manière vous ne perdrez pas votre
+        spectacle et vous serez mieux avec moi que tout seul dans votre Italie, n’est-ce pas,
+          <persName key="Delacroix, Eugène (1798-1863)">ami chéri</persName><note place="bottom"
+          >Delacroix évoqua souvent le projet de voyager en Italie, notamment dans une <ref
+            type="letter" target="CAC_ED_joubin-2-p3">lettre à Rivet du 15 février 1838</ref>
+          (Joubin, II, p. 3-5) ou dans une <ref type="letter" target="CAC_ED_joubin-2-p118">lettre à
+            Gustave Planche</ref> du 9 août 1842 (<hi rend="it">Ibid.</hi>, p. 118-120), dans
+          laquelle il pense y aller pour se soigner. </note> ? Ma santé est assez bonne, mais
+        combien je suis fâchée, <persName key="Delacroix, Eugène (1798-1863)">bon chéri</persName>,
+        de vous voir encore tout souffrant. La santé de ma pauvre malade se rétablit bien doucement,
+        et combien je suis triste lorsque je reviens chez moi, d’avoir vu souffrir toute la journée,
+        et de ne pas vous voir pour me consoler un peu ; maintenant surtout que je suis libre tous
+        les soirs. Que tu as raison, <persName key="Delacroix, Eugène (1798-1863)">ami</persName> !
+        Que la vie est ennuyeuse et triste, d’être toujours séparée des personnes que l’on aime le
+        mieux ! Demain je te verrai, n’est-ce pas ? Viens dîner à 6 h ½. J’espère que tu n’es pas
+        fâché de l’arrangement du spectacle que je remets à un autre jour, c’est à cause de ta
+        santé, <persName key="Delacroix, Eugène (1798-1863)">ami</persName>, que je te conseille de
+        venir auprès de ton amie qui te soignera si bien ! Je suis bien fâchée que tu n’aies pu
+        venir à l’<placeName key="France, Paris, Opéra">Opéra</placeName> vendredi dernier ;
+          <persName key="Duprez, Gilbert (1806-1896)">Duprez</persName> a été enivrant<note
+          place="bottom">Gilbert Duprez était un très célèbre ténor français qui interpréta les
+          grands rôles de l’opéra entre le milieu des années 1820 et la fin des années 1840,
+          notamment dans les créations de Rossini.</note>  !</p>
+      <p>Adieu, <persName key="Delacroix, Eugène (1798-1863)">ami</persName> que j’aime. Mille fois
+        merci de ta bonne lettre. Je t’attendais ce soir et sans ta lettre j’aurais été bien
+        malheureuse, au lieu que maintenant, j’espère demain, et avec de l’espoir, on vit…</p>
+      <p>Je t’envoie mille et mille bonnes caresses.</p>
+      <p>Si je ne te vois pas à 6 h ½, je dînerai et je ne sortirai pas, je t’attendrai, mais si tu
+        es bien, viens dîner.</p>
+
+      <closer>
+        <salute>Adieu, <persName key="Delacroix, Eugène (1798-1863)">amour chéri</persName>, million
+          de fois chéri. Je baise ta bonne main, bien tristement, je t’assure.</salute>
+        <dateline>Ce lundi soir<note place="bottom">Il est très délicat de dater cette lettre, car
+            les informations qu’elle contient sont imprécises. Le ton de la lettre, l’allusion au
+            voyage en Italie, à la maladie de Delacroix ainsi qu’à la « pauvre malade » dont
+            s’occupe Joséphine pourrait faire penser à l’année 1842, après le retour de Delacroix de
+            son séjour à Frépillon pour soigner sa gorge et alors qu’Hortense de Querelles, malade,
+            était rentrée en France chez Joséphine de Forget pour se rétablir (voir <ref
+              type="letter" target="CAC_ED_creteil-ad-2j187-07">les lettres de Joséphine de Forget
+              du 15 </ref>et <ref type="letter" target="CAC_ED_creteil-ad-2j187-08">26 mars
+              1842</ref>). En mars et avril 1843, Delacroix souffrit à nouveau de ses problèmes de
+            gorge et Hortense de Querelles fut hébergée pour être soignée chez Joséphine de Forget
+            (voir la <ref type="letter" target="CAC_ED_creteil-ad-2j187-14">lettre du 11 juillet
+              1843</ref>), la lettre pourrait donc également avoir été écrite à cette période.
+            L’emploi du vouvoiement semble placer sa rédaction quelques années après le début de
+            leur liaison, donc l’année 1836 avancée par Escholier paraît peu
+          probable.</note>.</dateline>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

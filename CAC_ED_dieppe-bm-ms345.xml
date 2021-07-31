@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Joséphine de Forget, 3 septembre [1851]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Dieppe</settlement>
+            <institution>Bibliothèque municipale</institution>
+
+            <idno>ms. 345</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="5"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, III, p. 78-79.</bibl>
+          <bibl>Escholier, <hi rend="it">Eugène Delacroix et sa « Consolatrice »</hi>, 1932, p. 84-85.</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1851-09-03"/>
+          <placeName key="Dieppe"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="Enveloppe"/>
+            <persName key="Forget, Joséphine de (1802-1886)">Madame la Baronne de
+            Forget</persName></addrLine>
+          <addrLine><placeName key="France, Paris, rue de La Rochefoucauld, 19">rue de La
+              Rochefoucauld 19. à Paris</placeName></addrLine>
+        </address>
+        <stamp><placeName key="France, Dieppe">Dieppe</placeName>, <date when="1851-09-03">3
+            septembre 1851</date></stamp>
+        <stamp><placeName key="France, Le Havre">Ligne-du-Havre</placeName>, <date when="1851-09-04"
+            >4 septembre 1851</date></stamp>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <placeName key="France, Dieppe">Dieppe</placeName>, <date when="1851-09_03">3
+            septembre</date></dateline>
+        <salute><persName key="Forget, Joséphine de (1802-1886)">Chère amie,</persName></salute>
+      </opener>
+
+
+      <p>Si je vous donne si tard de mes nouvelles, c’est que j’ai été constamment en l’air et que
+        je ne suis installé vraiment que depuis hier. J’ai changé de lieu d’habitation ici le
+        lendemain de mon arrivée et j’avais passé deux jours à <placeName key="France, Rouen"
+          >Rouen</placeName>, m’étant amusé avec les tableaux et les monuments. J’ai même été sur le
+        point de ne point rester à <placeName key="France, Dieppe">Dieppe</placeName>, qui me
+        paraissait triste. Peut-être cela tenait-il au temps qui n’était pas beau quand je suis
+        arrivé, de sorte que pensant à aller ailleurs pour employer le temps que j’ai pour mes
+        petites vacances, je ne savais où vous dire de m’adresser une réponse. À présent, je pense
+        que je resterai ici où je me suis logé et acclimaté jusqu’au 10 ou au 12 de sorte que je
+        vous prie de m’y écrire <pb n="2" xml:id="p2"/>
+        <hi rend="u">poste restante</hi>. Donnez-moi de vos nouvelles, <persName
+          key="Forget, Joséphine de (1802-1886)">chère amie</persName>. Vous étiez bien au moment de
+        mon départ et je pense que ce mieux se sera soutenu. Je trouve la nature encore si belle que
+        je vous plains extrêmement d’avoir fini toutes vos excursions pour cette année. Vous
+        connaissez ma passion pour la mer et je m’en donne à cœur joie. Je vais tous les matins
+        rôder le long des falaises qui sont du côté des bains et sur la fin de la journée, je vais
+        sur la jetée si la mer est haute pour voir entrer et sortir les bâtiments. Les élégants me
+        gâtent un peu ce séjour. J’avoue même que c’est la vue de ces tailles pincées et de ces
+        poupées mâles et femelles qui m’avaient donné envie d’aller dans un lieu plus ignoré de ces
+        animaux-là. <pb n="3" xml:id="p3"/> Mais je m’y suis fait. Je me console avec les bonnes
+        figures des matelots et avec l’odeur du goudron et de la mer. Il faudra bientôt, au train
+        dont j’y vais, que je me commande un habit d’Arménien comme mon ennemi Jean-Jacques. J’aurai
+        bien du plaisir, <persName key="Forget, Joséphine de (1802-1886)">bonne amie</persName>, une
+        fois de retour, à vous conter mes impressions de voyage dans ce lieu qui me rappelle
+        l’époque charmante de notre petit séjour au <placeName key="France, Le Tréport"
+          >Tréport</placeName><note place="bottom">Joubin a daté ce séjour au Tréport d’août 1838,
+          grâce à une <ref type="letter" target="CAC_ED_louvre-A571.xml">lettre écrite par Delacroix
+            à son ami Pierret le 5 septembre 1838</ref>, dans laquelle il évoque son voyage entre
+          Dieppe, Le Tréport et Fécamp. Toutefois, la relation amoureuse qu’il entretenait avec
+          Joséphine de Forget était alors secrète et aucune lettre de cette époque ne mentionne
+          explicitement son escapade amoureuse. Toutefois, <ref type="letter"
+            target="CAC_ED_inha-ms236-08">dans une lettre à George Sand</ref> également écrite le
+          5 septembre après son séjour avec Joséphine au Tréport et alors qu’il était à Valmont, ses
+          sentiments semblaient plus partagés que treize ans plus tard. Comme le commente Joubin, il
+          y a de fortes chances pour que ces mots adressés à George Sand évoquent son amante et leur
+          relation : « Vous n’êtes ni une précieuse ni une coquette. Vous estimez à sa juste valeur
+          la sotte tactique de mon sexe comme du vôtre dans cette guerre qu’ils appellent l’amour. »
+        </note>. Vous vous rappelez qu’en vous quittant je passai un jour ou deux à <placeName
+          key="France, Dieppe">Dieppe</placeName> pour avoir une diligence qui allait à <placeName
+          key="France, Fécamp">Fécamp</placeName>. Tout cela est envolé, bien des personnes chères
+        ne sont plus de ce monde depuis lors et qu’est-ce que nous devenons nous-mêmes ? Mais enfin,
+        il ne faut pas trop s’attrister sur ce qui est irréparable et penser plutôt à vivre <pb
+          n="4" xml:id="p4"/> doucement dans le présent. Soignez-vous toujours bien. Vos
+        indispositions n’auront pas de suite et ne doivent pas vous inquiéter. Pour moi, je me porte
+        à merveille : je ne travaille pas et je ne crains pas les visites, que de raisons pour
+        végéter tranquillement.</p>
+
+
+      <closer>
+        <salute>Adieu, <persName key="Forget, Joséphine de (1802-1886)">bonne et chère
+            amie</persName>, quelques mots de vous et de ce qui vous occupe vous me rendent bien
+          heureux dans ma solitude, jusqu’au moment très prochain de vous embrasser de cœur comme je
+          le fais ici en attendant. </salute>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
