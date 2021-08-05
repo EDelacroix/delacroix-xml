@@ -34,6 +34,7 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
 
       </seriesStmt>
       <sourceDesc>
@@ -86,55 +87,63 @@
 
       <opener>
         <dateline>
-          <pb n="1" xml:id="p1"/> Ce <date>29 septembre</date><note place="bottom">Plusieurs
-            informations laissent penser que la lettre fut écrite en 1858. Joséphine de Forget
-            séjournait alors au château de Girecourt. Elle écrivit l’adresse à la fin de cette
-            lettre à Delacroix qui la recopia au revers de la couverture de son agenda de 1858
+          <pb n="1" xml:id="p1"/> Ce <date when="1858-09-29">29 septembre</date><note place="bottom"
+            >Plusieurs informations laissent penser que la lettre fut écrite en 1858. Joséphine de
+            Forget séjournait alors au château de Girecourt. Elle écrivit l’adresse à la fin de
+            cette lettre à Delacroix qui la recopia au revers de la couverture de son agenda de 1858
             (Hannoosh, <hi rend="it">Journal</hi>, 2009, p. 1215). Une lettre de Delacroix, datée du
             31 août 1858, mentionne également le voyage projeté par Joséphine de Forget dans les
             Vosges (Joubin, IV, p. 43). </note></dateline>
-        <salute><persName>Mon cher ami</persName>, </salute>
+        <salute><persName key="Delacroix, Eugène (1798-1863)">Mon cher ami</persName>, </salute>
       </opener>
 
 
       <p>Depuis que je ne vous ai vu, je suis partie de <placeName>Paris</placeName>, arrivée, et
-        établie à <placeName>Girecourt</placeName><note place="bottom">Château de
-          Girecourt-sur-Durbion, à côté d’Épinal dans les Vosges.</note>, chez <persName>mes
-          aimables hôtes</persName> de l’année dernière<note place="bottom">Le comte Charles
-          Jean-Baptiste Bourcier de Villers et sa femme la comtesse de Bourcier, amie de Joséphine
-          de Forget. </note> : voici demain 8 jours que je jouis de la campagne qui est encore
-        resplendissante : le temps est magnifique, nous faisons de charmantes promenades, je me
-        repose, je ne m’ennuie pas mais je regrette bien mes amis absents. J’ai gardé un bien doux
-        souvenir de notre dernière soirée, et je désirais aller vous faire mes derniers adieux mais
-        je n’ai pas osé, dans la crainte de vous déranger. Que faites-vous, <persName>mon
-          ami</persName> ? Êtes-vous occupé de <rs type="work">votre grand travail
+        établie à <placeName key="France, Château de Girecout-sur-Durbion"
+          >Girecourt</placeName><note place="bottom">Château de Girecourt-sur-Durbion, à côté
+          d’Épinal dans les Vosges.</note>, chez <persName
+          key="Bourcier de Villers, Charles Jean-Baptiste comte de (1798-1874)"><persName
+            key="Bourcier de Villers, Louise Caroline Henriette de Raguet de Brancion, épouse (1814-1878)"
+            >mes aimables hôtes</persName></persName> de l’année dernière<note place="bottom">Le
+          comte Charles Jean-Baptiste Bourcier de Villers et sa femme la comtesse de Bourcier, amie
+          de Joséphine de Forget. </note> : voici demain 8 jours que je jouis de la campagne qui est
+        encore resplendissante : le temps est magnifique, nous faisons de charmantes promenades, je
+        me repose, je ne m’ennuie pas mais je regrette bien mes amis absents. J’ai gardé un bien
+        doux souvenir de notre dernière soirée, et je désirais aller vous faire mes derniers adieux
+        mais je n’ai pas osé, dans la crainte de vous déranger. Que faites-vous, <persName
+          key="Delacroix, Eugène (1798-1863)">mon ami</persName> ? Êtes-vous occupé de <rs
+          type="work" key="chapelle des Saints-Anges, église Saint-Sulpice">votre grand travail
           d’église</rs><note place="bottom">Delacroix était alors en train d’achever le décor de la
           chapelle des Saints-Anges à l’église Saint-Sulpice.</note> ? <pb n="2" xml:id="p2"/> Il me
-        semble que <placeName>votre petite campagne</placeName><note place="bottom">La maison de
-          campagne que Delacroix venait d’acheter à Champrosay après l’avoir louée plusieurs
-          années.</note> vous serait agréable dans ce moment-ci et ne devez-vous pas y aller
-        bientôt ? Je vous en prie, donnez-moi de vos nouvelles, parlez-moi de vos travaux, de votre
-        santé, de vos occupations à la campagne. Ici, je lis et je travaille, ce que je n’ai pas le
-        temps de faire à <placeName>Paris</placeName> : il n’y a pas de monde, nous sommes en
-        famille, on se couche de bonne heure mais je me lève tard parce que je lis dans mon lit, ce
-        qui n’est pas le moment le plus désagréable de la journée ; je suis habillée, et je descends
-        à 10 h ½ pour déjeuner. On se promène, on lit les journaux et on travaille, on dîne à 6 h ½
-        , on joue un peu le soir, et on recommence le lendemain… Tout cela est bien un peu monotone,
-        mais je suis avec des personnes qui <pb n="3" xml:id="p3"/> sont charmantes pour moi. Je les
-        quitterai du 15 au 20 octobre, et je retournerai à <placeName>Paris</placeName>, y
-        serez-vous à cette époque-là, <persName>mon ami</persName> ?</p>
+        semble que <placeName key="France, Champrosay">votre petite campagne</placeName><note
+          place="bottom">La maison de campagne que Delacroix venait d’acheter à Champrosay après
+          l’avoir louée plusieurs années.</note> vous serait agréable dans ce moment-ci et ne
+        devez-vous pas y aller bientôt ? Je vous en prie, donnez-moi de vos nouvelles, parlez-moi de
+        vos travaux, de votre santé, de vos occupations à la campagne. Ici, je lis et je travaille,
+        ce que je n’ai pas le temps de faire à <placeName key="France, Paris">Paris</placeName> : il
+        n’y a pas de monde, nous sommes en famille, on se couche de bonne heure mais je me lève tard
+        parce que je lis dans mon lit, ce qui n’est pas le moment le plus désagréable de la
+        journée ; je suis habillée, et je descends à 10 h ½ pour déjeuner. On se promène, on lit les
+        journaux et on travaille, on dîne à 6 h ½ , on joue un peu le soir, et on recommence le
+        lendemain… Tout cela est bien un peu monotone, mais je suis avec des personnes qui <pb n="3"
+          xml:id="p3"/> sont charmantes pour moi. Je les quitterai du 15 au 20 octobre, et je
+        retournerai à <placeName key="France, Paris">Paris</placeName>, y serez-vous à cette
+        époque-là, <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName> ?</p>
       <p>J’espère que cet hiver, vous me donnerez quelques-unes de vos soirées ; j’en serai bien
         heureuse, et je ne vous donnerai que des personnes qui vous intéresseront sans vous
         fatiguer.</p>
 
 
       <closer>
-        <salute>Adieu, <persName>cher bon ami</persName>, je vous aime et vous embrasse bien
-          tendrement. </salute>
-        <signed><persName>Bne de Forget</persName></signed>
+        <salute>Adieu, <persName key="Delacroix, Eugène (1798-1863)">cher bon ami</persName>, je
+          vous aime et vous embrasse bien tendrement. </salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">Bne de Forget</persName></signed>
         <address>
-          <addrLine>chez <persName>Mme la comtesse de Bourcier</persName>, au <placeName>château de
-              Girecourt par Bruyères (Vosges)</placeName>.</addrLine>
+          <addrLine>chez <persName
+              key="Bourcier de Villers, Louise Caroline Henriette de Raguet de Brancion, comtesse (1814-1878)"
+              >Mme la comtesse de Bourcier</persName>, au <placeName
+              key="France, Château de Girecout-sur-Durbion">château de Girecourt par Bruyères
+              (Vosges)</placeName>.</addrLine>
         </address>
       </closer>
 
