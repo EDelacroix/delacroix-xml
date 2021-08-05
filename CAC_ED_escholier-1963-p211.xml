@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, [1834-1842 ?]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage (d’après Escholier)</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country/>
+            <settlement/>
+            <institution/>
+
+
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="0"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Escholier, <hi rend="it">Delacroix et les femmes</hi>, 1963, p. 211.</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+      <p>Je reçois ta lettre à l’instant, <persName key="Delacroix, Eugène (1798-1863)"
+          >ami</persName>, et j’y réponds de suite, parce que je suis persuadée que tu ne viendras
+        pas ce soir. J’ai été contente de recevoir de tes nouvelles. Pourquoi donc ce découragement
+        pour ta peinture ? Quand tu es souffrant, ennuyé, repose-toi ; viens voir <persName
+          key="Forget, Joséphine de (1802-1886)">ton amie</persName>, si elle te calme et te console
+        un peu. Demain je serai à 8 heures <placeName key="France, Paris, rue des Champs-Élysées"
+          >rue des Champs-Élysées</placeName> ; ne te fatigue pas dans la journée ; j’ai le cœur
+        brisé lorsque je te vois l’air si abattu, si fatigué. Je t’ai attendu un peu hier à dîner,
+        nous avions ce bon <persName key="Bercagny, Joseph Claude Anne Legras de (1761-1842)"
+          >Bercagny</persName><note place="bottom">Certainement Joseph Claude Anne Legras de
+          Bercagny. Voir la note 3 de la <ref type="letter" target="CAC_ED_creteil-ad-2j187-08.xml"
+            >lettre de Joséphine de Forget à Delacroix du 26 mars 1842</ref>.</note> ; et pourquoi
+        ne viens-tu pas dîner aujourd’hui avec nous ?</p>
+
+      <closer>
+        <salute>Adieu <persName key="Delacroix, Eugène (1798-1863)">ami</persName>, mille amitiés,
+          mille tendresses de <persName>ta chérie</persName></salute>
+        <dateline>Ce dimanche soir<note place="bottom">Bien que la lettre ne contienne aucune
+            information permettant de la dater avec précision, le tutoiement et l’utilisation à la
+            fin du nom affectueux « ta chérie » permettent de la situer durant les premières années
+            de leur liaison, soit entre 1834 et 1840 voire jusqu’à 1842, date de la mort de Bercagny
+            et avant que le surnom de Consuelo apparaisse en signature. Pendant plusieurs années,
+            leur correspondance alterne entre le tutoiement et le vouvoiement, ce qui ne permet pas
+            de définir des dates précises. </note>.</dateline>
+      </closer>
+
+
+    </body>
+  </text>
+</TEI>
