@@ -83,7 +83,7 @@
 
       <p>
         <pb n="1" xml:id="p1"/> Je vous renvoie vos livres, <persName
-          key="Delacroix, Eugène (1798-1863)">mon ami</persName>, et je désir savoir si vous êtes
+          key="Delacroix, Eugène (1798-1863)">mon ami</persName>, et je désire savoir si vous êtes
         fondu ou cuit, car on n’entend plus parler de vous. Samedi dernier, j’ai bien regretté de ne
         vous avoir pas vu, et de vous avoir fait faire cette course inutilement. Nous avions été à
           <placeName key="France, Paris, Cirque Franconi">Franconi</placeName> avec quelques
@@ -92,10 +92,10 @@
           n="2" xml:id="p2"/> a écrit à <placeName key="France, Trouville">Trouville</placeName>
         pour savoir s’il y a des appartements à occuper, j’attends la réponse qui ne peut tarder à
         arriver pour fixer le jour de mon départ. Au reste, je n’en serai pas fâchée, on étouffe
-        ici, tous mes amis s’en vont, et le peu qui restent on les voit si peu que c’est absolument
+        ici, tous mes amis s’en vont, et le peu qui restent, on les voit si peu que c’est absolument
         comme s’ils n’habitaient pas Paris. J’espère vous voir avant jeudi. Tous ces jours-ci, j’ai
-        été me promener en voiture au <placeName key="France, Paris, Bois-de-Boulogne"
-          >Bois-de-Boulogne</placeName> le soir, le seul lieu où l’on respire, et c’est avec plaisir
+        été me promener en voiture au <placeName key="France, Paris, bois de Boulogne"
+          >bois de Boulogne</placeName> le soir, le seul lieu où l’on respire, et c’est avec plaisir
         que j’irais avec vous, si vous voulez y venir. Je ne partirai qu’à <pb n="3" xml:id="p3"/>
         huit heures, s’il vous était agréable de vous trouver ici à cette heure-là, nous ferions
         cette petite promenade avec <persName
@@ -103,7 +103,7 @@
         aujourd’hui ou demain. Si vous veniez dîner, vous seriez toujours le bien reçu.</p>
 
       <closer>
-        <salute>Répondez-moi un mot, je serai enchantée de savoir de vos nouvelle, par la même
+        <salute>Répondez-moi un mot, je serai enchantée de savoir de vos nouvelles, par la même
           occasion, et je vous prie de recevoir toutes mes amitiés.</salute>
         <signed><persName key="Forget, Joséphine de (1802-1886)">Joséphine</persName></signed>
         <dateline>Ce mardi<note place="bottom">Cette lettre est antérieure au décès de la mère de

@@ -88,7 +88,7 @@
           <addrLine>
             <pb n="1" xml:id="p1"/>
             <persName key="Delacroix, Eugène (1798-1863)">Monsieur Eugène Delacroix</persName>
-            <placeName key="France, Paris, rue Notre-Dame-de-Lorette, 54">54, rue notre Dame de
+            <placeName key="France, Paris, rue Notre-Dame-de-Lorette, 54">54, rue Notre-Dame de
               Lorette. Paris</placeName></addrLine>
         </address>
         <stamp><date when="....-03-29">29 mars</date></stamp>
@@ -104,8 +104,8 @@
 
 
       <closer>
-        <salute>Dans tous les cas, je vous donnerai à dîner mardi prochain, en attendant, <persName
-            key="Delacroix, Eugène (1798-1863)">ami</persName>, recevez toutes mes tendresses.</salute>
+        <salute>Dans tous les cas, je vous donnerai à dîner mardi prochain ; en attendant, <persName
+            key="Delacroix, Eugène (1798-1863)">mon ami</persName>, recevez toutes mes tendresses.</salute>
         <signed><persName key="Forget, Joséphine de (1802-1886)">Consuelo</persName></signed>
         <dateline>Ce <date when="1846-03-28">samedi soir</date><note place="bottom">Le cachet postal
             permet de lire la date du 29 mars et un autre tampon indique qu’il s’agit de la levée du

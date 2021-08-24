@@ -94,15 +94,15 @@
       <p>Je vous remercie, <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName>, de
         m’avoir envoyé de vos nouvelles ; je suis enchantée que votre santé résiste à la fatigue de
           <rs type="work" key="Sénat, Bibliothèque">votre travail</rs><note place="bottom">Il s’agit
-          probablement du décor de la Bibliothèque du Sénat que Delacroix était en train d’achever à
+          probablement du décor de la bibliothèque du Sénat que Delacroix était en train d’achever à
           cette période.</note>. Moi, je tousse toujours, mais je prends une quantité de drogues qui
         finiront par me faire du bien. <persName key="Querelles, Hortense de (1812-1851)"
           >Hortense</persName> et <persName key="Querelles, Richard de (1811-1846)">son
           mari</persName> vous envoient leurs amitiés ; lui fait des statuettes charmantes, et
           <persName key="Querelles, Hortense de (1812-1851)">la pauvre femme</persName> s’est fait
         arracher une grosse dent dont elle souffrait beaucoup. J’ai reçu des nouvelles d’<persName
-          key="Forget, Eugène de (1819-1885)">Eugène</persName> qui a renoncé à son voyage en
-          <placeName key="Italie">Italie</placeName>, et qui est maintenant en <placeName
+          key="Forget, Eugène de (1819-1885)">Eugène</persName> qui a renoncé à son voyage
+          d'<placeName key="Italie">Italie</placeName>, et qui est maintenant en <placeName
           key="France, Auvergne">Auvergne</placeName> !</p>
       <closer>
         <salute>Voilà toutes mes nouvelles, <persName key="Delacroix, Eugène (1798-1863)">mon
@@ -113,8 +113,8 @@
       </closer>
       <postscript>
         <p>N’oubliez pas que mardi prochain, ce sera mon jour de loge aux <placeName
-            key="France, Paris, Théâtre-Italien">Italiens</placeName>, et par conséquent vous ne
-          me trouverez pas.</p>
+            key="France, Paris, Théâtre-Italien">Italiens</placeName>, et par conséquent vous ne me
+          trouverez pas.</p>
       </postscript>
     </body>
   </text>
