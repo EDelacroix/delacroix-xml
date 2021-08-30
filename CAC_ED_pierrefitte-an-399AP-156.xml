@@ -68,7 +68,7 @@
 
         </correspAction>
         <correspAction type="received">
-          <persName key="Gihaut"/>
+          <persName key="Gihaut, frères"/>
         </correspAction>
 
       </correspDesc>
@@ -84,11 +84,11 @@
 
       <opener>
         <pb n="1" xml:id="p1"/>
-        <address><persName key="Gihaut">Monsieur Gihaut</persName>
-        <note place="bottom">Gihaut était éditeur d’estampes.</note></address>
+        <address><persName key="Gihaut, frères">Monsieur Gihaut</persName>
+        <note place="bottom">Les frères Gihaut, Jean-François et Michel-Ange étaient éditeurs d’estampes. On ne sait auquel des deux Delacroix adressa cette lettre</note></address>
         <pb n="2" xml:id="p2"/>
         <salute>
-          <persName key="Gihaut">Monsieur</persName>,</salute>
+          <persName key="Gihaut, frères">Monsieur</persName>,</salute>
       </opener>
       
       <p>Je n’avais pas réfléchi l’autre jour quand je vous ai proposé de vendre au détail les <rs
@@ -100,7 +100,7 @@
 
 
       <closer>
-        <salute>Recevez, <persName key="Gihaut">Monsieur</persName>, tous mes compliments et
+        <salute>Recevez, <persName key="Gihaut, frères">Monsieur</persName>, tous mes compliments et
           salutations.</salute>
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
         <dateline>Ce <date notbefore="1843-10-03" notafter="1844-10-03">3 octobre</date><note

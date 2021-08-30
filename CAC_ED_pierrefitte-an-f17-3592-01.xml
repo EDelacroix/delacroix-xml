@@ -69,7 +69,7 @@
           <placeName key="France, Paris">Paris</placeName>
         </correspAction>
         <correspAction type="received">
-          <persName key="Fortoul, Hippolyte 1811-1856)"/>
+          <persName key="Fortoul, Hippolyte (1811-1856)"/>
         </correspAction>
 
       </correspDesc>
@@ -88,7 +88,7 @@
           <pb n="1" xml:id="p1"/>
           <placeName key="France, Paris">Paris</placeName>, <date when="1852-12-06">6 décembre
             1852</date></dateline>
-        <salute><persName key="Fortoul, Hippolyte 1811-1856)">Monsieur le Ministre</persName><note
+        <salute><persName key="Fortoul, Hippolyte (1811-1856)">Monsieur le Ministre</persName><note
             place="bottom">La lettre est vraisemblablement adressée à Hippolyte Fortoul (1811-1856),
             ministre de l’Instruction publique et des Cultes du 3 décembre 1851 au 1<hi rend="sup"
               >er</hi> juillet 1856.</note>, </salute>
@@ -118,7 +118,7 @@
           Rome</placeName>, lequel est sans fortune et possède tous les mérites qui donnent des
         droits à de semblables faveurs du gouvernement. Je ne prends la liberté <pb n="2"
           xml:id="p2"/> d’introduire cette demande auprès de vous, <persName
-          key="Fortoul, Hippolyte 1811-1856)">Monsieur le Ministre</persName>, qu’en vous priant
+          key="Fortoul, Hippolyte (1811-1856)">Monsieur le Ministre</persName>, qu’en vous priant
         instamment de vouloir bien excuser ce qu’elle peut avoir d’indiscret et ne puis me reposer
         dans cette circonstance que sur la bienveillance extrême dont vous voulez bien
         m’honorer.</p>
@@ -126,7 +126,7 @@
 
       <closer>
         <salute>J’ai l’honneur d’être avec la plus respectueuse considération, <persName
-            key="Fortoul, Hippolyte 1811-1856)">Monsieur le Ministre</persName>, votre très humble
+            key="Fortoul, Hippolyte (1811-1856)">Monsieur le Ministre</persName>, votre très humble
           et très obéissant serviteur</salute>
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
         <address>

@@ -69,7 +69,7 @@
           <placeName>Paris</placeName>
         </correspAction>
         <correspAction type="received">
-          <persName key="Cavé, Edmond (1794-1852)"/>
+          <persName key="Cavé, Édmond (1794-1852)"/>
         </correspAction>
 
       </correspDesc>
@@ -87,7 +87,7 @@
         <address>
           <addrLine>
             <pb n="1" xml:id="p1"/>
-            <persName key="Cavé, Edmond (1794-1852)">Monsieur Cavé</persName><note place="bottom"
+            <persName key="Cavé, Édmond (1794-1852)">Monsieur Cavé</persName><note place="bottom"
               >Edmond Cavé (1794-1852), homme politique, journaliste et écrivain, occupa le poste de
               chef de la division des beaux-arts au ministère de l’Intérieur, avant d’en devenir le
               directeur jusqu’à la chute de Louis-Philippe.</note></addrLine>
@@ -97,7 +97,7 @@
           <pb n="2" xml:id="p2"/>
           <placeName key="France, Paris">Paris</placeName>, <date when="1834-07-11">11 juillet
             1834</date></dateline>
-        <salute><persName key="Cavé, Edmond (1794-1852)">Monsieur</persName>, </salute>
+        <salute><persName key="Cavé, Édmond (1794-1852)">Monsieur</persName>, </salute>
       </opener>
 
 
@@ -115,7 +115,7 @@
 
       <closer>
         <salute>J’ai l’honneur d’être, avec la plus haute considération, <persName
-            key="Cavé, Edmond (1794-1852)">Monsieur</persName>, votre très humble et très obéissant
+            key="Cavé, Édmond (1794-1852)">Monsieur</persName>, votre très humble et très obéissant
           serviteur.</salute>
         <salute><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></salute>
         <placeName key="France, Paris, quai Voltaire, 15">Quai Voltaire, n° 15</placeName>.</closer>

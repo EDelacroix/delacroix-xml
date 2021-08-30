@@ -92,7 +92,7 @@
                     <date when="1843-05-15" cert="high" resp="editor"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName key="Boissard de Boisdenier, Joseph Fernand(1813-1866)">Joseph Fernand
+                    <persName key="Boissard de Boisdenier, Joseph Fernand (1813-1866)">Joseph Fernand
                         Boissard</persName>
                     <placeName key="Paris" ref="https://www.geonames.org/2988507">Paris</placeName>
                 </correspAction>
@@ -131,7 +131,7 @@
                     </address>
                     <pb xml:id="AC_ED_000001_A_I2" n="2" facs="http://tests"/>
                     <salute>Mon cher <persName
-                            key="Boissard de Boisdenier, Joseph Fernand(1813-1866)"
+                            key="Boissard de Boisdenier, Joseph Fernand (1813-1866)"
                             >Monsieur</persName>,</salute>
                 </opener>
 

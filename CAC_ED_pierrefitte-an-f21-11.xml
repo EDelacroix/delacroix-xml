@@ -72,7 +72,7 @@
 
         </correspAction>
         <correspAction type="received">
-          <persName key="Edmond Cavé (1794-1852)"/>
+          <persName key="Cavé, Édmond (1794-1852)"/>
         </correspAction>
 
       </correspDesc>
@@ -89,7 +89,7 @@
       <opener>
         <salute>
           <pb n="1" xml:id="p1"/>
-          <persName key="Edmond Cavé (1794-1852)">Mon cher ami</persName><note place="bottom">Le
+          <persName key="Cavé, Édmond (1794-1852)">Mon cher ami</persName><note place="bottom">Le
             destinataire peut être identifié comme Edmond Cavé (1794-1852) (Johson, <hi rend="it"
               >Further Correspondance</hi>, p. 100). Sous la monarchie de Juillet, il fut nommé chef
             de division, puis directeur des beaux-arts au ministère de l’Intérieur.</note>,</salute>

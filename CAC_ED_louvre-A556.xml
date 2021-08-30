@@ -75,7 +75,7 @@
         </correspAction>
         <correspAction type="received">
           <persName key="Pierret, Jean-Baptiste (1795-1854)"/>
-          <persName key="Guillemardet, Félix (1796-1840)"/>
+          <persName key="Guillemardet, Félix (1796-1842)"/>
           <placeName key="France, Paris, rue Sainte-Anne, 18"/>
         </correspAction>
 
@@ -96,7 +96,7 @@
             <pb n="4" xml:id="p4"/>
             <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur Pierret
             jeune</persName></addrLine>
-          <addrLine>et à <persName key="Guillemardet, Félix (1796-1840)">M. Guillemardet
+          <addrLine>et à <persName key="Guillemardet, Félix (1796-1842)">M. Guillemardet
               (Félix)</persName></addrLine>
           <addrLine>
             <placeName key="France, Paris, rue Sainte-Anne, 18">Rue Sainte-Anne n°
@@ -108,7 +108,7 @@
           <placeName key="Maroc, Tanger">Tanger</placeName>, <date when="1832-02-08">8
             février</date></dateline>
         <salute><persName key="Pierret, Jean-Baptiste (1795-1854)"><persName
-              key="Guillemardet, Félix (1796-1840)">Chers amis</persName></persName>,</salute>
+              key="Guillemardet, Félix (1796-1842)">Chers amis</persName></persName>,</salute>
       </opener>
 
 
@@ -145,7 +145,7 @@
           imaginer<note place="bottom">Cette scène de combat a été reprise par Delacroix dans
           plusieurs œuvres, notamment dans la toile <hi rend="it">Rencontre de Cavaliers
           Maures</hi>, qui a été refusée au Salon de 1834 (Joubin, I, p. 311 et Robaut, p. 41 et
-          125).</note> : tout ce que <persName key="Gros, Antoine-Jean (1771-1835)">Gros</persName>
+          125).</note> : tout ce que <persName key="Gros, Antoine Jean (1771-1835)">Gros</persName>
         et <persName key="Rubens, Pierre Paul (1577-1640)">Rubens</persName> ont inventé de folies
         n’est que peu de chose auprès. Après s’être mordus de toutes les manières en se grimpant
         l’un sur l’autre, et en marchant sur leurs pieds de derrière comme des hommes, après s’être,

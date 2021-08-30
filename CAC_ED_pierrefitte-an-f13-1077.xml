@@ -72,7 +72,7 @@
           <placeName key="France, Paris">Paris</placeName>
         </correspAction>
         <correspAction type="received">
-          <persName key="Edmond Blanc (1813-1882)"/>
+          <persName key="Blanc, Édmond (1813-1882)"/>
         </correspAction>
 
       </correspDesc>
@@ -90,7 +90,7 @@
           <pb n="1" xml:id="p1"/>
           <placeName key="France, Paris">Paris</placeName>, <date when="1834-06-03">3 août
             1834</date></dateline>
-        <salute><persName key="Edmond Blanc (1813-1882)">Monsieur</persName><note place="bottom">Le
+        <salute><persName key="Blanc, Édmond (1813-1882)">Monsieur</persName><note place="bottom">Le
             contenu de la lettre laisse comprendre que son destinataire est Edmond Blanc
             (1813-1882), directeur des Bâtiments publics au ministère de l’Intérieur (Joubin, I, p.
             379).</note>, </salute>
@@ -112,7 +112,7 @@
 
       <closer>
         <salute>Recevez en même temps, l’assurance de la haute considération avec laquelle j’ai
-          l’honneur d’être, <signed><persName key="Edmond Blanc (1813-1882)"
+          l’honneur d’être, <signed><persName key="Blanc, Édmond (1813-1882)"
             >Monsieur</persName></signed>, votre très humble et très obéissant serviteur.</salute>
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
       </closer>

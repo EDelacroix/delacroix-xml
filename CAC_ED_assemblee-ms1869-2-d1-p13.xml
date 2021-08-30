@@ -70,7 +70,7 @@
 
         </correspAction>
         <correspAction type="received">
-          <persName key="Cavé, Edmond (1794-1852)"/>
+          <persName key="Cavé, Édmond (1794-1852)"/>
         </correspAction>
 
       </correspDesc>
@@ -88,7 +88,7 @@
         <address>
           <addrLine>
             <pb n="1" xml:id="p1"/>
-            <persName key="Cavé, Edmond (1794-1852)">Monsieur Cavé</persName><note place="bottom"
+            <persName key="Cavé, Édmond (1794-1852)">Monsieur Cavé</persName><note place="bottom"
               >Edmond Cavé (1794-1852), homme politique, journaliste et écrivain, occupa le poste de
               chef de la division des beaux-arts au ministère de l’Intérieur, avant d’en devenir le
               directeur jusqu’à la chute de Louis-Philippe.</note></addrLine>
@@ -96,7 +96,7 @@
         </address>
         <salute>
           <pb n="2" xml:id="p2"/>
-          <persName key="Cavé, Edmond (1794-1852)">Monsieur</persName>,</salute>
+          <persName key="Cavé, Édmond (1794-1852)">Monsieur</persName>,</salute>
       </opener>
 
 
@@ -116,7 +116,7 @@
 
       <closer>
         <salute>J’ai l’honneur d’être, avec une très haute considération, <persName
-            key="Cavé, Edmond (1794-1852)">Monsieur</persName>, votre très humble et obéissant
+            key="Cavé, Édmond (1794-1852)">Monsieur</persName>, votre très humble et obéissant
           serviteur.</salute>
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
         <dateline>Le <date when="1835-12-18">18 décembre 1835</date>.</dateline>

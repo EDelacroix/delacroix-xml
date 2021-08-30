@@ -72,7 +72,7 @@
 
         </correspAction>
         <correspAction type="received">
-          <persName key="Cavé, Edmond (1794-1852)"/>
+          <persName key="Cavé, Édmond (1794-1852)"/>
         </correspAction>
 
       </correspDesc>
@@ -91,14 +91,14 @@
         <address>
           <addrLine><placeName key="France, Paris, rue de Grenelle">rue de
             Grenelle</placeName></addrLine>
-          <persName key="Cavé, Edmond (1794-1852)">Monsieur Cavé</persName>
+          <persName key="Cavé, Édmond (1794-1852)">Monsieur Cavé</persName>
           <addrLine>Chef de la division des Belles lettres sciences et arts. Au ministère de
             l’Intérieur et du Commerce.</addrLine>
         </address>
 
         <salute>
           <pb n="2" xml:id="p2"/>
-          <persName key="Cavé, Edmond (1794-1852)">Monsieur</persName><note place="bottom">Edmond
+          <persName key="Cavé, Édmond (1794-1852)">Monsieur</persName><note place="bottom">Edmond
             Cavé (1794-1852), homme politique, journaliste et écrivain, occupa le poste de chef de
             la division des beaux-arts au ministère de l’Intérieur, avant d’en devenir le directeur
             jusqu’à la chute de Louis-Philippe.</note>,</salute>
@@ -131,7 +131,7 @@
 
       <closer>
         <salute>J’ai l’honneur d’être avec une haute considération, <persName
-            key="Cavé, Edmond (1794-1852)">Monsieur</persName>, votre très obéissant et dévoué
+            key="Cavé, Édmond (1794-1852)">Monsieur</persName>, votre très obéissant et dévoué
           serviteur.</salute>
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
         <dateline>Ce <date when="1833-05-30">30 mai 1833</date>.</dateline>

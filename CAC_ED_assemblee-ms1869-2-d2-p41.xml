@@ -69,7 +69,7 @@
           <placeName>Paris</placeName>
         </correspAction>
         <correspAction type="received">
-          <persName key="Cavé, Edmond (1794-1852)"/>
+          <persName key="Cavé, Édmond (1794-1852)"/>
         </correspAction>
 
       </correspDesc>
@@ -88,7 +88,7 @@
           <pb n="1" xml:id="p1"/>
           <placeName key="France, Paris">Paris</placeName>, <date when="1845-08-12">12 août
             1845</date></dateline>
-        <salute><persName key="Cavé, Edmond (1794-1852)">Mon cher ami</persName><note place="bottom"
+        <salute><persName key="Cavé, Édmond (1794-1852)">Mon cher ami</persName><note place="bottom"
             >Edmond Cavé (1794-1852), homme politique, journaliste et écrivain, qui occupa le poste
             de chef de la division des beaux-arts au ministère de l’Intérieur, avant d’en devenir le
             directeur jusqu’à la chute de Louis-Philippe. Le ton employé est plus informé que dans
@@ -133,9 +133,9 @@
 
 
       <closer>
-        <salute>Voulez-vous, <persName key="Cavé, Edmond (1794-1852)">cher Monsieur et
+        <salute>Voulez-vous, <persName key="Cavé, Édmond (1794-1852)">cher Monsieur et
             ami</persName>, me rappeler au souvenir de <persName
-            key="Cavé, Marie-Elisabeth (1806-1883)">Madame Cavé</persName> et recevoir les nouvelles
+              key="Cavé, Marie Élisabeth, veuve Boulanger (1806?-1883)">Madame Cavé</persName> et recevoir les nouvelles
           assurances de mon sincère dévouement ?</salute>
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
       </closer>
