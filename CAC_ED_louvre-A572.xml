@@ -22,8 +22,8 @@
         </respStmt>
         <respStmt>
           <resp>Corrections</resp>
-          <name>{corrections}</name>
-          <name>{corrections}</name>
+          <name>Gaëlle Lafage</name>
+          <name>Catherine Gros</name>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -93,7 +93,7 @@
           <addrLine>
             <pb n="1" xml:id="p1"/>
             <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur Pierret, chef de Bureau
-              adjoint au Ministère de l’intérieur</persName></addrLine>
+              adjoint au Ministère de l’Intérieur</persName></addrLine>
           <addrLine><placeName key="France, Paris, Quai d'Orsay">Quai d’Orsay, à
             Paris</placeName></addrLine>
         </address>
@@ -108,7 +108,7 @@
 
       <p>Il y a bien longtemps, <persName key="Pierret, Jean-Baptiste (1795-1854)">bon ami
           cher</persName>, que je devrais t’avoir donné de mes nouvelles : croirais-tu que depuis
-        tout le temps j’ai à peine trouvé une lacune pour te donner de mes nouvelles et te parler de
+        tout ce temps j’ai à peine trouvé une lacune pour te donner de mes nouvelles et te parler de
         mes impressions ? Cela te prouvera au moins que je ne me suis pas ennuyé. Mais ce que tu
         croiras sans peine, c’est que j’ai bien pensé à toi et que je t’ai bien désiré devant toutes
         les belles peintures que j’ai vues. Je n’ai pas éprouvé l’effet que j’en redoutais. Je
@@ -119,10 +119,10 @@
         dans <pb n="3" xml:id="p3"/> les ouvrages de <placeName key="Pays-Bas">ce
           pays-ci</placeName> qu’il a fait tous les essais et connu toutes les incertitudes. Il est
         tantôt l’imitateur de <persName key="Michel-Ange, Michelangelo Buonarroti, dit  (1475-1564)"
-          >Michel-Ange</persName>, qui au reste lui revient souvent, tantôt de <persName
+          >Michel-Ange</persName>, qui, au reste, lui revient souvent, tantôt de <persName
           key="Véronèse, Paul (1528-1588)">Véronèse</persName> et du <persName
           key="Titien, Tiziano Veccellio, dit (1490-1576)">Titien</persName> et presque toujours,
-        dans ses phases diverses, il est emprunté et gêné. Quand il veut s’appliquer, il est froid
+        dans ces phases diverses, il est emprunté et gêné. Quand il veut s’appliquer, il est froid
         et sec, quand il s’affranchit de ses modèles, il est le grand <persName
           key="Rubens, Pierre Paul (1577-1640)">Rubens</persName>. Je te détaillerai tout cela. J’ai
         bien vu <placeName key="Belgique, Anvers">Anvers</placeName>. Je n’ai pas vu <placeName
@@ -134,7 +134,7 @@
           <persName key="Poterlet, Hippolyte (1803-1835)">Poterlet</persName>. Je suis ici depuis
         hier soir. Je t’écris le <pb n="4" xml:id="p4"/> matin avant d’avoir rien vu, mais je ne
         ferai pas plus d’un jour.</p>
-      <p>Et ton cœur et ton rêve ? Tu me diras où tout cela en est. Pour moi, je crois véritablement
+      <p>Et ton cœur, et ton rêve ? Tu me diras où tout cela en est. Pour moi, je crois véritablement
         avoir rêvé. Tant de plaisirs divers et d’émotions de tout genre à la fois, c’est un
         véritable rêve qu’on ne fait qu’une fois dans la vie.</p>
       <p>Je t’envoie une lettre que je te prie bien d’envoyer <hi rend="u">de suite</hi> à <persName
@@ -146,9 +146,9 @@
 
 
       <closer>
-        <salute>Adieu, <persName key="Pierret, Jean-Baptiste (1795-1854)">cher confrère, cher
-            véritable ami</persName>. Je ne te demande de nouvelles de personne, parce que je ne
-          pourrais rien recevoir de toi d’ici à mon retour. Laisse-moi donc t’embrasser comme je
+        <salute>Adieu, <persName key="Pierret, Jean-Baptiste (1795-1854)">cher confident, cher
+            véritable ami</persName>. Je ne te demande des nouvelles de personne, parce que je ne
+          pourrai rien recevoir de toi d’ici à mon retour. Laisse-moi donc t’embrasser comme je
           t’aime, c’est-à-dire avec la plus vive tendresse.</salute>
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène</persName></signed>
       </closer>

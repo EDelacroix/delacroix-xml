@@ -22,8 +22,7 @@
         </respStmt>
         <respStmt>
           <resp>Corrections</resp>
-          <name>{corrections}</name>
-          <name>{corrections}</name>
+          <name>Catherine Gros</name>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -114,8 +113,8 @@
           key="Assemblée nationale, Bibliothèque
             ">bibliothèque de la Chambre</rs><note place="bottom">Delacroix se réfère ici
           au décor de la Bibliothèque de l’Assemblée nationale, qui lui a été confié en 1838. En
-          effet, le peintre n’avait pas encore reçu la lettre que le Ministère de l’Intérieur lui
-          avait adressé le 31 août 1838, qui l’informait de cette commande.</note>. Sois assez bon
+          effet, le peintre n’avait pas encore reçu la lettre que le ministère de l’Intérieur lui
+          avait adressée le 31 août 1838, qui l’informait de cette commande.</note>. Sois assez bon
         pour t’informer et m’informer le plus tôt possible si ce n’est pas une mystification : elle
         me serait sensible. Autre commission que je réclame de ta bonté : ce serait, en te
         promenant, d’aller au coin de la rue Grange-Batelière et du boulevard, chez Pleyel, facteur
@@ -144,8 +143,8 @@
           key="Guillemardet, Félix (1796-1842)">Guillemardet</persName>, si tu en sais. Ta vie est
         monotone et ne donne pas lieu à des descriptions. <pb n="4" xml:id="p4"/> Pour moi, j’ai vu
         passablement de pays, la mer, beaucoup, que je sais par cœur à présent : <placeName
-          key="France, Dieppe">Dieppe</placeName>, <placeName key="France, Tréport"
-          >Tréport</placeName>, <placeName key="France, Fécamp">Fécamp</placeName>, etc.<note
+          key="France, Dieppe">Dieppe</placeName>, <placeName key="France, Le Tréport"
+          >Le Tréport</placeName>, <placeName key="France, Fécamp">Fécamp</placeName>, etc.<note
           place="bottom">Lors de son voyage, Delacroix était en compagnie de son amante Joséphine de
           Forget (1802-1886). Plus tard, il se remémore de ce séjour dans une <ref type="letter"
             >lettre à cette dernière datée du 3 septembre 1851</ref>. </note> Des ennuis d’auberge
