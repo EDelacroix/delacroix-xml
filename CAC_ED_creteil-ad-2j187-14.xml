@@ -82,17 +82,18 @@
 
 
       <p>
-        <pb n="1" facs="https://api.nakala.fr/iiif/10.34847/nkl.87f8r442/89073b3c7a2017c5f5ee96af986094d4d499a151/full/full/0/default.jpg"/> Je pense, <persName key="Delacroix, Eugène (1798-1863)">mon
-          ami</persName>, que vous voilà bien établi, bien installé, et que vous êtes arrivé
-          <placeName key="France, Nohant">chez <persName key="Sand, George (1804-1876)"
-            >Mme Sand</persName></placeName><note>En juillet 1843, Delacroix séjourna chez George
-          Sand à Nohant (voir la lettre à Pierret du 21 juillet 1843 et celle à George Sand du 30
-          juillet 1843). Françoise Alexandre, dans l’édition de la correspondance entre Sand et
-          Delacroix affirme que le peintre resta du 17 au 27 juillet à Nohant (Alexandre, 2005,
-          p. 37). Ainsi, lorsque Joséphine de Forget écrivit cette lettre, Delacroix n’était pas
-          encore arrivé.</note> sans trop de mésaventures. Je suis impatiente de recevoir des
-        nouvelles de votre nouvelle installation. <persName
-          key="Delacroix, Charles Henry (1779-1845)">Votre frère</persName> est-il resté à
+        <pb n="1"
+          facs="https://api.nakala.fr/iiif/10.34847/nkl.87f8r442/89073b3c7a2017c5f5ee96af986094d4d499a151/full/full/0/default.jpg"
+        /> Je pense, <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName>, que vous
+        voilà bien établi, bien installé, et que vous êtes arrivé <placeName key="France, Nohant"
+          >chez <persName key="Sand, George (1804-1876)">Mme Sand</persName></placeName><note>En
+          juillet 1843, Delacroix séjourna chez George Sand à Nohant (voir la lettre à Pierret du 21
+          juillet 1843 et celle à George Sand du 30 juillet 1843). Françoise Alexandre, dans
+          l’édition de la correspondance entre Sand et Delacroix affirme que le peintre resta du 17
+          au 27 juillet à Nohant (Alexandre, 2005, p. 37). Ainsi, lorsque Joséphine de Forget
+          écrivit cette lettre, Delacroix n’était pas encore arrivé.</note> sans trop de
+        mésaventures. Je suis impatiente de recevoir des nouvelles de votre nouvelle installation.
+          <persName key="Delacroix, Charles Henry (1779-1845)">Votre frère</persName> est-il resté à
           <placeName key="France, Vichy">Vichy</placeName><note place="bottom">Avant de séjourner à
           Nohant, Delacroix était allé voir son frère à Vichy qui était malade et suscita
           l’inquiétude de Delacroix (voir la lettre à Pierret du 21 juillet 1843).</note> ? Nous
@@ -111,40 +112,45 @@
             key="Vieillard, Eliza Caroline Huet, épouse (1797-1847)">Les
           Vieillard</persName></persName>, que j’ai vus hier, se portent assez bien, et la semaine
         prochaine, partiront pour leur petite campagne à <placeName key="France, Saint-Priest"
-          >Saint-Priest</placeName>. <persName key="Méneval, Aimée
-          Virginie Joséphine Comte de Montvernot, baronne de (1792-1871)"><persName
-            key="Méneval, Claude François, baron de (1778-1850)">Les Méneval</persName></persName>
-        sont à <placeName key="France, Paris">Paris</placeName> et ne parlent pas encore de retourner
-        à la campagne ce qui me fait grand plaisir car l’été tout le monde se sauve. <persName
-          key="Querelles, Hortense de (1812-1851)">Notre chère malade</persName>
-        <pb n="2" facs="https://api.nakala.fr/iiif/10.34847/nkl.87f8r442/644ee5d8c1f7e4097d2e7f053f3d99c27a6953cb/full/full/0/default.jpg"/> est bien sensible à votre bon souvenir, elle vous envoie mille
-        amitiés ; elle sort un peu mais elle souffre encore souvent, et je crains que cette maladie
-        ne soit bien longue<note place="bottom">Joséphine mentionne « sa malade » dans plusieurs
-          lettres, mais aucune ne nous donne son nom. Il pourrait s’agir de la mère de Joséphine de
-          Forget qui vivait avec elle, mais plus vraisemblablement de sa demi-tante Hortense de
-          Querelles qui tomba malade en 1843 comme l’atteste une lettre que Louis-Napoléon Bonaparte
-          lui adressa le 23 avril et le 2 août 1843 (Archives nationales, 464 AP) et qui rentra à
-          Paris, chez Joséphine de Forget, pour se faire soigner. </note> ! Nous passons notre temps
-        d’une manière assez maussade ; au reste, j’en ai pris mon parti, je suis habituée à
-        m’ennuyer <hi rend="u">moralement</hi>, car vous savez que je m’occupe sans cesse ; mais je
-        sens bien que vous n’êtes pas ici, <persName key="Delacroix, Eugène (1798-1863)"
-          >ami</persName>, et ma tristesse habituelle s’en augmente bien davantage. Cependant, je ne
-        suis pas assez égoïste pour vous désirer auprès de moi, lorsque vous pouvez vous reposer, et
-        vous distraire auprès de <persName key="Sand, George (1804-1876)"><persName
-            key="Chopin, Frédéric (1810-1849)">bons amis</persName></persName>, profitez-en le plus
-        que vous pourrez, et surtout revenez-nous bien portant, engraissé et en bon état ; je n’ai
-        pas besoin de vous répéter, <persName key="Delacroix, Eugène (1798-1863)">ami</persName>,
-        combien je serai heureuse de vous revoir, il y aura de la sympathie entre nous. Parlez-moi
-        de votre séjour, de <persName key="Sand, George (1804-1876)"><persName
-            key="Chopin, Frédéric (1810-1849)">vos hôtes</persName></persName>, que j’aime parce que
-        vous les aimez ; je voudrais être cachée quelques fois dans les bosquets de <placeName
-          key="France, La Châtre">La Châtre</placeName>, et pouvoir nous promener ensemble… puisque
-        ce beau projet ne pourra se réaliser, il faudra nous contenter de la promenade de nos
-          <placeName key="France, Paris, Champs-Élysées">Champs-Élysées</placeName>, ce qui est
-        beaucoup moins poétique.</p>
+          >Saint-Priest</placeName>. <persName
+          key="Méneval, Aimée Virginie Joséphine Comte de Montvernot, baronne de (1792-1871)"
+            ><persName key="Méneval, Claude François, baron de (1778-1850)">Les
+          Méneval</persName></persName> sont à <placeName key="France, Paris">Paris</placeName> et
+        ne parlent pas encore de retourner à la campagne ce qui me fait grand plaisir car l’été tout
+        le monde se sauve. <persName key="Querelles, Hortense de (1812-1851)">Notre chère
+          malade</persName>
+        <pb n="2"
+          facs="https://api.nakala.fr/iiif/10.34847/nkl.87f8r442/644ee5d8c1f7e4097d2e7f053f3d99c27a6953cb/full/full/0/default.jpg"
+        /> est bien sensible à votre bon souvenir, elle vous envoie mille amitiés ; elle sort un peu
+        mais elle souffre encore souvent, et je crains que cette maladie ne soit bien longue<note
+          place="bottom">Joséphine mentionne « sa malade » dans plusieurs lettres, mais aucune ne
+          nous donne son nom. Il pourrait s’agir de la mère de Joséphine de Forget qui vivait avec
+          elle, mais plus vraisemblablement de sa demi-tante Hortense de Querelles qui tomba malade
+          en 1843 comme l’atteste une lettre que Louis-Napoléon Bonaparte lui adressa le 23 avril et
+          le 2 août 1843 (Archives nationales, 464 AP) et qui rentra à Paris, chez Joséphine de
+          Forget, pour se faire soigner. </note> ! Nous passons notre temps d’une manière assez
+        maussade ; au reste, j’en ai pris mon parti, je suis habituée à m’ennuyer <hi rend="u"
+          >moralement</hi>, car vous savez que je m’occupe sans cesse ; mais je sens bien que vous
+        n’êtes pas ici, <persName key="Delacroix, Eugène (1798-1863)">ami</persName>, et ma
+        tristesse habituelle s’en augmente bien davantage. Cependant, je ne suis pas assez égoïste
+        pour vous désirer auprès de moi, lorsque vous pouvez vous reposer, et vous distraire auprès
+        de <persName key="Sand, George (1804-1876)"><persName key="Chopin, Frédéric (1810-1849)"
+            >bons amis</persName></persName>, profitez-en le plus que vous pourrez, et surtout
+        revenez-nous bien portant, engraissé et en bon état ; je n’ai pas besoin de vous répéter,
+          <persName key="Delacroix, Eugène (1798-1863)">ami</persName>, combien je serai heureuse de
+        vous revoir, il y aura de la sympathie entre nous. Parlez-moi de votre séjour, de <persName
+          key="Sand, George (1804-1876)"><persName key="Chopin, Frédéric (1810-1849)">vos
+            hôtes</persName></persName>, que j’aime parce que vous les aimez ; je voudrais être
+        cachée quelques fois dans les bosquets de <placeName key="France, La Châtre"
+          >La Châtre</placeName>, et pouvoir nous promener ensemble… puisque ce beau projet ne
+        pourra se réaliser, il faudra nous contenter de la promenade de nos <placeName
+          key="France, Paris, Champs-Élysées">Champs-Élysées</placeName>, ce qui est beaucoup moins
+        poétique.</p>
       <p>
-        <pb n="3" facs="https://api.nakala.fr/iiif/10.34847/nkl.87f8r442/e026f657a00f9962eff66135591646b92c377811/full/full/0/default.jpg"/> On m’a renvoyé il y a quelques jours, les quatre volumes de <hi
-          rend="it">Consuelo</hi><note place="bottom">Ce roman de George Sand fut d’abord publié en
+        <pb n="3"
+          facs="https://api.nakala.fr/iiif/10.34847/nkl.87f8r442/e026f657a00f9962eff66135591646b92c377811/full/full/0/default.jpg"
+        /> On m’a renvoyé il y a quelques jours, les quatre volumes de <hi rend="it"
+          >Consuelo</hi><note place="bottom">Ce roman de George Sand fut d’abord publié en
           feuilleton à partir de 1842 dans la<hi rend="it"> Revue indépendante</hi> qu’elle fonda,
           avant de paraître en 1843 en huit volumes chez L. de Potter. Quelques mois plus tard,
           Joséphine de Forget signait ses lettres du surnom Consuelo, que Delacroix utilisa
@@ -161,12 +167,13 @@
         journaux. Je ne vais pas au spectacle, cependant hier je me suis permis <placeName
           key="France, Paris, Cirque Franconi">Franconi</placeName><note place="bottom">Le Cirque
           Olympique des Franconi, alors situé boulevard du Temple, présentait des spectacles
-          équestres, mais aussi des pantomimes. </note>, avec <persName key="Vieillard, Narcisse (1791-1857)"><persName
+          équestres, mais aussi des pantomimes. </note>, avec <persName
+          key="Vieillard, Narcisse (1791-1857)"><persName
             key="Vieillard, Eliza Caroline Huet, épouse (1797-1847)">M. et
-          Mme Vieillard</persName></persName> ; je dois dîner chez eux mercredi prochain : vous voyez que mes
-        plaisirs sont peu <hi rend="u">émotionnants</hi>. Avez-vous mis votre gilet ? Et votre
-        lumbago, comment va-t-il ? Je vous envoie des millions de tendresses en attendant le bonheur
-        de vous revoir.</p>
+          Mme Vieillard</persName></persName> ; je dois dîner chez eux mercredi prochain : vous
+        voyez que mes plaisirs sont peu <hi rend="u">émotionnants</hi>. Avez-vous mis votre gilet ?
+        Et votre lumbago, comment va-t-il ? Je vous envoie des millions de tendresses en attendant
+        le bonheur de vous revoir.</p>
 
       <closer>
         <salute>Tout à vous</salute>

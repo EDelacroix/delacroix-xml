@@ -71,7 +71,7 @@
 
         </correspAction>
         <correspAction type="received">
-          <persName key="Louise Rang-Babut (1805-1884)"/>
+          <persName key="Rang-Babut, Louise (1805-1884)"/>
         </correspAction>
 
       </correspDesc>
@@ -88,7 +88,7 @@
       <opener>
         <salute>
           <pb n="1" xml:id="p1"/>
-          <persName key="Louise Rang-Babut (1805-1884)">Chère dame</persName>,</salute>
+          <persName key="Rang-Babut, Louise (1805-1884)">Chère dame</persName>,</salute>
       </opener>
 
 
@@ -112,7 +112,7 @@
 
 
       <closer>
-        <salute>Adieu, <persName key="Louise Rang-Babut (1805-1884)">chère dame</persName>. Soyez heureuse et revenez quelque jour à
+        <salute>Adieu, <persName key="Rang-Babut, Louise (1805-1884)">chère dame</persName>. Soyez heureuse et revenez quelque jour à
             <placeName key="France, Paris">Paris</placeName>.</salute>
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName></signed>
         <dateline>le <date when="1849-05-04">4 mai</date>.</dateline>

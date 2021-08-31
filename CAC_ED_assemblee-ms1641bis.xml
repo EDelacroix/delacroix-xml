@@ -87,11 +87,11 @@
 
       <opener>
         <pb n="1" xml:id="p1"/>
-        <address><persName key="Balze, Paul (1815-1884)"><persName key="Balze, Raymond (1818-1909)">Messieurs
-            Paul et Raymond Balze</persName></persName><note place="bottom">Paul (1815-1884) et
-          Raymond Balze (1818-1909), peintres.</note>, peintres. 
-          <addrLine><placeName key="France, Paris, quai de Conti, 17">Quai de Conti
-            17</placeName>.</addrLine>
+        <address><persName key="Balze, Paul (1815-1884)"><persName key="Balze, Raymond (1818-1909)"
+              >Messieurs Paul et Raymond Balze</persName></persName><note place="bottom">Paul
+            (1815-1884) et Raymond Balze (1818-1909), peintres.</note>, peintres.
+              <addrLine><placeName key="France, Paris, quai de Conti, 17">Quai de Conti
+              17</placeName>.</addrLine>
         </address>
       </opener>
 
@@ -118,12 +118,12 @@
         <persName key="Balze, Paul (1815-1884)"><persName key="Balze, Raymond (1818-1909)">MM.
             Balze</persName></persName> de la part de <persName key="Delacroix, Eugène (1798-1863)"
           >M. Delacroix</persName> avec ses compliments bien sincères de leurs beaux travaux d’après
-          <persName key="Raphaël (1483-1520)">Raphaël</persName><note place="bottom">Paul et Raymond
-          Balze réalisèrent, à la demande d’Ingres, alors directeur de l’Académie de France à Rome,
-          des copies des fresques des Loges du Vatican par Raphaël. Au nombre de cinquante-deux, ces
-          copies furent exposées à partir de 1840 dans la chapelle de l’Ecole des beaux-arts de
-          Paris. L’architecte Félix Duban (1797-1870) proposa alors de les installer dans les
-          galeries hautes, ce qui fut fait entre 1854 et 1855.</note>.</p>
+          <persName key="Raphaël, Raffaello Sanzio, dit (1483-1520)">Raphaël</persName><note
+          place="bottom">Paul et Raymond Balze réalisèrent, à la demande d’Ingres, alors directeur
+          de l’Académie de France à Rome, des copies des fresques des Loges du Vatican par Raphaël.
+          Au nombre de cinquante-deux, ces copies furent exposées à partir de 1840 dans la chapelle
+          de l’Ecole des beaux-arts de Paris. L’architecte Félix Duban (1797-1870) proposa alors de
+          les installer dans les galeries hautes, ce qui fut fait entre 1854 et 1855.</note>.</p>
 
     </body>
   </text>
