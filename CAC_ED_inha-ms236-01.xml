@@ -7,7 +7,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Lettre à George Sand, 26 avril 1835</title>
+        <title>Lettre d'Eugène Delacroix à George Sand, 26 avril 1835</title>
         <author key="Delacroix, Eugène (1798-1863)"/>
       </titleStmt>
       <editionStmt>
@@ -84,40 +84,39 @@
       </opener>
       <pb n="2"
         facs="https://api.nakala.fr/iiif/10.34847/nkl.52fc332r/b1a12ce682146b4a51a0fa8d53b8132b777fb758/full/full/0/default.jpg"/>
-      <p>J’arrive, chère <persName key="Sand, George (1804-1876)">Madame</persName>, et je vous
-        remercie de votre invitation. Je serai chez vous tantôt à 6h n’est-ce pas ? Vous repartez
-        donc ? Mais vous resterez peut-être ; car vous restiez il y a 15 jours <note place="bottom"
-          >Selon Françoise Alexandre, Delacroix et <persName>Sand</persName> ont des difficultés
+      <p>J’arrive, <persName key="Sand, George (1804-1876)">chère Madame</persName>, et je vous
+        remercie de votre bonne invitation. Je serai chez vous tantôt à 6h n’est-ce pas ? Vous repartez
+        donc ? Mais vous resterez peut-être ; car vous restiez il y a 15 jours<note place="bottom"
+          >Selon Françoise Alexandre, Delacroix et Sand ont des difficultés
           pour se rencontrer à Paris. Le peintre rentre d'un séjour à Frépillon chez ses cousins
-            <persName>Riesener</persName>, tandis que l'écrivain, qui a renoué avec Alfred de Musset
+            Riesener, tandis que l'écrivain, qui a renoué avec Alfred de Musset
           en janvier, le fuit le 6 mars à Nohant et paraît multiplier les allers et retours entre
-          Paris et le Berry (Alexandre, 2005, p. 225, n. 1 de la page 88). </note>.</p>
-      <p>Vous avez manqué de bien peu de chose une fameuse épître de moi, après avoir achevé <hi
-          rend="it">André</hi><note place="bottom">Titre du roman de <persName>George
-            Sand</persName> publié en livraisons dans la <hi rend="it">Revue des deux Mondes</hi>
+          Paris et le Berry (Alexandre, 2005, p. 225, n. 1 de la page 88).</note>.</p>
+      <p>Vous avez manqué de bien peu de chose une fameuse épître de moi après avoir achevé <hi
+          rend="it">André</hi><note place="bottom">Titre du roman de George
+            Sand publié en livraisons dans la <hi rend="it">Revue des deux Mondes</hi>
           entre le 15 mars et le 1er avril 1835.</note>, l’autre jour, et qui devait commencer par «
         femme admirable ! » Mais nous ne sommes pas encore assez vieux amis<note place="bottom">
-          Delacroix avait rencontré <persName>George Sand</persName> durant l'hiver 1834-1835
-          lorsqu'il fit, à la demande de <persName>François Buloz</persName>, son portrait.</note>
-        pour que j’ose être aussi ridicule avec vous, que mon humeur du moment me le fait être
+          Delacroix avait rencontré George Sand durant l'hiver 1834-1835
+          lorsqu'il fit, à la demande de François Buloz, son portrait.</note>
+        pour que j’ose être aussi ridicule avec vous que mon humeur du moment me le fait être
         souvent. Peut-être un jour serai-je plus entreprenant pour vous dire tout<pb n="3"
           facs="https://api.nakala.fr/iiif/10.34847/nkl.52fc332r/3174fae52990870d49e14e01b9bc79711e5b817f/full/full/0/default.jpg"
-        /> ce que je pense d’André et de beaucoup d’autres choses encore<note>"En avril 1835,
-          Delacroix s'en tient encore au "chère madame" avec <persName>George Sand</persName>.
+        /> ce que je pense d’<hi rend="it">André</hi> et de beaucoup d’autres choses encore<note>« En avril 1835,
+          Delacroix s'en tient encore au "chère madame" avec George Sand.
           Néanmoins, une certaine galanterie, certes conventionnelle, perce derrière les compliments
-          adressés à l'auteur d'<hi rend="it">André</hi>" (Alexandre, 2005, p. 225, n. 3 de la page
-          88).</note>.</p>
+          adressés à l'auteur d'<hi rend="it">André</hi> » (Alexandre, 2005, p. 225, note 3).</note>.</p>
       <closer>
-        <salute>Adieu, chère <persName key="Sand, George (1804-1876)">Madame</persName>, et à
+        <salute>Adieu, <persName key="Sand, George (1804-1876)">chère Madame</persName>, et à
           tantôt.</salute>
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
       </closer>
       <postscript>
         <p>Je ne puis cependant m’empêcher de vous parler encore du joli serpent<note>Cadeau de
             l'écrivain à Delacroix. "Le serpent" est un presse-papier en plomb de la forme de cet
-            animal. Cet objet avait été offert à <persName>Sand </persName>par l'actrice Marie
+            animal. Cet objet avait été offert à Sand par l'actrice Marie
             Dorval. Delacroix conserve ce serpent jusqu'à sa mort et le restitue par testament à
-              <persName>l'écrivain</persName>. Il est actuellement conservé au musée de la Vie
+              l'écrivain. Il est actuellement conservé au musée de la Vie
             romantique à Paris (Alexandre, 2005, p. 225, n. 4 de la page 88).</note>. Le premier
           jour, j’en étais véritablement fou.</p>
       </postscript>
