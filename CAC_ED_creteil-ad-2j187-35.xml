@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, 15 octobre [1860]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Créteil</settlement>
+            <institution>Archives départementales du Val-de-Marne</institution>
+
+            <idno>2 J 187, pièce 35</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="4"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date when="1860-10-15"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Ce <date when="1860-10-15">15 octobre</date><note place="bottom"
+            >Cette lettre semble écrite à Delacroix alors qu’il avait décidé de travailler au décor
+            de la chapelle de Saint-Sulpice tout en retournant dormir tous les jours dans sa maison
+            de campagne à Champrosay. Il parle de son nouveau mode de vie dans sa <ref type="letter"
+              target="CAC_ED_inha-aut120-1398-04i-3.xml">lettre du 23 septembre à la baronne</ref>.
+          </note></dateline>
+      </opener>
+
+
+      <p>Je reçois votre lettre, <persName key="Delacroix, Eugène (1798-1863)">mon cher
+          ami</persName>, et je m’empresse de vous répondre que je ne suis pas malade et que j’ai
+        été la semaine dernière m’informer chez vous de votre santé et remettre à votre concierge
+        toutes les <hi rend="it">Revues</hi> que j’avais à vous<note place="bottom">Fin septembre,
+          Delacroix avait déposé chez lui les cinq numéros de la <hi rend="it">Revue des Deux
+            Mondes</hi> dans lesquels George Sand avait publié son roman, <hi rend="it">Le Marquis
+            de Villemer</hi>, afin que Joséphine de Forget pût le lire (voir <ref type="letter"
+            target="CAC_ED_inha-aut120-1398-04i-3.xml">la lettre de Delacroix du 23 septembre
+            1860</ref>). Elle évoque donc certainement ces revues qu’elle lui retournait.</note>,
+        plus une lettre à part qui n’était pas dans le paquet, et que je pensais qui vous serait
+        remise lorsque vous venez à <placeName key="France, Paris">Paris</placeName>, mais je
+        m’aperçois que j’ai fait une bêtise parce que vous n’allez peut-être pas dans <placeName
+          key="France, Paris, rue de Furstenberg, 6">votre logement</placeName>. Je suis enchantée,
+          <persName key="Delacroix, Eugène (1798-1863)">mon cher ami</persName>, que ce régime vous
+        convienne, et je le crois très bon pour votre santé, prenez garde seulement d’attraper un
+        rhume, par <pb n="2" xml:id="p2"/> ce temps abominable et si constant !</p>
+      <p>J’ai vu <persName key="Haro, Étienne (1827-1897)">Haro</persName>, l’autre jour, je lui ai
+        demandé de vos nouvelles et il me disait que vous étiez devenu fort comme un Turc. Je vous
+        en fais mon compliment, <persName key="Delacroix, Eugène (1798-1863)">cher ami</persName>.
+        Je n’espère pas votre visite pendant <rs type="work"
+          key="chapelle des Saints-Anges, église Saint-Sulpice">le travail dont vous êtes
+          occupé</rs> et je le conçois bien. Lorsque vous serez revenu à <placeName
+          key="France, Paris">Paris</placeName>, écrivez-le moi, j’irai bien vite vous
+        embrasser.</p>
+      <p>Vous aviez bien raison de me dire un jour qu’on jouissait bien rarement de ce qui fait
+        plaisir, et on a en abondance les ennuis et les sociétés insupportables ! Il est triste pour
+        moi, <persName key="Delacroix, Eugène (1798-1863)">cher bon ami</persName>, de vous voir si
+        rarement ; c’est comme si je possédais un trésor d’argent et si je ne pouvais en dépenser
+        qu’une toute petite, toute petite partie. <pb n="3" xml:id="p3"/> Mais toutes mes plaintes
+        et mes comparaisons ne changeront rien aux choses de ce monde, qui sont hélas quelque fois
+        bien tristes ! J’ai chez moi, depuis quelques jours, une de mes amies que vous avez vue,
+          <persName key="Faÿ, Madame du">Mme du Faÿ</persName><note place="bottom">Nous n’avons pu
+          identifier cette personne. </note>, qui était dans les <placeName key="France, Ardennes"
+          >Ardennes</placeName> lorsque <persName key="Forget, Émilien de (1822-1857)">mon pauvre
+          Émilien</persName> y était sous-préfet. Elle avait un mari très bon, très aimable qu’elle
+        aimait beaucoup, qui avait une belle carrière et était avocat général très distingué à
+          <placeName key="France, Metz">Metz</placeName> : il vient de mourir à 44 ans d’une maladie
+        de poitrine ! C’est une perte immense pour <persName key="Faÿ, Madame du">cette pauvre
+          femme</persName> : elle m’avait chargée de <hi rend="u">sa part</hi> de vous annoncer
+        cette mort, ne connaissant pas votre adresse, elle n’a pu vous envoyer de billet de
+        faire-part. Ce pauvre <persName key="Faÿ, Monsieur du">M. du Faÿ</persName> avait une
+        admiration pour vous et votre talent et il avait le plus grand désir de vous connaître !</p>
+      <p>
+        <pb n="4" xml:id="p4"/> Je vais me retrouver seule dans quelques jours. <persName
+          key="Forget, Eugène de (1819-1885)">Mon fils</persName> est toujours en <placeName
+          key="France, Auvergne">Auvergne</placeName> ; je m’ennuie toujours beaucoup. Je m’occupe
+        d’acheter des tapis dont j’ai le plus grand besoin et de faire recouvrir le meuble de mon
+        salon vert : ainsi, je vous recevrai tout à neuf. Il n’y a que moi, hélas, que je ne puis
+        recouvrir à neuf, ce qui me plairait assez…</p>
+
+
+      <closer>
+        <salute>Adieu, <persName key="Delacroix, Eugène (1798-1863)">mon cher ami</persName>, je
+          vous aime et vous embrasse de cœur.</salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">B<hi rend="sup">e</hi> de
+            Forget.</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

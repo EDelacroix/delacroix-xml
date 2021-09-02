@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, [22 décembre 1856]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Créteil</settlement>
+            <institution>Archives départementales du Val-de-Marne</institution>
+
+            <idno>2 J 187, pièce 34</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="1"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date when="1856-12-22"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Ce <date when="1856-12-22">lundi matin</date><note place="bottom"
+            >L’allusion de Joséphine de Forget, un peu plus bas, aux visites que Delacroix devait
+            effectuer, nous permet de proposer la date du 22 décembre 1856 pour l’écriture de cette
+            lettre. En effet, Delacroix tomba malade au milieu du mois de décembre alors qu’il se
+            présentait pour l’élection à un siège de l’Académie des Beaux-Arts. Dans son journal, le
+            mardi 16 décembre, il dit s’être rendu chez Joséphine de Forget (<hi rend="it"
+              >Journal</hi>, 2009, p. 1050). Sa amie lui écrivit donc certainement le lundi suivant,
+            alors qu’il ne pouvait plus sortir de chez lui. </note></dateline>
+      </opener>
+
+
+      <p>J’envoie mon petit domestique savoir des nouvelles de votre rhume, <persName
+          key="Delacroix, Eugène (1798-1863)">mon cher ami</persName>, car samedi dernier vous étiez
+        bien souffrant. J’espère qu’avec du repos et un silence complet, vous serez soulagé et en
+        état bientôt de faire vos visites<note place="bottom">Delacroix ne put finalement pas faire
+          ses visites aux membres de l’Académie des Beaux-Arts, comme l’exige la tradition, mais il
+          fut néanmoins élu membre le mois suivant. </note>. J’ai vu samedi soir <persName
+          key="Vieillard, Narcisse (1791-1857)">M. Vieillard</persName>, nous avons parlé de vous et
+        il m’a affirmé que le ministre<note place="bottom">Certainement Achile Fould, alors ministre
+          d’État, de la Maison de l’empereur et des Beaux-Arts.</note> était très bien disposé pour
+        vous.</p>
+
+
+      <closer>
+        <salute>Adieu, <persName key="Delacroix, Eugène (1798-1863)">cher</persName>, je ne veux pas
+          vous fatiguer, je vous embrasse de cœur.</salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">B<hi rend="sup">e</hi> de
+            Forget</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
