@@ -22,8 +22,8 @@
         </respStmt>
         <respStmt>
           <resp>Corrections</resp>
-          <name>{corrections}</name>
-          <name>{corrections}</name>
+          <name>Catherine Gros</name>
+          <name>Gaëlle Lafage</name>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -107,7 +107,7 @@
       </opener>
 
 
-      <p>Je te réponds aussitôt que possible et n’ai pas besoin de m’étendre sur la part que je
+      <p>Je te réponds aussi tôt que possible et n’ai pas besoin de m’étendre sur la part que je
         prends au malheur de <persName key="Soulier, Charles (1792-1866)">notre ami</persName> ;
         mais pourquoi dans les trois premières lignes de ta lettre ne m’expliques-tu pas nettement
         ce qui lui arrive et la somme qu’il lui faudrait ? Elle ne peut être qu’effrayante, puisque
@@ -119,8 +119,8 @@
         paraît être, sans me dire précisément ce que c’est, tu as <pb n="3" xml:id="p3"/> craint que
         l’exposé clair et net de sa position ne m’effrayât à l’avance. Pour moi, je te dirai
         franchement que l’entraînement bien naturel de sa vue et de la tienne est fait pour m’ôter
-        tout sang froid dans une résolution d’où dépendent des intérêts qui ont <hi rend="u">à notre
-          âge</hi> une gravité extrême. Permets-moi de te dire aussi qu’en engageant <persName
+        tout sang-froid dans une résolution d’où dépendent des intérêts qui ont; <hi rend="u">à notre
+          âge</hi>, une gravité extrême. Permets-moi de te dire aussi qu’en engageant <persName
           key="Pierret, Annette">ta sœur</persName> à disposer des ressources qui lui restent, tu
         prends une responsabilité considérable, mais dont je te laisse juge.</p>
       <p>Réponds-moi donc de suite et explique-moi tout. Je suis doublement désespéré et du malheur
