@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, 16 [mai 1857]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Créteil</settlement>
+            <institution>Archives départementales du Val-de-Marne</institution>
+
+            <idno>2 J 187, pièce 37</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="3"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date when="1857-05-16"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Ce <date when="1857-05-16">samedi 16</date></dateline>
+      </opener>
+
+
+      <p>Vous m’aviez bien promis de me donner de vos nouvelles, <persName
+          key="Delacroix, Eugène (1798-1863)">mon cher ami</persName>. Vous devez être bien content
+        d’être à <placeName key="France, Champrosay">la campagne</placeName>, quel magnifique
+          temps<note place="bottom">Delacroix séjourna à Champrosay du 9 au 17 mai, comme nous
+          l’apprend son journal (<hi rend="it">Journal</hi>, 2009, p. 1151-1153).</note> ! et que
+        vous devez faire de ravissantes promenades. <placeName key="France, Paris">À
+          Paris</placeName>, la poussière et la chaleur deviennent insupportables : je me réfugie au
+          <placeName key="France, Paris, bois de Boulogne">bois de Boulogne</placeName> qui est
+        toujours frais et charmant. Mon petit chalet va être terminé la semaine prochaine, ce qui
+        m’amuse beaucoup<note place="bottom">Joséphine de Forget posséda un chalet dans le bois de Boulogne, à
+          Madrid, dont elle parle <ref type="letter" target="CAC_ED_creteil-ad-2j187-39.xml"><ref
+              type="letter" target="CAC_ED_creteil-ad-2j187-40.xml">dans plusieurs
+            lettres</ref></ref>.</note>. J’espère que votre santé se trouve bien de votre solitude,
+        avez-vous encore cette fatigue quand vous parlez ? Enfin, écrivez-moi <pb n="2" xml:id="p2"
+        /> comment vous vous trouvez.</p>
+      <p>Nous sommes bien inquiets et bien affligés de la santé de notre pauvre ami <persName
+          key="Vieillard, Narcisse (1791-1857)">M. Vieillard</persName><note place="bottom">Narcisse
+          Vieillard mourut trois jours plus tard, comme nous l’apprend <ref type="letter"
+            target="CAC_ED_creteil-ad-2j187-38.xml">la lettre suivante de Joséphine de
+          Forget</ref>.</note> : il commençait à se lever et à prendre quelques potages, mais sans
+        ressentir aucune amélioration ; cependant <persName key="Rayer, Pierre François (1793-1867)"
+          >M. Rayer</persName> le disait mieux<note place="bottom">Médecin de Napoléon III,
+          professeur à la Faculté de Paris</note>. Depuis deux jours le mal a empiré et hier soir,
+        il avait fait d’énormes progrès : il n’y a plus d’huile dans la lampe ! Nous sommes bien
+        affligés, <persName key="Cerfbeer, Alfonse de Medelsheim (1817-1883)"><persName
+            key="Cerfbeer, Madame, épouse d'Alfonse de Medelsheim Cerfbeer (1817-1883)">les pauvres
+            Cerfbeer</persName></persName> sont désespérés ! et nous regrettons vivement <persName
+          key="Vieillard, Narcisse (1791-1857)">cet excellent ami</persName> ! Mon Dieu, que la vie
+        est triste, la perte de tous ceux que l’on aime et des mécomptes si cruels !</p>
+      <p>J’avoue que bien souvent, je n’ai plus de force, ni de courage pour <pb n="3" xml:id="p3"/>
+        supporter tant d’ennuis et tant de chagrins ! Mais je ne veux pas, <persName
+          key="Delacroix, Eugène (1798-1863)">mon ami</persName>, vous fatiguer de mes plaintes,
+        vous savez que la plus grande consolation pour moi est de vous savoir bien portant. Vous
+        devez avoir fini les arrangements de <placeName key="France, Paris, rue de Furstenberg, 6"
+          >votre maison dans le fg St-Germain</placeName><note place="bottom">Delacroix déménagea de
+          son appartement rue Notre-Dame-de-Lorette à la fin de l’année, pour s’installer rue de
+          Furstenberg.</note>.Vous serez bien loin de moi, <persName
+          key="Delacroix, Eugène (1798-1863)">mon cher ami</persName>, mais vous serez bien logé, et
+        c’est l’important.</p>
+      <p>J’envoie savoir des nouvelles de <persName key="Vieillard, Narcisse (1791-1857)">notre
+          pauvre ami</persName> : il est 9 heures du matin, il est beaucoup plus mal ! Hélas ! je
+        crains bien qu’il n’y ait plus d’espoir !</p>
+
+
+      <closer>
+        <salute>Adieu, <persName key="Delacroix, Eugène (1798-1863)">cher ami</persName>, je vous
+          embrasse bien tristement et bien tendrement. Je vous écrirai demain ou après-demain, en
+          attendant recevez toutes mes tendresses bien tendres.</salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">B<hi rend="sup">ne</hi> de
+            Forget.</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, [juin 1857]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Créteil</settlement>
+            <institution>Archives départementales du Val-de-Marne</institution>
+
+            <idno>2 J 187, pièce 39</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="3"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date when="1857-06"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <hi rend="u">Ce</hi>
+          <date when="1857-06">mercredi</date><note place="bottom">Cette lettre peut être datée du
+            début du mois de juin 1857, alors que Delacroix séjournait à Champrosay et un peu avant
+            la parution de son article dans la <hi rend="it">Revue des deux mondes</hi>, le 15 juin
+            1857. </note></dateline>
+      </opener>
+
+
+      <p>J’attendais de vos nouvelles, <persName key="Delacroix, Eugène (1798-1863)">mon
+          ami</persName>, en même [temps] que votre article dans la <hi rend="it">Revue des deux
+          mondes</hi> : a-t-il paru<note place="bottom"> « Des variations du Beau », <hi rend="it"
+            >Revue des deux mondes</hi>, vol. 9, n° 4, 15 juin 1857, p. 908-919.</note> ? Comment va
+        votre santé ? Je trouve le temps bien long sans en recevoir, voilà pourquoi je viens vous
+        ennuyer un instant. Pouvez-vous parler davantage sans fatigue ? Voyez-vous quelques amis à
+          <placeName key="France, Champrosay">Champrosay</placeName> ? Enfin, <persName
+          key="Delacroix, Eugène (1798-1863)">ami</persName>, j’ai besoin de savoir de vos
+        nouvelles, et quelques détails sur votre vie campagnarde.</p>
+      <p>
+        <pb n="2" xml:id="p2"/> Nous avons eu de bien beaux jours, malheureusement qui
+        s’assombrissent un peu : vous avez dû faire de ravissantes promenades dans vos bois.</p>
+      <p>Moi, je cours toujours beaucoup sans m’amuser davantage. <placeName
+          key="France, Paris, Bois de Boulogne, Madrid">Mon chalet de Madrid</placeName> m’occupe,
+        mais il a été si long à établir que je ne puis encore m’y installer pour la journée<note
+          place="bottom">Joséphine de Forget eut une résidence de plaisance à Madrid, dans le bois
+          de Boulogne. </note>. Il sera gentil, et j’y ferai de bonnes stations.</p>
+      <p>Répondez-moi un mot, je serai bien heureuse d’avoir de vos nouvelles.</p>
+      <p><persName key="Cerfbeer, Alfonse de Medelsheim (1817-1883)"><persName
+            key="Cerfbeer, Madame, épouse d'Alfonse de Medelsheim Cerfbeer (1817-1883)">Les
+            Cerfbeer</persName></persName> se portent assez bien, ils vont partir à la fin de ce
+        mois ; tout le monde quitte ce <placeName key="France, Paris">Paris</placeName> poudreux et
+        fatiguant <pb n="3" xml:id="p3"/> par la chaleur. Je resterai bien seule. <persName
+          key="Forget, Eugène de (1819-1885)">Eugène</persName> est de retour depuis quelques jours.
+        Sa santé est meilleure, ce qui le rend plus gai, plus communicatif. Il va prendre le mois
+        prochain les eaux d’<placeName key="Suisse, Aix-les-Bains">Aix en Savoie</placeName>. S’il
+        n’en retire pas beaucoup de bien pour ses rhumatismes, au moins fera-t-il un beau
+        voyage.</p>
+      <p>Et <placeName key="France, Paris, rue de Furstenberg, 6">votre atelier</placeName>, est-il
+        en train ? <placeName key="France, Paris, rue Notre-Dame-de-Lorette, 58">Votre appartement
+          de Paris</placeName> doit vous occuper, et vous devez y faire quelques petits voyages :
+        venez nous voir, nous serons bien heureux de passer quelques bons moments avec vous.</p>
+
+
+      <closer>
+        <salute>Adieu, <persName key="Delacroix, Eugène (1798-1863)">cher et bon ami</persName>, ne
+          m’oubliez pas tout à fait et recevez toutes mes tendresses. Amitiés d’<persName
+            key="Forget, Eugène de (1819-1885)">Eugène</persName>.</salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">B<hi rend="sup">e</hi> de
+            Forget.</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
