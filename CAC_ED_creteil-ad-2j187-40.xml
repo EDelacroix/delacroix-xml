@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, [27? juin 1857]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Créteil</settlement>
+            <institution>Archives départementales du Val-de-Marne</institution>
+
+            <idno>2 J 187, pièce 40</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="4"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date when="1857-06-27"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <hi rend="u">Ce</hi>
+          <date when="1857-06-27">samedi</date><note place="bottom">Cette lettre peut être datée
+            grâce aux élections législatives de 1857, dont parle plus bas Joséphine de Forget. Elles
+            se déroulèrent le 21 juin et le 5 juillet. Dès le première tour, sept circonscriptions
+            de la Seine sur les dix avaient déjà élues leur député. Cela permet de proposer la date
+            du samedi 27 juin pour l’écriture de cette lettre, soit quelques jours après la
+            publication des premiers résultats des élections dans la presse.</note></dateline>
+      </opener>
+
+
+      <p>Je viens encore, <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName>, vous
+        demander de vos nouvelles ; comment votre santé se trouve-t-elle de cette chaleur ? Depuis
+        longtemps, j’avais formé le projet de vous écrire de mon chalet en bois dont je vous ai
+        parlé : il est situé dans <placeName key="France, Paris, bois de Boulogne, Madrid">le bois
+          de Boulogne, à Madrid</placeName>, il se compose d’une petite pièce qui a un balcon et une
+        fenêtre, la vue est jolie. Il est meublé, j’y ai fait porter un bureau, ce qu’il faut pour
+        écrire et même votre dernière lettre, mais je n’y ai été jusqu’à présent qu’en courant, et
+        mon projet n’a pu s’exécuter. Maintenant la chaleur est si forte que je serais là comme un
+        melon sous couche, je tâche donc de <pb n="2" xml:id="p2"/> respirer dans <placeName
+          key="France, Paris, rue de la Rochefoucauld, 19">mon appartement</placeName> du
+        rez-de-chaussée, qui est très frais, et mon jardin est charmant. Tout cela est bien triste
+        quand on y est seule. Voici deux matinées que je ne sors pas à cause de la chaleur et les
+        journées me paraissent mortellement longues ! Cependant, je m’occupe pour me distraire, je
+        viens de prendre un bain. Et vous, <persName key="Delacroix, Eugène (1798-1863)">mon
+          ami</persName> ? Vous êtes bien plus raisonnable, vous êtes toujours seul, vous vous
+        occupez et vous ne vous ennuyez jamais. Êtes-vous toujours condamné au silence ? Si vous ne
+        pouvez parler, vous pouvez écrire. À propos, je n’ai pas lu votre article dans la <hi
+          rend="it">Revue des deux mondes</hi>, pouvez-vous me le faire parvenir, j’en serai bien
+          heureuse<note place="bottom">« Des variations du Beau », <hi rend="it">Revue des deux
+            mondes</hi>, vol. 9, n° 4, 15 juin 1857, p. 908-919.</note> ?</p>
+      <p>Je n’ai pas encore été au Salon <pb n="3" xml:id="p3"/> qui m’intéresse peu cette année,
+        puisque vous n’y êtes pas. Vous devez lire les journaux, vous avez vu que les élections sont
+        bonnes, excepté à Paris, où ils se glissent quelques mauvais noms<note place="bottom">Sur
+          les élections voir la note 1. Joséphine de Forget, parente de Napoléon III, soutenait les
+          bonapartistes. Les élections furent en effet très favorables au régime. </note>.</p>
+      <p><persName key="Forget, Eugène de (1819-1885)">Mon fils</persName> va mieux, mais il souffre
+        encore souvent de ses douleurs de rhumatisme, il partira dans deux jours pour aller prendre
+        les eaux <placeName key="Suisse, Aix-les-Bains">d’Aix en Savoie</placeName> ; il verra au
+        moins un beau pays.</p>
+      <p>Tout le monde quitte ce <placeName key="France, Paris">Paris</placeName> si étouffant
+        l’été. Je vais tous les soirs me promener au <placeName
+          key="France, Paris, bois de Boulogne">bois de Boulogne</placeName>, qui est ravissant, et
+        je vous regrette dans ces promenades, <persName key="Delacroix, Eugène (1798-1863)">mon
+          ami</persName>, car vous en jouiriez ainsi que moi.</p>
+      <p><placeName key="France, Paris, rue de Furstenberg, 6">Votre nouvel appartement</placeName>
+          avance-t-il<note place="bottom">Delacroix effectuait des travaux pour son logement et son
+          atelier rue de Furstenberg, dans lequel il s’installa à la fin de l’année.</note> ? En
+        êtes-vous content ? J’ai été tous ces jours-ci visiter <placeName
+          key="France, Paris, rue de Matignon, 1O">ma maison rue Matignon</placeName> pour quelques
+        réparations car je loue de nouveau tous mes appartements : combien de souvenirs doux et
+        tristes en même <pb n="4" xml:id="p4"/> temps, et combien j’y ai regretté de nouveau ceux
+        qui étaient avec nous et qui nous étaient bien cher<note place="bottom">Joséphine de Forget
+          vécut de nombreuses années rue de Matignon, avec notamment sa mère et sa cousine, Hortense
+          de Querelles ; elle s’installa en 1847 rue de La Rochefoucauld.</note>s !</p>
+      <p>Que la vie est triste lorsqu’on arrive au bout du chemin !</p>
+      <p>Adieu, <persName key="Delacroix, Eugène (1798-1863)">mon cher et bon ami</persName>,
+        écrivez-moi quelques fois, c’est peut-être un ennui pour vous, mais donnez-moi cette preuve
+        d’amitié, car je suis inquiète de votre santé lorsque je reste quelque temps sans recevoir
+        de vos lettres. Travaillez-vous un peu à votre peinture ?</p>
+      <p><persName key="Forget, Eugène de (1819-1885)">Mon fils</persName> se rappelle à votre bon
+        souvenir ainsi qu’<persName>Henri</persName><note place="bottom">Malheureusement, nous
+          n'avons pas réusssi à identifier cette personne</note> qui part aussi dans quelques jours
+        pour <placeName key="France, Vichy">Vichy</placeName>.</p>
+
+
+      <closer>
+        <salute>Je vous embrasse et vous renouvelle l’assurance de ma sincère affection.</salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">B<hi rend="sup">e</hi> de
+            Forget.</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

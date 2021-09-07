@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, 28 octobre [1859 ?]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Créteil</settlement>
+            <institution>Archives départementales du Val-de-Marne</institution>
+
+            <idno>2 J 187, pièce 44</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="3"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date when="1859-10-28"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <hi rend="u">Ce</hi>
+          <date>28 octobre</date><note place="bottom">Peu d’éléments permettent de dater cette
+            lettre. Les travaux de Delacroix dans sa maison de Champrosay, évoqués plus bas par
+            Joséphine de Forget, semblent indiquer que Delacroix en était alors propriétaire. La
+            lettre ne peut donc être antérieure à 1858. Quant au « séjour enchanté » auprès
+            « d’aussi aimables hôtes », il désigne probablement un séjour de Delacroix à Augerville
+            chez Berryer. Le peintre passa la fin du mois d’octobre et le début du mois de novembre
+            1859 à Augerville, avant de retourner à Champrosay « pour les travaux de propriétaire »,
+            comme nous l’apprennent <ref type="letter" target="CAC_ED_inha-ms238-52.xml">la lettre
+              que Delacroix écrivit le 17 octobre 1859 à Auguste Lamey</ref> puis celle qu’il
+            écrivit le 12 novembre de la même année à Berryer pour le remercier de son bon accueil.
+            En 1862, Delacroix passa également plusieurs jours à Augerville en octobre, mais il
+            partit le 27, et <ref type="letter" target="CAC_ED_orleans-ad-1j1583">la lettre écrite à
+              Joséphine de Forget le 17 octobre 1862</ref> ne semble pas correspondre au même
+            contexte. Nous proposons donc la date du 28 octobre 1859 à partir de ces maigres
+            indices, mais cela reste une hypothèse.</note></dateline>
+      </opener>
+
+
+      <p>Il faut que je me hâte de vous remercier de votre bonne lettre, <persName
+          key="Delacroix, Eugène (1798-1863)">mon cher ami</persName>, car vous allez bientôt
+        quitter le séjour enchanté que vous habitez. Je conçois que vous vous y plaisiez, avec
+        d’aussi aimables hôtes et ce qui convient très bien à votre santé de jouir de la campagne,
+        sans avoir à travailler<note place="bottom">Probablement à Augerville chez Berryer où
+          Delacroix avait plaisir, dans les dernières années de sa vie, à passer plusieurs jours en
+          compagnie de son cousin et d’une société agréable, notamment de musiciens, qui offraient
+          des divertissements qui enchantaient Delacroix. </note>. J’ai conservé, moi <hi rend="u"
+          >aussi</hi>, un bien doux souvenir de notre soirée aux <placeName
+          key="France, Paris, Théâtre-Italien">Italiens</placeName>. Je crois, <persName
+          key="Delacroix, Eugène (1798-1863)">mon ami</persName>, que ce sont <hi rend="u">les nerfs
+          de votre imagination</hi> qui sont malades : vous vous imaginez que vous serez fatigué, et
+        seulement cette crainte vous <pb n="2" xml:id="p2"/> empêche de jouir d’aucun plaisir.
+        J’espère cet hiver, lorsque je pourrai vous procurer le plaisir d’entendre de la bonne
+        musique, vous en jouirez complètement, quitte à être un peu fatigué le lendemain et à ne pas
+        travailler ce jour-là !</p>
+      <p>Je suis encore bien seule, <persName key="Forget, Eugène de (1819-1885)">mon
+          fils</persName> n’est pas revenu d’<placeName key="France, Auvergne">Auvergne</placeName>,
+        et les habitants de la campagne sont si contents d’y être qu’ils ne veulent pas revenir à
+          <placeName key="France, Paris">Paris</placeName>. Cependant, nous avons un temps bien
+        abominable et beaucoup moins beau que l’année dernière : le matin, il fait froid comme en
+        hiver. Lorsque vous serez à <placeName key="France, Champrosay">Champrosay</placeName>, au
+        milieu de vos ouvriers, vous aurez bien <pb n="3" xml:id="p3"/> le temps de me donner de vos
+        nouvelle, <persName key="Delacroix, Eugène (1798-1863)">cher ami</persName>, et je tiens
+        beaucoup à en avoir<note place="bottom">Delacroix acquis la maison qu’il louait depuis de
+          nombreuses années à Champrosay en 1858. Il fit à partir de cette date des travaux assez
+          régulièrement pour l’entretenir.</note>. Je ne vous conterai aucune nouvelle, vous devez
+        en avoir bien plus que moi qui ne vois personne.</p>
+      <p>Je lis beaucoup, et du <persName key="Dickens, Charles (1812-1870)">Dickens</persName> qui
+        m’amuse, je travaille à votre couvre-pied qui sera je crois fort joli, et très chaud
+        surtout. Et malgré tout cela, je m’ennuie beaucoup, mais c’est ma maladie chronique, à
+        laquelle il n’y a pas de remède ! Les années augmentent beaucoup cette maladie !...</p>
+
+
+      <closer>
+        <salute>Adieu, <persName key="Delacroix, Eugène (1798-1863)">cher ami</persName>, votre
+          affection est ma seule consolation, soyez en bien persuadé, et en attendant le bonheur de
+          vous revoir, recevez toutes mes tendresses de cœur.</salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">B<hi rend="sup">e</hi> de
+            Forget.</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

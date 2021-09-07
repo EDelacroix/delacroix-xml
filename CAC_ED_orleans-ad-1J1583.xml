@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’ Eugène Delacroix à Joséphine de Forget, 17 octobre 1862</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Orléans</settlement>
+            <institution>Archives du Loiret</institution>
+
+            <idno>1 J 1583</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="4"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Edition partielle dans Piron, <hi rend="it">Eugène Delacroix, sa vie et ses
+              œuvres</hi>, Paris, 1865, p. 340-341</bibl>
+          <bibl>Escholier, <hi rend="it">Eugène Delacroix et sa « consolatrice »</hi>, 1932,
+            p. 206-207</bibl>
+          <bibl>Joubin, IV, p. 346-347.</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1862-10-17"/>
+          <placeName key="Augerville"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="1" xml:id="p1"/> Augerville par Malesherbes (Loiret)</addrLine>
+        </address>
+        <dateline>Ce <date when="1862-10-17">17 octobre 1862</date></dateline>
+        <salute><persName key="Forget, Joséphine de (1802-1886)">Chère amie</persName>,</salute>
+      </opener>
+
+
+      <p>Je tiens bien tard la promesse que je vous ai faite de vous écrire, non pas qu’il y ait ici
+        plus de divertissements qu’à l’ordinaire, mais la vie fainéante que je mène, les bons repas,
+        l’exercice m’ont réduit à l’état de machine et je n’ai pu jusqu’ici me résoudre à toucher à
+        une plume que pour des affaires indispensables. Je pense que je resterai encore jusqu’au
+        milieu de la semaine prochaine<note place="bottom">Delacroix était arrivé chez son cousin
+          Berryer à Augerville (Augerville-la-Rivière, Loiret) le 7 octobre et ne repartit que le
+          27 octobre selon la note prise dans son carnet (<hi rend="it">Journal</hi>, p. 1818-1820).
+        </note> : j’ai dans mon atelier beaucoup d’ouvrages qui me rappellent et vraiment, il y a
+        des moments où cette oisiveté me pèse un peu. On joue beaucoup le soir et comme je ne touche
+        jamais une carte, je me trouve un peu livré à moi-même. Il y a ce bon côté que je peux,
+        après le dîner, quand le temps est passable, faire des marches et <pb n="2" xml:id="p2"/>
+        contremarches devant le château, qui font passer ces dîners trop succulents. J’ai vu il y a
+        quelques jours des clairs de lune ravissants. Il y a aussi de temps en temps un peu de
+        musique. <persName key="Batta, Alexandre (1816-1902)">Batta</persName><note place="bottom"
+          >Alexandre Batta (1816-1902), violoncelliste, était un ami de Berryer qui tenait un salon
+          à Paris où il invitait des chanteurs et des musiciens.</note> en fait d’excellente ;
+        malheureusement il n’est pas accompagné convenablement : cela le refroidit et l’empêche de
+        jouer souvent. En somme, on me dit que j’engraisse, mais je crois que c’est par politesse,
+        pour m’engager à rester un peu plus longtemps.</p>
+      <p>Si vous le pouvez, écrivez-moi quelques mots de votre santé et de vos occupations. Une
+        lettre de vous sera pour moi un événement bien agréable au milieu de cette douce monotonie
+        qui fait que tous les jours se ressemblent ici. <persName
+          key="Berryer, Pierre-Antoine (1790-1868)">Le maître de la maison</persName> me montre plus
+        d’amitié que jamais : il <pb n="3" xml:id="p3"/> veut organiser quelques parties pour aller
+        aux environs. Pour moi, je préfère faire toujours la même chose, c’est-à-dire ne rien faire.
+        Je n’ai pas même le courage de lire, car je m’endors sur les livres les plus amusants ; il
+        n’y a que les journaux dont les commérages ont le privilège de m’amuser, comme toujours. Je
+        regrette bien de ne pouvoir jouer : cela ferait une grande diversion dans tant d’heures
+        inoccupées, mais c’est une faculté qui m’est refusée et chaque fois que j’ai voulu me
+        révolter contre cette incapacité, j’ai été convaincu de nouveau qu’elle était radicale.</p>
+
+
+      <closer>
+        <salute>Je vous embrasse donc, en attendant mon retour à <placeName key="France, Champrosay"
+            >Champrosay</placeName> qui probablement, sera bientôt suivi de mon retour définitif à
+            <placeName key="France, Paris">Paris</placeName>. Si je prends ici quelque santé, j’en
+          userai cet hiver pour aller vous voir de temps en temps et vous <pb n="4" xml:id="p4"/>
+          redire tout le plaisir que j’y trouve et combien je vous suis sincèrement
+          attaché.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eg Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

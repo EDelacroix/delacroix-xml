@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, [juillet 1859]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Créteil</settlement>
+            <institution>Archives départementales du Val-de-Marne</institution>
+
+            <idno>2 J 187, pièce 42</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="3"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date when="1859-07"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <hi rend="u">Ce</hi>
+          <date when="1859-07">mercredi</date><note place="bottom">Cette lettre peut être datée du
+            mois de juillet 1859, car Joséphine de Forget demande à Delacroix de lui prêter une
+            livraison de la <hi rend="it">Revue des deux mondes</hi> contenant la deuxième partie du
+            roman L’Oncle César publiée le 1<hi rend="sup">er</hi> juillet 1859 (voir note
+            suivante). Datée de mercredi, cette lettre peut donc avoir été écrite le 6 ou le 13
+            juillet.</note></dateline>
+      </opener>
+
+
+      <p>J’espérais vous voir samedi dernier, <persName key="Delacroix, Eugène (1798-1863)">mon
+          ami</persName>, et puis le lundi d’après je me faisais une grande joie de passer une aussi
+        délicieuse soirée que la dernière, au clair de la lune et au milieu de ce joli <placeName
+          key="France, Paris, bois de Boulogne">bois de Boulogne</placeName>, mais ses instants de
+        bonheur sont bien rares dans ce monde ! j’approuve fort d’ailleurs votre projet d’aller vous
+        reposer à <placeName key="France, Champrosay">votre campagne</placeName>, cette chaleur est
+        si épouvantable que vous n’auriez pu continuer <rs type="work"
+          key="chapelle des Saints-Anges, église Saint-Sulpice">votre travail</rs> ; et même au
+        milieu des champs et du bon air vous devez souffrir beaucoup de cette chaleur persistante.
+        Moi, j’étouffe, je ne sors pas <pb n="2" xml:id="p2"/> de toute la journée, je lis, je
+        travaille, j’écris, mais je m’ennuie à mourir ! Le soir, je tâche d’aller respirer en
+        voiture, et la nuit, je dors fort mal.</p>
+      <p>Si vous venez samedi prochain à <placeName key="France, Paris">Paris</placeName>, venez
+        dîner avec nous, <persName key="Delacroix, Eugène (1798-1863)">mon cher ami</persName>, je
+        serai bien heureuse de vous revoir ; si vous retournez le soir à <placeName
+          key="France, Champrosay">Champrosay</placeName>, vous passeriez votre soirée dans
+          <placeName key="France, Paris, rue de la Rochefoucauld, 19">mon jardin</placeName>, et je
+        vous reconduirais le soir à votre chemin de fer.</p>
+      <p>Je sais que vous avez été voir notre ami <persName
+          key="Cerfbeer, Alfonse de Medelsheim (1817-1883)">M. Cerfbeer</persName>, que vous avez dû
+        trouver bien changé !</p>
+      <p>Que faites-vous à la campagne ? Pouvez-vous un peu travailler ? Mais vous êtes chez vous,
+        et vous devez avoir mille petites choses à faire ; que je serais aussi heureuse d’avoir un
+        petit coin, à la campagne, dans <pb n="3" xml:id="p3"/> un beau pays, mais j’ai tant de
+        monde à traîner après moi, que ce projet me paraît impossible à réaliser. Maintenant, je me
+        félicite d’être à <placeName key="France, Paris">Paris</placeName>, où je suis bien
+        grandement, et bien fraîchement à cause de <placeName
+          key="France, Paris, rue de La Rochefoucauld, 19">mon jardin</placeName>, mais août et
+        septembre seront bien durs à digérer !</p>
+      <p>Pardonnez-moi mes plaintes, <persName key="Delacroix, Eugène (1798-1863)">mon cher
+          ami</persName>. Soignez votre santé, reposez-vous, ne buvez pas trop par cette chaleur,
+        pensez quelques fois à moi et recevez toutes mes tendresses de cœur.</p>
+      <p>Je vous embrasse bien tendrement, et je vous prie de me prêter, lorsque vous viendrez à
+          <placeName key="France, Paris">Paris</placeName>, la livraison du 1<hi rend="sup">er</hi>
+        juillet de la <hi rend="it">Revue des deux mondes</hi>, la 2<hi rend="sup">e</hi> partie
+        d’un article de <persName key="Reybaud, Fanny, dite Madame Charles (1802-1871)">Mme Charles
+          Reybaud</persName>
+        <hi rend="u"><hi rend="it">L’Oncle César</hi></hi><note place="bottom"><hi rend="it">Revue
+            des deux mondes</hi>, vol. 22, n°1, 1<hi rend="sup">er</hi> juillet 1859, p.
+          5-59.</note>.</p>
+
+
+      <closer>
+        <salute>Adieu encore, <persName key="Delacroix, Eugène (1798-1863)">ami</persName>. À vous
+          de tout cœur.</salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">B<hi rend="sup">e</hi> de
+            Forget.</persName></signed>
+      </closer>
+
+      <postscript>
+        <p>
+          <pb n="p.1bis"/> Ne m’écrivez pas pour me dire que vous viendrez dîner samedi, votre
+          couvert sera toujours mis.</p>
+      </postscript>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Jenny Le Guillou, 21 août 1859</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Catherine Adam-Sigas</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation, correction, balisage</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Musée Eugène Delacroix</institution>
+            <idno>MD 1969-3</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="3" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <provenance>Achat auprès d'un particulier en 1969.</provenance>
+          </history>
+        </msDesc>
+        <listBibl> </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1859-08-21"/>
+          <placeName key="France, Strasbourg">Strasbourg</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Le Guillou, Jeanne Marie, dite Jenny (1801-1869)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1" xml:id="p1"/>
+      <opener>
+        <dateline><placeName key="France, Strasbourg">Strasbourg</placeName>, <date
+            when="1859-08-21">21 août 1859</date><note place="bottom">Delacroix est parti pour
+            Strasbourg chez son cousin Auguste Lamey, jeudi 18 août 1859. Le 23 août, il copie dans
+            son <hi rend="it">Journal</hi> une lettre qu’il adresse à Joséphine de Forget et dans
+            laquelle il lui relate comment s’est passé son voyage et à quoi il s’occupe. Ce qui
+            laisse supposer que cette lettre-ci n’a peut-être pas été expédiée à son
+            destinataire.</note>.</dateline>
+        <salute><persName key="Le Guillou, Jeanne Marie, dite Jenny (1801-1869)">Chère bonne
+            amie</persName><note place="bottom">Contrairement à ce qui a été proposé lors de la
+            première édition de cette lettre, il est désormais possible d'affirmer qu'elle fut
+            adressée à Jenny Le Guillou, bonne de Delacroix, et non à son ancienne amante et amie,
+            la baronne de Forget. D'une part, nous connaissons le contenu de la lettre que Delacroix
+            adressa à Joséphine de Forget à son arrivée à Strasbrourg car il la copia dans son
+            journal à la date du 23 août 1859 (voir <hi rend="it">Journal</hi>, 2009, p. 1274).
+            D'autre part, cette lettre indique que la destinataire vivait à Champrosay, attendant
+            Delacroix, ce qui ne fut jamais le cas de la baronne de Forget. Enfin, dans une lettre à
+            Jenny écrite quelques jours plus tard et publiée par Joubin (IV, p. 119-120), Delacroix
+            fait également allusion aux problèmes de santé de sa bonne et reprend un peu les mêmes
+            termes : « C'est donc de ma santé que vous travaillez quand vous êtes attentive à
+            soigner la vôtre ».</note>,</salute>
+      </opener>
+      <p>J’ai fait un bon voyage pas trop chaud et ai été bien reçu comme vous pensez : <persName
+          key="Lamey, Auguste (1771/72-1861)">mon bon cousin</persName> n’est pas changé du tout :
+        j’ai été étonné de sa bonne mine. Je me sens encore un peu de mon estomac et je me mets au
+        régime pour me rétablir tout à fait. <placeName key="France, Strasbourg">Ce
+          pays-ci</placeName> m’enchante : la tranquillité des lieux et des gens fait un grand
+        contraste avec le train de <placeName key="France, Paris">Paris</placeName> et il y a des
+        promenades charmantes. Je suis sur que vous voudriez comme moi vivre dans un pareil
+        lieu.</p>
+      <p>Que ne puis-je en revenant vous trouver en meilleure situation ! <pb n="2" xml:id="p2"
+        />Ayez le courage de prendre les soins qu’il faut de votre santé : ce sera en même temps
+        prendre soin de la mienne. L’exercice est au premier rang de ces soins qu’il faut prendre.
+        Je suppose que vous êtes à <placeName key="France, Champrosay">Champrosay</placeName>.
+        Sortez toutes les fois qu’il ne fera pas de soleil et le soir surtout. Je vous donne aussi
+        le conseil que je me donne à moi-même : calmez votre imagination sur les tracas inséparables
+        de la vie : ce sera tout profit pour la santé.</p>
+      <p>Pensez que vous m’avez promis que vous iriez à <placeName key="France, Dieppe"
+          >Dieppe</placeName> à mon retour. Le changement de lieu fait toujours du bien. Je suis
+        bien récréé ici de ne plus avoir sous les yeux <placeName key="France, Paris">cet odieux
+          Paris</placeName> où je <pb n="3" xml:id="p3"/>suis forcé d’exister. Je vais mener une vie
+        douce et paresseuse et je tâcherai de me conduire pour le régime de manière à ce que vous
+        soyez contente de ma sagesse.</p>
+      <p>Vous savez que je vous ai priée de me donner de vos nouvelles.</p>
+      <p><persName key="Lamey, Auguste (1771/72-1861)">Mon cousin</persName> m’avait aussitôt mon
+        arrivée demandé de vos nouvelles. Je lui ai dit que vous étiez bien reconnaissante de son
+        souvenir.</p>
+      <closer>
+        <salute>Adieu, <persName key="Le Guillou, Jeanne Marie, dite Jenny (1801-1869)">chère
+            amie</persName>, et je dis plus <hi rend="u">seule</hi> amie. Je vous embrasse bien de
+          cœur.</salute>
+        <signed>Eug. Delacroix</signed>
+        <address>
+          <addrLine>Chez <persName key="Lamey, Auguste (1771/72-1861)">Mr. Lamey</persName>
+            <placeName key="France, Strasbourg, rue des balayeurs, 50">rue des balayeurs 50.
+              Strasbourg</placeName></addrLine>
+        </address>
+      </closer>
+    </body>
+
+  </text>
+</TEI>
