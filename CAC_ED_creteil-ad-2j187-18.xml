@@ -82,7 +82,7 @@
 
 
       <p>
-        <pb n="1" xml:id="p1"/>Si vous n’êtes pas trop fatigué, <persName
+        <pb n="1" facs="https://api.nakala.fr/iiif/10.34847/nkl.004ap347/7e5f019732bfd99cc2a322141ce336b42fa3f4a5/full/full/0/default.jpg"/>Si vous n’êtes pas trop fatigué, <persName
           key="Delacroix, Eugène (1798-1863)">mon ami</persName>, demain lundi venez dîner avec
         nous ; je me hâte de vous prévenir que vous serez seul avec <persName
           key="Lavallette, Émilie de Beauharnais, comtesse de (1781-1855)">ma mère</persName>,
@@ -103,7 +103,7 @@
           mari</persName>, car je vous écris, non pas pour que vous ne dîniez pas avec lui, mais
         parce que vous vous fatiguez davantage lorsqu’il est là.</p>
       <p>
-        <pb n="2" xml:id="p2"/> Adieu, <persName key="Delacroix, Eugène (1798-1863)">ami</persName>,
+        <pb n="2" facs="https://api.nakala.fr/iiif/10.34847/nkl.004ap347/e76711ee1d3d352c134797e8a1cbc1c0edcbfc9c/full/full/0/default.jpg"/> Adieu, <persName key="Delacroix, Eugène (1798-1863)">ami</persName>,
         j’espère à demain, ne me répondez pas, nous dînerons à 6 h 1/4 et mardi je ne serai pas chez
         moi.</p>
 

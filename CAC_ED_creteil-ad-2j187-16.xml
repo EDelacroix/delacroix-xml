@@ -81,7 +81,7 @@
     <body>
 
 
-      <pb n="p.1" facs=""/>
+      <pb n="p.1" facs="https://api.nakala.fr/iiif/10.34847/nkl.927c2nqr/7c04ab46440e528305bc57961a9c62938b2955b4/full/full/0/default.jpg"/>
       <p>Que devenez-vous donc, <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName> ?
         Ou vous êtes malade, ou vous êtes tellement absorbé par les plaisirs de <placeName
           key="France, Nohant">la campagne</placeName><note place="bottom">Delacroix était chez
@@ -109,7 +109,7 @@
       <p><persName key="Vieillard, Narcisse (1791-1857)"><persName
             key="Vieillard, Eliza Caroline Huet, épouse (1797-1847)">Les bons
           Vieillard</persName></persName>
-        <pb n="p.2" facs=""/> vont partir dans peu de jours pour la campagne, ils se plaignent (sans
+        <pb n="p.2" facs="https://api.nakala.fr/iiif/10.34847/nkl.927c2nqr/1967a4fe36821ab6ed4042d53ea44e113688e3ae/full/full/0/default.jpg"/> vont partir dans peu de jours pour la campagne, ils se plaignent (sans
         rancune) de ne vous avoir pas vu avant votre départ, et de n’avoir pas reçu de vos nouvelles
         depuis : vous feriez donc bien, si vos nombreuses occupations vous le permettent, d’écrire
         une de vos lettres, si aimable, si spirituelle à <persName
