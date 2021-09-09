@@ -22,8 +22,8 @@
         </respStmt>
         <respStmt>
           <resp>Corrections</resp>
-          <name>{corrections}</name>
-          <name>{corrections}</name>
+          <name>Gaëlle Lafage</name>
+          <name>Catherine Gros</name>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -99,8 +99,11 @@
 
 
       <p>On annonce dans une affiche que j’ai vu aujourd’hui une vente curieuse<note place="bottom"
-          >Delacroix se réfère à la vente de Luigi Ventenati de Pomposi (Joubin, I, p. 39).</note>,
-        de statues et bustes antiques de prix, des morceaux de la main de <persName
+          >Delacroix se réfère à la vente de Luigi Ventenati de Pomposi qui eut lieu le 14 juillet
+          1819, ce qui permet de dater exactement la lettre de Delacroix. Dans le catalogue de la
+          vente figurent bien les tableaux mentionnés par Delacroix, ainsi que le buste de
+          Vitellius, soi-disant par Michel-Ange. (Joubin, I, p. 39).</note>, de statues et bustes
+        antiques de prix, des morceaux de la main de <persName
           key="Michel-Ange, Michelangelo Buonarroti, dit  (1475-1564)">Michel-Ange</persName>, des
         fresques originales et des tableaux de l’<persName key="Albani, Francesco (1578-1660)"
           >Albane</persName>, du <persName key="Corrège, Allegri, Antonio (1489-1534)"
