@@ -83,7 +83,7 @@
 
       <opener>
         <dateline>
-          <pb n="1" xml:id="p1"/> Ce <date when="1850-07-28">28 juillet</date></dateline>
+          <pb n="1" facs="https://api.nakala.fr/iiif/10.34847/nkl.24be437u/360698ebb75753903bb4b9645f37b419c970f9b0/full/full/0/default.jpg"/> Ce <date when="1850-07-28">28 juillet</date></dateline>
       </opener>
       <p><persName key="Delacroix, Eugène (1798-1863)">Mon bon chéri</persName>, je reçois ta
         dernière lettre aujourd’hui, datée du 22 ; que cette poste est lente à vous porter des
@@ -106,7 +106,7 @@
         cependant, <persName key="Forget, Émilien de (1822-1857)">Émilien</persName> prend un bain
         tous les jours : Dieu veuille qu’il n’en soit pas plus malade !</p>
       <p>
-        <pb n="2" xml:id="p2"/>
+        <pb n="2" facs="https://api.nakala.fr/iiif/10.34847/nkl.24be437u/afd0104693c4b530d6984848b97dee33ad5da61d/full/full/0/default.jpg"/>
         <persName key="Querelles, Hortense de (1812-1851)">Mme Laity</persName> est souffrante et de
         fort mauvaise humeur d’être venue dans cet affreux pays. <persName
           key="Forget, Émilien de (1822-1857)">Émilien</persName> s’ennuie, moi je suis fort
@@ -133,7 +133,7 @@
         m’écriras à <placeName key="France, Villette">Villette</placeName>, comme je t’en ai prié,
         je saurai alors l’époque fixe de ton retour dans la capitale.</p>
       <p>
-        <pb n="3" xml:id="p3"/> Je suis fâchée, <persName key="Delacroix, Eugène (1798-1863)">bon
+        <pb n="3" facs="https://api.nakala.fr/iiif/10.34847/nkl.24be437u/609cb36058289899f7ac21c6c57250d9fda03cff/full/full/0/default.jpg"/> Je suis fâchée, <persName key="Delacroix, Eugène (1798-1863)">bon
           ami</persName>, que tu ne puisses pas prendre tous les jours ton eau minérale qui te
         ferait sans doute grand bien, et puisqu’on fait la corvée, faut-il au moins en tirer le
         meilleur parti possible ; mais tu auras fait de l’exercice et tu auras terminé ton article
@@ -154,7 +154,7 @@
         cheval. La nourriture est assez bonne, quant aux individus ce sont tous des marchands des
         environs, plus ou moins laids.</p>
       <p>
-        <pb n="4" xml:id="p4"/> Tous les soirs à 9 heures, je rentre dans ma chambre et quelquefois
+        <pb n="4" facs="https://api.nakala.fr/iiif/10.34847/nkl.24be437u/be1e5abde1060c83bed5df91bbc1bc77cdf8a439/full/full/0/default.jpg"/> Tous les soirs à 9 heures, je rentre dans ma chambre et quelquefois
         avant. Lorsque je n’écris pas, je lis. Heureusement, j’ai d’assez bons livres chez le
         docteur, mais aussi je m’abîme les yeux. Mon Dieu, <persName
           key="Delacroix, Eugène (1798-1863)">ami</persName>, que je serai heureuse de te revoir !

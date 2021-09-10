@@ -82,7 +82,7 @@
 
 
       <p>
-        <pb n="1" xml:id="p1"/>
+        <pb n="1" facs="https://api.nakala.fr/iiif/10.34847/nkl.e63ftyth/3a631f7e549c0c1bd9341b540b4bc3586a3b8aaf/full/full/0/default.jpg"/>
         <persName key="Delacroix, Eugène (1798-1863)">Mon cher ami</persName>, j’ai reçu hier ta
         dernière lettre. Je te remercie de ton exactitude, et si j’étais égoïste je te souhaiterais
         souvent cette vie triste et ennuyeuse, parce qu’alors tu penses et tu écris à ton amie<note
@@ -102,7 +102,7 @@
       <p>As-tu reçu une lettre de notre ami <persName key="Gaultron, Hippolyte (après 1805-1878)"
           >Gaultron</persName> ? Je ne sais quel effet aura produit la tienne à l’ami <persName
           key="Vieillard, Narcisse (1791-1857)">Vieillard</persName>, un très bon sans doute, car tu
-        es fort aimé de ce <pb n="2" xml:id="p2"/> côté-là ; j’ai appris, que <persName
+        es fort aimé de ce <pb n="2" facs="https://api.nakala.fr/iiif/10.34847/nkl.e63ftyth/1ae66f23a20e9336e6b6b788f4284b2871450ab6/full/full/0/default.jpg"/> côté-là ; j’ai appris, que <persName
           key="Vieillard, Eliza Caroline Huet, épouse (1797-1847)">Mme Vieillard</persName>, plus
         capricieuse que jamais, avait renoncé à des voyages pour cet été ; au reste, on se console
         facilement de rester à <placeName key="France, Paris">Paris</placeName>, par ce temps
@@ -121,7 +121,7 @@
         commence à être ennuyée cruellement de cette vie triste et insipide et surtout lorsque vous
         n’êtes pas là, je suis découragée complètement !</p>
       <p>
-        <pb n="3" xml:id="p3"/> Recevez-vous les journaux de <placeName key="France, Paris"
+        <pb n="3" facs="https://api.nakala.fr/iiif/10.34847/nkl.e63ftyth/4d02a61e5e9a1d4f6066b39e0470b50ce925956c/full/full/0/default.jpg"/> Recevez-vous les journaux de <placeName key="France, Paris"
           >Paris</placeName> ? <persName key="Bosio, François Joseph (1768-1845)"
           >Bosio</persName><note place="bottom">François Joseph Bosio (1768-1845) était un sculpteur
           d’origine monégasque qui séjourna longuement en Italie avant de revenir en France où il

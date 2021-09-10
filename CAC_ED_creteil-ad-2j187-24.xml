@@ -85,7 +85,7 @@
 
       <opener>
         <dateline>
-          <pb n="1" xml:id="p1"/> Ce <date notBefore="1845" notAfter="1846-06">dimanche
+          <pb n="1" facs="https://api.nakala.fr/iiif/10.34847/nkl.5bf7y54y/9570ec01cb10eb8dd2ae1f68223447e3c58acaca/full/full/0/default.jpg"/> Ce <date notBefore="1845" notAfter="1846-06">dimanche
             matin</date><note place="bottom">Cette lettre fut très certainement écrite entre 1845,
             au moment où Richard de Querelles rentre en France après un exil de plusieurs années en
             Belgique pour s’installer avec sa femme Hortense chez Joséphine de Forget et le 25 juin

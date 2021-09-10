@@ -84,7 +84,7 @@
 
       <opener>
         <dateline>
-          <pb n="1" xml:id="p1"/>
+          <pb n="1" facs="https://api.nakala.fr/iiif/10.34847/nkl.aaa5wx09/1f15cf4becacb671fcb6cb13e3d4495ce3ba8878/full/full/0/default.jpg"/>
           <placeName key="France, Ville-d'Avray">Ville-d’Avray</placeName> ce <date
             when="1845-10-13">lundi</date><note place="bottom">D’après les jours indiqués par
             Joséphine de Forget, cette lettre semble pouvoir être datée du 13 octobre 1845,
@@ -107,7 +107,7 @@
         pas, les reproches que je t’ai faits sur ta manière de vivre, sur ta sauvagerie, sur ton
         originalité ? Eh <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName>, tu as dû
         voir au fond de tout cela le regret seul de ne pas te voir aussi souvent que je le
-        désirerais ; je suis cependant peu exigeante, <pb n="2" xml:id="p2"/> je comprends ta
+        désirerais ; je suis cependant peu exigeante, <pb n="2" facs="https://api.nakala.fr/iiif/10.34847/nkl.aaa5wx09/8ea74170dcda1f94bcdefdd7376d48e79589f21c/full/full/0/default.jpg"/> je comprends ta
         position, mais je suis sans force, sans courage lorsqu’il faut rester près de quinze jours
         sans te voir, sans savoir de tes nouvelles ; ne me regrettes-tu pas aussi quelquefois ? Il y
         a dans cette vie si sottement organisée tant de contrariétés, de mécomptes, de chagrins, et
@@ -150,7 +150,7 @@
           key="Querelles, Hortense de (1812-1851)">Hortense</persName><note place="bottom">Hortense
           de Querelles, demi-tante de Joséphine de Forget, qui vécut chez elle et dont elle était
           très proche.</note> à <placeName key="France, Champrosay">Champrosay</placeName> ; quelle
-        bonne journée ! J’espère que mes hôtes retiendront <pb n="3" xml:id="p3"/> un appartement
+        bonne journée ! J’espère que mes hôtes retiendront <pb n="3" facs="https://api.nakala.fr/iiif/10.34847/nkl.aaa5wx09/756651a66b7a6f530f9fc765e3e48df0fa1d2d4d/full/full/0/default.jpg"/> un appartement
         pour le mois de janvier prochain, peut-être plus tôt, je te tiendrai au courant de cette
         affaire qui nous intéresse vivement. Depuis que je suis ici, <persName
           key="Delacroix, Eugène (1798-1863)">mon ami</persName>, jouissant de la belle nature… de
@@ -177,7 +177,7 @@
           toi</placeName>, hier dans la journée, pour savoir si tu étais à <placeName
           key="France, Paris">Paris</placeName>, on a répondu que tu étais parti pour <placeName
           key="France, Champrosay">la campagne</placeName> pour quelques jours. <pb n="4"
-          xml:id="p4"/> Je te reconnais bien là, <persName key="Delacroix, Eugène (1798-1863)"
+            facs="https://api.nakala.fr/iiif/10.34847/nkl.aaa5wx09/4daf21f76dd3cbda981ea668c38607db1ef700bc/full/full/0/default.jpg"/> Je te reconnais bien là, <persName key="Delacroix, Eugène (1798-1863)"
           >ami</persName>, tu es parti sans m’écrire un mot ; je vais donc t’envoyer ma lettre à
           <placeName key="France, Champrosay">Champrosay</placeName>, hélas sans bouquet de fête !
         Pour te punir, j’aurais dû faire <hi rend="u">un coup de tête</hi>, et aller aujourd’hui te

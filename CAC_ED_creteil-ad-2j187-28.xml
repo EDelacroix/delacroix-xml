@@ -84,7 +84,7 @@
 
       <opener>
         <dateline>
-          <pb n="1" xml:id="p1"/> Ce <date when="1852-06-26">26 juin</date></dateline>
+          <pb n="1" facs="https://api.nakala.fr/iiif/10.34847/nkl.b7ac2bv0/02b2a8e5d0f1a7379b906026f456b95ce208ac7e/full/full/0/default.jpg"/> Ce <date when="1852-06-26">26 juin</date></dateline>
       </opener>
 
 
@@ -104,7 +104,7 @@
           ami</persName>, n’avez-vous pas quelques distractions ? Vous ne me parlez pas de la
         représentation d’<hi rend="it">Ulysse</hi> au <placeName
           key="France, Paris, Théâtre-Français">Français</placeName>
-        <pb n="2" xml:id="p2"/> de <persName key="Ponsard, François (1814-1867)">votre ami
+        <pb n="2" facs="https://api.nakala.fr/iiif/10.34847/nkl.b7ac2bv0/eae8224d878dda1a13516ef3f45d71ac97af71f4/full/full/0/default.jpg"/> de <persName key="Ponsard, François (1814-1867)">votre ami
           Ponsard</persName><note place="bottom">Cette tragédie de François Ponsard mêlée de chœurs
           composés par Charles Gounod fut représentée au Théâtre-Français pour la première fois le
           18 juin 1852.</note> ? Vous avez dû certainement aller entendre cette pièce le premier
@@ -122,7 +122,7 @@
           key="Ledóchowska, Louise de Méneval, épouse (1819-1856)">Louise</persName> nous fait
         quelquefois d’excellente musique. Elle a, dit-elle, <hi rend="u">du guignon</hi> d’avoir une
         passion malheureuse pour un homme tel que vous, que l’on aimerait tant à voir, et <pb n="3"
-          xml:id="p3"/> que l’on ne voit jamais. Du reste, on ne peut s’ennuyer avec elle, qui est
+          facs="https://api.nakala.fr/iiif/10.34847/nkl.b7ac2bv0/9ad796a8a2048be50f52a611dd352c1a27f824da/full/full/0/default.jpg"/> que l’on ne voit jamais. Du reste, on ne peut s’ennuyer avec elle, qui est
         toujours spirituelle et amusante : je crois vraiment que vous auriez fait très bon ménage
         ensemble.</p>
       <p>J’espère que vous aurez la suite des articles de <persName

@@ -82,21 +82,21 @@
 
 
       <p>
-        <pb n="1" xml:id="p1"/> Je vous renvoie vos livres, <persName
+        <pb n="1" facs="https://api.nakala.fr/iiif/10.34847/nkl.b4683us1/577c85a12d5df2a785de42b8968c927cf2bbc94c/full/full/0/default.jpg"/> Je vous renvoie vos livres, <persName
           key="Delacroix, Eugène (1798-1863)">mon ami</persName>, et je désire savoir si vous êtes
         fondu ou cuit, car on n’entend plus parler de vous. Samedi dernier, j’ai bien regretté de ne
         vous avoir pas vu, et de vous avoir fait faire cette course inutilement. Nous avions été à
           <placeName key="France, Paris, Cirque Franconi">Franconi</placeName> avec quelques
         personnes qui étaient chez moi. Soyez assez aimable pour venir dîner avec nous jeudi
         prochain, ce sera probablement mon dernier jeudi. Je pense à mes paquets ; M. Gervais <pb
-          n="2" xml:id="p2"/> a écrit à <placeName key="France, Trouville">Trouville</placeName>
+          n="2" facs="https://api.nakala.fr/iiif/10.34847/nkl.b4683us1/fe588342a207053a5dcf3a84e115ecdf11b8c942/full/full/0/default.jpg"/> a écrit à <placeName key="France, Trouville">Trouville</placeName>
         pour savoir s’il y a des appartements à occuper, j’attends la réponse qui ne peut tarder à
         arriver pour fixer le jour de mon départ. Au reste, je n’en serai pas fâchée, on étouffe
         ici, tous mes amis s’en vont, et le peu qui restent, on les voit si peu que c’est absolument
         comme s’ils n’habitaient pas Paris. J’espère vous voir avant jeudi. Tous ces jours-ci, j’ai
         été me promener en voiture au <placeName key="France, Paris, bois de Boulogne"
           >bois de Boulogne</placeName> le soir, le seul lieu où l’on respire, et c’est avec plaisir
-        que j’irais avec vous, si vous voulez y venir. Je ne partirai qu’à <pb n="3" xml:id="p3"/>
+        que j’irais avec vous, si vous voulez y venir. Je ne partirai qu’à <pb n="3" facs="https://api.nakala.fr/iiif/10.34847/nkl.b4683us1/53e1cb81bdf2d8d3f24e74c55e0b5d846b9948db/full/full/0/default.jpg"/>
         huit heures, s’il vous était agréable de vous trouver ici à cette heure-là, nous ferions
         cette petite promenade avec <persName
           key="Lavallette, Émilie de Beauharnais, comtesse de (1781-1855)">ma mère</persName>

@@ -86,7 +86,7 @@
       <opener>
         <address>
           <addrLine>
-            <pb n="1" xml:id="p1"/>
+            <pb n="1" facs="https://api.nakala.fr/iiif/10.34847/nkl.fc084569/635703e785f63b7a65230eb23e8d53a07db79839/full/full/0/default.jpg"/>
             <persName key="Delacroix, Eugène (1798-1863)">Monsieur Eugène Delacroix</persName>.
               <placeName key="France, Paris, rue Notre-Dame-de-Lorette, 54">54, rue Notre-Dame de
               Lorette</placeName></addrLine>
@@ -95,7 +95,7 @@
 
 
       <p>
-        <pb n="2" xml:id="p2"/> Nous serons seules ce soir, si vous n’êtes pas trop fatigué, venez
+        <pb n="2" facs="https://api.nakala.fr/iiif/10.34847/nkl.fc084569/3092cbbce7c94bac71ff33c02895f1d93fb6e734/full/full/0/default.jpg"/> Nous serons seules ce soir, si vous n’êtes pas trop fatigué, venez
         nous voir, j’apprends que <persName key="Laity, Armand (1812-1889)">M. Laity</persName> ne
         vient pas dîner. Si vous étiez toujours fatigué, ce serait pour demain, mais vous savez
         combien je suis heureuse de vous voir, voici aujourd’hui 8 jours !!</p>
