@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Joséphine de Forget, 2 janvier 1858</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Catherine Adam-Sigas</name>
+        </respStmt>
+        <respStmt>
+          <resp>balisage et correction</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Musée Eugène Delacroix</institution>
+            <idno>MD 2007-6</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="3" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <provenance>Acquise par la Société des Amis du musée Eugène Delacroix à Paris chez Les
+              Autographes, mai 2007.</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Escholier, <hi rend="it">Eugène Delacroix et sa « consolatrice »</hi>, 1932, p.
+            194-196</bibl>
+          <bibl>Joubin, IV, p. 3-4</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1858-01-02"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <opener>
+        <pb n="1" xml:id="p1"/>
+        <dateline>Ce <date when="1858-01-02">2 janvier 1858</date></dateline>
+        <salute><persName key="Forget, Joséphine de (1802-1886)">Chère amie</persName>,</salute>
+      </opener>
+
+      <p>J’ai été bien tristement désappointé en voyant hier votre carte et le malheur qui m’est
+        arrivé avec vous, m’est arrivé encore avec une autre personne. Je me suis si brusquement
+        installé que je n’ai pu encore avoir un ouvrier pour me mettre des sonnettes : de sorte que
+          <placeName key="France, Paris, rue de Furstenberg, 6">l’appartement</placeName> étant
+        grand, quand il n'y a pas quelqu’un à portée, on n’entend pas frapper<note place="bottom">
+          Delacroix s'installe en décembre 1857 au 6, rue de Furstenberg.</note>. Gardez-moi dans
+        votre aimable intention pour le moment où je n’aurai pas à redouter un semblable
+        accident.</p>
+      <p>Je ne sors qu’à coups de bâton à cause de cet affreux temps : j’organise tout le chauffage
+        possible et je souffle encore dans mes doigts. Du reste, je <pb n="2" xml:id="p2"/> pense
+        que je serai <placeName key="France, Paris, rue de Furstenberg, 6">ici</placeName> fort bien
+        : les pièces sont beaucoup plus grandes que dans <placeName
+          key="France, Paris, rue Notre-Dame-de-Lorette, 58">mon ancien logement</placeName>, ce que
+        j’apprécie beaucoup. Je n’entends point de bruit, autre point capital pour un homme qui
+        reste beaucoup chez lui. Seulement, le moment est très incommode pour s’installer : on ne
+        peut avoir aucun ouvrier.</p>
+      <p><persName key="Forget, Joséphine de (1802-1886)">Chère amie</persName>, recevez mes vœux
+        sincères au commencement de cette année pour que tout succède à votre gré autant que cela
+        est possible dans cette vie. Il y faut passer absolument par-dessus bon nombre d’ennuis pour
+        n’y trouver que de rares moments d’un certain agrément ou tout simplement de calme. Venez
+        dans <placeName key="France, Paris, faubourg Saint-Germain">le faubourg
+          Saint-Germain</placeName> : l’air du lieu vous gagnera : vous ne <pb n="3" xml:id="p3"
+        />rencontrerez plus autant de gens qui ont l’air d’être heureux parce qu’ils se remuent
+        beaucoup.</p>
+      <closer>
+        <salute>J’espère bientôt, <persName key="Forget, Joséphine de (1802-1886)">chère</persName>,
+          aller vous répéter tout cela en dépit du brouillard. Je vous embrasse bien sincèrement en
+          attendant.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+      <postscript>
+        <p>Mille et mille amitiés les plus sincères à <persName key="Forget, Eugène de (1819-1885)"
+            >Eugène</persName>, je vous prie.</p>
+      </postscript>
+    </body>
+
+  </text>
+</TEI>
