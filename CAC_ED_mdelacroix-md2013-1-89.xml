@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’ Eugène Delacroix à Joséphine de Forget, [30 janvier 1853]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Musée Eugène Delacroix</institution>
+
+            <idno>MD 2013-1-89</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <bibl>Escholier, <hi rend="it">Eugène Delacroix et sa « consolatrice »</hi>, 1932,
+          p. 160-161</bibl>
+        <bibl>Joubin, III, p. 136-137</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1853-01-30"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Ce <date when="1853-01-30">dimanche soir</date></dateline>
+        <salute><persName key="Forget, Joséphine de (1802-1886)">Chère amie</persName>,</salute>
+      </opener>
+
+
+      <p>Je n’ai pas pu vous remercier ce matin du service que m’a rendu votre boule hier soir parce
+        que j’étais trop souffrant ce matin. Je vous aurais dit en même temps que je ne devais pas
+        aller à <placeName key="France, Paris, cathédrale Notre-Dame">Notre-Dame</placeName><note
+          place="bottom">Delacroix évoque le mariage de Napoléon III et Eugénie qui fut célébré le
+          30 janvier 1853 à Notre-Dame de Paris. </note>, ce qui est arrivé. J’ai passé la journée
+        tristement avec l’estomac tout à fait dérangé ce qui a absorbé mon rhume. Mais je n’ai pas
+        voulu me coucher sans vous raconter que je n’ai rien à vous raconter, si ce n’est ce que
+        j’ai vu hier soir. Nous étions convoqués, ce que la plupart de nous ignoraient, pour
+        assister au mariage civil<note place="bottom">Delacroix faisait partie du conseil municipal
+          et fut certainement invité à ce titre au mariage civil de Napoléon III et d’Eugénie aux
+          Tuileries le 29 janvier 1853. </note>. À peine ai-je pu voir de très loin et par-dessus
+        mille têtes d’intrigants de tous les étages, le bout du nez de <persName
+          key="Eugénie, dite de Montijo, impératrice (1826-1920)">la future</persName>. <placeName
+          key="France, Paris, palais des Tuleries, salle de spectacle">Au théâtre</placeName><note
+          place="bottom">Un divertissement fut offert après le mariage dans la salle de spectacle
+          des Tuileries.</note>, je n’ai rien vu que les acteurs me <pb n="2" xml:id="p2"/> trouvant
+        au fond du parterre au-dessous de la place qu’occupaient <persName
+          key="Napoléon III (1808-1873)"><persName
+            key="Eugénie, dite de Montijo, impératrice (1826-1920)">les augustes
+            conjoints</persName></persName>. Je vous parlerai de la cantate qui était un
+        chef-d’œuvre dans son genre pour la flatterie et l’inconvenance<note place="bottom">La
+          cantate avait été composée par Daniel-François-Esprit Auber. </note>. Je suis revenu de
+        très mauvaise humeur et cela a contribué à ma mauvaise nuit et à mon impossibilité d’aller
+        ce matin hors de chez moi.</p>
+
+
+      <closer>
+        <salute>Donnez-moi des nouvelles de votre toux. Je vous embrasse bien et vous souhaite la
+          santé, <persName key="Forget, Joséphine de (1802-1886)">chère amie</persName>.</salute>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
