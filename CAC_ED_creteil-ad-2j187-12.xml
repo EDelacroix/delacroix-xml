@@ -13,8 +13,12 @@
       <editionStmt>
         <edition>Centre André Chastel — ObTiC</edition>
         <respStmt>
-          <resp>Transcription</resp>
+          <resp>Transcription, annotation et balisage</resp>
           <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -26,7 +30,7 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Correspondance d'Eugène Delacroix</title>
-        <title type="sub">Joséphine de Forget</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
 
       </seriesStmt>
       <sourceDesc>
