@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, 15 décembre [1858?]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Créteil</settlement>
+            <institution>Archives départementales du Val-de-Marne</institution>
+
+            <idno>2 J 187, pièce 46</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="3"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date when="1858-12-15"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+      <p>
+        <pb n="1" xml:id="p1"/> Mille pardons, <persName key="Delacroix, Eugène (1798-1863)">mon
+          cher ami</persName>, de venir vous déranger au milieu de vos occupations de propriétaire,
+        mais vous prenez, il me semble, cette dignité bien au sérieux ; que faites-vous dans
+          <placeName key="France, Champrosay">vos propriétés</placeName><note place="bottom"
+          >Delacroix avait acquis en août 1858 la petite maison de Champrosay dont il était
+          locataire depuis plusieurs années.</note> ? J’ai passé hier dans <placeName
+          key="France, Paris, faubourg Saint-Germain">votre quartier</placeName>, j’ai demandé des
+        nouvelles chez votre concierge, qui n’en a pas plus que si vous étiez en Cochinchine. Je
+        voudrais savoir si vous vous portez bien ? Je suis inquiète de votre santé, voilà pourquoi
+          <pb n="2" xml:id="p2"/> je viens vous enlever quelques instants à vos ouvriers. Vos
+        voisins doivent être partis, et vous devez avoir un temps affreux ? À <placeName
+          key="France, Paris">Paris</placeName>, nous sommes dans l’eau, dans la neige, et c’est si
+        triste, que c’est à en avoir le spleen : quand à vous, <persName
+          key="Delacroix, Eugène (1798-1863)">mon cher ami</persName>, vous êtes philosophe et la
+        solitude ne vous attriste pas.</p>
+      <p><persName key="Forget, Eugène de (1819-1885)">Mon fils</persName> est de retour à
+          <placeName key="France, Paris">Paris</placeName> depuis peu de jours, sa santé est bien
+        meilleure que l’année dernière, il m’a demandé de suite de vos nouvelles, et me charge de
+        toutes ses amitiés pour vous.</p>
+      <p>
+        <pb n="3" xml:id="p3"/> Si vous prolongez votre séjour à <placeName key="France, Champrosay"
+          >la campagne</placeName>, donnez-moi de vos nouvelles, si vous revenez bientôt à
+          <placeName key="France, Paris">Paris</placeName>, j’espère que vous me le ferez savoir, et
+        j’irai bien vite vous serrez la main.</p>
+
+      <closer>
+        <salute>En attendant, <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName>,
+          recevez l’assurance de ma tendre affection. </salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">B<hi rend="sup">e</hi> de
+            Forget.</persName></signed>
+        <dateline>Ce <date when="1858-12-15">15 décembre</date><note place="bottom">Cette lettre
+            semble écrite en 1858. En effet, Delacroix était encore à Champrosay le 9 décembre de
+            cette année pour les travaux de sa maison qu’il venait d’acheter, comme nous l’apprend
+            sa lettre à Laemlein (Joubin, IV, p. 54). Cela semble donc coïncider avec les propos
+            tenus par Joséphine de Forget dans cette lettre.</note></dateline>
+      </closer>
+
+
+    </body>
+  </text>
+</TEI>
