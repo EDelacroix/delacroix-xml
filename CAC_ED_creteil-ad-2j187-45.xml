@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, s.d.</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Créteil</settlement>
+            <institution>Archives départementales du Val-de-Marne</institution>
+
+            <idno>2 J 187, pièce 45</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="3"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+      <p>
+        <pb n="1" xml:id="p1"/> En vous renvoyant votre revue, <persName
+          key="Delacroix, Eugène (1798-1863)">mon ami</persName>, j’envoie savoir de vos nouvelles.
+        Depuis que je ne vous ai vu, j’ai été fort souffrante, je suis bien maintenant.</p>
+      <p>Êtes-vous <hi rend="u">pris</hi> tous ces jours-ci ? Si vous ne faites rien ce soir, lundi,
+        venez causer un peu avec moi, au coin de mon feu. <pb n="2" xml:id="p2"/> Dans le cas
+        contraire, écrivez-moi un mot parce que je sortirai. Je voudrais bien aussi avoir des
+        nouvelles de votre santé.</p>
+
+      <closer>
+        <salute>En attendant le plaisir de vous voir, je vous envoie mille tendresses, </salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">B<hi rend="sup">e</hi> de
+            Forget.</persName></signed>
+        <dateline>Ce lundi</dateline>
+      </closer>
+
+
+      <postscript>
+        <p>Avez-vous reçu la boîte de café Moka ? C’est un petit cadeau, car je ne le crois pas très
+          bon. Faites en brûler et vous <pb n="3" xml:id="p3"/> me direz ce que vous en pensez.</p>
+      </postscript>
+      <salute>Adieu</salute>
+    </body>
+  </text>
+</TEI>
