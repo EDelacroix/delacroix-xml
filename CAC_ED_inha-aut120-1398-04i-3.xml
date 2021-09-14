@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Joséphine de Forget, 23 septembre 1860</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA</institution>
+
+            <idno>Autographes 120, 1398 (4i)3</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="3"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Claude Roger-Marx, achat en 2003</provenance>
+          </history>
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1860-09-23"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+        </correspAction>
+        <correspContext>
+          <ref type="replyTo" target="CAC_ED_creteil-ad-2j187-49"/>
+        </correspContext>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <placeName key="France, Champrosay">Champrosay</placeName>, ce <date when="1860-09-23">23
+            septembre</date></dateline>
+        <salute><persName key="Forget, Joséphine de (1802-1886)">Chère amie</persName>, </salute>
+      </opener>
+
+
+      <p>Je ne vous ai pas encore remerciée du journal que vous aviez eu la bonté de me mettre à
+          part<note place="bottom">Delacroix répondait à une <ref type="letter"
+            target="CAC_ED_creteil-ad-2j187-49.xml">lettre de Joséphine de Forget, datée du 12
+            septembre</ref>. Elle lui avait fait parvenir le journal <hi rend="it">La Presse</hi> du
+          8 septembre 1860, contenant la préface de l’édition complète du théâtre de George
+          Sand.</note>. Je voulais en vous répondant vous avertir du moment où vous pourriez envoyer
+        prendre chez ma portière les cinq revues qui contiennent le roman de <persName
+          key="Sand, George (1804-1876)">Mme Sand</persName><note place="bottom">Comme le précise
+          Delacroix plus loin, il parle du roman <hi rend="it">Le Marquis de Villemer</hi> qui fut
+          publié dans cinq numéros de la <hi rend="it">Revue des Deux Mondes</hi> (15 juillet, 1<hi
+            rend="sup">er</hi> et 15 août, 1<hi rend="sup">er</hi> et 15 septembre) </note>. Comme
+        ces revues contenaient des articles qui occupaient un peu mes loisirs <placeName
+          key="France, Champrosay">ici</placeName>, je remettais de jour en jour à les envoyer, mais
+        enfin j’ai vu que je n’en finirais pas. Je les ai donc portées hier moi-même à <placeName
+          key="France, Paris">Paris</placeName> sans avoir lu la dernière partie de <hi rend="it"
+          >M. de Villemer</hi>. Ce sont des ouvrages pleins de mérite et même d’un certain charme,
+        mais on <pb n="2" xml:id="p2"/> les lit avec un calme qui vous permet d’attendre le
+        dénouement.</p>
+      <p>Je vous ai parlé du projet d’aller travailler à <placeName key="France, Paris"
+          >Paris</placeName> tout en restant à la <placeName key="France, Champrosay"
+          >campagne</placeName><note place="bottom">Delacroix travaillait alors au décor de la
+          chapelle des Saints-Anges à l’église Saint-Sulpice.</note>. Voilà quinze jours environ que
+        j’ai commencé et je m’en trouve très bien. Je suis moins fatigué maintenant que les premiers
+        jours : cela me donne l’espoir de pouvoir continuer. Je pars très matin de manière que je
+        suis de retour avant quatre heures, de manière à jouir encore de <placeName
+          key="France, Champrosay">la campagne</placeName>. Le bien que cela fait à ma santé vient,
+        outre l’exercice, de ce que je n’ai pas le temps de m’ennuyer : bien des malaises viennent
+        de l’ennui et du vide. La nécessité de se déplacer sans cesse et d’avoir, surtout, un but
+          <pb n="3" xml:id="p3"/> dans ce déplacement sont un remède à mille maux.</p>
+      <p>Écrivez-moi un peu : d’après mon train de vie, je ne reviendrai pas encore m’établir à
+          <placeName key="France, Paris">Paris</placeName>. Je tâcherai un jour d’aller vous dire
+        bonjour.</p>
+
+
+      <closer>
+        <salute>En attendant, je vous embrasse bien et vous envoie mille et mille bons
+          souvenirs.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
