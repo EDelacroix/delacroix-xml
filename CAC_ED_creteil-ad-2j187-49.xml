@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, 12 septembre 1860</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Créteil</settlement>
+            <institution>Archives départementales du Val-de-Marne</institution>
+
+            <idno>2 J 187, pièce 49</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date when="1860-09-12"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <hi rend="u">Ce</hi>
+          <date when="1860-09-12">12 septembre, mercredi</date><note place="bottom">Cette lettre
+            peut être datée de 1860 grâce aux publications mentionnées plus bas (voir notes
+            suivantes). Delacroix, alors très occupé, répondit à Joséphine de Forget <ref
+              type="letter" target="CAC_ED_inha-aut120-1398-04i-3.xml">le 23
+          septembre</ref>.</note></dateline>
+      </opener>
+
+
+      <p>Je vous envoie, <persName key="Delacroix, Eugène (1798-1863)">cher ami</persName>, un
+        numéro de <hi rend="it">La Presse</hi>, dans lequel vous lirez un article de <persName key="Sand, George (1804-1876)">Mme
+          Sand</persName> sur le théâtre qui pourra vous intéresser<note place="bottom">Un article
+          dans <hi rend="it">La Presse</hi> du 8 septembre 1860 annonce la parution prochaine de
+          l’édition complète du théâtre de George Sand, et publie à cette occasion la préface de
+          l’auteur.</note>. Restez-vous encore à <placeName key="France, Champrosay">la campagne</placeName> ? Il y fait bien
+        froid, et je crains que votre projet de travailler à <placeName key="France, Paris">Paris</placeName>, et de
+        retourner ensuite à <placeName key="France, Champrosay">Champrosay</placeName> ne soit une trop grande tâche : ne
+        vous fatiguez pas trop<note place="bottom">Delacroix achevait alors le décor de la chapelle
+          de Saints-Anges à Saint-Sulpice. </note>. Si vous pouvez me prêter le dernier ouvrage de
+        Mme <pb n="2" xml:id="p2"/>
+        <persName key="Sand, George (1804-1876)">Sand</persName> dans la<hi rend="it"> Revue des deux mondes</hi> (et si l’ouvrage
+        est terminé) vous me ferez grand plaisir, car je suis bien seule, il n’y a personne à
+          <placeName key="France, Paris">Paris</placeName> : vous le laisseriez chez votre concierge, où je l’enverrai
+          chercher<note place="bottom"><hi rend="it">Le marquis de Villemer</hi>, roman qui fut
+          publié dans cinq numéros de la <hi rend="it">Revue des deux mondes</hi> (15 juillet, 1<hi
+            rend="sup">er</hi> et 15 août, 1<hi rend="sup">er</hi> et 15 septembre). Delacroix
+          déposa ces numéros pour elle et la prévint dans <ref type="letter"
+            target="CAC_ED_inha-aut120-1398-04i-3.xml">sa lettre du 23 septembre</ref>.</note>.</p>
+
+
+      <closer>
+        <salute>Adieu, <persName key="Delacroix, Eugène (1798-1863)">cher bon ami</persName>,
+          donnez-moi quelques fois des nouvelles de votre santé et recevez en attendant toutes mes
+          tendresses. Adieu. </salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">B<hi rend="sup">e</hi> de Forget.</persName></signed>
+      </closer>
+
+      <postscript>
+        <p>Je ne garde <hi rend="u">pas <hi rend="it">La Presse</hi></hi>.</p>
+      </postscript>
+    </body>
+  </text>
+</TEI>
