@@ -76,12 +76,8 @@
       <pb n="1" xml:id="p1"/>
       <opener>
         <dateline><placeName key="France, Strasbourg">Strasbourg</placeName>, <date
-            when="1859-08-21">21 août 1859</date><note place="bottom">Delacroix est parti pour
-            Strasbourg chez son cousin Auguste Lamey, jeudi 18 août 1859. Le 23 août, il copie dans
-            son <hi rend="it">Journal</hi> une lettre qu’il adresse à Joséphine de Forget et dans
-            laquelle il lui relate comment s’est passé son voyage et à quoi il s’occupe. Ce qui
-            laisse supposer que cette lettre-ci n’a peut-être pas été expédiée à son
-            destinataire.</note>.</dateline>
+            when="1859-08-21">21 août 1859</date><note place="bottom">Delacroix partit pour
+            Strasbourg chez son cousin Auguste Lamey, jeudi 18 août 1859.</note>.</dateline>
         <salute><persName key="Le Guillou, Jeanne Marie, dite Jenny (1801-1869)">Chère bonne
             amie</persName><note place="bottom">Contrairement à ce qui a été proposé lors de la
             première édition de cette lettre, il est désormais possible d'affirmer qu'elle fut

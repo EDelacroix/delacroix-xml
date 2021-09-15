@@ -74,34 +74,32 @@
   <text>
     <body>
       <opener>
-        <pb n="1" xml:id="p1"/><address>
-          <addrLine><placeName key="France, Ante">Ante près Sainte-Menehould</placeName><note
-              place="bottom"> Delacroix passe la dernière quinzaine de septembre 1862 à Ante, en
-              Argonne région d’origine de sa famille paternelle , chez son cousin Philogène
-              Delacroix.</note></addrLine>
+        <pb n="1" xml:id="p1"/>
+        <address>
+          <addrLine><placeName key="France, Ante">Ante près Sainte-Menehould</placeName></addrLine>
         </address>
         <dateline>Ce <date when="1862-09-19">19 septembre 1862</date></dateline>
         <salute><persName key="Le Guillou, Jeanne Marie, dite Jenny (1801-1869)">Bonne chère
             amie</persName>,</salute>
       </opener>
-      <p>Je suis arrivé à bon port<note place="bottom">Delacroix passe la dernière quinzaine de
-          septembre 1862 à Ante, en Argonne région d’origine de sa famille paternelle , chez son
+      <p>Je suis arrivé à bon port<note place="bottom">Delacroix passa la dernière quinzaine de
+          septembre 1862 à Ante, en Argonne, région d’origine de sa famille paternelle, chez son
           cousin Philogène Delacroix.</note> : nous avons un temps superbe et je me trouve bien de
         ce petit voyage. Quoique je ne puisse espérer d’avoir de vos nouvelles, j’ai voulu que vous
         eussiez des miennes : je veux vous répéter que je pense bien à vous et à vos chagrins.
         Peut-être ce petit mot vous donnera-t-il un moment de satisfaction.</p>
       <p>Je mène une vie très fainéante : je ne dessine même pas dans mon album et les journées se
         passent vite. Nous aurons du monde à dîner lundi prochain : je ne pourrai donc partir que
-        vers mercredi à ce <pb n="2" xml:id="p2"/>que je suppose. Je combine un moyen de partir d’ici de bonne heure et de
-        me trouver près de vous, à <placeName key="France, Champrosay">Champrosay</placeName>, dans
-        la même journée et à l’heure du dîner : cela serait une belle équipée qui ferait que je vous
-        reverrais un peu plus tôt et que je ne serais pas obligé de coucher en route<note
-          place="bottom">Grâce à cette information, il semble fort probable que cette lettre fût
-          adressée à Jenny Le Guillou et non à Joséphine de Forget, contrairement à ce qui a été
-          proposé dans une publication antérieure. En effet, il est possible d'affirmer que la
-          baronne ne pouvait se trouver à Champrosay en attendant Delacroix. Seule Jenny, sa bonne,
-          devait attendre son maître dans sa maison de campagne.</note>. Je vais faire mon possible
-        pour arranger cela.</p>
+        vers mercredi à ce <pb n="2" xml:id="p2"/>que je suppose. Je combine un moyen de partir
+        d’ici de bonne heure et de me trouver près de vous, à <placeName key="France, Champrosay"
+          >Champrosay</placeName>, dans la même journée et à l’heure du dîner : cela serait une
+        belle équipée qui ferait que je vous reverrais un peu plus tôt et que je ne serais pas
+        obligé de coucher en route<note place="bottom">Grâce à cette information, il semble fort
+          probable que cette lettre fût adressée à Jenny Le Guillou et non à Joséphine de Forget,
+          contrairement à ce qui a été proposé dans une publication antérieure. En effet, la baronne
+          vivait à Paris et ne pouvait se trouver à Champrosay en attendant Delacroix. Seule Jenny,
+          sa bonne, devait attendre son maître dans sa maison de campagne.</note>. Je vais faire mon
+        possible pour arranger cela.</p>
       <closer>
         <salute>Dans l’espoir de vous revoir bientôt je vous envoie l’expression de ma tendre
           affection.</salute>
