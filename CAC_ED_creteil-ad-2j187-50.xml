@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, s.d.</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Créteil</settlement>
+            <institution>Archives départementales du Val-de-Marne</institution>
+
+            <idno>2 J 187, pièce 50</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="3"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+      <p>
+        <pb n="1" xml:id="p1"/> Je reçois à l’instant votre lettre, <persName
+          key="Delacroix, Eugène (1798-1863)">mon ami</persName>, et je m’empresse de vous répondre
+        que nous ne pourrons aller vous voir demain mardi, ma cousine<note place="bottom">Nous
+          n’avons pas réussi à identifier la cousine évoquée ici par Joséphine de Forget. Il semble
+          qu’elle ne vivait pas à Paris, car dans une autre lettre publiée par Escholier
+          (CAC_ED_escholier-1963-p216), elle écrit à Delacroix que sa cousine est partie. Hortense
+          de Querelles qui était sa demi-tante, mais que Joséphine de Forget appelait sa cousine,
+          est mentionnée dans les courriers à Delacroix par son nom ou son prénom, donc il est peu
+          probable qu’il s’agisse ici d’elle. </note> ayant une course à faire qu’elle ne peut
+        remettre, justement à l’heure que vous m’indiquez. Ce sera donc pour un autre jour, que vous
+        m’indiquerez <pb n="2" xml:id="p2"/> plus tard. Ne soyez pas fâché contre moi, ce désir
+        d’aller voir votre atelier n’a pas été <hi rend="u">insinué</hi> par moi, mais bien pas ma
+        cousine : excusez du reste son indiscrétion en faveur de l’admiration qu’elle a pour votre
+        talent.</p>
+
+      <closer>
+        <salute>J’irai donc vous porter moi-même, ces jours-ci, les revues que vous m’avez prêtées
+          et, en attendant, <pb n="3" xml:id="p3"/> recevez, <persName
+            key="Delacroix, Eugène (1798-1863)">cher ami</persName>, toutes mes tendresses.</salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">J. de Forget</persName></signed>
+        <dateline>Ce lundi soir</dateline>
+      </closer>
+
+
+    </body>
+  </text>
+</TEI>
