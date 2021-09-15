@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, 14 novembre 1861</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Créteil</settlement>
+            <institution>Archives départementales du Val-de-Marne</institution>
+
+            <idno>2 J 187, pièce 53</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="3"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date when="1861-11-14"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Ce <date when="1861-11-14">jeudi matin 14 novembre</date><note
+            place="bottom">Delacroix répondit à cette lettre <ref type="letter"
+              target="CAC_ED_joubin-4-p282.xml">le 16 novembre</ref>. Les détails contenus dans les
+            deux lettres permettent de les dater avec certitude de 1861.</note></dateline>
+        <salute><persName key="Delacroix, Eugène (1798-1863)">Mon cher ami</persName>,</salute>
+      </opener>
+
+
+      <p>C’est demain Saint Eugène et je regrette votre absence, j’aurais été bien heureuse de
+        pouvoir vous offrir mon petit bouquet, ce sera pour votre retour. Vous ne m’aviez pas encore
+        donné de vos nouvelles et cela est bien mal, car il y a eu hier trois semaines que vous
+        m’avez donné quelques heures de bonheur ! Je crains que vous travaillez trop et que vous ne
+        fassiez pas assez d’exercice ; ce n’est pas la peine d’être <placeName
+          key="France, Champrosay">à la campagne</placeName> pour rester enfermé dans sa
+        chambre !</p>
+      <p>Ici <pb n="2" xml:id="p2"/> nous avons souvent de la pluie, mais aussi quelques matinées
+        bien belles.</p>
+      <p>J’ai enfin ma loge à l’<placeName key="France, Paris, Opéra">Opéra</placeName>. Elle est au
+          2<hi rend="sup">e</hi> rang de face et on y voit et on y entend très bien, je l’ai tous
+        les quinze jours. J’ai commencé lundi dernier 11 et je l’aurai maintenant lundi 25 de ce
+        mois. J’ai eu <hi rend="it">Guillaume Tell</hi>, et j’ai été bien contente d’entendre cette
+        admirable musique, mais hélas <persName key="Duprez, Gilbert (1806-1896)">Dupré</persName>
+        n’y était plus ! Si le lundi de ma loge, c’est-à-dire le 25, on donnait <hi rend="it"
+          >Alceste</hi>, voudriez-vous y venir<note place="bottom">Il s’agit de la reprise de l’<hi
+            rend="it">Alceste</hi> de Gluck par Berlioz pour l’Opéra dont la première eut lieu le 21
+          octobre 1861. Delacroix répondit le 16 novembre qu’il aimerait entendre avec elle cet
+          opéra, mais finalement il resta ce jour-là à la campagne comme nous l’apprend la lettre
+          que lui écrivit Joséphine de Forget le 22 novembre suivant
+          (CAC_ED_creteil-ad-2J187-29).</note> ? <persName
+          key="Le Guillou, Jeanne Marie, dite Jenny (1801-1869)">Votre domestique</persName>
+        pourrait venir avec vous à <placeName key="France, Paris">Paris</placeName>, préparer
+          <placeName key="France, Paris, rue de Furstenberg, 6">votre appartement</placeName> pour
+        la nuit, <pb n="3" xml:id="p3"/> et vous viendriez dîner avec moi, nous irions ensemble, et
+        vous ne seriez pas obligé de rester tout le temps : du reste, je pourrai toujours vous
+        écrire le spectacle la veille au matin. Je n’ai pas besoin de vous dire combien je serai
+        heureuse de passer quelques bons moments avec vous.</p>
+      <p>Avez-vous le projet de revenir bientôt ? Donnez-moi de vos nouvelles. <persName
+          key="Forget, Eugène de (1819-1885)">Eugène</persName> est encore à la campagne.</p>
+
+
+      <closer>
+        <salute>Je vous embrasse comme je vous aime, <persName key="Delacroix, Eugène (1798-1863)"
+            >cher bon ami</persName>, et je vous envoie mille bonnes tendresses.</salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">B<hi rend="sup">e</hi> de
+            Forget</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

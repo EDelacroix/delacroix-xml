@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, 31 [octobre 1860]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Créteil</settlement>
+            <institution>Archives départementales du Val-de-Marne</institution>
+
+            <idno>2 J 187, pièce 51</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="3"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date when="1860-10-31"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Ce <date when="1860-10-31">mercredi 31</date><note place="bottom"
+            >Cette lettre peut-être datée du 31 octobre 1860, qui tomba bien un mercredi. En effet,
+            comme l’indique Joséphine de Forget plus bas, Delacroix faisait alors tous les jours
+            l’aller-retour entre Champrosay et Paris pour achever le décor de la chapelle des
+            Saints-Anges. </note></dateline>
+        <salute><persName key="Delacroix, Eugène (1798-1863)">Mon cher ami</persName>,</salute>
+      </opener>
+
+
+      <p>J’ai passé chez vous hier pour savoir de vos nouvelles et si vous étiez de retour de
+          <placeName key="France, Champrosay">la campagne</placeName> : dans ce cas-là, je venais
+        vous proposer une place dans ma loge aux <placeName key="France, Théâtre-Italien"
+          >Italiens</placeName> samedi prochain pour entendre <hi rend="it">Le</hi>
+        <hi rend="u"><hi rend="it">mariage secret</hi></hi> que vous aimez beaucoup, si on le donne
+        comme je l’espère un peu<note place="bottom"><hi rend="it">Il Matrimonio segreto</hi> de
+          Cimarosa fut bien donné au Théâtre-Italien le samedi 3 novembre (voir <hi rend="it">Le
+            Constitutionnel</hi>, du 2 novembre 1860).</note>. D’après ce que votre concierge m’a
+        répondu je n’espère pas vous voir avant longtemps peut-être. Nous avons eu de bien beaux
+        jours, mais depuis hier <pb n="2" xml:id="p2"/> le temps devient froid, et il ne faut pas
+        trop nous plaindre puisque nous entrons en hiver ; aussi, <persName
+          key="Delacroix, Eugène (1798-1863)">cher ami</persName>, est-il bien raisonnable à vous de
+        faire tous les jours le voyage en chemin de fer, qui est fatiguant par le froid, où vous
+        pouvez attraper un froid, un courant d’air, et vous savez combien un rhume vous retient
+        longtemps chez vous ? La fatigue aussi est bien mauvaise, et ne prenez-vous pas la force
+        pour le désir de travailler et de terminer <rs type="work"
+          key="chapelle des Saints-Anges, église Saint-Sulpice">votre église</rs><note
+          place="bottom">Delacroix souhaitait finir son décor de la chapelle des Saints-Anges dans
+          l’église Saint-Sulpice, qui lui avait été attribué en 1849. Il ne l’acheva qu’en juillet
+          1861 au prix de nombreux efforts, comme cette lettre le laisse entendre.</note> ? Enfin,
+          <persName key="Delacroix, Eugène (1798-1863)">cher bon ami</persName>, pas d’imprudences,
+        je vous en conjure. Écrivez-moi quelques lignes pour me donner de <pb n="3" xml:id="p3"/>
+        vos nouvelles. <persName key="Forget, Eugène de (1819-1885)">Mon fils</persName> est
+        toujours en <placeName key="France, Auvergne">Auvergne</placeName>, où il se plaît beaucoup
+        plus qu’ici : aussi je suis bien seule, bien ennuyée, mais c’est mon lot dans ce monde ; il
+        faut non s’y habituer, mais s’y résigner !</p>
+
+
+      <closer>
+        <salute>Adieu, <persName key="Delacroix, Eugène (1798-1863)">cher bon ami</persName>, je
+          vous embrasse de tout cœur et vous envoie milles bonnes tendresses.</salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">B<hi rend="sup">e</hi> de
+            Forget</persName></signed>
+      </closer>
+
+      <postscript>
+        <p>Nous ne serons que quatre personnes dans ma loge aux <placeName
+            key="France, Théâtre-Italien">Italiens</placeName>, ne me faites rien dire, mais si on
+          donne le spectacle que vous désirez et si vous êtes revenu à <placeName
+            key="France, Paris">Paris</placeName>, demandez le n°11 de l’année dernière et je serai
+          bien enchantée de vous voir.</p>
+        <p>Adieu encore.</p>
+      </postscript>
+    </body>
+  </text>
+</TEI>
