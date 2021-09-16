@@ -22,8 +22,8 @@
         </respStmt>
         <respStmt>
           <resp>Corrections</resp>
-          <name>{corrections}</name>
-          <name>{corrections}</name>
+          <name>Gaëlle Lafage</name>
+          <name>Catherine Gros</name>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -95,7 +95,8 @@
       <p>Je suis très en train de travailler et je n’ai rien fait depuis 8 jours. Prie <persName
           key="Triqueti, Henri de (1802-1874)">Triqueti</persName> de m’excuser, en le remerciant
         beaucoup de son attention. Je me recommanderai à lui pour voir pendant l’été, s’il est
-        possible, la galerie en question. Toi, j’espère que cela te plaira.</p>
+        possible, la galerie en question<note place="bottom">Nous ignorons de quelle galerie il
+          s'agit.</note>. Toi, j’espère que cela te plaira.</p>
 
 
       <closer>

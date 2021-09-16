@@ -22,8 +22,8 @@
         </respStmt>
         <respStmt>
           <resp>Corrections</resp>
-          <name>{corrections}</name>
-          <name>{corrections}</name>
+          <name>Gaëlle Lafage</name>
+          <name>Catherine Gros</name>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -89,9 +89,9 @@
 
 
       <opener>
-        <p>
+        <address><addrLine>
           <pb n="1" xml:id="p1"/>
-          <persName key="Pierret, Jean-Baptiste (1795-1854)">Baptiste Pierret</persName></p>
+          <persName key="Pierret, Jean-Baptiste (1795-1854)">Baptiste Pierret</persName></addrLine></address>
       </opener>
 
 
@@ -101,7 +101,7 @@
           when="1819-08-24">demain matin</date>, comme nous en étions convenus. Je dois partir de la
           maison<note place="bottom">À l’époque, Delacroix habitait avec sa sœur Henriette de
           Verninac (1782-1827) au 110, rue de l’Université (Joubin, I, p. 40).</note> à 5 heures et
-        demie du matin au plus tard pour aller au fond du <placeName
+        demi du matin au plus tard pour aller au fond du <placeName
           key="France, Paris, faubourg Saint-Denis">faubourg Saint-Denis</placeName> faire une
         commission. Comme <persName key="Guillemardet, Félix (1796-1842)">Félix</persName> est sur
         mon chemin, je compte en revenant lui rapporter un livre que j’ai à lui et lui dire adieu.
@@ -109,7 +109,7 @@
         être. Cependant, si tu n’en es pas trop gêné, j’aurai bien du plaisir à te voir avant mon
           départ<note place="bottom">Delacroix se réfère ici à son départ pour Mansle avec sa sœur
           Henriette, le 25 août 1819 (Joubin, I, p. 40).</note>. Quant au reste de la journée, je
-        serai à la maison au moins depuis 1 heure et demie jusqu’à 3, et peut-être plus tard, parce
+        serai à la maison au moins depuis 1 heure et demi jusqu’à 3, et peut-être plus tard, parce
         que je ne sais pas encore à quelle heure nous partirons.</p>
 
 

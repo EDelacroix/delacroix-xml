@@ -90,7 +90,7 @@
       <opener>
 
         <pb n="1" xml:id="p1"/>
-        <persName key="Pierret, Jean-Baptiste (1795-1854)">Baptiste Pierret</persName>
+        <address><addrLine><persName key="Pierret, Jean-Baptiste (1795-1854)">Baptiste Pierret</persName></addrLine></address>
         <dateline>
           <pb n="2" xml:id="p2"/>
           <date when="1819-07-10">Samedi.</date></dateline>
@@ -98,7 +98,7 @@
       </opener>
 
 
-      <p>On annonce dans une affiche que j’ai vu aujourd’hui une vente curieuse<note place="bottom"
+      <p>On annonce dans une affiche que j’ai vue aujourd’hui une vente curieuse<note place="bottom"
           >Delacroix se réfère à la vente de Luigi Ventenati de Pomposi qui eut lieu le 14 juillet
           1819, ce qui permet de dater exactement la lettre de Delacroix. Dans le catalogue de la
           vente figurent bien les tableaux mentionnés par Delacroix, ainsi que le buste de
