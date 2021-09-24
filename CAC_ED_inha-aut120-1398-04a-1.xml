@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Joséphine de Forget, [vers 1843-1846 ?]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA</institution>
+
+            <idno>Autographes 120, 1398 (4a)1</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Claude Roger-Marx, achat en 2003</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Escholier, <hi rend="it">Eugène Delacroix et sa « consolatrice »</hi>, 1932, p. 107
+            (éd. partielle)</bibl>
+          <bibl>Joubin, I, p. 370-371</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date notBefore="1843"/>
+          <date notAfter="1846"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <salute>
+          <pb n="1" xml:id="p1"/>
+          <persName key="Forget, Joséphine de (1802-1886)">Bonne, bonne Chérie</persName>,</salute>
+      </opener>
+
+
+      <p>Mille et mille grâces de ta charmante lettre et des expressions de ton cœur : comment
+        n’aimerait-on pas la vie quand on est aimé ? Je serais bien ingrat contre la destinée qui a
+        bien voulu que tu daignasses faire attention à moi. Je suis bien mieux malgré la tristesse
+        qui suit toujours les bons moments et l’espoir de passer une bonne soirée mardi me
+        soutiendra dans cette disposition<note place="bottom">Rien ne permet malheureusement de
+          dater cette lettre qui n’évoque aucun événement particulier. Joubin propose l’année 1834
+          environ (Joubin, I, p. 370-371), pensant qu’elle fut envoyée peu de temps après le début
+          de la liaison de Delacroix avec Joséphine de Forget. Toutefois, rien ne permet d’affirmer
+          que cette lettre date de la première année de leur liaison. Malheureusement pour nous, la
+          quasi-totalité des lettres que le peintre adressa à son amante avant 1843 semble avoir
+          disparu, conformément aux dernières volontés de la baronne. Parmi les lettres de Joséphine
+          de Forget conservées aux archives du Val-de-Marne, certaines datant des années 1840
+          partagent la même tendresse et tonalité amoureuse. Le surnom de « Consolation » ou
+          « Consuelo » donné à Joséphine de Forget se retrouve dans leur correspondance conservée
+          entre 1844 et 1846, s’inspirant très certainement du titre du roman de George Sand publié
+          en 1843. Il serait donc plus sage de dater cette lettre entre la fin de l’année 1843 et
+          1846 environ.</note>. Ma soirée d’hier avec mon <hi rend="u">ex</hi>-ami<note
+          place="bottom">On ignore la personne à laquelle Delacroix fait référence. Joubin pense
+          qu’il s’agit de Cuvillier-Fleury, qui avait été l’amant de Joséphine de Forget, toutefois,
+          les lettres qu’il lui écrivit quelques années plus tard montrent qu’ils restèrent
+          amis.</note> a été bien loin de celle de la veille. Nous avons été contraints tout le
+        temps et gênés vis-à-vis l’un de l’autre. C’est là une véritable tristesse et sans remède,
+        tandis que celle qui vient après des moments chéris se dissipe graduellement en songeant
+        qu’on doit se retrouver. Tu as dû éprouver de tristes <pb n="2" xml:id="p2"/> émotions hier
+        matin. Je l’ai bien pensé, <persName key="Forget, Joséphine de (1802-1886)"
+          >Chérie</persName>. Tu m’en parleras encore.</p>
+
+
+      <closer>
+        <salute>Adieu, <persName key="Forget, Joséphine de (1802-1886)">bonne
+          Consolation</persName>. Mille nouvelles tendresses et remerciements bien tendres.</salute>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

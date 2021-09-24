@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Joséphine de Forget, 1<hi rend="sup">er</hi> janvier
+          1846</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA</institution>
+
+            <idno>Autographes 120, 1398 (4b)1</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="4"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Claude Roger-Marx, achat en 2003</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Escholier, <hi rend="it">Eugène Delacroix et sa « consolatrice »</hi>, 1932, p.
+            109-110 (éd. partielle – lettre datée de 1846)</bibl>
+          <bibl>Joubin, II, p. 248-249</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1846-01-01"/>
+          <placeName key="France, Bordeaux"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <placeName key="France, Paris, rue de Matignon, n°10"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="enveloppe"/>
+            <persName key="Forget, Joséphine de (1802-1886)">Madame la Baronne de
+            Forget</persName></addrLine>
+          <addrLine><placeName key="France, Paris, rue de Matignon, n°10">rue de Matignon, n° 10;
+              faubourg Saint-Honoré, <hi rend="u">à Paris</hi></placeName></addrLine>
+        </address>
+        <stamp><placeName key="France, Bordeaux">Bordeaux</placeName>
+          <date when="1846-01-01">1<hi rend="sup">er</hi> janvier 1846</date></stamp>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <placeName key="France, Bordeaux">Bordeaux</placeName>, <date when="1846-01-01">1er
+            janvier</date>
+        </dateline>
+        <salute><persName key="Forget, Joséphine de (1802-1886)">Chère amie</persName>,</salute>
+      </opener>
+
+
+      <p>pardonnez-moi le retard que j’ai mis à vous donner de mes nouvelles. Je suis arrivé trop
+        tard. Mon voyage a été beaucoup plus long à cause de pluies et des mauvais chemins : sans
+        cela j’aurais pu revoir <persName key="Delacroix, Charles Henry (1779-1845)">mon pauvre
+          frère</persName> vivant<note place="bottom">Le frère de Delacroix est mort le 30 décembre
+          1845.</note>. Vous jugez au milieu de quelles scènes je me trouve depuis avant-hier soir.
+        Je trouve heureusement quelques-uns de ses amis qui m’aident dans tous les soins nécessaires
+        ou plutôt qui font presque tout. Je ne vous raconte pas ce que j’ai senti en voyant cette
+        belle figure éteinte par la mort et en l’embrassant comme un fou. Il me semble presque déjà
+        que c’est un rêve. Demain la cruelle et fatigante cérémonie : être en spectacle à des
+        curieux la plupart indifférents quand on est si légitimement triste. <persName
+          key="Forget, Joséphine de (1802-1886)">Bonne amie</persName>
+        <pb n="2" xml:id="p2"/>vous sentez cela comme moi. Que n’avez-vous été près de moi seulement
+        quelques moments ? Ma santé s’est soutenue malgré une fatigue cruelle : aujourd’hui j’ai
+        l’estomac tout dérangé et vais tâcher de me reposer pour demain. J’aurai à me défendre et
+        avec bien de la difficulté du rôle trop officieux des visiteurs. On est beaucoup plus
+        formaliste encore en province qu’à <placeName key="France, Paris">Paris</placeName> et on
+        m’assassinera pour me faire honneur. <persName key="Forget, Joséphine de (1802-1886)">Bonne
+          et chère</persName> répondez-moi donc de suite<note place="bottom">Joséphine de Forget
+          répondit aussitôt à Delacroix par une <ref type="letter"
+            target="CAC_ED_inha-aut120-1399-1f.xml">lettre de consolation très affectueuse datée du
+            4 janvier</ref>.</note>. Je sens maintenant un grand désir d’avoir de vos nouvelles et
+        j’en aurai besoin de plus en plus. Je ne puis vous écrire bien longtemps. Je vous embrasse
+        seule et fidèle amie avec toute la tendresse de mon âme. Dites à <persName
+          key="Querelles, Hortense de (1812-1851)">Madame de Querelles</persName> et à <persName
+          key="Querelles, Richard de (1811-1846)">son mari</persName> tout mon chagrin et
+        faites-leur mon amitié <pb n="3" xml:id="p3"/>bien vive et à <persName
+          key="Vieillard, Narcisse (1791-1857)">Vieillard</persName><note place="bottom">Narcisse
+          Vieillard, ami de Delacroix.</note> si vous le voyez. Je n’écris encore qu’à vous : mes
+        amis concevront que je suis dans un moment où un peu de retard est excusable</p>
+
+
+      <closer>
+        <salute>Encore mille tendresses.</salute>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

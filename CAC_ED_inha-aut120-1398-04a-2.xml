@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Joséphine de Forget, [11 juillet 1844]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA</institution>
+
+            <idno>Autographes 120, 1398 (4a)2</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="3"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Claude Roger-Marx, achat en 2003</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Escholier, <hi rend="it">Eugène Delacroix et sa « consolatrice »</hi>, 1932, p. 129
+            (éd. partielle – lettre datée de 1846)</bibl>
+          <bibl>Joubin, II, p. 183-184 (lettre datée du 11 juillet 1844)</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1844-07-11"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Jeudi<note place="bottom">Joubin date la lettre du 11 juillet
+            1844, car elle peut être rapprochée d’autres événements mentionnés dans la
+            correspondance à cette période où Delacroix effectue des allers-retours entre Paris et
+            Champrosay (Joubin, II, p. 183-184).</note></dateline>
+        <salute><persName key="Forget, Joséphine de (1802-1886)">Chère bonne
+          amie</persName>,</salute>
+      </opener>
+
+
+      <p>je m’empresse de t’accuser réception des charmantes fleurs qui sont arrivées en bon état
+        hier soir et ont été à l’instant même replantées et arrosées à l’instant par un homme de
+        l’art. Ce matin, pendant que je t’écris ce mot à la hâte pour ne pas manquer l’heure de la
+        poste, mon artiste est en train de palisser et d’attacher les petites branches pour faire
+        grimper le tout le long de mes murs. C’est donc toi, <persName
+          key="Forget, Joséphine de (1802-1886)">chère bonne</persName>, à qui je devrai l’ornement
+        de mes murs, l’intention s’entend, car je ne prétends pas que tu te mettes ainsi en frais
+        pour <placeName key="France, Champrosay">ma demeure</placeName> et que tu auras la bonté de
+        permettre que je te tienne compte de tout cela. Ce sont tes <pb n="2" xml:id="p2"/> soins et
+        ta bonté de courir pour m’avoir tout cela que je ne pourrai jamais reconnaître. Le beurre
+        est encore très bon et je m’applaudis bien du parti que j’ai pris. Les autres fleurs vont
+        très bien. Rien n’est mort et tu jugeras d’après la petite fleur de musc que je t’envoie que
+        tout cela est en bon état. Je me fais une fête d’avoir ton portrait<note place="bottom"
+          >Joubin précise en note qu’il pourrait s’agir d’un daguerréotype. En effet, le portrait
+          réalisé par Horace Vernet est daté de 1826, tandis que celui exécuté par David d’Angers
+          est plus tardif, portant la date de 1847. De plus, Joséphine parle de son « nouveau »
+          daguerréotype dans une <ref type="letter" target="CAC_ED_creteil-ad-2j187-17.xml">lettre
+            conservée aux Archives du Val-de-Marne</ref> et qui est également datable de cet été
+          1844.</note> qui m’aurait été si nécessaire ici pour tromper l’ennui de l’absence.
+        J’espère que ton artiste te saisira au vol et comme il faut. Ce sont tes yeux qu’il me faut.
+        Ma maudite ouvrière n’en finit pas : elle m’empêche aussi de faire venir <persName
+          key="Soulier, Charles (1792-1866)">M. Soulier</persName> qui devait venir passer un jour
+        ou deux avec moi, à cause <pb n="3" xml:id="p3"/> de l’impossibilité où je serais de le
+          coucher<note place="bottom">Dans une lettre à Soulier du 8 juillet 1844, publiée par
+          Joubin (II, p. 180-181), Delacroix se plaint déjà de ne pas pouvoir recevoir son ami à
+          cause d’une ouvrière qu’il a amenée de Paris pour lui confectionner « des housses, des
+          houppelandes, etc… » et qu’il doit héberger durant ce temps.</note>. Je me hâte, <persName
+          key="Forget, Joséphine de (1802-1886)">bon amour</persName>, pour que tu n’attendes pas un
+        jour entier avant d’avoir ceci, j’espère que tu l’auras demain dans la journée. Tu y
+        trouveras tous mes vœux pour te revoir et te serrer contre mon cœur. Je suis bien heureux
+        aussi de ce que tu me dis de ta santé.</p>
+
+
+      <closer>
+        <salute>Mille tendres tendresses, <persName key="Forget, Joséphine de (1802-1886)">bonne
+            chérie</persName>.</salute>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

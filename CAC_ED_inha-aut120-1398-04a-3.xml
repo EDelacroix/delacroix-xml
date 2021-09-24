@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Joséphine de Forget, 1<hi rend="sup">er</hi> août
+          1844</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA</institution>
+
+            <idno>Autographes 120, 1398 (4a)3</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Claude Roger-Marx, achat en 2003</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Escholier, <hi rend="it">Eugène Delacroix et sa « consolatrice »</hi>, 1932, p.
+            106-107 (éd. partielle – lettre datée de 1846)</bibl>
+          <bibl>Joubin, II, p. 189-190</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1844-08-01"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="1" xml:id="p1"/>
+            <persName key="Forget, Joséphine de (1802-1886)">Madame la Baronne de
+            Forget</persName></addrLine>
+          <addrLine><placeName key="France, Paris, rue de Matignon, 10">rue de Matignon, n° 10,
+              Faubourg Saint-Honoré</placeName></addrLine>
+        </address>
+        <stamp><date when="1844-08-01">1<hi rend="sup">er</hi> août 1844, levée de 4h ½ du
+            soir</date></stamp>
+        <dateline>
+          <pb n="2" xml:id="p2"/> 3 h </dateline>
+        <salute><persName key="Forget, Joséphine de (1802-1886)">Bonne chérie</persName>,</salute>
+      </opener>
+
+
+      <p>je rentre de <placeName key="France, Paris, Hôtel Lambert">l’hôtel Lambert</placeName>.
+        Heureusement, j’ai fini, mais je ne croyais pas avoir tant à faire<note place="bottom"
+          >Delacroix restaurait alors depuis plusieurs mois les peintures de l’hôtel Lambert acheté,
+          sur ses conseils, en juin 1843 par la princesse Anna Sapieha Czartoryska (<ref
+            type="letter" target="CAC_ED_custodia-1997-a-1063">voir la lettre d’Albert Grzymala à
+            George Sand et Frédéric Chopin de juillet 1843</ref>. Il évoque déjà ce travail délicat
+          et difficile dans <ref type="letter" target="CAC_ED_inha-ms242-041">une lettre à Albert
+            Grzymala en octobre 1843</ref> . Toutefois, il est difficile de savoir quelles peintures
+          furent restaurées par Delacroix. Dussieux, dans son ouvrage sur Le Sueur, indique que les
+          grisailles du vestibule du 1<hi rend="sup">er</hi> étage, peintes par Le Sueur, « ont été
+          réparées avec respect et beaucoup d’intelligence en 1843, par M. Eug. Delacroix. Celle qui
+          est à droite de la porte d’entrée de la galerie a été presque entièrement refaite par M.
+          Delacroix. Elle était à peu près détruite. » (Dussieux, <hi rend="it">Nouvelles recherches
+            sur la vie et les ouvrages d’Eustache Le Sueur</hi>, Paris, 1852, p. 74). Blanche
+          Penaud-Lambert, dans son mémoire sur les restaurations de l’hôtel Lambert, indique qu’elle
+          n’a pas retrouvé la trace de paiements à Delacroix. Elle cite plus loin des notes de Louis
+          de Planet sur l’hôtel, publiées par Joubin, laissant penser que Delacroix n’intervint pas
+          pour la restauration du plafond de Le Brun : « M. Eugène Delacroix me parlait souvent de
+          l’Hôtel Lambert et de ses beaux Le Sueur, et à ce sujet, […] il ajoutait, et ce sont ses
+          propres expressions : “ que c’était encore là que Le Sueur avait ses plus belles choses et
+          qu’il en avait restauré plusieurs morceaux entièrement dégradés, voyant qu’on allait
+          confier ce travail à des gens complètement ineptes” […] Ce fut à la fin de 1843 que
+          M. Delacroix fit cette espèce de restauration “ éprouvant, disait-il, une grande
+          satisfaction à la faire, et y apportant beaucoup d’ardeur et d’entrain ”. –– Il estimait
+          beaucoup les peintures de Le Brun à l’époque où il exécutait le plafond de la Galerie
+          d’Apollon ». (Voir Joubin, « Delacroix, Chopin et la société polonaise », <hi rend="it">La
+            France et la Pologne dans leurs relations artistiques</hi>, vol. 2, janvier-juin, 1939,
+          p. 70 ; Penaud-Lambert, <hi rend="it">Un siècle de restauration à l’hôtel Lambert
+            (1843-1949)</hi>, mémoire de Master sous la direction d’Alain Mérot, Université Paris IV
+          – Sorbonne, 2006, p. 30-33 ; et pour les peintures de Le Sueur, voir Mérot, <hi rend="it"
+            >Eustache Le Sueur</hi>, Paris, 1987, p. 279). </note> et je comptais vous surprendre
+        tantôt. Mais je rentre bien fatigué et je trouve votre bonne petite lettre. Je me reposerai
+        donc ce soir quoiqu’il y ait bien longtemps que je ne vous aie vue. Que dites-vous de la
+        bagarre de l’autre jour<note place="bottom">Delacroix fait allusion à l’incident survenu
+          lors du feu d’artifice tiré le 29 juillet sur le pont de la Concorde, devant la Chambre
+          des députés, afin de célébrer le 14<hi rend="sup">e</hi> anniversaire de l’instauration de
+          la monarchie de Juillet. Plusieurs personnes furent tuées dans un mouvement de foule sur
+          la place de la Concorde, ancienne place Louis XV.</note> ? Savez-vous que votre ardeur de
+        voir <placeName key="France, Paris, place de la Concorde (ancienne place Louis-XV">la place
+          Louis-XV</placeName> nous y menait tout droit : cela fait frémir. J’ai rencontré en vous
+        quittant des blessés tout le long de la route et pas moyen d’avoir une voiture. J’étais fort
+        fatigué le lendemain.</p>
+      <p><persName key="Czartoryska, Anna Sapieha (1799-1864)">La princesse</persName> a été fort
+        aimable. <persName key="Marliani, Charlotte Folleville, épouse (1790-1850)">Mme
+          Marliani</persName><note place="bottom">Charlotte Marliani était une amie de George Sand
+          et de Delacroix.</note> y était. — L’écriture et la peinture se sont enfin rencontrées en
+        bataille rangée<note place="bottom">Delacroix venait de publier, en juin, un article sur <hi
+            rend="it">Persée et Andromède</hi> de Puget dans <hi rend="it">Les Beaux-Arts</hi>,
+          (vol. XIII, 1844, p. 121-125) et en préparait un plus ambitieux sur Puget qu’il publia
+          dans <hi rend="it">Le Plutarque français</hi> l’année suivante (1845, t. IV, p. 181-192).
+          Il est possible qu’il fasse alors référence à ce travail dans cette lettre. À cette même
+          période, dans ses cahiers, il note ses réflexions pour ses écrits et fait la comparaison
+          entre le travail d’écriture et de peinture (Hannoosh, <hi rend="it">Journal</hi>, 2009,
+          p. 1605, 1644, 1650).</note>. Il fallait que l’une des deux l’emportât et c’est la
+        peinture qui a été victorieuse. J’ai renoncé à l’écriture justement au moment où je
+        commençais à y prendre goût et c’est justement pour cela que j’y ai renoncé<note
+          place="bottom">Plus jeune, Delacroix avait hésité entre la carrière de peintre et celle
+          d’écrivain. Entre 1814 et 1819 vraisemblablement, il écrivit deux nouvelles et une pièce
+          de théâtre : <hi rend="it">Les Dangers de la cour, Alfred</hi> et <hi rend="it"
+            >Victoria</hi>. Offerts en 2012 au musée Delacroix, ces manuscrits, qu’il n’avait
+          certainement jamais cherché à publier, ont été édités par Servane Dargnies, sous la
+          direction de Dominique de Font-Réaulx (Flammarion, 2018).</note>.</p>
+
+
+      <closer>
+        <salute>Je vous embrasse, <persName key="Forget, Joséphine de (1802-1886)">chère
+            Consuelo</persName>, mille fois jusqu’à demain.</salute>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

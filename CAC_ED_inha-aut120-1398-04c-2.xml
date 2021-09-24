@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Joséphine de Forget, [23 mars 1847]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA</institution>
+
+            <idno>Autographes 120, 1398 (4c)2</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="3"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Claude Roger-Marx, achat en 2003</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, II, p. 307-308</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1847-03-23"/>
+          <placeName key="France, Champrosay"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <placeName key="France, Champrosay">Champrosay</placeName>, mardi matin </dateline>
+        <salute><persName key="Forget, Joséphine de (1802-1886)">Bonne amie</persName>,</salute>
+      </opener>
+
+
+      <p>je ne suis venu ici que dimanche matin. J’ai été samedi très fatigué de ma journée de la
+        veille. En te quittant, j’ai vu longuement le père Barbier, <persName
+          key="Barbier, Paul (1770-1848)">le beau-père de Villot</persName><note place="bottom">Paul
+          Barbier, père de Pauline Villot.</note> est arrivé sur ces entrefaites et en m’en
+        retournant <placeName key="France, Paris, rue Notre-Dame-de-Lorette, n°54">chez
+          moi</placeName>, j’ai pris dans l’omnibus un espèce de coup d’air dans l’oreille qui m’a
+        fait souffrir toute la journée du lendemain. Mais la vie sage et retirée que j’ai menée ce
+        jour-là m’a reposé et je suis parti avant-hier<note place="bottom">Voir le <hi rend="it"
+            >Journal</hi> de Delacroix sur ces journées des 19, 20 et 21 mars 1847 (Hannoosh, 2009,
+          p. 368). </note>. J’ai la voix très fatiguée et je suis bien aise d’avoir eu l’idée de
+        venir ici<note place="bottom">Delacroix est resté à Champrosay du 21 au 27 mars (voir <hi
+            rend="it">Journal, Ibid</hi>.).</note> : comme je n’y vois âme qui vive, ma poitrine se
+        remettra. Ce rhume commençait à m’ennuyer et cette toux a eu de la peine à me quitter. Je
+        bénis encore ta boîte <pb n="2" xml:id="p2"/> de gommes qui est près de moi la nuit et dont
+        je me sers quand je tousse. Donne-moi vite de tes nouvelles pour que je sois aussi rassuré
+        sur ton compte, et surtout, dis-moi que tu t’efforces de bannir cette tristesse qui est au
+        fond de toutes les choses si on veut les creuser. Il n’est pas de situation si heureuse
+        qu’elle paraisse qui ne repose sur des bases fragiles et à coup sûr, il n’en est pas qui
+        soit durable. Il faut donc en se secouant et en s’étourdissant s’aider à passer les moments
+        pour qu’ils soient plutôt gais que tristes. Ce que je te dis là, <persName
+          key="Forget, Joséphine de (1802-1886)">chérie</persName>, je suis obligé de le mettre en
+        pratique à chaque instant ; si je ne veux <pb n="3" xml:id="p3"/> périr d’ennui à la
+        campagne comme à la ville, les réflexions trop profondes ne valent rien. Lire, se promener,
+        voir ses amis et penser à eux, voilà la recette. <persName
+          key="Forget, Joséphine de (1802-1886)">Bonne chérie</persName>, je te reverrai avec bien
+        du plaisir. Ce sera à la fin de la semaine. Ce petit repos m’aura j’espère débarrassé de ce
+        vilain rhume qui commençait à devenir un obstacle à mes travaux ainsi qu’à mes petits
+        plaisirs.</p>
+
+
+      <closer>
+        <salute>Je t’embrasse mille fois, <persName key="Forget, Joséphine de (1802-1886)">tendre
+            amie</persName>.</salute>
+      </closer>
+
+      <postscript>
+        <p>Demande à <persName key="Querelles, Hortense de (1812-1851)">Mme de Querelles</persName>
+          de me mettre à part l’article de <persName key="Gautier, Théophile (1811-1872)"
+            >Gautier</persName><note place="bottom">Théophile Gautier publia son article sur le
+            Salon dans <hi rend="it">La Presse</hi> le 1<hi rend="sup">er</hi> avril. Delacroix note
+            dans son <hi rend="it">Journal</hi> le samedi 3 avril qu’il est allé remercier Gautier
+            « de son article splendide » (Hannoosh, 2009, p. 369-370). </note> s’il parle du Salon.
+          Tu me garderas aussi celui de <persName key="Thoré, Théophile (1807-1869)"
+            >Thoré</persName><note place="bottom">L’article de Thoré consacré à Delacroix fut publié
+            dans <hi rend="it">Le Constitutionnel</hi> le 14 avril. Delacroix lui adressa ses
+            remerciements dans <ref type="letter" target="CAC_ED_bnf-man-naf11955-f34.xml">une
+              lettre conservée à la Bibliothèque nationale de France</ref>.</note>.</p>
+      </postscript>
+    </body>
+  </text>
+</TEI>

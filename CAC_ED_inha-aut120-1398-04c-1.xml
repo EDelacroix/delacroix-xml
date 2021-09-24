@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Joséphine de Forget, [13 ? ou 20 ? mai 1848]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA</institution>
+
+            <idno>Autographes 120, 1398 (4c)1</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="3"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Claude Roger-Marx, achat en 2003</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Escholier, <hi rend="it">Eugène Delacroix et sa « consolatrice »</hi>, 1932,
+            p. 148-149 (éd. partielle) </bibl>
+          <bibl>Joubin, II, p. 317-318</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1848-05"/>
+          <placeName key="France, Champrosay"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <placeName key="France, Champrosay">Champrosay</placeName>, samedi matin<note
+            place="bottom">Joubin a daté cette lettre du 15 mai 1847 en s’appuyant sur le journal de
+            Delacroix qui nous informe que le peintre séjourna à Champrosay du 12 au 22 mai 1847. Le
+            courrier qu’il demande à Joséphine de Forget d’envoyer au ministre des Travaux publics
+            serait un autre indice, car il pourrait s’agir d’un mandat de paiement pour les travaux
+            que Delacroix était en train d’achever à la bibliothèque de l’Assemblée nationale.
+            Toutefois, dans cette lettre, <ref type="letter" target="CAC_ED_joubin-2-p318-319.xml"
+              >comme dans la suivante</ref> dans laquelle il remercie Joséphine de Forget d’avoir
+            envoyé son courrier au ministère, il évoque « ce qui se passe » à Paris et son « désir
+            de laisser passer cette crise », en demandant à son amie des nouvelles, car il se refuse
+            à lire les journaux. Ainsi, Delacroix évoque probablement les événements du
+            printemps 1848 dont il se plaint dans plusieurs lettres, dont celle du <ref
+              type="letter" target="CAC_ED_joubin-2-p347.xml">8 mai 1848, adressée à son ami
+              Soulier</ref>. La perte de l’agenda de cette année 1848 (voir à ce sujet : Hannoosh,
+              <hi rend="it">Journal</hi>, 2009, p. 406) ne permet malheureusement pas de dater cette
+            lettre avec certitude.</note>
+        </dateline>
+        <salute><persName key="Forget, Joséphine de (1802-1886)">Chère amie</persName>,</salute>
+      </opener>
+
+
+      <p>tu ne reconnais guère mes missives ordinaires à l’enveloppe que tu vois ici, c’est qu’en
+        t’écrivant, je te demande le service de faire porter, sitôt que tu l’auras reçue, par un
+        commissionnaire connu de ta maison la lettre ci-jointe au <persName
+          key="Trélat, Ulysse (1795-1879)">ministre des Travaux publics</persName>. Je l’ai trouvée
+        ici en revenant et j’aime mieux qu’il la reçoive comme de <placeName key="France, Paris"
+          >Paris</placeName><note place="bottom">Nous n’avons pas retrouvé de lettre de cette
+          période adressée au ministre des Travaux publics, il est donc impossible d’en connaître le
+          sujet. Elle pouvait concerner ses travaux achevés pour la bibliothèque de l’Assemblée ou
+          être une sollicitation pour la réalisation de nouveaux décors.</note>. Maintenant, je te
+        parlerai de ce qui m’occupe encore, c’est-à-dire le plaisir que j’ai eu à passer avec toi de
+        si bons moments : cela m’a doucement accompagné pendant mon petit voyage, je dirais même
+        réchauffé, car je me trouvais seul dans la voiture où j’étais et on sentait <pb n="2" xml:id="p.2"></pb>un froid
+        piquant. En vérité nous avons un triste climat : nous touchons aux jours les plus chauds,
+        car c’est certainement au mois de juin que j’ai toujours le plus souffert de la chaleur, et
+        c’est dans quinze jours à peine que nous allons nous y trouver transportés sans la moindre
+        transition. Hier, j’ai fait une grande promenade dans la <placeName key="France, Champrosay"
+          >forêt</placeName> et je n’avais chaud que dans les moments où il faisait soleil.</p>
+      <p>Tu me donneras de tes nouvelles, <persName key="Forget, Joséphine de (1802-1886)">chère
+          amie</persName>, et tu me diras si tu penses encore à notre entrevue. Tu me diras en gros
+        ce qui se passe, car je m’interdis décidément les journaux : ils me fatiguent les yeux
+        horriblement. Voilà ce matin le temps qui se met à la pluie : cela<pb n="3" xml:id="p.3"/> attriste un peu tout ce
+        que je vois mais je vis encore avec toi et j’ai du plaisir encore à t’envoyer mes
+        pensées.</p>
+
+
+      <closer>
+        <salute>Adieu donc, <persName key="Forget, Joséphine de (1802-1886)">bonne
+          chérie</persName>, reçois, en attendant le plaisir d’être ensemble, mes tendresses de
+          cœur.</salute>
+      </closer>
+
+      <postscript>
+        <p>Je crois que le <placeName key="France, Paris, ministère des Travaux publics">ministère
+            des Travaux publics est rue Saint-Dominique, près la rue Bellechasse</placeName>.</p>
+        <p>Il faut encore que je te demande le service de mettre sous une enveloppe pareille à
+          celle-ci la lettre au <persName key="Trélat, Ulysse (1795-1879)">ministre</persName> et tu
+          écriras dessus de ta belle écriture à la Voltaire</p>
+        <p><hi rend="u">À <persName key="Trélat, Ulysse (1795-1879)">Monsieur le Ministre des
+              Travaux publics</persName>, <placeName
+              key="France, Paris, ministère des Travaux publics">rue St
+          Dominique</placeName></hi></p>
+        <p>et cacheter.</p>
+      </postscript>
+    </body>
+  </text>
+</TEI>
