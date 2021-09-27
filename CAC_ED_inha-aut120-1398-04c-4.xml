@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Joséphine de Forget, [5 septembre 1847]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA</institution>
+
+            <idno>Autographes 120, 1398 (4c)4</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="3"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Claude Roger-Marx, achat en 2003</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, II, p. 325</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1847-09-05"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="enveloppe"/>
+            <persName key="Forget, Joséphine de (1802-1886)">Madame la Baronne de Forget</persName>,
+              <placeName key="France, Paris, rue de Matignon, 10">rue de Matignon 10, faubourg
+              Saint-Honoré</placeName></addrLine>
+        </address>
+        <stamp><date when="1847-09-06">6 septembre 1847</date></stamp>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Dimanche</dateline>
+        <salute><persName key="Forget, Joséphine de (1802-1886)">Chère bonne
+          amie</persName>,</salute>
+      </opener>
+
+
+      <p>je n’ai pu aller aujourd’hui <rs type="work" key="Assemblée nationale, Bibliothèque"
+          >travailler à la Chambre</rs><note place="bottom">Delacroix travaillait au décor de la
+          bibliothèque de la Chambre des Députés (J540-561) qu’il acheva à la fin de cette
+          année 1847. Il note dans son journal le jeudi précédent (2 septembre) « À la Chambre. Je
+          ne sortirai pas, je crois, de cet Attila et de son cheval. » (Hannoosh, 2009, p. 393). Il
+          était donc en train de peindre l’hémicycle représentant <hi rend="it">Attila suivi de ses
+            hordes de barbares</hi> (J528).</note>, je suis obligé d’y aller demain lundi. Je ne
+        pourrai donc dîner avec toi que mardi. J’aurais pu aller à <rs type="work"
+          key="Assemblée nationale, Bibliothèque">mon travail</rs> si ma santé qui avait besoin de
+        repos ne m’en eut empêché. Comme j’y avais été hier et un peu à contrecœur, je me suis
+        trouvé ce matin très fatigué. Du reste, ma persévérance commence à porter ses fruits et
+        j’espère que je finirai bientôt. Je redouble de précautions pour ne pas attraper de rhume et
+        elles ne sont pas de trop par ce temps froid. J’espère que ton spectacle d’hier soir ne
+        t’aura pas fatiguée et que tu n’auras pas éprouvé d’accident comme celui de l’autre jour au
+          <placeName key="France, Paris, Théâtre Dumas">théâtre Dumas</placeName>. Hier soir, je me
+        suis trouvé sur le boulevard pour digérer et j’ai pensé que tu l’avais parcouru quelques
+        instants auparavant mais je n’ai <pb n="2" xml:id="p2"/> pu me livrer longtemps à mes
+        réflexions, attendu que la fatigue vraiment accablante que j’éprouvais m’a chassé dans
+          <placeName key="France, Paris, rue Notre-Dame-de-Lorette, 54">mon foyer</placeName> et
+        qu’à 9 h j’étais au lit.</p>
+
+
+      <closer>
+        <salute>Adieu, <persName key="Forget, Joséphine de (1802-1886)">bonne amie</persName>,
+          soigne-toi bien aussi et n’épargne rien pour être bien. Tu me conteras ton spectacle
+          mardi. Je t’embrasse mille fois bien tendrement.</salute>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
