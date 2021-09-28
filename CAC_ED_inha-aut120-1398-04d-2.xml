@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Joséphine de Forget, [15 août 1848]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA</institution>
+
+            <idno>Autographes 120, 1398 (4d)2</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="3"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Claude Roger-Marx, achat en 2003</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Escholier, <hi rend="it">Eugène Delacroix et sa « consolatrice »</hi>, 1932,
+            p. 118-119 (lettre datée du 14 août 1848)</bibl>
+          <bibl>Joubin, II, p. 358-359</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1848-08-15"/>
+          <placeName key="France, Montfort-l'Amaury, Château de Groussay"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <placeName key="France, Montfort-l'Amaury, Château de Groussay">Château de
+            Groussay</placeName>, <date when="1848-08-15">mardi</date></dateline>
+        <salute><persName key="Forget, Joséphine de (1802-1886)">Bonne chérie</persName>,</salute>
+      </opener>
+
+
+      <p>je t’écris d’un endroit charmant et habité par des gens suffisamment heureux pour des gens
+        qui ont vingt domestiques. Ce bonheur-là ne serait pas le mien : cela complique trop
+        l’existence et cette multitude de ressorts me nuit au lieu de me servir, mais quand on en a
+        l’habitude, et surtout quand on est chez soi, il peut y avoir un bon côté. <persName
+          key="Mornay, Julie von der Pahlen, épouse de (1803-1875)">Mme de Mornay</persName><note
+          place="bottom">La comtesse de Samoïloff, née Julie von der Pahlen, que Mornay avait
+          épousée le 7 juin 1848.</note> est bien l’être le plus excellent, je crois, après un autre
+        toutefois que je ne nomme pas, qu’il y ait au monde, et si on peut être heureux par le cœur
+        et la bonté de l’être avec lequel on lie sa vie, <persName
+          key="Mornay, Charles de (1803-1878)">Mornay</persName> le sera sans aucun doute. Il est
+        impossible d’être plus dénuée de toute affectation et plus meilleure femme. Du reste, un
+        luxe qui passe toute idée, rares ameublements, tableaux, tentures, dorures, voitures, etc.
+        Je suis, de la part du mari et de la femme, l’objet <pb n="2" xml:id="p2"/> des plus
+        aimables attentions ; on s’occupe bien trop de moi : je voudrais être un peu plus seul. Il
+        en résulte que je suis un peu fatigué et que je soupire après la tranquillité et après le
+        simple rôti et le simple bœuf à la mode de mon ménage. Si je peux obtenir d’être relâché, je
+        partirai bientôt et je t’arriverai comme une bombe, ainsi gare à mes rivaux.</p>
+      <p>Écris-moi nonobstant, <persName key="Forget, Joséphine de (1802-1886)">chère
+          amie</persName>, aussitôt la présente reçue, pour me donner de tes nouvelles. N’ambitionne
+        ni jardins charmants, ni fleurs, ni chalets. Il y a ici de tout cela comme on en voit
+        rarement ailleurs et la grande question est de savoir si cela suffit à bannir le dieu <hi
+          rend="u">ennui</hi>, cet ennemi cruel avec lequel il n’y a pas de bonheur possible. Je me
+        déclare décidément bourgeois, épicier, pis <pb n="3" xml:id="p3"/> encore s’il est possible,
+        mais la simplicité dans les rouages de l’existence est préférable à la pompe avec vingt
+        domestiques.</p>
+      <p>J’aurai bien du plaisir à me retrouver avec toi et à causer un peu de tout cela. J’ai fait
+        l’étourderie d’oublier d’emporter avec moi la clef de <placeName
+          key="France, Paris, rue Notre-Dame-de-Lorette, 54">mon appartement</placeName>, de sorte
+        que je vais me trouver obligé d’écrire à <placeName key="France, Champrosay"
+          >Champrosay</placeName> et d’être dans un embarras ridicule en arrivant. Mais cela
+        s’arrangera et je t’embrasserai avec bonheur.</p>
+
+
+      <closer>
+        <salute>Adieu, <persName key="Forget, Joséphine de (1802-1886)">tendre amie</persName>,
+          reçois mes bien vives tendresses.</salute>
+        <address>
+          <addrLine>chez <persName key="Mornay, Charles de (1803-1878)">Monsieur le comte de
+              Mornay</persName>, au <placeName key="France, Montfort-l'Amaury, Château de Groussay"
+              >château de Groussay par Montfort-l’Amaury, Seine-et-Oise</placeName>.</addrLine>
+        </address>
+      </closer>
+    </body>
+  </text>
+</TEI>
