@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Joséphine de Forget, [14 juin 1849]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA</institution>
+
+            <idno>Autographes 120, 1398 (4e)1</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="4"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Claude Roger-Marx, achat en 2003</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, II, p. 380-381</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1849-06-14"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="1" xml:id="p1"/>
+            <persName key="Forget, Joséphine de (1802-1886)">Madame de Forget</persName>, <placeName
+              key="France, Paris, rue de La Rochefoucauld, 19">rue de La Rochefoucauld, 19,
+              Paris</placeName></addrLine>
+        </address>
+        <dateline>
+          <pb n="2" xml:id="p2"/><date when="1849-06-14">Jeudi matin</date></dateline>
+        <salute><persName key="Forget, Joséphine de (1802-1886)">Chère amie</persName>,</salute>
+      </opener>
+
+
+      <p>Je reçois ta bonne lettre où tu me donnes des nouvelles de ce qui se passe à <placeName
+          key="France, Paris">Paris</placeName> et je t’en remercie beaucoup car ici on ne savait ce
+        qui se passe et on parlait de barricades<note place="bottom">Le 13 juin 1849, une
+          manifestation est organisée par les Montagnards à Paris afin de protester contre
+          l’expédition de Rome. Ledru-Rollin en profite pour se réunir avec des députés de La
+          Montagne au conservatoire des Arts et Métiers et rédiger une proclamation de gouvernement
+          provisoire. Ils sont rapidement mis en fuite.</note>. Ma santé est excellente et je jouis
+        beaucoup de ce changement de température. Il n’y a pas de malades ici, à moins qu’on ne
+        mette sur ce compte tous les gens qui meurent qui sont toujours plus ou moins convaincus de
+        mourir du choléra, ce qui n’est nullement, et encore, je parle de trois ou quatre lieues à
+        la ronde. Je travaille, ce qui m’empêche de m’ennuyer<note place="bottom">Dans son journal,
+          Delacroix indique avoir ébauché durant son séjour : <hi rend="it">Tam O’Shanter</hi>
+          (J296a) ; <hi rend="it">Ariane</hi> (J(L)149) ; <hi rend="it">Daniel dans la fosse aux
+            lions</hi> (J436) ; <hi rend="it">Giaour au bord de la mer</hi> (J296) ; <hi rend="it"
+            >Arabe à cheval descendant une montagne</hi> (J386) ; <hi rend="it">Le Bon
+            Samaritain</hi> (J437) ; <hi rend="it">La fiancée d’Abydos</hi> (J297) ; <hi rend="it"
+            >Ugolin</hi> (voir J337) ; <hi rend="it">Desdémona</hi> (J304) ; <hi rend="it">Lady
+            Macbeth</hi> (J299). Voir Hannoosh, 2009, p. 450 et notes 214, 215.</note>. J’ai revu
+          <persName key="Villot, Frédéric (1809-1875)"><persName
+            key="Villot, Pauline Florimonde Barbier, épouse (1812-1875)">les
+            Villot</persName></persName> parce que <persName key="Villot, Frédéric (1809-1875)">M. Villot</persName> est venu passer ici
+        quelque temps pour se remettre un peu. Il est très souffrant et cette épidémie influe <pb
+          n="3" xml:id="p3"/> beaucoup sur lui. Sa société m’est fort agréable et il vient me tenir
+        souvent compagnie car il est trop souffrant pour marcher beaucoup<note place="bottom"
+          >Delacroix évoque la compagnie de Villot dans son journal les 10 et 17 juin 1849
+          (Hannoosh, 2009, p. 449-450).</note>. Que je suis heureux, <persName
+          key="Forget, Joséphine de (1802-1886)">chère amie</persName>, que tu sois bien au milieu
+        de cette désolation ; je suis ravi aussi que tes amis soient bien. Dis à <persName key="Laity, Armand (1812-1889)">M.
+          Laity</persName><note place="bottom">Armand Laity, militaire et homme politique, avait
+          épousé Hortense de Querelles le 21 octobre 1848, il était donc parent par alliance de
+          Joséphine de Forget.</note> les deux adresses suivantes<note place="bottom">Il s’agit
+          d’adresses de bottiers. </note> :</p>
+      <p>le meilleur des deux, mais qui est d’une cherté affreuse, est <hi rend="u">Brown</hi>
+        <placeName key="France, Paris, rue Vivienne, 16">rue Vivienne 16</placeName></p>
+      <p>l’autre, moins cher et prenant bien le pied et pas mal sous tous les rapports, <hi rend="u"
+          >Rapp</hi>
+        <placeName key="France, Paris, rue Feydeau, 19">rue Feydeau 19</placeName>.</p>
+      <p>Tous deux Allemands, comme tous les diables.</p>
+      <p>Ne t’inquiète pas, <persName key="Forget, Joséphine de (1802-1886)">bonne amie</persName>,
+        j’ai un bon moral. Si les affaires <pb n="4" xml:id="p4"/> se calment, le reste, j’espère,
+        ira bien. Ces Montagnards ont été d’une violence bien coupable : les malheureux ont l’air
+        d’ignorer qu’ils seront les premiers sacrifiés par les gens qui les suivent.</p>
+
+
+      <closer>
+        <salute>Adieu, <persName key="Forget, Joséphine de (1802-1886)">bonne chérie</persName> que
+          j’embrasse mille fois. Je te remercie de tes offres mais je n’ai besoin de rien. Je me
+          tiens encore ici pour laisser calmer encore cette maladie et puis j’irai t’embrasser avec
+          bonheur.</salute>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

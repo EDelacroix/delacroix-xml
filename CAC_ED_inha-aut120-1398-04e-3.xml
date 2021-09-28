@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Joséphine de Forget, 12 octobre [1849]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA</institution>
+
+            <idno>Autographes 120, 1398 (4e)3</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="4"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Claude Roger-Marx, achat en 2003</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Escholier, <hi rend="it">Eugène Delacroix et sa « consolatrice »</hi>, 1932,
+            p. 91-94</bibl>
+          <bibl>Joubin, II, p. 401-403</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1849-10-12"/>
+          <placeName key="France, Valmont"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <placeName key="France, Valmont">Valmont</placeName>, <date when="1849-10-12">12
+            octobre</date></dateline>
+        <salute><persName key="Forget, Joséphine de (1802-1886)">Bonne amie</persName>,</salute>
+      </opener>
+
+
+      <p>j’ai reçu avec bien du plaisir votre chère lettre. Depuis que je vous ai écrit, ma santé a
+        repris : il faut toujours se faire au régime de la maison où l’on arrive<note place="bottom"
+          >Delacroix partit le 4 octobre pour Rouen puis se rendit à l’abbaye de Valmont chez son
+          cousin Louis-Auguste Bornot où il séjourna jusqu’au 24 octobre (Hannoosh, <hi rend="it"
+            >Journal</hi>, 2009, p. 461-474).</note> : les heures changées, d’autres habitudes
+        changent tout. D’abord, vous comprenez que je ne travaille pas : quelques petits croquis de
+        temps en temps ; ce n’est guère que le matin que je suis à moi, aussi est-ce le matin que je
+        vous écris. Comme le temps est ordinairement plus mauvais depuis quelques jours dans ce
+        moment de la journée que dans les autres, il est naturel que l’on s’isole dans sa chambre.
+        Au reste, c’est un parti que j’aime toujours à prendre quand je suis à la campagne chez les
+        autres. Après déjeuner viennent les parties aux environs et depuis quelques jours, nous
+        avons profité de l’adoucissement du temps. La mer naturellement attire nos hommages de <pb
+          n="2" xml:id="p2"/> préférence. Cependant, je n’en jouis pas comme je voudrais, c’est une
+        montagne à remuer que le départ après le déjeuner qui est fort tard déjà. Il s’ensuit qu’à
+        peine arrivé au but, il faut songer à remonter en voiture pour revenir. Enfin, je ne
+        m’ennuie pas, c’est l’essentiel. Une partie entraîne à une autre : je retrouve d’anciennes
+        connaissances de <persName key="Bornot, Louis Auguste (1802-1888)">mon cousin</persName> qui
+        me font accueil et les journées se remplissent sans effort. Il va sans dire que ces
+        anciennes figures que je retrouve sont véritablement anciennes de tout point. Les rides, les
+        cheveux blancs ne les ont point épargnées : sans compter les gens qui sont morts tout à fait
+        ou presque morts. Nous avons été à <placeName ref="France, Fécamp">Fécamp</placeName> hier
+        voir <persName key="Lapert, Marie Françoise Désirée Castillon, épouse (1763-1850)">une bonne
+          vieille dame</persName><note place="bottom">Madame Lapert. Voir Hannoosh, <hi rend="it"
+            >Journal</hi>, 2009, p. 466, note 294.</note> amie de <persName
+          key="Bataille, Alexandre Marie (1777-1841)">Bataille</persName><note place="bottom"
+          >Alexandre-Marie Bataille était un cousin germain de Delacroix. Il avait hérité de
+          l’abbaye de Valmont qui fut transmise après sa mort en 1841 à Louis-Auguste Bornot.</note>
+        et que j’avais déjà vue âgée la première fois que je suis venu dans ce pays en 1813 avec
+          <persName key="Delacroix, Victoire Œben, épouse (1758-1814)">ma mère</persName>. Nous
+        l’avons trouvée ne se levant plus, attendant <pb n="3" xml:id="p3"/> sa fin dont elle parle
+        librement. J’aimais beaucoup <persName
+          key="Lapert, Marie Françoise Désirée Castillon, épouse (1763-1850)">cette bonne
+          dame</persName> et ma vue dans ce moment lui a fait un plaisir extrême. Elle m’avait
+        toujours pris en gré et à chaque voyage, il me semblait que je dusse la retrouver toujours
+        la même : mais l’heure est venue et elle n’est pas plus oubliée que nous ne le serons. Voilà
+        comme on est de temps en temps rappelé à cette petite nécessité peu agréable par des
+        exemples qui vous frappent directement. Écartons cela et parlons de notre hiver qui commence
+        déjà ici, mais que nous tâcherons de passer en meilleure humeur que le dernier si la
+        politique nous laisse tranquilles. <persName key="Napoléon III (1808-1873)">Votre pauvre
+          président</persName><note place="bottom">Louis-Napoléon Bonaparte, élu le 10 décembre 1848
+          président de la II<hi rend="sup">e</hi> République.</note> n’est guère aimable pour vous,
+          <persName key="Forget, Joséphine de (1802-1886)">chère amie</persName>, qui avez été pour
+        lui d’un dévouement bien rare : vous lui demandez là une chose si simple que je ne conçois
+        pas qu’il ne saisisse pas cette facile occasion de vous faire plaisir<note place="bottom"
+          >Joséphine de Forget était la cousine de Louis-Napoléon. Elle lui rendit visite alors
+          qu’il était emprisonné au fort de Ham et l’hébergea à son retour à Paris en 1848. On
+          ignore quelle demande lui avait faite Joséphine de Forget à laquelle Louis-Napoléon ne
+          répondit pas.</note>. On connaît les hommes à l’user : <persName
+          key="Gaultron, Hippolyte (après 1805-1878)">Gaultron</persName><note place="bottom">Élève
+          et ami de Delacroix, mais aussi demi-frère de Louis-Auguste Bornot et cousin par alliance
+          de Delacroix.</note>, qui vous a paru un si bon garçon, comme vous me le dites dans votre
+        lettre, est fort singulier. Vous n’imagineriez <pb n="4" xml:id="p4"/> jamais ce que cachent
+        ces airs doux et empressés qui satisfont à la surface. Il est loin d’être le contraire d’un
+        bon garçon mais je le trouve peu gracieux, despotique en diable et fort disposé à critiquer.
+          <persName key="Bornot, Louis Auguste (1802-1888)">Bornot</persName>, que je jugeais tout
+        différent, me plaît beaucoup davantage : ne vous attendez pas cependant à me voir épouser
+        une de ses six filles malgré leur bon caractère qui m’a fort satisfait. Et vous, <persName
+          key="Forget, Joséphine de (1802-1886)">bonne petite amie</persName>, que direz-vous de ces
+        dehors polis qui m’ont valu la bonne grâce de Madame Raba<note place="bottom">Nous n’avons
+          pas réussi à identifier cette personne. </note> avant qu’elle ne fût transformée en veuve
+        de Malabar<note place="bottom">Cette expression de Delacroix fait certainement référence au
+          personnage principal de <hi rend="it">La Veuve du Malabar</hi> (1770) une tragi-comédie
+          écrite par Antoine-Marin Lemierre et reprise au début du XIX<hi rend="sup">e</hi> siècle,
+          notamment dans un vaudeville de Scribe. Elle raconte l’histoire d’une veuve indienne qui,
+          selon la coutume, doit se jeter dans le bûcher lors des funérailles de son mari, alors
+          qu’elle ne l’aimait pas. Elle est finalement sauvée par un général français.</note> ? Vous
+        me trouvez aussi bien bizarre, bien vilain et je me demande bien souvent comment les
+        penchants du caractère peuvent nous dominer autant, et nous faire affliger si souvent ceux
+        que nous aimons !</p>
+
+
+      <closer>
+        <salute>Pardonnez-moi pourtant, car je vous aime bien sincèrement, <persName
+            key="Forget, Joséphine de (1802-1886)">chère amie</persName>, et je vous envoie à
+          l’avance les tendresses de mon cœur. De départ point encore : je me laisse aller au
+          courant malgré mille tiraillements des affaires de <placeName key="France, Paris"
+            >Paris</placeName>. Le désir de vous embrasser sera plus fort que tout cela et me
+          ramènera pour vous le dire du fond du cœur.</salute>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

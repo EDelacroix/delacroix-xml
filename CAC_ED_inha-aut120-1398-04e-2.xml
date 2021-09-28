@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Joséphine de Forget, 10 septembre [1849]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA</institution>
+
+            <idno>Autographes 120, 1398 (4e)2</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="4"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Claude Roger-Marx, achat en 2003</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Escholier, <hi rend="it">Eugène Delacroix et sa « consolatrice »</hi>, 1932,
+            p. 145-146</bibl>
+          <bibl>Joubin, II, p. 396-397</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1849-09-10"/>
+          <placeName key="France, Champrosay"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="1" xml:id="p1"/>
+            <persName key="Forget, Joséphine de (1802-1886)">Madame la baronne de Forget</persName>,
+              <placeName key="France, Paris, rue de La Rochefoucauld, 19">rue de La Rochefoucauld
+              19, Paris</placeName></addrLine>
+        </address>
+        <stamp><placeName key="France, Paris">Paris</placeName>
+          <date when="1849-09-10">10 septembre 1849</date></stamp>
+        <dateline>
+          <pb n="2" xml:id="p2"/>
+          <placeName key="France, Champrosay">Champrosay</placeName>, <date when="1849-09-10">10
+            septembre</date></dateline>
+        <salute><persName key="Forget, Joséphine de (1802-1886)">Bonjour bonne
+          amie</persName>,</salute>
+      </opener>
+
+
+      <p>je t’écris un peu souffrant de toutes sortes de petites choses qui heureusement ne viennent
+        que par accès et s’en vont avec des soins. Je suis aussi un peu ennuyé de l’incertitude où
+        je suis relativement à <rs type="work" key="chapelle des Saints-Anges, église Saint-Sulpice"
+          >mes peintures de Saint-Sulpice</rs><note place="bottom">Il y eut plusieurs difficultés au
+          départ dans le choix du sujet et dans l’attribution de la chapelle à Delacroix. Le
+          28 avril 1849, le ministre de l’Intérieur adressa une lettre à Charles Blanc annonçant que
+          Delacroix était chargé de décorer la chapelle des fonts baptismaux de l’église
+          Saint-Sulpice, la première du côté nord, en face de la chapelle qui lui fut finalement
+          attribuée (voir Spector, <hi rend="it">The Murals of Eugène Delacroix at Saint
+            Sulpice</hi>, 1967, p. 95-96). Le 1<hi rend="sup">er</hi> septembre, l’architecte Victor
+          Baltard, directeur des travaux de la Ville, écrivit à Delacroix qu’il devait changer les
+          sujets prévus pour la chapelle, car elle était consacrée à saint Sulpice, le patron de la
+          paroisse, « bien que la cuve des fonts y soit placée » (lettre conservée au Musée
+          Delacroix, MD 1997-7 ; citée dans Hannoosh, <hi rend="it">Journal</hi>, 2009, t. I,
+          p. 458, note 253). Il y avait donc encore une confusion dans l’attribution de la chapelle.
+          Ainsi, le 6 septembre, Delacroix revint discuter avec le curé de Saint-Sulpice (<hi
+            rend="it">Ibid.</hi>, p. 458). Finalement, le peintre fut chargé de décorer la première
+          chapelle, côté sud en entrant dans la nef et le 2 octobre, il fut résolu avec le curé et
+          son vicaire que le décor serait consacré aux saints Anges gardiens (<hi rend="it"
+            >Ibid.</hi>, p. 461).</note>. Je voudrais bien être arrêté là-dessus : l’incertitude est
+        toujours une chose insupportable. Comment vas-tu ? Écris-moi cela. Je t’ai quittée tout
+        triste l’autre fois<note place="bottom">Delacroix était revenu à Paris le 5 septembre pour
+          l’enterrement de Daniel Wilson, collectionneur qui possédait la <hi rend="it">Mort de
+            Sadanapale</hi>.</note> et je crois, <persName key="Forget, Joséphine de (1802-1886)"
+          >bonne amie</persName>, que tu ne l’étais guère moins. Heureusement que tu ne rentrais pas
+        chez toi et quoique ta soirée ne dût peut-être pas être très amusante, du moins c’était une
+        distraction. Du reste, le calme dont je jouis ici me repose beaucoup. Les huit derniers
+        jours ont <pb n="3" xml:id="p3"/> été pour moi bien tristes et bien fatigants<note
+          place="bottom">Le 1<hi rend="sup">er</hi> septembre, il s’était rendu chez Wilson qui
+          était mourant <ref type="letter" target="CAC_ED_piron-p522.xml">(voir la lettre précédente
+            à J. de Forget écrite le 4 septembre)</ref> Le peintre fut également triste d’y
+          découvrir son tableau, <hi rend="it">La Mort de Sardanapale</hi> en mauvais état ; il note
+          dans son journal : « Déjeuner aussi triste que le souper de la veille en face de mon
+          pauvre tableau dont le sort va être je ne sais quoi et dont l’état pour le moment est
+          déplorable : la toile détendue ; la couture du bas fendue dans toute la longueur et
+          retenue çà et là par des points de couture » (Hannoosh, 2009, p. 457).</note> et j’ai
+        besoin d’être un peu tranquille. Hier après diner j’avais été faire une promenade de l’autre
+        côté de l’eau. J’ai été pris par la pluie et heureusement, j’ai pu me fourrer sous une haie
+        qui m’a garanti du plus gros. Cela s’est trouvé d’autant plus à propos que j’avais un
+        commencement de rhume qui, j’espère, grâce à mes précautions ne sera rien. Au milieu des
+        tristesses inséparables de toute espèce d’existence, rends bien grâce au destin, <persName
+          key="Forget, Joséphine de (1802-1886)">chère amie</persName>, d’avoir une bonne santé : tu
+        ne saurais croire quel voile triste des souffrances, même légères, jette sur tout et combien
+        cela empêche tous les projets et toutes les jouissances. Je suis heureux de te voir cette
+        heureuse disposition qui me fait espérer que tu seras encore forte <pb n="4" xml:id="p4"/>
+        et gaillarde quand je serai un vieux imbécile tout lardé de douleurs de toute espèce. Si
+        alors tu ne me trouves pas trop insupportable, tu me consoleras un peu ou plutôt, tu seras
+        probablement ma seule consolation. Tu apprendras peut-être à faire la tisane et de ta main,
+        elle me semblera meilleure.</p>
+      <p>J’espère en attendant cet avenir peu gai que notre voisinage cet hiver nous procurera
+        quelques bons moments et d’ici là aussi pendant mes retours à <placeName key="France, Paris"
+          >Paris</placeName>.</p>
+
+
+      <closer>
+        <salute>Adieu, <persName key="Forget, Joséphine de (1802-1886)">bonne et chère</persName>,
+          dis-moi comment tu vas et reçois mes tendresses de cœur.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. D</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
