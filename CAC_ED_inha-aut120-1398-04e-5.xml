@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Joséphine de Forget, 16 novembre [1849]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA</institution>
+
+            <idno>Autographes 120, 1398 (4e)5</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="4"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Claude Roger-Marx, achat en 2003</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Escholier, <hi rend="it">Eugène Delacroix et sa « consolatrice »</hi>, 1932,
+            p. 131-132</bibl>
+          <bibl>Joubin, II, p. 407-408</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1849-11-16"/>
+          <placeName key="France, Champrosay"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="1" xml:id="p1"/>
+            <persName key="Forget, Joséphine de (1802-1886)">Madame de Forget</persName>, <placeName
+              key="France, rue de La Rochefoucauld, 19">rue de la Rochefoucauld, 19.
+              Paris</placeName></addrLine>
+        </address>
+        <stamp><placeName key="France, Draveil">Draveil</placeName>
+          <date when="1849-11-17">17 novembre 1849</date> ; <placeName key="France, Paris"
+            >Paris</placeName>
+          <date when="1849-11-18">18 novembre 1849</date></stamp>
+        <dateline>
+          <pb n="2" xml:id="p2"/><date when="1849-11-16"> 16 novembre,</date>
+          <placeName key="France, Champrosay">Champrosay</placeName> </dateline>
+      </opener>
+
+
+      <p>Je vous écris, <persName key="Forget, Joséphine de (1802-1886)">bonne chérie</persName>,
+        par le plus beau temps du monde. Vraiment, je suis cette année gâté par l’automne. Ce beau
+        jour, outre l’agrément qu’il me donne dans mes promenades, me permet d’avancer beaucoup mes
+        petites peintures. Comme il faudra bien enfin que je me remette <rs type="work"
+          key="chapelle des Saints-Anges, église Saint-Sulpice">à mes grands travaux</rs><note
+          place="bottom">Delacroix avait été chargé, quelques mois plus tôt, de décorer la chapelle
+          des Saints-Anges de l’église Saint-Sulpice.</note>, je ne voudrais pas en être distrait
+        quand je serai de retour par toutes ces petites toiles. Une fois de retour à <placeName
+          key="France, Paris">Paris</placeName>, ce sera pour longtemps : je fais donc mes adieux à
+          <placeName key="France, Champrosay">la campagne</placeName> tout en tâchant de faire un
+        peu soigner mon jardin afin d’arriver l’année prochaine sans être obligé d’employer la mine
+        et la sape pour pénétrer à travers les allées de mon parc.</p>
+      <p>J’espérais vous voir avant-hier, <persName key="Forget, Joséphine de (1802-1886)">chère
+          amie</persName>. Par un quiproquo de mon portier, la lettre par laquelle j’étais convoqué
+        au ministère pour mon ancienne commission<note place="bottom">Il est difficile de savoir à
+          quelle <hi rend="it">ancienne</hi> commission il fait référence. Selon Escholier et Joubin
+          il s’agit de la commission des Beaux-Arts.</note> a été envoyée trop tard : le bon saint
+        Eugène eut pu être fêté dans les règles comme je l’avais espéré<note place="bottom">Saint
+          Eugène est fêté le 15 novembre.</note>. Mais ce qui est différé ne sera pas perdu et une
+        fois casé à <placeName key="France, Paris">Paris</placeName>, nous nous verrons en vrais
+        voisins et mieux que cela encore. Ta petite lettre m’a fait plaisir, <persName
+          key="Forget, Joséphine de (1802-1886)">bonne amie</persName>, et j’ai bien maudit le
+        retard qui m’a <pb n="3" xml:id="p3"/> empêché d’aller t’embrasser. Tu me parles de
+          <persName key="Gaultron, Hippolyte (après 1805-1878)">Gaultron</persName> et du plaisir
+        qu’il a eu à me voir à <placeName key="France, Valmont">Valmont</placeName>. T’ai-je dit
+        qu’il m’avait semblé au contraire qu’il était avec moi plus froid que jamais. La République
+        qu’il a prise fort à cœur semble avoir fait de ce garçon-là un véritable Brutus : il n’y a
+        plus pour lui dans le monde que des républicains.</p>
+
+
+      <closer>
+        <salute>Adieu, <persName key="Forget, Joséphine de (1802-1886)">chérie</persName>. À
+          bientôt. Je pense à ton jardin en m’occupant du mien. Ce serait le cas de le mettre
+          maintenant sur un bon pied pour l’année prochaine. Adieu encore et mille bien tendres
+          tendresses.</salute>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

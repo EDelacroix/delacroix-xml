@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Joséphine de Forget, [1843 ?]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA</institution>
+
+            <idno>Autographes 120, 1398 (4f)</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Claude Roger-Marx, achat en 2003</provenance>
+          </history>
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1843"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="1" xml:id="p1"/>
+            <persName key="Forget, Joséphine de (1802-1886)">Madame la Baronne de Forget</persName></addrLine>
+        </address>
+      </opener>
+
+
+      <p>
+        <pb n="2" xml:id="p2"/> Je vous remercie beaucoup, <persName key="Forget, Joséphine de (1802-1886)">chère amie</persName>, de ces
+        nouvelles qui peuvent laisser quelqu’espoir ; d’ailleurs, c’est quelque chose que d’avoir du
+        temps. Vous ne me parlez pas de votre malade<note place="bottom">Bien peu d’éléments
+          permettent de situer cette lettre. Toutefois, Joséphine de Forget évoque dans ces <ref
+            type="letter" target="CAC_ED_creteil-ad-2j187-14.xml">courriers des 11</ref> et <ref
+            type="letter" target="CAC_ED_creteil-ad-2j187-16.xml">19 juillet 1843</ref> « notre malade ».
+          Il pourrait s’agir de la mère de Joséphine de Forget qui vivait avec elle, mais plus
+          vraisemblablement de sa demi-tante Hortense de Querelles qui tomba malade en 1843 comme
+          l’atteste une lettre que Louis-Napoléon Bonaparte lui adressa le 23 avril et le 2 août
+          1843 (Archives nationales, 464 AP). Elle rentra à Paris, chez Joséphine de Forget, pour se
+          faire soigner.</note>. J’irai vous en demander des nouvelles bientôt dans la journée ;</p>
+
+
+      <closer>
+        <salute>je vais mieux et vous envoie mille bonnes tendresses.</salute>
+      </closer>
+
+      <postscript>
+        <p>Je me dépêche, j’ai là deux personnes.</p>
+      </postscript>
+      <postscript>
+        <p>Savez-vous l’adresse de <persName key="Cavé, Marie-Élisabeth, veuve Boulanger (1806?-1883)">Mme Cavé</persName> ? Écrivez-la-moi.</p>
+      </postscript>
+    </body>
+  </text>
+</TEI>

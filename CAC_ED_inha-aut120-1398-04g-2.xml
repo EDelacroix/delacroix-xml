@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Joséphine de Forget, [23 octobre 1853]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA</institution>
+
+            <idno>Autographes 120, 1398 (4g)2</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="3"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Claude Roger-Marx, achat en 2003</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, III, p. 18-19 (date la lettre du 19 mai 1850)</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1853-10-23"/>
+          <placeName key="France, Champrosay"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <placeName key="France, Champrosay">Champrosay</placeName>, <date>dimanche</date>
+        </dateline>
+      </opener>
+
+
+      <p>Voilà, j’espère, de fières vacances pour un homme si occupé que moi. Je vous écris quelques
+        mots, <persName key="Forget, Joséphine de (1802-1886)">chère amie</persName>, pour vous dire
+        que je ne suis point mort. Je me porte au contraire assez bien et quitterai encore avec
+        regret le séjour de <placeName key="France, Champrosay">la campagne</placeName><note
+          place="bottom">Delacroix était arrivé à Champrosay le 6 octobre. </note>. Je me dis pour
+        m’excuser de rester si longtemps que je ne veux pas revenir sans avoir fini <rs type="work"
+          >trois petits tableaux</rs> que j’avais emportés<note place="bottom">Il peignit lors de
+          son séjour : <hi rend="it">Weislingen pris par les hommes de Gœtz</hi> (J315), le <hi
+            rend="it">Christ sur le lac de Génésareth</hi> (J454), <hi rend="it">L’Éducation de la
+            Vierge</hi> (J461). Voir Hannoosh, <hi rend="it">Journal</hi>, 2009, p. 684,
+        690.</note>, mais en réalité, le repos au milieu des arbres et de toute cette nature me
+        séduit infiniment. Vous ne croiriez pas que je n’ai pas un moment d’ennui. Je travaille tous
+        les matins jusqu’à 2 ou trois heures et je fais alors une grande promenade jusqu’à dîner.
+          <pb n="2" xml:id="p2"/> Quand je ne vais pas le soir chez <persName>les
+        Barbier</persName>, <persName>les Villot</persName><note place="bottom">Delacroix
+          fréquentait très régulièrement les deux familles dont il était voisin dans le hameau de
+          Champrosay. Ce fut grâce à son ami Frédéric Villot qu’il découvrit ce lieu. Villot avait
+          épousé Pauline Barbier. Delacroix voyait donc fréquemment les deux beaux-frères de Villot,
+          Paul et Édouard Barbier, lorsqu’il séjournait à Champrosay. </note>, et ce qui m’arrive
+        rarement à cause de la fatigue de la journée, je prends aussi un peu l’air avant de me
+        coucher quand le temps n’est pas abominable, et il est toujours plus supportable à la
+        campagne. J’ai vu <persName>les Halévy</persName> deux fois<note place="bottom">Fromental
+          Halévy avait acheté, la même année, le château de Fromont, proche de Champrosay. Delacroix
+          dîna chez Halévy les 11 et 19 octobre (Hannoosh, <hi rend="it">Journal</hi>, 2009, p. 685,
+          694). Cette anecdote rapportée dans sa lettre a permis à Michèle Hannoosh de dater cette
+          lettre que Joubin avait publiée au 19 mai 1850. Voir <hi rend="it">Hannoosh</hi>, 2009,
+          p. 512, note 180.</note> : ils partent déjà ; ce sont des mondains qui ont besoin de faire
+        leur partie tous les soirs. Quant à <persName>Mme Barbier</persName><note place="bottom"
+          >Florimonde-Élisabeth Barbier, cousine et belle-sœur de Pauline Villot. Elle avait épousé
+          son cousin Édouard Barbier.</note>, elle est plus florissante que jamais, mais je deviens
+        un peu rococo pour tout cela.</p>
+      <p>Je serai de retour au milieu de la semaine prochaine<note place="bottom">Delacroix rentra à
+          Paris le samedi 29 octobre (Hannoosh, <hi rend="it">Journal</hi>, 2009, p. 703).</note> et
+        j’irai vous voir dans <placeName>votre villa de la rue de La Rochefoucauld</placeName>. Vous
+        avez des <pb n="3" xml:id="p3"/> fleurs et des arbres, mais vous n’avez pas un air comme
+        celui qu’on respire ici et la tranquillité la plus profonde.</p>
+
+
+      <closer>
+        <salute>Je vous embrasse bien, <persName key="Forget, Joséphine de (1802-1886)">chère
+            amie</persName>, en attendant le plaisir de vous voir.</salute>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
