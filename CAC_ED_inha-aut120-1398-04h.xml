@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Joséphine de Forget, 15 avril 1854</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA</institution>
+
+            <idno>Autographes 120, 1398 (4h)</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="4"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Claude Roger-Marx, achat en 2003</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Escholier, <hi rend="it">Eugène Delacroix et sa « consolatrice »</hi>, 1932,
+            p. 169-170 (éd. partielle)</bibl>
+          <bibl>Joubin, III, p. 205-206</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1854-04-15"/>
+          <placeName key="France, Champrosay"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <placeName key="France, Champrosay">Champrosay</placeName>, <date when="1854-04-15">ce 15
+            avril</date><note place="bottom">Delacroix copia une partie de la lettre avec quelques
+            variantes dans son journal à la date du 15 avril 1854, ce qui a permis de dater la
+            lettre (Hannoosh, 2009, t. 1, p. 752)</note></dateline>
+        <salute><persName key="Forget, Joséphine de (1802-1886)">Chère amie</persName>, </salute>
+      </opener>
+
+
+      <p>Je vous écris avec le plus beau temps du monde, temps qui afflige tout le monde en
+        commençant par la terre. J’avoue que je n’ai pas souvenir d’avoir vu la pareille chose en
+        cette saison : les bons agriculteurs sont aux abois, l’herbe est sèche dans la forêt comme
+        dans les plus grandes chaleurs du mois d’août et les récoltes donnent de l’inquiétude. Pour
+        moi en particulier, je ne retire que de l’agrément de ce qui cause cette inquiétude mais je
+        ferais bien volontiers le sacrifice du plaisir que j’éprouve de ce beau soleil en vue
+        d’avantages plus certains et qui m’intéressent à un autre point de vue. <pb n="2"
+          xml:id="p2"/> Pour ne parler que de l’agrément, les feuilles ne poussent pas, ce qui nuit
+        au paysage et ôte l’ombre qu’on peut très bien regretter à cause de la chaleur extrême du
+        soleil.</p>
+      <p>Je travaille à la peinture et ne suis pas inspiré pour le moment par la littérature<note
+          place="bottom">Alors que Delacroix publia quelques mois après un article intitulé
+          « Questions sur le Beau » dans la <hi rend="it">Revue des Deux-Mondes</hi> (15 juillet
+          1854), il était plutôt préoccupé par ses nombreux tableaux qu’il avait emportés à la
+          campagne pour travailler au calme. Parti le 12 avril pour Champrosay, Delacroix y resta
+          jusqu’au 2 mai, revenant seulement le 17 avril à Paris pour rentrer le lendemain. Il
+          travaillait alors à plusieurs peintures : les <hi rend="it">Baigneuses</hi> (J169), les
+            <hi rend="it">Tueurs de lion</hi> (J193), <hi rend="it">Clorinde</hi> (J321) et <hi
+            rend="it">Hamlet et Polonius</hi> pour Dumas (version perdue d’après J319 ? – voir
+          Hannoosh, <hi rend="it">Journal</hi>, 2009, p. 751, note 88).</note>. Je dois vous dire,
+        pour votre édification et pour augmenter la considération à laquelle je prétends, que j’ai
+        reçu avant mon départ mon diplôme d’académicien d’<placeName key="Pays-Bas, Amsterdam"
+          >Amsterdam</placeName>, orné des armes des <placeName key="Pays-Bas">Pays-Bas</placeName>
+        et avec les paraphes nécessaires<note place="bottom">Delacroix fut élu membre de l’Académie
+          royale d’Amsterdam le 8 février 1854. Il remercia de cette faveur dans une lettre datée du
+          26 février, donnant en même temps les détails nécessaires pour la rédaction du diplôme
+          (Joubin, <hi rend="it">Corr. gén.</hi>, t. III, p. 192-193). Ce dernier est aujourd’hui
+          conservé à la bibliothèque de l’INHA, Autographes, 126, 5, 1125(8).</note>, seulement, il
+        m’est impossible de comprendre un seul mot de ce titre qui me confère, de par des étrangers,
+        cette <pb n="3" xml:id="p3"/> haute dignité. J’irai quelque jour me le faire lire en
+          <placeName key="Hollande">Hollande</placeName>. En attendant, je me promène avec un
+        certain contentement de moi-même, assuré maintenant que je n’ai pas tout à fait perdu ma
+        peine en ce monde.</p>
+      <p>Je vous voudrais plus souvent, <persName key="Forget, Joséphine de (1802-1886)">chère
+          amie</persName>, des distractions comme celle que je trouve dans ce petit endroit écarté
+        et champêtre. Le plaisir d’ouvrir le matin sa fenêtre sur la plus belle vue du monde,
+        rafraîchie par les pleurs de la nuit, et de respirer un air différent de celui que nous font
+        la boue et les tas d’ordures des rues de <placeName key="France, Paris">Paris</placeName>,
+        tout cela fait vivre et remonte l’esprit et le <pb n="4" xml:id="p4"/> corps. Je ne dis pas
+        pour cela qu’il faut tout abandonner pour se jeter dans les bras de la bonne nature, un peu
+        de tout et surtout, changer de temps en temps, c’est là le véritable rajeunissement des
+        esprits.</p>
+      <p>Je resterai ma quinzaine comme je l’ai calculé et reviendrai enchanté de vous revoir et de
+        vous raconter mes promenades. Je ne vous dis pas de soigner votre toux puisque vous vous
+        êtes habituée à vivre avec cela, je voudrais cependant que vous vissiez <persName
+          key="Rayer, Pierre François (1793-1867)">Rayer</persName><note place="bottom">Médecin de
+          Delacroix.</note> de temps en temps.</p>
+
+
+      <closer>
+        <salute>Adieu <persName key="Forget, Joséphine de (1802-1886)">chérie</persName>, je vous
+          embrasse bien et vous demande de me répondre.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName></signed>
+        <address>
+          <addrLine><placeName key="France, Champrosay">Champrosay par Draveil, Seine et
+              Oise</placeName>.</addrLine>
+        </address>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

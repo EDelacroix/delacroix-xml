@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Joséphine de Forget, 14 août [1860]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA</institution>
+
+            <idno>Autographes 120, 1398 (4i)2</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="4"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Claude Roger-Marx, achat en 2003</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Piron, Eugène Delacroix, sa vie et ses œuvres, 1865, p. 534-535 (éd.
+            incomplète)</bibl>
+          <bibl>Escholier, <hi rend="it">Eugène Delacroix et sa « consolatrice »</hi>, 1932, p.
+            198-199 (éd. partielle)</bibl>
+          <bibl>Joubin, IV, p. 192-194</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1860-08-14"/>
+          <placeName key="France, Champrosay"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+        </correspAction>
+        <correspContext>
+          <ref target="CAC_ED_creteil-ad-2j187-48.xml" type="replyTo"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <placeName key="France, Champrosay">Champrosay</placeName>, <date when="1860-08-14">ce 14
+            août</date></dateline>
+        <salute><persName key="Forget, Joséphine de (1802-1886)">Chère amie</persName>, </salute>
+      </opener>
+
+
+      <p>Je ne reçois votre lettre qu’à présent : on me l’a apportée de <placeName
+          key="France, Paris">Paris</placeName>, d’où, bêtement, on ne me l’avait pas envoyée. J’y
+        vois avec plaisir que vous avez là quelques moments doux et agréables, sans les petits
+        regrets dont vous parlez et qui ont bien leur importance. J’en suis réduit pour ma part à ne
+        plus être trop difficile en fait de plaisirs : celui de me bien porter me paraîtrait le plus
+        précieux de tous, bien que dépourvu de ces délicieux avantages que donnent la santé et la
+        jeunesse réunies. Je ne suis ni bien ni mal ; je ne travaille pas, espérant me remettre tout
+        à fait par ce moyen. Je suis ici depuis une huitaine de jours : je n’ai pu supporter plus
+        longtemps le séjour de <placeName key="France, Dieppe">Dieppe</placeName> par le mauvais
+          temps<note place="bottom">Delacroix était arrivé à Dieppe le 18 juillet et repartit le 27
+          juillet pour Champrosay en raison du mauvais temps et du rhume qu’il avait contracté (voir
+          son journal : Hannoosh, 2009, p. 1354, 1360).</note>. Ici, au moins, je fais du feu tous
+        les jours et quand je ne <pb n="2" xml:id="p2"/> peux mettre le nez dehors, je me console
+        avec vos revues qui sont très précieuses pour moi.</p>
+      <p>Je ne pense pas revenir avant le 1<hi rend="sup">er</hi> septembre, de sorte que vous
+        pourriez me rendre bien heureux en m’écrivant encore une fois <placeName
+          key="France, Champrosay">ici (par Draveil Seine-et-Oise</placeName>). J’évite avec grand
+        plaisir les fêtes<note place="bottom">Napoléon III avait institué le 15 août fête nationale
+          pour la Saint-Napoléon. En cette année 1860, elle fut également l’occasion d’inaugurer en
+          grande pompe la place Saint-Michel et le Pont au Change.</note> qui seront sans doute un
+        peu humides par le temps qui court. J’ai vu tout à l’heure que <persName
+          key="Laity, Armand (1812-1889)">M. Laity</persName> venait d’être promu à un nouveau grade
+        et je m’en suis réjoui pour lui<note place="bottom">Armand Laity avait épousé Hortense de
+          Querelles le 21 octobre 1848, il était donc parent par alliance de Joséphine de Forget.
+          Sénateur, il avait été promu grand officier de la Légion d’honneur le 6 août
+        1860.</note>.</p>
+      <p>J’ai été conduit il y a deux jours chez <persName key="Darblay, Aymé Stanislas (1794-1878)"
+          >M. Darblay</persName>, mon voisin à <persName key="France, Corbeil">Corbeil</persName> ;
+        j’ai vu là la campagne la plus jolie que je connaisse, un beau luxe, des serres, des eaux,
+          etc<note place="bottom">Aymé Stanislas Darblay était un industriel qui s’était enrichi par
+          le commerce des grains et possédait les moulins de Corbeil. Il se fit construire un
+          château à Saint-Germain-lès-Corbeil.</note>. En vérité, la campagne devient chez nous plus
+        encore que ce qu’elle est en <placeName key="Angleterre">Angleterre</placeName>, la
+        résidence à laquelle on sacrifie tout. Je ne doute pas qu’avant peu <pb n="3" xml:id="p3"/>
+        de temps et grâce à la facilité des chemins de fer, toute personne qui se respecte n’aura à
+        Paris qu’un pied-à-terre et un palais à la campagne : on ne pourra obtenir la considération
+        à moins. Pour moi, je ne brille pas par le luxe, mais je commence à avoir ici le confortable
+        nécessaire ; dans tous les cas, j’y suis bien mieux et surtout plus gaiment que dans ma
+        caserne de <placeName key="France, Paris">Paris</placeName>.</p>
+      <p>Aurai-je au moins cet hiver la chance de ne pas vivre enfermé et de vous voir quelquefois ?
+        C’est en partie dans ce dessein que je cherche à faire une petite provision de santé.</p>
+      <p>Je suis bien reconnaissant de ce que vous voulez bien me dire de la part de <persName
+          key="">Mme de Cordès</persName><note place="bottom"><ref type="letter"
+            target="CAC_ED_creteil-ad-2j187-48.xml">La lettre écrite par Joséphine de Forget à
+            Delacroix le 7 août</ref> nous apprend qu’elle séjournait au château de Cordès (Orcival,
+          Puy-de-Dôme), donc chez la baronne de Cordès (née Grangier de Lamothe), qui semble être
+          une de ses parentes.</note> : je vous prie de l’assurer de mes respects et du plaisir que
+        j’aurais eu à partager avec vous son aimable hospitalité. Hélas ! <pb n="4" xml:id="p4"/>
+        vous le dites à merveille : ces réunions-là sont la chose la plus difficile et la plus
+        rare ; les rencontres ennuyeuses sont au contraire ce qui fait le fond de la vie.</p>
+
+
+      <closer>
+        <salute>Je suis ravi aussi que vous soyez là avec <persName
+            key="Forget, Eugène de (1819-1885)">Eugène</persName> : dites-lui mille choses pour moi
+          et recevez en particulier, <persName key="Forget, Joséphine de (1802-1886)">chère
+            amie</persName>, les assurances de ma vive affection.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Joséphine de Forget, 16 novembre 1850</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA</institution>
+
+            <idno>Autographes 120, 1398 (4g)3</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="4"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Claude Roger-Marx, achat en 2003</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Escholier, <hi rend="it">Eugène Delacroix et sa « consolatrice »</hi>, 1932,
+            p. 96-97</bibl>
+          <bibl>Joubin, III, p. 46-47</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1850-11-16"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="1" xml:id="p1"/>
+            <persName key="Forget, Joséphine de (1802-1886)">Madame la Baronne de Forget</persName>,
+              <placeName key="France, Paris, rue de La Rochefoucauld, 19">rue de La Rochefoucauld
+              19. Paris</placeName></addrLine>
+        </address>
+        <stamp><placeName key="France, Paris">Paris</placeName>
+          <date when="1850-11-17">17 novembre 1850</date></stamp>
+        <dateline>
+          <pb n="2" xml:id="p2"/>
+          <date when="1850-11-16">Ce samedi</date></dateline>
+        <salute><persName key="Forget, Joséphine de (1802-1886)">Chère amie</persName>, </salute>
+      </opener>
+
+
+      <p>Je suis si enfoncé dans mon travail pour finir mes petits tableaux<note place="bottom">Au
+          Salon de 1850, Delacroix exposa : <hi rend="it">La résurrection de Lazare</hi> (J442,
+          Bâle, Kunstmuseum) ; <hi rend="it">Femme qui se peigne</hi> (J168, collection
+          particulière) ; <hi rend="it">Giaour poursuivant les ravisseurs de sa maîtresse</hi>
+          (J296, Alger, musée national des Beaux-Arts) ; <hi rend="it">Lady Macbeth</hi> (J299,
+          Fredericton, Beaverbrook Art Gallery) ; <hi rend="it">Le Bon Samaritain</hi> (J437,
+          collection particulière).</note> que je remets toujours toute chose. J’avais pourtant à
+        cœur de te remercier de ce que tu as fait<note place="bottom">Delacroix souhaitait obtenir
+          un logement à l’Institut qui fut finalement attribué au bibliothécaire de la Mazarine. Il
+          évoque cela et l’intervention de Joséphine de Forget dans une <ref type="letter"
+            target="CAC_ED_inha-ms237-35.xml">lettre à Haro le même jour</ref>. </note>, quoique je
+        pense que malgré toutes les machines que nous remuons, et pour quel résultat, nous n’y
+        parviendrons pas. Ces gens-là sont décidés à ne pousser que leur clique. Surtout, je t’en
+        prie bien, <persName key="Forget, Joséphine de (1802-1886)">amie</persName>, ne pousse pas
+        trop <persName>ce pauvre Haro</persName> qui est plein de cœur et qui néglige ses affaires
+        pour les miennes<note place="bottom">Étienne-François Haro convoitait la place de
+          restaurateur de tableaux des Tuileries. Voir à ce sujet <hi rend="it">Nouvelles
+            lettres</hi>, p. 26 note 2 ainsi que <ref type="letter"
+            target="CAC_ED_inha-ms237-35.xml">la lettre que Delacroix adressa à Haro le même jour
+          </ref>.</note>. Il a plus besoin d’aide que moi. Je suis fâché d’une persistance qui lui
+        fait <hi rend="u">positivement</hi> négliger ses intérêts.</p>
+      <p>
+        <pb n="3" xml:id="p3"/>
+        <persName key="Vieillard, Narcisse (1791-1857)">Vieillard</persName><note place="bottom"
+          >Narcisse Vieillard était député de la Manche et proche conseiller à ce moment de
+          Louis-Napoléon Bonaparte qu’il avait soutenu pour l’élection de 1848.</note> est une
+        mâchoire à qui je t’avertis que je n’aurai nulle obligation même si je réussis : il fait
+        tout du bout des dents et pour me servir à son sujet d’une expression qu’il affectionne, je
+        le trouve <hi rend="u">classé</hi> – Toi, je t’aime toujours et reviendrai bientôt. Nous
+        verrons cet ouvrage dont tu me parles et dont je te remercie à l’avance. Je t’écris au
+        galop. Croirais-tu qu’ici le temps me manque ? Il me faut près de deux heures pour faire
+        seulement ma palette. À la vérité, cela facilite beaucoup mon travail ensuite, mais je suis
+        sur les dents quand j’ai fait ma journée et je n’ai pas même le courage d’aller chez
+          <persName key="Barbier, Paul Édouard (1802-1860)"><persName
+            key="Barbier, Florimonde Élisabeth Nicod de la Serve, épouse (1818-1894)">les voisins
+            Barbier</persName></persName>. Je reviendrai dans huit jours rapporter mes <pb n="4"
+          xml:id="p4"/> petits tableaux : j’en suis encore à me demander s’ils seront finis<note
+          place="bottom">Le Salon de 1850 ouvrit le 30 décembre. Pour le détail des tableaux exposés
+          par Delacroix, voir note 1.</note>.</p>
+
+
+      <closer>
+        <salute>Je t’embrasse et te remercie mille fois, <persName
+            key="Forget, Joséphine de (1802-1886)">chère bonne amie</persName>, et saint Eugène<note
+            place="bottom">Saint Eugène est fêté le 15 novembre.</note> aussi. À bientôt.</salute>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

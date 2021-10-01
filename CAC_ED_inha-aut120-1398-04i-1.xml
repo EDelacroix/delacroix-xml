@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Joséphine de Forget, 3 mars [1860]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA</institution>
+
+            <idno>Autographes 120, 1398 (4i)1</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="1"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Claude Roger-Marx, achat en 2003</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Piron, Eugène Delacroix, sa vie et ses œuvres, 1865, p. 536-537 (éd.
+            incomplète)</bibl>
+          <bibl>Joubin, IV, p. 158</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1860-03-03"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <date when="1860-03-03">Ce 3 mars</date></dateline>
+        <salute><persName key="Forget, Joséphine de (1802-1886)">Chère amie</persName>, </salute>
+      </opener>
+
+
+      <p>J’ai eu bien du regret hier en rentrant de ma promenade. J’avais manqué votre visite ; je
+        vous aurais remerciée avec bien du plaisir de vos belles tulipes qui sont ma fleur de
+        prédilection. C’était ma seconde sortie<note place="bottom">Delacroix avait été malade en
+          début d’année et était resté confiné chez lui le temps de la convalescence en craignant le
+          froid. </note>. Elles m’ont réussi toutes deux admirablement<note place="bottom">Voir le
+          journal au même jour (Hannoosh, 2009, t. 2, p. 1329).</note> ; la douceur du temps m’a
+        permis hier de rester assis pendant trois quarts d’heure dans <placeName
+          key="France, Paris, jardin du Luxembourg">le jardin du Luxembourg</placeName><note
+          place="bottom">Le jardin du Luxembourg était le plus proche de la maison de Delacroix, qui
+          habitait alors rue de Furstenberg.</note>. Rien n’était plus champêtre : j’étais entouré
+        de charmants enfants (vous savez combien je les aime) et de leurs bonnes ingénues, me
+        lançant des balles dans les jambes et faisant un grand vacarme de leurs cris innocents.
+        J’étais là avec tous les éclopés du quartier qui se traînent au soleil ainsi que moi pour se
+        remettre de leurs maux. Plaisanterie à part, c’est un fort bon régime et je ne m’abstiendrai
+        de sortir que si le temps était trop rigoureux.</p>
+
+
+      <closer>
+        <salute>Mille nouveaux remerciements et tendresses de cœur, <persName
+            key="Forget, Joséphine de (1802-1886)">chère amie</persName>.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
