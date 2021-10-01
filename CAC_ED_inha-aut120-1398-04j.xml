@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Joséphine de Forget, 30 juin [1862]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA</institution>
+
+            <idno>Autographes 120, 1398 (4j)</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="3"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Claude Roger-Marx, achat en 2003</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, IV, p. 320-322</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1862-06-30"/>
+          <placeName key="France, Champrosay"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <placeName key="France, Champrosay">Champrosay</placeName>, <date when="1862-06-30">ce 30
+            juin</date></dateline>
+      </opener>
+
+
+      <p>Votre lettre est bien aimable, <persName key="Forget, Joséphine de (1802-1886)">chère
+          amie</persName>, et j’aurais bien dû vous prévenir pour vous demander de vos nouvelles et
+        vous donner des miennes. J’ai été à <placeName key="France, Paris">Paris</placeName>, mais pour diverses
+        corvées, et n’ai pu, malgré mon désir, aller vous voir. Si vous étiez chez vous <hi rend="u"
+          >mercredi</hi>, c’est-à-dire après-demain, j’irais vous demander à dîner si vous le voulez
+        bien. Je serai bien enchanté de trouver Eugène à qui je vous prie de faire à l’avance les
+        plus affectueux compliments. J’ai toujours mené la même vie. J’ai ici très peu de
+        connaissances et les plus agréables sont trop loin pour que j’aille les trouver. Je
+        travaille beaucoup quoique le malaise que j’éprouve toujours au milieu de la journée vienne
+          <pb n="2" xml:id="p2"/> mettre obstacle à l’achèvement de quelques tableaux que j’ai la
+        tâche d’achever pour un temps prochain et qui offrent beaucoup de difficultés<note
+          place="bottom">Il est difficile de savoir quels sont les tableaux auxquels Delacroix
+          travaillait à ce moment précis à Champrosay, car il ne donne pas d’indications dans son
+          journal. Il acheva cette année-là une vingtaine de peintures et travaillait à sa suite des
+            <hi rend="it">Quatre saisons</hi> pour Hartmann (J248-251), ainsi qu’à <hi rend="it"
+            >Médée furieuse</hi> (J344) pour la Société des Amis des Arts d’Arras. </note>. J’avais
+        formé pour la fin de l’été le projet d’un grand voyage <placeName key="Italie">du côté du
+          Midi</placeName><note place="bottom">Delacroix prévoyait un voyage en Italie où il
+          rejoindrait Louis-Auguste Schwiter. Malheureusement, ses problèmes de santé lui firent
+          renoncer à son projet, comme en témoigne sa lettre écrite à Schwiter le 8 août, dans
+          laquelle il les décrit (Joubin, IV, p. 328-329).</note>.
+        L’appréhension de la chaleur me le fera retarder ; je voudrais bien dans tous les cas ne pas
+        l’ajourner si longtemps que par paresse ou par impuissance je renonce à le faire. Je vous
+        conterai tout cela. Je ne m’amuse pas à tous les instants du jour, mais qui est-ce qui
+        s’amuse toujours ? Vous connaissez d’ailleurs mon penchant pour la campagne. Elle me tient
+        lieu de bien des divertissements ; on y respire du moins avec une véritable volupté, ce
+        qu’on ne trouve guère <pb n="3" xml:id="p3"/> dans les spectacles ou dans les rues de
+          <placeName key="France, Paris">Paris</placeName>. Depuis toutes ces transformations qui nous font ressembler à
+        toutes les villes de <placeName key="Europe">l’Europe</placeName>, je ne reconnais plus mon
+          <placeName key="France, Paris">Paris</placeName> et il me déplaît autant que je l’aimais autrefois<note
+          place="bottom">Les grands travaux de modernisation de Paris conduits sous Napoléon III en
+          grande partie par le baron Haussmann, préfet de la Seine, entraînèrent la destruction
+          d’anciens quartiers de Paris par l’élargissement des rues et le tracé des grandes voies
+          rectilignes au cœur de la ville.</note>.</p>
+
+
+      <closer>
+        <salute>Je me fais une vraie fête de passer avec vous quelques instants et vous envoie mes
+          tendresses les plus vraies en attendant.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, 18 août [1857]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA</institution>
+
+            <idno>Autographes, 1399 (1)c</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="5"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Claude Roger-Marx, achat en 2003</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Edition partielle dans <hi rend="it">Nouvelles lettres</hi>, 2000, p. 36-37.</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date when="1857-08-18"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <date when="1857-08-18"><hi rend="u">Ce 18 août</hi></date><note place="bottom">La lettre
+            peut être datée du 18 août 1857 grâce aux nombreuses informations données par Joséphine
+            de Forget. </note></dateline>
+      </opener>
+
+
+      <p>Je suis enchantée d’avoir reçu de vos nouvelles que j’attendais avec bien de l’impatience,
+          <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName> : vous voilà donc à
+          <placeName key="France, Plombières">Plombières</placeName><note place="bottom">Delacroix
+          lui écrivit le 14 août de Plombières où il était arrivé le 10. Il venait soigner notamment
+          ses problèmes d’estomac, car les eaux de cette ville thermale, qui s’était grandement
+          développée sous le Second Empire, étaient réputées pour leurs bienfaits.</note> ? Je vous
+        félicite, prenez vos bains bien exactement, je suis sûre qu’ils vous feront du bien :
+        boit-on de ces eaux ? J’ai passé il y a quelques jours à <placeName
+          key="France, Paris, rue Notre-Dame-de-Lorette, 58">votre logement</placeName> pour avoir
+        de vos nouvelles, on m’a répondu que votre gouvernante et <persName
+          key="Le Guillou, Jeanne Marie, dite Jenny (1801-1869)">votre bonne</persName> étaient
+        parties. </p>
+      <p>J’ai été la semaine dernière dans <placeName key="France, Paris, faubourg Saint-Germain"
+          >votre nouveau quartier</placeName><note place="bottom">Delacroix venait de louer une
+          maison dans le faubourg Saint-Germain, au 6 rue de Furstenberg, se rapprochant ainsi de
+          ses travaux à l’église Saint-Sulpice, mais s’éloignant de Joséphine de Forget. Il
+          n’emménagea dans sa maison qu’après la fin des travaux, le 28 décembre 1857.</note> et en
+        faisant une visite à des personnes qui demeurent dans <pb n="2" xml:id="p2"/>
+        <placeName key="France, Paris, rue de Furstenberg, 6">votre maison</placeName>, je suis
+        entrée chez vous, dans votre jardin, j’ai tout visité. Votre jardin sera bien gentil, mais
+        il est bien dominé par des quantités de fenêtres ; vous ne serez pas chez vous. Je crains
+        qu’il ne soit bien humide, il n’a pas beaucoup d’air, ensuite, ce que je crains davantage,
+        c’est le froid que vous prendrez en passant de votre atelier dans votre appartement : à
+        votre place je ferais fermer la petite partie de l’escalier que vous aurez à traverser ;
+        vous serez saisi par le froid en sortant de votre atelier très chauffé. Votre appartement me
+        paraît commode mais quand sera-t-il terminé ? <pb n="3" xml:id="p3"/> Il est dans un état de
+        délabrement affreux, il y a beaucoup à y faire et je vous assure, moi qui connais les
+        ouvriers, que vous n’en jouirez pas pour l’époque où vous devez y entrer. J’ai passé chez
+        vous par le jardin, mais non par le grand escalier : comme <placeName
+          key="France, Paris, rue de Furstenberg, 6">cette maison</placeName> est vieille ! Je vous
+        conseille donc de faire mettre les ouvriers promptement et de faire fermer votre petit
+        escalier en dehors<note place="bottom">Delacroix répondit le 28 août à cette lettre (Joubin,
+          III, p. 408-409) et aux remarques de Joséphine de Forget sur sa maison : « Son plus grand
+          tort pour moi, malgré ce que vous m’en dites, est de m’éloigner de vous, car j’y trouve de
+          grands avantages de toute espèce. Quand elle sera décrassée, ce sera une habitation comme
+          une autre. Personne ne me verra dans mon jardin, attendu qu’il est plein d’allées
+          couvertes qui en font le tour. Je suis à deux pas de toutes les promenades et dans une
+          bonne exposition ». Cette maison, devenue depuis le musée Eugène Delacroix, a été
+          transformée et ne conserve plus le décor intérieur, ni la disposition du jardin que connut
+          le peintre.</note>. </p>
+      <p>Jouissez, <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName>, de ce beau
+        temps, de ce soleil, du beau pays où vous êtes, car l’hiver arrivera bien vite avec ses
+        tristesses, ses froids et ses ennuis ; restez donc le plus possible dehors <placeName
+          key="France, Paris">Paris</placeName>. Vous devriez visiter <placeName key="France, Blois"
+          >Blois</placeName>, <placeName key="France, Tours">Tours</placeName> et tous les environs
+        qui sont bien curieux.</p>
+      <p>Vous avez appris la nomination de <persName key="Laity, Armand (1812-1889)">M.
+          Laity</persName><note place="bottom">Armand Laity était un parent par alliance de
+          Joséphine de Forget car il avait épousé Hortense de Querelles. Il fut nommé sénateur le 12
+          août.</note>
+        <pb n="4" xml:id="p4"/> sénateur, vous en serez bien content ainsi que nous : les bons choix
+        sont si rares ! </p>
+      <p>Je vais souvent à <placeName key="France, Paris, bois de Boulogne, Madrid"
+          >Madrid</placeName><note place="bottom">Il s’agit du Petit-Madrid, nom donné aux communs
+          du château de Madrid dans le bois de Boulogne, transformé en habitations et où vécut
+          Élisabeth Cavé.</note> chez <persName
+          key="Cavé, Marie-Élisabeth, veuve Boulanger (1806?-1883)">Mme Cavé</persName>, elle a
+        perdu sa sœur qui était assez jeune ; je vais aujourd’hui dîner chez elle, avec notre
+          <persName key="Laity, Armand (1812-1889)">nouveau sénateur</persName>. Nous aurons
+          <persName key="About, Édmond (1828-1885)">About</persName><note place="bottom">Edmond
+          About, écrivain et journaliste qui fit notamment l’éloge des tableaux de Delacroix lors
+          l’exposition de 1855 dans son <hi rend="it">Voyage à travers l’Exposition des
+            Beaux-Arts</hi>. </note>, que je ne connais pas ; nous faisons de beaux projets pour cet
+        hiver et nous voudrions bien vous avoir, mais où serez-vous ? Dans votre <placeName
+          key="France, Paris, faubourg Saint-Germain">faubourg Saint-Germain</placeName>, qui est si
+        éloigné : je préférais beaucoup <placeName
+          key="France, Paris, rue Notre-Dame-de-Lorette, 58">votre appartement
+          actuel</placeName><note place="bottom">Delacroix habitait rue Notre-Dame-de-Lorette depuis
+          1844, donc à quelques minutes à pied de l’hôtel de Joséphine de Forget situé au n° 19 de
+          la rue de la Rochefoucauld.</note>, je le trouve bien plus gai et plus sain. On m’avait
+        parlé d’une ravissante petite maison de <persName key="Ziegler, Jules-Claude (1804-1856)"
+          >Ziegler</persName> qui, dit-on, ne se vendra pas plus de 45 000 F, qui est ravissante et
+        pour rien, <placeName key="France, Paris, rue de la Bienfaisance">rue de la
+          Bienfaisance</placeName><note place="bottom">Joséphine de Forget parle du peintre et
+          céramiste Jules-Claude Ziegler, l’un des membres fondateurs avec Delacroix de la Société
+          Héliographique, et qui habitait au numéro 23 de la rue de la Bienfaisance. Après sa mort,
+          en décembre 1856, sa maison fut certainement vendue par ses héritiers.</note>. Si j’avais
+        eu de l’argent, je l’aurais achetée pour la louer ; enfin, n’y pensons plus, puisque vous
+        avez terminé.</p>
+      <p>
+        <pb n="5" xml:id="p5"/> Adieu, <persName key="Delacroix, Eugène (1798-1863)">cher
+          ami</persName>, écrivez-moi, donnez-moi de vos nouvelles. Moi, je me porte bien, ma bonne
+        santé est mon seul bien sur cette terre et j’en sens bien le prix ; cependant, je m’ennuie
+          <hi rend="u">terriblement</hi>, et je trouve que la vie est bien lourde à supporter. Je
+        voudrais bien, <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName>, vous en
+        donner de ma bonne santé, mais j’espère que vous allez faire un nouveau et bon bail, et que
+        vous nous reviendrez engraissé...</p>
+
+
+      <closer>
+        <salute>Adieu encore, <persName key="Forget, Eugène de (1819-1885)">Eugène</persName> est en
+            <placeName key="France, Auvergne">Auvergne</placeName>, assez bien portant dans ce
+          moment-ci. Je vous embrasse et vous aime tendrement.</salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">Baronne de
+          Forget</persName></signed>
+      </closer>
+
+      <postscript>
+        <p>Êtes-vous à <placeName key="France, Plombières">Plombières</placeName> avec votre
+            <persName>cousin</persName><note place="bottom">Auguste Lamey, cousin par alliance de
+            Delacroix, habitait Strasbourg. Delacroix séjourna chez lui à partir du 28 juillet
+            (Hannoosh, <hi rend="it">Journal</hi>, t. I, p. 1162) avant de se rendre à Plombières,
+            comme il l’explique dans la lettre envoyée à Joséphine de Forget le 14 août (Joubin,
+            III, p. 403-404).</note> ?</p>
+      </postscript>
+    </body>
+  </text>
+</TEI>

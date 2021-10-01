@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, 14 novembre [1860 ?]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA</institution>
+
+            <idno>Autographes, 1399 (1)b</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="1"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Claude Roger-Marx, achat en 2003</provenance>
+          </history>
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date when="1860-11-14"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <date when="1860-11-14"><hi rend="u">Ce 14 novembre</hi></date>
+          <note place="bottom">Cette lettre est très difficile à dater car aucun élément ne permet
+            de renvoyer à un événement précis. L’allusion à la maladie de George Sand pourrait faire
+            penser à l’année 1860 où elle contracta, à cette période de l’année, la fièvre typhoïde
+            (voir <ref type="letter" target="CAC_ED_inha-ms236-85">la lettre qu’il lui adressa le 25
+              novembre 1860 </ref>). Toutefois, la lettre qu’il adressa le 15 novembre 1860 à
+            Joséphine de Forget répond à une invitation pour une soirée le samedi suivant, et ne
+            semble pas correspondre à cette lettre du 14 novembre (Joubin, IV, p. 210-211). </note>
+        </dateline>
+      </opener>
+
+
+      <p>C’est demain Saint-Eugène, j’aurais bien désiré, <persName
+          key="Delacroix, Eugène (1798-1863)">mon ami</persName>, pouvoir vous embrasser en vous
+        présentant mon bouquet. Je ne sais où ma lettre vous trouvera ; êtes-vous encore à
+          <placeName key="France, Champrosay">la campagne</placeName>, malgré ce mauvais temps ?
+        J’espère que votre santé se trouve toujours bien de cette activité prodigieuse.</p>
+
+
+      <closer>
+        <salute>Recevez toutes mes tendresses, en attendant que j’aie le bonheur de vous revoir. Un
+          mot de votre santé et de vos projets. </salute>
+        <signed>
+          <persName key="Forget, Joséphine de (1802-1886)">Baronne de Forget</persName>
+        </signed>
+      </closer>
+
+      <postscript>
+        <p><persName key="Sand, George (1804-1876)">Mme Sand</persName> a été fort malade, m’a-t-on
+          dit, mais il paraît qu’elle va beaucoup mieux.</p>
+        <salute>Adieu</salute>
+      </postscript>
+
+    </body>
+  </text>
+</TEI>
