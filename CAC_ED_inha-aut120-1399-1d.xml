@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, 18 août [1860]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA</institution>
+
+            <idno>Autographes, 1399 (1)d</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="4"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Claude Roger-Marx, achat en 2003</provenance>
+          </history>
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date when="1860-08-18"/>
+          <placeName key="France, Cordès"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+        <correspContext>
+          <ref type="replyTo" target="CAC_ED_inha-aut120-1398-4i-2"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="1" xml:id="p1"/>
+            <persName key="Delacroix, Eugène (1798-1863)">Monsieur Eugène Delacroix</persName> à
+              <placeName key="France, Champrosay">Champrosay par (Seine-et-Oise)
+            Draveil</placeName></addrLine>
+        </address>
+        <stamp><placeName key="France, Rochefort-Montagne">Rochefort–Montagne</placeName>
+          <date when="1860-08-18">18 août 1860</date></stamp>
+        <stamp><placeName key="France, Clermont-Ferrand">Clermont</placeName> à <placeName
+            key="France, Paris">Paris</placeName>
+          <date when="1860-08-19">19 août 1860</date></stamp>
+        <dateline>
+          <pb n="2" xml:id="p2"/>
+          <placeName key="France, Cordès">Cordès</placeName><hi rend="u">, le</hi>
+          <date>18 août</date><note place="bottom">Joséphine de Forget séjournait au château de
+            Cordès chez ses amis depuis le 4 août 1860, comme nous l’apprend <ref type="letter"
+              target="CAC_ED_creteil-ad-2j187-48.xml">sa lettre écrite à Delacroix le 7 août
+            </ref></note></dateline>
+      </opener>
+
+
+      <p>C’est avec bonheur, <persName key="Delacroix, Eugène (1798-1863)">mon cher ami</persName>,
+        que j’ai reçu de vos nouvelles ; je craignais que vous ne fussiez malade ; vous avez bien
+        fait de quitter <placeName key="France, Dieppe">les bords de la mer</placeName><note
+          place="bottom">Delacroix partit le 18 juillet pour Dieppe et rentra à Champrosay à cause
+          du mauvais temps et de son état de santé, le 27 juillet (Hannoosh, <hi rend="it"
+            >Journal</hi>, p. 1354, 1360).</note> où il devait faire bien froid ; ici nous avons de
+        la pluie tous les jours, ce qui est d’autant plus triste que les promenades sont
+        ravissantes : <placeName key="France, Cordès">ce pays de montagnes</placeName> est bien
+        beau, bien pittoresque, il y a des bois dont les arbres sont gigantesques et embellis par
+        des points de vue charmants. Nous menons une vie douce et tranquille. Nous sommes en famille
+        avec quelques personnes agréables et spirituelles. On fait un peu de musique sans
+        prétention, on lit, on joue, je travaille et le temps passe assez vite. <persName
+          key="Forget, Eugène de (1819-1885)">Eugène</persName> n’est pas ici, je l’attends la
+        semaine prochaine et avec lui, nous réglerons <pb n="3" xml:id="p3"/> mon retour à
+          <placeName key="France, Paris">Paris</placeName> ; ce sera, je pense, vers les premiers
+        jours de septembre. En retournant de <placeName key="France, Cordès">Cordès</placeName>, je
+        m’arrêterai un jour chez lui dans une propriété où j’ai habité longtemps pendant mon séjour
+        en <placeName key="France, Auvergne">Auvergne</placeName>, où j’ai été si malheureuse, mais
+        où j’étais si jeune<note place="bottom">En 1817, âgée de 15 ans, Joséphine épousa le baron
+          François Alexandre de Forget dont la famille possédait le château de Pagnant, près de
+          Randan dans le Puy-de-Dôme. Elle passa certainement les premières années de son mariage
+          malheureux dans ce domaine. Son fils aîné, Eugène, hérita de la propriété familiale, où il
+          s’éteignit le 18 février 1885 (<hi rend="it">Annuaire de la noblesse de France et des
+            maisons souveraines de l’Europe</hi>, 1886, p. 263).</note> ! Tous ces souvenirs sont
+        fort tristes, <persName key="Delacroix, Eugène (1798-1863)">mon cher ami</persName>, et je
+        ne puis me consoler qu’avec ma bonne santé, j’en sens tout le prix, et je voudrais,
+          <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName>, que vous eussiez aussi
+          <hi rend="u">cette consolation</hi>. J’espère que l’hiver prochain sera meilleur pour vous
+        que le dernier, d’abord il sera probablement moins froid. Soignez-vous, ne vous fatiguez pas
+        trop au travail. Vous devez être content, <persName key="Delacroix, Eugène (1798-1863)">mon
+          ami</persName>, d’avoir acheté <placeName key="France, Champrosay">votre petite
+          campagne</placeName>, où vous êtes établi confortablement, et le plaisir de la propriété a
+        bien son charme<note place="bottom">Delacroix était propriétaire depuis 1858 de la maison de
+          Champrosay qu’il louait depuis de nombreuses années.</note> ! Moi aussi j’aimerais avoir
+        une charmante campagne, mais la perspective d’y être seule m’ôte <pb n="4" xml:id="p4"/>
+        tout le désir d’en avoir une, d’ailleurs <placeName
+          key="France, Paris, rue de La Rochefoucauld, 19">mon petit jardin de Paris</placeName>
+        suffit à mes goûts<note place="bottom">Joséphine de Forget habitait un hôtel particulier au
+          numéro 19 de la rue de la Rochefoucauld avec un petit jardin. </note>.</p>
+
+
+      <closer>
+        <salute>Si vous n’étiez pas trop paresseux vous seriez bien aimable de me donner encore une
+          fois de vos nouvelles ; lorsque je serai de retour à <placeName key="France, Paris"
+            >Paris</placeName>, je passerai chez vous pour savoir si vous y êtes revenu ; en
+          attendant, <persName key="Delacroix, Eugène (1798-1863)">cher bon ami</persName>, je vous
+          embrasse de tout cœur, et vous envoie toutes mes tendresses les plus sincères.</salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">Baronne de
+          Forget</persName></signed>
+      </closer>
+
+      <postscript>
+        <p>N’irez-vous pas cet automne chez <persName key="Berryer, Pierre-Antoine (1790-1868)">M.
+            Berryer</persName><note place="bottom">Pierre-Antoine Berryer, cousin de Delacroix,
+            était propriétaire d’un château à Augerville dans l’Essonne, où le peintre avait
+            l’habitude de séjourner une fois par an. Toutefois, ses travaux pour terminer le décor
+            de la chapelle de l’église Saint-Sulpice l’empêchèrent cette année-là de s’y
+            rendre.</note> ?</p>
+      </postscript>
+    </body>
+  </text>
+</TEI>

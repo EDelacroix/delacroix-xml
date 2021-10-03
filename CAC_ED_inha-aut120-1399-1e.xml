@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, [vers 1845-46]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA</institution>
+
+            <idno>Autographes, 1399 (1)e</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Claude Roger-Marx, achat en 2003</provenance>
+          </history>
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date notBefore="1845" notAfter="1846"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+      <p>
+        <pb n="1" xml:id="p1"/> Comment allez-vous, <persName key="Delacroix, Eugène (1798-1863)"
+          >mon ami</persName> ? J’envoie savoir de vos nouvelles ; j’avais le projet d’aller ce soir
+        au spectacle avec vous, mais ne pouvant me décider que tard à cause des affiches, et ne
+        sachant pas si vous seriez disposé à y aller, je remets cette partie à lundi prochain, et
+        nous allons partir pour <placeName key="France, Ville d'Avray">mon chalet</placeName><note
+          place="bottom">Dans les années 1840, Joséphine de Forget parle souvent de sa maison de
+          Ville-d’Avray, où elle allait profiter de la campagne à la belle saison.</note> ; <hi
+          rend="u">j’ai soif</hi> de la campagne, et je vais aller prendre possession de mes
+        meubles… J’espère que le temps va s’arranger pour notre petite partie, la semaine prochaine.
+        Nous reviendrons dîner à <placeName key="France, Paris">Paris</placeName> ; si vous n’êtes
+        pas trop souffrant, venez nous voir le soir, ou bien un de ces matins, venez déjeuner <hi
+          rend="u">comme il faut</hi>. <pb n="2" xml:id="p2"/> Je désire vous voir, hélas ! ce
+        bonheur nous arrive bien rarement ! Répondez-moi un mot par Batiste car je suis inquiète de
+        votre estomac, et de votre mal de tête de jeudi dernier</p>
+
+      <closer>
+        <salute>Adieu, <persName key="Delacroix, Eugène (1798-1863)">ami</persName>, je vous aime et
+          vous envoie mille tendresses. Compliments affectueux de la part du <persName
+            key="Querelles, Richard de (1811-1846)"><persName
+              key="Querelles, Hortense de (1812-1851)">ménage de
+            Querelles</persName></persName><note place="bottom">Hortense et Richard de Querelles
+            vécurent chez Joséphine de Forget, comme nous l’apprend <ref type="letter"
+              target="CAC_ED_inha-aut120-1399-1f.xml">une lettre de la baronne, datée du 4 janvier
+              1846 </ref> ainsi que l’acte de décès de Richard de Querelles (Archives nationales,
+            464 AP). La comtesse Hermine de Querelles vécut également chez la baronne de Forget à
+            partir de 1854, mais vraisemblablement seule.</note>. Adieu </salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">Consuelo</persName></signed>
+        <dateline><hi rend="u">Ce samedi</hi> 2 heures<note place="bottom">Il est impossible de
+            dater précisément cette lettre, car les informations qu’elle comporte sont trop
+            imprécises. Toutefois, elle fut très certainement écrite entre 1845, au moment où
+            Richard de Querelles rentre en France après un exil de plusieurs années en Belgique pour
+            s’installer avec sa femme Hortense chez Joséphine de Forget et le 25 juin 1846, date de
+            la mort de Richard de Querelles.</note>.</dateline>
+      </closer>
+
+
+    </body>
+  </text>
+</TEI>

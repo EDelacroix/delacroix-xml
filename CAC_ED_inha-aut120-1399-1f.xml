@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, 4 janvier 1846</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA</institution>
+
+            <idno>Autographes, 1399 (1)f</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="4"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Claude Roger-Marx, achat en 2003</provenance>
+          </history>
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date when="1846-01-04"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+        <correspContext>
+          <ref target="CAC_ED_inha-aut120-1398-4b-1" type="replyTo"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Ce <date when="1846-01-04">4 janvier</date></dateline>
+        <salute><persName key="Delacroix, Eugène (1798-1863)">Mon bon chéri</persName>,</salute>
+      </opener>
+
+
+      <p>j’ai enfin reçu de tes nouvelles hier soir<note place="bottom">Delacroix écrivit depuis
+          Bordeaux une <ref type="letter" target="CAC_ED_inha-aut120-1398-4b-1.xml">lettre à
+            Joséphine de Forget le 1er janvier 1846 </ref>, dans laquelle il lui annonçait la mort
+          de son frère, Charles Delacroix, survenue le 30 décembre 1845.</note>. <persName
+          key="Delacroix, Eugène (1798-1863)">Pauvre ami</persName>, que j’ai pensé à toi, que tu as
+        dû souffrir, que je souffre moi-même de ton chagrin, des émotions cruelles que tu as
+        éprouvées, et de la cruelle journée du vendredi<note place="bottom">La cérémonie funèbre
+          pour le frère de Delacroix eut lieu le vendredi 2 janvier.</note> ! Mon Dieu, combien je
+        désirais être auprès de toi, ma tendresse t’aurait calmé, t’aurait fait du bien, j’en suis
+        persuadée, <persName key="Delacroix, Eugène (1798-1863)">mon pauvre ami</persName> ! Je suis
+        bien malheureuse de voir que mon affection pour toi est si inutile ; obligée de rester chez
+        moi, tranquillement, au milieu de ma famille, où je ne suis pas heureuse, au lieu de courir
+        auprès de toi, de t’entourer de mes soins, de te prodiguer ma tendresse, si vive et si
+        sincère ! Oh ! avoue, <persName key="Delacroix, Eugène (1798-1863)">mon pauvre
+          ami</persName>, que je souffre bien de tes chagrins et de ma position qui m’éloigne de
+        toi, de plus, en <pb n="2" xml:id="p2"/> plus ! hélas ! tu vas nous revenir bien triste,
+        peut-être souffrant, et à peine si je pourrai te voir ! Comment remédier aux difficultés de
+        ma position<note place="bottom">Joséphine de Forget, était la fille du comte de Lavalette
+          et, par sa mère, la petite-nièce de l’impératrice Joséphine de Beauharnais qui était aussi
+          sa marraine. Bien que cousine éloignée de Delacroix, elle se trouvait dans une position
+          sociale bien supérieure à celle du peintre. Les difficultés de sa « position », qu’elle
+          évoque à deux reprises dans sa lettre, renvoient très probablement à son rang social élevé
+          qui l’empêchait d’agir librement. Il est possible que le mariage avec Delacroix fût
+          envisagé, mais il est difficile de savoir si l’empêchement vint principalement de la
+          différence de position sociale entre les deux amants ou du caractère solitaire et
+          indépendant du peintre.</note> ? Je n’en sais rien, c’est à toi à me demander lorsque tu
+        auras besoin de ton amie ! Ici, je m’ennuie plus que jamais, et je crois que je ne serai
+        jamais libre chez moi… <persName key="Querelles, Hortense de (1812-1851)"
+          >Hortense</persName><note place="bottom">Hortense de Querelles, la demi-tante de Joséphine
+          de Forget. </note> ne peut encore habiter son appartement, Dieu sait quand elle ira, quand
+        elle pourra y aller, peut-être jamais ! Au reste, <persName
+          key="Querelles, Hortense de (1812-1851)">la pauvre femme</persName> est la plus
+        malheureuse, mais j’en ai aussi le contrecoup… Elle me charge, ainsi que <persName
+          key="Querelles, Richard de (1811-1846)">son mari</persName><note place="bottom">Le vicomte
+          Richard de Querelles. </note>, de vous témoigner toute leur sympathie, et leur amitié.</p>
+      <p><persName key="Delacroix, Eugène (1798-1863)">Pauvre ami</persName>, comment va ta santé ?
+        Écris-le-moi, j’en suis inquiète. Vas-tu rester longtemps à <placeName
+          key="France, Bordeaux">Bordeaux</placeName> ? Je désire vivement ton retour et cependant,
+        je voudrais que tu y restasses pendant ce froid rigoureux, qui a commencé depuis trois
+        jours ; ce matin, il gèle assez fort, et un voyage par un pareil froid serait bien mauvais
+        pour toi. Peut-être <pb n="3" xml:id="p3"/> ferais-tu mieux d’attendre le dégel, ces froids
+        ne durent jamais bien longtemps, et je le craindrais pour toi, au lieu qu’à <placeName
+          key="France, Bordeaux">Bordeaux</placeName> la température y est plus douce qu’à
+          <placeName key="France, Paris">Paris</placeName>. Mon Dieu, <persName
+          key="Delacroix, Eugène (1798-1863)">ami</persName>, quel malheur que <placeName
+          key="France, Bordeaux">cette ville</placeName> soit si éloignée de <placeName
+          key="France, Paris">Paris</placeName>, si j’avais pu en quelques heures en franchir la
+        distance, que j’aurais été bien vite te serrer dans mes bras, pendant quelques
+        instants !</p>
+      <p>J’ai vu hier <persName key="Gaultron, Hippolyte (après 1805-1878)">M. Gaultron</persName>,
+        mais je n’avais pas encore reçu votre lettre ; il attend de tes nouvelles avec impatience :
+        s’il y a des affaires graves, il te prie de lui écrire, il s’est encore informé, et insiste
+        pour <hi rend="u">n’accepter la succession que sous bénéfice d’inventaire</hi><note
+          place="bottom">Hippolyte Gaultron était cousin par alliance de Delacroix, mais aussi son
+          élève et ami. Le peintre le chargeait alors de ses affaires et lui demanda son aide et ses
+          conseils pour la succession dans une lettre datée 3 janvier 1846 (Joubin, II,
+          p. 249-250).</note> : pardonne-moi, <persName key="Delacroix, Eugène (1798-1863)"
+          >ami</persName>, de te parler d’affaires dans un pareil moment, hélas, ne vont-elles pas
+        encore te donner bien des ennuis, et des tracas ! Heureusement que tu as là des personnes
+        qui vont se charger de tout cela : j’envoie ma lettre à ce conseiller de préfecture, je ne
+        me rappelle plus ton adresse : donne-la-moi la prochaine fois que tu m’écriras et je t’en
+        conjure, <persName key="Delacroix, Eugène (1798-1863)">ami</persName>, réponds-moi <hi
+          rend="u">aussitôt</hi>
+        <pb n="4" xml:id="p4"/> après avoir reçu ma lettre, je suis si inquiète, si impatiente de
+        savoir exactement de tes nouvelles, et surtout ne te mets pas en route par le froid. Tu as
+          <persName key="Le Guillou, Jeanne Marie, dite Jenny (1801-1869)">ta
+          gouvernante</persName><note place="bottom">Jeanne-Marie Le Guillou, appelée Jenny.</note>
+        qui te soigne, et <hi rend="u">matériellement</hi> tu dois être bien. Quant à l’état moral,
+        je le sens comme toi, <persName key="Delacroix, Eugène (1798-1863)">ami</persName>, je
+        souffre de ce que tu souffres, je regrette ainsi que toi <persName>l’ami que tu as
+          perdu</persName>, mais moi, je reste pour t’aimer, pour te consoler, pour adoucir tes
+        chagrins, pour t’aider, enfin, à supporter le poids de cette lourde vie ! J’ai bien besoin
+        aussi de ton affection, <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName>, et
+        que ne puis-je partager ton sort, m’attacher à toi, ne plus te quitter, te soigner,
+        t’embrasser sans cesse ? Tout cela se peut-il ? Hélas ! <persName
+          key="Delacroix, Eugène (1798-1863)">cher ami</persName>, tu ne m’en parles jamais, et
+        peut-être n’en serais-tu pas très heureux ?</p>
+
+
+      <closer>
+        <salute>Adieu, <persName key="Delacroix, Eugène (1798-1863)">ami</persName>, je t’aime et je
+          t’embrasse comme je t’aime : lorsque tu reviendras, je veux te voir <hi rend="u"
+          >seul</hi>, et tu le comprendras aussi bien que moi. Écris-moi, soigne bien ta santé et
+          pense quelquefois à <persName key="Forget, Joséphine de (1802-1886)">ta bonne et unique
+            amie</persName>. </salute>
+        <signed>
+          <persName key="Forget, Joséphine de (1802-1886)">Consuelo</persName>
+        </signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
