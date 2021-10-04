@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, 13 septembre [1858]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA</institution>
+
+            <idno>Autographes, 1399 (1)g</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="4"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Claude Roger-Marx, achat en 2003</provenance>
+          </history>
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date when="1858-09-13"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+        <correspContext>
+          <ref target="CAC_ED_joubin-4-p43" type="replyTo"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <date when="1858-09-13">13 septembre</date></dateline>
+      </opener>
+
+
+      <p>Je suis de retour à <placeName key="France, Paris">Paris</placeName> depuis peu de jours,
+          <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName> ; votre lettre était
+        restée ici, ce qui fait que j’ai été si longtemps sans vous répondre. Hier, me trouvant dans
+        le <placeName key="France, Paris, faubourg Saint-Germain">faubourg
+        Saint-Germain</placeName>, j’ai été jusque <placeName
+          key="France, Paris, rue de Furstenberg, 6">chez vous</placeName><note place="bottom"
+          >Delacroix avait emménagé à la fin de l’année 1857 au 6 rue de Furstenberg.</note> pour
+        savoir si vous étiez revenu, mais vous usez, je le vois, de votre nouvelle position de
+        propriétaire. Vous avez très bien fait d’acheter <placeName key="France, Champrosay">votre
+          petite maison</placeName> que vous connaissez depuis longtemps<note place="bottom">Le 15
+          août, Delacroix acheta la maison de campagne qu’il louait depuis plusieurs années à
+          Champrosay. Il annonça la nouvelle à Joséphine de Forget dans sa <ref type="letter"
+            target="CAC_ED_joubin-4-p43">lettre du 31 août (Joubin, IV, p. 43-44)</ref>.</note>. Ce
+        pays vous plaît, et nous avons tous la bosse de la propriété si développée que vous jouirez
+        beaucoup de votre <hi rend="u">nouvel état.</hi></p>
+      <p>
+        <pb n="2" xml:id="p2"/> Moi, j’ai été passer 15 jours à <placeName key="France, Dieppe"
+          >Dieppe</placeName>, la famille de <persName key="Quiqueran, famille">Quiqueran</persName>
+        y est établie pour quelques mois : j’ai donc été les voir, et admiré la mer ; je me suis
+        tenue en dehors des concerts et des bals, j’ai pris beaucoup de bains d’air, sinon des
+        autres ; je ne me suis pas beaucoup amusée et j’ai retrouvé <placeName
+          key="France, Paris, rue de La Rochefoucauld, 19">mon jardin</placeName> et mes bêtes avec
+        un grand plaisir. Je ne vais pas en jouir longtemps, car le 22 de ce mois, je repartirai
+        pour aller dans <placeName key="France, Vosges">les Vosges</placeName> passer un mois
+        environ. Je me demande pourquoi on quitte son chez soi, qui est bien confortable, pour aller
+        courir ailleurs, au risque de se casser bras et jambes et si on ne ferait pas mieux de
+        rester dans son jardin avec ses bêtes ? <pb n="3" xml:id="p3"/> Mais on veut autre chose que
+        ce que l’on possède. Moi je me fuis, c’est-à-dire je fuis la solitude et je ne m’amuse pas
+        beaucoup cependant, à tous ces changements de lieux.</p>
+      <p>Écrivez-moi, <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName>, avant le 22
+        qui sera de mercredi prochain en huit, que je partirai, et si vous venez avant à <placeName
+          key="France, Paris">Paris</placeName>, faites-le moi dire, j’irai vous faire mes adieux,
+        mais je doute que vous veniez respirer l’air des rues qui est fort mauvais, et le temps est
+        si magnifique que vous allez en jouir et vous ferez bien. Lorsque je vous reverrai, nous
+        parlerons de <placeName key="France, Champrosay">votre propriété</placeName>, des petites
+        améliorations que vous allez faire ; avez-vous un peu de terrain ? Moi, je vais entreprendre
+        une chose assez grosse : vous savez que j’ai acheté du terrain à <placeName
+          key="France, Paris, bois de Boulogne, Madrid">Madrid</placeName><note place="bottom"
+          >Joséphine de Forget posséda un chalet dans le bois de Boulogne, à Madrid (appelé ainsi
+          car il occupait l’ancienne propriété du château du même nom). Elle parle de son chalet
+          dans <ref type="letter" target="CAC_ED_creteil-ad-2j187-37"><ref type="letter"
+              target="CAC_ED_creteil-ad-2j187-39"><ref type="letter"
+                target="CAC_ED_creteil-ad-2j187-40">plusieurs de ses lettres vers
+            1857</ref></ref></ref>. Elle investit certainement dans un nouveau terrain afin d’y
+          élever une petite maison destinée cette fois à la location.</note> à <persName
+          key="Cavé, Marie-Élisabeth, veuve Boulanger (1806?-1883)">Mme Cavé</persName> ? Le terrain
+        ne se vend <pb n="4" xml:id="p4"/> pas maintenant le prix qu’il vaudra plus tard, et pour en
+        tirer parti, je vais bâtir une petite maisonnette, pas pour habiter, Dieu m’en garde ! mais
+        comme location ; toutes ces petites bicoques se louent très cher dans ce pays-là : ma maison
+        me coûtera bon marché quoiqu’elle ne sera pas en bois ; mon amour des chalets ne va pas
+        jusque-là. C’est le bon <persName key="Juan, architecte">M. Juan</persName><note
+          place="bottom">Architecte établi au 59 rue du Château-d’Eau, que Delacroix cite dans son
+          journal car il le rencontra chez Joséphine de Forget (identifié par Hannoosh, <hi
+            rend="it">Journal</hi>, p. 1261, note 209).</note> qui me dirige dans cette entreprise.
+        Cela m’occupe, et m’amuse. Que faire dans ce monde, quand on vieillit ? Mais je ne veux pas,
+          <persName key="Delacroix, Eugène (1798-1863)">mon cher ami</persName>, m’engager dans des
+        réflexions tristes et cruelles. Je suis enchantée que vous ayez bonne et gaie compagnie qui
+        vous distrait sans vous importuner. Jouissez-en le plus possible, sans oublier cependant vos
+        vieux amis, au nombre desquels je me place en première ligne.</p>
+
+
+      <closer>
+        <salute>Je serai bien heureuse de vous revoir<note place="bottom">Delacroix dîna chez
+            Joséphine de Forget avant son départ pour les Vosges, le 19 septembre (Hannoosh, <hi
+              rend="it">Journal</hi>, p. 1261).</note>, et en attendant, je vous envoie mille
+          tendresses tout en vous embrassant comme je vous aime.</salute>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
