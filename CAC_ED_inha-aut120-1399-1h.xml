@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, 15 novembre [1858]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA</institution>
+
+            <idno>Autographes, 1399 (1)h</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="3"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Claude Roger-Marx, achat en 2003</provenance>
+          </history>
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date when="1858-11-15"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <date when="1858-11-15">15 novembre</date></dateline>
+        <salute><persName key="Delacroix, Eugène (1798-1863)">Mon cher ami</persName>,</salute>
+      </opener>
+
+
+      <p>J’arrive de <placeName key="France, Paris, rue de Furstenberg, 6">chez vous</placeName>,
+        mon bouquet de fête sous le bras, car c’est aujourd’hui Saint-Eugène, et j’espérais bien
+        avoir le plaisir de vous voir. J’ai été bien désappointée quand votre concierge m’a dit que
+        maître et gens étaient à <placeName key="France, Champrosay">la campagne</placeName> : le
+        15 novembre ! Voilà ce que c’est que d’être propriétaire ! Quand reviendrez-vous ? Si vous
+        prolongez votre séjour à la campagne, écrivez-moi pour me donner de vos <pb n="2"
+          xml:id="p2"/> nouvelles. <persName key="Laity, Armand (1812-1889)">M. Laity</persName>
+        m’a dit que vous aviez été très bien portant à <placeName key="France, Compiègne"
+          >Compiègne</placeName><note place="bottom">Delacroix eut l’honneur d’être invité par
+          Napoléon III au château de Compiègne. L’empereur y séjournait à l’automne avec sa femme et
+          une centaine d’invités choisis. </note> et que vous aviez été <hi rend="u">assez
+          courtisan</hi> pour suivre la chasse en voiture découverte. Est-ce vrai ? Mais je n’aurais
+        jamais osé vous demander un pareil sacrifice, et bien dangereux pour votre larynx. Enfin,
+        écrivez-moi, et venez vite me voir. Je voulais vous demander de venir dîner <placeName
+          key="France, Paris, rue de La Rochefoucauld, 19">chez moi</placeName> avec quelques amis
+        qui vous plairaient sans vous fatiguer : c’est partie remise, n’est-ce pas ?</p>
+      <p>Mon bouquet de ce matin consiste dans un coffre à bois <pb n="3" xml:id="p3"/> que j’ai
+        fait en tapisserie et qui est destiné pour votre chambre : je vous l’apporterai à votre
+        retour. Adieu, <persName key="Delacroix, Eugène (1798-1863)">mon cher ami</persName>, vous
+        avez dû avoir bien froid, mais bien beau à la campagne ; voici un gâchis épouvantable.</p>
+      <p>J’attends <persName key="Forget, Eugène de (1819-1885)">Eugène</persName><note
+          place="bottom">Fils aîné de Joséphine de Forget qui habitait le château familial de
+          Pagnant en Auvergne.</note> qui est bien long à se décider à venir prendre ses quartiers
+        d’hiver <placeName key="France, Paris, rue de La Rochefoucauld, 19">rue de
+          La Rochefoucauld</placeName>, et cependant, il y a bien longtemps que je ne l’ai vu.</p>
+
+
+      <closer>
+        <salute>Je vous embrasse de cœur, et me hâte de vous envoyer ce griffonnage, pour qu’il
+          parte le 15 ! </salute>
+        <salute>Adieu, <persName key="Delacroix, Eugène (1798-1863)">cher ami</persName>, mille
+          tendresses de cœur</salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">Baronne de
+          Forget</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

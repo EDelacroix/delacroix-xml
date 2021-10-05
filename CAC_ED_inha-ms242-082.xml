@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Joséphine de Forget, 25 octobre [1856]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA</institution>
+
+            <idno>ms. 242, 82</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="3"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Claude Roger-Marx, achat en 2003</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Piron, <hi rend="it">Eugène Delacroix, sa vie et ses</hi> œuvres, 1865,
+            p. 533-534</bibl>
+          <bibl>Escholier, <hi rend="it">Eugène Delacroix et sa « consolatrice »</hi>, 1932,
+            p. 181-182 (édition partielle)</bibl>
+          <bibl>Joubin, III, p. 340-341</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1856-10-25"/>
+          <placeName key="Champrosay"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <placeName key="France, Champrosay">Champrosay</placeName>, <date when="1856-10-25">25
+            octobre</date></dateline>
+      </opener>
+
+
+      <p>Je viens d’arriver ici, <persName key="Forget, Joséphine de (1802-1886)">chère
+          amie</persName>, de <placeName key="France, Augerville">chez <persName
+            key="Berryer, Pierre-Antoine (1790-1868)">Berryer</persName></placeName> chez qui j’ai
+        passé une douzaine de jours<note place="bottom">Delacroix séjourna à Augerville du 11 au 21
+          octobre (Hannoosh, <hi rend="it">Journal</hi>, 2009, p. 1039-1042).</note>. Je n’ai eu
+        votre lettre qu’en arrivant et je vous remercie bien de votre bon souvenir. J’ai été très
+        ballotté depuis que je ne vous ai vue ; tout le commencement du mois, je l’ai passé en
+          <placeName key="France, Champagne">Champagne</placeName> dans le pays de nos pères,
+          <placeName key="France, Ante">chez <persName key="Delacroix, Philogène (1787-1865)">le
+            cousin Delacroix</persName></placeName> que vous vous rappelez sans doute et qui m’a
+        plus d’une fois parlé de vous<note place="bottom">Le 1<hi rend="sup">er</hi> octobre,
+          Delacroix rejoignit Ante où vivait son cousin Philogène Delacroix (Hannoosh, <hi rend="it"
+            >Journal</hi>, 2009, p. 1035). Il repartit le 8 octobre pour Paris en passant par Givry
+          où se trouvait la maison de famille de son père et la tombe de sa grand-mère. Il note dans
+          son journal, sur le chemin, avoir « vu La Neuville-au-Bois, pays des Lavalette »,
+          c’est-à-dire la famille de Joséphine de Forget dont il était cousin éloigné (<hi rend="it"
+            >Ibid.</hi>, p. 1038).</note>. Il y a fort longtemps que je désirais faire ce petit
+        voyage. Je croyais qu’il n’y avait plus que deux Delacroix, c’est-à-dire lui et moi. J’ai
+        acquis l’assurance que le nom n’était pas encore en danger de périr quoique nous n’ayons
+        d’enfants ni l’un ni l’autre. Tout le monde dans le pays originaire de mon père est mon
+        cousin. Au reste, je me suis <pb n="2" xml:id="p2"/> su bon gré d’avoir fait cette excursion
+        et probablement, j’y retournerai, d’autant plus que <placeName key="France, Ante">le
+          pays</placeName> se trouve sur le chemin de <placeName key="France, Strasbourg"
+          >Strasbourg</placeName>, où j’ai d’autres affections<note place="bottom">Delacroix était
+          très lié à Alexandrine Lamey, sa cousine germaine, et à son mari, Auguste Lamey qui
+          habitaient Strasbourg. Après la mort de sa cousine en février 1856, il continua de
+          correspondre avec son « bon cousin » et lui rendit visite à plusieurs reprises.
+        </note>.</p>
+      <p>En revenant de mon voyage, je n’ai passé que deux jours à <placeName key="France, Paris"
+          >Paris</placeName> : c’est dans cet intervalle que j’ai pu assister à l’enterrement de ce
+        pauvre <persName key="Chassériau, Théodore (1819-1856)">Chassériau</persName><note
+          place="bottom">Le 10 octobre (Hannoosh, <hi rend="it">Journal</hi>, 2009, p. 1039).</note>
+        dont la mort avait bien droit de surprendre tout le monde. J’aurais bien changé avec lui
+        pour le lot d’existence probable assigné à chacun de nous.</p>
+      <p><placeName key="France, Augerville">Chez <persName
+            key="Berryer, Pierre-Antoine (1790-1868)">Berryer</persName></placeName> où j’étais
+        attendu plus tôt encore, même bonne réception et esprit excellent : peu de monde, mais
+        belles promenades et tous les agréments d’une habitation comme celle-là<note place="bottom"
+          >Il partit le 11 octobre pour Augerville où il séjourna jusqu’au 21 octobre. Voir le récit
+          de son séjour dans son journal (Hannoosh, 2009, p. 1039-1041).</note>. Me voici maintenant
+          <placeName key="France, Champrosay">ici</placeName> pour quelques jours seulement : je
+        suis rappelé à <placeName key="France, Paris">Paris</placeName>
+        <pb n="3" xml:id="p3"/> par toutes sortes d’affaires<note place="bottom">Delacroix rentra à
+          Paris le 3 novembre (<hi rend="it">Ibid.</hi>, p. 1043).</note> et je serai bien heureux
+        de vous voir ainsi que votre nouvelle installation<note place="bottom">Joséphine de Forget
+          avait vraisemblablement effectué d’importants travaux chez elle, auxquels plusieurs
+          lettres conservées aux archives du Val-de-Marne semblent se rapporter (<ref type="letter"
+            target="CAC_ED_creteil-ad-2j187-41.xml">2J187, pièce 41</ref> et <ref type="letter"
+            target="CAC_ED_creteil-ad-2j187-43.xml">43</ref>). Elle demanda même à Delacroix s’il
+          pouvait lui trouver quelqu’un pour repeindre le plafond de sa chambre à coucher d’un
+          « ciel léger avec de petits nuages ». Voir les lettres de Delacroix à Boulangé du 30
+          novembre et 4 décembre 1856 (Joubin, III, p. 345-346) ainsi que <ref type="letter"
+            target="CAC_ED_creteil-ad-2j187-41.xml">la lettre de Joséphine de Forget </ref>.</note>.
+        Je suis moi-même à moitié installé ; il faut que je prenne tout à fait racine<note
+          place="bottom">Delacroix évoque sa nouvelle installation dans son appartement, toujours
+          rue Notre-Dame-de-Lorette dans une lettre à son cousin Auguste Lamey, du 8 novembre 1856
+            <ref type="letter" target="CAC_ED_inha-ms238-25.xml"
+          >bibliothèque de l'INHA, ms. 238, 25</ref>.</note>.</p>
+
+
+      <closer>
+        <salute>Adieu, <persName key="Forget, Joséphine de (1802-1886)">chère amie</persName>, je
+          vous renouvelle mes remerciements de votre bonne lettre et aspire au moment d’aller
+          moi-même vous raconter tous les détails de mes aventures. </salute>
+        <salute>Tout à vous bien sincèrement,</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Joséphine de Forget, 3 août 1854</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA</institution>
+
+            <idno>ms. 242, 64</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="3"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Claude Roger-Marx, achat en 2003</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Escholier, <hi rend="it">Eugène Delacroix et sa « consolatrice »</hi>, 1932,
+            p. 176-177 (éd. partielle)</bibl>
+          <bibl>Joubin, III, p. 218-219</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1854-08-03"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <placeName key="France, Paris">Paris</placeName>. <date when="1854-08-03">Ce 3
+          août</date></dateline>
+        <salute><persName key="Forget, Joséphine de (1802-1886)">Chère amie</persName>,</salute>
+      </opener>
+
+
+      <p>Je n’ai pas été à <placeName key="France, Champrosay">Champrosay</placeName>, de sorte que
+        votre lettre a été m’y chercher et que je l’ai reçue plus tard ici<note place="bottom"
+          >Delacroix avait en effet prévu de partir pour Champrosay fin juillet puisqu’il note à la
+          date du 22 juillet dans son journal : « Emporter à la campagne les <hi rend="it">Alken.
+            –</hi> Casquette légère, brosse à dents » (Hannoosh, 2009, p. 795).</note>. Mes projets
+        ont été dérangés par la nécessité où je me suis trouvé d’être à <placeName
+          key="France, Paris">Paris</placeName> pour affaires qui me retiendront probablement
+        jusqu’au 15<note place="bottom">Dans son journal, Delacroix évoque le 1<hi rend="sup"
+            >er</hi> août une commission à la préfecture de Police, le 3 août un rendez-vous avec
+          l’abbé Coquant, car le peintre essayait d’obtenir l’autorisation de travailler le dimanche
+          à Saint-Sulpice et le 4 août il assista à un conseil à l’Hôtel de Ville (Hannoosh, 2009,
+          p. 800-801). Il eut plusieurs rendez-vous et fit plusieurs courses, outre ses travaux de
+          peinture qu’il évoque dans son journal, avant de partir finalement pour Dieppe le 17 août
+            (<hi rend="it">Ibid</hi>., p. 810).</note>. Je ne sais plus même si j’irai à <placeName
+          key="France, Champrosay">Champrosay</placeName>, ni où j’irai, ni si j’irai quelque part.
+        J’ai pris le parti, étant retenu ainsi, d’ébaucher <rs type="work" key="">mon grand tableau
+          de l’Exposition</rs><note place="bottom">Pour l’Exposition universelle, l’État commanda un
+          tableau à Delacroix. Il choisit de peindre une <hi rend="it">Chasse aux lions</hi> (J198),
+          à laquelle il travailla à partir de la fin du mois de juillet 1854, comme il le note dans
+          son journal et l’indique à Joséphine de Forget dans cette lettre. </note>, ce qui
+        m’avancera toujours pour cet hiver.</p>
+      <p>Je ne doute pas que vous n’ayez été satisfaite du séjour d’<placeName key="Allemagne, Ems"
+          >Ems</placeName><note place="bottom">Joséphine de Forget partit le 22 juillet pour Ems
+          (aujourd’hui Bad Ems, ville d’eau appréciée de l’aristocratie au XIX<hi rend="sup">e</hi>
+          siècle), comme l’indique Delacroix dans son journal (Hannoosh, 2009, p. 794). En juillet
+          1850, le peintre avait également effectué un séjour à Ems pour se soigner, mais il en
+          avait profité pour visiter la région et notamment les musées et les édifices conservant
+          des peintures des grands maîtres, notamment de Rubens dont il s’inspira pour la <hi
+            rend="it">Chasse aux lions</hi> (J198) qu’il esquissait au moment de cette lettre.
+        </note> : ce serait vraiment délicieux si on n’y rencontrait pas les gens du monde et ceux
+        des quatre parties du monde. Tous ces niais en toilette, au milieu de cette agréable <pb
+          n="2" xml:id="p2"/> nature, me font préférer un endroit tout plat où on ne rencontre ni
+        ces Allemands ni ces Français de salon dont la vue refroidit beaucoup l’enthousiasme.
+        Avez-vous remonté un peu le cours de <placeName key="Allemagne, Lahn">la Lahn</placeName>
+        (c’est la rivière) au-dessus du pont de bateaux : vous verrez des prairies et des sites
+        délicieux. Ces petites montagnes sont faciles à gravir et on pourrait avoir là une existence
+        assez douce. Vous faites bien d’aller voir <placeName key="Allemagne, Baden"
+          >Baden</placeName> : on en dit des merveilles.</p>
+      <p>J’ai eu des nouvelles d’<persName key="Forget, Eugène de (1819-1885)">Eugène</persName>,
+        qui va bien. Je me propose, un de ces soirs, d’aller lui dire un petit bonjour à l’issue de
+        son dîner. Ma vie est toujours la même et depuis votre départ je n’ai vu ni <persName
+          key="Chabrier de Peloubet, François de (1789-1871)">Chabrier</persName> ni <persName
+          key="Vieillard, Narcisse (1791-1857)">Vieillard</persName>. Je commence à m’ennuyer.
+        J’aurais besoin d’un peu <pb n="3" xml:id="p3"/> de variété pour sortir de la torpeur qui
+        commence à me gagner : peut-être la mer, peut-être même l’<placeName key="Italie"
+          >Italie</placeName>. Comme j’ai un peu de loisir, cette idée m’a traversé la tête, mais ma
+        paresse s’effraye d’un si long voyage<note place="bottom">Delacroix partit finalement pour
+          Dieppe (voir note 1). Il évoquait régulièrement son désir de découvrir l’Italie mais
+          n’effectua jamais le voyage.</note>.</p>
+      <p>Jouissez bien, <persName key="Forget, Joséphine de (1802-1886)">chère amie</persName>, de
+        ces objets qui ressemblent peu à ce que nous voyons tous les jours et qui rafraîchissent un
+        peu nos idées. Je suis affligé de ce que vous me dites de votre toux : ce ne sont pas les
+        quinze jours que vous passerez là qui vous guériront : le verre d’eau tiède que vous prenez
+        le matin est pour obéir au préjugé. Vous feriez mieux de faire un bon déjeuner.</p>
+
+
+      <closer>
+        <salute>Adieu, <persName key="Forget, Joséphine de (1802-1886)">chère amie</persName>, votre
+          lettre m’a fait beaucoup de plaisir et j’en aurai un très grand à vous revoir. Il est
+          probable que vous me trouverez encore à <placeName>Paris</placeName>.</salute>
+        <salute>Je vous envoie mille vraies tendresses.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eu. Delacroix</persName></signed></closer>
+
+      
+    </body>
+  </text>
+</TEI>

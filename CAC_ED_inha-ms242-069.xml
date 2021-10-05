@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Joséphine de Forget, 20 janvier 1855</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA</institution>
+
+            <idno>ms. 242, 69</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="3"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Claude Roger-Marx, achat en 2003</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, III, p. 241-242</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1855-01-20"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <date when="1855-01-20">Ce 20 janvier 1855</date></dateline>
+        <salute><persName key="Forget, Joséphine de (1802-1886)">Chère amie</persName>,</salute>
+      </opener>
+
+
+      <p>Vous auriez eu une lettre de moi depuis plus de quinze jours, mais j’ai fait comme vous
+        faites malheureusement à présent, j’ai été malade et je commence à me remettre. Qu’avez-vous
+        été faire en <placeName key="Italie">Italie</placeName> au lieu de passer votre hiver à
+          <placeName key="France, Paris">Paris</placeName>, où l’on se chauffe, et dans <placeName
+          key="France, Paris, rue de La Rochefoucauld, 19 ">votre bonne maison</placeName> si
+        agréable ? <persName key="Mareste, Apollinaire Louis Adolphe, baron de (1784-1867)"
+          >Mareste</persName><note place="bottom">Ami de Delacroix. </note> m’a écrit que vous étiez
+        très souffrante : je lui ai demandé votre adresse pour vous écrire la part que j’y prends du
+        fond du cœur. Voilà que j’ai perdu sa lettre et je vais prendre le parti de lui envoyer
+        celle-ci pour qu’il ait la bonté de vous la faire parvenir.</p>
+      <p>Si vous le pouvez sans vous fatiguer, <persName key="Forget, Joséphine de (1802-1886)"
+          >chère amie</persName>, dites-moi comment vous allez, si vous pouvez <pb n="2" xml:id="p2"
+        /> être soignée dans le lieu où vous êtes. Vous avez toujours eu beaucoup de prédilection
+        pour les médecins : j’espère que vous en aurez trouvé un qui vous convienne par-delà les
+        monts.</p>
+      <p>Je m’étais mis pendant toute la belle saison à la meilleure des médecines : j’avais couru
+        en plein air, au bord de la mer, ne travaillant pas trop, retardant le plus possible
+        l’instant de revenir<note place="bottom">L’année précédente, Delacroix avait séjourné du 17
+          août au 26 septembre à Dieppe. Après un bref passage à Paris, il repartit à Champrosay le
+          8 octobre où il resta jusqu’à son départ pour Augerville, chez son cousin, le 23 octobre.
+          Il ne rentra à Paris qu’à la mi-novembre. </note>. Je ne suis effectivement revenu que
+        très tard et à peine remis à la besogne, la grippe ou la fatigue m’ont mis dans un état de
+        malaise et d’abattement qui m’a arriéré pour un mois dans mes travaux<note place="bottom"
+          >Delacroix travaillait alors essentiellement à ses tableaux pour l’Exposition universelle,
+          notamment <hi rend="it">Les Deux Foscari</hi> (J317) et <hi rend="it">La Chasse aux
+            lions</hi> (J198). Voir Hannoosh, <hi rend="it">Journal</hi>, 2009, t. 1,
+        p. 884.</note>. Suivant mon habitude, j’avais entrepris beaucoup : le travail me tient lieu
+        de presque toutes les distractions, mais <pb n="3" xml:id="p3"/>il ne faut pas en trop
+        prendre, pas plus que de tout ce qui plaît.</p>
+      <p>Revenez donc plus tôt, <persName key="Forget, Joséphine de (1802-1886)">chère
+          amie</persName>, à moins des raisons les plus graves : il me semble que vous serez mieux
+        chez vous que partout ailleurs. Quoique je sois assez ennemi de moi-même pour ne pas vous
+        voir souvent, un mot de temps en temps, la vue d’un ami rend le courage et soutient contre
+        les maux et les traverses.</p>
+
+
+      <closer>
+        <salute>Je vous envoie donc ici tous les vœux que je forme pour vous qui m’avez toujours
+          montré un attachement si vrai et que je n’oublierai jamais, <persName
+            key="Forget, Joséphine de (1802-1886)">chère amie</persName>. Je vous embrasse
+          tendrement ici en espérant de pouvoir le faire réellement et avec bonheur quand vous serez
+          de retour<note place="bottom">Le 2 février, Delacroix nota dans son journal avoir dîné
+            avec Joséphine de Forget (Hannoosh, 2009, p. 881). Elle rentra donc peu de temps après
+            l’envoi de la lettre de Delacroix.</note>.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

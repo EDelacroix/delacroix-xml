@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Joséphine de Forget, 8 juillet [1855]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA</institution>
+
+            <idno>ms. 242, 73</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Claude Roger-Marx, achat en 2003</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, III, p. 273-274</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1855-07-08"/>
+          <placeName key="France, Champrosay"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <placeName key="France, Champrosay">Champrosay</placeName>, ce <date when="1855-07-08">8
+            juillet</date></dateline>
+
+
+        <salute><persName key="Forget, Joséphine de (1802-1886)">Chère amie</persName>,</salute>
+      </opener>
+
+
+      <p>Je comptais depuis quelques jours revenir au lieu de vous écrire, mais non seulement je
+        reste encore quelques jours, séduit par le beau temps et forcé de finir deux ou trois petits
+          tableaux<note place="bottom">Delacroix indique dans son journal travailler alors à la <hi
+            rend="it">Chasse aux lions</hi> (J199) et à <hi rend="it">Hamlet et Polonius</hi> (J319
+          selon Michèle Hannoosh, voir <hi rend="it">Journal</hi>, 2009, p. 919).</note>, mais
+        encore je suis sur le point d’aller passer <placeName key="France, Augerville">chez
+            <persName key="Berryer, Pierre-Antoine (1790-1868)">Berryer</persName></placeName> trois
+        ou quatre jours, dans l’impossibilité probable où je me trouverai sans doute d’y aller plus
+          tard<note place="bottom">Il séjourna à Augerville chez Berryer du 12 au 18 juillet (voir
+            <hi rend="it">Journal</hi>, 2009, p. 920-926).</note>. Voilà bien du libertinage. On ne
+        peut se faire une idée de la beauté de la campagne dans ce moment, c’est une compensation
+        aux longs jours de mauvais temps que j’ai eus dans le commencement de mon séjour. Je vous
+        applaudis fort d’aller faire un voyage<note place="bottom">Joséphine de Forget se rendit à
+          Pau durant l’été 1855 chez Armand Laity préfet des Basses-Pyrénées. Ami et parent de la
+          baronne, il était veuf d’Hortense de Querelles. Une lettre de Joséphine de Forget à Laity,
+          datée du 16 juillet, donne des détails sur son projet de voyage (AN, 464 AP). Delacroix
+          évoque ce séjour qu’elle fit à Pau dans ses lettres du 17 juillet et 16 août (Joubin, III,
+          p. 275-276 et 282-283).</note>. Vous devez <pb n="2" xml:id="p2"/> en avoir grand besoin
+        après vos tristes émotions<note place="bottom">La mère de Joséphine de Forget, Émilie de
+          Lavalette, était morte le 18 juin. Delacroix fit un long récit de son enterrement (voir
+            <hi rend="it">Journal</hi>, 2009, p. 914-916).</note>. Je n’ai pu résister à reculer
+        encore <rs type="work" key="chapelle des Saints-Anges, église Saint-Sulpice">mes grands
+          travaux</rs><note place="bottom">Le décor de la chapelle des Saints-Anges à
+          Saint-Sulpice.</note> et à me priver de quelques distractions. La vie est si triste en
+        général qu’il est bien hardi de reculer indéfiniment les rares occasions d’avoir quelque
+        plaisir. J’ai ici de la société pour me distraire les soirs de ma solitude : malheureusement
+          <persName key="Villot, Pauline Florimonde Barbier, épouse (1812-1875)"><persName
+            key="Barbier, Florimonde Élisabeth Nicod de la Serve, épouse (1818-1894)">ces
+            dames</persName></persName> sont arrivées ici tout dernièrement, de sorte que je ne
+        jouirai pas longtemps du voisinage<note place="bottom">Delacroix évoque dans son journal son
+          voisinage qu’il fréquente, notamment Mmes Barbier et Villot. Au lundi 2 juillet, il note :
+          « Tour dans le jardin avec ces dames avant dîner. Après le dîner, causerie dans le parc ;
+          bref, je m’amuse. La société des femmes a toujours, malgré ma retraite un charme infini ».
+            (<hi rend="it">Journal</hi>, 2009, p. 919).</note>.</p>
+      <p>Je calcule que je serai à <placeName key="France, Paris">Paris</placeName> vers le 18.
+        Aussitôt mon retour, j’irai vous voir si vous n’êtes pas encore partie. Si vous vous
+        absentiez, vous m’écririez et me donneriez votre adresse.</p>
+
+
+      <closer>
+        <salute>Adieu, <persName key="Forget, Joséphine de (1802-1886)">chère</persName>, mille
+          bonnes amitiés.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">E. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
