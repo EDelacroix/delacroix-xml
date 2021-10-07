@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, 16 [octobre 1854]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage (d’après Escholier)</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country/>
+            <settlement/>
+            <institution/>
+
+
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Escholier, <hi rend="it">Delacroix et les femmes</hi>, 1963, p. 214</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date when="1854-10-16"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>Ce lundi 16<note place="bottom">Ce lettre fut vraisemblablement écrite le 16
+            octobre 1854. En effet, Joséphine de Forget indique que Delacroix ne rentrera pas avant
+            le 1<hi rend="sup">er</hi> novembre ce qui permet de situer la lettre le mois précédent,
+            et la seule année où le 16 octobre tomba un lundi et auxquels correspondent le ton et
+            les différentes informations de la lettre, dont la maladie du fils de Joséphine de
+            Forget, est l’année 1854. </note>.</dateline>
+      </opener>
+
+
+      <p>J’ai regretté, <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName>, de ne pas
+        vous voir avant votre départ pour <placeName key="France, Champrosay">la
+          campagne</placeName>, mais j’ai fort bien compris que vous aviez besoin du bon air de la
+        campagne, où vous avez joui du plus beau temps du monde. Moi aussi ce beau soleil m’a
+        poussée hors de <placeName key="France, Paris">Paris</placeName>, ayant une occasion pour
+        aller à <placeName key="France, Tours">Tours</placeName>, j’ai été y passer trois jours, et
+        un jour à <placeName key="France, Blois">Blois</placeName>, en revenant ici. J’ai été
+        enchantée de ce petit voyage, j’ai été visiter le <placeName
+          key="France, château de Chambord">château de Chambord</placeName>, qui est bien curieux et
+        bien intéressant à connaître. J’aurais bien désiré aller à <placeName
+          key="France, château de Chenonceau">Chenonceau</placeName> et à <placeName
+          key="France, Amboise">Amboise</placeName>, je n’en ai pas eu le temps. Le <placeName
+          key="France, château de Blois">château de Blois</placeName>, dans la ville même, est aussi
+        fort curieux. Si vous ne connaissez pas cet endroit de la <placeName key="France"
+          >France</placeName>, je vous engage fort à faire ce petit voyage le printemps prochain ;
+        en chemin de fer toutes ces petites excursions sont bien faciles et pas fatigantes.</p>
+      <p>Je crois, <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName>, que l’hiver
+        nous arrive avec toute sa tristesse et ses frimas ; c’est comme la vieillesse qui succède à
+        nos jeunes et belles années ! Lorsque nous mangions de bonnes salades <hi rend="u">à
+          l’ail</hi>
+        <placeName key="France, rue Richepance">rue Richepance</placeName> et <placeName
+          key="France, rue de Matignon">rue Matignon</placeName> avec <persName
+          key="Lavallette, Antoine Chamans, comte de (1769-1830)">mon excellent père</persName>,
+        nous n’avions pas de regrets et nous avions de grands moments de bonheur ! Il nous faut
+        aujourd’hui une grands philosophie pour nous consoler de tous ces beaux jours passés !</p>
+      <p>La santé est maintenant l’affaire importante, soignez-vous, et prenez quelques plaisirs
+        avec vos amis. Vous ne nous reviendrez pas avant le 1<hi rend="sup">er</hi> novembre,
+        donnez-moi quelquefois de vos nouvelles, jusque-là ; je serai enchantée de savoir que vous
+        vous portez bien, et que vous vous plaisez où vous êtes, <persName>mon ami</persName>.</p>
+      <p>Quant à moi, ma vie est comme vous la connaissez, bien triste, bien décourageante. J’ai été
+        aujourd’hui passer la journée avec <persName key="Forget, Émilien de (1822-1857)">mon pauvre
+          malade</persName><note place="bottom">Émilien de Forget, le fils de Joséphine, était
+          malade depuis plusieurs années. Elle parle régulièrement de ses problèmes de santé dans
+          ses lettres. </note>, qui est toujours aussi bien que possible. J’attends demain la visite
+        de <persName key="Dufay, Émilie Tirman, épouse (1821-1900)">Mme Dufay</persName>, que vous
+        avez vue chez moi, elle va rester quelques jours ici, ce qui me fait grand plaisir.</p>
+      <p>J’ai appris que <persName key="Vieillard, Narcisse (1791-1857)">notre ami
+          Vieillard</persName> était établi à <placeName key="France, Saint-Cloud"
+          >Saint-Cloud</placeName> ; <hi rend="u">l’auberge</hi> y est bonne.</p>
+      <p>Je ne suis pas retournée <placeName key="France, Théâtre-Italien">aux Italiens</placeName>
+        depuis le jours que nous y avons été ensemble : quelle bonne soirée, et quelle ravissante
+          musique<note place="bottom">Delacroix nota dans son journal, au 7 octobre, avoir assisté
+          le mardi précédent (3 octobre) à une représentation de <hi rend="it">Sémiramis</hi> de
+          Rossini avec Joséphine de Forget (Hannoosh, 2009, p. 850). Delacroix partit le lendemain
+          pour Champrosay.</note> ! le souvenir m’en est resté doux au cœur.</p>
+
+
+      <closer>
+        <salute>Adieu bon et <persName key="Delacroix, Eugène (1798-1863)">cher ami</persName>, je
+          vous souhaite du beau temps, une bonne santé, et je vous embrasse de cœur, en attendant le
+          plaisir de vous revoir.</salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">J. de Forget</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

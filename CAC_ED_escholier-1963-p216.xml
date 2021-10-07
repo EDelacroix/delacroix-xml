@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, s.d.</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage (d’après Escholier)</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country/>
+            <settlement/>
+            <institution/>
+
+
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Escholier, <hi rend="it">Delacroix et les femmes</hi>, 1963, p. 216</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>Ce vendredi matin.</dateline>
+      </opener>
+
+
+      <p>Je vous renvoie votre dernière revue, <persName key="Delacroix, Eugène (1798-1863)">mon
+          ami</persName>, je ne puis aller vous faire mes adieux aujourd’hui, mais peut-être ne
+        partez-vous pas demain pour <placeName key="France, Champrosay">la
+        campagne</placeName> ?</p>
+      <p>Les temps est bien froid, et quand vous serez bien établi à <placeName
+          key="France, Champrosay">la campagne</placeName>, venez quelquefois à <placeName
+          key="France, Paris">Paris</placeName>, et dînez avec moi, j’en serai bien heureuse !</p>
+      <p>Je vais aujourd’hui dîner sur le quai…</p>
+
+
+      <closer>
+        <salute>Je vous aime et vous embrasse de cœur, <persName key="Delacroix, Eugène (1798-1863)"
+            >mon cher ami</persName>.</salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">J. de Forget</persName></signed>
+      </closer>
+
+      <postscript>
+        <p>Ma cousine est partie et je me trouve bien seule<note place="bottom">Nous n’avons pas
+            réussi à identifier la cousine évoquée ici par Joséphine de Forget. Hortense de
+            Querelles qui était sa demi-tante, mais que Joséphine de Forget appelait sa cousine, est
+            mentionnée dans les courriers à Delacroix par son nom ou son prénom, donc il est peu
+            probable qu’il s’agisse ici d’elle. <ref type="letter"
+              target="CAC_ED_creteil-ad-2j187-50.xml">Dans une autre lettre, non datée, conservée
+              aux Archives du Val-de-Marne</ref>, la baronne parle également de sa cousine qui alors
+            souhaitait visiter l’atelier de Delacroix.</note> !</p>
+      </postscript>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, [vers 1844-46]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage (d’après Escholier)</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country/>
+            <settlement/>
+            <institution/>
+
+
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Escholier, <hi rend="it">Delacroix et les femmes</hi>, 1963, p. 206</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date notBefore="1844"/>
+          <date notAfter="1846"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+      <p>Je t’envoie, <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName>, les deux
+        fichus que tu m’as demandés, et en même temps, je veux t’exprimer combien j’ai été heureuse
+        hier ! Je t’en conjure, <persName key="Delacroix, Eugène (1798-1863)">ami</persName>,
+        n’oublions pas notre amour, et ayons quelquefois de ces moments de bonheur qui nous
+        consolent de tous nos ennuis, de tous nos chagrins. Quant à moi, je ne vis que par toi, que
+        pour toi, et tout le reste m’est bien indifférent !… Je t’ai quitté hier si émotionnée que
+        j’ai eu de la peine à retrouver mon chemin et une place de fiacre. Cependant, rassure-toi,
+        je suis rentrée à 6 heures, et j’ai été le soir chez <persName>Mme Vieillard</persName>, où
+        j’aurais bien voulu te voir : il y avait peu de monde, et par conséquent moins d’ennuyeux
+        que les autres jours. <persName key="Riesener, Laure Peytouraud, épouse (1822-1900)">Mme
+          Riesener</persName> avait fait dire le matin à <persName
+          key="Vieillard, Éliza Caroline Huet, épouse (1797-1847)">Mme Vieillard</persName> qu’elle
+        ne pouvait venir, parce que <persName key="Riesener, Léon (1808-1878)">son mari</persName>
+        était fort pressé pour son tableau, et qu’il était même obligé de travailler le soir.</p>
+      <p>Je crains, <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName>, d’être obligée
+        de sortir samedi, mais alors, je te verrais le dimanche, je t’écrirai pour cela samedi.
+        As-tu pensé un peu à moi hier soir ? Mon souvenir te restera dans ta petite chambre, ce qui
+        te la fera aimer davantage.</p>
+
+      <closer>
+        <salute>Adieu, <persName key="Delacroix, Eugène (1798-1863)">ami</persName>, je t’embrasse
+          et te serre sur mon cœur, en pensant à notre amour !</salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">Ta Consuelo</persName><note
+            place="bottom">Le surnom de « Consolation » ou « Consuelo » donné à Joséphine se
+            retrouve dans leur correspondance conservée entre 1844 et 1846, s’inspirant très
+            certainement du titre du roman de Georges Sand publié en 1843. Cela nous permet donc de
+            proposer une datation approximative de cette lettre. </note></signed>
+      </closer>
+
+
+    </body>
+  </text>
+</TEI>
