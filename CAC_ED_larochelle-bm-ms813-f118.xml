@@ -87,7 +87,9 @@
 
       <opener>
         <dateline>
-          <pb n="1" xml:id="p1"/> Ce <date when="1859-05-24">24 mai 1859</date></dateline>
+          <pb n="1"
+            facs="https://api.nakala.fr/iiif/10.34847%2Fnkl.ea854009/530146e519abd6e287e5995570f561882b7b85ff/full/full/0/default.jpg"
+          /> Ce <date when="1859-05-24">24 mai 1859</date></dateline>
         <salute>Monsieur<note place="bottom">Il s’agit vraisemblablement du conservateur du Musée de
             La Rochelle, désireux d’acquérir la dernière version du <hi rend="it">Saint
               Sébastien</hi> peint en 1858 par Delacroix et présenté au Salon l’année
