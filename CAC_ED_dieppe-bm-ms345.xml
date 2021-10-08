@@ -59,7 +59,8 @@
         </msDesc>
         <listBibl>
           <bibl>Joubin, III, p. 78-79.</bibl>
-          <bibl>Escholier, <hi rend="it">Eugène Delacroix et sa « Consolatrice »</hi>, 1932, p. 84-85.</bibl>
+          <bibl>Escholier, <hi rend="it">Eugène Delacroix et sa « Consolatrice »</hi>, 1932, p.
+            84-85.</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
@@ -88,7 +89,8 @@
       <opener>
         <address>
           <addrLine>
-            <pb n="Enveloppe"/>
+            <pb n="Enveloppe1"
+              facs="https://api.nakala.fr/iiif/10.34847/nkl.44debzj5/c82f50f3d6157d23d8be3376b2a74723909a271d/full/full/0/default.jpg"/>
             <persName key="Forget, Joséphine de (1802-1886)">Madame la Baronne de
             Forget</persName></addrLine>
           <addrLine><placeName key="France, Paris, rue de La Rochefoucauld, 19">rue de La
@@ -96,11 +98,14 @@
         </address>
         <stamp><placeName key="France, Dieppe">Dieppe</placeName>, <date when="1851-09-03">3
             septembre 1851</date></stamp>
+        <pb n="Enveloppe2"
+          facs="https://api.nakala.fr/iiif/10.34847/nkl.44debzj5/d7e289f226f96d6b30a8069264211df82ea7a802/full/full/0/default.jpg"/>
         <stamp><placeName key="France, Le Havre">Ligne-du-Havre</placeName>, <date when="1851-09-04"
             >4 septembre 1851</date></stamp>
         <dateline>
-          <pb n="1" xml:id="p1"/>
-          <placeName key="France, Dieppe">Dieppe</placeName>, <date when="1851-09_03">3
+          <pb n="1"
+            facs="https://api.nakala.fr/iiif/10.34847/nkl.44debzj5/97534e55103dc861711daa3a9915d2364096f498/full/full/0/default.jpg"/>
+          <placeName key="France, Dieppe">Dieppe</placeName>, <date when="1851-09-03">3
             septembre</date></dateline>
         <salute><persName key="Forget, Joséphine de (1802-1886)">Chère amie,</persName></salute>
       </opener>
@@ -115,7 +120,8 @@
         arrivé, de sorte que pensant à aller ailleurs pour employer le temps que j’ai pour mes
         petites vacances, je ne savais où vous dire de m’adresser une réponse. À présent, je pense
         que je resterai ici où je me suis logé et acclimaté jusqu’au 10 ou au 12 de sorte que je
-        vous prie de m’y écrire <pb n="2" xml:id="p2"/>
+        vous prie de m’y écrire <pb n="2"
+          facs="https://api.nakala.fr/iiif/10.34847/nkl.44debzj5/1ede4cd407c088a8bf51e3102e55a989e40bb58f/full/full/0/default.jpg"/>
         <hi rend="u">poste restante</hi>. Donnez-moi de vos nouvelles, <persName
           key="Forget, Joséphine de (1802-1886)">chère amie</persName>. Vous étiez bien au moment de
         mon départ et je pense que ce mieux se sera soutenu. Je trouve la nature encore si belle que
@@ -125,33 +131,35 @@
         sur la jetée si la mer est haute pour voir entrer et sortir les bâtiments. Les élégants me
         gâtent un peu ce séjour. J’avoue même que c’est la vue de ces tailles pincées et de ces
         poupées mâles et femelles qui m’avaient donné envie d’aller dans un lieu plus ignoré de ces
-        animaux-là. <pb n="3" xml:id="p3"/> Mais je m’y suis fait. Je me console avec les bonnes
-        figures des matelots et avec l’odeur du goudron et de la mer. Il faudra bientôt, au train
-        dont j’y vais, que je me commande un habit d’Arménien comme mon ennemi Jean-Jacques. J’aurai
-        bien du plaisir, <persName key="Forget, Joséphine de (1802-1886)">bonne amie</persName>, une
-        fois de retour, à vous conter mes impressions de voyage dans ce lieu qui me rappelle
-        l’époque charmante de notre petit séjour au <placeName key="France, Le Tréport"
-          >Tréport</placeName><note place="bottom">Joubin a daté ce séjour au Tréport d’août 1838,
-          grâce à une <ref type="letter" target="CAC_ED_louvre-A571.xml">lettre écrite par Delacroix
-            à son ami Pierret le 5 septembre 1838</ref>, dans laquelle il évoque son voyage entre
-          Dieppe, Le Tréport et Fécamp. Toutefois, la relation amoureuse qu’il entretenait avec
-          Joséphine de Forget était alors secrète et aucune lettre de cette époque ne mentionne
-          explicitement son escapade amoureuse. Toutefois, <ref type="letter"
-            target="CAC_ED_inha-ms236-08">dans une lettre à George Sand</ref> également écrite le
-          5 septembre après son séjour avec Joséphine au Tréport et alors qu’il était à Valmont, ses
-          sentiments semblaient plus partagés que treize ans plus tard. Comme le commente Joubin, il
-          y a de fortes chances pour que ces mots adressés à George Sand évoquent son amante et leur
-          relation : « Vous n’êtes ni une précieuse ni une coquette. Vous estimez à sa juste valeur
-          la sotte tactique de mon sexe comme du vôtre dans cette guerre qu’ils appellent l’amour. »
-        </note>. Vous vous rappelez qu’en vous quittant je passai un jour ou deux à <placeName
-          key="France, Dieppe">Dieppe</placeName> pour avoir une diligence qui allait à <placeName
-          key="France, Fécamp">Fécamp</placeName>. Tout cela est envolé, bien des personnes chères
-        ne sont plus de ce monde depuis lors et qu’est-ce que nous devenons nous-mêmes ? Mais enfin,
-        il ne faut pas trop s’attrister sur ce qui est irréparable et penser plutôt à vivre <pb
-          n="4" xml:id="p4"/> doucement dans le présent. Soignez-vous toujours bien. Vos
-        indispositions n’auront pas de suite et ne doivent pas vous inquiéter. Pour moi, je me porte
-        à merveille : je ne travaille pas et je ne crains pas les visites, que de raisons pour
-        végéter tranquillement.</p>
+        animaux-là. <pb n="3"
+          facs="https://api.nakala.fr/iiif/10.34847/nkl.44debzj5/729781cd3a47f59a3adde22ad5c22935713decc4/full/full/0/default.jpg"
+        /> Mais je m’y suis fait. Je me console avec les bonnes figures des matelots et avec l’odeur
+        du goudron et de la mer. Il faudra bientôt, au train dont j’y vais, que je me commande un
+        habit d’Arménien comme mon ennemi Jean-Jacques. J’aurai bien du plaisir, <persName
+          key="Forget, Joséphine de (1802-1886)">bonne amie</persName>, une fois de retour, à vous
+        conter mes impressions de voyage dans ce lieu qui me rappelle l’époque charmante de notre
+        petit séjour au <placeName key="France, Le Tréport">Tréport</placeName><note place="bottom"
+          >Joubin a daté ce séjour au Tréport d’août 1838, grâce à une <ref type="letter"
+            target="CAC_ED_louvre-A571.xml">lettre écrite par Delacroix à son ami Pierret le
+            5 septembre 1838</ref>, dans laquelle il évoque son voyage entre Dieppe, Le Tréport et
+          Fécamp. Toutefois, la relation amoureuse qu’il entretenait avec Joséphine de Forget était
+          alors secrète et aucune lettre de cette époque ne mentionne explicitement son escapade
+          amoureuse. Toutefois, <ref type="letter" target="CAC_ED_inha-ms236-08">dans une lettre à
+            George Sand</ref> également écrite le 5 septembre après son séjour avec Joséphine au
+          Tréport et alors qu’il était à Valmont, ses sentiments semblaient plus partagés que treize
+          ans plus tard. Comme le commente Joubin, il y a de fortes chances pour que ces mots
+          adressés à George Sand évoquent son amante et leur relation : « Vous n’êtes ni une
+          précieuse ni une coquette. Vous estimez à sa juste valeur la sotte tactique de mon sexe
+          comme du vôtre dans cette guerre qu’ils appellent l’amour. » </note>. Vous vous rappelez
+        qu’en vous quittant je passai un jour ou deux à <placeName key="France, Dieppe"
+          >Dieppe</placeName> pour avoir une diligence qui allait à <placeName key="France, Fécamp"
+          >Fécamp</placeName>. Tout cela est envolé, bien des personnes chères ne sont plus de ce
+        monde depuis lors et qu’est-ce que nous devenons nous-mêmes ? Mais enfin, il ne faut pas
+        trop s’attrister sur ce qui est irréparable et penser plutôt à vivre <pb n="4"
+          facs="https://api.nakala.fr/iiif/10.34847/nkl.44debzj5/ae33baa973014b3e6b161d72deb2217a1ed1ded8/full/full/0/default.jpg"
+        /> doucement dans le présent. Soignez-vous toujours bien. Vos indispositions n’auront pas de
+        suite et ne doivent pas vous inquiéter. Pour moi, je me porte à merveille : je ne travaille
+        pas et je ne crains pas les visites, que de raisons pour végéter tranquillement.</p>
 
 
       <closer>
