@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, 6 [septembre 1854]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage (d’après Escholier)</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country/>
+            <settlement/>
+            <institution/>
+
+
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Escholier, <hi rend="it">Delacroix et les femmes</hi>, 1963, p. 219-220</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date when="1854-09-06"/>
+          <placeName key="France, Paris"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+        <correspContext>
+          <ref target="CAC_ED_piron-p530" type="replyTo"/>
+        </correspContext>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline><placeName key="France, Paris">Paris</placeName>, ce 6 août<note place="bottom"
+            >Cette lettre semble avoir été datée par erreur du 6 août, à moins qu’Escholier se
+            trompât dans sa transcription. En effet, les informations qu’elle contient permettent de
+            proposer la date du 6 septembre 1854 pour son écriture. L’épidémie de choléra, dont il
+            est question plus loin, sévit à Paris durant l’été 1854. Cet été, Delacroix partit pour
+            Dieppe le 17 août 1854 et rentra à Paris le 26 septembre (voir Hannoosh, <hi rend="it"
+              >Journal</hi>, 2009, p. 810-843). La lettre ne peut avoir été écrite que durant cette
+            période. De plus, elle semble être la réponse de la <ref type="letter"
+              target="CAC_ED_piron-p530.xml">lettre écrite par Delacroix le 2 septembre 1854
+            </ref>.</note>.</dateline>
+      </opener>
+
+
+      <p>Je suis enchantée, <persName key="Delacroix, Eugène (1798-1863)">mon cher ami</persName>,
+        que vous vous plaisiez à <placeName key="France, Dieppe">Dieppe</placeName>, et que votre
+        santé s’en trouve bien ; vous deviez faire quelques petits voyages, mais il paraît que vous
+        y avez renoncé. Je me suis informée s’il y avait le choléra à <placeName
+          key="France, Strasbourg">Strasbourg</placeName>, il y a été, mais peu, et il n’y est
+        plus : il y en a encore à <placeName key="France, Paris">Paris</placeName>, et l’air y est
+        mauvais ; depuis que j’y suis revenue, je suis quelquefois, ainsi que beaucoup de personnes,
+        sous une mauvaise influence : sans être malade, je suis quelquefois mal à mon aise ; aussi,
+        je mange très peu ; vous avez donc bien fait, ami, de quitter <placeName key="France, Paris"
+          >Paris</placeName> au plus vite.</p>
+      <p>Je joins ici, <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName>, la copie
+        d’un article du <hi rend="it">Mousquetaire</hi> (journal de <persName
+          key="Dumas, Alexandre (1802-1870)">Dumas</persName>) et je crois que l’article est de lui,
+        sur un de vos tableaux ; figurez-vous que l’article a été copié par <persName
+          key="Forget, Émilien de (1822-1857)">mon pauvre enfant</persName> : il a pensé que cela me
+        ferait plaisir, et que je vous le ferais lire ; il reçoit le <hi rend="it"
+        >Mousquetaire</hi>, et me l’a remis il y a quelques jours<note place="bottom">Dans la
+          chronique du <hi rend="it">Mousquetaire</hi> du 31 août 1854, Georges Bell, et non
+          Alexandre Dumas, consacra quelques lignes à un tableau de Delacroix exposé chez un
+          marchand : « Du tableau de Delacroix, je vous dirai peu de chose. Ce maître doit être
+          admis aujourd’hui tel qu’il est, avec ses qualités et ses défauts. Ceux qui le critiquent
+          avec le plus d’amertume voudraient bien acquérir quelques-unes de ses qualités, même au
+          prix de défauts encore plus grands. Le tableau que je vis est un des meilleurs que je
+          connaisse de Delacroix. Il représente un cavalier égaré dans une forêt et attaqué
+          brusquement par des bandits ».</note>. <persName key="Forget, Émilien de (1822-1857)">Le
+          pauvre cher enfant</persName> va beaucoup mieux depuis quelques mois. Je vais le voir
+        souvent, et il est si heureux de me voir, si expansif ! si tendre ! j’en ai le cœur
+        brisé !!! car je crains fort que ce bien ne se soutienne pas, il y a des symptômes qui font
+        craindre que le sang ne se porte de nouveau à la tête, et n’amène des accidents comme ceux
+        de l’année dernière<note place="bottom">En effet, l’état de santé de son fils, régulièrement
+          évoqué dans ses lettres, se dégrada fortement l’année suivante. <ref type="letter"
+            target="CAC_ED_creteil-ad-2j187-33.xml">Le 10 novembre 1855, elle écrivit à
+            Delacroix</ref> : « les crises, qui l’année dernière étaient beaucoup plus rares, cette
+          année se renouvellent bien souvent, et c’est au dépens non pas de sa santé, mais de son
+          intelligence ».</note> !</p>
+      <p><persName key="Forget, Eugène de (1819-1885)">Eugène</persName> est parti pour l’<placeName
+          key="France, Auvergne">Auvergne</placeName>, débarrassé de sa fièvre, mais non de ses
+        douleurs de rhumatisme.</p>
+      <p>Je m’amuse fort peu, <persName key="Delacroix, Eugène (1798-1863)">mon cher ami</persName>,
+        les spectacles sont étouffants. Je vais me promener presque tous les soirs au <placeName
+          key="France, Paris, bois de Boulogne">bois de Boulogne</placeName> ; le clair de lune est
+        magnifique dans cette jolie pièce d’eau : la grande est toujours en réparation, l’eau n’y
+        tenait pas. Je m’occupe beaucoup de collage, je fais des stores, des potichomanies, cela
+        m’amuse beaucoup.</p>
+      <p>Quel est donc le roman de <persName key="Dumas, Alexandre (1802-1870)">Dumas</persName> qui
+        vous amuse autant<note place="bottom">Delacroix lui écrivit le 2 septembre qu’il avait loué
+          un roman de Dumas, ce qu’il nota dans son journal à la date du 24 août, sans préciser de
+          quel roman il s’agissait (Hannoosh, 2009, p. 814).</note> ? Lisez donc les mémoires de
+          <persName key="Dickens, Charles (1812-1870)">Dickens</persName>, ou de Thomas
+          Coperfil<note place="bottom">Joséphine de Forget parlait de <hi rend="it">David
+            Copperfield</hi> qui fut publié dans une traduction française en 1851 sous le titre :
+            <hi rend="it">Souvenirs de David Copperfield.</hi></note> (c’est la même chose), vous en
+        serez, je crois, charmé.</p>
+
+
+      <closer>
+        <salute>Adieu, <persName key="Delacroix, Eugène (1798-1863)">ami</persName>, je m’aperçois
+          que je viens de faire un gros pâté d’encre, mais je ne veux pas recommencer ma lettre, je
+          vous envoie un million de tendresses et vous embrasse de tout cœur.</salute>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
