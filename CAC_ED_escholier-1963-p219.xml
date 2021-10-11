@@ -73,7 +73,7 @@
           <persName key="Delacroix, Eugène (1798-1863)"/>
         </correspAction>
         <correspContext>
-          <ref target="CAC_ED_piron-p530" type="replyTo"/>
+          <ref target="CAC_ED_piron-p530.xml" type="replyTo"/>
         </correspContext>
       </correspDesc>
       <langUsage>

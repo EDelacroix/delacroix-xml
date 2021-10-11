@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Joséphine de Forget, 2 septembre 1854</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country/>
+            <settlement/>
+            <institution/>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Piron, <hi rend="it">Eugène Delacroix, sa vie et ses œuvres</hi>, 1865, p. 530-531
+            (éd. partielle)</bibl>
+          <bibl>Joubin, III, p. 226-227 (éd. partielle)</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1854-09-02"/>
+          <placeName key="France, Dieppe"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline><placeName key="France, Dieppe">Dieppe</placeName>, <date when="1854-09-02">2
+            septembre 1854</date></dateline>
+        <salute><persName key="Forget, Joséphine de (1802-1886)">Chère amie</persName>,</salute>
+      </opener>
+
+
+      <p>Je vous remercie beaucoup de m’avoir répondu aussi exactement<note place="bottom">Delacroix
+          avait écrit <ref type="letter" target="CAC_ED_inha-aut098-17-08.xml">une lettre le 25 août
+            à Joséphine de Forget</ref> pour l’informer de son arrivée à Dieppe et lui donner son
+          adresse. Toutefois, nous ne connaissons pas la réponse de son amie.</note> : je ne
+        méritais pas cette attention ; mais j’étais en l’air pour ainsi dire et dans la situation
+        d’esprit où je me trouve presque toujours quand j’arrive dans un endroit : c’est
+        ordinairement le moment où je m’ennuie le plus, et cet ennui me prend tellement à la gorge
+        qu’il me rend incapable de dessiner, d’écrire et presque de remuer : je voudrais pour ainsi
+        dire rester couché toute la journée. Je m’ennuie horriblement de ne rien faire, et cependant
+        je ne peux rien faire pour sortir de cette torpeur. Le roman de <persName
+          key="Dumas, Alexandre (1802-1870)">Dumas</persName> que j’ai loué m’a distrait d’abord, et
+        ensuite les parties insupportables qu’il mêle aux endroits amusants m’ont fait chérir les
+        distractions que je pouvais trouver tout seul, et à présent je suis intéressé quand je
+        travaille, et je ne m’ennuie pas quand je ne fais rien. Les journées se trouvent remplies
+        doucement, et le matin je recommence avec un nouveau plaisir. Je me lève de très-bonne
+        heure, preuve que je ne trouve pas le temps long et que je ne suis pas embarrassé de ma
+        journée. J’ai trouvé par hasard une ressource précieuse, pour certains moments, dans la
+        rencontre que j’ai faite sur la plage de <persName key="Chenavard, Paul (1807-1895)">mon
+          camarade Chenavard</persName>, le peintre. C’est un homme de beaucoup d’esprit et qui a
+        une vraie conversation. Nous n’abusons pas l’un de l’autre, et cela renouvelle les
+        sensations. <placeName key="France, Dieppe">Cet endroit</placeName> offre toutes sortes de
+        ressources ; comme cette ville est grande comme la main, vous êtes tout de suite dans la
+        campagne et il y a des environs charmants : je ne parle pas de la mer et du mouvement des
+        navires, qui est la grande affaire<note place="bottom">Dans son journal, Delacroix nota ses
+          impressions et ses activités durant son séjour à Dieppe qui dura près d’un mois (Hannoosh,
+          2009, p. 810-843). Il dessina la mer, les bateaux et la campagne dans un carnet
+          aujourd’hui conservé au Rijksmuseum d’Amsterdam (RP-T-1968-85) : <ref
+            target="http://hdl.handle.net/10934/RM0001.COLLECT.314186"
+            >http://hdl.handle.net/10934/RM0001.COLLECT.314186</ref>
+        </note>. En outre, on trouve tout ce qu’on veut comme dans une grande ville, et vous voyez
+        qu’on peut aussi se tenir à l’écart et ne pas se laisser dévorer par les inutiles ; point
+        d’affaires pour couronner le tout, point de visites à rendre, point d’obligation d’aucune
+        espèce. Voilà, pour quelque temps au moins, une bonne manière de passer ses instants pour un
+        homme qui veut se reposer sans s’ennuyer.</p>
+      <p>Je calcule toujours que je reviendrai vers le 20, etc.</p>
+
+
+      <closer>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">E. Delacroix</persName></signed>
+        <address>
+          <addrLine>Toujours <placeName key="France, Dieppe, quai Duquesne, 6">quai Duquesne,
+              n°6</placeName></addrLine>
+        </address>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

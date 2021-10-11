@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Joséphine de Forget, 25 août [1854]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country/>
+            <settlement/>
+            <institution/>
+
+
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Delacroix a copié cette lettre à la suite de ses réflexions sur l’ennui dans son
+            journal, à la date du 11 août 1854, publiée dans Hannoosh, 2009, p. 806-808.</bibl>
+          <bibl>Joubin, III, p. 220-226.</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1854-08-25"/>
+          <placeName key="France, Dieppe"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+      <opener>
+        <dateline>Ce <date when="1854-08-25">25 août</date>, <placeName key="France, Dieppe"
+            >Dieppe</placeName></dateline>
+
+
+        <salute><persName key="Forget, Joséphine de (1802-1886)">Chère amie</persName>,</salute>
+      </opener>
+
+
+      <p>Je vous écris bien tard. J’ai été ballotté de logement en logement avant de me fixer.
+        Enfin, me voici sur <placeName key="France, Dieppe, quai Duquesne">le quai
+          Duquesne</placeName>, en pleine marine : je vois le port et les collines du côté
+          d’<placeName key="France, Arques">Arques</placeName>. C’est une vue charmante et dont la
+        variété donne des distractions continuelles quand on ne sort pas. Je suis ici comme à mon
+        ordinaire, ne voyant pas un chat et évitant de me trouver où je puis rencontrer des gens
+        ennuyeux. J’en ai trouvé deux ou trois en débarquant. Nous nous sommes promis, juré même, de
+        nous voir, de nous fréquenter le plus possible ; mais comme je ne mets pas le pied dans
+        l’établissement qui est le rendez-vous de tout le monde, il y a de grandes chances que je ne
+        les rencontrerai pas. J’ai eu recours à ma ressource ordinaire pour bannir l’ennui des
+        moments où on ne sait que faire : j’ai loué un roman de <persName
+          key="Dumas, Alexandre (1802-1870)">Dumas</persName><note place="bottom">Il nota dans son
+          journal, à la date du 24 août, la location du roman de Dumas (Hannoosh, 2009,
+          p. 814).</note> et, avec cela, j’oublie quelquefois d’aller voir la mer. Elle est superbe
+        depuis hier : les vents vont commencer à souffler et nous aurons de belles vagues.</p>
+      <p>Je vous plains d’avoir déjà fini vos excursions, moi qui suis au commencement des miennes ;
+        mais <placeName key="France, Paris">Paris</placeName> vous plaît plus qu’à moi. Hors de
+        Paris, je me sens plus homme ; à <placeName key="France, Paris">Paris</placeName>, je ne
+        suis qu’un Monsieur. On n’y trouve que des messieurs et des dames, c’est-à-dire des poupées.
+        Ici je vois des matelots, des laboureurs, des soldats des marchandes de poissons. La grande
+        toilette de ces dames, toutes à la dernière mode, contraste avec les grosses bottes des
+        pêcheurs du Pollet et les robes courtes des Normandes qui ne manquent pas d’un certain
+        charme malgré leurs coiffures qui ressemblent à des bonnets de coton.</p>
+      <p>Je fais une cuisine excellente : j’ai trouvé dans mon logement un fourneau dans le genre du
+        vôtre et j’ai pris une passion pour tout ce qui sort de ce fourneau. Quant au poisson et aux
+        huîtres, aux tourteaux et aux homards, ils sont incomparables. Vous ne mangez à <placeName
+          key="France, Paris">Paris</placeName> que le rebut, en comparaison. Je me vautre, comme
+        vous voyez, dans la matière : il n’est pas jusqu’au cidre que je ne trouve excellent. Je
+        baille quelquefois de n’avoir rien à faire de suivi : les petits dessins que je fais par-ci
+        par-là ne suffisent pas à m’occuper l’esprit<note place="bottom">Une partie de ces dessins
+          sont réunis dans le carnet de Dieppe, Amsterdam, Rijksmuseum, RP-T-1968-85. Delacroix nota
+          également dans son journal, au 24 août, avoir exécuté des dessins d’après les
+          photographies de Durieu (Hannoosh, 2009, p. 814 et note 341) dont l’un d’eux portant
+          l’inscription « 20 août Dieppe 54, le jour des courses » et représentant une femme nue
+          allongée est conservé à Harvard, Fogg Art Museum, 1942.41. <ref
+            target="https://www.harvardartmuseums.org/collections/object/297913"
+            >https://www.harvardartmuseums.org/collections/object/297913</ref></note> : alors je
+        reprends mon roman ou je vais à la jetée voir entrer et sortir les bateaux.</p>
+      <p>Voilà la vie que je vais mener encore quelque temps ; je ferai sans doute quelques
+        excursions aux environs, mais mon quartier général sera toujours sur <placeName
+          key="France, Dieppe, quai Duquesne">le quai Duquesne</placeName>. C’est là où vous seriez
+        bien aimable de m’écrire de vos chères nouvelles et d’où j’espère vous réécrire encore avant
+        mon départ. Il faut conjurer les fantômes de cette diable de vie qu’on nous a donnée, je ne
+        sais pourquoi, et qui devient amère si facilement quand on ne présente pas à l’ennui et aux
+        ennuis un front d’acier. Il faut agiter en un mot ce corps et cet esprit qui se rongent l’un
+        l’autre dans la stagnation et dans la torpeur. Il faut passer absolument du travail au repos
+        et réciproquement : ils paraissent alors également agréables et salutaires. Le malheureux
+        accablé de travaux rigoureux et qui travaille sans relâche est sans doute horriblement
+        malheureux mais celui qui est obligé de s’amuser toujours ne trouve pas dans ses
+        distractions un bonheur ni même de la tranquillité. Il sent qu’il combat cet ennui qui le
+        prend aux cheveux : le fantôme se place toujours à côté de la distraction et se montre
+        par-dessus son épaule.</p>
+      <p>Ne croyez pas, <persName key="Forget, Joséphine de (1802-1886)">chère amie</persName>, que
+        parce que je travaille à mes heures, je sois exempt de ce terrible ennemi. Ma conviction est
+        qu’avec une certaine tournure d’esprit, il faudrait une énergie inconcevable pour ne pas
+        s’ennuyer. Le plaisir que je trouve à m’étendre avec vous sur ce fameux chapitre est une
+        preuve que je saisis avidement, quand j’en ai la force, les occasions de m’occuper l’esprit
+        même pour parler de cet ennemi que je cherche à conjurer. J’ai presque toujours, toute ma
+        vie, trouvé le temps trop long. Je l’attribue en partie au plaisir que je trouve presque
+        toujours dans mes travaux. Les prétendus plaisirs qui leur succèdent ne font pas un assez
+        grand contraste avec la fatigue que donne le travail et qui est beaucoup plus pénible à ce
+        que je crois voir pour la plupart des hommes. Je conçois à merveille la jouissance que
+        trouvent dans le repos tous ces hommes que nous voyons autour de nous, accablés de travaux
+        rebutants ; et je ne parle pas seulement des pauvres gens qui travaillent pour le pain de
+        chaque jour : je parle de ces avocats, de ces gens de bureau, noyés dans les paperasses et
+        occupés sans cesse des affaires des autres. Il est vrai que la plupart de ces gens-là ne
+        sont point étouffés par l’imagination, ils trouvent même dans leur travail machinal une
+        manière comme une autre de remplir leurs heures. Plus ils sont bêtes et moins ils sont
+        malheureux.</p>
+
+
+      <closer>
+        <salute>Je finis en me consolant avec ce dernier axiome que c’est à force d’avoir de
+          l’esprit que je m’ennuie, non pas à présent au moins et en vous écrivant ; je viens au
+          contraire de passer une demi-heure agréable en m’adressant à vous, <persName
+            key="Forget, Joséphine de (1802-1886)">chère amie</persName>, et vous racontant toutes
+          ces balivernes, qui à leur tour vous feront passer cinq minutes avec quelque plaisir en
+          souvenir de la véritable affection que je vous porte.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">E. Delacroix</persName></signed>
+        <address>
+          <addrLine>Toujours <placeName key="France, Dieppe, quai Duquesne, 6">quai Duquesne,
+              n°6</placeName></addrLine>
+        </address>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
