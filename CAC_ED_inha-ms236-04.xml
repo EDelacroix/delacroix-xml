@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, été 1837 - printemps 1838</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 4</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="2" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 1er juillet 1930, p. 525. Joubin, Corr. gén, t. I, p.
+            438. Alexandre, 2005, p. 89-90</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+     <pb n="1"/> <p>[1837-38]<note place="bottom">Rajouté d'une autre main. Joubin date, sans explication, la
+          lettre de l'été 1837. Lubin propose la fin de l'année 1839 se fondant sur l'entrée de
+          Maurice, fils de l'écrivain, dans l'atelier de Delacroix et sur le fait que Louis-Emile
+          Lapierre, ancien de l'atelier, a pu se voir confier par Delacroix la correction des
+          dessins du jeune garçon et de sa soeur Solange. Pour Françoise Alexandre, rien ne prouve
+          que Maurice soit déjà élève de Delacroix lorsque George Sand le sollicite et peut-être
+          souhaite-elle seulement évaluer le talent de son fils. Celle-ci propose une date de l'été
+          1837 au printemps 1838 car ensuite une grande familiarité et intimité naît entre Delacroix
+          et Sand et l'apostrophe "chère dame" n'est alors plus de mise dans la correspondance
+          (Alexandre, 2005, p. 226-227, n. 6 de la page 89).</note></p>
+      <p>J’ai écrit à <persName key="Lapierre, Louis Émile (1817-1886)">Lapierre</persName>,
+          <persName key="Sand, George (1804-1876)">chère dame</persName>, sitôt que j’ai reçu votre
+        lettre et il est venu le lendemain, au moment où j’étais sorti. Il est revenu hier et j’ai
+        arrangé avec lui qu’il corrigerait les dessins de <persName key="Sand, Solange (1828-1899)"
+          >Solange</persName> en même temps que ceux de <persName key="Sand, Maurice (1823-1889)"
+          >Maurice</persName>.</p>
+      <closer><salute>Adieu, chère <persName key="Sand, George (1804-1876)">dame</persName>, en attendant le
+        plaisir de vous voir. Je suis embêté de toutes sortes de manières et encore <pb n="2"/>de beaucoup
+        d’autres.</salute>
+      <salute>Mille vœux pour vous et admirations sincères.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName></signed>
+      <dateline>ce dimanche</dateline></closer>
+    </body>
+
+  </text>
+</TEI>
