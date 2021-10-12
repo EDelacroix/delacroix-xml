@@ -39,23 +39,20 @@
       <sourceDesc>
         <msDesc>
           <msIdentifier>
-            <country/>
-            <settlement/>
-            <institution/>
-
-
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA</institution>
+            <idno>Autographes, 98, 17, 08</idno>
           </msIdentifier>
           <physDesc>
             <objectDesc form="letter">
               <supportDesc>
                 <extent>
-                  <measure/>
+                  <measure unit="page" quantity="8"/>
                 </extent>
               </supportDesc>
             </objectDesc>
-
           </physDesc>
-
         </msDesc>
         <listBibl>
           <bibl>Delacroix a copié cette lettre à la suite de ses réflexions sur l’ennui dans son
@@ -74,7 +71,6 @@
         <correspAction type="received">
           <persName key="Forget, Joséphine de (1802-1886)"/>
         </correspAction>
-
       </correspDesc>
       <langUsage>
         <language ident="fr"/>
@@ -90,10 +86,8 @@
         <dateline>Ce <date when="1854-08-25">25 août</date>, <placeName key="France, Dieppe"
             >Dieppe</placeName></dateline>
 
-
         <salute><persName key="Forget, Joséphine de (1802-1886)">Chère amie</persName>,</salute>
       </opener>
-
 
       <p>Je vous écris bien tard. J’ai été ballotté de logement en logement avant de me fixer.
         Enfin, me voici sur <placeName key="France, Dieppe, quai Duquesne">le quai
@@ -165,19 +159,20 @@
         des autres. Il est vrai que la plupart de ces gens-là ne sont point étouffés par
         l’imagination, ils trouvent même dans leur travail machinal une manière comme une autre de
         remplir leurs heures. Plus ils sont bêtes et moins ils sont malheureux.</p>
-
+      <p>Je finis en me consolant avec ce dernier axiome que c’est à force d’avoir de l’esprit que
+        je m’ennuie, non pas à présent au moins et en vous écrivant ; je viens au contraire de
+        passer une demi-heure agréable en m’adressant à vous, <persName
+          key="Forget, Joséphine de (1802-1886)">chère amie</persName>, et <pb n="8" facs=""/> vous
+        racontant toutes ces balivernes, qui à leur tour vous feront passer cinq minutes avec
+        quelque plaisir en souvenir de la véritable affection que je vous porte.</p>
 
       <closer>
-        <salute>Je finis en me consolant avec ce dernier axiome que c’est à force d’avoir de
-          l’esprit que je m’ennuie, non pas à présent au moins et en vous écrivant ; je viens au
-          contraire de passer une demi-heure agréable en m’adressant à vous, <persName
-            key="Forget, Joséphine de (1802-1886)">chère amie</persName>, et <pb n="8" facs=""/>
-          vous racontant toutes ces balivernes, qui à leur tour vous feront passer cinq minutes avec
-          quelque plaisir en souvenir de la véritable affection que je vous porte.</salute>
-        <signed><persName key="Delacroix, Eugène (1798-1863)">E. Delacroix</persName></signed>
+        <salute> Sur ce, je vous embrasse, de peur de recommencer un autre volume. Adieu, <persName
+            key="Forget, Joséphine de (1802-1886)">chère amie</persName>, écrivez-moi.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">E.</persName></signed>
         <address>
-          <addrLine>Toujours <placeName key="France, Dieppe, quai Duquesne, 6">quai Duquesne,
-              n°6</placeName></addrLine>
+          <addrLine><placeName key="France, Dieppe, quai Duquesne, 6">Quai Duquesne, n°6, chez M.
+              Gens</placeName></addrLine>
         </address>
       </closer>
 
