@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, fin mai - juin 1835</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 3</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="1" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 1er juillet 1930, p. 525. Joubin, Corr. gén, t. I,
+            p. 401. Alexandre, 2005, p. 89</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1835"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+     <pb n="1"/> <p>Je vous envoie l’ouvrage susdit, un peu crasseux à la vérité<note place="bottom"> Le livre
+          de G. Sand, <hi rend="it">André</hi>, est publié en librairie le 23 mai 1835 et Delacroix
+          lui envoie "l'ouvrage". Ce dernier est "un peu crasseux", ce qui selon F. Alexandre laisse
+          entendre qu'il a déjà circulé entre plusieurs mains. Cela permettrait d'avancer la date de
+          la lettre au début du mois de juin 1835 (Alexandre, 2005, p. 226, n. 1 de la page
+          89).</note>; mais pour vous autres, hommes de plume, c’est votre plus bel ornement.</p>
+      <p>Ce serait depuis « <hi rend="u">Le dernier jour Geneviève pria, etc.</hi> », et après cela
+        envoyez-moi à tous les diables, ou demandez-moi de vous copier quelque chose du prochain
+        roman que je ferai. Ce sera de tout mon cœur.</p>
+      <closer><salute>Je tâcherai d’aller vous remercier et vous souhaite bon voyage<note place="bottom">A cette
+          époque, les déplacements de George Sand entre Nohant, Paris et d'autres lieux sont très
+          fréquents (Alexandre, 2005, p. 226, n. 1 de la page 89).</note>. Adieu, <persName
+          key="Sand, George (1804-1876)">chère dame</persName>.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName></signed>
+      <dateline>Ce dimanche</dateline></closer>
+    </body>
+
+  </text>
+</TEI>
