@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, fin avril - début mai 1838</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 6</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="1" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 1er juillet 1930, p. 525. Joubin, Corr. gén, t. II, p.
+            8. Alexandre, 2005, p. 90</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1838"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"/><opener><p>Chère <persName key="Sand, George (1804-1876)">dame</persName>
+        <note place="bottom">1 Selon Françoise Alexandre, la lettre date de fin avril-début mai
+          1838. "L'apostrophe "chère dame" exclut en tout cas de situer cette lettre après le
+          printemps 1838" (Alexandre, 2005, p. 227, n. 6 de la page 90).</note></opener>, j’ai eu deux jours
+        de migraine affreuse. Vous jugez de l’ennui, indépendamment de celui de ne pas vous voir.
+        L’autre soir je fus chez <persName
+          key="Marliani, Emmanuel Joseph Marie François de Paule-Anaclet, dit Manuel (1799-1873)"
+          >Marliani</persName> mais vous étiez au spectacle et je sentais déjà le commencement de
+        mon martyre. J’ai donc été me coucher, mais je ne croyais pas que ce serait aussi continu.
+        Je ne suis pas encore fameux. Je vous verrai pourtant ce soir chez ces bons amis <note
+          place="bottom">2 Monsieur et Madame Marliani.</note>.</p>
+      <p>Adieux, belle, bonne et chère <persName key="Sand, George (1804-1876)">dame</persName>, à
+        ce soir.</p>
+      <closer><signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName></signed>
+      <dateline>Ce jeudi</dateline></closer>
+      <p type="special"> </p>
+    </body>
+
+  </text>
+</TEI>
