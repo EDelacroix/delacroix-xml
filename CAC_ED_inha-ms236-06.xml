@@ -46,8 +46,8 @@
           </physDesc>
         </msDesc>
         <listBibl>
-          <bibl><hi rend="it">L'Art vivant</hi>, 1er juillet 1930, p. 525. Joubin, Corr. gén, t. II, p.
-            8. Alexandre, 2005, p. 90</bibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 1er juillet 1930, p. 525. Joubin, Corr. gén, t. II,
+            p. 8. Alexandre, 2005, p. 90</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
@@ -68,23 +68,27 @@
   </teiHeader>
   <text>
     <body>
-      <pb n="1"/><opener><p>Chère <persName key="Sand, George (1804-1876)">dame</persName>
-        <note place="bottom">1 Selon Françoise Alexandre, la lettre date de fin avril-début mai
-          1838. "L'apostrophe "chère dame" exclut en tout cas de situer cette lettre après le
-          printemps 1838" (Alexandre, 2005, p. 227, n. 6 de la page 90).</note></opener>, j’ai eu deux jours
-        de migraine affreuse. Vous jugez de l’ennui, indépendamment de celui de ne pas vous voir.
-        L’autre soir je fus chez <persName
+      <pb n="1"/>
+      <opener>
+        <salute>Chère <persName key="Sand, George (1804-1876)">Dame</persName>
+          <note place="bottom">Selon Françoise Alexandre, la lettre date de fin avril-début mai
+            1838. "L'apostrophe "chère dame" exclut en tout cas de situer cette lettre après le
+            printemps 1838" (Alexandre, 2005, p. 227, n. 6 de la page 90).</note>,</salute>
+      </opener>
+      <p>J’ai eu deux jours de migraine affreuse. Vous jugez de l’ennui, indépendamment de celui de
+        ne pas vous voir. L’autre soir je fus chez <persName
           key="Marliani, Emmanuel Joseph Marie François de Paule-Anaclet, dit Manuel (1799-1873)"
           >Marliani</persName> mais vous étiez au spectacle et je sentais déjà le commencement de
         mon martyre. J’ai donc été me coucher, mais je ne croyais pas que ce serait aussi continu.
-        Je ne suis pas encore fameux. Je vous verrai pourtant ce soir chez ces bons amis <note
-          place="bottom">2 Monsieur et Madame Marliani.</note>.</p>
-      <p>Adieux, belle, bonne et chère <persName key="Sand, George (1804-1876)">dame</persName>, à
-        ce soir.</p>
-      <closer><signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName></signed>
-      <dateline>Ce jeudi</dateline></closer>
-      <p type="special"> </p>
+        Je ne suis pas encore fameux. Je vous verrai pourtant ce soir chez <persName
+          key="Marliani, Emmanuel Joseph Marie François de Paule-Anaclet, dit Manuel (1799-1873)"
+          ><persName key="Marliani, Charlotte Folleville, épouse (1790-1850)">ces bons amis</persName></persName>.</p>
+      <closer>
+        <salute>Adieux, <persName key="Sand, George (1804-1876)">belle, bonne et chère
+            dame</persName>, à ce soir.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName></signed>
+        <dateline>Ce jeudi</dateline>
+      </closer>
     </body>
-
   </text>
 </TEI>

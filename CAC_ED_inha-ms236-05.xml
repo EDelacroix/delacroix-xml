@@ -46,8 +46,8 @@
           </physDesc>
         </msDesc>
         <listBibl>
-          <bibl><hi rend="it">L'Art vivant</hi>, 1er juillet 1930, p. 525. Joubin, Corr. gén, t. I, p.
-            436. Alexandre, 2005, p. 89</bibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 1er juillet 1930, p. 525. Joubin, Corr. gén, t. I,
+            p. 436. Alexandre, 2005, p. 89</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
@@ -68,26 +68,35 @@
   </teiHeader>
   <text>
     <body>
-      <pb n="1"/><p rend="center" type="special"><persName key="Sand, George (1804-1876)">Madame
-          Dupin</persName><lb/> rue Lafitte, <hi rend="u">n°38</hi></p>
-      <p> </p>
-      <pb n="2"/><p>Chère bonne <persName key="Sand, George (1804-1876)">dame</persName>, je ne puis aller avec
-        vous chez mon ami <persName key="Préault, Auguste (1809-1879)">Préault</persName>.
-        Voulez-vous m’excuser auprès de Malefille<note place="bottom"> Pierre Julien Félicien
-          Mallefille, romancier et auteur dramatique (île de France, actuelle Île Maurice, 1813-
-          Bougival 1868). Il s'établit tôt en France et, après des études à Paris, débute une
-          carrière littéraire dans la <hi rend="it">Revue de Paris</hi> en 1834. Selon Joubin,
-          George Sand le rencontre en 1837 à Paris. Ce dernier devient son amant et leur liaison
-          dure jusqu'en 1838. Mallefille est le précepteur de Maurice Sand durant l'été 1837 ce qui
-          permet de dater cette lettre (Joubin, t. I, p. 437).</note> ? Je suis cloué chez moi. Je
-        crois d’ailleurs que le temps n’est pas séduisant pour aller à la Bastille. Ce qu’on a de
-        mieux à faire, c’est de se cacher du soleil. Si ce mot vous trouvait éveillée, voulez-vous
-        remettre au porteur les deux volumes<note place="bottom">2 Selon Joubin (t.I, p. 436), il
-          s'agirait de <hi rend="it">Lettres d'un voyageur</hi> ou <hi rend="it">Mauprat</hi>, parus
-          l'un et l'autre en deux volumes en 1837.</note> que vous m’avez promis et dont j’aurai
-        soin ?</p>
-      <closer><dateline>À ce soir, n’est-ce pas ?</dateline>
-      <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName></signed></closer>
+      <pb n="1"/>
+      <opener>
+        <address>
+          <addrLine><persName key="Sand, George (1804-1876)">Madame Dupin</persName>
+            <placeName key="France, Paris, rue Laffitte, 38">rue Lafitte, <hi rend="u"
+              >n°38</hi></placeName></addrLine>
+        </address>
+        <pb n="2"/>
+        <salute>Chère bonne <persName key="Sand, George (1804-1876)">dame</persName>,</salute>
+      </opener>
+      <p>Je ne puis aller avec vous chez mon ami <persName key="Préault, Auguste (1809-1879)"
+          >Préault</persName>. Voulez-vous m’excuser auprès de <persName
+          key="Mallefille, Félicien (1813-1868)">Malefille</persName><note place="bottom"> Félicien
+          Mallefille, romancier et auteur dramatique. Originaire de l'île Maurice, il s'établit tôt
+          en France métropolitaine et, après des études à Paris, débute une carrière littéraire dans
+          la <hi rend="it">Revue de Paris</hi> en 1834. Selon Joubin, George Sand le rencontre en
+          1837 à Paris. Ce dernier devient son amant et leur liaison dure jusqu'en 1838. Mallefille
+          est le précepteur de Maurice Sand durant l'été 1837 ce qui permet de dater cette lettre
+          (Joubin, I, p. 437).</note> ? Je suis cloué chez moi. Je crois d’ailleurs que le temps
+        n’est pas séduisant pour aller à la Bastille. Ce qu’on a de mieux à faire, c’est de se
+        cacher du soleil. Si ce mot vous trouvait éveillée, voulez-vous remettre au porteur les deux
+          volumes<note place="bottom">Selon Joubin (I, p. 436), il s'agirait de <hi rend="it"
+            >Lettres d'un voyageur</hi> ou <hi rend="it">Mauprat</hi>, parus l'un et l'autre en deux
+          volumes en 1837.</note> que vous m’avez promis et dont j’aurai soin ?</p>
+      <p>À ce soir, n’est-ce pas ?</p>
+      <closer>
+
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName></signed>
+      </closer>
     </body>
 
   </text>
