@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, [avant juin 1855]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage (d’après Escholier)</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country/>
+            <settlement/>
+            <institution/>
+
+
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Escholier, <hi rend="it">Delacroix et les femmes</hi>, 1963, p. 225</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date notAfter="1855-06"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+      <p>Comment va votre rhume, <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName> ?
+        J’espère qu’il va mieux. Aurai-je le bonheur de vous voir ce soir, voulez-vous que j’aille
+        vous chercher en voiture (fermée) pour faire un petit tour de promenade, je vous ramènerais
+        ensuite chez vous : ne venez pas ici, ce serait moi qui irais vous chercher.</p>
+      <p>Demain samedi, je serai <hi rend="u">entièrement</hi> seule avec <persName
+          key="Lavallette, Émilie de Beauharnais, comtesse de (1781-1855)">ma mère</persName> pour
+        dîner. Voulez-vous venir dîner avec nous ? Vous ne nous fatiguerez pas, et vous irez vous
+        coucher d’aussi bonne heure que vous voudrez.</p>
+
+      <closer>
+        <salute>Ne me répondez qu’un mot, pour savoir de vos nouvelles, et recevez toutes mes
+          tendresses.</salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">J.F.</persName></signed>
+        <dateline>Le vendredi<note place="bottom">Il est difficile de dater cette lettre car nous
+            ignorons à quelle période le fils de Joséphine de Forget séjourna en Italie. Nous
+            pouvons seulement affirmer, grâce à la mention de la mère de la baronne, Émilie de
+            Beauharnais, que la lettre est antérieure à son décès, survenu le 18 juin
+          1855.</note>.</dateline>
+      </closer>
+
+
+      <postscript>
+        <p><persName key="Forget, Eugène de (1819-1885)">Eugène</persName> est parti pour
+            l’<placeName key="Italie">Italie</placeName>.</p>
+      </postscript>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, [avant 1850]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage (d’après Escholier)</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country/>
+            <settlement/>
+            <institution/>
+
+
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Escholier, <hi rend="it">Delacroix et les femmes</hi>, 1963, p. 223</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date notAfter="1850"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+      <p>Peut-être, <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName>, seriez-vous
+        assez bon pour venir me voir ce soir mercredi ? Nous n’y serons pas, nous allons voir jouer
+          <persName key="Duprez, Gilbert (1806-1896)">Duprez</persName> dans <hi rend="it">Guillaume
+          Tell</hi><note place="bottom">Gilbert Duprez arrêta sa carrière à l’Opéra en 1849. Il
+          avait fait ses débuts à l’Opéra en 1837 dans <hi rend="it">Guillaume Tell</hi> de Rossini.
+          Il était alors l’un des ténors les plus admirés à Paris. Cette lettre est donc antérieure
+          à son départ en 1849.</note> ; j’aurais bien désiré avoir une loge, et vous proposer une place ;
+        malheureusement, elles étaient toutes louées, et nous allons tous les trois à
+          l’amphithéâtre<note place="bottom">Joséphine de Forget parle peut-être d’Hortense de
+          Querelles, sa demi-tante et de son mari Richard, qui vécurent chez elle entre le début de
+          l’année 1845 et 1846 (année de la mort de Richard de Querelles), à moins qu’elle évoque
+          ici ses deux fils, bien qu’ils ne vivaient pas avec elle à cette période.</note>. Gardez
+        encore mon couvre-pied, servez-vous-en, je l’en aimerai davantage… Vous me le rapporterez en
+        venant me voir. Si vous voulez venir dîner avec nous, vous serez bien aimable, en attendant,
+        recevez toutes mes tendresses.</p>
+
+      <closer>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">B<hi rend="sup">ne</hi> de Forget</persName></signed>
+        <dateline>Le mercredi. </dateline>
+      </closer>
+
+
+    </body>
+  </text>
+</TEI>

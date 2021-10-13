@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, [avant 1846]</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage (d’après Escholier)</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country/>
+            <settlement/>
+            <institution/>
+
+
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Escholier, <hi rend="it">Delacroix et les femmes</hi>, 1963, p. 222</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+          <date notAfter="1846"></date>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+      <opener>
+        <salute><persName key="Delacroix, Eugène (1798-1863)">Mon cher bon ami</persName>,</salute>
+      </opener>
+
+
+      <p>Je suis désolée de ne pouvoir vous donner à dîner demain vendredi ; j’apprends à l’instant
+        que <persName
+          key="Ideville, Adélaïde Rehez de Sampigny d'Issoncourt, épouse Le Lorgne d' (v.1800-1846)"
+          >Mme d’Ideville</persName><note place="bottom">Jeanne Adélaïde Rehez de Sampigny
+          d’Issoncourt, qui avait épousé Louis Le Lorgne d’Ideville. Elle était la demi-sœur de
+          Claude de Forget, le beau-père de Joséphine. Elle mourut en mars 1846, ce qui permet de
+          situer l’écriture de cette lettre avant cette date.</note> doit venir me demander à dîner
+        également demain, et comme je pense bien que sa société ne vous serait pas très agréable, je
+        m’empresse de vous exprimer tous mes regrets de cet ennuyeux arrangement, et vous prie de me
+        dédommager de cette privation en venant dîner avec nous, après-demain samedi. Je suis
+        furieuse de ne pas vous voir comme je l’espérais ; et puis, j’avais fait dire à mon
+        tapissier de se trouver demain à 5h1/2 pour notre conférence : je vais lui écrire aussi, et
+        lui dire de venir samedi à 5h1/2 ; j’espère que vous serez libre ce jour-là, <persName
+          key="Delacroix, Eugène (1798-1863)">mon bien cher ami</persName> ; si vous aviez une
+        visite à faire le soir, je vous y conduirais en allant chez <persName
+          key="Pontécoulant, Louis Adolphe Le Doulcet, comte de (1794-1882) "><persName
+            key="Pontécoulant, Honorine Gros, comtesse de">les Pontécoulant</persName></persName>,
+        mais si vous pouvez me sacrifier votre soirée, j’en serai bien plus heureuse, puisque je
+        resterai tout le temps avec vous. Vous pensez bien, <persName
+          key="Delacroix, Eugène (1798-1863)">ami</persName>, que si j’avais pu ajourner ma corvée
+        de demain, je l’aurais fait, mais je n’ai pas osé à cause de cette <hi rend="u">canaille
+          d’enfant</hi> !</p>
+      <p>Comment va votre santé ? Je suis tourmentée de votre sang qui se porte à la tête : je vous
+        en prie, allez consulter pour cela votre docteur Louis. Cette indisposition peut devenir
+        grave, ne la négligez pas, et je vous en conjure (pour l’amour de moi) allez faire votre
+        petite visite <hi rend="u">médicale</hi> ; je suis fort inquiète, ce sang qui se porte à la
+        tête peut vous jouer quelque mauvais tour. J’espère que votre longue séance de mardi dernier
+        ne vous aura pas trop fatigué. Vous vous êtes comporté admirablement. Que vous êtes bon,
+          <persName key="Delacroix, Eugène (1798-1863)">ami</persName>, et que j’en suis
+        touchée !</p>
+
+
+      <closer>
+        <salute>Adieu, venez donc dîner samedi à 5h1/2 précises, pour le tapissier, n’est-ce-pas ?
+          Je vous aime et vous embrasse de cœur et d’âme.</salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">Joséphine</persName></signed>
+        <dateline>Le jeudi soir. </dateline>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

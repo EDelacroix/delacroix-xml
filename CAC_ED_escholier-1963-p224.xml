@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, s.d.</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage (d’après Escholier)</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country/>
+            <settlement/>
+            <institution/>
+
+
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Escholier, <hi rend="it">Delacroix et les femmes</hi>, 1963, p. 224</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+      <p>Je serai (comme toujours), <persName key="Delacroix, Eugène (1798-1863)">mon
+        ami</persName>, enchantée de vous voir : demain soir, je serai chez moi, et n’aurai
+        personne. Vous avez bien raison de dire que vous êtes dans une crise bizarre et bien triste,
+        et j’en souffre plus que vous. Il serait si doux pour moi, lorsque vous avez des chagrins,
+        des contrariétés, de pouvoir vous consoler, vous distraire, mais je m’aperçois que ma
+        tendresse vous est un sentiment inutile ; je désire, <persName
+          key="Delacroix, Eugène (1798-1863)">mon ami</persName>, que <hi rend="u">cette crise</hi>
+        vienne de votre santé, et non de votre cœur ! Ne croyez pas, <persName
+          key="Delacroix, Eugène (1798-1863)">mon ami</persName>, que je veuille vous contrarier et
+        gêner vos goûts, vos nouvelles habitudes. Quand vous voudrez me voir, vous n’aurez qu’à me
+        faire dire un mot, je serai tout de suite à vous, et de bon cœur, je vous assure.</p>
+
+      <closer>
+        <salute>Adieu, je vous souhaite de la santé dans vos travaux si fatigants, et vous envoie
+          mille tendresses. </salute>
+        <dateline>Ce mercredi<note place="bottom">Cette lettre est impossible à dater. Toutefois,
+            elle est certainement antérieure au milieu des années 1850, alors que Delacroix et
+            Joséphine de Forget étaient encore amants. </note>.</dateline>
+      </closer>
+
+
+    </body>
+  </text>
+</TEI>

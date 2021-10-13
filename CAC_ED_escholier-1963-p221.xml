@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre de Joséphine de Forget à Eugène Delacroix, s.d.</title>
+        <author key="Forget, Joséphine de (1802-1886)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage (d’après Escholier)</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country/>
+            <settlement/>
+            <institution/>
+
+
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Escholier, <hi rend="it">Delacroix et les femmes</hi>, 1963, p. 221</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <salute><persName key="Delacroix, Eugène (1798-1863)">Mon ami</persName>,</salute>
+      </opener>
+
+
+      <p>Je vous envoie une brioche pour vos pieds ; c’était votre bouquet de fête<note
+          place="bottom">Joséphine de Forget offrait toujours à Delacroix un cadeau pour la Saint
+          Eugène, le 15 novembre. Toutefois, les informations contenues dans cette lettre ne nous
+          permettent pas de la dater précisément. Seule sa signature par un simple « J » pourrait
+          indiquer une date vers la fin des années 1840 ou le début des années 1850. Entre 1844 et
+          1846, elle signait le plus souvent « Consuelo ». Au début des années 1850, elle signait
+          souvent de son nom complet avant d’employer, à partir de 1856, le plus formel : « Baronne
+          de Forget ».</note>, mais puisqu’elle est terminée aujourd’hui, je préfère vous l’envoyer
+        avant cette époque, pour que vous en jouissiez plus tôt, placez-la dans votre salle à
+        manger, puisque vous ne pouvez plus en bouger.</p>
+      <p>J’espère que votre santé est toujours aussi bonne que lundi dernier ; c’est une consolation
+        pour moi, et j’en ai besoin, car j’ai le cœur bien triste et bien malheureux ! Tout le monde
+        a ses misères, sans doute, mais il y en a de plus ou moins cruelles à supporter. Pour vous,
+          <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName>, je vous félicite des
+        vôtres… il n’y a que votre santé qui vous tourmente et, avec des soins et de la raison, vous
+        n’aurez pas à vous en inquiéter. Quant à notre amitié, ne la mettez pas tout à fait de côté,
+        c’est encore ce qu’il y a de mieux dans ce monde, lorsqu’on a le temps d’en jouir.</p>
+
+
+      <closer>
+        <salute>Je vous embrasse de cœur, et espère vous voir bientôt. Ce soir, je ne sortirai pas ;
+          vendredi et samedi, je serai probablement chez moi ; <persName
+            key="Forget, Émilien de (1822-1857)">mon fils Emilien</persName> m’arrive dimanche
+          prochain ! Mille tendresses.</salute>
+        <signed><persName key="Forget, Joséphine de (1802-1886)">J.</persName></signed>
+        <dateline>Ce mercredi.</dateline>
+      </closer>
+
+      <postscript>
+        <p>J’ai pour vous une petite antiquité d’Athènes, mais je n’ose vous l’envoyer
+          aujourd’hui.</p>
+      </postscript>
+    </body>
+  </text>
+</TEI>
