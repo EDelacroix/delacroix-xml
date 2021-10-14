@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Pauline Viardot, 12 juillet 1859</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">La musique et les arts de la scène</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Bougival</settlement>
+            <institution>musée Ivan Tourguéniev</institution>
+
+
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="4"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>collection Suzanne Goupille</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Alexandre Zviguilsky, « Lettres d’Eugène Delacroix à Pauline et Louis Viardot », <hi
+              rend="it">Cahiers Ivan Tourguéniev, Pauline Viardot, Maria Malibran</hi>, 1998, n° 22,
+            p. 47-52, publication de la lettre et fac-similé, p. 51-52</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1859-07-12"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Viardot, Pauline Garcia, épouse (1821-1910)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Ce <date when="1859-07-12">12 juillet 1859</date><note
+            place="bottom">Il s’agit de la première lettre connue que Delacroix adressa à Pauline
+            Viardot. Ils s’étaient toutefois rencontrés bien plus tôt, dans les années 1840,
+            certainement par l’intermédiaire de George Sand. Cette lettre a été publiée par
+            Alexandre Zviguilsky, avec les cinq autres lettres connues que le peintre écrivit entre
+            1859 et 1861 à la cantatrice (« Lettres d’Eugène Delacroix à Pauline et Louis Viardot »,
+              <hi rend="it">Cahiers Ivan Tourguéniev, Pauline Viardot, Maria Malibran</hi>, 1998,
+            n° 22, p. 47-52).</note></dateline>
+        <salute><persName key="Viardot, Pauline Garcia, épouse (1821-1910)">Madame</persName>,
+        </salute>
+      </opener>
+
+
+      <p>J’étais momentanément absent de <placeName key="France, Paris">Paris</placeName> quand
+        votre lettre y est parvenue<note place="bottom">Pauline Viardot s’adressa à Delacroix pour
+          lui demander de bien vouloir lui dessiner un costume de scène, après avoir signé, le
+          28 juin 1859 un engagement pour chanter au Théâtre lyrique le rôle-titre de l’<hi
+            rend="it">Orphée</hi> de Gluck, révisé par Hector Berlioz. </note>. Vous ne doutez pas,
+        j’espère, de l’empressement avec lequel j’y eusse répondu aussitôt. Je vous réponds plein de
+        joie de pouvoir vous être utile en quelque chose et plein de tristesse d’être forcé de
+        refuser l’aimable invitation que vous voulez bien me faire d’aller vous trouver. Commençons
+        par les choses désagréables. Je viens de passer deux jours seulement dans <placeName
+          key="France, Champrosay">une pauvre cabane que j’ai achetée dernièrement</placeName><note
+          place="bottom">En 1858, Delacroix devint propriétaire de la maison qu’il louait depuis
+          1844 à Champrosay.</note>, comptant y passer des beaux jours, et je ne pourrai
+        probablement y retourner de cette année. Je suis obligé de compter les minutes. <pb n="2"
+          xml:id="p2"/> Je suis collé à <rs type="work"
+          key="chapelle des Saints-Anges, église Saint-Sulpice">un maudit travail interrompu pendant
+          des années</rs>, il faut absolument le finir et je n’y peux travailler que pendant la
+        belle saison<note place="bottom">Il s’agit de l’église Saint-Sulpice, où le peintre
+          travaillait à la décoration de la chapelle des Saints-Anges depuis de nombreuses années.
+          Il avait reçu la commande en 1849, mais le chantier fut retardé par ses travaux dans la
+          galerie d’Apollon au Louvre, puis au salon de la Paix à l’Hôtel de Ville, avant de
+          reprendre véritablement à partir de 1854.</note>. Je dirige mon régiment de peintres et de
+        décorateurs qui me font cent sottises pendant la moindre absence. Pardonnez-moi donc pour la
+        première difficulté que je vous apporte, mais ce sera la seule. Je vais rassembler des
+        matériaux de nature à vous satisfaire pour tout ce que vous désirez<note place="bottom">Le
+            <ref type="letter" target="CAC_ED_bnf-bmo-lasED1.xml">18 septembre</ref>, Delacroix
+          écrivit à Pauline Viardot pour lui remettre le croquis du costume. Il le lui envoya
+          finalement, accompagné d’indications, dans une <ref type="letter"
+            target="CAC_ED_bnf-man-naf16272-f87.xml">lettre datée du 21 septembre </ref>.
+          Malheureusement, ce croquis semble avoir disparu. Pour plus de détails sur celui-ci, voir
+            <ref type="letter" target="CAC_ED_bnf-man-naf16272-f87.xml">cette lettre </ref>.</note>.
+        Je ne puis assez m’applaudir du bonheur que j’aurai à vous entendre chanter Orphée. Jugez
+        que je passe ma vie dans <placeName key="France, Paris, église Saint-Sulpice">une
+          église</placeName> où la musique est bien organisée : celle qu’on fait là, non pas celle
+        de l’organiste, mais tout simplement celle des offices, m’a furieusement blasé sur toutes
+        les musiques à l’ordre du jour. <persName key="Gluck, Christoph Willibald (1714-1787)"
+          >Gluck</persName>, au contraire, <pb n="3" xml:id="p3"/> me rendra au théâtre ce sentiment
+        profond auquel il faut en revenir. Et quel interprète !</p>
+      <p>Si par hasard vous faisiez une apparition à <placeName key="France, Paris"
+          >Paris</placeName>, faites-le-moi savoir. J’accourrais aussitôt pour me concerter avec
+        vous. Il y a une partie essentielle de la mise en scène à laquelle vous n’avez peut-être pas
+        pensé. C’est le costume et le caractère des diables. On a renoncé au type de l’ancien opéra
+        et on a eu tort. On a voulu raffiner et l’on n’a abouti qu’à des types ridicules. Ils jouent
+        un grand rôle dans <hi rend="it">Orphée</hi> ; j’ai encore dans la mémoire l’effet de tout
+        cela quand j’étais enfant<note place="bottom"><hi rend="it">Orphée et Eurydice</hi> de Gluck
+          fut repris tous les ans à l’Opéra entre 1811 et 1816 (voir la base de données Chronopéra :
+            <ref target="http://chronopera.free.fr">http://chronopera.free.fr</ref> ; consulté le 4
+          janvier 2019). Delacroix évoque certainement l’une de ces représentations qu’il vit
+          lorsqu’il était enfant. Le peintre ne se contenta donc pas de donner un dessin pour le
+          costume de son amie, il donna également des indications sur la mise en scène, en
+          particulier pour la scène des Enfers, sur laquelle il revint dans sa <ref type="letter"
+            target="CAC_ED_bnf-bmo-lasED1.xml">lettre du 18 septembre</ref>.</note>.</p>
+      <p>Encore une fois, <persName key="Viardot, Pauline Garcia, épouse (1821-1910)"
+          >Madame</persName>, je suis à vos ordres et espère vous satisfaire. Seulement, il faut que
+        vous me pardonniez de manquer, bien malgré moi, l’occasion de vous rencontrer à la campagne.
+        Je ne puis me consoler de l’excellente musique que j’aurais <pb n="4" xml:id="p4"/> entendue
+        et de perdre tant de moments agréables que j’eusse trouvés près de vous et de <persName
+          key="Viardot, Louis (1800-1883)">M. Viardot</persName>.</p>
+
+
+      <closer>
+        <salute>Veuillez, <persName key="Viardot, Pauline Garcia, épouse (1821-1910)"
+            >Madame</persName>, lui exprimer tout mon regret et croire en particulier à mon bien
+          sincère et respectueux dévouement, comme à l’admiration la plus vive de votre beau
+          talent.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Pauline Viardot, 19 mars [1860]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">La musique et les arts de la scène</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country/>
+            <settlement/>
+            <institution/>
+
+
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, V, p. 205 (lettre datée du 19 mars 1863)</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1860-03-19"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Viardot, Pauline Garcia, épouse (1821-1910)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>Le <date when="1860-03-19">19 mars</date><note place="bottom">Joubin publia cette
+            lettre à la date du 19 mars 1863. Toutefois, elle doit être datée de l’année 1860. Dans
+            cette lettre, Delacroix répondait à une demande de Pauline Viardot qui souhaitait avoir
+            son avis pour son costume d’Armide. La cantatrice avait écrit à ce sujet au peintre une
+            lettre que l’on peut dater du 17 mars 1860 (Vente Eugène Delacroix, Caen, Hôtel des
+            ventes du théâtre, 1997, n° 67). Elle évoque le 3<hi rend="sup">e</hi> acte <hi
+              rend="it">d’Armide</hi>, qu’elle devait chanter le 13 avril au Théâtre lyrique pour
+            une soirée à son bénéfice. La soirée eut bien lieu le 13 avril 1860, il semble donc
+            impossible que la lettre de Delacroix ait été écrite en 1863. </note></dateline>
+      </opener>
+
+
+      <p>Je suis bien désespéré, <persName key="Viardot, Pauline Garcia, épouse (1821-1910)"
+          >Madame</persName>, de ne pouvoir aller vous voir ni dîner avec vous comme vous avez la
+        bonté de m’y engager. Nous aurions causé d’un costume pour Armide. J’allais assez bien et un
+        gros rhume qui m’est survenu me force encore à rester chez moi. Je me permets de vous
+        présenter quelques observations pour l’objet de votre lettre<note place="bottom">Il s’agit
+          de la lettre citée dans la note précédente qui faisait partie de la collection Piron et
+          n’est aujourd’hui pas localisée. Le catalogue de vente reproduit ces quelques lignes :
+          « Je répète tous les jours <hi rend="it">Fidelio</hi> et je travaille outre cela plusieurs
+          choses importantes que je dois chanter à ma soirée de bénéfice entre’autres le 3<hi
+            rend="sup">e</hi> acte d’<hi rend="it">Armide</hi>. C’est fixé le 13 avril – pouvez-vous
+          me consacrer quelques instants pour songer à mon costume d’Armide ? Je n’en ai pas la
+          moindre idée ».</note>.</p>
+      <p>Le costume d’Armide doit être de pure fantaisie : c’est là où encore plus que dans <hi
+          rend="it">Orphée</hi>, vous pouvez prendre celui qui vous ira le plus<note place="bottom"
+          >L’année précédente, Pauline Viardot avait déjà sollicité Delacroix pour son costume
+          d’Orphée. Le peintre lui envoya un croquis dont elle devait être satisfaite puisqu’elle
+          lui fit cette nouvelle demande (voir <ref type="letter" target="CAC_ED_bougival-01.xml"
+            >les lettres de Delacroix du 12 juillet</ref>, <ref type="letter"
+            target="CAC_ED_bnf-bmo-lasED1.xml">18 septembre</ref> et <ref type="letter"
+            target="CAC_ED_bnf-man-naf16272-f87.xml">21 septembre 1859</ref>).</note>. Vous êtes là dans
+        la féerie pure : c’est un mélange de la nymphe et de la grande dame. Je suis sûr que vous
+        avez trop bon goût pour ne pas tomber aussi juste que vous l’êtes dans <hi rend="it"
+          >Orphée</hi> où vous êtes si bien<note place="bottom">Pauline Viardot attachait beaucoup
+          d’importance à ses costumes, dessinant elle-même certains d’entre eux (Barbara
+          Kendall-Davies, <hi rend="it">Life and Work of Pauline Viardot Garcia</hi>, Newcastle Upon
+          Tyne, Cambridge Scholars Publishing, 2014, vol. I, p. 104). Pour ce rôle, elle sollicita
+          aussi Paul Chenavard, écrivant : « Il me faut un costume d’Armide, oh mais un costume
+          comme on n’en a jamais vu. Ayez donc l’amabilité de prévenir vos amis afin que, chacun de
+          son côté, ils me fassent des petits croquis (que je garderai fort précieusement, je vous
+          assure). » Cette lettre a été publiée par Pierre-Olivier Douphis, « La correspondance
+          entre les époux Viardot et Paul Chenavard », <hi rend="it">Cahiers Ivan Tourguéniev,
+            Pauline Viardot, Maria Malibran</hi>, n° 25, p. 86. Contrairement à son costume
+          d’Orphée, il ne semble pas subsister de document permettant de nous faire une idée de
+          celui qu’elle porta pour <hi rend="it">Armide</hi>. Delacroix se contente seulement ici de
+          quelques indications, n’envoyant pas de croquis. </note>.</p>
+      <p>Je suis bien chagrin d’être ainsi enchaîné : j’ai manqué cet hiver toutes sortes de bonnes
+        occasions.</p>
+
+
+      <closer>
+        <salute>Recevez, <persName key="Viardot, Pauline Garcia, épouse (1821-1910)"
+            >Madame</persName>, mille et mille nouveaux témoignages de ma vive admiration. </salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+      <postscript>
+        <p>Mes compliments bien affectueux, je vous prie, à <persName
+            key="Viardot, Louis (1800-1883)">M. Viardot</persName><note place="bottom">Louis
+            Viardot, journaliste et critique d’art qui joua un rôle important dans la connaissance
+            de la peinture du Siècle d’or espagnol. Il fut très brièvement directeur du Théâtre des
+            Italiens en 1838, avant d’abandonner ce poste pour se consacrer à la carrière de Pauline
+            Garcia, qu’il épousa le 18 avril 1840 (voir Yvette Sieffert-Rigaud, « Pauline Viardot :
+            femme et artiste », <hi rend="it">Romantisme</hi>, 1987, n° 57, p. 20).</note>.
+            <persName key="Sand, George (1804-1876)">Mme Sand</persName>, que j’ai vue, a été bien
+          enchantée de vous.</p>
+      </postscript>
+    </body>
+  </text>
+</TEI>
