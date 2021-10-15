@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 5 septembre 1838</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 8</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="4" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, II, p. 21-22. </bibl>
+          <bibl>Alexandre, 2005, p. 91-92</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1838-09-05"/>
+          <placeName key="France, Valmont"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <opener>
+        <pb n="1"/>
+        <dateline><placeName key="France, Valmont">Valmont</placeName>, <date when="1838-09-05">5
+            septembre</date></dateline>
+        <salute><persName key="Sand, George (1804-1876)">Chère femme</persName>,</salute>
+      </opener>
+      <p>je ne suis campé d’une manière un peu stable que depuis deux ou trois jours. J’ai été
+        excessivement ballotté depuis que j’ai quitté Paris et l’ennui a tout à fait dépassé le
+        plaisir, si ce n’est la mer que je revois toujours avec un nouveau plaisir. Comme <persName
+          key="Louis-Philippe, roi des Français (1773-1850)">Louis-Philippe</persName> [avec] ses
+        chers députés, j’ai vu beaucoup de figures de provinciaux insupportables, beaucoup de tables
+        d’hôtes et de beaux esprits, beaucoup d’auberges et très peu de garde-robes à
+          l’anglaise<note place="bottom"> "Garde-robes à l'anglaise" c'est-à-dire des water-closets.
+          (Alexandre, 2005, p. 228, n. 7 de la page 91).</note> (pardonnez-moi la vulgarité, mais
+        l’extrême importance du détail [la justifie]), enfin j’ai eu beaucoup d’ennuis multipliés
+        les uns par les autres. J’en ai été à ce point pour passer une <pb n="2"/>journée entière à
+        Dieppe, ville atrocement ennuyeuse où je ne connais personne d’aller m’enfermer dans la
+        bibliothèque de la ville, où j’ai lu L’<hi rend="it">Hist[oire] du Bas-Empire</hi> de
+          Lebeau<note place="bottom"> Le Beau, Charles (1701-1778), <hi rend="it">Histoire du
+            Bas-Empire en commençant à Constantin Le Grand</hi>, Paris, Desaint et Saillant,
+          1757-1817, 29 volumes. Edition revue, augmentée et corrigée par De Saint-Martin et Brosset
+          jeune de 1824 à 1836.</note> pour me distraire de mes propres catastrophes. Encore, dans
+        cette espèce de grenier où une centaine de bouquins courent les uns après les autres et
+        jouent aux quatre coins avec les rats, n’ai-je pu reposer ma tête. On ne m’y a souffert
+        qu’une heure environ, parce que c’était l’heure du dîner du directeur de l’établissement. Je
+        suis ici dans le lieu le plus enchanté, mais il m’y manque trop de choses. Il a seulement un
+        grand avantage, c’est de me faire trouver la peinture facile, attendu que je suis privé des
+        moyens d’en faire. Il n’en est pas de même à Paris, où je n’ai <pb n="3"/>aucune raison de
+        ne point travailler. Cet endroit-ci est une ancienne abbaye de moines riches, avec une
+        superbe église en ruine et des eaux, des jardins ravissants. Cela attriste un peu. On se
+        trouve ici furieusement désarmé contre une foule d’émotions, que le bruit qui vous entoure
+        vous aide à combattre à Paris. Il y a même des revenants dans le jardin et auxquels tout le
+        monde croit ; mais les véritables sont pour moi trop réels, quoique dans mon imagination. Ce
+        sont de chers fantômes en jupon que je m’attends à chaque instant à voir au coin des allées
+        obscures et le long des ruisseaux courants, dignes des bosquets de l’Arioste<note
+          place="bottom"> Ludovico Ariosto, dit l'Arioste (1474-1533), poète italien de la
+          Renaissance, est l'auteur du célèbre <hi rend="it">Roland furieux</hi> (poème épique en 46
+          chants) publié en 1516 puis augmenté en 1521 et 1532. Son oeuvre fut une source
+          d'inspiration très importante chez nombre d'écrivains, de musiciens et d'artistes, dont
+          Delacroix. Tardivement et parvenu à la maturité, ce dernier traite plusieurs sujets
+          d'après <hi rend="it">Roland Furieux</hi> dont <hi rend="it">Marphise et Pinabello</hi> en
+          1852 (Baltimore, The Walters Art Gallery), <hi rend="it">Roger délivrant Angélique</hi>
+          vers 1856 (Grenoble, musée de Grenoble), <hi rend="it">Angélique et Medor blessé</hi> en
+          1860 (Sydney, Art gallery of Nex South Wales) (Jobert, 1997, p. 287. Alexandre, 2005, p.
+          228, n.1 de la page 92).</note>. Jamais lieu ne fut plus propre à vous percer de plus de
+        ces piqûres, qui ne tuent pas mais qui désolent. Le bonheur est-il le seul instant où on le
+        goûte ? Mais alors n’est-il pas <pb n="4"/>trop cruel de le payer un million de fois par des
+        regrets ? On peut alors douter même qu’il ait existé. Il n’y a que l’espoir de le retrouver
+        qui puisse consoler de l’avoir perdu. Savourez, <persName key="Sand, George (1804-1876)"
+          >chère bonne</persName>, ces précieuses gouttes de miel<note place="bottom"> Selon
+          Françoise Alexandre, Delacroix fait allusion à la lune de miel de Sand avec Chopin
+          (Alexandre, 2005, p. 228, n. 2 de la page 92).</note>. Vous êtes si digne d’être aimée !
+        Vous n’êtes ni une précieuse, ni une coquette. Vous estimez à sa valeur la sotte tactique de
+        mon sexe comme du vôtre, dans cette guerre qu’ils appellent de l’amour. Je vous souhaiterai
+        même, et peut-être malgré vous, une petite dose d’ou[bli] après les temps d’enchantement.
+        J’en voudrais trouver ici, je l’espérais presque, mais il faud[rait] pour cela d’autres
+        distractions que celles que je trouve. Mille pardons de l’atroce écriture. Je ne peux plus
+        tenir une plume. Il me prend une impatience nerveuse sitôt que j’en tiens une. C’est à la
+        lettre. </p>
+      <closer>
+        <salute>Je vous embrasse. Mille [choses] à<persName key="Chopin, Frédéric (1810-1849)">
+            Chopin</persName>, aux bons amis que vous voyez, <persName
+            key="Marliani, Charlotte Folleville, épouse (1790-1850)"> Madame Marliani</persName> en
+          tête. J’ai embrassé <persName key="Sand, Maurice (1823-1889)">votre bon et aimable
+            fils</persName> à Rouen<note place="bottom"> Son fils Maurice est à Rouen avec son
+            précepteur Mallefille (voir n. 1 de la <ref type="letter"
+              target="CAC_ED_inha-ms236-05.xml">lettre à G. Sand, 1837</ref>) (Alexandre, 2005, p.
+            228, n. 3 de la page 92).</note>. Il vous aura conté nos exclamations en nous revoyant.
+          Je le rembrasse ici. Adieu.</salute>
+        <address>
+          <addrLine>chez M. <persName key="Bataille, Alexandre Marie (1777-1841)"
+              >Bataille</persName>
+            <placeName key="France, Valmont">à Valmont</placeName></addrLine>
+          <addrLine> Seine-Inférieure</addrLine>
+        </address>
+      </closer>
+    </body>
+
+  </text>
+</TEI>
