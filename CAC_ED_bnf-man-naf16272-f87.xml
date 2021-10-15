@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Pauline Viardot, 21 septembre 1859</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">La musique et les arts de la scène</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque nationale de France</institution>
+            <repository>Département des manuscrits</repository>
+            <idno>NAF 16272 fol. 87 r°-88 v°</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Alexandre Zviguilsky, « Lettres d’Eugène Delacroix à Pauline et Louis Viardot », <hi
+              rend="it">Cahiers Ivan Tourguéniev, Pauline Viardot, Maria Malibran</hi>, 1998, n° 22,
+            p. 54</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1859-09-21"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Viardot, Pauline Garcia, épouse (1821-1910)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Ce <date when="1859-09-21">21 septembre 1859</date></dateline>
+        <salute><persName key="Viardot, Pauline Garcia, épouse (1821-1910)">Madame</persName>,
+        </salute>
+      </opener>
+
+
+      <p>Vous aurez reçu sans doute la lettre que je vous adressais à <placeName key="France, Paris"
+          >Paris</placeName> où, d’après l’avis de <persName key="Berlioz, Hector (1803-1869)"
+          >M. Berlioz</persName>, je vous croyais encore être, dans laquelle je me mettais à votre
+        disposition pour causer d’Orphée et vous porter <rs type="work"
+          key="Maquette du costume d'Orphée">mon croquis</rs><note place="bottom">Il s’agit de la
+          lettre du <ref type="letter" target="CAC_ED_bnf-bmo-lasED1.xml">18 septembre 1859 </ref>.
+          Le <ref type="letter" target="CAC_ED_bougival-01.xml">12 juillet </ref>précédent, Pauline
+          Viardot avait demandé à Delacroix de bien vouloir lui dessiner un costume pour son rôle
+          d’Orphée dans l’opéra de Gluck <hi rend="it">Orphée et Eurydice</hi>, révisé par Berlioz.
+          Sur les liens entre Berlioz et Delacroix, voir l’article de Barthélémy Jobert, « Berlioz
+          et Delacroix », dans Alban Ramaut, dir., <hi rend="it">Hector Berlioz. Regards sur un
+            Dauphinois fantastique</hi>, Saint-Étienne, Presses de l’Université de Saint-Étienne,
+          2005, p. 231-248.</note>. Ne recevant pas de réponse, j’ai envoyé chez vous où l’on m’a
+        appris que vous étiez repartie. Je prends donc le parti de vous envoyer <rs type="work"
+          key="Maquette du costume d'Orphée">ce dessin très important</rs>, sur lequel j’espérais
+        vous donner des éclaircissements. Néanmoins, puisque vous êtes bien aise, en étudiant, de
+        vous faire une idée de votre costume, celui-ci, s’il vous convient en somme, pourra arrêter
+        vos idées sur quelque chose<note place="bottom">Pauline Viardot faisait elle-même des
+          recherches pour ses costumes, dessinant, comme sa sœur, la Malibran, certains d’entre eux
+          (Barbara Kendall-Davies, <hi rend="it">Life and Work of Pauline Viardot Garcia</hi>,
+          Newcastle Upon Tyne, Cambridge scholars publishing, 2014, vol. I, p. 104). Pauline Viardot
+          s’adressa de nouveau à Delacroix pour son costume d’Armide (voir la <ref type="letter"
+            target="CAC_ED_joubin-5-p205.xml">lettre que Delacroix lui écrivit le 19 mars 1860
+          </ref>) mais sollicita aussi Paul Chenavard (voir la lettre qu’elle lui envoya, publiée
+          par Pierre-Olivier Douphis, « La correspondance entre les époux Viardot et Paul
+          Chenavard », <hi rend="it">Cahiers Ivan Tourguéniev, Pauline Viardot, Maria Malibran</hi>,
+          n° 25, p. 86).</note>. Peut-être faudrait-il préférer, pour donner plus de légèreté, de
+        faire les manches très courtes et relevées, comme vous pouvez le voir dans <pb n="2"
+          xml:id="p2"/>
+        <rs type="work" key="Maquette du costume d'Orphée">un petit croquis</rs> qui est indiqué au
+        haut de la feuille (et à la plume dans une autre feuille)<note place="bottom">Ce croquis
+          semble avoir disparu. Pauline Viardot en donne une description assez précise dans une
+          lettre à son ami Julius Rietz : « Mon costume a été trouvé fort beau – tunique blanche
+          descendant jusqu’aux genoux – manteau blanc retenu sur les deux épaules à l’Apollon.
+          Cheveux longs, bouclés, avec la couronne de laurier. Une chaîne d’or pour soutenir le
+          glaive dont le fourreau est rouge. Corde rouge à la ceinture – cothurnes blancs lacés de
+          rouge » (lettre publiée dans Pauline Viardot-Garcia et Theodore Baker, « Pauline
+          Viardot-Garcia to Julius Rietz (Letters of Friendship) », <hi rend="it">Musical
+            Quarterly</hi>, vol. 2, n° 1, janvier 1916, p. 46). Flora Wilson cite cette lettre dans
+          son article étudiant cette mise en scène d’<hi rend="it">Orphée</hi> : “Classic Staging:
+          Pauline Viardot and the 1859 ‘Orphée’ Revival”, <hi rend="it">Cambridge Opera
+          Journal</hi>, vol. 22, n° 3 (novembre 2010), p. 301-326. Des photographies ainsi que des
+          estampes montrant la chanteuse en Orphée permettent d’en avoir une idée précise (voir
+          notamment : <ref
+            target="https://gallica.bnf.fr/ark:/12148/btv1b84543066/f1.item.r=Viardot%20Pauline%20Orph%C3%A9e"
+            >https://gallica.bnf.fr/ark:/12148/btv1b84543066/f1.item.r=Viardot%20Pauline%20Orph%C3%A9e</ref>,
+          consulté le 18 octobre 2018).</note>.</p>
+      <p>Je ne saurais vous dire combien je me réjouis à l’avance de voir cette belle musique
+        interprétée par une artiste telle que vous<note place="bottom">Il ne sera pas déçu et
+          enjoindra vivement George Sand à quitter Nohant pour écouter le chant de Pauline Viardot
+          (voir la <ref type="letter" target="CAC_ED_inha-ms236-82.xml">lettre du 10 décembre
+            1859</ref>).</note>. Je suis depuis longtemps brouillé avec la musique ; elle n’est plus
+        que dans mes souvenirs.</p>
+
+
+      <closer>
+        <salute>Mille nouveaux respects, <persName key="Viardot, Pauline Garcia, épouse (1821-1910)"
+            >Madame</persName>, et assurances du plus sincère dévouement.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

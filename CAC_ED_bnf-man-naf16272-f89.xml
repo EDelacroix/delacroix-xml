@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Pauline Viardot, [13 décembre 1860]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">La musique et les arts de la scène</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque nationale de France</institution>
+            <repository>Département des manuscrits</repository>
+            <idno>NAF 16272 fol. 89 r°-89 v°</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Alexandre Zviguilsky, « Lettres d’Eugène Delacroix à Pauline et Louis Viardot », <hi
+              rend="it">Cahiers Ivan Tourguéniev, Pauline Viardot, Maria Malibran</hi>, 1998, n° 22,
+            p. 54</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1860-12-13"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Viardot, Pauline Garcia, épouse (1821-1910)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Ce jeudi</dateline>
+        <salute><persName key="Viardot, Pauline Garcia, épouse (1821-1910)">Madame</persName>,
+        </salute>
+      </opener>
+
+
+      <p>Je ne manquerai pas de profiter, un peu mieux, j’espère, que par le passé, de la précieuse
+        faculté que vous me donnez et je vous remercie mille fois d’avoir eu confiance dans un désir
+        sincère de ma part d’être moins indigne de votre bonté<note place="bottom">Alexandre
+          Zviguilsky, qui a été le premier à publier cette lettre, précise que Delacroix répondait à
+          un courrier de Pauline Viardot, dans lequel elle invitait le peintre à leur rendre
+          visite : « Nos dimanches vont devenir des samedis à partir du 22. Vous me trouverez
+          toujours entre 4 et 6 heures et généralement tous les soirs, excepté les mercredis et les
+          soirs d’opéra au Boulevard du Crime. » (« Lettres d’Eugène Delacroix à Pauline et Louis
+          Viardot », <hi rend="it">Cahiers Ivan Tourguéniev, Pauline Viardot, Maria Malibran</hi>,
+          1998, n° 22, p. 54). Cette lettre de Pauline Viardot, aujourd’hui non localisée, fut mise
+          aux enchères lors de la vente de la collection Piron en 1997 (Vente Eugène Delacroix,
+          Caen, Hôtel des ventes du théâtre, 1997, n° 67).</note>. Le samedi est un jour dans lequel
+        j’ai toutes sortes d’habitudes prises et d’obligations qui m’emmènent ordinairement dans les
+        coins les plus éloignés de <placeName key="France, Paris">Paris</placeName>.</p>
+
+
+      <closer>
+        <salute>Dites mille choses affectueuses à <persName key="Viardot, Louis (1800-1883)"
+            >Monsieur Viardot</persName> malgré ses doutes sur mes <pb n="2" xml:id="p2"/>sentiments
+          et veuillez agréer en même temps, <persName
+            key="Viardot, Pauline Garcia, épouse (1821-1910)">Madame</persName>, l’expression de mon
+          respect et de mon admiration.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
