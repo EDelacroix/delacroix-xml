@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Joséphine de Forget, [vers 1844 ?]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage (d’après Joubin)</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country/>
+            <settlement/>
+            <institution/>
+
+
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Lettre passée en vente chez Thierry Bodin, juillet 2004, 110e catalogue,
+              n°94 ; puis chez Anaf, Jalenques, Martinon et Vassy le 22 septembre 2017, lot 91
+            </provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, II, p. 185-186</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date notBefore="1844"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Forget, Joséphine de (1802-1886)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline><placeName key="France, Champrosay">Champrosay</placeName>, lundi<note
+            place="bottom">Cette lettre a été datée par Joubin du 15 juillet 1844, mais rien dans la
+            lettre ne permet d’avancer cette date précise. Elle est passée en vente en 2017 avec
+              <ref type="letter" target="CAC_ED_huyghe-1964-p536">une lettre de Joséphine de
+              Forget</ref>, alors considérée comme la réponse à celle-ci, mais que nous proposons de
+            dater du 27 septembre 1840. De plus, la lettre de Joséphine de Forget ne semble pas être
+            la réponse à celle-ci. L’allusion de Delacroix à son propriétaire à Champrosay auquel il
+            voulait louer une pièce de plus pourrait faire penser à l’été 1844, année durant
+            laquelle Delacroix commença à louer une habitation dans le village. Toutefois, elle
+            pourrait également être postérieure.</note></dateline>
+        <salute><persName key="Forget, Joséphine de (1802-1886)">Bonne chérie</persName>,</salute>
+      </opener>
+
+
+      <p>Je veux vous envoyer un petit mot de tendresse avant mon retour. Je n’ai rien changé à mes
+        projets et coucherai à <placeName key="France, Paris">Paris</placeName>, mardi soir. Je vous
+        ai quittée l’autre jour dans une disposition si maussade que vous avez dû en avoir du
+        chagrin. Pardonne-moi donc, <persName key="Forget, Joséphine de (1802-1886)">chère
+          amie</persName>. J’ai reconnu ma bêtise et surtout combien il était ridicule, pour un
+        motif aussi frivole et pour un accident aussi facile à réparer, de gâter tout le plaisir que
+        nous avions ensemble. Il y a des moments où je ne vois pas du tout les choses comme elles
+        sont. Cette nuit, entre autres, je me suis réveillé avec la plus mauvaise impression du
+        monde. Je croyais tout perdu, je me regardais comme la dernière des ganaches et me voyais
+        sur le point de me jeter à la rivière. Heureusement que la raison est revenue avec le jour.
+        De même avant-hier et hier, je me suis représenté comme j’avais été stupide. Gronde-moi et
+        traite-moi comme je le mérite.</p>
+      <p>Après-demain, <persName key="Forget, Joséphine de (1802-1886)">bonne chérie</persName>,
+        nous dînerons ensemble et je te demanderai pardon physiquement et moralement. Ces peu de
+        jours m’auront fait du bien. Le temps est très beau et n’est pas trop chaud. J’espère que je
+        finirai mon affaire avec mon propriétaire et que je gagnerai une petite pièce de plus qui me
+        donnera une vue charmante. J’ai pris mon homme véritablement au vol.</p>
+
+
+      <closer>
+        <salute>Adieu, <persName key="Forget, Joséphine de (1802-1886)">bonne chérie</persName> ;
+          ceci est pour l’acquit de ma conscience. Tu l’aurais eu hier si je n’avais été dérangé au
+          moment de t’écrire. Ensuite l’heure de la poste était passée. Adieu encore. Pardonne-moi,
+            <persName key="Forget, Joséphine de (1802-1886)">chère amie</persName>, et aime-moi bien
+          comme je t’aime et t’embrasse mille fois.</salute>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
