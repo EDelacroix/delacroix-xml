@@ -46,8 +46,9 @@
           </physDesc>
         </msDesc>
         <listBibl>
-          <bibl><hi rend="it">L'Art vivant</hi>, 1er juillet 1930, p. 598. Joubin, Corr. gén, t. II, p.
-            6. Alexandre, 2005, p. 90</bibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 1er juillet 1930, p. 598</bibl>
+          <bibl>Joubin, II, p. 6</bibl>
+          <bibl>Alexandre, 2005, p. 90</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
@@ -68,7 +69,8 @@
   </teiHeader>
   <text>
     <body>
-      <pb n="1"/><p>Contretemps fatal ! Je suis obligé de courir aux deux bouts de Paris toute la journée<note
+      <pb n="1"/>
+      <p>Contretemps fatal ! Je suis obligé de courir aux deux bouts de Paris toute la journée<note
           place="bottom"> Joubin date cette lettre de mars 1838 et lie la course de l'artiste dans
           la capitale à sa deuxième candidature à l'Institut. Françoise Alexandre s'appuyant sur la
           correspondance de Sand et les voyages de l'écrivain entre Nohant et Paris propose la date
@@ -84,11 +86,14 @@
           <note place="bottom"> Comprendre : ceci est de la courtoisie arabe (Alexandre, 2005, p.
           227, n. 4 de la page 90).</note>.) Un mot de vous si je ne vous vois pas et amitiés bien
         vives.</p>
-      <closer><signed><persName key="Delacroix, Eugène (1798-1863)">Eugène [rébus : chiffre 2 + note La sur une portée musicale + une
-          croix]</persName><note place="bottom"> Delacroix recourt parfois à cette signature rébus lorsqu'une
-          lettre est destinée à des amis (Alexandre, 2005, p. 227, n. 5 de la page 90).</note>
-        autrement pour le français [visage dessiné, probablement celui de Delacroix]</signed></closer>
-     
+      <closer>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène [rébus : chiffre 2 + note La
+            sur une portée musicale + une croix]</persName><note place="bottom"> Delacroix recourt
+            parfois à cette signature rébus lorsqu'une lettre est destinée à des amis (Alexandre,
+            2005, p. 227, n. 5 de la page 90).</note> autrement pour le français [visage dessiné,
+          probablement celui de Delacroix]</signed>
+      </closer>
+
     </body>
 
   </text>

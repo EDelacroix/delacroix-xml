@@ -46,8 +46,10 @@
           </physDesc>
         </msDesc>
         <listBibl>
-          <bibl><hi rend="it">L'Art vivant</hi>, 1er juillet 1930, p. 525. Joubin, Corr. gén, t. I,
-            p. 401. Alexandre, 2005, p. 89</bibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 1er juillet 1930, p. 525</bibl>
+          <bibl>Joubin, I,
+            p. 401</bibl>
+          <bibl>Alexandre, 2005, p. 89</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
@@ -68,7 +70,7 @@
   </teiHeader>
   <text>
     <body>
-     <pb n="1"/> <p>Je vous envoie l’ouvrage susdit, un peu crasseux à la vérité<note place="bottom">Le livre
+     <pb n="1"/><p>Je vous envoie l’ouvrage susdit, un peu crasseux à la vérité<note place="bottom">Le livre
           de G. Sand, <hi rend="it">André</hi>, est publié en librairie le 23 mai 1835 et Delacroix
           lui envoie "l'ouvrage". Ce dernier est "un peu crasseux", ce qui selon F. Alexandre laisse
           entendre qu'il a déjà circulé entre plusieurs mains. Cela permettrait d'avancer la date de

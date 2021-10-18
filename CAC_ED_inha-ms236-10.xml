@@ -46,8 +46,9 @@
           </physDesc>
         </msDesc>
         <listBibl>
-          <bibl><hi rend="it">L'Art vivant</hi>, 1er juillet 1930, p. 526. Joubin, Corr. gén, t. II,
-            p. 48. Alexandre, 2005, p. 98</bibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 1er juillet 1930, p. 526</bibl>
+          <bibl>Joubin, II, p. 48</bibl>
+          <bibl>Alexandre, 2005, p. 98</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
@@ -68,21 +69,31 @@
   </teiHeader>
   <text>
     <body>
-     <opener> <address><addrLine>Madame <persName key="Sand, George (1804-1876)">G.
-          Sand</persName></addrLine><addrLine> <placeName key="France, Paris, rue Pigale, 16">rue Pigale n° 16</placeName></addrLine></address>
-            <pb n="1"/><salute>Chère <persName key="Sand, George (1804-1876)">amie</persName>,</salute></opener> <p> j’ai éprouvé
-        depuis que je vous ai vue un bien grand chagrin. J’ai perdu un de mes amis les plus chers et
-        qui était mon parent<note place="bottom">Henri-Pierre Hugues, cousin de Delacroix.</note>.
-        C’est une des plus grandes peines que je puisse éprouver et qui me paraîtra aussi
-        irréparable que le premier jour toutes les fois que j’y penserai jusqu’à la fin de ma vie.
-        Vous savez, c’est une de ces peines qui permettent à la longue toutes les distractions,
-        toutes les sottises par lesquelles nous trompons notre misère, mais qui font au fond du cœur
-        une source d’amertume pour le reste de la vie. J’ai pensé que vous prendriez part à ce que
-        j’éprouve et c’est une consolation pour moi de me tourner vers ceux que j’aime pour
-        m’assurer de ce qui me reste.</p>
-              <closer><salute>Adieux, <persName key="Sand, George (1804-1876)">illustre et bonne</persName>, gardez-moi un coin de votre bon cœur.</salute>
-              <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName></signed>
-              <dateline>ce 20 février</dateline></closer>
+      <opener>
+        <address>
+          <addrLine><persName key="Sand, George (1804-1876)">Madame G. Sand</persName></addrLine>
+          <addrLine>
+            <placeName key="France, Paris, rue Pigale, 16">rue Pigale n° 16</placeName></addrLine>
+        </address>
+        <pb n="1"/>
+        <salute><persName key="Sand, George (1804-1876)">Chère amie</persName>,</salute>
+      </opener>
+      <p> j’ai éprouvé depuis que je vous ai vue un bien grand chagrin. J’ai perdu <persName
+          key="Hugues, Henri Pierre (1784-1840)">un de mes amis les plus chers</persName> et qui
+        était mon parent<note place="bottom">Henri-Pierre Hugues, cousin de Delacroix.</note>. C’est
+        une des plus grandes peines que je puisse éprouver et qui me paraîtra aussi irréparable que
+        le premier jour toutes les fois que j’y penserai jusqu’à la fin de ma vie. Vous savez, c’est
+        une de ces peines qui permettent à la longue toutes les distractions, toutes les sottises
+        par lesquelles nous trompons notre misère, mais qui font au fond du cœur une source
+        d’amertume pour le reste de la vie. J’ai pensé que vous prendriez part à ce que j’éprouve et
+        c’est une consolation pour moi de me tourner vers ceux que j’aime pour m’assurer de ce qui
+        me reste.</p>
+      <closer>
+        <salute>Adieux, <persName key="Sand, George (1804-1876)">illustre et bonne</persName>,
+          gardez-moi un coin de votre bon cœur.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName></signed>
+        <dateline>ce 20 février</dateline>
+      </closer>
     </body>
 
   </text>

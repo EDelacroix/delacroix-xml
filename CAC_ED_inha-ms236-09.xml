@@ -46,8 +46,9 @@
           </physDesc>
         </msDesc>
         <listBibl>
-          <bibl><hi rend="it">L'Art vivant</hi>, 1er juillet 1930, p. 522. Joubin, Corr. gén, t. II,
-            p. 46. Alexandre, 2005, p. 97-98</bibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 1er juillet 1930, p. 522</bibl>
+          <bibl>Joubin, II, p. 46</bibl>
+          <bibl>Alexandre, 2005, p. 97-98</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
@@ -81,7 +82,7 @@
       <closer>
         <salute>Recevez, en attendant, mes vœux et mes tendresses, <persName
             key="Sand, George (1804-1876)">chère grande femme</persName>.</salute>
-        <dateline>Ce 2 janvier 1840</dateline>
+        <dateline>Ce <date when="1840-01-02">2 janvier 1840</date></dateline>
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName></signed>
       </closer>
 

@@ -46,8 +46,10 @@
           </physDesc>
         </msDesc>
         <listBibl>
-          <bibl><hi rend="it">L'Art vivant</hi>, 1er juillet 1930, p. 598. Joubin, Corr. gén, t. II,
-            p. 49. Alexandre, 2005, p. 98-99</bibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 1er juillet 1930, p. 598</bibl>
+          <bibl>Joubin, II,
+            p. 49</bibl>
+          <bibl>Alexandre, 2005, p. 98-99</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
@@ -68,24 +70,34 @@
   </teiHeader>
   <text>
     <body>
-     <pb n="1"/> <opener><address><addrLine>Madame <persName key="Sand, George (1804-1876)">G. Sand</persName></addrLine> <addrLine>rue
-        Pigale n° 16.</addrLine></address>
-      <pb n="2"/><dateline> mardi matin</dateline>
-      <salute><persName key="Sand, George (1804-1876)">Chère bonne</persName>,</salute></opener> <p>je ne pourrai aller vous
-        voir ce soir : c’est le dernier jour de mes Italiens et des Puritains<note place="bottom"
-            ><hi rend="it">Reprise de Il Puritani</hi> (<hi rend="it">Les Puritains</hi>), opéra de
-          Vincezo Bellini joué pour la première fois au Théâtre-Italien le 24 janvier 1835. "Mes
-          Italiens" souligne la passion de la musique et des opéras italiens chez Delacroix
-          (Alexandre, 2005, p. 231, n. 3 de la page 98).</note> : mais j’en suis bien privé. Est-ce
-        que vous pensez que je vais chez vous pour <hi rend="u">ce tel ou tel</hi> que vous me
-        promettez ? Des grands hommes ! Il en pleut ! Et même, est-ce pour votre génie que je vais
-        faire société avec vous ? N’y comptez pas ! C’est vous, vos yeux, <persName
-          key="Sand, George (1804-1876)">votre petite chère personne</persName> que j’aime.</p>
+      <pb n="1"/>
+      <opener>
+        <address>
+          <addrLine>Madame <persName key="Sand, George (1804-1876)">G. Sand</persName></addrLine>
+          <addrLine><placeName key="France, Paris, rue Pigale,16">rue Pigale n° 16</placeName>.</addrLine>
+        </address>
+        <pb n="2"/>
+        <dateline>Mardi matin</dateline>
+        <salute><persName key="Sand, George (1804-1876)">Chère bonne</persName>,</salute>
+      </opener>
+      <p>Je ne pourrai aller vous voir ce soir : c’est le dernier jour de mes Italiens et <hi rend="it">des
+          Puritains</hi><note place="bottom">Reprise de <hi rend="it">Il Puritani</hi> (<hi rend="it">Les
+            Puritains</hi>), opéra de Vincezo Bellini joué pour la première fois au Théâtre-Italien
+          le 24 janvier 1835. "Mes Italiens" souligne la passion de la musique et des opéras
+          italiens chez Delacroix (Alexandre, 2005, p. 231, n. 3 de la page 98).</note> : mais j’en
+        suis bien privé. Est-ce que vous pensez que je vais chez vous pour <hi rend="u">ce tel ou
+          tel</hi> que vous me promettez ? Des grands hommes ! Il en pleut ! Et même, est-ce pour
+        votre génie que je vais faire société avec vous ? N’y comptez pas ! C’est vous, vos yeux,
+          <persName key="Sand, George (1804-1876)">votre petite chère personne</persName> que
+        j’aime.</p>
       <p><persName key="Marliani, Charlotte Folleville, épouse (1790-1850)">Madame
           Marliani</persName>, que j’ai vue hier, m’a dit qu’elle espérait que vous iriez chez elle
-        demain mercredi <pb n="3"/>soir et m’a engagé à y aller, ce que je ferai sans doute pour la voir et
-        pour vous voir si vous y venez et vous dire combien je vous regrette aujourd’hui.</p>
-      <closer><signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName></signed></closer>
+        demain mercredi <pb n="3"/>soir et m’a engagé à y aller, ce que je ferai sans doute pour la
+        voir et pour vous voir si vous y venez et vous dire combien je vous regrette
+        aujourd’hui.</p>
+      <closer>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName></signed>
+      </closer>
     </body>
 
   </text>

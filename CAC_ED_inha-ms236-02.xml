@@ -46,8 +46,9 @@
           </physDesc>
         </msDesc>
         <listBibl>
-          <bibl><hi rend="it">L'Art vivant</hi>, 1er juillet 1930, p. 522. Joubin, Corr. gén, t. I, p.
-            400. Alexandre, 2005, p. 88</bibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 1er juillet 1930, p. 522</bibl>
+          <bibl>Joubin, I, p. 400</bibl>
+          <bibl>Alexandre, 2005, p. 88</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
@@ -68,33 +69,38 @@
   </teiHeader>
   <text>
     <body>
-      <pb n="1"/><opener><salute>Chère <persName key="Sand, George (1804-1876)">madame</persName>
-        <note place="bottom">André Joubin date cette lettre d'avril 1835. Or, Delacroix écrit à
-          François Buloz le 28 avril 1835 pour lui réclamer la dernière livraison d'<hi rend="it"
-            >André</hi> parue le 1er avril, afin que l'écrivain copie de sa main le dernier alinéa
-          de ce roman. Delacroix précise qu'il est prêt à se procurer le livre et ce dernier paraît
-          le 23 mai 1835. Ainsi, cette lettre date certainement de fin mai, voire début juin 1835.
-          Enfin, en 1835, les 22 et 29 mai sont un vendredi et Delacroix écrit "ce vendredi matin"
-          (Alexandre, 2005, p. 225, n. 5 de la page 88). </note>,</salute></opener>
+      <pb n="1"/>
+      <opener>
+        <salute><persName key="Sand, George (1804-1876)">Chère madame</persName>
+          <note place="bottom">André Joubin date cette lettre d'avril 1835. Or, Delacroix écrit à
+            François Buloz le 28 avril 1835 pour lui réclamer la dernière livraison d'<hi rend="it"
+              >André</hi> parue le 1er avril, afin que l'écrivain copie de sa main le dernier alinéa
+            de ce roman. Delacroix précise qu'il est prêt à se procurer le livre et ce dernier
+            paraît le 23 mai 1835. Ainsi, cette lettre date certainement de fin mai, voire début
+            juin 1835. Enfin, en 1835, les 22 et 29 mai sont un vendredi et Delacroix écrit "ce
+            vendredi matin" (Alexandre, 2005, p. 225, n. 5 de la page 88). </note>,</salute>
+      </opener>
       <p>Seriez-vous assez bonne pour me dire, par un mot de vous, si <persName
           key="Buloz, François (1804-1877)">Buloz</persName> vous a envoyé la feuille d’<hi
           rend="it">André</hi> où se trouve le morceau que vous voulez bien me copier. Si vous ne
         l’aviez pas, je me procurerais le livre. Il faudrait même que vous poussiez le dévouement
         jusqu’à me dire quand je pourrai envoyer chercher l’objet. Il se trouve depuis quelques
         jours qu’il m’est bien difficile de passer chez vous à l’heure où vous y êtes. Ne vous
-        étonnez pas de mon importunité. <pb n="2"/>La raison en est simple; C’est que j’ai une femme derrière
-          moi<note place="bottom">Autographe probablement demandé par Joséphine de Forget, très
-          proche de Delacroix (Jobert, 1997, p. 26) et admiratrice de l'oeuvre de Sand (Alexandre,
-          2005, p. 225, n. 6 de la page 88).</note> qui m’ennuie horriblement à votre sujet. Si je
-        vous ennuie un peu à son intention, prenez-vous en à la terrible ténacité de ce sexe
-        charmant dont pourtant vous ne voulez plus être. Tâchez de ne pas être homme non plus. C’est
-        une vilaine bête.</p>
+        étonnez pas de mon importunité. <pb n="2"/>La raison en est simple; C’est que j’ai une femme
+        derrière moi<note place="bottom">Autographe probablement demandé par Joséphine de Forget,
+          très proche de Delacroix (Jobert, 1997, p. 26) et admiratrice de l'oeuvre de Sand
+          (Alexandre, 2005, p. 225, n. 6 de la page 88).</note> qui m’ennuie horriblement à votre
+        sujet. Si je vous ennuie un peu à son intention, prenez-vous en à la terrible ténacité de ce
+        sexe charmant dont pourtant vous ne voulez plus être. Tâchez de ne pas être homme non plus.
+        C’est une vilaine bête.</p>
       <p>Pardonnez-moi encore une fois et excusez les inconvénients de la célébrité<note
           place="bottom">A cette date, Sand est plus célèbre que Delacroix. L'écrivain a acquis en
           quatre ans à peine une grande notoriété grâce à la parution de ses romans dans la presse
           (Alexandre, 2005, p. 225-226, n. 7 de la page 88).</note>.</p>
-      <closer><signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName></signed>
-      <dateline>Ce vendredi matin</dateline></closer>
+      <closer>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName></signed>
+        <dateline>Ce vendredi matin</dateline>
+      </closer>
     </body>
 
   </text>
