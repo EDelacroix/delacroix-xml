@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 26 mars 1840</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 12</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="2" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 1er juillet 1930, p. 526. Joubin, Corr. gén, t. II,
+            p. 50. Alexandre, 2005, p. 99</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1840-03-26"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"/>
+      <opener>
+        <address>
+          <addrLine>Madame <persName key="Sand, George (1804-1876)">G. Sand.</persName></addrLine>
+          <addrLine>F. de lettres</addrLine>
+          <addrLine>rue Pigale n°16</addrLine>
+        </address>
+        <pb n="2"/>
+        <salute><persName key="Sand, George (1804-1876)">Chère amie</persName></salute>
+      </opener>
+      <p> je vous rappelle la loge<note place="bottom"> Delacroix souhaite aller à la représentation
+          de <hi rend="it">Cosima ou la haine de l'amour</hi> drame en cinq actes précédé d'un
+          prologue de George Sand. Après avoir été remise plusieurs fois, la première est prévue le
+          29 avril 1840 au Théâtre français. Cette pièce n'a pas eu de succès, seules sept
+          représentations ont eu lieu (Alexandre, 2005, p. 231, n. 2 de la page 99).</note>. Tâchez
+        de m’en avoir une. Inscrivez le nom de Mme la <persName
+            key="Forget, Joséphine de (1802-1886)"><hi rend="u">baronne de
+          Forget</hi></persName>.</p><closer><salute>Je baise vos pantoufles très chéries.</salute>
+            <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène
+          Delacroix</persName></signed></closer>
+      <postscript><p>Ce jour. J'écris à <persName key="Buloz, François (1804-1877)">Buloz</persName>
+        dans le même sens<note place="bottom"> "François Buloz est depuis 1838 commissaire  royal du
+          Théâtre français. Delacroix veut être sûr d'obtenir une loge d'où le doublement de la
+          requête". Madame de Forget est une grande admiratrice de l'oeuvre de l'écrivain
+          (Alexandre, 2005, p. 231, n. 3 de la page 99).</note>.</p></postscript>
+    </body>
+
+  </text>
+</TEI>
