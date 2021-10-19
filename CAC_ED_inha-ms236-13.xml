@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 24 mai 1841</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 13</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="3" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 1er juillet 1930, p. 598</bibl>
+          <bibl>Joubin, II, p. 50-51</bibl>
+          <bibl>Alexandre, 2005, p. 110</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1841-05-24"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"/>
+      <opener>
+        <address>
+          <addrLine><persName key="Sand, George (1804-1876)">Madame G. Sand</persName></addrLine>
+          <addrLine> rue Pigale n° 16</addrLine>
+        </address>
+        <dateline>7 heures du soir, lundi</dateline>
+        <note place="bottom">Joubin date cette lettre de mars 1840 mais celle-ci est la réponse, le
+          soir même, à une lettre de G. Sand, datée du 24 mai 1841. Dans cette lettre, l'écrivain
+          propose d'aller voir avec Gustave Papet <hi rend="it">Le maître d'école</hi>, vaudeville
+          en un acte d'Anicet-Bourgeois et de Lockroy (Alexandre, 2005, p. 235, n. 4 de la page 109
+          et n. 1 de la page 110).</note>
+        <pb n="2"/>
+        <salute><persName key="Sand, George (1804-1876)">Chère amie</persName>,</salute>
+      </opener>
+      <p> voici l’ennui qui m’arrive. À l’instant où je reçois votre cher mot, j’apprends aussi que
+        je serai obligé, forcé, contraint de vous quitter une grande partie de la soirée et, surtout
+        avec la perspective de la partie de rire que vous me proposez, je me trouve au désespoir.
+        S’il était encore temps de conjurer <persName key="Papet, Gustave (1812-1892)">M.
+          Papet</persName> de remettre à mercredi, ou un jour qu’il voudra sans exception, je serais
+        bien reconnaissant. Le gigot attendra bien un jour, la viande est si dure à présent, à ce
+        que dit <persName key="Le Guillou, Jeanne Marie, dite Jenny (1801-1869)">ma
+        bonne</persName>. S’il n’est plus temps <pb n="3"/>de changer, je viendrai tout de même et
+        je ferai comme je pourrai.</p>
+      <closer><salute>Adieu et cent mille amitiés bien sincères</salute><signed><persName
+            key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName></signed></closer>
+      <postscript>
+        <p>Un mot dans la journée si nous changeons le jour.</p>
+      </postscript>
+
+
+    </body>
+
+  </text>
+</TEI>

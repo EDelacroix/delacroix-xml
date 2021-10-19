@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 8 avril 1840</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 14</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="2" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 1er juillet 1930, p. 526</bibl>
+          <bibl>Joubin, II, p. 53</bibl>
+          <bibl>Alexandre, 2005, p. 99</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1840-04-08"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"/>
+      <opener>
+        <address>
+          <addrLine><persName key="Sand, George (1804-1876)">Madame G. Sand</persName></addrLine>
+          <addrLine>Rue Pigale n°16</addrLine>
+        </address>
+
+        <pb n="2"/>
+        <salute>Voulez-vous, <persName key="Sand, George (1804-1876)">chère</persName>,</salute>
+      </opener>
+      <p>me permettre de faire une lithographie qu’on me demande d’après votre petit <hi rend="it"
+          >Giaour</hi><note place="bottom"> Delacroix traite à plusieurs reprises et tout au long de
+          sa carrière le sujet du Giaour inspiré de  l'oeuvre orientale de Lord Byron <hi rend="it"
+            >The Giaour, a fragment of a Turkish tal</hi>, publié en 1814. On recense plusieurs
+          tableaux :  <hi rend="it">Giaour contemplant le cadavre d'Hassan</hi> en 1829 (Zurich,
+          coll. part.), <hi rend="it">Combat du Giaour et du Pacha</hi> en 1826 (Chicago, The Art
+          Institute of Chicago) et une seconde version en 1835 (Paris, musée du Petit Palais), <hi
+            rend="it">Giaour poursuivant les ravisseurs de sa maîtresse</hi> en 1849 (Alger, Musée
+          national des Beaux-Arts). L'oeuvre dont il est question dans cette lettre est <hi
+            rend="it">La Confession du Giaour</hi> (Melbourne, National Gallery of Victoria) peinte
+          avant 1840 et qu'il a offert à George Sand. Selon l'écrivain c'est le premier cadeau de
+          Delacroix. (Jobert, 1997, p. 112, 276. Alexandre, 2005, p. 231, n. 4 de la page
+          231).</note>? Ce sera l’affaire d’une huitaine de jours. Si cela ne vous ennuie pas,
+        écrivez-moi un mot et je l’envoie chercher et vous le renverrai tout de suite après. Vous
+        donneriez des ordres chez vous pour qu’on le donne à la personne qui se présenterait, si
+        vous étiez absente.</p>
+      <closer>
+        <salute>Adieu et tendres amitiés</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName></signed>
+        <dateline><date when="1840-04-08">Ce 8 avril.</date></dateline>
+      </closer>
+    </body>
+
+  </text>
+</TEI>
