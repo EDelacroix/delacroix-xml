@@ -73,7 +73,8 @@
       <opener>
         <address>
           <addrLine><persName key="Sand, George (1804-1876)">Madame G. Sand</persName></addrLine>
-          <addrLine>Rue Pigale n°16</addrLine>
+          <addrLine><placeName key="France, Paris, rue Pigale, 16">Rue Pigale
+            n°16</placeName></addrLine>
         </address>
 
         <pb n="2"/>
