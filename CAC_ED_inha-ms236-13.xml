@@ -73,14 +73,16 @@
       <opener>
         <address>
           <addrLine><persName key="Sand, George (1804-1876)">Madame G. Sand</persName></addrLine>
-          <addrLine> rue Pigale n° 16</addrLine>
+          <addrLine><placeName key="France, Paris, rue Pigale, 16">rue Pigale n°
+            16</placeName></addrLine>
         </address>
-        <dateline>7 heures du soir, lundi</dateline>
-        <note place="bottom">Joubin date cette lettre de mars 1840 mais celle-ci est la réponse, le
-          soir même, à une lettre de G. Sand, datée du 24 mai 1841. Dans cette lettre, l'écrivain
-          propose d'aller voir avec Gustave Papet <hi rend="it">Le maître d'école</hi>, vaudeville
-          en un acte d'Anicet-Bourgeois et de Lockroy (Alexandre, 2005, p. 235, n. 4 de la page 109
-          et n. 1 de la page 110).</note>
+        <dateline>7 heures du soir, lundi<note place="bottom">Joubin date cette lettre de mars 1840
+            mais celle-ci est la réponse, le soir même, à une lettre de G. Sand, datée du 24 mai
+            1841. Dans cette lettre, l'écrivain propose d'aller voir avec Gustave Papet <hi
+              rend="it">Le maître d'école</hi>, vaudeville en un acte d'Anicet-Bourgeois et de
+            Lockroy (Alexandre, 2005, p. 235, n. 4 de la page 109 et n. 1 de la page
+          110).</note></dateline>
+
         <pb n="2"/>
         <salute><persName key="Sand, George (1804-1876)">Chère amie</persName>,</salute>
       </opener>
@@ -93,8 +95,10 @@
         que dit <persName key="Le Guillou, Jeanne Marie, dite Jenny (1801-1869)">ma
         bonne</persName>. S’il n’est plus temps <pb n="3"/>de changer, je viendrai tout de même et
         je ferai comme je pourrai.</p>
-      <closer><salute>Adieu et cent mille amitiés bien sincères</salute><signed><persName
-            key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName></signed></closer>
+      <closer>
+        <salute>Adieu et cent mille amitiés bien sincères</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName></signed>
+      </closer>
       <postscript>
         <p>Un mot dans la journée si nous changeons le jour.</p>
       </postscript>
