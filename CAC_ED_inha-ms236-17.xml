@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 19 décembre 1840</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 17</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="2" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 1er août 1930, p. 598</bibl>
+          <bibl>Joubin, II, p. 67-68</bibl>
+          <bibl>Alexandre, 2005, p. 105</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1840-09-19"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"/>
+      <opener><address>
+          <addrLine><persName key="Sand, George (1804-1876)">Madame G. Sand</persName></addrLine>
+          <addrLine>
+            <placeName key="France, Paris, rue Pigale, 16">rue Pigale n° 16</placeName>
+          </addrLine>
+        </address>
+        <pb n="2"/><dateline>Vendredi soir</dateline>
+        <salute><persName key="Sand, George (1804-1876)">Chère bonne</persName>,</salute></opener>
+      <p> j’ai mal à la gorge depuis quelques jours, c’est ce qui fait que je ne vous ai pas vue et
+        que je vous écris encore ce soir du coin de mon feu. Cela me fait peur également pour la
+        séance de dimanche au Conservatoire<note place="bottom"> Selon Françoise Alexandre,
+          Frédérique Müller, élève de Chopin, y joue une sonate et Chopin clôt la soirée (Alexandre,
+          2005, p. 233, n. 2 de la page 105).</note>. Je me vois forcé de vous prier de chercher à
+        faire un autre heureux à ma place pour ce jour. J’ai pensé que d’ici là vous le pourriez
+        peut-être. J’ai une si grande frayeur d’être interrompu dans mes travaux<note place="bottom"
+          > Delacroix travaille alors à <hi rend="it">La Prise de Constantinople par les
+            Croisés</hi>, oeuvre présentée au Salon l'année suivante. A cette date, il oeuvre aussi
+          au décor des pendentifs de la bibliothèque de la Chambre des députés et à la conception
+          des esquisses de la coupole de la Chambre des pairs (Alexandre, 2005, p. 233, n. 3 de la
+          page 105).</note> à présent que je prends des précautions, qui me coûtent infiniment et
+        qui permettront de vous voir néanmoins, demain soir ou après-demain, en m’emballant bien.
+        Mais je redoute le froid aux pieds pendant quatre heures.</p>
+      <closer><salute>Mille tendresses.</salute><signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName></signed></closer>
+     
+    </body>
+
+  </text>
+</TEI>
