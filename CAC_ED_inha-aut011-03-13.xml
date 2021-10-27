@@ -39,17 +39,17 @@
       <sourceDesc>
         <msDesc>
           <msIdentifier>
-            <country/>
-            <settlement/>
-            <institution/>
-
-
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l'Institut national d'histoire de l'art</institution>
+            <repository/>
+            <idno>Autographes 11, 03, 13</idno>
           </msIdentifier>
           <physDesc>
             <objectDesc form="letter">
               <supportDesc>
                 <extent>
-                  <measure/>
+                  <measure quantity="2" unit="page"></measure>
                 </extent>
               </supportDesc>
             </objectDesc>
@@ -85,7 +85,7 @@
 
 
       <opener>
-        <dateline>Le <date when="1860-03-19">19 mars</date><note place="bottom">Joubin publia cette
+        <pb n="1"/><dateline>Ce <date when="1860-03-19">19 mars</date><note place="bottom">Joubin publia cette
             lettre à la date du 19 mars 1863. Toutefois, elle doit être datée de l’année 1860. Dans
             cette lettre, Delacroix répondait à une demande de Pauline Viardot qui souhaitait avoir
             son avis pour son costume d’Armide. La cantatrice avait écrit à ce sujet au peintre une
@@ -116,9 +116,9 @@
           lui fit cette nouvelle demande (voir <ref type="letter" target="CAC_ED_bougival-01.xml"
             >les lettres de Delacroix du 12 juillet</ref>, <ref type="letter"
             target="CAC_ED_bnf-bmo-lasED1.xml">18 septembre</ref> et <ref type="letter"
-            target="CAC_ED_bnf-man-naf16272-f87.xml">21 septembre 1859</ref>).</note>. Vous êtes là dans
-        la féerie pure : c’est un mélange de la nymphe et de la grande dame. Je suis sûr que vous
-        avez trop bon goût pour ne pas tomber aussi juste que vous l’êtes dans <hi rend="it"
+            target="CAC_ED_bnf-man-naf16272-f87.xml">21 septembre 1859</ref>).</note>. Vous êtes là
+        dans la féerie pure : c’est un mélange de la nymphe et de la grande dame. Je suis sûr que
+        vous avez trop bon goût pour ne pas tomber aussi juste que vous l’avez fait dans <hi rend="it"
           >Orphée</hi> où vous êtes si bien<note place="bottom">Pauline Viardot attachait beaucoup
           d’importance à ses costumes, dessinant elle-même certains d’entre eux (Barbara
           Kendall-Davies, <hi rend="it">Life and Work of Pauline Viardot Garcia</hi>, Newcastle Upon
@@ -132,9 +132,8 @@
           d’Orphée, il ne semble pas subsister de document permettant de nous faire une idée de
           celui qu’elle porta pour <hi rend="it">Armide</hi>. Delacroix se contente seulement ici de
           quelques indications, n’envoyant pas de croquis. </note>.</p>
-      <p>Je suis bien chagrin d’être ainsi enchaîné : j’ai manqué cet hiver toutes sortes de bonnes
+      <p>Je suis bien chagrin d’être ainsi enchaîné : j’ai manqué cet hiver <pb n="2"/> toutes sortes de bonnes
         occasions.</p>
-
 
       <closer>
         <salute>Recevez, <persName key="Viardot, Pauline Garcia, épouse (1821-1910)"
