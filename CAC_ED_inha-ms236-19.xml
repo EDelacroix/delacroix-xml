@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, fin octobre 1839 - décembre 1840</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 19</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="2" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 1er juillet 1930, p. 526</bibl>
+          <bibl>Joubin, II, p. 73.</bibl>
+          <bibl> Alexandre, 2005, p. 96</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1839"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"/>
+      <opener>
+        <address>
+          <addrLine><persName key="Sand, George (1804-1876)">Madame G. Sand</persName></addrLine>
+          <addrLine>rue Pigale n°16</addrLine>
+        </address>
+        <pb n="2"/>
+        <salute><persName key="Sand, George (1804-1876)">Chère amie</persName>,</salute>
+      </opener>
+      <p>excusez-moi pour aujourd’hui. Je suis tout chose et pris de la gorge. Je n’irai pas voir
+        avec vous ce magnétiseur et vais me soigner pour pouvoir aller au concert après-demain.
+        Faites-moi savoir par un mot à quelle heure je dois aller vous prendre ce jour-là pour
+        trépigner ensemble.</p>
+      <closer>
+        <salute>Truly yours +</salute>
+        <dateline>ce jeudi <note place="bottom">Joubin date cette lettre du 24 avril 1841 en lisant
+            "24" sur l'autographe, puis en rapprochant l'allusion du concert à celui de Chopin à
+            Pleyel deux jours plus tard le 26 avril 1841. Françoise Alexandre avance une autre date
+            après une étude plus précise de la lettre. L'adresse de l'écrivain, 16 rue Pigale, situe
+            la lettre entre le 15 octobre 1839 et septembre 1842. La signature de Delacroix (une
+            croix et une clôture en anglais) resserre la fourchette à 1839-1840. De plus, l'allusion
+            à ce qui paraît être une séance publique de magnétisme avec des célébrités confirme
+            cette datation. La période 1839 et 1840 est le point d'orgue du conflit entre les
+            médecins plaidant pour le magnétisme et le somnambulisme et l'Académie de Médecine.
+            George Sand est conviée, avec Théophile Gautier, le physicien Arago et d'autres, à
+            assister à des expériences. En 1841 l'Académie de Médecine interdit tout travail
+            officiel sur le sujet (Alexandre, 2005, p. 229-230, n. 5 de la page
+          96).</note></dateline>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
