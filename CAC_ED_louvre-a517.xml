@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, 18 septembre 1818</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les amis de jeunesse</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Musée du Louvre</institution>
+            <repository>Département des Arts graphiques</repository>
+            <idno>A 517</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="4"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Etienne Moreau-Nélaton</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, I, p. 17-21</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1818-09-18"/>
+          <placeName key="France, Charente, Forêt de Boixe, Maison des gardes">Forêt de
+            Boixe</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Pierret, Jean-Baptiste (1795-1854)"/>
+          <placeName key="France, Paris, rue du Four, 50"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="1" xml:id="p1"/> À <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur
+              Jean-Baptiste Pierret fils</persName></addrLine>
+          <addrLine><placeName key="France, Paris, rue du Four, 50">Rue du Four, Saint-Germain, n°
+              50, au coin de la rue de l’égoût, à Paris</placeName></addrLine>
+        </address>
+        <stamp><date when="1818-09-28">28 septembre 1818</date></stamp>
+        <note place="bottom">La date du cachet est certainement erronée, cette lettre étant datée du
+          18 septembre. En effet, la lettre citée à la fin de celle-ci et destinée à Félix
+          Guillemardet est datée du jour suivant, le 19 septembre (Joubin, I, p. 21-22). Par
+          ailleurs, dans une autre lettre à Pierret du 23 octobre, Delacroix affirme avoir reçu la
+          veille sa réponse à la présente (Joubin, I, p. 22-30).</note>
+        <pb n="2" xml:id="p2"/>
+        <address>
+          <addrLine>À la <placeName key="France, Charente, Forêt de Boixe, Maison des gardes">Maison
+              des gardes, de la forêt de Boixe</placeName>,</addrLine>
+        </address>
+        <dateline>Le <date when="1818-09-18">18 septembre 1818</date>.</dateline>
+      </opener>
+
+
+      <p>Il n’y a rien de plus facile, <persName key="Pierret, Jean-Baptiste (1795-1854)">mon cher
+          ami</persName>, que de promettre d’écrire, et rien de plus difficile que d’écrire. Depuis
+        près de quinze jours que je suis arrivé, je mène ici une vie de paresseux et cependant je
+        n’ai pu encore trouver le moment de t’envoyer de mes nouvelles et de te demander des
+        tiennes. Il me semble que je suis <placeName
+          key="France, Charente, Forêt de Boixe, Maison des gardes">ici</placeName><note
+          place="bottom">Delacroix se trouve dans la maison des gardes acquise en juin 1812 par sa
+          mère et occupée ensuite par sa sœur Henriette (1782-1827) et son époux Raymond de Verninac
+          (1761-1822). </note> dans un pays inconnu du reste de la terre, où il n’y a ni almanachs
+        ni pendules, et où j’oublie moi-même que j’existe. Tu peux te figurer la vie que je mène,
+        d’abord par mon logis et par sa situation. Je suis placé à peu près au centre d’une forêt de
+        4500 journaux d’étendue, à l’endroit où se croisent deux allées d’une trentaine de pieds de
+        large, dont une a de longueur et en ligne droite deux grandes lieues des environs de
+          <placeName key="France, Paris">Paris</placeName>. C’est dans ce lieu, que l’on appelle
+        dans le pays « la Croisée », qu’apparaît, quand on a le nez dessus, une maison blanche à
+        contrevents verts dont le premier étage manque, ce qui par conséquent la réduit à un seul
+        rez-de-chaussée. Au dehors, elle n’a point l’apparence de certaines maisons du pays, mais
+        au-dedans elle est aussi commodément et même aussi élégamment distribuée qu’une maison de
+          <placeName key="France, Paris">Paris</placeName> ; ce qu’elle n’a pas de commun non plus
+        avec les habitations des gens riches de la contrée. Ce sont partout de grands et véritables
+        poulaillers, avec du papier de cabaret sur les murs du salon et point sur les autres murs,
+        de grandes poutres déjetées dans les plafonds et des planchers enfoncés sous les pieds, ce
+        qui rend notre maison un objet de jalousie pour tous les voisins, j’entends pour ces voisins
+        de deux ou trois lieues de distance. Je me lève de fort bonne heure ; quelques fois avec le
+        soleil. Je sors quelques fois seul, quelques fois accompagné, mais toujours avec un chien et un
+        bon fusil qui ne me quitte presque point. Je marche pendant trois ou quatre heures sans
+        m’arrêter, brûlant de la poudre et me déchirant à poursuivre du gibier dans des fourrés et
+        dans de verdoyantes clairières. Je me plais beaucoup à chasser. Quand j’entends le chien
+        aboyer, mon cœur palpite avec force et je cours après mes timides proies, avec une ardeur de
+        guerrier qui <pb n="3" xml:id="p3"/> franchit des palissades et s’élance au carnage. Je ne
+        suis pas mécontent de mes essais et je ne me serais pas cru capable de brillantes prouesses
+        à la chasse. J’ai déjà tué au vol deux beaux perdreaux rouges, sans compter la menue
+        volatile ; et tu dois savoir qu’il est fort difficile de tirer au vol, surtout pour un
+        apprenti. Les gardes admirent ce qu’ils appellent mes beaux coups et me pronostiquent de
+        l’habileté. Si tu n’as pas encore tué de perdreaux, je t’avertis que c’est une des
+        jouissances de la vie qu’il te reste à éprouver. Rien même qu’en voyant tomber un oisillon,
+        on se sent ému et triomphant comme celui qui découvre dans l’instant que sa maîtresse
+        l’aime.</p>
+      <p>Au moment où je t’écris ceci, je ne peux m’empêcher d’éprouver un contrecoup qui me ramène
+        à d’autres idées qui me reviennent souvent dans le cœur. Il me ramène aussi à te parler un
+        peu non pas de tout ce que je fais ici, qui est peu fait pour t’intéresser, mais de toi,
+        mais de notre amitié à tous deux, mais des sentiments de l’un et de l’autre, étrangers à
+        notre amitié, mais que la confiance mutuelle a rendu communs à tous deux. Quelque plaisir
+        que l’on trouve dans une vie nouvelle et agissante, elle ne peut éteindre la mémoire des
+        doux nœuds que l’âme a formés dans d’autres lieux, dans d’autres temps. On ne conserve dans
+        la vie que la mémoire des sentiments touchants, tout le reste est moins même que ce qui est
+        passé, parce que rien ne lui prête plus de couleur dans l’imagination. Avec quel bonheur je
+        me rappelle nos douces conversations, nos chers épanchements : avec quel plaisir je
+        t’embrasserai à mon retour, toi, <persName key="Pierret, Jean-Baptiste (1795-1854)">mon bon
+          ami</persName>, qui as écouté toutes mes folies. Que tu vas trouver froid à ton tour le
+        commencement de cette lettre. Au milieu de mes occupations dissipantes, quand <pb n="4"
+          xml:id="p4"/> je me rappelle quelques beaux vers, quand je me rappelle quelque sublime
+        peinture, mon esprit s’indigne et foule aux pieds la vaine pâture du commun de hommes. De
+        même, quand je pense à mes affections, mon âme embrasse avec ardeur la trace fugitive de si
+        chères idées. Oui, j’en suis sûr, la grande amitié est comme le grand génie, le souvenir
+        d’une grande et forte amitié est comme celui des grands ouvrages du génie. Quand un poète
+        sent brûler sa verve, il doit aimer son ami avec la chaleur qui féconde son vers. Quelle vie
+        ce doit être que celle de deux grands poètes qui s’aimeraient comme nous nous aimons. Ce
+        serait trop grand pour l’humanité.</p>
+      <p>Te souviens-tu de certaine conversation que nous eûmes quelques jours avant mon départ ? Je
+        t’ai dit que c’était à chaque ami à sentir la part d’affection qu’il a droit d’attendre dans
+        les affections de son ami. Je te le répète encore et <hi rend="u">je désire vivement</hi>
+        que tu sentes juste.</p>
+      <p>Je t’ai promis de t’écrire le premier. Comme <persName
+          key="Guillemardet, Félix (1796-1842)">Félix</persName> me l’a demandé aussi, vos deux
+        lettres partiront en même temps : c’est ce qui m’a empêché de vous les faire parvenir par
+          <persName key="Piron, Achille (1798-1865)">Piron</persName>, parce qu’alors il aurait
+        fallu [lui écrire] le premier aussi. J’attends de vous deux la plus longue lettre possible,
+        surtout moins de retard que je n’en ai mis moi-même. Viennent donc tôt les soirées d’hiver
+        qui chassent les soucis au coin d’un bon feu, et cette soirée de la Saint-Sylvestre où nous
+        renouons chaque année un pacte fraternel<note place="bottom">Delacroix et ses amis de
+          jeunesse se retrouvaient tous les ans à l’occasion de la Saint-Sylvestre, dans des soirées
+          dont l’atmosphère gaie et chaleureuse est attestée par un album de dessins conservé au
+          département des Arts graphiques du Louvre (cote : RF 9140). Ce « rite » fraternel se
+          prolongea pendant plus de vingt ans. À ce propos, voir Marie-Christine Natta, « L’amitié
+          selon Eugène Delacroix », <hi rend="it">Bulletin de la Société des Amis du musée national
+            Eugène Delacroix</hi>, n° 9, 2011, p. 25-28.</note>. Adieu, <persName
+          key="Pierret, Jean-Baptiste (1795-1854)">mon cher ami</persName> : je te quitte pour le
+        dîner ; c’est bien mal à moi sans doute, mais comme on ne peut pas vivre sans dîner et qu’on
+        ne peut pas s’aimer sans vivre, je vais dîner.</p>
+
+
+      <closer>
+        <salute>Adieu, adieu, adieu. Ces trois mots-là me furent chers dans un temps : malheureux
+          temps ! Heureux temps !... Adieu. Ton ami pour la vie,</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName></signed>
+        <address>
+          <addrLine>Poste restante à <placeName key="France, Mansle">Mansle, département de la
+              Charente</placeName>.</addrLine>
+        </address>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

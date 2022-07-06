@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Marie Pierret, 22 novembre 1849</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les amis de jeunesse</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Musée du Louvre</institution>
+            <repository>Département des Arts graphiques</repository>
+            <idno>A 596</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Etienne Moreau-Nélaton</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, II, p. 410</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1849-11-22"/>
+          <placeName key="France, Champrosay">Champrosay</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Pierret, Marie (1835-1876)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <placeName key="France, Champrosay">Champrosay</placeName>, <date when="1849-11-22">22
+            novembre 1849</date></dateline>
+        <salute><persName key="Pierret, Marie (1835-1876)">Ma chère Marie</persName>,</salute>
+      </opener>
+
+
+      <p>Je te remercie beaucoup de ta bonne lettre<note place="bottom">Étant sa filleule, elle lui
+          avait écrit le 15 novembre, à l’occasion de la Saint-Eugène (Joubin, II, p. 410).</note> :
+        je t’écris de la campagne où je suis encore, mais pour très peu de jours. Aussitôt mon
+        arrivée, j’irai près de <persName key="Pierret, Jean-Baptiste (1795-1854)">ton bon
+          père</persName> savoir de tes nouvelles et des siennes. Je n’ai pas été content de sa
+        santé, ni de sa manière de se soigner : si tu veux m’être agréable, tu emploieras toute la
+        force que te donne ta tendresse pour lui, à le prier pour ses amis et pour toi de ne rien
+        négliger pour se remettre tout à fait. Je m’attends à tes progrès de toutes sortes<note
+          place="bottom">Marie Pierret, qui allait devenir une dessinatrice de talent, apprenait à
+          l’époque à peindre sur porcelaine (Joubin, II, p. 410). </note> et aurai grand plaisir au
+        mois de <pb n="2" xml:id="p2"/> janvier, quand nous nous reverrons, à en juger par
+        moi-même.</p>
+
+
+      <closer>
+        <salute>En attendant, <persName key="Pierret, Marie (1835-1876)">ma chère amie</persName>,
+          je t’embrasse tendrement et me recommande à ton souvenir.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)"
+          >Eug. Delacroix </persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

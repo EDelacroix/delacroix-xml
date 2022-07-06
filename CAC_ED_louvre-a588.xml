@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, 6 octobre 1846</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les amis de jeunesse</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Musée du Louvre</institution>
+            <repository>Département des Arts graphiques</repository>
+            <idno>A 588</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Etienne Moreau-Nélaton</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, II, p. 288</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1846-10-06"/>
+          <placeName key="France, Paris">Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Pierret, Jean-Baptiste (1795-1854)"/>
+          <placeName key="France, Paris, rue Tronchet, 13"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="1" xml:id="p1"/>
+            <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur
+            Pierret</persName></addrLine>
+          <addrLine><placeName key="France, Paris, rue Tronchet, 13">Rue Tronchet 13, Près la
+              Madeleine</placeName></addrLine>
+        </address>
+        <stamp><date when="1846-10-06">6 octobre 1846</date></stamp>
+        <salute>
+          <pb n="2" xml:id="p2"/>
+          <persName key="Pierret, Jean-Baptiste (1795-1854)">Cher ami</persName>,</salute>
+      </opener>
+
+
+      <p>Je reviens de <placeName key="France, Saint-Germain-en-Laye">Saint-Germain</placeName><note
+          place="bottom">Delacroix était chez Alberthe de Rubempré (1804-1873) (Joubin, II, p.
+          288).</note> : envoie-moi donc <persName key="Pierret, Henri Maximilien (1828-?)"
+          >Henri</persName><note place="bottom">Il ne s’agit pas ici d’Henri Hugues (1784-1840),
+          comme l’indique Joubin, mais bien d’Henri Maximilien (1828-?), le fils de Pierret, qui a
+          assisté Delacroix dans les décorations de la bibliothèque du Luxembourg.</note> demain.
+        Nous pourrions bien engrener au <rs type="work" key="Sénat, Bibliothèque, Coupole (J569)"
+          >Luxembourg</rs>, ou plutôt il vaudrait mieux qu’il y allât directement pour voir ce qui
+        manque. Comme je pense que le premier jour je ne pourrai pas faire grande chose, si tu veux
+        nous pourrions aller auparavant chez <persName key="Marcille, Eudoxe (1790-1856)">M.
+          Marcille</persName><note place="bottom">Il s’agit d’Eudoxe Marcille (1790-1856), un
+          peintre connu pour sa collection de tableaux du XVIII<hi rend="sup">e</hi> siècle (Joubin,
+          II, p. 288).</note>. Nous pourrions aller là avant ton bureau : je t’attendrai donc.</p>
+
+
+      <closer>
+        <salute>Je t’embrasse,</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène</persName></signed>
+        <dateline><date when="1846-10-06">Ce mardi</date></dateline>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

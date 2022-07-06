@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, 25 janvier 1832</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les amis de jeunesse</title>
+        <title type="sub">Le voyage au Maroc</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Musée du Louvre</institution>
+            <repository>Département des Arts graphiques</repository>
+            <idno>A 555</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Etienne Moreau-Nélaton</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, I, p. 307</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1832-01-25"/>
+          <placeName key="Maroc, Tanger">Tanger</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Pierret, Jean-Baptiste (1795-1854)"/>
+          <placeName key="France, Paris, rue Sainte-Anne, 18"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="1" xml:id="p1"/>
+            <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur
+            Pierret</persName></addrLine>
+          <addrLine><placeName key="France, Paris, rue Sainte-Anne, 18">Rue Sainte-Anne n° 18, A
+              Paris</placeName></addrLine>
+        </address>
+        <stamp>Février, [illisible]</stamp>
+        <dateline>
+          <pb n="2" xml:id="p2"/>
+          <placeName key="Maroc, Tanger">Tanger</placeName>, <date when="1832-01-25">25
+            janvier</date></dateline>
+      </opener>
+
+
+      <p>J’arrive maintenant à <placeName key="Maroc, Tanger">Tanger</placeName>. Je viens de
+        parcourir la ville. Je suis tout étourdi de tout ce que j’ai vu<note place="bottom"
+          >Delacroix raconta dans ses notes et ses souvenirs sa découverte de Tanger. Voir Hannoosh, <hi
+            rend="it">Journal</hi>, 2009, p. 195 sqq. et 275 sqq.</note>. Je ne veux pas laisser
+        partir le courrier, qui ira tout à l’heure à <placeName key="Royaume-Uni, Gibraltar"
+          >Gibraltar</placeName>, sans te faire part de mon étonnement de toutes les choses que j’ai
+        vues. Nous avons débarqué au milieu du peuple le plus étrange. Le <persName
+          key="Saïdi Sidi, Larabi">pacha de la ville</persName><note place="bottom">Il s’agit de
+          Sidi Larabi Saïdi, pacha et gouverneur de Tanger. </note> nous a reçus au milieu de ses
+        soldats. Il faudrait avoir 20 bras et 48 heures par journée pour faire passablement et
+        donner une idée de tout cela. Les Juives sont admirables. Je crains qu’il soit difficile
+        d’en faire autre chose que de les peindre : ce sont des perles d’Eden. Notre réception a été
+        des plus brillantes pour le lieu. On nous a régalés d’une musique militaire des plus
+        bizarres. Je suis dans ce moment comme un homme qui rêve et qui voit des choses qu’il craint
+        de voir lui échapper.</p>
+      <closer>
+        <salute> Adieu, je ferme. Communique à <persName key="Guillemardet, Félix (1796-1842)"
+            >Félix</persName>. Je vous embrasse tous.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène</persName></signed>
+      </closer>
+    </body>
+  </text>
+</TEI>

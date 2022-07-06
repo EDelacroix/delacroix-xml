@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, 5 mars 1842</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les amis de jeunesse</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Musée du Louvre</institution>
+            <repository>Département des Arts graphiques</repository>
+            <idno>A 578</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="4"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Etienne Moreau-Nélaton</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, II, p. 91</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1842-03-05"/>
+          <placeName key="France, Frépillon">Frépillon</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Pierret, Jean-Baptiste (1795-1854)"/>
+          <placeName key="France, Paris, rue Tronchet, 13"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="1" xml:id="p1"/>
+            <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur
+            Pierret</persName></addrLine>
+          <addrLine><placeName key="France, Paris, rue Tronchet, 13">Rue Tronchet, n° 13, à
+              Paris</placeName></addrLine>
+        </address>
+        <stamp><placeName key="France, Saint-Leu-Taverny">Saint-Leu-Taverny</placeName>, <date
+            when="1842-03-05">5 mars 1842</date></stamp>
+        <stamp><placeName key="France, Paris">Paris</placeName>, <date when="1842-03-06">6 mars
+            1842</date></stamp>
+        <dateline>
+          <pb n="2" xml:id="p2"/>
+          <date when="1842-03-05">Samedi</date></dateline>
+        <salute><persName key="Pierret, Jean-Baptiste (1795-1854)">Cher ami</persName>,</salute>
+      </opener>
+
+
+      <p>Je m’acquitte de ma promesse. J’ai bien fait le voyage : je ne puis espérer encore un grand
+        changement, puisque je ne suis ici que depuis un jour et demi. Je reconnais maintenant que
+        si j’avais observé plus tôt le régime de silence que je suis ici plus facilement, je serais
+        guéri depuis longtemps, car sous le rapport de la voix, je suis moins avancé que jamais.
+        Mais comme cette nature est séduisante ! <persName key="Pierret, Jean-Baptiste (1795-1854)"
+          >Mon ami</persName>, il faut venir au mois de mars dans un village pelé des environs de
+          <placeName key="France, Paris">Paris</placeName> comme ils sont tous, pour renverser en
+        esprit tous <pb n="3" xml:id="p3"/> les systèmes sur le beau, l’idéal, le choix, etc. La
+        plus pauvre allée, avec ses baguettes toutes droites sans feuilles, dans un horizon plat et
+        terne, en dit autant à l’imagination que tous les sites les plus vantés. Ce petit cotylédon
+        qui perce la terre, cette violette qui répand son premier parfum vous ravissent. J’aime
+        autant cela que les pins d’<placeName key="Italie">Italie</placeName> qui ont l’air de
+        panaches et les fabriques dans le paysage qui sont comme des assiettes montées pour le
+        dessert. Vive la chaumière, vive tout ce qui parle à l’âme.</p>
+      <p>Heureux qui possède un coin de terre ; mais si ce coin de terre a dix mille arpents, je
+        n’en veux pas sans souvenirs qui m’y rattachent et m’y rappellent à chaque pas ceux que j’ai
+        aimés. Je préférerais, à une villa <pb n="4" xml:id="p4"/>magnifique, le plus petit enclos où
+        se serait passée ma jeunesse. Mais il n’y faut plus penser.</p>
+      <p>Voilà mes rêveries ici. Peut-être y travaillerai-je un peu, mais seulement pour me faire
+        sentir plus de plaisir à aller me promener. Aimons-nous, <persName
+          key="Pierret, Jean-Baptiste (1795-1854)">mon pauvre vieux ami</persName>, soyons-nous l’un
+        à l’autre des souvenirs vivants ; puisque les arbres ne veulent pas de nous, que chacune de
+        nos rides nous rappelle au moins une joie envolée et en même temps les peines qui composent
+        tout le tissu de notre frêle vie.</p>
+      <p>Réponds-moi quelques mots. Embrasse tous les tiens, méprise ce qui est faux bien. Je t’ai
+        démontré qu’il valait mieux un sentiment qu’un trésor ; mais tu le sais bien.</p>
+
+
+      <closer>
+        <salute>Adieu, je t’embrasse de cœur.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène</persName></signed>
+        <address>
+          <addrLine>Chez <persName key="Riesener, Léon (1808-1878)">M. Riesener</persName>, à
+              <placeName key="France, Frépillon">Frépillon</placeName>, par <placeName
+              key="France, Saint-Leu-Taverny">Saint-Leu-Taverny</placeName>.</addrLine>
+        </address>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, 19 septembre 1840</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les amis de jeunesse</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Musée du Louvre</institution>
+            <repository>Département des Arts graphiques</repository>
+            <idno>A 576</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="4"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Etienne Moreau-Nélaton</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, II, p. 61-62</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1840-09-19"/>
+          <placeName key="France, Valmont">Valmont</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Pierret, Jean-Baptiste (1795-1854)"/>
+          <placeName key="France, Paris, rue Tronchet, 13"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="4" xml:id="p4"/>
+            <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur
+            Pierret</persName></addrLine>
+          <addrLine><placeName key="France, Paris, rue Tronchet, 13">Rue Tronchet, n° 13. Quartier
+              de la Madeleine, à Paris</placeName></addrLine>
+        </address>
+        <stamp><placeName key="France, Valmont">Valmont</placeName>, <date when="1840-09-19">19
+            septembre 1840</date></stamp>
+        <stamp><placeName key="France, Paris">Paris</placeName>, <date when="1840-09-20">20
+            septembre 1840</date></stamp>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <placeName key="France, Valmont">Valmont</placeName>, <date when="1840-09-19">19
+            septembre</date></dateline>
+        <salute><persName key="Pierret, Jean-Baptiste (1795-1854)">Cher ami</persName>,</salute>
+      </opener>
+
+
+      <p>Ecris-moi, parle-moi de toi, tout ce que tu voudras. Il fait ici un temps horrible, on ne
+        peut mettre le nez dehors : tempête sur tempête. Crotte, pluie et vent. – Je ne peux
+        travailler, mes yeux se brouillent pour écrire ou dessiner 5 minutes. Cela t’explique mon
+        barbouillage.</p>
+      <p>Quand quittes-tu les communes pour te faire une meilleure destinée ? Elle est dans tes
+        mains. Je te chanterai encore bien souvent cette antienne. Je te déteste dans les communes
+        et avec tes hôpitaux tu finiras par aller à l’hôpital<note place="bottom">Delacroix est
+          persuadé du talent littéraire de Pierret et souhaite qu’il abandonne son travail
+          bureaucratique, afin de poursuivre une carrière artistique. À ce propos, voir
+          Marie-Christine Natta, « L’amitié selon Eugène Delacroix », <hi rend="it">Bulletin de la
+            Société des Amis du musée national Eugène Delacroix</hi>, n° 9, 2011, p.
+        29-31.</note>.</p>
+      <p>J’ai vu et revu des beaux tableaux <pb n="2" xml:id="p2"/> à <placeName key="France, Rouen"
+          >Rouen</placeName>, où j’ai passé malgré cela une journée fort ennuyeuse dans l’attente de
+        voitures pour m’amener ici. Nous sommes décidément des barbares. En <placeName
+          key="Royaume-Uni, Angleterre">Angleterre</placeName>, il y aurait 20 voitures pour une. Tu
+        sais que les antiquités me lassent vite, malgré mon respect pour elles. J’ai parcouru des
+        musées et des collections. Dans un musée d’histoire naturelle, au milieu des serpents
+        empaillés et des mâchoires les plus distinguées de la Création, j’ai vu dans une armoire le
+        résultat de la science phrénologique<note place="bottom">La phrénologie est une science qui
+          a rencontré un fort succès au XIX<hi rend="sup">e</hi> siècle. Théorisée par Franz Josef
+          Gall (1757-1828), elle étudiait la conformation du crâne de l’homme, afin d’en déduire ses
+          aptitudes, son caractère et ses facultés mentales. </note> que tu estimes sans doute à sa
+        juste valeur. On y voyait la tête de trois ou quatre idiots à côté de <persName
+          key="Napoléon Ier (1769-1821)">Napoléon</persName>, <persName
+          key="Lacenaire, Pierre François (1803-1836)">Lacenaire</persName>, <persName
+          key="Vernet, Horace (1789-1863)">Horace Vernet</persName>, deux assassins voleurs, trois
+        voleurs non assassins, un assassin par vertu et vingt <pb n="3" xml:id="p3"/> autres
+        exemples corroborrantes de toutes ces belles découvertes qui n’ont pas corrigé le moindre
+        gredin et n’ont prouvé que le développement excessif de la bosse de la niaiserie dans les
+        savants. En vérité, l’homme n’a-t-il reçu le don de réfléchir et de comparer que pour
+        l’appliquer à la poursuite des sottises les plus grossières ? Ne s’est-il assemblé en
+        société que pour donner les exemples d’une férocité qui ferait reculer les sauvages sous
+        prétexte d’amour pour la justice ? Des charognes analysées avec la patience que mettent les
+        corbeaux à dépecer les cadavres : la justice le nez dans l’infection, et les savants, car
+        je les retrouve partout en les détestant davantage, étalant à plaisir sur ces lambeaux les
+        contradictions de leurs connaissances bornées. Quel est donc notre ridicule à nous deux ?
+        Car nous en devons avoir notre part. Sommes-nous aussi <pb n="4" xml:id="p4b"/> bêtes et
+        aussi féroces que ces monstres-là ? Toutes ces réflexions me viennent à propos de l’affaire
+          <persName key="Lafarge, Marie (1816-1852)">Lafarge</persName><note place="bottom"
+          >Delacroix se réfère ici au procès de Mme Lafarge, qui était au cœur du débat public à
+          l’époque. Marie Lafarge (1816-1852) était soupçonnée d’avoir empoisonné son mari avec de
+          l’arsenic et les savants se contredisaient à propos des analyses chimiques, dans le but de
+          la défendre ou de la condamner. </note>, que tu ne lis peut-être pas et tu as raison.</p>
+      <p>Parle-moi de toi et des tiens. J’embrasse <persName
+          key="Pierret, Marguerite Jeanne Aimée Heidinger, épouse (1797-?)"><persName
+            key="Pierret, Claire (1821-1904)"><persName
+              key="Pierret, Juliette (1822-1878)"><persName
+                key="Pierret, Marie (1835-1876)">ces
+          dames</persName></persName></persName></persName>, si elles le permettent, et me rappelle
+        à leur souvenir.</p>
+
+
+      <closer>
+        <salute>Adieu, bon. Je t’embrasse bien tendrement.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug.</persName></signed>
+        <address>
+          <addrLine>Chez <persName key="Bataille, Alexandre Marie (1777-1841)">M.
+              Bataille</persName>, à <placeName key="France, Valmont">Valmont,
+              Seine-Inférieure</placeName>.</addrLine>
+        </address>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

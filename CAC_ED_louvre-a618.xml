@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, [printemps 1833 ou 1834]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Margherita Malogioglio</name>
+          <name>Olivier Vayron</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>{corrections}</name>
+          <name>{corrections}</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les amis de jeunesse</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Musée du Louvre</institution>
+            <repository>Département des Arts graphiques</repository>
+            <idno>A 618</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Etienne Moreau-Nélaton</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, I, p. 401</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date notbefore="1833-03-01" notafter="1834-07-31"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Pierret, Jean-Baptiste (1795-1854)"/>
+          <placeName key="France, Paris, rue Sainte-Anne, 18"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="1" xml:id="p1"/>
+            <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur
+            Pierret</persName></addrLine>
+          <addrLine><placeName key="France, Paris, rue Sainte-Anne, 18">Rue Sainte-Anne, n°
+              18</placeName>.</addrLine>
+        </address>
+      </opener>
+
+
+      <p>
+        <pb n="2" xml:id="p2"/> Je n’avais pas pensé hier soir que <persName
+          key="Moine, Antonin (1796-1849)">Moine</persName><note place="bottom">Il s’agit du peintre
+          et sculpteur Antonin Moine (1796-1849) (Joubin, I, p. 401-402).</note> doit ce matin
+        m’amener <persName key="Biard, François-Auguste (1799-1882)"><hi rend="u"
+          >Biard</hi></persName><note place="bottom">Delacroix se réfère ici au peintre lyonnais
+          François-Auguste Biard (1799-1882). Selon Joubin (I, p. 401), cette lettre serait datée de
+          mai 1835, époque à laquelle Biard se serait établit à Paris. Toutefois, cette datation
+          doit être amendée. Selon les indications recueillies dans les catalogues des Salons et la
+          notice de Louis Boivin consacrée à Biard (L . Boivin, <hi rend="it">Notice sur M. Biard […]</hi>, Paris,
+          s.n., 1842, p. 18), le peintre se serait en réalité installé à Paris dès 1828. De même,
+          l’épithète « orientaliste » accolé au nom de Biard laisse supposer que cette lettre serait
+          postérieure aux années 1831-1832. Du reste, elle ne peut être datée de 1835, puisqu’à
+          partir d’octobre 1834 Pierret ne résidait plus rue Sainte-Anne, mais bien rue Neuve du
+          Luxembourg. Il est donc plus probable que cette lettre soit datée du printemps 1833 ou du
+          printemps 1834, pendant les mois d’ouverture du Salon.</note>, l’orientaliste. Nous ne
+        pouvons donc aller au Salon.</p>
+      <p>Veux-tu remettre la partie <hi rend="u">à demain</hi> ? Viens donc, je t’en prie, en
+        sortant de ton bureau aujourd’hui.</p>
+
+
+      <closer>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug</persName>.</signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

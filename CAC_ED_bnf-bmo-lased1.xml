@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Pauline Viardot, 18 septembre 1859</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">La musique et les arts de la scène</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque nationale de France</institution>
+            <repository>Bibliothèque-Musée de l’Opéra</repository>
+            <idno>LAS DELACROIX (EUGENE) 1</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Jean Cordey, <hi rend="it">Bulletin de la société de l’histoire de l’art
+              français</hi>, 1945-1946, p. 202-203</bibl>
+          <bibl>Johnson, <hi rend="it">Further Correspondence</hi>, p. 156</bibl>
+          <bibl>Alexandre Zviguilsky, « Lettres d’Eugène Delacroix à Pauline et Louis Viardot », <hi
+              rend="it">Cahiers Ivan Tourguéniev, Pauline Viardot, Maria Malibran</hi>, 1998, n° 22,
+            p. 53</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1859-09-18"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Viardot, Pauline Garcia, épouse (1821-1910)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+      <opener>
+        <dateline>
+          <pb n="1" xml:id="p1"/> Ce <date when="1859-09-18">18 septembre 1859</date></dateline>
+        <salute><persName key="Viardot, Pauline Garcia, épouse (1821-1910)">Madame</persName>,
+        </salute>
+      </opener>
+
+
+      <p>Je suis <placeName key="France, Paris">ici</placeName> depuis trois jours, de retour d’un
+        voyage en <placeName key="France, Alsace">Alsace</placeName><note place="bottom">Le 25 août
+          1859, Delacroix se trouvait à Strasbourg, qu’il quitta le 3 septembre pour rendre visite,
+          à Ante-en-Argonne, à son cousin germain Philogène Delacroix. Il regagna la capitale le 15
+          septembre. Voir le carnet de « Bade-Strasbourg », dans Hannoosh, <hi rend="it"
+            >Journal</hi>, 2009, p. 1777 sqq.</note>, et j’ai trouvé hier <persName
+          key="Berlioz, Hector (1803-1869)">Berlioz</persName> qui m’a dit que vous étiez à
+          <persName key="France, Paris">Paris</persName><note place="bottom">Sur les liens entre
+          Berlioz et Delacroix, voir l’article de Barthélémy Jobert, « Berlioz et Delacroix », dans
+          Alban Ramaut (dir.), <hi rend="it">Hector Berlioz. Regards sur un Dauphinois
+            fantastique</hi>, Saint-Étienne, Presses de l’Université de Saint-Étienne, 2005,
+          p. 231-248.</note>. Je suis donc à vos ordres pour vous porter <rs type="work"
+          key="Maquette du costume d'Orphée">le croquis</rs><note place="bottom">Le « croquis »
+          dont parle ici Delacroix est la maquette du costume qu’il dessina pour son amie qui devait
+          interpréter quelques mois plus tard le rôle-titre de l’<hi rend="it">Orphée</hi> de Gluck,
+          dans une version révisée par Berlioz. La question était d’autant plus importante qu’il
+          s’agissait d’un rôle travesti. Pauline Viardot se souciait beaucoup de ses costumes,
+          demandant l’avis de ses amis et dessinant elle-même certains d’entre eux (Barbara
+          Kendall-Davies, <hi rend="it">Life and Work of Pauline Viardot Garcia</hi>, Newcastle Upon
+          Tyne, Cambridge Scholars Publishing, 2014, vol. I, p. 104). Ainsi, après avoir signé son
+          contrat d’engagement en juin, elle écrivit à Delacroix de bien vouloir lui dessiner un
+          costume (voir la <ref type="letter" target="CAC_ED_bougival-01.xml">lettre à Pauline
+            Viardot du 12 juillet 1859 </ref>. Ce dessin envoyé le 21 septembre avec <ref
+            type="letter" target="CAC_ED_bnf-man-naf16272-f87.xml">une lettre</ref> donnant des
+          précisions à son sujet, semble aujourd’hui perdu. Concernant le costume porté par Pauline
+          Viardot, voir <ref type="letter" target="CAC_ED_bnf-man-naf16272-f87.xml">cette dernière
+            lettre</ref>.</note> le jour que vous voudrez avant votre départ, si vous repartez. Je
+        vous serais bien reconnaissant de me fixer <hi rend="u">le soir</hi> pour notre rendez-vous,
+        mes journées étant bien occupées.</p>
+      <p>Nous causerions de l’enfer<note place="bottom">Dans sa <ref type="letter"
+            target="CAC_ED_bougival-01.xml">lettre du 12 juillet</ref>, également à propos de la
+          mise en scène d’<hi rend="it">Orphée</hi>, Delacroix évoqua la scène très importante des
+          Enfers qui devait préoccuper Pauline Viardot. </note>. Je n’ai pas grand souvenir des
+        situations. D’ailleurs vous êtes toujours sûre de faire un enfer avec de grandes cavernes et
+        des reflets <pb n="2" xml:id="p2"/> de feu. Celui de Virgile est bien vague : ce sont
+        toujours des lieux vastes, sombres et silencieux, sauf le bruit des roues et des chaînes. La
+        musique de <persName key="Gluck, Christoph Willibald (1714-1787)">Gluck</persName> et vos
+        accents inspirés donneront suffisamment la couleur à tout le reste.</p>
+
+
+      <closer>
+        <salute>Mille amitiés à <persName key="Viardot, Louis (1800-1883)">Monsieur
+            Viardot</persName>. Recevez aussi, <persName
+            key="Viardot, Pauline Garcia, épouse (1821-1910)">Madame</persName>, en attendant le
+          jour que vous voudrez bien me fixer, l’assurance de mon bien respectueux et entier
+          dévouement.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

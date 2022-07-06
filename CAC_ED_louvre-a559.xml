@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, 2 avril 1832</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Gaëlle Lafage</name>
+          <name>Catherine Gros</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les amis de jeunesse</title>
+        <title type="sub">Le voyage au Maroc</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Musée du Louvre</institution>
+            <repository>Département des Arts graphiques</repository>
+            <idno>A 559</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="4"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Etienne Moreau-Nélaton</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, I, p. 325-26</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1832-04-02"/>
+          <placeName key="Maroc, Meknès">Meknès</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Pierret, Jean-Baptiste (1795-1854)"/>
+          <placeName key="France, Paris, rue Sainte-Anne, 18"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="4" xml:id="p4"/>
+            <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur Jean-Baptiste
+              Pierret</persName></addrLine>
+          <addrLine><placeName key="France, Paris, rue Sainte-Anne, 18">Rue Sainte-Anne n° 18, à
+              Paris</placeName></addrLine>
+        </address>
+        <dateline>
+          <pb n="1" xml:id="p1"/>
+          <placeName key="Maroc, Meknès">Meknès</placeName>, <date when="1832-04-02">2
+          avril</date></dateline>
+        <salute><persName key="Pierret, Jean-Baptiste (1795-1854)"><persName
+              key="Guillemardet, Félix (1796-1842)">Chers amis</persName></persName>,</salute>
+      </opener>
+      <p>je suis encore ici. Vous voyez que nous ne nous trompions pas beaucoup quand nous
+        calculions que les trois mois au moins seraient employés au voyage. Heureusement les
+        affaires sont terminées et nous partons après-demain pour retourner à <placeName
+          key="Maroc, Tanger">Tanger</placeName>, d’où, je pense, nous ne tarderons pas à nous
+        embarquer. Il y a la perspective de la quarantaine qui n’est pas amusante<note
+          place="bottom">À cause de l’épidémie de choléra qui était en train de ravager le pays, une
+          quarantaine était obligatoire à l’arrivée en France.</note>. Mais quand on a une fois
+        touché terre et surtout, celle où l’on a laissé tous ses souvenirs, c’est une pénitence
+        moins dure que celle à laquelle je suis soumis depuis 18 ou 20 jours que je suis ici comme
+        un prisonnier. Je vous ai mandé dans ma dernière lettre que nous avions eu l’audience de
+          <persName key="Abd-el-Rahman, Moulay (1778-1859)">l’empereur</persName>. À partir de ce
+        moment, nous étions censés avoir la permission de nous promener par la ville ; mais c’est
+        une permission dont moi seul ai profité entre mes compagnons de voyage, attendu que l’habit
+        et la figure de chrétien sont en antipathie à ces gens-ci, au point qu’il faut toujours être
+        escorté de soldats, ce qui <pb n="2" xml:id="p2"/> n’a pas empêché deux ou trois querelles
+        qui pouvaient être fort désagréables à cause de notre position d’envoyés. Je suis escorté,
+        toutes les fois que je sors, d’une bande énorme de curieux qui ne m’épargnent pas les
+        injures de chien, d’infidèle, de <hi rend="u">caracco</hi><note place="bottom">Dans le sud
+          de la France, le terme "caraco" ou "caraque" désigne un gitan ou un bohémien.</note>,
+        etc., qui se poussent pour s’approcher ou pour vous faire une grimace de mépris sous le nez.
+        Vous ne sauriez imaginer quelle démangeaison on se sent de se mettre en colère, et il faut
+        toute l’envie que j’ai de voir, pour m’exposer à ces gueuseries. J’ai passé la
+        plupart du temps ici dans un ennui extrême, à cause qu’il m’était impossible de dessiner
+        ostensiblement d’après nature, même une masure ; même de monter sur la terrasse vous expose
+        à des pierres ou à des coups de fusil. La jalousie des Maures est extrême, et c’est sur les
+        terrasses que les femmes vont ordinairement prendre le frais ou se voir entre elles. </p>
+      <p>On nous a envoyé l’autre jour des chevaux pour <persName
+          key="Louis-Philippe, roi des Français (1773-1850)">le roi</persName> (on vient de m’en
+        envoyer un), une lionne, un tigre, des autruches, des antilopes, une gazelle, etc. Un de ces
+        espèces de cerf, qui <pb n="3" xml:id="p3"/> est une méchante bête, a pris en grippe une de
+        ces pauvres autruches et l’a embrochée de ses deux cornes, dont elle est trépassée ce matin.
+        Voilà les événements qui varient notre existence. Du reste, point de nouvelles<note
+          place="bottom">Joubin omet ici une partie de la lettre, qu’il transcrit par erreur dans la
+            <ref type="letter" target="CAC_ED_louvre-A558.xml">lettre précédente envoyée par
+            Delacroix à Pierret</ref> (Joubin, I, p. 326). La version présentée ici est fidèle au
+          manuscrit de la lettre.</note>. Mes compagnons ont reçu des lettres de tous côtés. Moi
+        seul, je suis privé de celles de qui que ce soit. Je ne suis pas trop surpris de n’en pas
+        avoir reçu par les Affaires étrangères, qui n’ont pas encore écrit, mais je calcule que vous
+        devez depuis longtemps avoir reçu la lettre où je vous prie de m’écrire par <persName
+          key="Piron, Achille (1798-1865)">Piron</persName>. Comme, malgré mon espérance, rien n’est
+        plus incertain encore que le moment de mon retour, écrivez-moi jusqu’au dernier moment, et
+        dans le cas où <persName key="Piron, Achille (1798-1865)">Piron</persName> n’aurait pas reçu
+        la lettre où je lui donne l’adresse convenable, ayez la bonté de lui remettre vos lettres en
+        lui disant de les adresser à M. Thibaudier, agent consulaire de <placeName key="France"
+          >France</placeName> à <placeName key="Royaume-Uni, Gibraltar"><hi rend="u">Gibraltar</hi></placeName> (pour
+        remettre à <persName key="Delacroix, Eugène (1798-1863)">M. Delacroix</persName> à
+          <placeName key="Maroc, Tanger">Tanger</placeName>). Les moindres nouvelles sont précieuses
+        à un banni ; quand je dis nouvelles, ce ne sont ni celles de la politique ni de la
+        littérature, mais des vôtres, les choses les plus simples : comment se porte <persName
+          key="Guillemardet, Félix (1796-1842)">Félix</persName>, comment <persName
+          key="Pierret, Marguerite Jeanne Aimée Heidinger, épouse (1797-?)">la femme de
+          Pierret</persName> et <persName key="Pierret, Claire (1821-1904)"><persName
+            key="Pierret, Juliette (1822-1878)"><persName key="Pierret, Henri Maximilien (1828-?)"
+              >ses enfants</persName></persName></persName>, enfin ce que vous voudrez, des mots et
+        des lignes de votre main qui, reçues en <placeName key="Afrique">Afrique</placeName>, me
+        seront bien précieuses. <pb n="4" xml:id="p4bis"/> Je vous prie de me rappeler à tous les
+        amis. Étant très bien avec mes deux compagnons, j’éprouve cependant le regret de ne pouvoir
+        parler d’aucun de mes amis avec eux. Enfin, priez le Ciel qu’il ne prolonge pas trop mon
+        exil et écrivez toujours. </p>
+      <closer>
+        <salute>Adieu, adieu. </salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène</persName></signed>
+      </closer>
+      <postscript>
+        <p><persName key="Guillemardet, Félix (1796-1842)">Félix</persName>, donne de mes nouvelles
+          à <persName key="Hugues, Henri Pierre (1784-1840)">Henry</persName>. Cette lettre est pour lui
+          aussi. Dis-lui qu’il me rappelle au souvenir de M. et Mme Destandis.</p>
+      </postscript>
+      <postscript>
+        <p>Je ne vous parle pas de toutes les choses curieuses que je vois. Cela finit par sembler
+          naturel à un Parisien logé dans un palais moresque, garni de faïences et de mosaïques etc.
+          Voici un trait du pays : hier, <persName key="Bias, Sidi Ettayeb">le premier
+            ministre</persName><note place="bottom">Il s’agit de Sidi Ettayeb Bias, qui avait été
+            chargé par le sultan Mulay Abd-el-Rahman de négocier avec Charles de Mornay lors de la
+            mission du gouvernement français. </note>, qui traite avec <persName
+            key="Mornay, Charles de (1803-1878)">Mornay</persName>, a envoyé demander une feuille de
+          papier pour nous donner la réponse de <persName key="Abd-el-Rahman, Moulay (1778-1859)"
+            >l’empereur</persName>. Avant-hier, on lui avait envoyé une selle en velours et en or
+          qui est inestimable.</p>
+      </postscript>
+    </body>
+  </text>
+</TEI>

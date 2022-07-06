@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, 2 avril 1843</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros </name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les amis de jeunesse</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Musée du Louvre</institution>
+            <repository>Département des Arts graphiques</repository>
+            <idno>A 582</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="4"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Etienne Moreau-Nélaton</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, II, p. 131-133</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1843-04-02"/>
+          <placeName key="France, Frépillon">Frépillon</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Pierret, Jean-Baptiste (1795-1854)"/>
+          <placeName key="France, Paris, rue Tronchet, 13"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="1" xml:id="p1"/>
+            <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur
+            Pierret</persName></addrLine>
+          <addrLine><placeName key="France, Paris, rue Tronchet, 13">Rue Tronchet, n° 13,
+              </placeName><placeName>près la Madeleine, à Paris</placeName></addrLine>
+        </address>
+        <stamp><placeName key="France, Saint-Leu-Taverny">Saint-Leu-Taverny</placeName>, <date
+            when="1843-04-02">2 avril 1843</date></stamp>
+      </opener>
+
+
+      <p>
+        <pb n="2" xml:id="p2"/> Je t’envoie quelques mots, <persName
+          key="Pierret, Jean-Baptiste (1795-1854)">cher ami</persName>, du sein de ma profonde
+          retraite<note place="bottom">Delacroix se trouve à Frépillon, chez son cousin Léon
+          Riesener (1808-1878).</note> qui n’a rien de pénible, je t’assure, au milieu de cette
+        nature qui ressuscite et qui me ressuscite avec elle. Les arbres verdoient : cette pluie qui
+        est survenue les pousse et avance toute cette renaissance. Quoique le soleil nous visite
+        rarement et que les ondées soient fréquentes, je me plais beaucoup ici comme de coutume.
+        Seulement, je n’ai pu encore me mettre à faire quoi que ce soit et je suis un peu mécontent
+        de moi. C’est un sentiment qui me gâte toujours un peu tout le reste. Il semble qu’il faut
+        avoir fait sa tâche pour jouir en conscience des biens que la nature nous présente. Grand
+        argument en faveur du travail. Je me demande comment il est <pb n="3" xml:id="p3"/> possible
+        qu’un homme désœuvré ait de véritables plaisirs. Il faut les acheter tous par un peu de gêne
+        ou même de souffrance. Je lis, mais ce n’est pas un travail : malgré l’attrait que j’y
+        trouve, je ne suis pas pleinement satisfait quand j’ai passé mon temps de la sorte. Il n’y a
+        que le cigare, quand il est bon, qui me fasse un peu oublier le tort que j’ai de me laisser
+        aller à la paresse : car c’est tout uniment paresse. Je ne puis commencer. J’ai la certitude
+        que la première demi-heure passée, je trouverais au travail le plus grand plaisir, et je ne
+        puis malgré cela surmonter ce moment de dégoût. Le cigare est décidément un instrument de
+        relâchement et de corruption : tant que je le tiens, et je le fais durer le plus que je
+        peux, je tourne et retourne dans les allées, sans avoir même besoin de penser pour
+        m’occuper. Il me suffit d’ouvrir les yeux, le nez et les oreilles. Quand il est fini,
+        l’illusion cesse et je me fais <pb n="4" xml:id="p4"/> des reproches. L’âge vient : chaque
+        heure devrait porter ses fruits. Je me le dis sur tous les tons et surtout je serais
+        admirablement placé pour le dire aux autres.</p>
+      <p>Donne-moi de tes nouvelles et de tout ce qui t’entoure. <persName
+          key="Riesener, Louise (1843-1913)">La petite fille de Riesener</persName> est grosse comme
+        un rat. Tu connais combien je m’apitoie ordinairement sur la créature humaine, alors qu’elle
+        entre dans cette carrière de douleur dont nous avons déjà fourni notre bonne part. J’ai
+        senti pour celle-ci encore plus de commisération, vu sa petitesse et le peu de résistance
+        qu’elle a l’air de devoir offrir aux coups du sort. Ce qui n’empêchera pas qu’on ne
+        recommence à en faire jusqu’à la fin des siècles comme nous avons été faits nous-mêmes.</p>
+      <p>À propos de ceci, j’espère que tu verras bientôt <persName key="Pierret, Marie (1835-1876)"
+          >ta fille</persName> à même de faire ses preuves à son tour. Le plus tôt sera le
+        mieux.</p>
+
+
+      <closer>
+        <salute>Mille choses aimables à <persName
+            key="Pierret, Marguerite Jeanne Aimée Heidinger, épouse (1797-?)">Madame
+            Pierret</persName> et à <persName key="Pierret, Claire (1821-1904)"><persName
+              key="Pierret, Juliette (1822-1878)"><persName key="Pierret, Marie (1835-1876)">ces
+                demoiselles</persName></persName></persName> et à toi mille et mille
+          tendresses.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène</persName></signed>
+      </closer>
+
+      <postscript>
+        <p>Penses-tu à notre partie de Pâques ? Je serai à <placeName key="France, Paris"
+            >Paris</placeName> la semaine prochaine.</p>
+      </postscript>
+    </body>
+  </text>
+</TEI>

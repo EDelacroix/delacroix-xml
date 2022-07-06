@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, 29 juillet [1834]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>{corrections}</name>
+          <name>{corrections}</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les amis de jeunesse</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Musée du Louvre</institution>
+            <repository>Département des Arts graphiques</repository>
+            <idno>A 563</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="4"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Etienne Moreau-Nélaton</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, I, p. 377-379</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1834-07-29"/>
+          <placeName key="France, Paris">Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Pierret, Jean-Baptiste (1795-1854)"/>
+          <placeName key="France, Brest">Brest</placeName>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="1" xml:id="p1"/>
+            <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur Pierret, commissaire du
+              gouvernement</persName>, <hi rend="u">près la Chaîne</hi>.</addrLine>
+          <addrLine>Poste restante, <placeName key="France, Brest">à Brest</placeName>.</addrLine>
+        </address>
+        <stamp><date when="1834-07-29">29 juillet 1834</date></stamp>
+        <stamp><placeName key="France, Brest">Brest</placeName>, 1 août [illisible]</stamp>
+        <dateline>
+          <pb n="2" xml:id="p2"/>
+          <placeName key="France, Paris">Paris</placeName>, <date when="1834-07-29">29
+            juillet</date></dateline>
+        <salute><persName key="Pierret, Jean-Baptiste (1795-1854)">Cher ami</persName>, </salute>
+      </opener>
+
+
+
+      <p>j’ai vu <persName key="Pierret, Marguerite Jeanne Aimée Heidinger, épouse (1797-?)">ta femme</persName>
+        avant-hier soir et j’ai lu chez elle ta bonne grande lettre datée de je ne sais plus où. Je
+        vois avec plaisir que jusqu’à présent ton voyage ne va pas mal. J’étais impatient de voir
+        quelques lignes de ta main. Intérieurement, ce voyage m’a toujours contrarié. Il met la
+        nature en contact avec la bassesse, l’idéal avec les hideuses passions positives qui ne
+        prennent pas même de masques. Car à vrai dire je suis convaincu que, sauf quelques
+        exceptions, nous visons avec des âmes de forçats plus qu’avec des âmes d’anges ou même de
+        simples hommes. Toi si pur avec tout cet enfer, sans compter les ennuis de la solitude où tu
+        te trouves, qui doit te paraître double. – J’ai <pb n="3" xml:id="p3"/> pensé que tu serais
+        bien aise et un peu réchauffé de recevoir à la moitié de ta course quelques mots de la main
+        de celui dont le cœur est tout à toi et qui a tant besoin de toi. Je n’ai aucune nouvelle à
+        te donner. Je suis attelé à mes galères comme à l’ordinaire, triste victime de toutes les
+        émotions qui me portent tantôt au ciel tantôt plus bas que tes pensionnaires. Quand les
+        chimères font un homme malheureux, à quel degré de malheur ne peut-il pas descendre ! Enfin
+        tu connais ma vie, et ma vie, ce sont mes nerfs, ma rate, mon organisation ou plutôt une
+        fièvre. – Je travaille beaucoup, j’espère réaliser une partie de mes projets. J’ai vu
+          <persName key="Buloz, François (1804-1877)">Buloz</persName><note place="bottom">Il s’agit
+          de François Buloz (1804-1877), directeur de la <hi rend="it">Revue des deux
+          mondes</hi>.</note>, à qui j’ai parlé de toi<note place="bottom">Persuadé du talent
+          artistique de Jean-Baptiste Pierret, Delacroix souhaite qu’il quitte son travail
+          administratif afin de se dédier à une carrière littéraire. À ce propos, voir
+          Marie-Christine Natta, « L’amitié selon Eugène Delacroix », <hi rend="it">Bulletin de la
+            Société des Amis du musée national Eugène Delacroix</hi>, n° 9, 2011, p. 29-31.</note> :
+        comme il ne sait pas <pb n="4" xml:id="p4"/> quel est l’homme que je veux lui donner, il n’a
+        pu me remercier comme il l’aurait fait s’il t’eût connu. Nous verrons. Roule bien dans ta
+        tête le métier qu’il te faut faire et que tout maintenant t’impose, nécessité et devoir
+        autant qu’inclination. – Ne me réponds pas si tu n’as pas le temps. Tiens-toi l’esprit
+        libre. Je conçois qu’il te faut beaucoup de courage.</p>
+
+
+      <closer>
+        <salute>Adieu, <persName key="Pierret, Jean-Baptiste (1795-1854)">cher ami</persName>. J’ai
+          reçu une lettre de <persName key="Soulier, Charles (1792-1866)">Soulier</persName> qui m’a
+          fait grand plaisir ; il voudrait nous avoir. C’est difficile car je suis accablé de
+          travaux et tu as aussi à faire. Adieu encore et je t’embrasse. </salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

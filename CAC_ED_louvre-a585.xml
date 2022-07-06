@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, 26 juillet 1845</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Margherita Malogioglio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Catherine Gros</name>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="sub">Les amis de jeunesse</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Musée du Louvre</institution>
+            <repository>Département des Arts graphiques</repository>
+            <idno>A 585</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="4"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>Collection Etienne Moreau-Nélaton</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, II, p. 225-226</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1845-07-26"/>
+          <placeName key="France, Eaux-Bonnes">Eaux-Bonnes</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Pierret, Jean-Baptiste (1795-1854)"/>
+          <placeName key="France, Paris, rue Tronchet, 13"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="1" xml:id="p1"/>
+            <persName key="Pierret, Jean-Baptiste (1795-1854)">Monsieur
+            Pierret</persName></addrLine>
+          <addrLine><placeName key="France, Paris, rue Tronchet, 13">Rue Tronchet n° 13, à
+              Paris</placeName></addrLine>
+          <stamp><placeName key="France, Eaux-Bonnes">Eaux-Bonnes</placeName>, 26 juillet
+            [illisible]</stamp>
+          <stamp><placeName key="France, Paris">Paris</placeName>, <date when="1845-07-29">29
+              juillet 1845</date></stamp>
+          <addrLine>
+            <pb n="2" xml:id="p2"/>
+            <persName key="Delacroix, Eugène (1798-1863)">M. Delacroix</persName>, chez M. Miraud,
+              <placeName key="France, Eaux-Bonnes">Eaux-Bonnes,
+            Basses-Pyrénées</placeName></addrLine>
+        </address>
+        <dateline><date when="1845-07-26">26 juillet</date></dateline>
+        <salute><persName key="Pierret, Jean-Baptiste (1795-1854)">Cher ami</persName>,</salute>
+      </opener>
+
+
+      <p>Je suis ici depuis quelques jours, mais je n’étais pas sûr d’y rester. Je craignais que le
+        médecin ne trouvât que j’avais trop peu de temps à donner à la saison ; dans ce cas, je
+        serais reparti tout de suite. Je ne suis pas venu directement, comme tu sais. J’ai été à
+          <placeName key="France, Bordeaux">Bordeaux</placeName> voir <persName
+          key="Delacroix, Charles Henry (1779-1845)">mon frère</persName>, que j’espérais emmener
+        avec moi pour passer ensemble tout le temps possible. Mais il était établi au bord de la mer
+        près de <placeName key="France, Bordeaux">Bordeaux</placeName> et ses arrangements ne lui
+        permettaient pas de m’accompagner. J’ai donc passé quelques jours avec lui et j’en ferai
+        autant à mon retour. Le docteur se fait fort de me tirer d’affaire avec les 15 jours environ
+        que je pourrai lui donner. Dieu le veuille. Je me suis vu d’abord ici dans un véritable
+        guêpier : on trouve aux eaux une foule de gens qu’on ne voit jamais à <placeName
+          key="France, Paris">Paris</placeName> et moi <pb n="3" xml:id="p3"/> qui fuis les
+        conversations, surtout les conversations oiseuses, je me voyais d’avance assassiné. Il faut
+        donc une certaine adresse pour éluder les rencontres, et c’est fort difficile dans un
+        endroit qui est fait comme un entonnoir et où on est par conséquent les uns sur les autres.
+        La beauté des sites me console un peu de l’ennui des figures. C’est de la montagne pour tout
+        de bon et quoique je n’aie pas vu les parties les plus remarquables, je m’en tiens
+        satisfait. Le costume des indigènes est aussi très joli : celui des femmes est plein de
+        caractère et très inspirateur. On n’entend de tous côtés que chutes d’eau qui vous font
+        croire qu’il pleut à chaque instant. Toi qui ne crains pas de grimper, tu serais ici tout à
+        fait dans ton élément.</p>
+      <p>J’ai eu toutes les difficultés du monde à me loger. On vous offre à votre arrivée des trous
+        à ne pas mettre des animaux. Il y a force élégants qui donnent des bals et des raouts : tu
+        juges comme la musique <pb n="4" xml:id="p4"/> qu’ils font jusqu’à minuit et plus doit
+        chatouiller agréablement les oreilles de ces malheureux malades pour tout de bon, qui
+        viennent ici pensant trouver la paix et le repos. C’est le plus drôle des contrastes, si
+        cependant les figures allongées qu’on rencontre à chaque pas et la toux qui est un
+        accompagnement à la plupart des conversations ne ramenaient à des idées noires.</p>
+      <p>J’ai trouvé ici <persName key="Huet, Paul (1803-1869)">Huet</persName> et <persName
+          key="Roqueplan, Camille (1803-1855)">Roqueplan</persName>. Le premier n’a pas encore
+        éprouvé d’effet des eaux ; quelques accidents qu’il a éprouvés l’ont empêché d’en profiter
+        jusqu’à présent. Quant à <persName key="Roqueplan, Camille (1803-1855)"
+        >Roqueplan</persName>, il est fort bien. On l’a apporté ici mourant et il a l’air de tout le
+        monde.</p>
+      <p>Je te plains bien de ne pas voyager : malgré les inconvénients et les fatigues, c’est une
+        grande diversion aux ennuis de ce bas monde. On a vécu davantage au demeurant en moins de
+        temps ; c’est un profit tout clair puisqu’on ne fait pas sa barbe plus souvent pour cela et
+        qu’on n’en monte pas sa garde davantage.</p>
+
+
+      <closer>
+        <salute>Adieu, <persName key="Pierret, Jean-Baptiste (1795-1854)">cher ami</persName> ; je
+          t’embrasse bien. Mille choses à <persName
+            key="Pierret, Marguerite Jeanne Aimée Heidinger, épouse (1797-?)">Mme Pierret</persName> et à tous les
+          tiens. J’espère que <persName key="Pierret, Marguerite Jeanne Aimée Heidinger, épouse (1797-?)">Madame
+            Pierret</persName> se trouvera bien de la campagne. Vas-y aussi quelques jours.
+          Réponds-moi une grande lettre à l’adresse ci-dessus.</salute>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
