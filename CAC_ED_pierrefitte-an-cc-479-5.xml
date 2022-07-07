@@ -34,7 +34,7 @@
         </availability>
       </publicationStmt>
       <seriesStmt>
-        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
         <title type="sub">Le conseil municipal de Paris</title>
 
       </seriesStmt>
@@ -88,12 +88,12 @@
         <pb n="1" xml:id="p1"/>
         <hi rend="it">(d’une autre main :)</hi>
         <persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName>, membre de
-          l'<placeName key="France, Paris, Institut">Institut</placeName>, commandant de la légion
+          l’<placeName key="France, Paris, Institut">Institut</placeName>, commandant de la légion
         d’honneur <dateline>Ce <date when="1860-12-04">4 décembre 1860</date></dateline>
       </opener>
 
 
-      <salute>Monsieur<note>Il n'a pas été permis d'identifier le destinataire de la
+      <salute>Monsieur<note>Il n’a pas été permis d’identifier le destinataire de la
         lettre</note>,</salute>
       <p>Malgré toutes les sympathies que je ne puis manquer d’avoir pour les idées émises dans
         votre mémoire, je ne puis en ma qualité de membre du Conseil municipal<note place="bottom"

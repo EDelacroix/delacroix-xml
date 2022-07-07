@@ -7,7 +7,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Lettre d'Eugène Delacroix à Léon Curmer, 16 mai 1843</title>
+        <title>Lettre d’Eugène Delacroix à Léon Curmer, 16 mai 1843</title>
         <author key="Delacroix, Eugène (1798-1863)"/>
       </titleStmt>
       <editionStmt>
@@ -29,7 +29,7 @@
         </availability>
       </publicationStmt>
       <seriesStmt>
-        <title type="main">Correspondance d'Eugène Delacroix</title>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
         <title type="sub">Hôtel Lambert</title>
       </seriesStmt>
       <sourceDesc>
@@ -37,7 +37,7 @@
           <msIdentifier>
             <country>France</country>
             <settlement>Paris</settlement>
-            <institution>Bibliothèque de l'Institut national d'histoire de l'art</institution>
+            <institution>Bibliothèque de l’Institut national d’histoire de l’art</institution>
             <repository/>
             <idno>Autographes 98, 17, 05 (1)</idno>
           </msIdentifier>
