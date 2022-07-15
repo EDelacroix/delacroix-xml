@@ -58,9 +58,11 @@
           </physDesc>
 
         </msDesc>
-        <bibl>Escholier, <hi rend="it">Eugène Delacroix et sa « consolatrice »</hi>, 1932,
-          p. 160-161</bibl>
-        <bibl>Joubin, III, p. 136-137</bibl>
+        <listBibl>
+          <bibl>Escholier, <hi rend="it">Eugène Delacroix et sa « consolatrice »</hi>, 1932,
+            p. 160-161</bibl>
+          <bibl>Joubin, III, p. 136-137</bibl>
+        </listBibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
