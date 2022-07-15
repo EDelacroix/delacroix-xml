@@ -86,8 +86,7 @@
       <opener>
         <dateline>
           <pb n="1" xml:id="p1"/>
-          <placeName key="France, Paris">Paris</placeName>
-          <date when="1833-12-03">3 décembre 1833</date></dateline>
+          <placeName key="France, Paris">Paris</placeName>, <date when="1833-12-03">3 décembre 1833</date></dateline>
         <salute><persName key="Cavé, Édmond (1794-1852)">Monsieur</persName><note place="bottom"
             >Edmond Cavé (1794-1852), homme politique, journaliste et écrivain, occupa le poste de
             chef de la division des beaux-arts au ministère de l’Intérieur, avant d’en devenir le
