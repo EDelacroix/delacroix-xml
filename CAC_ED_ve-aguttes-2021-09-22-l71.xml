@@ -72,7 +72,7 @@
         <correspAction type="sent">
           <persName key="Delacroix, Eugène (1798-1863)"/>
           <date when="1857-08-28"/>
-          <placeName key="France, Plombières"></placeName>
+          <placeName key="France, Plombières"/>
         </correspAction>
         <correspAction type="received">
           <persName key="Forget, Joséphine de (1802-1886)"/>
@@ -100,18 +100,18 @@
 
       <p>Je reçois votre seconde et aimable lettre avec un peu de confusion puisque je vous devais
         une réponse ; moins on est chargé d’affaires, moins on veut faire<note place="bottom"
-          >Joséphine de Forget avait envoyé <ref type="letter" target="CAC_ED_inha-aut1399-1c.xml"
-            >une première lettre le 18 août 1857</ref> pour répondre à Delacroix qui avait annoncé
-          son arrivée à Plombières. La seconde lettre dont il est question n’est toutefois pas
-          connue. </note>. Ma paresse est extrême ici et le plaisir d’y céder est pour beaucoup dans
-        le bon effet que je ressens de mon séjour. En sera-t-il de même à <placeName
-          key="France, Paris">Paris</placeName>, même en suivant le même régime, je parle du manger,
-        du dormir et aussi de l’exercice que l’on peut y prendre si on le veut bien ? Je suis
-        résolu, autant qu’on peut être résolu, à tenter de mener une vie fainéante autant que
-        possible, jusqu’à ce que j’aie vu se rétablir chez moi une espèce de santé<note
-          place="bottom">Delacroix séjourna à Plombières du 10 au 31 août pour se soigner, ainsi que
-          sa bonne Jenny (voir <hi rend="it">Journal</hi>, 2009, p. 1170-1172).</note> : mais les
-        affaires, les amis même le permettront-ils ?</p>
+          >Joséphine de Forget avait envoyé <ref type="letter"
+            target="https://delacroix.huma-num.fr/CAC_ED_inha-aut120-1399-1c">une première lettre le
+            18 août 1857</ref> pour répondre à Delacroix qui avait annoncé son arrivée à Plombières.
+          La seconde lettre dont il est question n’est toutefois pas connue. </note>. Ma paresse est
+        extrême ici et le plaisir d’y céder est pour beaucoup dans le bon effet que je ressens de
+        mon séjour. En sera-t-il de même à <placeName key="France, Paris">Paris</placeName>, même en
+        suivant le même régime, je parle du manger, du dormir et aussi de l’exercice que l’on peut y
+        prendre si on le veut bien ? Je suis résolu, autant qu’on peut être résolu, à tenter de
+        mener une vie fainéante autant que possible, jusqu’à ce que j’aie vu se rétablir chez moi
+        une espèce de santé<note place="bottom">Delacroix séjourna à Plombières du 10 au 31 août
+          pour se soigner, ainsi que sa bonne Jenny (voir <hi rend="it">Journal</hi>, 2009, p.
+          1170-1172).</note> : mais les affaires, les amis même le permettront-ils ?</p>
       <p>
         <pb n="2" xml:id="p2"/> J’en ai évité ici un bon nombre. Pour vous, vous en faites autant
         pour ainsi dire que j’en perds ; je souhaite que vous vous en trouviez bien. Si vous aviez
@@ -128,11 +128,11 @@
         circonstance vous expliquera pourquoi je n’ai pas su la nomination de <persName
           key="Laity, Armand (1812-1889)">M. Laity</persName> : c’est vous qui me l’avez
           apprise<note place="bottom">En effet, dans sa <ref type="letter"
-            target="https://delacroix.huma-num.fr/CAC_ED_inha-aut120-1399-1cCAC_ED_inha-aut1399-1c.xml">lettre du 18 août 1857</ref>, Joséphine de Forget
-          apprend à Delacroix que Laity a été nommé sénateur. Il était parent par alliance de la
-          baronne, ayant épousé Hortense de Querelles. </note> et je vous remercie bien de l’avoir
-        complimenté, comme je n’aurais pas manqué de le faire si je l’eusse apprise par les
-        journaux.</p>
+            target="https://delacroix.huma-num.fr/CAC_ED_inha-aut120-1399-1c">lettre du 18 août
+            1857</ref>, Joséphine de Forget apprend à Delacroix que Laity a été nommé sénateur. Il
+          était parent par alliance de la baronne, ayant épousé Hortense de Querelles. </note> et je
+        vous remercie bien de l’avoir complimenté, comme je n’aurais pas manqué de le faire si je
+        l’eusse apprise par les journaux.</p>
       <p>Je regrette bien de ne pouvoir aller à <placeName key="France, Champrosay">la
           campagne</placeName> en revenant à <placeName key="France, Paris">Paris</placeName> : mais
         il faut absolument en finir avec cette <placeName key="France, Paris, rue de Furstenberg, 6"
@@ -140,12 +140,12 @@
         vous m’en dites, est de m’éloigner de vous : car <pb n="4" xml:id="p4"/> j’y trouve de
         grands avantages de toute espèce<note place="bottom">Joséphine de Forget avait visité la
           maison dans laquelle Delacroix allait s’installer, quelques mois plus tard, rue de
-          Furstenberg. Elle en fit, dans sa <ref type="letter" target="CAC_ED_inha-aut1399-1c"
-            >lettre du 18 août 1857</ref>, de nombreuses critiques, auxquelles Delacroix répondit
-          dans ce courrier. </note>. Quand elle sera décrassée, ce sera une habitation comme une
-        autre : personne ne me verra dans mon jardin, attendu qu’il est plein d’allées couvertes qui
-        en font le tour : je suis à deux pas de toutes les promenades et dans une bonne exposition,
-        etc.</p>
+          Furstenberg. Elle en fit, dans sa <ref type="letter"
+            target="https://delacroix.huma-num.fr/CAC_ED_inha-aut120-1399-1c">lettre du 18 août
+            1857</ref>, de nombreuses critiques, auxquelles Delacroix répondit dans ce courrier.
+        </note>. Quand elle sera décrassée, ce sera une habitation comme une autre : personne ne me
+        verra dans mon jardin, attendu qu’il est plein d’allées couvertes qui en font le tour : je
+        suis à deux pas de toutes les promenades et dans une bonne exposition, etc.</p>
       <p>Je pars au commencement de la semaine prochaine et aurai donc bientôt le plaisir de vous
         embrasser. Nous causerons de tout cela : vous m’encouragerez, j’espère, dans le désir que
         j’ai de mener une vie propre à consolider les bons effets des eaux, ou de l’air, ou du
@@ -153,8 +153,8 @@
 
 
       <closer>
-        <salute>Adieu, <persName key="Forget, Joséphine de (1802-1886)">chère amie</persName>, recevez toutes
-            mes meilleures tendresses et dévouements.</salute>
+        <salute>Adieu, <persName key="Forget, Joséphine de (1802-1886)">chère amie</persName>,
+          recevez toutes mes meilleures tendresses et dévouements.</salute>
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
       </closer>
 
