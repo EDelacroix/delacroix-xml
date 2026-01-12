@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à [Théophile Thoré], dimanche [décembre 1846]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Brice Ameille</name>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name/>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Fondation Custodia</institution>
+
+            <idno>2012-A.94</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Burty, I, p. 267-268</bibl>
+          <bibl>Joubin, II, p. 294</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1846-12-.."/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Thoré, Théophile (1807-1869)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+      <opener>
+        <pb n="1" xml:id="p1"/>
+        <address>
+          <addrLine><persName key="Thoré, Théophile (1807-1869)">Monsieur Thoré</persName>
+            <placeName key="France, Paris, rue Notre-Dame-de-Lorette, 29">rue Notre-Dame-de-Lorette,
+              n° 29</placeName></addrLine>
+        </address>
+        <dateline>
+          <pb n="2" xml:id="p2"/> Dimanche matin<note place="bottom">André Joubin date la lettre de décembre
+            1846 (Joubin, II, p. 294).</note></dateline>
+        <salute><persName key="Thoré, Théophile (1807-1869)">Mon cher ami</persName>,</salute>
+      </opener>
+
+
+      <p>Pourriez-vous demain matin lundi être chez moi à 9 h ½ ? Nous irions ensemble voir <rs
+          type="work" key="Assemblée nationale, Bibliothèque">mon travail</rs>
+        <note place="bottom">Compte tenu de l’adresse de Théophile Thoré, le travail est celui de la
+          décoration de la bibliothèque du palais Bourbon. Voir aussi la <ref type="letter"
+            target="CAC_ED_bnf-man-naf11955-f32">lettre au même de décembre 1846</ref>, ainsi que
+          celle du <ref type="letter" target="CAC_ED_bnf-man-naf11955-f59">3 janvier 1847</ref>,
+          dans laquelle Delacroix détaille à l’attention du critique le programme décoratif de ses
+          peintures pour la Chambre des députés.</note>, dont les échafauds viennent d’être enlevés.
+        Je vous propose de venir ici parce que je vous conduirai et que je donne également
+        rendez-vous à <persName>Rousseau</persName> et à <persName key="Dupré, Jules (1811-1889)"
+          >Dupré</persName><note place="bottom">Jules Dupré (1811-1889), peintre paysagiste de
+          l’« école » de Barbizon. Le 14 mars 1860, Delacroix notera : « J’ai été voir l’exposition
+          du boulevard [des Italiens, dans la galerie de Francis Petit]. […] Les Dupré, les Rousseau
+          m’ont ravi. » (Hannoosh, <hi rend="it">Journal</hi>, t. II, p. 1333).</note>pour y aller
+        ensemble. Faites-moi mettre un mot dans la journée pour me dire si vous pouvez. Alors, je
+        vous récrirai les autres moments où je pourrai m’y trouver, afin de m’y trouver avec
+        vous.</p>
+
+
+      <closer>
+        <salute>Recevez mes amitiés et dévouements bien sincères.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
