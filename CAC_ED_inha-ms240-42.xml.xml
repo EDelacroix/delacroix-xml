@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Louis de Planet, [janvier 1844]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>{corrections}</name>
+          <name>{corrections}</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA</institution>
+
+            <idno>Ms 240, ff.42</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="1"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, III, p. 164</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1844-01-.."/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Planet, Louis (de) (1874-1875)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+      <pb n="1" xml:id="p1"/>
+
+      <salute>
+        <pb n="1"/><persName key="Planet, Louis (de) (1874-1875)">Mon chère Planet</persName>,
+        faites votre calque sur l’<rs type="work" key="Ovide chez
+          les Barbares"><rs type="work" key="Cicéron accuseVerrès">esquisse</rs></rs> qui
+        n’est pas encore peinte<note place="bottom">Lee Johnson considère qu’il s’agit du pendentif
+            d’<hi>Ovide chez les Barbares</hi> pour la coupole de <hi>La Poésie</hi> du décor de la
+          bibliothèque de l’Assemblée nationale auquel Delacroix travaille de 1838 à 1847. Il
+          pourrait également s’agir de l’esquisse du <hi>Cicéron accuse Verrès</hi> à transférer sur
+          toile (coupole de <hi>La Législation et l’Eloquence</hi>), venant de la recevoir (Johnson,
+          V, p. 50).</note>. La modification sur <rs type="work" key="Numa et Egérie">l’autre</rs>
+        consiste en ce que j’ai fait la partie inférieure de la femme moins longue. Il est important
+        qu’il y ait de l’espace en bas, pour qu’on voie bien clairement que le pied est dans
+          l’eau<note place="bottom">Le détail du pied dans l’eau permet de comprendre qu’il est
+          question du pendentif représentant <hi>Numa et Egérie</hi> pour la coupole de <hi>La
+            Législation et l’Eloquence</hi>. Planet affirme avoir réalisé ce pendentif lui-même
+          (Planet, <hi>Souvenirs</hi>, p. 11 et 18).</note>. Vous pouvez compter même en bas un peu
+        plus que l’<rs type="work" key="Ovide chez
+          les Barbares">esquisse</rs> n’en laisse voir, le rebord du papier ayant anticipé
+        sur la fin. Dites à <persName key="LE GUILLOU, Jeanne-Marie (1801-1869)">ma
+          bonne</persName><note place="bottom">Jeanne-Marie Le Guillou, dite Jenny
+          (1801-1869).</note> à quelle heure elle peut revenir chercher les <rs type="work"
+          key="Ovide chez les Barbares"><rs type="work" key="Cicéron accuseVerrès"><rs type="work"
+              key="Numa et Egérie">deux esquisses</rs></rs></rs>. Quand vous aurez la toile vous
+        pourrez toujours mettre au carreau d’après votre calque et je ne tarderai pas à vous
+        renvoyer les <rs type="work" key="Ovide chez
+          les Barbares">esquisses</rs>. La grisaille vous servira pour plus de
+        finesse.</salute>
+
+      <opener>
+        <salute>A vous bien sincèrement<note place="bottom">André Joubin date la lettre de janvier
+            1844 (Joubin, III, p. 164).</note>,</salute>
+        <signed>Eug. Delacroix</signed>
+      </opener>
+
+
+    </body>
+  </text>
+</TEI>
