@@ -23,7 +23,7 @@
         <respStmt>
           <resp>Corrections</resp>
           <name>{corrections}</name>
-<name>{corrections}</name>
+          <name>{corrections}</name>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -35,7 +35,7 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Correspondance d'Eugène Delacroix</title>
-        
+
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -43,7 +43,7 @@
             <country>{cotepays}</country>
             <settlement>{coteville}</settlement>
             <institution>{coteinstitution}</institution>
-            
+
             <idno>2012-A.94 </idno>
           </msIdentifier>
           <physDesc>
@@ -54,9 +54,9 @@
                 </extent>
               </supportDesc>
             </objectDesc>
-            
+
           </physDesc>
-          
+
         </msDesc>
         <listBibl>
           <bibl>Joubin, II, p. 240</bibl>
@@ -68,12 +68,12 @@
         <correspAction type="sent">
           <persName key="Delacroix, Eugène (1798-1863)"/>
           <date when="1845-10-.."/>
-          
+
         </correspAction>
         <correspAction type="received">
           <persName key="Forget, Joséphine (de) (1802-1882)"/>
         </correspAction>
-        
+
       </correspDesc>
       <langUsage>
         <language ident="fr"/>
@@ -83,24 +83,41 @@
   <text>
     <body>
 
-<pb type="break-before" n="2"/>
+      <pb n="1" xml:id="p1"/>
 
 
-<opener>
-<dateline>
-<pb n="3"/> <date>octobre 1845</date></dateline>
-<salute><persName>Bonne amie</persName>,</salute>
-</opener>
+      <opener>
+        <dateline>
+          <pb n="1"/>
+          <date>octobre 1845</date></dateline>
+        <salute><persName key="Forget, Joséphine (de) (1802-1882)">Bonne amie</persName>,</salute>
+      </opener>
+      <p>depuis que je vous ai vue, j’ai constamment travaillé, aussi j’avance beaucoup. Hier
+        seulement, je n’avais pas été au <placeName key="Sénat">Luxembourg</placeName><note
+          place="bottom">Delacroix travaille au décor de la coupole de la bibliothèque du Sénat de
+          1840 à 1846.</note> et je croyais me reposer et aller dîner avec vous, mais j’ai été
+        obligé dans la journée de travailler <placeName key="rue Notre-Dame-de-Lorette, n° 58">chez
+          moi</placeName>, à une de mes <rs type="work" key="Assemblée nationale, Bibliothèque"
+          >figures</rs> de la <placeName key="Assemblée nationale, Bibliothèque"
+          >Chambre</placeName><note place="bottom">Delacroix travaille au plafond de la bibliothèque
+          de l’Assemblée nationale de 1838 à 1847.</note> que je croyais plus avancée et qui doit
+        être appliquée des premières<note place="bottom">Les premières toiles à avoir été marouflées
+          sont celles destinées aux quatre pendentifs de la coupole de <hi rend="it">La Poésie</hi>
+            (<hi rend="it">L'éducation d’Achille, Alexandre et les poèmes d’Homère, Hésiode et sa
+            muse</hi> et <hi rend="it">Ovide chez les Barbares</hi>).</note>. Il en est résulté que
+        j’étais extrêmement fatigué. Votre chère lettre me trouve sortant pour aller au <placeName
+          key="Sénat">Luxembourg</placeName>.</p>
+      <p>Ou je serai mourant, ou je vous verrai ce soir, non pas pour dîner, je crains, mais pour
+        sûr après. Le soleil a l’air de vouloir se débarbouiller. Je vous embrasse mille fois. Je
+        suis tiré d’inquiétude pour <persName key="Delacroix, Charles Henry (1779-1845)">mon
+          frère</persName> : je reçois un mot qui me rassure<note place="bottom">Charles Henry,
+          baron Delacroix (1779-1845) décéda quelques semaines plus tard, le 30
+        décembre.</note>.</p>
 
+      <closer>
+        <salute>A ce soir, bonne consolation.</salute>
+      </closer>
 
-<p>depuis que je vous ai vue, j’ai constamment travaillé, aussi j’avance beaucoup. Hier seulement, je n’avais pas été au <placeName>Luxembourg</placeName><note xml:id="fn1">Delacroix travaille au décor de la coupole de la bibliothèque du Sénat de 1840 à 1846.</note> et je croyais me reposer et aller dîner avec vous, mais j’ai été obligé dans la journée de travailler <placeName>chez moi</placeName>, à une de mes <rs type="work">figures</rs> de la <placeName>Chambre</placeName><note xml:id="fn2">Delacroix travaille au plafond de la bibliothèque de l’Assemblée nationale de 1838 à 1847.</note> que je croyais plus avancée et qui doit être appliquée des premières<note xml:id="fn3">Les premières toiles à avoir été marouflées sont celles destinées aux quatre pendentifs de la coupole de <hi>La Poésie</hi> (<hi>L'éducation d’Achille, L'éducation d’Achille, Hésiode et sa muse</hi> et <hi>Ovide chez les Barbares</hi>).</note>. Il en est résulté que j’étais extrêmement fatigué. Votre chère lettre me trouve sortant pour aller au <placeName>Luxembourg</placeName>.</p>
-<p>Ou je serai mourant, ou je vous verrai ce soir, non pas pour dîner, je crains, mais pour sûr après. Le soleil a l’air de vouloir se débarbouiller. Je vous embrasse mille fois. Je suis tiré d’inquiétude pour <persName>mon frère</persName> : je reçois un mot qui me rassure<note xml:id="fn4">Charles Henry, baron Delacroix (1779-1845) décéda quelques semaines plus tard, le 30 décembre.</note>.</p>
-
-
-<closer>
-<salute>A ce soir, bonne consolation.</salute>
-</closer>
-
-</body>
+    </body>
   </text>
 </TEI>
