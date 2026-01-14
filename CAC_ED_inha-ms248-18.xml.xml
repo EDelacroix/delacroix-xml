@@ -83,95 +83,108 @@
   <text>
     <body>
 
+      <opener>
       <pb n="1" xml:id="p1"/>
       <dateline>
         <pb n="1"/>
-        <placeName key="Valmont, abbaye Notre-Dame-du-Pré">Valmont</placeName>, <date>13 7bre</date><note place="bottom">La lettre a été
-          écrite lors du voyage de Delacroix à Rouen en 1838.</note></dateline>
-      <salute><persName key="Villot, Frédéric (1809-1875)">Mon cher ami</persName>, je vous écris quelques mots pour m’attirer de votre
-        part une réponse bien longue si vous avez la moindre délicatesse. Je vis ici éloigné du
-        centre de la civilisation et dans une solitude profonde ; vous jugez bien qu’une bonne
-        lettre de vous où vous me parlerez beaucoup de vous, beaucoup de la peinture me fera le plus
-        grand plaisir. J’ai revu le <placeName key="Rouen, Musée des Beaux-Arts">musée de Rouen</placeName><note place="bottom"
-          >Delacroix s’y était déjà rendu en 1834.</note>, j’y ai découvert un second Véronèse<note place="bottom">Véronèse, <hi>Le Christ arrêtant la peste à la prière de la Vierge, de saint
-            Jean-Baptiste, de saint Roch et de saint Sébastien</hi>, dit autrefois <hi>Une
+        <placeName key="Valmont, abbaye Notre-Dame-du-Pré">Valmont</placeName>, <date>13
+          7bre</date><note place="bottom">La lettre a été écrite lors du voyage de Delacroix à Rouen
+          en 1838.</note></dateline>
+        <salute><persName key="Villot, Frédéric (1809-1875)">Mon cher ami</persName>,</salute></opener><p>je vous écris
+        quelques mots pour m’attirer de votre part une réponse bien longue si vous avez la moindre
+        délicatesse. Je vis ici éloigné du centre de la civilisation et dans une solitude profonde ;
+        vous jugez bien qu’une bonne lettre de vous où vous me parlerez beaucoup de vous, beaucoup
+        de la peinture me fera le plus grand plaisir. J’ai revu le <placeName
+          key="Rouen, Musée des Beaux-Arts">musée de Rouen</placeName><note place="bottom">Delacroix
+          s’y était déjà rendu en 1834.</note>, j’y ai découvert un second Véronèse<note
+          place="bottom">Véronèse, <hi rend="it">Le Christ arrêtant la peste à la prière de la Vierge, de
+            saint Jean-Baptiste, de saint Roch et de saint Sébastien</hi>, dit autrefois <hi rend="it">Une
             Vision</hi>, 1565 (inv. 1803.22). Le tableau est encore mentionné sous son ancien titre
-          dans LEBEL Edmond, <hi>Musée de Rouen. Catalogue des ouvrages de peinture, dessin,
+          dans LEBEL Edmond, <hi rend="it">Musée de Rouen. Catalogue des ouvrages de peinture, dessin,
             sculpture et architecture, précédé d’une notice historique sur la formation du
             musée</hi>, Rouen, Imprimerie Julien Lecerf, 1890, p. 63.</note> presque aussi beau que
-        celui dont j’avais fait une <rs type="work" key="Saint Barnabé guérissant les malades">esquisse</rs> il y a quatre ans<note place="bottom"><hi>Saint Barnabé guérissant les malades</hi>, réalisée vers 1566 pour
-          l’église San Giorgio in Braida de Vérone (inv. 1803.17). Delacroix évoquait sa découverte
-          de ce tableau dans une lettre à Frédéric Villot le <ref type="letter" target="CAC_ED_inha-ms248-p20">16 septembre 1840</ref>. Par esquisse Delacroix doit penser à l’aquarelle conservée au
-          Musée des beaux-arts de Rouen (inv. AG.1929.5) qu’il avait réalisé en 1834 et qu’il avait
-          déjà mentionné dans une lettre à Villot du <ref type="letter" target="CAC_ED_inha-ms248-p16">23 septembre 1834</ref> : « J’y ai fait au Musée une aquarelle d’après un
-          magnifique Véronèse que vous aurez plaisir à voir ». D’après des
-          notes prises en janvier 1858 dans son <hi>Journal</hi> (inscrites au crayon à la fin de
-          l’agenda de 1857), l’aquarelle s’est trouvée en possession de Frédéric Villot (Hannoosh,
-          p. 1214).</note>. Mais ce que j’ai admiré avec un nouvel enthousiasme, ce sont trois
-        petits Raphaël<note place="bottom">Il s’agit en réalité d’un ensemble de trois huiles sur bois
-          formant la prédelle du <hi>Polyptique de saint Pierre</hi> réalisé par le Pérugin vers
-          1497 : <hi>L’Adoration des mages, Le Baptême du Christ</hi> et <hi>La Résurrection du
-            Christ</hi> (inv. 1803.34, 1803.35 et 1803.33). Il les mentionnait également sans sa
-          lettre du <ref type="letter" target="CAC_ED_inha-ms248-p20">16 septembre 1840</ref> à Villot évoquée ci-dessus, en précisant qu’il pourrait s’agir
-          d’œuvres du Pérugin.</note>, première manière, qui sont incomparables. Il n’y a rien en
-        petits tableaux de lui au <placeName key="Paris, Musée du Louvre">musée de Paris</placeName> qui vaille cela. Du reste,
-        ils ont l’air <pb n="2"/> de ne pas se douter à <placeName key="Rouen">Rouen</placeName> de la richesse
-        qu’ils possèdent. Ils vous font fête d’une grande copie de la Madone de Dresde<note place="bottom">Copie de la <hi>Madone Sixtine</hi> de Raphaël (inv. SR 51) exécutée dans les
-          années 1650-1670 pour servir de retable dans l’ancienne abbaye de Saint-Amand de
-          Rouen.</note> et ne parlent pas des trois charmants morceaux qui pourrissent là. Je
-        rapporterai un très pâle souvenir du <hi rend="u">Paul</hi><note place="bottom">Delacroix veut
-          parler de Pierre Paul Rubens et de son <hi>Adoration des bergers</hi> exécutée vers 1615
-          pour les Capucins d’Aix-la-Chapelle (inv. 1803.6).</note>. Avez-vous appris par les
-        journaux que le <persName key="Bachasson de Montalivet, Camille (1801-1880)">Ministre</persName><note xml:id="fn8">Camille Bachasson, comte de
-          Montalivet (1801-1880), a été nommé ministre de l’Intérieur le 15 avril, intégrant le
-          ministère Molé II. Il le restera jusqu’en mars 1839. Il avait déjà occupé ce même poste
-          sous les ministères Laffitte (de novembre 1830 à mars 1831), Soult I (d’avril à octobre
-          1832) et Thiers I (de février à septembre 1836).</note> m’avait commandé la <rs
-          type="work" key="Assemblée nationale, Bibliothèque">Bibliothèque de la Chambre</rs><note xml:id="fn9">Delacroix travaille au
-          plafond de la bibliothèque de l’Assemblée nationale de 1838 à 1847.</note> au milieu de
-        plusieurs autres commandes pour <placeName key="ssemblée nationale">ledit lieu</placeName> ? Je l’ai appris de même
-        et j’en ai confirmation pleine et entière. Je me fais donc une fête de vous l’apprendre si
-        vous l’ignorez, car je ne doute pas que vous n’en soyez satisfait pour moi. Vous connaissez
-        le <placeName key="Assemblée nationale, Bibliothèque">local</placeName>, soyez donc assez bon dans vos moments de loisir pour vous
-        creuser la tête sur le parti qu’on pourrait tirer de cela : cinq coupoles et deux hémicycles
-        à chaque bout. Les sujets auxquels <pb n="3"/> j’avais pensé ont des inconvénients et si je
-        trouve une idée meilleure je la prendrai, ce que je crois très possible. Ce sont des
-        pendentifs, vous savez. [croquis] Il faudrait là une idée féconde qui n’eut pas trop de
-        réalité, pas trop d’allégorie, enfin qu’il y en eut pour tous les goûts. Je fais fort peu de
-        choses ici. Je suis comme ces généraux d’armées qui s’endorment d’un sommeil profond à la
-        veille d’une bataille. Quelquefois les pieds me démangent de m’en aller. J’ai aussi à
-        m’occuper d’une certaine <rs type="work" key="La Prise de Constantinople par les croisés (J274)">prise de Constantinople</rs> pour
-          <placeName key="château de Versailles">Versailles</placeName><note place="bottom"><hi>L’Entrée des Croisés à
-            Constantinople</hi> a finalement été exposée au Salon de 1841 et fait partie des
-          collections du musée du Louvre.</note>. Tout cela veut dire que c’est moins le cas que
-        jamais de devenir manchot. Il faudra plutôt mettre les bras d’autrui au bout des miens. Je
-        vais tâcher de m’organiser en conséquence. Donnez-moi des nouvelles de tout ce qui vous
-        intéresse. Avez-vous quelque travail en train ? Je suppose que vous êtes à
-          <placeName key="France, Champrosay">Champrosay</placeName> et je vous y adresse cette <pb n="4"/> lettre. Je
-        croyais qu’il y avait des choses dont on ne se lassait point et que la mer était au premier
-        rang. Je me suis convaincu du contraire et j’ai reconnu qu’on peut arriver à en avoir assez.
-        De sorte que lorsque, grâce aux chemins de fer et aux ballons, on pourra la voir en trois
-        heures à partir de <placeName key="Paris">Paris</placeName>, ce ne sera plus un plaisir, pas plus que de
-        voir les arbres des <placeName key="Jardin des Tuileries">Tuileries</placeName>. Ainsi il faut tout acheter. Le plaisir
+        celui dont j’avais fait une <rs type="work" key="Saint Barnabé guérissant les malades"
+          >esquisse</rs> il y a quatre ans<note place="bottom"><hi rend="it">Saint Barnabé guérissant les
+            malades</hi>, réalisée vers 1566 pour l’église San Giorgio in Braida de Vérone (inv.
+          1803.17). Delacroix évoquait sa découverte de ce tableau dans une lettre à Frédéric Villot
+          le <ref type="letter" target="CAC_ED_inha-ms248-p20">16 septembre 1840</ref>. Par esquisse
+          Delacroix doit penser à l’aquarelle conservée au Musée des beaux-arts de Rouen (inv.
+          AG.1929.5) qu’il avait réalisé en 1834 et qu’il avait déjà mentionné dans une lettre à
+          Villot du <ref type="letter" target="CAC_ED_inha-ms248-p16">23 septembre 1834</ref> :
+          « J’y ai fait au Musée une aquarelle d’après un magnifique Véronèse que vous aurez plaisir
+          à voir ». D’après des notes prises en janvier 1858 dans son <hi rend="it">Journal</hi> (inscrites au
+          crayon à la fin de l’agenda de 1857), l’aquarelle s’est trouvée en possession de Frédéric
+          Villot (Hannoosh, p. 1214).</note>. Mais ce que j’ai admiré avec un nouvel enthousiasme,
+        ce sont trois petits Raphaël<note place="bottom">Il s’agit en réalité d’un ensemble de trois
+          huiles sur bois formant la prédelle du <hi rend="it">Polyptique de saint Pierre</hi> réalisé par le
+          Pérugin vers 1497 : <hi rend="it">L’Adoration des mages, Le Baptême du Christ</hi> et <hi rend="it">La
+            Résurrection du Christ</hi> (inv. 1803.34, 1803.35 et 1803.33). Il les mentionnait
+          également sans sa lettre du <ref type="letter" target="CAC_ED_inha-ms248-p20">16 septembre
+            1840</ref> à Villot évoquée ci-dessus, en précisant qu’il pourrait s’agir d’œuvres du
+          Pérugin.</note>, première manière, qui sont incomparables. Il n’y a rien en petits
+        tableaux de lui au <placeName key="Paris, Musée du Louvre">musée de Paris</placeName> qui
+        vaille cela. Du reste, ils ont l’air <pb n="2"/> de ne pas se douter à <placeName
+          key="Rouen">Rouen</placeName> de la richesse qu’ils possèdent. Ils vous font fête d’une
+        grande copie de la Madone de Dresde<note place="bottom">Copie de la <hi rend="it">Madone Sixtine</hi>
+          de Raphaël (inv. SR 51) exécutée dans les années 1650-1670 pour servir de retable dans
+          l’ancienne abbaye de Saint-Amand de Rouen.</note> et ne parlent pas des trois charmants
+        morceaux qui pourrissent là. Je rapporterai un très pâle souvenir du <hi rend="u"
+          >Paul</hi><note place="bottom">Delacroix veut parler de Pierre Paul Rubens et de son
+            <hi rend="it">Adoration des bergers</hi> exécutée vers 1615 pour les Capucins d’Aix-la-Chapelle
+          (inv. 1803.6).</note>. Avez-vous appris par les journaux que le <persName
+          key="Bachasson de Montalivet, Camille (1801-1880)">Ministre</persName><note place="bottom"
+          >Camille Bachasson, comte de Montalivet (1801-1880), a été nommé ministre de l’Intérieur
+          le 15 avril, intégrant le ministère Molé II. Il le restera jusqu’en mars 1839. Il avait
+          déjà occupé ce même poste sous les ministères Laffitte (de novembre 1830 à mars 1831),
+          Soult I (d’avril à octobre 1832) et Thiers I (de février à septembre 1836).</note> m’avait
+        commandé la <rs type="work" key="Assemblée nationale, Bibliothèque">Bibliothèque de la
+          Chambre</rs><note place="bottom">Delacroix travaille au plafond de la bibliothèque de
+          l’Assemblée nationale de 1838 à 1847.</note> au milieu de plusieurs autres commandes pour
+          <placeName key="ssemblée nationale">ledit lieu</placeName> ? Je l’ai appris de même et
+        j’en ai confirmation pleine et entière. Je me fais donc une fête de vous l’apprendre si vous
+        l’ignorez, car je ne doute pas que vous n’en soyez satisfait pour moi. Vous connaissez le
+          <placeName key="Assemblée nationale, Bibliothèque">local</placeName>, soyez donc assez bon
+        dans vos moments de loisir pour vous creuser la tête sur le parti qu’on pourrait tirer de
+        cela : cinq coupoles et deux hémicycles à chaque bout. Les sujets auxquels <pb n="3"/>
+        j’avais pensé ont des inconvénients et si je trouve une idée meilleure je la prendrai, ce
+        que je crois très possible. Ce sont des pendentifs, vous savez. [croquis] Il faudrait là une
+        idée féconde qui n’eut pas trop de réalité, pas trop d’allégorie, enfin qu’il y en eut pour
+        tous les goûts. Je fais fort peu de choses ici. Je suis comme ces généraux d’armées qui
+        s’endorment d’un sommeil profond à la veille d’une bataille. Quelquefois les pieds me
+        démangent de m’en aller. J’ai aussi à m’occuper d’une certaine <rs type="work"
+          key="La Prise de Constantinople par les croisés (J274)">prise de Constantinople</rs> pour
+          <placeName key="château de Versailles">Versailles</placeName><note place="bottom"><hi
+            rend="it">L’Entrée des Croisés à Constantinople</hi> a finalement été exposée au Salon
+          de 1841 et fait partie des collections du musée du Louvre.</note>. Tout cela veut dire que
+        c’est moins le cas que jamais de devenir manchot. Il faudra plutôt mettre les bras d’autrui
+        au bout des miens. Je vais tâcher de m’organiser en conséquence. Donnez-moi des nouvelles de
+        tout ce qui vous intéresse. Avez-vous quelque travail en train ? Je suppose que vous êtes à
+          <placeName key="France, Champrosay">Champrosay</placeName> et je vous y adresse cette <pb
+          n="4"/> lettre. Je croyais qu’il y avait des choses dont on ne se lassait point et que la
+        mer était au premier rang. Je me suis convaincu du contraire et j’ai reconnu qu’on peut
+        arriver à en avoir assez. De sorte que lorsque, grâce aux chemins de fer et aux ballons, on
+        pourra la voir en trois heures à partir de <placeName key="Paris">Paris</placeName>, ce ne
+        sera plus un plaisir, pas plus que de voir les arbres des <placeName
+          key="Jardin des Tuileries">Tuileries</placeName>. Ainsi il faut tout acheter. Le plaisir
         facile n’est pas plus du plaisir que <hi rend="u">toujours du plaisir</hi>, et les ouvrages
         faciles sont comme les plaisirs facules, il faut peu d’impression à ceux qui les regardent
-        et aussi à ceux qui les ont faits.</salute>
-      <closer>
-        <p>Mille souvenir à <persName key="Barbier, Paul (1770-1848)">M. Barbier</persName><note place="bottom">Baron Paul Barbier
-            (1770-1848), beau-père de Frédéric Villot.</note> et à <persName key="Barbier, Pauline (1812-1875)">Mme.
-            Villot</persName><note place="bottom">Pauline Barbier (1812-1875).</note>, y compris
-            <persName key="Villot, Geroges (1836-1936?)">Georges</persName><note place="bottom">Georges Villot (1836-1936 ?), fils de
-            Frédéric et Pauline Barbier.</note>. Surtout récompensez-moi de mon attention par une
-          lettre sur papier Tellière première qualité.</p>
+        et aussi à ceux qui les ont faits.</p>
+      <closer><salute>
+         Mille souvenir à <persName key="Barbier, Paul (1770-1848)">M. Barbier</persName><note
+            place="bottom">Baron Paul Barbier (1770-1848), beau-père de Frédéric Villot.</note> et à
+            <persName key="Barbier, Pauline (1812-1875)">Mme. Villot</persName><note place="bottom"
+            >Pauline Barbier (1812-1875).</note>, y compris <persName
+            key="Villot, Geroges (1836-1936?)">Georges</persName><note place="bottom">Georges Villot
+            (1836-1936 ?), fils de Frédéric et Pauline Barbier.</note>. Surtout récompensez-moi de
+          mon attention par une lettre sur papier Tellière première qualité.</salute>
         <salute>A vous de cœur bien sincèrement,</salute>
         <signed>Eug. Delacroix</signed>
-        <space unit="line" quantity="1"/>
-        <p><seg rend="addrline">chez</seg>
-          <persName key="Bataille, Alexandre (1777-1841)">M. Bataille</persName><seg rend="addrline"></seg><note place="bottom">Alexandre
-            Bataille (1777-1841), cousin germain de Delacroix, était propriétaire de l’abbaye Notre-Dame-du-Pré de Valmont.</note></p>
-        <p><seg rend="addrline">à</seg>
-          <placeName key="Valmont, abbaye Notre-Dame-du-Pré">Valmont</placeName></p>
-        <p><seg rend="addrline">Seine inférieure</seg></p>
+        <address>
+          <addrLine>chez <persName key="Bataille, Alexandre (1777-1841)">M. Bataille</persName><note place="bottom">Alexandre Bataille (1777-1841), cousin germain de Delacroix,
+            était propriétaire de l’abbaye Notre-Dame-du-Pré de Valmont.</note>
+        à
+          <placeName key="Valmont, abbaye Notre-Dame-du-Pré">Valmont</placeName>
+            Seine inférieure</addrLine></address>
       </closer>
     </body>
   </text>
