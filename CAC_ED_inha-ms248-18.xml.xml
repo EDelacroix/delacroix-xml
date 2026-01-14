@@ -167,9 +167,8 @@
         <signed>Eug. Delacroix</signed>
         <space unit="line" quantity="1"/>
         <p><seg rend="addrline">chez</seg>
-          <persName key="Bataille, Alexandre (1777-1841)">M. Bataille</persName><seg rend="addrline">/seg><note place="bottom">Alexandre
-            Bataille (1777-1841), cousin germain de Delacroix, était propriétaire de l’abbaye
-            Notre-Dame-du-Pré de Valmont.</note></p>
+          <persName key="Bataille, Alexandre (1777-1841)">M. Bataille</persName><seg rend="addrline"></seg><note place="bottom">Alexandre
+            Bataille (1777-1841), cousin germain de Delacroix, était propriétaire de l’abbaye Notre-Dame-du-Pré de Valmont.</note></p>
         <p><seg rend="addrline">à</seg>
           <placeName key="Valmont, abbaye Notre-Dame-du-Pré">Valmont</placeName></p>
         <p><seg rend="addrline">Seine inférieure</seg></p>
