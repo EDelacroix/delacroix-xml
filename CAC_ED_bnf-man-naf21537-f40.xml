@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Charles de Vèze, 4 mai 1837</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>{corrections}</name>
+          <name>{corrections}</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>BnF</institution>
+
+            <idno>NAF 21537, ff. 40-41</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="4"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, I, p. 432-433</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1837-05-04"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Vèze, Charles (de) (1788-1855)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+      <pb n="1" xml:id="p1"/>
+      <salute>
+        <persName key="Vèze, Chales (de) (1788-1855)">Mon cher ami</persName>, vous êtes mille fois
+        bon d’avoir pensé à me donner avis de la bonne nouvelle<note place="bottom">Delacroix fait
+          allusion à la commande pour le décor de la bibliothèque de l’Assemblée nationale. Il va y
+          travailler de 1838 à 1847.</note> que vous m’écrivez et dont je vous prie bien de
+        remercier <persName key="Réal, Félix (1792-1864)">M. Réal</persName><note place="bottom">
+          Félix Réal (1792-1864), député de l’Isère et conseiller général.</note>. Je suis bien
+        vivement reconnaissant de la peine qu’il a bien voulu prendre dans cette affaire. Il me
+        reste maintenant à disposer en ma faveur <persName
+          key="Bachasson de Montalivet, Camille (1801-1880)">le nouveau ministre</persName><note
+          place="bottom">Camille Bachasson, comte de Montalivet (1801-1880), a été nommé ministre de
+          l’Intérieur le 15 avril, intégrant le ministère Molé II. Il le restera jusqu’en mars 1839.
+          Il avait déjà occupé ce même poste sous les ministères Laffitte (de novembre 1830 à mars
+          1831), Soult I (d’avril à octobre 1832) et Thiers I (de février à septembre 1836).</note>
+        que je ne connais pas. <persName key="Gasparin, Adrien (de) (1783-1862)"
+          >L’ancien</persName><note place="bottom">Adrien de Gasparin (1783-1862) a été ministre de
+          l’Intérieur de septembre 1836 à avril 1837 sous le ministère Molé I. Il retrouva ce poste
+          sous son propre ministère, de mars à mai 1839. Il faut se rappeler que c’est Adolphe
+          Thiers (1797-1877), ministre de l’Intérieur de novembre 1834 à février 1836 sous les
+          ministères Mortier et Broglie, qui appuya Delacroix dans l’obtention des commandes pour
+          les grands décors de l’Assemblée nationale.</note> n’attendait que la décision de
+          <placeName key="Paris, Assemblée nationale">la Chambre</placeName>. Ici, il faudra de
+        nouvelles démarches. J’aurais été vous voir sans une absence que j’ai <pb n="2"/> faite.
+        J’ai passé quelques temps à <placeName key="France, Champrosay">la campagne</placeName> pour
+        me remettre. Quant à <persName key="Maison, Pierre (1798-1869)">M. Maison</persName><note
+          place="bottom">Pierre, marquis Maison (1798-1869), était un militaire et
+          collectionneur.</note> qui est si aimablement disposé pour moi, j’ai eu le désappointement
+        d’être obligé de remettre sa visite à cause de <rs type="work"
+          key="Portrait de George Sand et Frédéric Chopin (J232, J233)">maudits portraits</rs> qui
+        me font perdre un temps énorme par l’irrégularité des séances qu’ils me font leur
+          donner<note place="bottom">Delacroix travaillait à un double portrait de George Sand
+          (1804-1876) et Frédéric Chopin (1810-1849), alors amants. L’œuvre, restée inachevée, était
+          dans l’atelier de l’artiste à sa mort, avant d’être découpée afin de former deux portraits
+          distincts vendus séparément. Le <hi>Portrait de George Sand</hi> (J232) est conservé au
+          musée Ordrupgaard de Copenhague, tandis que le <hi>Portrait de Frédéric Chopin</hi> (J233)
+          fait partie des collections du musée du Louvre (RF 1717). Le Louvre conserve également un
+          dessin préparatoire donnant une idée de la composition d’ensemble (RF 9357).</note>. Je
+        voulais donc indiquer à <persName key="Maison, Pierre (1798-1869)">M. Maison</persName>un
+        moment où je ne risquasse pas d’être dérangé par cette importunité-là. Est-ce que vous
+        seriez assez bon pour arrêter avec lui quel jour de la semaine prochaine il vous <pb n="3"/>
+        sera agréable de venir revoir mes dessins ? Vous me le ferez savoir
+        dans le cas où ce serait avant que je n’aie le plaisir de vous revoir. Ma santé est bien
+        mauvaise depuis quelques temps. Le peu de jour que j’ai passé à l’air n’a fait que me faire
+        sentir davantage combien <placeName key="Paris">Paris</placeName> et ses soirées me sont
+        contraires. Heureusement que la saison va devenir, j’espère, moins dure pour les
+        cacochymes.</salute>
+      <closer>
+        <salute>Adieu, <persName key="Vèze, Chales (de) (1788-1855)">mon cher ami</persName>, mille
+          remerciements bien sincères de l’amitié si précieuse que vous me conservez. Ces pauvres
+          artistes sont une race si bizarre qu’il leur faut non seulement de l’amitié <pb n="4"/>,
+          mais l’amitié la plus indulgente et la plus disposée à fermer les yeux sur leurs travers.
+          Croyez bien, malgré ma parenté avec cette race capricieuse, à mon bien vrai et dévoué
+          attachement.</salute>
+        <signed>Eug. Delacroix</signed>
+        <dateline>Ce <date>4 mai 1837</date></dateline>
+        <salute/>
+      </closer>
+    </body>
+  </text>
+</TEI>
