@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Louis de Planet, 21 décembre 1843</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>{corrections}</name>
+          <name>{corrections}</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>{cotepays}</country>
+            <settlement>{coteville}</settlement>
+            <institution>{coteinstitution}</institution>
+
+
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, II, p. 159-160</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1843-12-21"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Planet, Louis (de) (1814-1875)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+
+
+      <opener>
+        <pb n="1" xml:id="p1"/>
+        <dateline>
+          <date>21 décembre 1843</date></dateline>
+        <salute><persName>Mon cher de Planet</persName>,</salute>
+      </opener>
+
+
+      <p>J’ai fait réflexion que <persName key="Maliverney">Maliverney</persName><note
+          place="bottom">Modèle d’atelier.</note> est trop brun et a de la barbe. Je n’en voudrais
+        pas mettre à la figure qui est derrière le <rs type="work" key="Cicéron accuse Verrès"
+          >Cicéron</rs><note place="bottom">Delacroix travaille au plafond de la bibliothèque de
+          l’Assemblée nationale de 1838 à 1847. Il est ici question du pendentif représentant <hi
+            rend="it">Cicéron accuse Verrès</hi> (coupole de <hi rend="it">La Législation et
+            l’Eloquence</hi>).</note>. Je préférerais donc un modèle dans la nature de <persName
+          key="Lambert">Lambert</persName><note place="bottom">Modèle d’atelier.</note>. Tâchez de
+        l’avoir, ou <persName key="Poche">Poche</persName><note place="bottom">Modèle
+          d’atelier.</note>, s’il pose. Je vous expliquerai pourquoi je les préfère.</p>
+      <p>Dans tous les cas, commencez par peindre le <rs type="work" key="Cicéron accuse Verrès"
+          >Cicéron</rs>. Je voudrais voir le <rs type="work" key="Cicéron accuse Verrès"
+          >tableau</rs> avant que vous ne peigniez la figure qui se baisse, afin que sa tête fut
+        bien placée par rapport à la main de Cicéron. Dans l’étude que vous ferez pour cet homme nu,
+        dirigez-lui bien la main comme dans l’esquisse.</p>
+
+
+      <closer>
+        <salute>Tout à vous, bien sincèrement.</salute>
+        <signed>Eug. Delacroix</signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
