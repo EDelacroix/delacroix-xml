@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Jules de Joly, 23 juillet [1844]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>{corrections}</name>
+          <name>{corrections}</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>{cotepays}</country>
+            <settlement>{coteville}</settlement>
+            <institution>{coteinstitution}</institution>
+
+
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="1"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, II, p. 187</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1844-07-23"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Joly, Jules (de) (1788-1865)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+      <pb n="1" xml:id="p1"/>
+
+
+      <opener>
+        <dateline>
+          <pb n="1"/>
+          <date>23 juillet</date><note place="bottom">André Joubin date la lettre de 1844 (Joubin,
+            II, p. 187), déduction faite sur la base des difficultés rencontrées par Delacroix et
+            sur la nécessité d’arracher la toile marouflée de l’un des hémicycles.</note></dateline>
+        <salute><persName key="Joly, Jules (de) (1788-1865)">Cher Monsieur</persName><note
+            place="bottom">Jules de Joly (1788-1865) était l’architecte du Palais Bourbon, ayant
+            succédé à Bernard Poyet comme architecte en titre de la Chambre des députés en 1821.
+            C’est à Joly qu’il faut attribuer les plans de la bibliothèque et du salon du roi où
+            Delacroix a travaillé.</note>,</salute>
+      </opener>
+
+
+      <p>Je ne pourrai travailler maintenant à la <rs type="work"
+          key="Assemblée nationale, Bibliothèque">bibliothèque</rs><note place="bottom">Delacroix
+          travaille au plafond de la bibliothèque de l’Assemblée nationale de 1838 à 1847.</note> ;
+        mais il serait bien important que je puisse voir les <rs type="work"
+          key="Orphée vient de policer les Grecs encore sauvages et
+          leur enseigner les Arts et la Paix"><rs type="work"
+            key="Attila suivi de ses hordes barbares foule aux pieds l’Italie et les Arts">deux
+            hémicycles</rs></rs> débarrassés d’une grande partie de l’échafaud pour juger si nos
+        figures sont bien placées. Je crains plusieurs erreurs et je vais véritablement à
+        l’aventure. Ce qui a empêché que je puisse avoir cette satisfaction l’année dernière était
+        que le battage des livres était fait quand je l’ai demandé. On pourrait donc faire cette
+        opération aussitôt la fin de la session. <rs type="work" key="Orphée vient
+          de policer les Grecs encore sauvages et leur enseigner les Arts et la Paix">La
+          toile d’un des deux hémicycles</rs> devant être arrachée nous commencerions par <rs
+          type="work" key="Orphée vient
+            de policer les Grecs encore sauvages et leur enseigner les Arts et la Paix"
+          >celui-là</rs> afin de faire les réparations le plus tôt possible et qu’elles aient le
+        temps de sécher<note place="bottom">Delacroix fait état de la voûte en cul-de-four
+          représentant <hi>Orphée vient de policer les Grecs encore sauvages et leur enseigner les
+            Arts et la Paix</hi>. Comme pour les pendentifs des coupoles, il avait commencé à
+          réaliser des toiles marouflées, mais des problèmes structurels ayant endommagé le
+          cul-de-four (une fissure était apparue dans toute la longueur), il fallut décrocher les
+          toiles et se résoudre à peindre directement sur l’enduit.</note>.</p>
+      <p>Je vous serais bien reconnaissant de pouvoir me procurer ce que je vous demande et
+        attendrai un mot de vous en conséquence.</p>
+
+
+      <closer>
+        <salute>Recevez mille amitiés bien sincères.</salute>
+        <signed>Eug. Delacroix</signed>
+      </closer>
+    </body>
+  </text>
+</TEI>
