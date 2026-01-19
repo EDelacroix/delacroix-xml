@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Théophile Thoré, 5 [janvier 1848]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>{corrections}</name>
+          <name>{corrections}</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>Belgique</country>
+            <settlement>Bruxelles</settlement>
+            <institution>Bibliothèque royale de Belgique</institution>
+
+            <idno>Ms II 7133-301</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="3"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, II, p. 338-339</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1848-01-05"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Thoré, Théophile (1807-1869)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+      <pb n="1" xml:id="p1"/>
+
+
+      <opener>
+        <pb n="1"/>
+        <addrLine><persName key="Thoré, Théophile (1807-1869)">Monsieur Thoré</persName> rue
+          Notre-Dame-de-Lorette 29.</addrLine>
+
+        <dateline>
+          <pb n="2"/>
+          <date>Mercredi 5</date><note place="bottom">Le contenu de la lettre permet de la dater du
+            5 janvier 1848, notamment la mention de la participation de Delacroix à un album pour la
+              <hi>Société des gens de lettres</hi>.</note></dateline>
+        <salute><persName key="Thoré, Théophile (1807-1869)">Mon cher ami</persName>,</salute>
+      </opener>
+
+
+      <p>Je ne vous ai pas encore envoyé la note concernant mes <rs type="work"
+          key="Assemblée nationale, Bibliothèque">peintures</rs><note place="bottom">Delacroix
+          traite de son décor du plafond de la bibliothèque de l’Assemblée nationale auquel il a
+          travaillé de 1838 à 1847.</note> pour diverses raisons que vous apprécierez. J’ai imaginé
+        de faire une notice plus détaillée que je désirerais voir imprimer dans un ou plusieurs
+        journaux et qui serait une explication catégorique de mes intentions, ne voulant pas à
+        l’exemple de beaucoup de mes confrères m’enrichir de celles qui me seraient prêtées
+        gratuitement et que je n’aurais pas eues, mais réclamant le bénéfice de celles qui sont bien
+        véritablement sorties de mon cerveau. Vous prendrez dans cette notice détaillée ce qu’il
+        vous faudrait pour votre travail. J’ai été si continuellement obligé de <pb n="3"/> me
+        déranger pour montrer à quelques amis cette <rs type="work"
+          key="Assemblée nationale, Bibliothèque">nouvelle besogne</rs> que je ne pourrai vous
+        donner que demain ou après-demain le <hi rend="it">factum</hi> en question. Dites-moi si le
+          <hi rend="it">Constitutionnel</hi> voudrait en charger ses colonnes en mettant par exemple
+        en note : « cette explication communiquée par l’auteur des peintures etc., etc., etc. »<note
+          place="bottom">L’article parût dans le numéro du 31 janvier 1848 (THORE Théophile,
+          DELACROIX Eugène, « Les peintures de la bibliothèque de la Chambre des députés par M.
+          Eugène Delacroix », <hi rend="it">Le Constitutionnel</hi>, n° 31, 31 janvier 1848. Il se
+          borne à reproduire la notice détaillée envoyée par Delacroix.</note></p>
+      <p>Je vous donnerai en même temps le <rs type="work"
+          key="Album de la Société des gens de lettres">pastel</rs> pour votre Société<note
+          place="bottom">Delacroix fournit un pastel pour la <hi rend="it">Société des gens de
+            lettres</hi> qui l’inclut dans un album ayant servi de lot au cours d’une loterie. Cet
+          album comportait des autographes, des dessins originaux ainsi que des partitions de
+          mélodies inédites. Sur le sujet, Cf. notamment [Pérégrinus], « Silhouette du jour », <hi
+            rend="it">La Silhouette</hi>, 4<hi rend="sup">e</hi> année, n° 48, 5 décembre 1847, p.
+          1-2.</note>. J’ai essayé de faire l’<rs type="work"
+          key="Attila suivi de ses hordes barbares foule aux pieds l’Italie et les Arts"
+          >Attila</rs><note place="bottom"><hi rend="it">Attila, suivi de ses hordes, foule aux
+            pieds l’Italie et les Arts</hi> (décor de l’une des voutes en cul-de-four de la
+          bibliothèque).</note> qui m’a ennuyé et que j’ai senti que je ne réussirais pas. J’ai fait
+        au lieu de cela, un des sujets des pendentifs, <rs type="work"
+          key="Lycurgue consulte la Pythie">Lycurgue consultant la Pythie</rs><note place="bottom"
+            ><hi rend="it">Lycurgue consulte la Pythie</hi> (coupole de <hi rend="it">La Législation
+            et l’Eloquence</hi>) pour le décor de la bibliothèque de l’Assemblée
+        nationale.</note>.</p>
+
+
+      <closer>
+        <salute>Recevez mes amitiés bien dévouées.</salute>
+        <signed>Eug. Delacroix</signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
