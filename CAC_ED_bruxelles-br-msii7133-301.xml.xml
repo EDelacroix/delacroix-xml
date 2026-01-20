@@ -95,7 +95,7 @@
           <pb n="2"/>
           <date>Mercredi 5</date><note place="bottom">Le contenu de la lettre permet de la dater du
             5 janvier 1848, notamment la mention de la participation de Delacroix à un album pour la
-              <hi>Société des gens de lettres</hi>.</note></dateline>
+              <hi rend="it">Société des gens de lettres</hi>.</note></dateline>
         <salute><persName key="Thoré, Théophile (1807-1869)">Mon cher ami</persName>,</salute>
       </opener>
 
