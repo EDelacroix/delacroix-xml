@@ -84,17 +84,13 @@
   <text>
     <body>
 
-      <pb type="break-before" n="2"/>
-
-
       <opener>
-        <p>
-          <pb n="1"/>
-          <persName key="Thoré, Théophile (1807-1869)">Monsieur Thoré</persName></p>
-        <p><seg rend="addrline">rue Notre-Dame-de-Lorette, n° 29</seg></p>
-        <space unit="line" quantity="1"/>
+        <pb n="1"/>
+        <persName key="Thoré, Théophile (1807-1869)">Monsieur Thoré</persName>
+        <addrLine>rue Notre-Dame-de-Lorette, n° 29</addrLine>
+
         <salute>
-          <pb n="5"/>
+          <pb n="2"/>
           <persName key="Thoré, Théophile (1807-1869)">Mon cher ami</persName>,</salute>
       </opener>
 
