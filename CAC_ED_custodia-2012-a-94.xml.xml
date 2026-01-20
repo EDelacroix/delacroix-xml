@@ -58,10 +58,6 @@
           </physDesc>
 
         </msDesc>
-        <listBibl>
-          <bibl>Burty, I, p. 267-268</bibl>
-          <bibl>Joubin, II, p. 294</bibl>
-        </listBibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -92,8 +88,8 @@
               n° 29</placeName></addrLine>
         </address>
         <dateline>
-          <pb n="2" xml:id="p2"/> Dimanche matin<note place="bottom">André Joubin date la lettre de décembre
-            1846 (Joubin, II, p. 294).</note></dateline>
+          <pb n="2" xml:id="p2"/> Dimanche matin<note place="bottom">André Joubin date la lettre de
+            décembre 1846 (Joubin, II, p. 294).</note></dateline>
         <salute><persName key="Thoré, Théophile (1807-1869)">Mon cher ami</persName>,</salute>
       </opener>
 
