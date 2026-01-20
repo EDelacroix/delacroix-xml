@@ -99,7 +99,7 @@
       </opener>
 
 
-      <space unit="line" quantity="1"/>
+
       <p>Il m’est bien difficile de me trouver samedi à la <placeName key="Sénat">Chambre des
           pairs</placeName><note place="bottom">Delacroix travaille au décor de la coupole de la
           bibliothèque du palais du Luxembourg de 1840 à 1846.</note> et puisque vous ne pouvez
@@ -123,16 +123,16 @@
 
       <closer>
         <salute>Recevez mes amitiés très sincères.</salute>
-        <space unit="line" quantity="1"/>
+
         <signed>Eug. Delacroix</signed>
-        <space unit="line" quantity="1"/>
+
         <dateline>Ce <date>mardi matin</date><note place="bottom">La lettre peut être datée de la
             toute fin de l’année 1846 (Joubin avance le mois de décembre : Joubin, II, p. 294), les
             décors des deux bibliothèques du Sénat et de l’Assemblée nationale étant avancés et
             vraisemblablement sur le point d’être achevés. </note></dateline>
       </closer>
 
-      <space unit="line" quantity="1"/>
+
     </body>
   </text>
 </TEI>
