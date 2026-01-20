@@ -18,12 +18,13 @@
         </respStmt>
         <respStmt>
           <resp>Annotation</resp>
-          <name>Brice Ameille ; Baptiste Dumas-Piro</name>
+          <name>Brice Ameille</name>
+          <name>Baptiste Dumas-Piro</name>
         </respStmt>
         <respStmt>
           <resp>Corrections</resp>
           <name>Baptiste Dumas-Piro</name>
-<name>{corrections}</name>
+          <name>{corrections}</name>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -35,28 +36,28 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Correspondance d'Eugène Delacroix</title>
-        
+
       </seriesStmt>
       <sourceDesc>
         <msDesc>
           <msIdentifier>
-            <country>France </country>
+            <country>France</country>
             <settlement>Paris</settlement>
-            <institution>BnF </institution>
-            
-            <idno>NAF 11955 ; ff. 32-33 </idno>
+            <institution>BnF</institution>
+
+            <idno>NAF 11955, ff. 32-33 </idno>
           </msIdentifier>
           <physDesc>
             <objectDesc form="letter">
               <supportDesc>
                 <extent>
-                  <measure unit="page" quantity="3"/>
+                  <measure unit="page" quantity="2"/>
                 </extent>
               </supportDesc>
             </objectDesc>
-            
+
           </physDesc>
-          
+
         </msDesc>
         <listBibl>
           <bibl>Burty, I, p. 267-268 ; Joubin, II, p. 294</bibl>
@@ -68,12 +69,12 @@
         <correspAction type="sent">
           <persName key="Delacroix, Eugène (1798-1863)"/>
           <date when="1846-..-.."/>
-          
+
         </correspAction>
         <correspAction type="received">
           <persName key="Thoré, Théophile (1807-1869)"/>
         </correspAction>
-        
+
       </correspDesc>
       <langUsage>
         <language ident="fr"/>
@@ -83,32 +84,55 @@
   <text>
     <body>
 
-<pb type="break-before" n="2"/>
+      <pb type="break-before" n="2"/>
 
 
-<opener>
-<p>
-<pb n="3"/> <persName>Monsieur Thoré</persName></p>
-<p><seg rend="addrline">rue Notre-Dame-de-Lorette, n° 29</seg></p>
-<space unit="line" quantity="1"/>
-<salute>
-<pb n="5"/> <persName>Mon cher ami</persName>,</salute>
-</opener>
+      <opener>
+        <p>
+          <pb n="1"/>
+          <persName key="Thoré, Théophile (1807-1869)">Monsieur Thoré</persName></p>
+        <p><seg rend="addrline">rue Notre-Dame-de-Lorette, n° 29</seg></p>
+        <space unit="line" quantity="1"/>
+        <salute>
+          <pb n="5"/>
+          <persName key="Thoré, Théophile (1807-1869)">Mon cher ami</persName>,</salute>
+      </opener>
 
 
-<space unit="line" quantity="1"/>
-<p>Il m’est bien difficile de me trouver samedi à la <placeName>Chambre des pairs</placeName><note xml:id="fn1">Delacroix travaille au décor de la coupole de la bibliothèque du palais du Luxembourg de 1840 à 1846.</note> et puisque vous ne pouvez vendredi, pourriez-vous arranger cela pour <hi rend="u">jeudi</hi> à l’heure que vous voudrez ? Vous m’obligeriez beaucoup, car je voudrais bien m’y trouver en même temps que vous. Nous prendrions jour aussi pour aller à mon <rs type="work">autre travail</rs><note xml:id="fn2">Delacroix travaille au plafond de la bibliothèque de l’Assemblée nationale de 1838 à 1847. Il convie Théophile Thoré sur place afin qu’il puisse juger par lui-même du résultat obtenu et rédiger un article dans <hi>Le Constitutionnel</hi>, ce qui sera chose faite dès le mois de janvier 1847 (THORE Théophile, DELACROIX Eugène, « Les peintures de la bibliothèque de la Chambre des députés par M. Eugène Delacroix », <hi>Le Constitutionnel</hi>, n° 31, 31 janvier 1848). Concernant la bibliothèque du Sénat, Delacroix a publié une notice descriptive de son décor dans <hi>L’Artiste</hi> (DELACROIX Eugène, « La bibliothèque du Luxembourg », <hi>L’Artiste</hi>, 4<hi rend="sup">e</hi> série, t. VII, 4 octobre 1846, p. 221), et Paul Mantz fera paraître dans la même revue un article fondé sur la description que lui fournit Delacroix (MANTZ Paul, « Bibliothèque de la Chambre des Pairs. Coupole de M.  Eugène Delacroix », 4<hi rend="sup">e</hi> série, t. VIII, 7 février 1847, p. 218-221).</note>.</p>
+      <space unit="line" quantity="1"/>
+      <p>Il m’est bien difficile de me trouver samedi à la <placeName key="Sénat">Chambre des
+          pairs</placeName><note place="bottom">Delacroix travaille au décor de la coupole de la
+          bibliothèque du palais du Luxembourg de 1840 à 1846.</note> et puisque vous ne pouvez
+        vendredi, pourriez-vous arranger cela pour <hi rend="u">jeudi</hi> à l’heure que vous
+        voudrez ? Vous m’obligeriez beaucoup, car je voudrais bien m’y trouver en même temps que
+        vous. Nous prendrions jour aussi pour aller à mon <rs type="work"
+          key="Assemblée nationale, Bibliothèque">autre travail</rs><note place="bottom">Delacroix
+          travaille au plafond de la bibliothèque de l’Assemblée nationale de 1838 à 1847. Il convie
+          Théophile Thoré sur place afin qu’il puisse juger par lui-même du résultat obtenu et
+          rédiger un article dans <hi rend="it">Le Constitutionnel</hi>, ce qui sera chose faite dès
+          le mois de janvier 1847 (THORE Théophile, DELACROIX Eugène, « Les peintures de la
+          bibliothèque de la Chambre des députés par M. Eugène Delacroix », <hi rend="it">Le
+            Constitutionnel</hi>, n° 31, 31 janvier 1848). Concernant la bibliothèque du Sénat,
+          Delacroix a publié une notice descriptive de son décor dans <hi rend="it">L’Artiste</hi>
+          (DELACROIX Eugène, « La bibliothèque du Luxembourg », <hi rend="it">L’Artiste</hi>, 4<hi
+            rend="sup">e</hi> série, t. VII, 4 octobre 1846, p. 221), et Paul Mantz fera paraître
+          dans la même revue un article fondé sur la description que lui fournit Delacroix (MANTZ
+          Paul, « Bibliothèque de la Chambre des Pairs. Coupole de M. Eugène Delacroix », 4<hi
+            rend="sup">e</hi> série, t. VIII, 7 février 1847, p. 218-221).</note>.</p>
 
 
-<closer>
-<salute>Recevez mes amitiés très sincères.</salute>
-<space unit="line" quantity="1"/>
-<signed>Eug. Delacroix</signed>
-<space unit="line" quantity="1"/>
-<dateline>Ce <date>mardi matin</date><note xml:id="fn3">La lettre peut être datée de la toute fin de l’année 1846 (Joubin avance le mois de décembre : Joubin, II, p. 294), les décors des deux bibliothèques du Sénat et de l’Assemblée nationale étant avancés et vraisemblablement sur le point d’être achevés. </note></dateline>
-</closer>
+      <closer>
+        <salute>Recevez mes amitiés très sincères.</salute>
+        <space unit="line" quantity="1"/>
+        <signed>Eug. Delacroix</signed>
+        <space unit="line" quantity="1"/>
+        <dateline>Ce <date>mardi matin</date><note place="bottom">La lettre peut être datée de la
+            toute fin de l’année 1846 (Joubin avance le mois de décembre : Joubin, II, p. 294), les
+            décors des deux bibliothèques du Sénat et de l’Assemblée nationale étant avancés et
+            vraisemblablement sur le point d’être achevés. </note></dateline>
+      </closer>
 
-<space unit="line" quantity="1"/>
-</body>
+      <space unit="line" quantity="1"/>
+    </body>
   </text>
 </TEI>
