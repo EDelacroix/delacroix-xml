@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à [Jules de Joly], 5 avril 18..</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>{corrections}</name>
+          <name>{corrections}</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>{cotepays}</country>
+            <settlement>{coteville}</settlement>
+            <institution>{coteinstitution}</institution>
+
+
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="18..-04-05"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Joly, Jules (de) (1788-1865)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+      <opener>
+        <salute>
+          <pb n="1"/>
+          <persName key="Joly, Jules (de) (1788-1865)">Mon cher Monsieur</persName><note
+            place="bottom">Delacroix s’adresse vraisemblablement à Jules de Joly (1788-1865),
+            architecte en charge de l’Assemblée nationale. Concernant les échanges entre le peintre
+            et l’architecte, cf. la lettre du <ref type="letter" target="CAC_ED_joubin-II-p187">23
+              juillet 1844</ref>.</note>,</salute>
+      </opener>
+
+
+      <p><persName key="Lassalle-Bordes, Gustave (de) (1812-1886)">M. Lassalle</persName> mon élève
+        a terminé le travail préparatoire de calquer la composition de <rs type="work"
+          key="Orphée vient
+          de policer les Grecs encore sauvages et leur enseigner les Arts et la Paix"
+          >l’hémicycle de la bibliothèque</rs><note place="bottom">Delacroix travaille au plafond de
+          la bibliothèque de l’Assemblée nationale de 1838 à 1847. Il s’est fait aider de deux
+          assistants, Louis de Planet (1814-1875) et Gustave de Lassalle-Bordes (1812-1886), ce
+          dernier ayant travaillé au décor des deux voûtes en cul-de-four formant les extrémités de
+          la bibliothèque. Ici, il est question de la voute en cul-de-four représentant <hi
+            rend="it">Orphée vient de policer les Grecs encore sauvages et leur enseigner les Arts
+            et la Paix</hi>.</note>. Vous seriez bien aimable de ne pas mettre de retard aux
+        réparations nécessaires et à les faire faire bien complétement. Visitez bien la place où il
+        y a eu déjà une fuite d’eau à gauche en bas. Je me recommande bien à vous et vous prie de me
+        donner avis sitôt que le travail sera fait pour que je reprenne <rs type="work"
+          key="Orphée vient
+          de policer les Grecs encore sauvages et leur enseigner les Arts et la Paix">mon
+          ébauche</rs>.</p>
+
+
+      <closer>
+        <salute>Recevez mes amitiés bien sincères,</salute>
+        <signed>Eug. Delacroix</signed>
+        <dateline>Ce <date>5 avril</date><note place="bottom"> Cette lettre rédigée au mois d’avril
+            et mentionnant des dégradations au niveau du décor ne permet pas de trancher avec
+            certitude entre 1843 et 1844. D’après le témoignage de Lassalle-Bordes, ce dernier
+            aurait commencé à travailler sur le cul-de-four en avril 1843 sur une toile marouflée,
+            mais durant l’été l’apparition d’une fissure aurait obligée à arracher la toile et à lui
+            substituer un enduit à la cire permettant à Lassalle-Bordes de se remettre au travail
+            l’année suivante. Or, l’année d’après (1845), une autre fissure serait à nouveau apparue
+            (Burty, II, p. X-XI). </note>.</dateline>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
