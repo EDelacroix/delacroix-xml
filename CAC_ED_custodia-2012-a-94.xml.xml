@@ -81,15 +81,15 @@
     <body>
 
       <opener>
-        <pb n="1" xml:id="p1"/>
+        <pb n="1"/>
         <address>
           <addrLine><persName key="Thoré, Théophile (1807-1869)">Monsieur Thoré</persName>
             <placeName key="France, Paris, rue Notre-Dame-de-Lorette, 29">rue Notre-Dame-de-Lorette,
               n° 29</placeName></addrLine>
         </address>
         <dateline>
-          <pb n="2" xml:id="p2"/> Dimanche matin<note place="bottom">André Joubin date la lettre de
-            décembre 1846 (Joubin, II, p. 294).</note></dateline>
+          <pb n="2"/> Dimanche matin<note place="bottom">André Joubin date la lettre de décembre
+            1846 (Joubin, II, p. 294).</note></dateline>
         <salute><persName key="Thoré, Théophile (1807-1869)">Mon cher ami</persName>,</salute>
       </opener>
 
