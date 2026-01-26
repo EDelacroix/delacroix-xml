@@ -18,12 +18,13 @@
         </respStmt>
         <respStmt>
           <resp>Annotation</resp>
-          <name>Brice Ameille ; Baptiste Dumas-Piro</name>
+          <name>Brice Ameille</name>
+          <name>Baptiste Dumas-Piro</name>
         </respStmt>
         <respStmt>
           <resp>Corrections</resp>
           <name>Baptiste Dumas-Piro</name>
-<name>{corrections}</name>
+          <name>{corrections}</name>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -35,31 +36,32 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Correspondance d'Eugène Delacroix</title>
-        
+
       </seriesStmt>
       <sourceDesc>
         <msDesc>
           <msIdentifier>
-            <country>France </country>
+            <country>France</country>
             <settlement>Paris</settlement>
-            <institution>BnF </institution>
-            
+            <institution>BnF</institution>
+
             <idno>LAS DELACROIX (EUGENE) 3</idno>
           </msIdentifier>
           <physDesc>
             <objectDesc form="letter">
               <supportDesc>
                 <extent>
-                  <measure unit="page" quantity="4"/>
+                  <measure unit="page" quantity="3"/>
                 </extent>
               </supportDesc>
             </objectDesc>
-            
+
           </physDesc>
-          
+
         </msDesc>
         <listBibl>
-          <bibl>Cordey, <hi>Bulletin de la société de l’histoire de l’art français</hi>, 1945-1946, p. 207</bibl>
+          <bibl>Cordey, <hi rend="it">Bulletin de la société de l’histoire de l’art français</hi>, 1945-1946,
+            p. 207 ; Johnson, Further Correspondence, p. 106-107</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
@@ -68,12 +70,12 @@
         <correspAction type="sent">
           <persName key="Delacroix, Eugène (1798-1863)"/>
           <date when="1839-09-30"/>
-          
+
         </correspAction>
         <correspAction type="received">
           <persName key="Cicéri, Pierre Luc Charles (1782-1868)"/>
         </correspAction>
-        
+
       </correspDesc>
       <langUsage>
         <language ident="fr"/>
@@ -83,32 +85,38 @@
   <text>
     <body>
 
-<pb type="break-before" n="2"/>
+     
+      <opener>  
+          <pb n="1"/>
+        <address><addrLine><persName key="Cicéri, Pierre Luc Charles (1782-1868)">Monsieur Cicéri</persName>
+        à l’Hôtel des Menus Plaisirs
+rue du Faubourg-Poissonnière, Paris</addrLine></address>
+      
+        <dateline>
+          <pb n="2"/> Lundi <date>30 septembre</date><note place="bottom">La lettre a été écrite le 30
+            septembre 1839, comme en atteste le cachet postal.</note></dateline>
+        
+        <salute><persName key="Cicéri, Pierre Luc Charles (1782-1868)">Cher Monsieur</persName>,</salute>
+      </opener>
+      <p>j’ai fait un petit voyage<note place="bottom">Fin septembre, en la
+          compagnie d’Élise (Marie-Élisabeth) Boulanger (née Blavot, future épouse d’Edmond Cavé)
+          (1806-1883), Delacroix a fait une escapade en Belgique et aux Pays-Bas (le <ref
+            type="letter" target="CAC_ED_louvre-A572">21</ref>, il envoie de La Haye une lettre à son ami Pierret). Lee Johnson
+          mentionne pour sa part les quelques semaines passées à Nohant chez George Sand à partir du
+          milieu du mois d’août (<hi rend="it">Further Correspondence</hi>, note 2, p. 106).</note> qui m’a
+        retardé. L’échafaud était prêt depuis longtemps. Voulez-vous un de ces matins que nous
+        allions tâter sur place le meilleur parti à tirer de <rs type="work" key="Assemblée nationale, Bibliothèque">notre affaire</rs><note place="bottom">Sans aucun doute leur collaboration aux décors de la bibliothèque du Palais
+          Bourbon (<hi rend="it">ibid.</hi>, note 1, p. 106). Delacroix fait allusion au décor de la
+          bibliothèque de l’Assemblée nationale auquel il travailla de 1838 à 1847. Cicéri a œuvré à
+          ses côtés pour la partie ornementale des cinq coupoles.</note> ? Pourriez-vous <hi
+          rend="u">après-demain mercredi</hi>, par exemple ? Je vous attendrais le matin. Mais si un
+        autre jour vous convenait mieux, je serais à vos ordres. Pourriez-vous vous faire
+        accompagner de quelqu’un qui puisse nous aider, avec de grands porte-crayons et fusains,
+        etc. pour faire sur place un à-peu-près ? C’est ma seule manière de m’y reconnaître.
 
-
-<opener>
-<p rend="sansinterligne">
-<pb n="3"/> <persName>Monsieur Cicéri</persName></p>
-<p rend="sansinterligne"><seg rend="addrline">à l’Hôtel des Menus Plaisirs</seg></p>
-<p rend="sansinterligne"><seg rend="addrline">rue du Faubourg-Poissonnière, Paris</seg></p>
-<space unit="line" quantity="1"/>
-<dateline>
-<pb n="5"/> Lundi <date>30 septembre</date><note xml:id="fn1">La lettre a été écrite le 30 septembre 1839, comme en atteste le cachet postal.</note></dateline>
-<space unit="line" quantity="1"/>
-<salute><persName>Cher Monsieur</persName>,</salute>
-</opener>
-
-
-<p rend="sansinterligne">j’ai fait un petit voyage<note xml:id="fn2">Fin septembre, en la compagnie d’Élise (Marie-Élisabeth) Boulanger (née Blavot, future épouse d’Edmond Cavé) (1806-1883), Delacroix a fait une escapade en Belgique et aux Pays-Bas (le <ref type="letter">21</ref>, il envoie de La Haye une lettre à son ami Pierret). Lee Johnson mentionne pour sa part les quelques semaines passées à Nohant chez George Sand à partir du milieu du mois d’août (<hi>Further Correspondence</hi>, note 2, p. 106).</note> qui m’a retardé. L’échafaud était prêt depuis longtemps. Voulez-vous un de ces matins que nous allions tâter sur place le meilleur parti à tirer de <rs type="work">notre affaire</rs><note xml:id="fn3">Sans aucun doute leur collaboration aux décors de la bibliothèque du Palais Bourbon (<hi>ibid.</hi>, note 1, p. 106). Delacroix fait allusion au décor de la bibliothèque de l’Assemblée nationale auquel il travailla de 1838 à 1847. Cicéri a œuvré à ses côtés pour la partie ornementale des cinq coupoles.</note> ? Pourriez-vous <hi rend="u">après-demain mercredi</hi>, par exemple ? Je vous attendrais le matin. Mais si un autre jour vous convenait mieux, je serais à vos ordres. Pourriez-vous vous faire accompagner de quelqu’un qui puisse nous aider, avec de grands porte-crayons et fusains, etc. pour faire sur place un à-peu-près ? C’est ma seule manière de m’y reconnaître.</p>
-<space unit="line" quantity="1"/>
-
-
-<closer>
-<p rend="sansinterligne">Adieu, en attendant 
-<pb n="7"/> le plaisir de vous voir, et mille amitiés,</p>
-<space unit="line" quantity="1"/>
-<signed>Eug. Delacroix</signed>
-</closer>
+        <closer><salute>Adieu, en attendant <pb n="3"/> le plaisir de vous voir, et mille amitiés,</salute>
+        <signed>Eug. Delacroix</signed>
+      </closer>
 
 </body>
   </text>
