@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à [Théophile Thoré], [3 janvier 1847]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Brice Ameille</name>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Baptiste Dumas-Piro</name>
+          <name>{corrections}</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>BnF</institution>
+
+            <idno>man, Naf11955, f.59</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="6"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+        <listBibl>
+          <bibl>Burty, Lettres, I, p. 267 ; Joubin, II, p. 339</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1847-01-03"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Thoré, Théophile (1807-1869)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+      <opener>
+        <pb n="1"/>
+        <address>
+          <addrLine><persName key="Thoré, Théophile (1807-1869)">Monsieur Thoré</persName> rue
+            Notre-Dame-de-Lorette, n° 29</addrLine>
+        </address>
+      </opener>
+
+
+
+      <p>
+        <pb n="2"/> Les <rs type="work" key="Assemblée nationale, Bibliothèque">peintures de la
+          bibliothèque de la Chambre des députés</rs><note place="bottom">Cette notice détaillée de
+          l’ensemble décoratif de la bibliothèque du palais Bourbon a été envoyée à Théophile Thoré
+          avec la lettre du <ref type="letter" target="CAC_ED_bnf-man-naf11955-f29">3 janvier
+            1847</ref>. L’article parût le 31 janvier 1848 (THORE Théophile, DELACROIX Eugène, « Les
+          peintures de la bibliothèque de la Chambre des députés par M. Eugène Delacroix », <hi
+            rend="it">Le Constitutionnel</hi>, n° 31, 31 janvier 1848). Thoré reproduit fidèlement
+          la notice envoyée par Delacroix.</note> sont distribuées dans la voûte de la galerie et
+        dans les deux hémicycles qui en forment les extrémités. La voûte est divisée en cinq petites
+        coupoles, ou travées présentant chacune quatre pendentifs. Ce sont donc quatre tableaux par
+        chaque division ou vingt tableaux dans toute la longueur.</p>
+      <p>   Les sujets de ces peintures ont rapport à la philosophie, à l’histoire et à l’histoire
+        naturelle, à la législation, à l’éloquence, à la littérature, à la poésie et même à la
+        théologie. Ils rappellent les divisions, adoptées dans toutes les bibliothèques, sans
+        toutefois en suivre la classification exacte.</p>
+      <p>    Les sujets qui occupent les quatre pendentifs de la première des travées en commençant
+        par l’extrémité <hi rend="u">sud</hi> sont :</p>
+      <space unit="line" quantity="1"/>
+      <p>1°. <rs type="work" key="Mort de Pline l'Ancien">Pline l’Ancien pendant la fameuse éruption
+          du Vésuve qui détruisit Herculanum et Pompéi</rs>. Il est représenté dans la campagne,
+        assis sur des coussins, ayant près de lui ses esclaves effrayés. Il suit avec émotion les
+        différentes phases du phénomène dont il va bientôt devenir victime. Un de ses serviteurs
+        semble écrire sous sa dictée et recueillir ses notes.</p>
+      <p>2°. <rs type="work" key="Aristote décrit les animaux que lui envoie Alexandre">Aristote
+          occupé à décrire les animaux variés qui lui sont présentés par des soldats
+          macédoniens</rs>. Alexandre envoyait ainsi à son ancien maître, de tous les points
+        parcourus par sa conquête, les objets d’histoire naturelle dignes d’intérêt. Un jeune homme
+        tient par les cornes et traîne aux pieds du philosophe un bouc d’une espèce particulière. Un
+        vétéran porte entre ses bras une gazelle qu’il lui présente. On voit à terre, ou près de
+        lui, des coquillages, des plantes, etc.</p>
+      <p>3°. <rs type="work" key="Hippocrate refuse les présents du roi de Perse">Hippocrate refuse
+          les présents du roi de Perse</rs>. Il est entouré d’Asiatiques et d’esclaves basanés dans
+        des attitudes suppliantes. Ils viennent lui offrir des vases remplis de <pb n="3"/> pièces
+        de monnaie et des coffres précieux.</p>
+      <p>4°. <rs type="work" key="Archimède tué par le soldat">Archimède tué par un soldat au milieu
+          de sa méditation</rs>. Il a le dos tourné vers une ouverture par laquelle il va recevoir
+        le coup mortel.</p>
+      <space unit="line" quantity="1"/>
+      <p rend="center u">Sujets de la seconde travée</p>
+      <space unit="line" quantity="1"/>
+      <p>1°. <rs type="work" key="Hérodote interroge la tradition des Mages">Hérodote vient
+          consulter pour son histoire les traditions antiques des mages</rs>. Il est amené par un
+        esclave et arrêté sur un palier intérieur en présence de ceux qu’il est venu interroger. Ces
+        personnages mystérieux examinent avec curiosité ce Grec venu de si loin, et en même temps la
+        froideur de leur maintien semble peu propre à encourager les questions. L’un de ces
+        hiérophantes, presque aveugle et courbé par l’extrême vieillesse, s’appuie au bras d’un
+        serviteur muet.</p>
+      <p>2°. <rs type="work" key="Les bergers chaldéens inventeurs de l'astronomie">Les Bergers de
+          la Chaldée, inventeurs de l’astronomie</rs>. Appuyés sur leur bâton, ils contemplent
+        l’immensité du ciel, assistent au lever des astres et notent dans leur mémoire leurs phases
+        différentes.</p>
+      <p>3°. <rs type="work" key="Sénèque se fait ouvrir les veines">Sénèque se fait ouvrir les
+          veines</rs>. Il est debout et soutenu par ses serviteurs et ses amis éplorés. Ses jambes
+        sont jusqu’à la moitié dans une cuve de porphyre. Son sang coule et la vie va l’abandonner.
+        Deux centurions porteurs de l’ordre fatal assistent aux derniers moments de l’illustre
+        stoïcien.</p>
+      <p>4°. <rs type="work" key="Socrate et son démon">Socrate et son démon</rs>. Le philosophe est
+        assis dans un bocage, loin des hommes et près d’un ruisseau qui murmure. On voit voler
+        derrière lui, et se pencher à son oreille, son génie ou démon familier, qui n’était
+        peut-être que la solitude elle-même et le recueillement dans lesquels les vrais sages ont
+        toujours retrempé leur âme et puisé des inspirations profondes.</p>
+      <space unit="line" quantity="1"/>
+        <pb n="4"/>
+        <hi rend="u">Sujets de la troisième travée formant le milieu de la galerie</hi></p>
+      <space unit="line" quantity="1"/>
+      <p>1°. <rs type="work" key="Numa et Egérie">Numa et Égérie</rs>. Au fond d’un bois mystérieux et couché sur le
+        gazon, le roi de Rome s’entretient avec la nymphe. Cette dernière est assise au milieu des
+        roseaux et ses pieds baignent dans sa source limpide. Une biche étonnée s’arrête un instant
+        à les considérer.</p>
+      <p>2°. <rs type="work" key="Lycurgue consulte la Pythie">Lycurgue, le laurier à la main, consulte la Pythie sur la durée des
+          lois de Sparte</rs>. La prêtresse est assise sur le trépied, au fond de la caverne où elle
+        rend ses oracles. Devant elle est un petit autel sur lequel on voit un chevreau égorgé.</p>
+      <p>3°. <rs type="work" key="Cicéron accuse Verrès">Cicéron accuse Verrès devant le peuple romain</rs>. Il fait apporter
+        près de lui et montre avec indignation ces vases, ces coupes, ces statues que l’indigne
+        proconsul arrachait aux peuples soumis à sa domination.</p>
+      <p>4°. <rs type="work" key="Démosthène harangue les flots de la mer">Démosthène harangue les flots de la mer pour s’aguerrir au tumulte et à
+          l’agitation des assemblées du peuple d’Athènes</rs>. Il est debout, à peine enveloppé d’un
+        manteau que le vent furieux élève autour de sa tête. Cachés à moitié par les rochers, deux
+        jeunes paysans l’observent avec surprise.</p>
+      <space unit="line" quantity="1"/>
+      <p rend="center"><hi rend="u">Sujets de la quatrième travée</hi></p>
+      <space unit="line" quantity="1"/>
+      <p>Deux sujets de l’<hi>Ancien Testament</hi> :</p>
+      <p>1°. <rs type="work" key="Adam et Eve">Adam et Ève après le péché et chassés par l’ange</rs>. Adam debout
+        cache sa tête dans ses mains. Ève, tombée sur ses genoux, se retourne encore vers le céleste
+        vengeur et semble conserver l’espoir de le fléchir.</p>
+      <p>2°. <rs type="work" key="La captivité de Babylone">La Captivité à Babylone</rs>. Une famille éplorée assise aux bords du
+        fleuve contemple douloureusement les flots en pensant à la patrie absente. Dans la campagne,
+        auprès des murs de la ville, des Hébreux dispersés, occupés <pb n="5"/> de vils travaux ou
+        succombant à la tristesse.</p>
+      <p>Deux sujets du <hi>Nouveau Testament</hi> :</p>
+      <p>1°. <rs type="work" key="Mort de saint Jean-Baptiste">La Mort de saint Jean-Baptiste</rs>. Le bourreau présente à la fille
+        d’Hérodias la tête du saint, dont le corps livide est étendu sur les degrés de la
+        prison.</p>
+      <p>2°. <rs type="work" key="Le Drachme du Tribut">La Drachme du tribut trouvée par saint Pierre dans l’ouïe d’un
+          poisson</rs>. Des pêcheurs s’approchent étonnés du prodige. La mer est dans le fond. Des
+        hommes, des femmes portent sur leur tête les fruits de la pêche ou tirent leurs barques sur
+        le sable.</p>
+      <space unit="line" quantity="1"/>
+      <p rend="center"><hi rend="u">Sujets de la cinquième travée</hi></p>
+      <space unit="line" quantity="1"/>
+      <p>1°. <rs type="work" key="Alexandre et les poèmes d'Homère">Alexandre, s’étant fait apporter le coffre précieux trouvé dans les
+          dépouilles de Darius, y fait enfermer les poèmes d’Homère</rs>.</p>
+      <p>2°. <rs type="work" key="Ovide chez les Barbares">Ovide en exil</rs>. Il est assis tristement sur la terre nue et froide,
+        dans une contrée barbare. Une famille scythe lui offre de simples présents, du lait de
+        jument et des fruits sauvages.</p>
+      <p>3°. <rs type="work" key="L'éducation d'Achille">L’Éducation d’Achille</rs>. Assis sur la croupe du centaure, son
+        maître, emporté lui-même par une course rapide à travers les plaines et les montagnes, il
+        poursuit de ses flèches les oiseaux et les animaux des forêts.</p>
+      <p>4°. <rs type="work" key="Hésiode et sa muse">Hésiode endormi</rs>. La muse, suspendue sur ses lèvres et sur son
+        front, lui inspire des chants divins.</p>
+      <space unit="line" quantity="1"/>
+      <p rend="center u">Hémicycle formant l’extrémité de la galerie du côté du sud</p>
+      <space unit="line" quantity="1"/>
+      <p><space> </space><rs type="work" key="Orphée vient de policer les Grecs encore sauvages et leur enseigner les Arts et la Paix">Orphée apporte aux Grecs dispersés et livrés à la vie
+          sauvage les bienfaits des arts et de la civilisation</rs>. Il est entouré de chasseurs
+        couverts de la dépouille des <pb n="6"/> lions et des ours. Ces hommes simples s’arrêtent
+        avec étonnement ; leurs femmes s’approchent avec leurs enfants. Des bœufs réunis sous le
+        joug tracent des sillons dans cette terre antique, au bord des lacs et sur le flanc des
+        montagnes couvertes encore de mystérieux ombrages. Retirés sous des abris grossiers, des
+        vieillards, des hommes plus farouches ou plus timides contemplent de loin le divin étranger.
+        Les centaures s’arrêtent à sa vue et vont rentrer dans le sein des forêts. Les naïades, les
+        fleuves s’étonnent au milieu de leur roseaux, pendant que les deux divinités des arts et de
+        la paix, la féconde Cérès chargée d’épis, Pallas tenant dans la main un rameau d’olivier,
+        traversent l’azur du ciel et descendent sur la terre à la voix de l’enchanteur.</p>
+      <space unit="line" quantity="1"/>
+      <p rend="center u">Deuxième hémicycle côté du nord</p>
+      <p/>
+      <p><space> </space><rs type="work" key="Attila suivi de ses hordes barbares foule aux pieds l’Italie et les Arts">Attila, suivi de ses hordes barbares, foule aux pieds de
+          son cheval l’Italie renversée sur des ruines</rs>. L’Éloquence éplorée, les Arts
+        s’enfuient devant le farouche coursier du roi des Huns. L’incendie et le meurtre marquent le
+        passage de ces sauvages guerriers, qui descendent des montagnes comme un torrent. Les
+        timides habitants abandonnent à leur approche les campagnes et les cités ou, atteints dans
+        leur fuite par la flèche et par la lance, arrosent de leur sang la terre qui les
+        nourrissait.</p>
+      <space unit="line" quantity="1"/>
+    </body>
+  </text>
+</TEI>
