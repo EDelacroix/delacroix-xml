@@ -87,7 +87,7 @@
         <address>
           <addrLine>
             <pb n="1"/>
-            <persName key="Gatteaux, Edouard (1788-1781)>Monsieur Gatteaux"</persName><note place="bottom">Jacques-Édouard Gatteaux
+            <salute><persName key="Gatteaux, Edouard (1788-1781)>Monsieur Gatteaux"</persName></salute><note place="bottom">Jacques-Édouard Gatteaux
               (1788-1881), sculpteur et médailleur, conseiller municipal de la Ville de Paris à
               compter de 1838 et membre de l’Académie des Beaux-arts depuis 1845.</note>, rue de
               Lille 35</addrLine>
