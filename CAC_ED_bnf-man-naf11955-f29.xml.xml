@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Théophile Thoré, [3 janvier 1847]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Brice Ameille</name>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Brice Ameille</name>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>{corrections}</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>BnF</institution>
+
+            <idno>NAF 11955, fol. 2</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+          <history>
+            <provenance>papiers Thoré (MF 22302)</provenance>
+          </history>
+        </msDesc>
+        <listBibl>
+          <bibl>Burty, I, p. 267 ; Joubin, II, p. 339</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1847-01-03"/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Thoré, Théophile (1807-1869)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="1"/>
+            <persName key="Thoré, Théophile (1807-1869)">Monsieur Thoré</persName></addrLine>
+          <addrLine>rue Notre-Dame-de-Lorette, n° 29.</addrLine>
+        </address>
+
+        <salute>
+          <pb n="2"/>
+          <persName key="Thoré, Théophile (1807-1869)">Mon cher ami</persName>,</salute>
+      </opener>
+
+      <p>Je vous envoie la notice sur <rs type="work" key="Assemblée nationale, Bibliothèque">mes
+          peintures</rs><note place="bottom">Celles réalisées pour la décoration de la bibliothèque
+          de l’Assemblée nationale à laquelle Delacroix travaille de 1838 à 1847. Cette <ref
+            type="letter" target="CAC_ED_bnf-man-naf11955-f59">notice</ref> décrit en détail
+          l’ensemble du décor et Thoré la reproduira fidèlement dans son article paru à la fin du
+          mois (THORE Théophile, DELACROIX Eugène, « Les peintures de la bibliothèque de la Chambre
+          des députés par M. Eugène Delacroix », <hi rend="it">Le Constitutionnel</hi>, n° 31, 31
+          janvier 1848).</note>. Je joins quelques billets pour la <placeName
+          key="Assemblée nationale, Bibliothèque">Chambre</placeName> pour quelques amis quand vous
+        en rencontrerez.</p>
+      <p>Ecrivez à votre homme pour le <rs type="work"
+          key="pastel de l'album de la Société des gens de lettres">pastel</rs><note place="bottom"
+          >Astérisque de Théophile Thoré qui note, au haut de la lettre : « J’avais obtenu de lui un
+          pastel pour un album de la Société des Gens de Lettres ». Cet album fut vendu à l’occasion
+          d’une loterie. Il comportait des autographes, des dessins originaux ainsi que des
+          partitions de mélodies inédites. Sur le sujet, cf. notamment [Pérégrinus], « Silhouette du
+          jour », <hi rend="it">La Silhouette</hi>, 4<hi rend="sup">e</hi> année, n° 48, 5 décembre
+          1847, p. 1-2. Delacroix en fait à nouveau mention dans sa lettre du 5 janvier 1848.
+          Delacroix en fait à nouveau mention dans sa lettre du <ref type="letter"
+            target="CAC_ED_bruxelles-br-msii7133-301">5 janvier 1848</ref>.</note> de venir le
+        prendre pour le fixer afin d’avoir le temps de le coller dans l’album. Le matin, plutôt.</p>
+
+      <closer>
+        <salute>Mille amitiés et dévouements,</salute>
+        <signed>Eug. Delacroix</signed>
+        <dateline>Ce <date>dimanche</date><note place="bottom">La lettre a été écrite le 3 janvier
+            1847. André Joubin (Joubin, II, p. 339) fait erreur lorsqu’il date la lettre du 9
+            janvier 1848, l’article de Thoré étant publié dans <hi rend="it">Le Constitutionnel</hi>
+            le 10 janvier 1847. Le dimanche est donc vraisemblablement celui de la semaine
+            précédente, soit le 3.</note></dateline>
+        <p>Dites à <persName>Merruau</persName><note place="bottom">Charles Merruau (1807-1882),
+            rédacteur au <hi rend="it">Constitutionnel</hi>.</note> de m’envoyer un numéro du <hi
+            rend="it">Constitutionnel</hi> quand ce sera imprimé.</p>
+        <p><hi rend="u">Je voudrais bien revoir l’épreuve auparavant</hi>.</p>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
