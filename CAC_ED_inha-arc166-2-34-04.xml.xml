@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Edouard Gatteaux, [février 1850]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Gaëlle Lafage</name>
+          <name>Baptiste Dumas-Piro</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>{corrections}</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d'Eugène Delacroix</title>
+
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>INHA</institution>
+
+            <idno>Archives 166, 2, 34, 04</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure unit="page" quantity="2"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+
+          </physDesc>
+
+        </msDesc>
+
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1850-02-.."/>
+
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Gatteaux, Edouard (1788-1781)"/>
+        </correspAction>
+
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+      <pb type="break-before" n="2"/>
+
+
+      <opener>
+        <address>
+          <addrLine>
+            <pb n="1"/>
+            <persName key="Gatteaux, Edouard (1788-1781)>Monsieur Gatteaux"</persName><note place="bottom">Jacques-Édouard Gatteaux
+              (1788-1881), sculpteur et médailleur, conseiller municipal de la Ville de Paris à
+              compter de 1838 et membre de l’Académie des Beaux-arts depuis 1845.</note>, rue de
+            Lille 35</addrLine>
+        </address>
+      </opener>
+
+
+      <p>
+        <pb n="2"/> [<hi rend="it">Billet imprimé de la questure</hi> :]</p>
+      <p><hi rend="u"><hi rend="it">Assemblée nationale</hi></hi></p>
+      <p><hi rend="it">Autorisation accordée à</hi>
+        <persName key="Gatteaux, Edouard (1788-1781)>Monsieur Gatteaux">Monsieur Gatteaux</persName>
+        <hi rend="it">de visiter les</hi>
+        <rs type="work" key="Assemblée nationale, Bibliothèque">peintures de la Bibliothèque de l’Assemblée nationale</rs><hi rend="it"> de 10 heures
+          à midi, valable pour [laissé vide] personnes jusqu’au 15 février 1850</hi><note place="bottom">Delacroix avait achevé ce décor à la fin de l’année 1847.</note>.</p>
+
+      <closer>
+        <signed>Eug. Delacroix</signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
