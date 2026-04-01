@@ -47,8 +47,8 @@
         </msDesc>
         <listBibl>
           <bibl><hi rend="it">L’Art vivant</hi>, 1er juillet 1930, p. 526</bibl>
-          <bibl>Joubin, II, p. 50</bibl>
-          <bibl>Alexandre, 2005, p. 99</bibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936, II, p. 50</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 99</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
@@ -69,14 +69,14 @@
   </teiHeader>
   <text>
     <body>
-      <pb n="1"/>
+      <pb n="1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000027.tif/full/full/0/default.jpg"/>
       <opener>
         <address>
           <addrLine><persName key="Sand, George (1804-1876)">Madame G. Sand.</persName></addrLine>
           <addrLine>F. de lettres</addrLine>
           <addrLine><placeName key="France, Paris, rue Pigale, 16">rue Pigale n°16</placeName></addrLine>
         </address>
-        <pb n="2"/>
+        <pb n="2" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000028.tif/full/full/0/default.jpg"/>
         <salute><persName key="Sand, George (1804-1876)">Chère amie</persName></salute>
       </opener>
       <p> je vous rappelle la loge<note place="bottom">Delacroix souhaite aller à la représentation
@@ -95,7 +95,7 @@
           même sens<note place="bottom">François Buloz est depuis 1838 commissaire  royal du
             Théâtre français. Delacroix veut être sûr d’obtenir une loge d’où le doublement de la
             requête". Madame de Forget est une grande admiratrice de l’oeuvre de l’écrivain
-            (Alexandre, 2005, p. 231, n. 3 de la page 99).</note>.</p>
+            (Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 231, n. 3 de la page 99).</note>.</p>
       </postscript>
     </body>
 
