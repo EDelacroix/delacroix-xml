@@ -118,8 +118,8 @@
             key="Martin du Nord, Nicolas (1790-1847)">Monsieur le Ministre</persName>, votre très
           humble et très obéissant serviteur,</salute>
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
-        <placeName key="France, Paris, rue des marais Sain-Germain, 17">Rue des marais
-          Saint-Germain, n° 17</placeName>
+        <address><placeName key="France, Paris, rue des marais Sain-Germain, 17">Rue des marais
+          Saint-Germain, n° 17</placeName></address>
       </closer>
 
     </body>
