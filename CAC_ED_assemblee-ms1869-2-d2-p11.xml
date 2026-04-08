@@ -89,7 +89,7 @@
           <pb n="1" xml:id="p1"/><placeName key="France, Paris">Paris</placeName>, <date
             when="1843-11-22">22 novembre 1843</date></dateline>
         <salute><persName key="Cavé, Édmond (1794-1852)">Monsieur le Directeur</persName><note
-            place="bottom">Delacroix adressait--> généralement ses demandes d’acompte à Edmond Cavé
+            place="bottom">Delacroix adressait généralement ses demandes d’acompte à Edmond Cavé
             (1794-1852), homme politique, journaliste et écrivain, qui occupa le poste de chef de la
             division des beaux-arts au ministère de l’Intérieur, avant d’en devenir le directeur
             jusqu’à la chute de Louis-Philippe. Si certaines lettres témoignent de leur amitié <ref
@@ -103,20 +103,25 @@
 
       <p>Je vous serais très reconnaissant de vouloir bien faire ordonnancer à mon profit un nouvel
         acompte de <hi rend="u">huit mille</hi> francs sur <rs type="work"
-          key="Assemblée nationale, Bibliothèque">mes travaux</rs> de la <placeName>Chambre des
-          députés</placeName><note place="bottom">Après s’être occupé du décor du Salon de Roi qu’il
-          réalisa de 1833 à 1836, Delacroix s’était vu confier le décor de la coupole de la
-          bibliothèque de l’Assemblée nationale en 1838. La décision revint à Camille de Montalivet
-          (1801-1880), ministre de l’Intérieur du 15 avril 1837 au 31 mars 1839. L’arrêté
-          ministériel du 30 août 1838 disposait que « M. Eugène Delacroix est chargé de l’exécution
-          des peintures de la Salle de la Bibliothèque à la Chambre des Députés ».</note>.</p>
+          key="Assemblée nationale, Bibliothèque">mes travaux</rs> de la <placeName
+          key="France, Paris, Assemblée nationale">Chambre des députés</placeName><note
+          place="bottom">Après s’être occupé du décor du Salon de Roi qu’il réalisa de 1833 à 1836,
+          Delacroix s’était vu confier le décor de la coupole de la bibliothèque de l’Assemblée
+          nationale en 1838. La décision revint à Camille de Montalivet (1801-1880), ministre de
+          l’Intérieur du 15 avril 1837 au 31 mars 1839. L’arrêté ministériel du 30 août 1838
+          disposait que « M. Eugène Delacroix est chargé de l’exécution des peintures de la Salle de
+          la Bibliothèque à la Chambre des Députés ».</note>.</p>
 
 
       <closer>
         <salute>Veuillez agréer les assurances de la haute considération de votre très obéissant
           serviteur.</salute>
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
-        <placeName>Rue des marais Saint-Germain, n° 17</placeName>. </closer>
+        <address>
+          <addrLine><placeName key="France, Paris, rue des marais Saint-Germain, 17">Rue des marais
+              Saint-Germain, n° 17.</placeName></addrLine>
+        </address>
+      </closer>
 
     </body>
   </text>
