@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 27 janvier 18[56]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 81</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="1" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1937,
+            III, p. 315-316</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 207</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1856-01-27"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000168.tif/full/full/0/default.jpg"/>
+
+      <opener>
+        <dateline><add place="margin">[1856]</add></dateline>
+        <dateline>Ce <date when="1856-01-27">27 janvier</date></dateline>
+        <salute>Chère <persName key="Sand, George (1804-1876)">amie</persName></salute>
+      </opener>
+
+      <p>J’éprouve la plus grande contrariété de ne pouvoir aller mercredi entendre la pièce en
+        votre société<note place="bottom"> Contrairement à ce que suggère Joubin (Joubin, André, <hi
+            rend="it">Correspondance générale de Eugène Delacroix</hi>, 1938, III, p. 315), il n'est
+          pas question ici d'une nouvelle représentation de <hi rend="it">Maître Favilla</hi>. Au
+          mercredi 30 janvier 1856, Delacroix indique dans son <hi rend="it">Journal</hi>: "La
+          lecture de M<hi rend="sup">me</hi> Sand": il s'agit d'une lecture de <hi rend="it">Comme
+            il vous plaira</hi>, pièce adaptée de Shakespeare, chez Emile de Girardin (Hanoosh,
+          Michèle, <hi rend="it">Journal</hi>, 2009, I, p. 994). Le 24 janvier 1856, Sand lui avait
+          écrit à ce sujet (Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p.
+          207).</note> : je suis absolument forcé de disposer autrement de mon temps et tout à fait
+        contre mon gré. J’avais espéré pouvoir me dégager et je m’en étais même flatté auprès de
+          <persName key="Viardot, Pauline Garcia, épouse (1821-1910)">Mme Viardot</persName>, que
+        j’ai vue et entendue l’autre jour<note place="bottom"> Comme il l'indique dans son <hi
+            rend="it">Journal</hi>, Delacroix assiste à un concert de Pauline Viardot le 15 janvier
+          et l'entend chanter chez elle le 17.</note>. Pardonnez-moi, bien <persName key="Sand, George (1804-1876)">chère amie</persName>. Par une
+        singulière coïncidence, le jour où j’ai été entendre votre pièce au cirque, j’avais
+        justement éludé l’obligation qui m’incombe mercredi<note place="bottom"> Le 12 janvier 1856,
+          Delacroix assiste à une représentation de <hi rend="it">Maître Favilla</hi> au lieu
+          d'aller dîner chez le préfet (<hi rend="it">Journal</hi>, 12 janvier 1856). Au mercredi 30
+          janvier 1856, le peintre note dans son <hi rend="it">Journal</hi>: "Bal du préfet"
+          (Hanoosh, Michèle, <hi rend="it">Journal</hi>, 2009, I, p. 994).</note>, et pour cette fois il n’y a pas moyen.</p>
+
+      <closer>
+        <salute>Laissez-moi <persName key="Sand, George (1804-1876)">vous</persName> embrasser malgré cela, en attendant le plaisir de vous
+          voir.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">E. Delacroix</persName></signed>
+      </closer>
+      
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 15 novembre 18[43]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 37</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="4" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 1er septembre 1930, p. 710</bibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936,
+            II, p. 153-156</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 142-144</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1843-11-15"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000082.tif/full/full/0/default.jpg"/>
+      <opener>
+        <dateline><date when="1843-11-15">15 novembre</date></dateline>
+        <address>
+          <addrLine><placeName>Saint-Eugène</placeName></addrLine>
+        </address>
+        <salute>Chère tendre et <persName key="Sand, George (1804-1876)">bonne
+          amie</persName></salute>
+      </opener>
+
+      <p><persName key="Sand, George (1804-1876)">vous</persName>vous êtes bienheureuse que je ne
+        vous aie pas répondu tout de suite, vous auriez eu un volume d’absurdes tendresses et je ne
+        trouvais pas de papier assez grand pour vous les dire. Je crains toujours d’être un peu bête
+        dans mes premiers mouvements de tendresse et d’en dire trop ou trop peu, surtout avec vous
+        que j’aime d’une manière tout à fait originale. Il n’y a rien qui fasse dire plus de bêtises
+        que ces passions-là, aussi je m’applaudis d’avoir supprimé mes tirades. Au fait, votre <ref
+          type="letter" target=""/>lettre m’a fait un bien grand plaisir. Elle m’a trouvé dans un
+        genre de vie aussi à part que mon amitié pour vous. Mon gros rhume est guéri mais j’ai
+        toujours de la fatigue en parlant. Donc je m’abstiens et ne vois personne. Je vis comme un
+        prisonnier. Le jour, je sors pour faire de l’exercice quand il fait beau ou pour travailler.
+        Le soir, je reste chez moi et on respecte ma taciturnité. La <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000083.tif/full/full/0/default.jpg"
+        />solitude est loin de me peser autant que la pluie froide des banalités qui vous
+        accueillent dans tout salon et qui vous font maudire en sortant le temps que vous y avez
+        perdu. Comme c’est mon imagination qui peuple ma solitude, je choisis la compagnie. Vous
+        êtes souvent là, <persName key="Sand, George (1804-1876)">chère</persName>, je vous évoque
+        devant moi ainsi que le bien petit nombre d’êtres que j’aime encore, car hélas ! j’ai plus
+        d’amis sous terre que dessus. C’est ce qui arrive à ceux qui sont trop longtemps de ce
+        monde.</p>
+      <p>Vous avez eu, ou bien c’est le hasard (mais il n’y a pas de hasard selon votre école), vous
+        avez eu la bonne pensée de m’envoyer les deux premiers volumes de <hi rend="it">La Comtesse
+          de <hi rend="u">Rudolstadt</hi></hi><note place="bottom">Parallèlement à l’édition par
+          livraisons dans <hi rend="it">La Revue indépendante</hi> (1843-1844), <hi rend="it">La
+            comtesse de Rudolstadt</hi>, roman de George Sand, prenant la suite de <hi rend="it"
+            >Consuelo</hi>, paraît en 1844 à Paris, chez Louis de Potter en 5 volumes.</note>, j’en
+        suis ravi. C’est clair, c’est pur, c’est intéressant mais comme c’est français ! En voilà du
+        français comme on n’en parle plus que sous terre, si les grands morts peuvent encore
+        s’entretenir ; c’est celui de <persName key="Rousseau, Jean-Jacques (1712-1778)"
+          >J.-J.</persName>, de <persName key="Voltaire, François Marie Arouet, dit (1694-1778)"
+          >Voltaire</persName> (votre ennemi) et de tous les autres comme nous n’en avons plus,
+        excepté vous. Vous êtes la gardienne de ce feu sacré. Il faut voir les meilleurs parmi les
+        vivants pour voir la différence.</p>
+      <p>À propos de <pb n="3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000083.tif/full/full/0/default.jpg"
+          /><persName key="Balsamo, Giuseppe, comte de Cagliostro (1743-1795)"
+          >Cagliostro</persName><note place="bottom">Personnage apparaissant dans l'oeuvre de George
+          Sand, intervenant dans un épisode du roman <hi rend="it">La comtesse de
+          Rudolstadt.</hi></note>, je fais au coin de mon feu de grandes réflexions sur la vie
+        antérieure. Quand le soir, fatigué et tout bâillant, je me jette dans les bras de mon lit,
+        ce dernier ami, ce refuge, je m’endors et j’entre alors dans ma vie antérieure. Je suppose
+        qu’alors le corps se repose et que c’est l’âme qui se promène. Imaginez que ma chienne d’âme
+        est trois fois sur cinq avec vous et, toute âme qu’elle est, se conduit de la manière la
+        plus inconvenante. Est-ce que cela n’indique pas ou que le système n’a pas le sens commun,
+        ou que je vous fréquentais autrefois plus assidûment que je ne fais dans cette dernière et
+        périssable transformation en peintre, que je subis en ce moment ? J’étais peut-être sultan
+        et vous vous appeliez peut-être Zuleika, ou Zétusbé, Gromufila<note place="bottom">
+          Personnages orientaux dans des poèmes de lord Byron : Zuleika intervient dans <hi
+            rend="it">La Fiancée d'Abydos</hi> (1813) ; Zétusbé, sans doute Zétulbé du <hi rend="it"
+            >Calife de Bagdad</hi>, opéra comique (1800). Identification non trouvée pour le 3e
+          personnage (voir Alexandre, Françoise, <hi rend="it">Correspondance</hi>2005, n. 6, p.
+          250-251).</note> peut-être ! Voyez ce qu’engendre la solitude, d’abord des lettres d’une
+        longueur assommante et qui vous fatigueront les yeux, puis les rêves les plus fous.</p>
+      <p>Vous plantez, vous semez d’heureuses fleurs. Plus heureux si je les vois près de vous, <pb
+          n="4"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000084.tif/full/full/0/default.jpg"
+        />comme je le désire tant. Vous avez l’infamie de me dire que, si je n’étais si occupé, vous
+        m’auriez dit d’aller passer quelques restes d’automne avec vous. Automne ou printemps, vous
+        mériteriez bien que je vous prisse au mot et je le ferais par Hercule (qui n’est pas mon
+        patron) si... Pensez là-dessus ce que vous voudrez, au fait je m’en moque, je vous embrasse
+        et vous dis adieux là-dessus. Mais non, j’ai à vous parler de <hi rend="it"
+          >Fanchette</hi><note place="bottom">Delacroix fait ici référence à <hi rend="it">Fanchette, lettre de
+            Blaise Bonnin à Claude Germain</hi>, parut dans <hi rend="it">La Revue
+          indépendante</hi> en livraisons les 25 octobre et 25 novembre 1843. Commercialisées sous forme de plaquette, celles-ci sont
+          vendues au bénéfice de Fanchette, "une pauvre idiote" enfermée dans un asile, pour laquelle
+          George Sand s'était mobilisée (Joubin, André, <hi rend="it">Correspondance générale de
+            Eugène Delacroix</hi>, 1936, II, n. 2, p. 155 et Alexandre, Françoise, <hi rend="it"
+            >Correspondance</hi>, 2005, n. 1, p. 251).</note>. Bonne action et vigoureuse prose.
+        Votre cœur et votre verve sont intarissables. J’ai aussi à vous remercier d’avoir allongé le
+        ravissant bonnet<note place="bottom"> Un bonnet brodé pour Delacroix. Il a figuré à
+          l'exposition du centenaire de la <hi rend="it">Revue des Deux Mondes</hi> et a appartenu à
+          M. Brumauld des Houlières, de La Rochelle (Joubin, André, <hi rend="it">Correspondance
+            générale de Eugène Delacroix</hi>, 1936, II, n. 3, p. 155).</note>. Vous pensez à tout
+        et votre bonté s’étend à tout. Et la pensée donc, je l’admire et l’aime. Vous vous souvenez
+        de l’apophtegme : les <hi rend="u">grandes</hi> pensées viennent du cœur.</p>
+
+      <closer>
+        <salute>Je l’entends donc ainsi et mon cœur vous en remercie et vous renvoie toute l’amitié
+          et tendresse dont il est et sera toujours plein pour vous, <persName
+            key="Sand, George (1804-1876)">chère amie</persName> que j’embrasse de nouveau.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">E. Delacroix</persName></signed>
+
+        <salute>Mille tendresses à <persName key="Papet, Gustave (1812-1892)">Papet</persName>. Je
+          suis son régime le plus que je peux, et mille respects à Mlle <persName
+            key="Sand, Solange (1828-1899)"><hi rend="u">Solange</hi></persName>.</salute>
+
+      </closer>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, [10 décembre] 18[49]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 52</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="3" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+            <accMat>Datation établie par André Joubin</accMat>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 1er septembre 1930, p. 705</bibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1937,
+            III, p. 412-413</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 177</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1849-12-10"/>
+          <placeName key="France, Paris">Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000123.tif/full/full/0/default.jpg"/>
+      <opener>
+        <dateline><date when="1849-12-10">Lundi</date> 6 heures</dateline>
+        <salute><persName key="Sand, George (1804-1876)">Chère amie</persName></salute>
+      </opener>
+
+      <p>je rentre de <placeName key="France, Versailles">Versailles</placeName> et <ref
+          type="letter" target="">votre lettre</ref> me réchauffe d’un froid de dix heures
+        consécutives contracté dans les chemins de fer et dans des courses à travers <placeName
+          key="France, Versailles">Versailles</placeName>. Vous ne doutez pas que je ne sois tout à
+          <persName key="Ponsard, François (1814-1867)">Ponsard</persName><note place="bottom"
+          >François Ponsard tente de faire jouer <hi rend="it">Charlotte Corday</hi>, tragédie sujet
+          à polémique en raison de son héroïne et de certains partis pris de la mise en scène. Après
+          plusieurs tentatives, la pièce est finalement donnée à la Comédie-Française pour une
+          première le 23 mars 1850.</note> et la perspective de vous voir quelques instants augmente
+        mon zèle. Vous ne me dites pas où demeure <persName
+          key="Rachel, Élisabeth Rachel Félix, dite (1821-1858)">Rachel</persName> : écrivez-le moi
+        demain matin <hi rend="u">de bonne heure</hi>. Si cette lettre ne vous trouve pas à cette
+        heure à l’adresse que vous me donnez, j’y serai demain vers 1 heure. <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000124.tif/full/full/0/default.jpg"
+        />La fameuse tragédienne devient une bécasse. Quand on a joué <hi rend="it">Adrienne
+          Lecouvreur</hi> de <persName key="Scribe, Eugène (1791-1861)">Scribe</persName> et
+          compagnie<note place="bottom"> Comédie d'Eugène Scribe et de d'Ernest Legouvé, présentée à
+          la Comédie-Française à partir du 14 avril 1849 et qui rencontra un grand succès. Rachel
+          interprétait le rôle d'Adrienne Lecouvreur (1692-1730), célèbre comédienne dont la mort
+          tragique inspira de nombreuses adaptations de sa vie, tant au théâtre qu'à l'opéra et plus
+          tard au cinéma.</note>, il ne faut pas tant tortiller des .. pour jouer du <persName
+          key="Ponsard, François (1814-1867)">Ponsard</persName> que j’aime et respecte. Vous
+        l’aimez aussi et c’est une raison plus que suffisante. J’ai été bien heureux de vous revoir,
+          <persName key="Sand, George (1804-1876)">chère amie</persName>, je vous embrasse donc tout
+        de nouveau en vous recommandant de me donner l’adresse.</p>
+      <p>Si je n’étais accablé de démarches qui sont une affaire importante dans ma vie de ce
+          moment<note place="bottom"> Delacroix prépare alors sa candidature à l'Institut. Il n'y
+          entrera qu'en 1857, après sept tentatives infructueuses.</note>, j’aurais déjà vu <pb
+          n="3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000124.tif/full/full/0/default.jpg"
+        />votre charmant ouvrage dont tout le monde raffole<note place="bottom">Donné au théâtre
+          de l'Odéon en novembre 1849, <hi rend="it">François le Champi</hi> fut adapté en roman en
+          1850.</note>. J’ai encore une semaine d’allées et de venues si fatigantes pour ma mince
+        nature physique qu’il n’y aurait pour les pures émotions que des nerfs fatigués et émoussés,
+        ce que je ne veux pas <persName key="Sand, George (1804-1876)">vous</persName> apporter.</p>
+      
+      <closer>
+        <salute>À demain donc et je <persName key="Sand, George (1804-1876)">vous</persName> embrasse bien sincèrement.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)" >Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

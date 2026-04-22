@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, [9 mars] 18[52]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 63</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="2" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1937,
+            III, p. 109</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 193</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1852-03-09"/>
+          <placeName key="France, Paris">Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000144.tif/full/full/0/default.jpg"/>
+      <opener>
+        <dateline>Ce <date when="1852-03-09">mardi</date><note place="bottom"> Delacroix écrit le lundi 8 mars dans son <hi
+              rend="it">Journal</hi> : "Le jury depuis jeudi dernier, m'assassine tous les jours, et
+            le soir, je suis comme un homme qui aurait fait dix lieues à pied", et le samedi 13 mars
+            : "Fini au jury". La lettre doit ainsi dater du mardi 9 mars 1852 (Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p.
+            283).</note></dateline>
+
+        <salute><persName key="Sand, George (1804-1876)">Chère amie</persName></salute>
+      </opener>
+
+      <p>j’ai bien regretté de ne pas voir <persName key="Sand, Maurice (1823-1889)"
+          >Maurice</persName> qui est passé chez moi hier : il m’aurait donné de <persName
+          key="Sand, George (1804-1876)">vos</persName> nouvelles. J’étais, et je suis toute la
+        journée depuis plusieurs jours, au jury de l’Exposition, qui est la plus rude corvée qu’il
+        soit possible de supporter et qui me rend incapable de remuer le soir : je suis exactement
+        comme un homme qui aurait fait dix lieues à pied. J’en ai encore pour la semaine au moins
+        et, souffrant comme je suis, je m’en serais dispensé si cette année le nombre des jurés
+        nommés par les artistes n’était très restreint, l’administration en ayant nommé une grande
+          partie<note place="bottom"> Alors qu'auparavant, le jury du Salon était entièrement élu,
+          l'édition de 1852 inaugure un changement dans la sélection du jury, composé pour moitié
+          d'artistes élus par leurs pairs et d'amateurs nommés par l'administration du Salon
+          (Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1937, III,
+          1937, p. 109).</note>. Je ne pense pas que vous partiez encore, vous auriez été assez
+        bonne pour me l’écrire <pb n="2" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000145.tif/full/full/0/default.jpg"/>et j’aurais été vous voir, si on vous voyait le matin.</p>
+
+      <closer>
+        <salute>Écrivez-moi donc un mot, <persName key="Sand, George (1804-1876)">chère amie</persName>, et recevez en attendant mes tendresses de
+          cœur.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

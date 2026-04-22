@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 12 septembre 18[46]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 46</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="4" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 1er septembre 1930, p. 709</bibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936,
+            II, p. 285-287</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 163-165</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1846-09-12"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000106.tif/full/full/0/default.jpg"/>
+      <opener>
+        <dateline><date when="1846-09-12">12 septembre</date></dateline>
+        <salute><persName key="Sand, George (1804-1876)">Chère amie</persName></salute>
+      </opener>
+
+      <p> je voulais bêtement ne vous écrire que quand j’aurais vu <persName
+          key="Marliani, Charlotte Folleville, épouse (1790-1850)">Mme Marliani</persName> et j’y
+        avais été deux fois sans la trouver. J’aurais bien mieux fait de suivre mon penchant,
+        c’est-à-dire de vous écrire en arrivant comment j’avais fait la route, mais surtout pour
+        vous dire mon regret de vous quitter et de me trouver ici au milieu d’objets si différents.
+        J’admire votre stoïcisme de prendre comme vous le faites l’insipidité de la vie et, si ce
+        calme n’est que de la résignation, je vous envie au moins votre masque. Moi j’ai la
+        faiblesse de crier quand on m’écorche ou tout au moins de bâiller quand je m’ennuie.
+        N’est-il pas fort triste qu’à mesure que j’avance vers l’âge où l’on nous raconte que le
+        seul bonheur possible est dans la tranquillité, qui résulte de l’impuissance de se remuer,
+        je ne puisse trouver quelque <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000107.tif/full/full/0/default.jpg"
+        />bien-être que dans des émotions ; or cela est synonyme d’agitation, de troubles, attributs
+        de la jeunesse. Il me semble aussi, et c’est une de mes querelles au grand Démiourgos<note
+          place="bottom"> En référence à un personnage du <hi rend="it">Songe de Platon</hi> (1756)
+          de Voltaire.</note>, que la faculté d’être amusé qu’il m’a donnée est comme celle de
+        digérer, à laquelle il faut des aliments. Vous voulez très justement que tous les hommes
+        aient leur part au pain commun que la terre veut bien accorder à leur sueur ; moi je
+        voudrais quelques fleurs par-dessus le marché pour contenter une autre partie de moi qui est
+        très exigeante. Je laisse là mes fleurs et je reviens à vous, qui êtes un des biens
+        passagers de mon existence. Comment êtes-vous ? Vous aurez repris du mouvement, si vous avez
+        suivi vos projets, et vous y gagnez de la distraction et la santé du corps. Remuez-moi ferme
+        cet <persName key="Rollinat, François (1806-1867)">avocat</persName> sans cause<note place="bottom"> François Rollinat (1806-1867), avocat et député
+          de l'Indre (1848-1851), ami de George Sand.</note>, au moins pour un mois : c’est un
+        paresseux, qu’il faut promener. Les arguments, les figures de rhétorique vont se reposer
+        pendant <pb n="3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000107.tif/full/full/0/default.jpg"
+        />que vous le secouez dans le char à bancs. Dites-lui au moins que je regrette bien de
+        n’avoir pas passé quelques jours avec lui.</p>
+      <p><persName key="Chopin, Frédéric (1810-1849)">Chopin</persName> aura eu sans doute des
+        nouvelles de <persName key="Franchomme, Auguste Joseph (1808-1884)">M.
+        Franchomme</persName>, qui se disposait à lui écrire. Je lui ai remis en mains propres, le
+        lendemain de mon arrivée, le précieux dépôt dont j’étais chargé<note place="bottom"> Des
+          compositions musicales de Frédéric Chopin.</note> et pour lequel je redoutais les voleurs
+        en route beaucoup plus que pour mes doublons. Quant à <persName
+          key="Czartoryski, Alexandre Romuald (1811-1886)">l’introuvable palatin</persName> de la
+        rue de Rohan<note place="bottom"> Prince Alexandre Romuald Czartoryski (1811-1886). Époux de
+          la princesse Marcelline Czartoriska (1817-1894), née Radziwill.</note>, je n’ai pas eu la
+        satisfaction de l’embrasser comme je l’eusse souhaité, attendu qu’il était sorti quoiqu’il
+        fût matin ou emprisonné dans des guirlandes de roses de manière à ne pouvoir se laisser
+        apercevoir. J’ai remis avec toutes les recommandations imaginables le paquet qui était à son
+        adresse au fidèle perruquier (<persName key="Chopin, Frédéric (1810-1849)">Chopin</persName>
+        m’avait dit que je pouvais m’en fier à cet Achate<note place="bottom"> Ami et lieutenant
+          d'Enée dans l'<hi rend="it">Enéide</hi> de Virgile, associé à la figure épique de l'ami
+          fidèle.</note>). Je n’ai pas besoin de dire à ce cher grand homme de <persName
+          key="Chopin, Frédéric (1810-1849)">Chopin</persName> que je n’ai pas trouvé ici
+        l’équivalent du plaisir qu’il m’a fait si aimablement. C’est une de ces nourritures de l’âme
+        qui sont des plus rares dans ce temps-ci et même dans tous les temps. <pb n="4"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000108.tif/full/full/0/default.jpg"
+        /> Je l’embrasse donc tendrement et me rappelle à lui.</p>
+      <p><persName key="Marliani, Charlotte Folleville, épouse (1790-1850)">Mme Marliani</persName>
+        va bien. Elle était déjà préparée par vos lettres à ne pas aller à
+          <placeName key="France, Nohant">Nohant</placeName>. Elle est résignée à ses chagrins et m’a paru, quoique
+        changée, dans un état beaucoup meilleur<note place="bottom">Charlotte Marliani a eu des
+          problèmes de santé au printemps 1846 en plus de traverser des difficultés conjugales
+          (Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, n. 1, p. 165)</note>. Elle
+        pense que vous allez promener <persName key="Sand, Solange (1828-1899)">Solange</persName>,
+        ce qu’au demeurant vous ne ferez peut-être pas mal de faire. Je me mets aux pieds de cette
+        intéressante héroïne en la priant de se soigner et de revenir en santé<note place="bottom"
+          >Solange, la fille de George Sand était malade depuis plusieurs mois.</note>. Je prends
+        aussi la liberté de me rappeler à <persName key="Brault, Augustine (1824-1905)">Mlle
+          Augustine</persName><note place="bottom"> Augustine Brault (1824-1905). Fille d'une
+          cousine germaine de la mère de George Sand, recueillie par l'écrivain en 1845 et qu'elle
+          considéra comme sa deuxième fille.</note>. Mille choses à <persName
+          key="Sand, Maurice (1823-1889)">Maurice</persName> avec prière de travailler
+        davantage.</p>
+      <p>J’ai suivi vos conseils : je me suis arrêté quelques heures à <persName key="France, Blois"
+          >Blois</persName>, j’ai vu le château et beaucoup de vieilles choses qui m’ont intéressé.
+        J’avais besoin de cela : j’avais le cœur gros et rien à <placeName key="France, Paris">Paris</placeName> qui me promît de me
+        dédommager.</p>
+      
+      <closer>
+        <salute>Adieux, bonne et <persName key="Sand, George (1804-1876)">chère</persName>, soyez,
+          soyez heureuse et ne m’oubliez pas tout à fait, au milieu de vos courses. Vous vous
+          rappellerez en voyant les arbres, les nuages, les plaines verdoyantes que je les aime
+          aussi, que j’en suis privé et que nous les avons vues ensemble. Adieux mille fois et bien
+          à vous.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 10 avril 18[42]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 26</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="3" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L’Art vivant</hi>, 1er septembre 1930, p. 705</bibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936,
+            II, p. 97</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 118</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1842-04-10"/>
+          <placeName key="France, Frépillon">Frépillon</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000059.tif/full/full/0/default.jpg"/>
+      <opener>
+        <salute>Bonjour <persName key="Sand, George (1804-1876)">chère amie</persName></salute>
+      </opener>
+      <p>Je m’ennuie de ne pas vous voir et cependant je me séquestre encore<note place="bottom">
+          Depuis début mars 1842, Delacroix s'était installé à Frépillon, chez les Riesener, pour se
+          reposer. Delacroix subissait alors sa première crise aigüe de larynginte.</note>. Ainsi ne
+        venez pas si vous en aviez l’envie. Jusqu’à la chaleur je serai sans doute chancelant. J’ai
+        été guéri cinq ou six fois, et l’imprudence de parler trop et trop tôt m’a fait retomber.
+        Avant d’essuyer votre sérénissime plume, torchez-moi un bout d’amitié et de souvenir qui me
+        fasse prendre patience. Mon style <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000060.tif/full/full/0/default.jpg"
+        />se ressent de mon éloignement de la bonne société. J’ai vécu depuis six semaines avec des
+        dindons, des chiens et je m’en trouvais assez bien. Mais tout cela n’est pas l’amitié.
+        Hélas, ma <persName key="Sand, George (1804-1876)">chère amie</persName>, cramponnez-vous
+        bien aux gens que vous aimez et qui vous aiment. C’est un besoin qu’on éprouve d’autant plus
+        qu’on vieillit davantage. J’ai fait encore plusieurs pertes, qui me sont bien sensibles
+        depuis quelque temps<note place="bottom"> Parmi les pertes évoquées, citons celle de son ami
+          d'enfance Félix Guillemardet, décédé le 20 février 1842.</note>. Quand tous ceux <pb n="3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000060.tif/full/full/0/default.jpg"
+        />que nous aimions et avec qui nous avions brouté sont sous terre, que reste-t-il dessus
+        pour nous attacher ? Pour moi il n’y aura rien et je ferai sans doute mon paquet avant
+        d’attendre ce moment-là.</p>
+      <p>Donnez-moi des nouvelles de mon <persName key="Chopin, Frédéric (1810-1849)"
+          >Chopin</persName>. Faites mille amitiés à <persName
+          key="Marliani, Charlotte Folleville, épouse (1790-1850)">Mme Marliani</persName> et
+        dites-lui mon inconvénient.</p>
+      <closer>
+        <salute>Je <persName key="Sand, George (1804-1876)">vous</persName> embrasse bien sincèrement.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+        <dateline>Ce <date when="1842-04-10">10 avril</date></dateline>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

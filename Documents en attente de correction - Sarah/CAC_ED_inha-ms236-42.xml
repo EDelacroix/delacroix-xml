@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, [25] septembre 1845</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 42</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="4" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 15 septembre 1930, p. 750</bibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936,
+            II, p. 236-237</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it"/>, 2005, p. 153-154</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1845-09-25"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000095.tif/full/full/0/default.jpg"/>
+      <opener>
+        <address>
+          <addrLine>Madame <persName key="Sand, George (1804-1876)">G. Sand</persName></addrLine>
+        </address>
+      </opener>
+      <pb n="2"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000096.tif/full/full/0/default.jpg"/>
+      <p><persName key="Chopin, Frédéric (1810-1849)">Chopin</persName>, <persName
+          key="Sand, George (1804-1876)">chère amie</persName>, veut bien vous porter ce bout de
+          lettre<note place="bottom">L'allusion de la transmission de la lettre par Chopin et la
+          date de la réponse de George Sand le 28 septembre permet de situer cette lettre vers le 25
+          septembre 1845 (Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 258, n.
+            3, p. 153).</note>. Comment ne vous ai-je pas écrit des <placeName key="France, Pyrénées">Pyrénées</placeName><note place="bottom">
+          Delacroix avait fait un séjour aux Eaux-Bonnes (Pyrénées-Atlantiques) du 22 juillet à fin
+          août 1845 pour faire une cure thermale.</note>, où j’ai rongé mon frein pendant plus d’un
+        mois ? Vous croirez difficilement que l’ennui le plus extrême avait paralysé en moi jusqu’à
+        la faculté la plus élémentaire, que je n’écrivais et ne lisais pas, et que je n’étais occupé
+        qu’à m’ennuyer et dans un pays admirable, encore. Mais jugez : je m’attends à une solitude,
+        et au lieu de cela je me trouve dans un guêpier, au milieu d’une cohue de gens qui, pour
+        vous avoir vu passer une fois dans la rue, deviennent vos amis inséparables. Souvent, égaré
+        dans un sentier solitaire à deux mille pieds au-dessus du niveau de la mer, je me flattais
+        d’être à l’abri de compagnons indiscrets ; pas du tout, <pb n="3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000097.tif/full/full/0/default.jpg"
+        />celui ou ceux que je rencontrais se cramponnaient à moi et nul moyen de leur échapper à
+        moins d’avoir des ailes. Je n’ai jamais souhaité plus ardemment d’être un aigle, je vous
+        assure. Vous avez un regard et un maintien que vous savez rendre redoutables aux gens
+        ennuyeux, moi je suis sans arme contre cette espèce. Je ne suis pas passé devant <placeName key="France, Poitiers">Poitiers</placeName>
+        sans un crève-cœur, j’étais à trente lieues de vous<note place="bottom">Sand était alors à
+          Nohant. </note>, mais vous savez combien j’étais à la minute. Je n’ai donné à <persName
+          key="Delacroix, Charles Henry (1779-1845)">mon bon frère</persName> que sept ou huit
+          jours<note place="bottom"> Delacroix avait passé quelques jours chez son frère aîné à
+          Bordeaux en allant et en revenant des Eaux-Bonnes. Ce sera leur dernière rencontre,
+          Charles-Henry Delacroix mourut à la toute fin décembre 1845.</note><note place="bottom"
+          >Delacroix ne mentionne pas à George Sand ce double-séjour à Bordeaux, sans doute pour
+          s'éviter des reproches de l'écrivain, comme le pense Françoise Alexandre (<hi rend="it"
+            >Correspondance</hi>, 2005, p. 259, n. 7, p. 153).</note> et, faute de pouvoir me
+        permettre d’en prendre autant, je n’ai pas été voir les parties les plus belles des <placeName key="France, Pyrénées">Pyrénées</placeName>
+        auxquelles je touchais de la main.</p>
+      <p>Vous avez eu mauvais temps mais on l’a eu partout. Je suis favorisé depuis mon retour et le
+        soleil s’est un peu montré par ici. Je ne peux rien faire sans cela dans mes travaux.
+          <persName key="Chopin, Frédéric (1810-1849)">Chopin</persName>
+        <pb n="4"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000097.tif/full/full/0/default.jpg"
+        />me trouve encore prenant des tisanes. J’ai eu l’esprit depuis quelques jours de m’enrhumer
+        sottement et cela me retarde au moment le plus intéressant. Jouissez des derniers beaux
+        jours, l’automne sera peut-être beau, et revenez néanmoins le plus tôt possible. Écrivez-moi
+        un mot et embrassez pour moi tous les vôtres, <persName
+          key="Chatiron, Hippolyte (1799-1848)">Polyte</persName> compris. Je mène une vie de
+        sauvage et ne vois personne, il faut donc que vous ne vous fassiez pas trop attendre. À
+        propos de sauvages<note place="bottom"> Voir la <ref type="letter" target="">lettre du 20 mai 1845</ref> de George
+          Sand à Delacroix (Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 152)
+          et la <ref type="letter" target="">lettre du 30 août 1845</ref> de Delacroix à Louis de Planet dans lesquelles il est
+          également question des "sauvages", en relation  avec le spectale les <hi rend="it"
+            >Sauvages</hi> donné à la salle Valentino par des indiens Ioways (Alexandre, Françoise,
+            <hi rend="it">Correspondance</hi>, 2005, p. 258, n. 5, p. 152).</note>, vous avez manqué
+        les Odjberias qui valaient la peine d’être observés après nos autres amis les Peaux-Rouges.
+        Mais <persName key="Sand, Maurice (1823-1889)">Maurice</persName> vous en rendra compte.</p>
+
+      <closer>
+        <salute>Je vous embrasse encore, <persName key="Sand, George (1804-1876)">chère
+            amie</persName>, et vous désire plus que je ne puis vous dire, comme si j’étais encore
+          dans les <placeName key="France, Pyrénées">Pyrénées</placeName>. C’est vous dire aussi que je m’ennuierai tant que je ne vous verrai
+          pas. Adieu encore et mille adorations.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+
+
+
+    </body>
+  </text>
+</TEI>

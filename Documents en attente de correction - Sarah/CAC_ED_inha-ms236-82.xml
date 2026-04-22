@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 10 décembre 1859</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 82</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="4" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1938,
+            IV, p. 130-132</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 211-212</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1859-12-10"/>
+          <placeName key="France, Paris">Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000169.tif/full/full/0/default.jpg"/>
+      <opener>
+        <dateline>Ce <date when="1859-12-10">10 décembre 1859</date></dateline>
+        <salute>Chère <persName key="Sand, George (1804-1876)">amie</persName>,</salute>
+      </opener>
+
+      <p>En voyant l’écriture d’un ingrat qui vous aime de tout son cœur, vous allez vous figurer
+        que je viens vous parler de mon amitié pour vous, malgré mes longs silences<note
+          place="bottom">À ce jour, aucune lettre de Delacroix à Sand n'est référencée entre celle
+          du <ref type="letter" target="CAC_ED_inha-ms236-81.xml">27 janvier 1856</ref> et celle-ci.
+          Le peintre n'aurait-il pas écrit à la romancière durant cette période ? La mention en fin
+          de lettre de l'adresse à laquelle il s'était installé en 1858 pourrait le suggérer (Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, n. 1, p. 293).</note>
+        : point du tout, je veux vous entretenir d’affaires. Je vous dirai plus tard à quelle
+        occasion j’ai mis la main à la plume il y a quelques jours pour vous écrire, désir que je
+        réaliserai sans faute aujourd’hui, relativement au grand objet de ma lettre.</p>
+      <p>Mon ami <persName key="Bertin, François Édouard (1797-1871)">Édouard Bertin</persName>, qui
+        dirige les <hi rend="u">Débats</hi><note place="bottom"> En 1854, Édouard Bertin succède à
+          son frère Armand Bertin (1801-1854) à la direction du <hi rend="it">Journal des
+            débats</hi>. (Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, n. 2, p. 293)</note>, est venu me voir hier pour me demander si <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000170.tif/full/full/0/default.jpg"
+        />mes relations avec vous me permettaient de vous faire une demande de sa part. J’ai rougi
+        intérieurement tout en répondant bravement que j’étais toujours votre ami. Il désire savoir
+        s’il vous conviendrait de faire pour <hi rend="it">Le Journal des débats</hi>, où je crois
+        qu’il m’a dit que vous aviez eu autrefois quelque chose<note place="bottom"><hi rend="it"
+            >François le Champi</hi> avait été publié du 31 décembre 1847 au 14 mars 1848 dans <hi
+            rend="it">Le Journal des Débats</hi>.</note>, de lui faire, dis-je, une nouvelle dans le
+        genre de celles qui ont paru récemment et entre autres de <hi rend="it">Jean de la
+          Roche</hi><note place="bottom"><hi rend="it">Jean de la Roche</hi> de George Sand paraît
+          pour la première fois dans la <hi rend="it">Revue des Deux Mondes</hi> entre le 15 octobre
+          et le 1<hi rend="sup">er</hi> décembre 1859.</note>, qui a le plus grand succès et que mes
+        mauvais yeux ne m’ont pas encore permis de lire, pour vous en dire mon humble avis. Ce ne
+        serait donc pas un véritable roman comme ceux qu’on publiait autrefois dans les feuilletons
+        et qui tenaient un très grand nombre de numéros et dans <pb n="3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000170.tif/full/full/0/default.jpg"
+        />ce que j’ai pu voir par sa conversation, il serait dans un ordre de sentiments qui vont à
+        tous les hommes et à tous les partis possibles, c'est-à-dire ces histoires du cœur ou de la
+        passion où vous excellez. Voulez-vous, <persName key="Sand, George (1804-1876)">chère
+          amie</persName>, me dire votre intention à cet égard, que je lui transmettrai<note
+          place="bottom">Sand rejette alors la demande de Bertin (voir lettre du <ref type="letter"
+            target="CAC_ED_inha-ms236-83.xml">17 décembre 1859</ref>) mais publiera plus tard <hi
+            rend="it">La Famille de Germandre</hi> dans le périodique (du 7 au 29 août 1861).</note>
+        ? <persName key="Bertin, François Édouard (1797-1871)">Édouard</persName> est un homme que
+        j’aime beaucoup, vous aussi je vous assure, et beaucoup plus que lui encore. Je serais
+        heureux que vous soyez contents l’un de l’autre.</p>
+      <p>Voici le second point, par lequel je devais commencer il y a huit jours. <persName
+          key="Viardot, Pauline Garcia, épouse (1821-1910)">Mme Viardot</persName> vient de jouer
+          <hi rend="it">Orphée</hi><note place="bottom"> La révision par Hector Berlioz (1803-1869)
+          de l'<hi rend="it">Orphée</hi> de Christoph Willibald Gluck (1714-1787), représentée au
+          Théâtre Lyrique avec Pauline Viardot dans le rôle titre, connaît alors un très grand
+          succès. Il est à nouveau question de la venue de Sand au spectacle dans la lettre que lui
+          écrit Delacroix <ref type="letter" target="CAC_ED_inha-ms236-83.xml">le 17 décembre
+            1859</ref>. Dans son <hi rend="it">Journal</hi>, le peintre écrit à la date du 14 mars
+          1860: "M<hi rend="sup">me</hi> Sand [...] voulait m'entraîner ce soir à <hi rend="it"
+            >Orphée</hi>" (Hannoosh, Michèle, <hi rend="it">Journal</hi>, 2009, II, p. 1333).</note>
+        ; ce que vous avez de mieux à faire dans ce moment, c’est de prendre la diligence de
+          <placeName key="France, Châteauroux">Châteauroux</placeName> et de venir à <placeName
+          key="France, Paris">Paris</placeName> pour la voir dans ce chef-d’œuvre véritablement
+        ressuscité par elle. <hi rend="u">Rien</hi>
+        <pb n="4"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000171.tif/full/full/0/default.jpg"
+          /><hi rend="u">n’est plus beau que le vrai</hi> : jamais vous ne verriez plus clairement
+        ce que vous savez d’ailleurs si bien, comme tous les grands artistes. Vous seriez rassurée
+        aussi en voyant cette autre confirmation, que ce vrai et ce beau sont à l’abri du temps et
+        de la mode, et qu’ils trouveront toujours des cœurs et des esprits pour les comprendre.</p>
+
+      <closer>
+        <salute>Adieu, <persName key="Sand, George (1804-1876)">chère amie</persName> : voilà mes
+          deux missions accomplies. Dites-moi que vous m’embrassez tout de même et soyez heureuse
+          comme je le désire.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">E. Delacroix</persName></signed>
+        <address>
+          <addrLine><placeName key="France, Paris, rue de Furstenberg, 6"><hi rend="u">Rue de
+                Furstenberg 6</hi></placeName></addrLine>
+          <addrLine><placeName key="France, Paris, Faubourg Saint-Germain">Faubourg
+              Saint-Germain</placeName></addrLine>
+        </address>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

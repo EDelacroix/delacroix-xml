@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 19 juillet 18[55]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 69</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="4" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1937,
+            III, p. 278-279</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 200-201</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1855-07-19"/>
+          <placeName key="France, Champrosay">Champrosay</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000159.tif/full/full/0/default.jpg"/>
+      <opener>
+        <address>
+          <addrLine><placeName key="France, Champrosay">Champrosay</placeName></addrLine>
+        </address>
+        <dateline><date when="1855-07-19">19 juillet</date></dateline>
+        <salute>Chère <persName key="Sand, George (1804-1876)">amie</persName></salute>
+      </opener>
+
+      <p>ce n’est qu’à la <placeName key="France, Champrosay">campagne</placeName> et le jour même
+        de mon départ pour <placeName key="France, Paris">Paris</placeName> qu’on me fait lire dans
+          <hi rend="it">La Presse</hi> les passages que vous m’avez consacrés<note place="bottom">
+            L'<hi rend="it">Histoire de ma vie</hi> de George Sand, recueil autobiographique dans
+          lequel un chapitre est consacré à Delacroix, fut d'abord publié dans <hi rend="it">La
+            Presse</hi> en 1854-1855. (Alexandre, Françoise <hi rend="it">Correspondance</hi>, 2005, n. 5, p. 286-287)</note>. Je ne puis vous remercier dignement ni longuement ; je
+        ne puis vous dire comme je le sens combien il y a de tendresse et d’indulgente bonté dans ce
+        portrait, dans cette statue que vous avez taillée d’après un original qui ne se voit pas, à
+        beaucoup près, à cette hauteur. <persName key="Sand, George (1804-1876)">Chère
+          femme</persName>, qui me peint comme je voudrais être au moment où le succès passager de
+        mon exposition<note place="bottom">La rétrospective de l'œuvre de Delacroix, présentée dans
+          le cadre de l'Exposition universelle de 1855 à Paris, est alors un triomphe (Alexandre, Françoise <hi rend="it">Correspondance</hi>, 2005, n. 1, p. 287).</note>
+        réveille la colère de tous ceux dont je n’ai pu me faire pardon<pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000160.tif/full/full/0/default.jpg"
+        />ner ! Quel coup et de quelle main ! chère petite main si puissante et que je baise avec
+        bonheur. Comment n’ai-je pas été le faire tout de suite et pour tout de bon, au lieu de
+        prendre ici une plume et de chercher mes phrases pour vous exprimer ce que je sens ? Il n’y
+        a que vous qui sentiez et qui disiez comme vous voulez. Eh bien ! je l’avoue, je suis
+        enchanté de ce que vous dites parce que c’est vous qui le dites ; c’est à vous que je suis
+        heureux de devoir tant de reconnaissance, c’est mon âme qui vous remercie.</p>
+      <p><persName key="Sand, George (1804-1876)">Chère femme</persName>, voici pourquoi je n’ai pas
+        été vous embrasser à <placeName key="France, Nohant">Nohant</placeName> tout de suite et
+        sans savoir si vous y étiez. Après les fatigues que m’ont données mes tableaux à faire, <pb
+          n="3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000160.tif/full/full/0/default.jpg"
+        />à dévernir (je parle des anciens), à placer<note place="bottom">À l'Exposition universelle
+          de 1855.</note>, etc., fatigues véritables, je suis venu ici pour être tranquille et pour
+        faire deux ou trois petites choses très arriérées que je rapporte avec moi. Je devais être à
+          <placeName key="France, Paris">Paris</placeName> au commencement de la semaine dernière,
+        pour rendez-vous pris avec architectes, peintres, etc., dans un travail que je remets en
+        train à <placeName key="France, Paris, Saint-Sulpice">Saint-Sulpice</placeName> et qui
+        traîne depuis cinq ans<note place="bottom">Au printemps 1849, Delacroix s'était vu confier
+          la décoration de la chapelle des Saints-Anges dans l'église Saint-Sulpice à Paris. Elle ne
+          sera achevée qu'en 1861.</note> : je n’ai pu résister néanmoins à aller passer cinq ou six
+        jours chez un parent et ami<note place="bottom">Quelques jours auparavant, Delacroix rend
+          visite à son cousin Antoine-Pierre Berryer à Augerville (Alexandre, Françoise <hi rend="it">Correspondance</hi>, 2005, n. 3, p. 287).</note> qui demeure à dix lieues
+        d’ici et que j’aime beaucoup. J’ai dû contremander tous mes engagements. Maintenant il n’y a
+        plus à reculer et je suis la proie du devoir : mais vous voir, vous embrasser est chose <pb
+          n="4"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000161.tif/full/full/0/default.jpg"
+        />aussi indispensable. Dites-moi, <persName key="Sand, George (1804-1876)">chère
+          amie</persName>, quels seront vos projets pour l’automne, peut-être aurai-je quelques
+        jours de liberté auparavant.</p>
+      <closer>
+        <salute>Adieu encore, adieu, adieu, <persName key="Sand, George (1804-1876)">bonne
+            amie</persName>.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName></signed>
+      </closer>
+      <postscript>
+        <p>Je n’ai pu lire que très peu d’articles de vos mémoires, mais j’ai jugé comment vous avez
+          conçu votre monument, dont ces détails lus presque par hasard m’ont enchanté. C’est
+          vraiment un monument que vous laisserez et dont la forme, l’exécution, etc. ne peuvent se
+          comparer à rien dans ce genre. Que j’aurai du plaisir à en parler avec vous !</p>
+      </postscript>
+    </body>
+  </text>
+</TEI>

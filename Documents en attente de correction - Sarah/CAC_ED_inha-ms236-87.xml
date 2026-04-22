@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, [7 avril] 18[62]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 87</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="1" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1938,
+            IV, p. 260</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 218</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1862-04-07"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000181.tif/full/full/0/default.jpg"/>
+      <opener>
+        <dateline>Ce <date when="1862-04-07">lundi</date></dateline>
+        <dateline><add place="margin">[Août 1861]<note place="bottom"> Date inscrite au
+          crayon, d'une autre main, correspondant à celle proposée par Joubin (t. IV, p. 260). Elle
+          est cependant erronée. La date correcte, du 7 avril 1862, a été rétablie par Françoise
+          Alexandre, celle lettre répondant à celle que Sand adresse à Delacroix le vendredi 4 avril
+          1862 (Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 218 et p. 296-297).</note></add></dateline>
+      <salute>Je vous remercie mille fois, <persName key="Sand, George (1804-1876)">chère
+        amie</persName>,</salute>
+      </opener>
+      
+        <p>du bon mouvement qui vous a portée à me dire ce que vous pensez de cette
+        grosse besogne qui m’a tant occupé<note place="bottom"> Il est ici question du décor de la
+          chapelle des Saints-Anges dans l'église Saint-Sulpice à Paris, achevé par Delacroix en
+          1861. Le 4 avril 1862, George Sand écrit à Delacroix pour le féliciter de son ouvrage,
+          qu'elle vient de visiter, et lui adresse de même les éloges de Manceau (Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005,
+          p. 218). L'agenda de Sand indique en effet qu'elle s'était rendue à Saint-Sulpice le 26
+          mars, et qu'elle y retourne le 9 avril (Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 296).</note>. Il faut toujours
+        céder à ces bons mouvements-là, comme de dire aux malades qu’ils ont bonne mine. Les
+        critiques au contraire qui n’apprennent rien, qui ne changent rien, vous enterrent au moral
+        comme au physique.</p>
+      
+      <closer>
+      <salute>Avec ces remerciements de cœur que j’adresse aussi à <persName
+          key="Manceau, Alexandre Damien (1817-1865)">M. Manceau</persName> pour sa flatteuse
+        hyperbole, je vous écris pour vous dire que si <persName key="Sand, George (1804-1876)">vous</persName> êtes assez bonne pour revenir, ne venez
+        pas <hi rend="u">un samedi</hi> : tous les autres jours, je serai bien heureux de vous
+        embrasser ainsi que <persName key="Sand, Maurice (1823-1889)">Maurice</persName>.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

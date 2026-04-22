@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 8 septembre 18[43]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 36</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="3" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 1er septembre 1930, p. 706</bibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936,
+            II, p. 149-150</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 137-138</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1843-09-08"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000080.tif/full/full/0/default.jpg"/>
+      <opener>
+        <dateline><date when="1843-09-08">8 septembre</date></dateline>
+        <salute>Chère <persName key="Sand, George (1804-1876)">amie</persName></salute>
+      </opener>
+
+
+      <p>Votre <persName key="Potter, Louis de (1786-1859)
+        ">éditeur</persName><note place="bottom"> Selon Joubin , il s'agirait de [Félix] Bonnaire (Joubin,
+          André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936, II, p. 149,
+          n. 1). Mais il semble plutôt s'agir de Louis de Potter.</note> a eu la galanterie de m’envoyer les
+        deux derniers volumes de <hi rend="it">Consuelo</hi><note place="bottom">Parallèlement à
+          l'édition par livraisons dans <hi rend="it">La Revue indépendante</hi> (1842-1843), le
+          roman <hi rend="it">Consuelo</hi> est publié à Paris chez Louis de Potter en 8 volumes. On peut
+          donc attribuer cette lettre à l'année 1843.</note>
+        <hi rend="it"/>et je les ai lus tout de suite et avec le plus grand plaisir. Comme j’ai
+        beaucoup d’ennuis et beaucoup de solitude, je m’en suis emparé comme d’une nourriture
+        consolante et, de même que vous vous réfugiez des tristesses de la vie dans la composition
+        de figures idéales et selon votre cœur, de même je cherche les mêmes secours dans les fruits
+        de votre imagination. J’ai retrouvé avec beaucoup de plaisir ce passage dont vous m’aviez
+        parlé, où Consuelo se réfugie dans l’étable pour ne pas rester au milieu de l’autre étable
+        humaine où elle étouffe au <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000081.tif/full/full/0/default.jpg"
+        />milieu de la nuit ; le jardin du chanoine, mille passages où le sentiment <hi rend="u"
+          >artiste</hi> anime votre récit de beauté, précieuse surtout pour les artistes. La mort du
+        comte Albert<note place="bottom"> Personnage du roman <hi rend="it">Consuelo</hi>.</note>
+        m’a beaucoup frappé. J’y ai reconnu des impressions qui me sont particulières et que j’ai
+        éprouvées dans des circonstances analogues. J’attends donc <hi rend="it">La Comtesse de
+          Rudolstadt</hi><note place="bottom"><hi rend="it">La comtesse de Rudolstadt</hi>, roman de
+          George Sand, prenant la suite de <hi rend="it">Consuelo</hi>, paraît en 1844 à Paris, chez
+          Louis de Potter en 5 volumes.</note> et je la garderai aussi pour les moments de
+        tristesse, qui ne sont que trop fréquents, quoique la bonne <persName
+          key="Marliani, Charlotte Folleville, épouse (1790-1850)">Mme Marliani</persName> se plaise
+        souvent à s’écrier : « que ce Delacroix est heureux d’être gai ! ».</p>
+      <p>À propos d’elle, je ne sais si elle est encore en <placeName key="Angleterre">Angleterre</placeName>. J’y
+        suis passé il y a quelque temps et elle n’était pas encore de retour.
+          <placeName key="France, Paris">Paris</placeName> est un si drôle d’endroit que vous êtes sans doute plus au
+        courant que moi, qui vis à une demie lieue <pb n="3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000081.tif/full/full/0/default.jpg"
+        />de chez elle. J’ai été bien agréablement surpris de la venue de <persName
+          key="Chopin, Frédéric (1810-1849)">Chopin</persName>. J’espère que ce petit déplacement ne
+        lui aura pas été contraire. Puisse la campagne, l’air, la nature, les bœufs, tout ce qui
+        l’entoure, vous y compris <persName key="Sand, George (1804-1876)">chère amie</persName>,
+        agir sur lui comme cela fait sur moi. Je suis né pour l’air, la campagne, les bœufs,
+        j’allais dire pour vous ; mais ça ne serait que si vous vouliez bien le permettre.</p>
+
+      <closer>
+        <salute>Là-dessus, je vous embrasse aussi tendrement que vous me le permettrez aussi et vous
+          prie, <persName key="Sand, George (1804-1876)">chère amie</persName>, de me rappeler à
+          tout ce que vous aimez près de vous et que j’aime aussi. J’embrasse donc <persName
+            key="Chopin, Frédéric (1810-1849)">Chopin</persName>, <persName
+            key="Sand, Maurice (1823-1889)">Maurice</persName>, <persName
+            key="Sand, Solange (1828-1899)">Solange</persName>, <persName
+            key="Chatiron, Hippolyte (1799-1848)">Polite</persName> ; et mille souvenirs bien
+          reconnaissants des bons instants que j’ai passés près d’eux et de vous.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">E. Delacroix</persName></signed>
+
+      </closer>
+    </body>
+  </text>
+</TEI>

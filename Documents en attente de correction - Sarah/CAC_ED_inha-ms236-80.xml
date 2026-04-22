@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, [28 janvier] 18[56]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 80</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="1" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1937,
+            III, p. 314</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 208</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1856-01-28"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000167.tif/full/full/0/default.jpg"/>
+      <opener>
+        <dateline><add place="margin">[12 janvier 1856]</add><note place="bottom">Date inscrite au crayon, d'une autre
+          main, correspondant à celle indiquée par Joubin (t. III, p. 314). Comme l'a montré
+          Françoise Alexandre, cette datation est cependant erronée : Delacroix répond ici à la
+          lettre que Sand lui envoie la veille, le 27 janvier, pour lui demander de tenir parole et
+          de venir assister à la lecture de <hi rend="it">Comme il vous plaira</hi> chez Emile de
+          Girardin (Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 291).</note></dateline>
+        <dateline>Ce <date when="1856-01-28">lundi</date></dateline>
+      </opener>
+      
+      <p>Vous ne doutez pas, chère et bonne <persName key="Sand, George (1804-1876)"
+        >amie</persName>, que je ne sois disposé à marcher sur de plus grands obstacles que ceux qui
+        me retiennent<note place="bottom"> Comme il l'indique dans son <hi rend="it">Journal</hi>,
+          Delacroix est invité le même jour, le 30 janvier, au "Bal du préfet" (voir aussi lettre du
+            <ref type="letter" target="CAC_ED_inha-ms236-81.xml">27 janvier 1856</ref>). Finalement
+          présent à la lecture de <hi rend="it">Comme il vous plaira</hi> de Sand, il est difficile
+          de savoir s'il s'y est également rendu (Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, n.4, p. 291).</note> pour répondre à un appel comme le vôtre et
+        je volerai aux <placeName key="France, Paris, Champs-Élysées">Champs-Élysées</placeName>, à 8 heures n’est-ce pas ? Avez-vous eu la bonté de dire au
+        maître de la maison que j’étais au nombre des personnes que vous désiriez avoir près de vous
+        ? Cette petite formalité ne me semble pas inutile, ne l’ayant vu chez lui que très
+        rarement.</p>
+      
+      <closer>
+        <salute>Je <persName key="Sand, George (1804-1876)">vous</persName> embrasse en attendant le plaisir d’applaudir votre belle tentative.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">E. Delacroix</persName></signed>
+      </closer>
+      
+    </body>
+  </text>
+</TEI>

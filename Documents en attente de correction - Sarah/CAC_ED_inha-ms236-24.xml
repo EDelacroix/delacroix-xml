@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 11 septembre 1841</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 24</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="4" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 1er septembre 1930, p. 709</bibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936,
+            II, p. 84-86</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 115-116</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1841-09-11"/>
+          <placeName key="France, Trouville">Trouville</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000053.tif/full/full/0/default.jpg"/>
+      <opener>
+        <address>
+          <addrLine><placeName key="France, Trouville">Trouville</placeName></addrLine>
+        </address>
+        <dateline><date when="1841-09-11">11 septembre</date></dateline>
+      </opener>
+
+      <p>La date de cette lettre vous dira assez, <persName key="Sand, George (1804-1876)">chère
+          amie</persName>, tout mon chagrin de ne pouvoir vous voir comme je m’en étais flatté
+        jusqu’au dernier moment. Mais la médecine s’en est mêlée, m’a pris aux cheveux et emballé
+        pour ce pays-ci où je ne puis pas dire que je sèche, car j’y suis toujours dans l’eau, ce
+        que je redoutais beaucoup auparavant et qui m’amuse beaucoup à présent. Je ne vous en
+        regrette pas moins, tout ce que vous m’offriez d’aimable pour me tenter n’est rien en
+        comparaison du plaisir de vous voir, à toute heure pour ainsi dire, comme il en eût été si
+        j’avais été en <placeName key="France, province du Berry">
+          Berry</placeName>. Croyez, <persName key="Sand, George (1804-1876)">bonne
+        amie</persName>, que ce n’est pas une <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000054.tif/full/full/0/default.jpg"
+        />gasconnade qui m’a fait promettre d’aller vous voir. Malgré le séjour de <persName
+          key="Delacroix, Charles Henry (1779-1845)">mon frère</persName> à <placeName key="France, Paris">Paris</placeName><note
+          place="bottom"> Voir lettre du <ref type="letter" target="CAC_ED_inha-ms236-23.xml">6
+            juillet 1841</ref> à George Sand.</note>, j’avais trouvé le moyen d’arranger cela, mais
+        je dois dire qu’au moins je n’aurai pas été trompé dans les motifs qui m’ont amené ici. Je
+        ressens, particulièrement pour mes yeux, un bien notable des bains de mer. J’étais de plus
+        tombé dans ce que mon <hi rend="u">physician</hi> appelle <hi rend="u">atonie</hi>, ce qui
+        veut dire, vous le comprendrez sans peine, <hi rend="u">manque de ton</hi>, non pas de <hi
+          rend="u">bon ton</hi> s’il vous plaît ; un dandy de ma force en est toujours suffisamment
+        pourvu et c’est par là qu’<persName key="Hyppolite">Hyppolite</persName> est connu dans la <placeName key="Grèce">Grèce</placeName>. Encore si vous aviez été à peu
+        près sur mon chemin pour retourner : mais vous êtes exactement aux antipodes du lieu que
+        j’habite. Par-dessus le marché le gouvernement veut bien s’informer de mes progrès : il me
+        demande <pb n="3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000054.tif/full/full/0/default.jpg"
+        />par l’organe de son ministre de l’Intérieur quand je vais finir<note place="bottom"> Le plafond de la bibliothèque du Sénat, commande d'État.</note>. À cela je
+        n’ai pas répondu parce que je n’en sais pas plus que lui à cet égard. C’est le moyen de se
+        tirer d’affaire sans se compromettre. Voyez : j’avais remis de jour en jour à vous
+        répondre, tant je trouvais dur d’articuler mon propre chagrin et de me condamner moi-même.
+        J’avais apporté votre bonne <ref type="letter" target="">lettre</ref> ici pour vous répondre d’ici et rêver davantage à ce que
+        je vous dirais : cette lettre elle est là et je n’ose la relire. Je la relirai après avoir
+        écrit, quand ma lettre sera partie et que le mal sera irréparable. Comment, vous ne
+        reviendrez pas cet hiver ! <persName key="Sand, George (1804-1876)">Chère amie</persName>,
+        vous n’y pensez pas ! Vous ne le pouvez pas ! Vous ne le devez pas ! Si vous manquez
+        d’argent, j’en demanderai à mon gouvernement, je lui promettrai tout ce qu’il voudra et je
+        vous prêterai un million ou deux de roupies. Je ne vous parle pas de tout ce que vous m’avez
+        promis dans votre lettre que je trouverai à <placeName key="France, Nohant">Nohant</placeName> près de vous : je ne pense qu’à ce que je
+        perds en ne vous voyant pas ; mais ne me rendez pas encore plus triste en <pb n="4"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000055.tif/full/full/0/default.jpg"
+        />m’annonçant ce retirement sans fin : car en conscience, quand vous aurez passé l’hiver, ce
+        ne sera plus temps de revenir au printemps. Embrassez mon <persName
+          key="Chopin, Frédéric (1810-1849)">Chopin</persName> : entre nous, je le regrette aussi
+        mais ça s’arrête là. Tout le reste je le méprise, excepté toutefois <persName
+          key="Viardot, Pauline Garcia, épouse (1821-1910)">Pauline</persName> et <persName
+          key="Pouradier-Duteil, Sylvain Alexis (1796-1852)">Duteil</persName>. J’embrasse aussi
+          <persName key="Pouradier-Duteil, Sylvain Alexis (1796-1852)">Duteil</persName> et je vais
+        boire un verre de cidre à sa santé. Mais revenez, <persName key="Sand, George (1804-1876)"
+          >chère amie</persName>. Si vous me voyiez dans mon équipage de bain, ce serait trop drôle.
+        Mais je ne suis pas seul : il y a de petites femmes qui sont ma foi bien jolies à voir
+        sortir de la plaine liquide ; cela me rappelle quelquefois ma brillante jeunesse, qui
+        ressemble à une veilleuse qui tremblote aux premiers rayons du matin, mais je vous assure
+        que tous ces petits pieds nus et que tout ce que cela laisse deviner m’étonne encore de la
+        puissance que l’imagination peut laisser à notre triste machine.</p> 
+
+      <closer>
+        <salute>Ne m’en voulez pas d’être
+          malheureux, ma <persName key="Sand, George (1804-1876)">chère amie</persName> ; je voudrais
+          bien vous voir là au bain près de moi, quitte à vous paraître très laid, ce que je suis pour
+          la vie ainsi que votre bien dévoué ami.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+      
+    </body>
+  </text>
+</TEI>

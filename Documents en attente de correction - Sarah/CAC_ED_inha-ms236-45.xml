@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, [8 août 1846]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 45</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="4" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 15 septembre 1930, p. 754</bibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936,
+            II, p. 276-278</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 162-163</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1846-08-08"/>
+          <placeName key="France, Paris">Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000103.tif/full/full/0/default.jpg"/>
+      <opener>
+        <salute>Chère <persName key="Sand, George (1804-1876)">chère amie</persName></salute>
+      </opener>
+
+      <p>je n’ai pas voulu <persName key="Sand, George (1804-1876)">vous</persName> répondre<ref
+          type="letter" target=""/> avant de pouvoir vous annoncer quand je pourrais venir vous
+        embrasser et vous remercier de votre souvenir. On ne dirait pas à me voir que je suis si
+        lourd à remuer et rien n’est plus vrai. D’une part les ennuis et les entraves que j’ai,
+        d’une autre celles que je me fais, attendu ma facilité à me faire des montagnes de tout.
+        Enfin la montagne se remue et avant le <date when="1846-08-15">15</date> je reverrai <placeName key="France, Nohant">Nohant</placeName>, qui est
+        dans mon cœur et dans mes pensées comme un des rares endroits où tout me ravit, me calme et
+        me console. Heureux <placeName key="France, Nohant">Nohant</placeName>, qui vous possède la moitié de l’année !
+        Ce que je vous dis est bien vrai, <persName key="Sand, George (1804-1876)">chère
+          amie</persName>, et quoique je ne vous l’écrive pas toutes les semaines, je le pense
+        presque tous les <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000104.tif/full/full/0/default.jpg"
+        />jours. Que ne puis-je, quand j’aurai éprouvé les dernières trahisons de ma cruelle
+        maîtresse la peinture ces trahisons inévitables qui attendent les derniers jours d’un vieil
+        artiste et qui les empoisonnent s’il a la sottise d’attacher trop de prix à l’opinion de la
+        canaille humaine , que ne puis-je aller végéter doucement à côté de vos arbres, en attendant
+        qu’on m’enterre par là dans quelque coin ! Ne croyez pas, <persName
+          key="Sand, George (1804-1876)">chère amie</persName>, que je tourne au lugubre pour vous
+        parler de tout cet avenir, qui serait fort riant pour moi, je vous l’assure. Je vous verrai
+        avant le 15 : ainsi c’est brûlant, comme vous voyez. Je ne suis pas du tout fier [d’]être
+          officier<note place="bottom">Eugène Delacroix est nommé au grade d'officier de la Légion
+          d'honneur le 5 juillet 1846.</note>, honneur qui m’a surpris sans m’ébranler ; d’ailleurs
+        vous êtes et serez toujours mon commandant. De qui vous donnerai-je des nouvelles ? De
+        personne, car je ne vois <pb n="3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000104.tif/full/full/0/default.jpg"
+        />personne. On étouffe à <placeName key="France, Paris">Paris</placeName> : vous qui aimez la chaleur, vous avez
+        eu tort de le quitter dans un si beau moment. Voilà deux mois que nous ne respirons point et
+        les gens nerveux, dont je suis, souffrent beaucoup. J’ai tant à vous dire que je ne sais que
+        vous dire. Je crois que c’est l’émotion que je me promets du plaisir de passer quelques
+        moments près de vous qui me fait désirer de vous l’exprimer ; et voilà ce que je voulais
+        vous dire, et il y a longtemps que j’aurais dû le faire, c’est de vous accabler de mon
+        admiration pour Germain le fin laboureur et l’adorable Marie<note place="bottom">Personnages
+          du roman de George Sand, la <hi rend="it">Mare au Diable</hi> (1846).</note>. Voici un de
+        vos chefs-d’œuvre, <persName key="Sand, George (1804-1876)">chère amie</persName>, et des plus raffinés : beau et simple ! que c’est beau ! Je
+        serai intarissable là-dessus si je m’y mets une fois. Vous avez eu une bonne idée de le
+        dédier à <persName key="Chopin, Frédéric (1810-1849)">Chopin</persName>.</p>
+
+      <closer>
+        <salute>Je vous embrasse <persName key="Sand, George (1804-1876)">vous</persName>, <persName key="Chopin, Frédéric (1810-1849)">lui</persName> et tout ce qui vous entoure. Je vais faire mes courses,
+            <pb n="4"
+            facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000105.tif/full/full/0/default.jpg"
+          />mes paquets et partir. Avec quel plaisir je vais secouer la poussière, la boue, la sueur
+          de <placeName key="France, Paris">Paris</placeName> ! Je vous embrasse encore mille fois et désire bien que vous ayez à me revoir la
+          moitié de celui que je me promets. Adieu, <persName key="Sand, George (1804-1876)">bonne amie</persName>.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

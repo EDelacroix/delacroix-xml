@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 17 [décembre] 18[59]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 83</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="3" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1938,
+            IV, p. 138-139</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 213</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1859-12-17"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000172.tif/full/full/0/default.jpg"/>
+      <opener>
+        <dateline><add place="margin">[17 décembre 1859]</add></dateline>
+        <dateline>Ce <date when="1859-12-17">17</date></dateline>
+        <salute>Chère <persName key="Sand, George (1804-1876)">amie</persName>,</salute>
+      </opener>
+
+      <p>J’ai vu <persName key="Bertin, François Édouard (1797-1871)">Bertin</persName> : il est
+        assez penaud de votre objection<note place="bottom"> Par l'intermédiaire de Delacroix,
+          Bertin avait demandé à Sand d'écrire une nouvelle pour <hi rend="it">Le Journal des
+            débats</hi>: voir lettre du <ref type="letter" target="CAC_ED_inha-ms236-82.xml">10
+            décembre 1859</ref>. Elle décline cette proposition mais publiera plus tard <hi
+            rend="it">La Famille de Germandre</hi> dans le périodique (du 7 au 29 août 1861).</note>
+        ; il m’a chargé de vous exprimer combien il regrette ce qu’il ne peut malheureusement pas
+        effacer, mais il s’engage à l’avenir, et vous surtout travaillant au journal, à mettre un
+        terme à ces grossièretés insupportables<note place="bottom"><hi rend="it">Le Journal des
+            débats</hi> avait publié des articles de Jules Janin (1804-1874) plutôt sévères à
+          l'égard des pièces de George Sand. Cette dernière ne manque pas de le rappeler à Delacroix
+          dans la lettre qu'elle lui écrit le 12 décembre 1859, et à laquelle le peintre répond ici
+          (Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 212).</note>. Je ne
+        doute pas que, si vous eussiez été à <placeName key="France, Paris">Paris</placeName>, il
+        n’eût été vous exprimer lui-même tout ce que je vous dis là ; il me l’a même dit avec une
+        chaleur qui m’eût surpris, si je n’eusse entrevu qu’une démarche directe auprès de vous, et
+        par écrit surtout, lui était pénible. Croyez-vous que cette lettre soit absolument <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000173.tif/full/full/0/default.jpg"
+        />nécessaire pour votre amour-propre offensé et faut-il le presser à outrance à cet égard ?
+        Je vous en laisse décider tout en désirant que vous incliniez du côté de la modération.
+        Pauvre <persName key="Sand, George (1804-1876)">amie</persName>, il y aura toujours des
+        tyrans ; la tyrannie moderne n’est pas celle de ces pauvres dominateurs des peuples, sujets
+        de toutes les révolutions : les journalistes sont et seront de plus en plus nos maîtres ;
+        ils sont ceux de notre honneur et de notre caractère et ils ne parlent que de liberté et de
+        lumière, pendant qu’ils obscurcissent toute gloire : qui le sait plus que vous ?</p>
+      <p>Je suis enchanté de l’idée que vous viendrez voir <hi rend="it">Orphée</hi><note
+          place="bottom"> Dans sa lettre du <ref type="letter" target="CAC_ED_inha-ms236-82.xml">10
+            décembre 1859</ref>, Delacroix conseillait à Sand d'aller voir la révision par Hector
+          Berlioz (1803-1869) de l'<hi rend="it">Orphée</hi> de Christoph Willibald Gluck
+          (1714-1787), représentée au Théâtre Lyrique avec Pauline Viardot dans le rôle titre. Dans
+          son <hi rend="it">Journal</hi>, le peintre écrit à la date du 14 mars 1860: "Mme Sand
+          [...] voulait m'entraîner ce soir à <hi rend="it">Orphée</hi>" (Hannoosh, Michèle, <hi
+            rend="it">Journal</hi>, 2009, II , p. 1333).</note>. Je <pb n="3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000173.tif/full/full/0/default.jpg"
+        />m’en vais redoubler mes précautions contre l’abominable hiver, qui est mon ennemi comme
+        les journalistes sont les vôtres, afin de me tenir en santé le plus possible. Je voudrais
+        aller pleurer avec vous à ce chef- d’œuvre : oui, pleurer. J’y étais avec un vieil
+          avocat<note place="bottom"> Selon Joubin, il pourrait s'agit de Berryer (Joubin, André,
+            <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1938, IV , p.
+          139).</note> qui se fondait en eau à côté de moi.</p>
+
+      <closer>
+        <salute>Je vous embrasse ainsi que <persName key="Sand, Maurice (1823-1889)"
+            >Maurice</persName>. J’ai entendu parler de son ouvrage et de ses dessins<note
+            place="bottom"> L'ouvrage <hi rend="it">Masques et bouffons</hi>, écrit et illustré par
+            Maurice Sand, vient alors de paraître.</note>, qu’on m’a dit être très intéressants.
+          Adieux encore, <persName key="Sand, George (1804-1876)">chère amie</persName>, et à vous
+          de tout cœur.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">E. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

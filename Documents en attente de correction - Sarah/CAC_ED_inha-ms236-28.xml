@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 26 mai 1842</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 28</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="4" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 1er août 1930, p. 599</bibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936,
+            II, p. 103-104</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 123-124</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1842-05-26"/>
+          <placeName key="France, Paris">Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000062.tif/full/full/0/default.jpg"/>
+      <opener>
+        <address>
+          <addrLine>Madame <persName key="Sand, George (1804-1876)">G. Sand</persName></addrLine>
+          <addrLine>à <placeName key="France, Nohant"><hi rend="u">Nohant</hi></placeName></addrLine>
+          <addrLine><hi rend="u">près</hi> <placeName key="France, La Châtre">
+            <hi rend="u">La Châtre</hi></placeName></addrLine>
+          <addrLine><hi rend="u">Indre</hi></addrLine>
+        </address>
+        <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000063.tif/full/full/0/default.jpg"/>
+        <salute><persName key="Sand, George (1804-1876)">Chère amie</persName></salute>
+      </opener>
+
+
+      <p>vous n’avez pas d’idée de tous les riens qui me retiennent ici bien malgré moi, enfin
+        jusqu’à la circonstance la plus sotte. Comme je fais toujours, j’avais attendu au dernier
+        moment pour demander rendez-vous au fameux <persName key="Brewster, Christopher (1799-1870)"
+          >Brewster</persName><note place="bottom"> Christopher Starr Brewster (1799-1870), dentiste
+          américain, installé à Paris depuis 1833.</note>, le dentiste, pensant que du jour au
+        lendemain j’obtiendrais audience de cet astre ; voilà un paltoquet qui me donne rendez-vous
+        à dix ou douze jours de là, comme ne ferait sûrement pas le grand mogol. J’ai trouvé le
+        procédé dur à digérer, surtout dans la considération de la centaine de francs plus ou moins
+        qu’il m’en coûterait par-dessus le marché de mon attente vexante. Cependant je me <pb n="3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000064.tif/full/full/0/default.jpg"
+        />suis dit que j’avais plus à faire de son talent que sa politesse, et qu’après tout ma
+        mâchoire mérite assez de considération pour que je lui sacrifie mon amour-propre. Il résulte
+        de tout cela et de quelques autres ennuis encore que je ne partirai que vers mardi ou
+        mercredi et que je vous arriverai comme une bombe au dessert, ou au potage. Que vos lettres
+        sont bonnes et aimables, <persName key="Sand, George (1804-1876)">chère amie</persName>, et
+        qu’il me tarde de vous voir et de vous en remercier ; de vous remercier aussi de la visite
+        de ce bon <persName key="Papet, Gustave (1812-1892)">Papet</persName>, qui a eu l’extrême
+        obligeance de venir me dire mon fait. Il vous aura conté cela. Il me prescrit le repos et
+        c’est avec grand plaisir que je vais le prendre auprès de vous. Vive les vaches, <pb n="4"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000064.tif/full/full/0/default.jpg"
+        />les sabots ; à bas les tableaux et les pinceaux. Je quitte tout cela sans vouloir penser
+        une minute que j’y reviendrai.</p>
+      <p>Mille amitiés à <persName key="Chatiron, Hippolyte (1799-1848)">M. votre frère</persName>
+        en attendant que j’aie le plaisir de le voir. Vous lui aurez dit sans doute que je suis un
+        personnage quasi muet et que je ne pourrai en dire par conséquent autant que j’en penserai
+        sur les vaches, sur tout ce qui est digne d’admiration en <placeName key="France, province du Berry">
+          Berry</placeName>.</p>
+      
+      <closer>
+        <salute>Adieu, chère <persName key="Sand, George (1804-1876)">bonne amie</persName> ;
+          j’embrasse <persName key="Chopin, Frédéric (1810-1849)">Chopin</persName>, j’embrasse
+            <persName key="Sand, Solange (1828-1899)">Solange</persName>, j’embrasse <persName
+            key="Sand, Maurice (1823-1889)">Maurice</persName>, je <persName key="Sand, George (1804-1876)"></persName>vous embrasse aussi.
+          Embrassez-vous tous les uns les autres en vous disant que c’est moi qui vous
+          embrasse. À bientôt donc.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">E Delacroix</persName></signed>
+        <dateline><date when="1842-05-26">26 mai</date></dateline>
+      </closer>
+      
+    </body>
+  </text>
+</TEI>

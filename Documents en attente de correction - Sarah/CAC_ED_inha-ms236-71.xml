@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, [4 septembre] 18[55]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 71</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="2" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+            <accMat>La date du 5 septembre, écrite au crayon sur la lettre, est erronée. Celle du 4
+              septembre, déterminée par Joubin, correspond bien à un mardi.</accMat>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1937,
+            III, p. 287</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 205</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1855-09-04"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000165.tif/full/full/0/default.jpg"/>
+      <opener>
+        <dateline>Ce <date when="1855-09-04">mardi</date> matin</dateline>
+        <dateline><add place="margin">[5 septembre 1855]</add></dateline>
+        <salute>Chère <persName key="Sand, George (1804-1876)">amie</persName></salute>
+      </opener>
+
+      <p>j’ai reçu hier soir <ref type="letter" target="">votre lettre</ref> et je reçois ce matin
+        celle de <persName key="Vaëz, Gustave (1812-1862)">M. Vaëz</persName> : il me donne la
+        désespérante nouvelle qu’il vous mande à l’instant même, l’ouverture du <placeName key="France, Paris, Théâtre de l'Odéon">théâtre</placeName> étant
+          instante<note place="bottom"><hi rend="it">Maître Favilla</hi>, drame en trois actes de
+            George Sand, débute à l'Odéon le 15 septembre 1855 (Alexandre, Françoise <hi rend="it">Correspondance</hi>, 2005, n. 1, p. 289).</note>. Je ne vous parle pas du
+        chagrin que cela me fait<note place="bottom"> Dans sa lettre à Sand du <ref type="letter"
+            target="CAC_ED_inha-ms236-70.xml">30 août 1855</ref>, Delacroix avait émis le souhait de
+          venir à Nohant.</note>, mais comme il y a encore au moins la chance que je puisse vous
+        voir quelques instants à <placeName key="France, Paris">Paris</placeName>, si vous y êtes
+        avant <date when="1855-09-10">lundi prochain 10</date><note place="bottom"> Delacroix part
+          en effet pour Croze (Lot) le 10 septembre.</note>, je m’en vais retarder mon départ de
+        deux ou trois jours en conséquence : ce sera une douce mais bien petite compensation. Si
+        vous arrivez avant ce terme fatal que je ne puis dépasser, écrivez-moi aussitôt pour me dire
+        où vous demeurez et à quelle heure je puis vous trouver.</p>
+
+      <closer>
+        <salute>Je <persName key="Sand, George">vous</persName> embrasse mille fois en
+          attendant.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">E. Delacroix</persName></signed>
+      </closer>
+      <postscript>
+        <p>Dans le cas, qu’il faut prévoir, où vous seriez déjà partie quand cette lettre arrivera
+            <pb n="2"
+            facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000166.tif/full/full/0/default.jpg"
+            />chez vous, je passerai d’ici à deux jours à l’<placeName key="France, Paris, Théâtre de l'Odéon">Odéon</placeName> pour demander si vous êtes ici et
+          votre adresse.</p>
+      </postscript>
+
+    </body>
+  </text>
+</TEI>
