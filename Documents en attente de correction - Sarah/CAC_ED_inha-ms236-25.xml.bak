@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, septembre - octobre 1843</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 25</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="3" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+            <accMat>Copie autographe de Solange Sand ou d'Aurore Lauth-Sand</accMat>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 1er septembre 1930, p. 705</bibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936,
+            II, p. 126</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 140-141</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1843-..-.."/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000056.tif/full/full/0/default.jpg"/>
+      <opener>
+        <address>
+          <addrLine><persName key="Sand, George (1804-1876)">Mme Sand</persName></addrLine>
+          <addrLine>dans le monde</addrLine>
+          <addrLine>Univers<note place="bottom">L'adresse ("dans le Monde, Univers") laisse à penser qu'elle aurait été donnée en mains
+            propres à son destinataire. Cette lettre n'existe que sous forme de copie. Cette dernière
+            serait de la main de <persName key="Sand, Solange (1828-1899)">Solange Sand</persName>
+            selon Joubin (t. II, p. 126), de celle d'Aurore Lauth-Sand selon Françoise Alexandre (p.
+            250, n. 4 de la page 140), petite fille de <persName key="Sand, George (1804-1876)">George
+              Sand</persName>(1866-1961).</note></addrLine>
+        </address>
+        <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000057.tif/full/full/0/default.jpg"/>
+        <salute><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName> à
+            <persName key="Sand, George (1804-1876)">Mme Sand</persName><note place="bottom"> Si
+            André Joubin date cette lettre de l'automne 1842, Françoise Alexandre considère qu'elle
+            s'insère plus dans le contexte de l'été-automne 1843, la datant d'entre le 20 septembre
+            et le 28 octobre (voir Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p.
+            249-250, n. 4 de la page 140).</note></salute>
+      </opener>
+
+      <p>Vous êtes tous des amours, Jean<note place="bottom"> Domestique de Chopin</note> aussi,
+          Pistolet<note place="bottom"> Chien de George Sand</note> aussi. Je les embrasse tous, je
+        les porte tous dans mon cœur et aussi les autres. J’ai un rhume du diable, j’ai la tête à
+        l’envers ; j’ai entendu aujourd’hui le <hi rend="it">Stabat</hi> de <persName
+          key="Rossini, Gioacchino Antonio (1792-1868)">Rossini</persName><note place="bottom">Le
+            <hi rend="it">Stabat Mater</hi> de Rossini, joué pour la première fois dans les salons
+          de Herz le 31 octobre 1841 et chanté par Pauline Viardot et sa soeur Eugénie Garcia, a été
+          repris plusieurs fois (Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p.
+          250, n. 1 de la page 141).</note>. Ce n’est pas du Pistolet, ça, ni du Jean. Ce n’est pas
+        non plus du <persName key="Mozart, Wolfgang Amadeus (1756-1791)">Mozart</persName> ; mais
+        tel que ça est, cela est plus haut de quelques coudées qu’<persName
+          key="Halévy, Fromental (1799-1862)">Halévy</persName> mon ami.</p>
+
+      <closer>
+        <salute><persName key="Sand, George (1804-1876)">Recevez</persName> tous la bénédiction du plus <persName key="Delacroix, Eugène (1798-1863)">enrhumé des enthousiastes hommes</persName> et beaucoup de
+          tendresses, <pb n="3"
+            facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000058.tif/full/full/0/default.jpg"
+          />à petit <persName key="Chopin, Frédéric (1810-1849)">Chopin</persName> aussi.</salute>
+      </closer>
+
+      <postscript>
+        <p>Si la bonté de la pipe ressemble à sa longueur <note place="bottom">George Sand avait
+            offert à Delacroix un chibouk, pipe turque à long tuyau.</note>, elle sera le Phénix de
+          la Pipe. Je vais faire des études pour apprendre à la fumer.</p>
+      </postscript>
+
+      <postscript>
+        <p>[D'une autre main] L'original est dans les mains de <persName
+            key="Sand, Solange (1828-1899)">Madame Clésinger</persName></p>
+      </postscript>
+
+    </body>
+  </text>
+</TEI>

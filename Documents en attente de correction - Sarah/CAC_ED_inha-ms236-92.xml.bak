@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 18[45]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 92</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="1" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 223</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1845-..-.."/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000188.tif/full/full/0/default.jpg"/>
+      <opener>
+      <dateline><add place="margin">[vers 1845]<note place="bottom"> Date inscrite au crayon, d'une
+          autre main. Pour Françoise Alexandre, la lettre demeure difficile à dater mais elle pense
+          qu'elle pourrait avoir été écrite en 1860-1861: « l'allusion au critique d'art
+          Théophile Thoré-Burger [...] et aux "Rubens" permet de penser que Delacroix devait
+          accompagner George Sand chez Thoré-Bürger pour y voir les photographies réalisées par E.
+          Fierlants des Rubens du Musée d'Anvers. En 1861 Théophile Thoré publie [...] <hi rend="it">le
+            Musée d'Anvers, collection des 40 tableaux principaux, photographiés par E. Fierlants,
+            et accompagnés d'un texte descriptif par William Bürger</hi> (William Bürger est l'un des
+            pseudonymes de Théophile Thoré) » (Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 299).</note></add></dateline>
+      </opener>
+      <p>Je suis trop incertain de pouvoir aller chez <persName key="Thoré, Théophile (1807-1869)"
+          >Thoré</persName> demain, <persName key="Sand, George (1804-1876)">chère amie</persName>,
+        pour vous influencer en rien. Je suis entortillé de manière à ce qu’il soit très douteux que
+        je puisse me dégager. Je regretterai les <persName key="Rubens, Pierre Paul (1577-1640)"
+          >Rubens</persName> et vous encore davantage.</p>
+      
+      <closer>
+      <salute>Adieu, <persName key="Sand, George (1804-1876)">chère amie</persName>.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1876)">Eug. Delacroix</persName></signed>
+        <dateline>Ce <date when="1845-..-..">vendredi</date> soir.</dateline>
+      </closer>
+      
+    </body>
+  </text>
+</TEI>

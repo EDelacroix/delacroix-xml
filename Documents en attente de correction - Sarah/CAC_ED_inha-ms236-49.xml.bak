@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 20 novembre 18[47]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 49</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="4" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 15 septembre 1930, p. 753</bibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936,
+            II, p. 330-332</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1847-11-20"/>
+          <placeName key="France, Paris">Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000115.tif/full/full/0/default.jpg"/>
+      <opener>
+        <dateline><date when="1847-11-20">20 novembre</date></dateline>
+      </opener>
+
+      <p>C’est moi qui suis le coupable, <persName key="Sand, George (1804-1876)">bonne et chère
+        amie</persName>. Je l’avais reçue, cette bonne et grande <ref type="letter" target="">lettre</ref> toute pleine d’amitié et
+        de votre sainte indignation<note place="bottom"> En référence au procès intenté par la
+          Société des Gens de Lettres à George Sand à propos de l'édition de <hi rend="it">La Mare au diable</hi> (1846)<hi rend="it">.</hi></note>. Dans mon contentement
+        j’avais mis la main à la plume : c’est pour le coup que vous auriez eu de l’ontologie, de la
+        fricologie, de la crapaulogie, que sais-je ? Je bouillonnais d’impatience de faire chorus
+        avec vous contre vos confrères, confrères, bon Dieu ! Eh bien ! j’ai remis au lendemain à
+        cause de la plus bête interruption et me voilà prévenu par votre bonté. Faut-il vous dire
+        pour m’excuser que j’ai été accablé de travail ? Cela serait vrai, mais enfin je m’en veux
+        encore. J’ai éprouvé un grand chagrin. J’ai perdu ma <persName key="Riesener, Félicité (1786-1845)
+          ">bonne tante</persName><note place="bottom">
+          Félicité Riesener, née Longrois (1786-1845). Elle épouse en 1807 Henri-François Riesener.
+          De leur union naîtra Léon Riesener (1808-1878), cousin d'Eugène Delacroix.</note>, que
+        j’aimais comme une mère. C’était une femme d’un grand caractère et chez qui (chose rare) les
+        qualités de l’âme avaient le pas sur tout : il <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000116.tif/full/full/0/default.jpg"
+        />aurait fallu l’admirer quand on ne l’eût pas aimée ; vous jugez donc du vide que cela me
+        fera dans ma vie déjà bien seule. Vivez donc, <persName key="Sand, George (1804-1876)">chère
+          amie</persName>, soignez cette étincelle précieuse qui vous fait non seulement vivre, mais
+        aimer et être aimée. J’éprouve déjà bien qu’on vit véritablement dans les autres ; chacun
+        des êtres nécessaires à notre existence qui disparaît à son tour emporte avec lui un monde
+        de sentiments qui ne peuvent revivre avec aucun autre : qu’est-ce que c’est donc qu’un
+        vieillard et que regrettent-ils en quittant ce monde ?</p>
+      <p>Votre fureur contre les littérailleurs me paraît arriver au niveau de la mienne : c’est une
+        vile engeance. Il se disent les prêtres d’un temple dont ils ne sont pas dignes d’être les
+        portiers et, ne vous y trompez pas, tout dans ce siècle est à l’unisson : le boursouflé y
+        est partout le compagnon assidu du vide. J’ai vu hier l’opéra de ce fameux <persName
+          key="Verdi, Giuseppe (1813-1901)">Verdi</persName><note place="bottom"><hi rend="it"
+            >Jérusalem</hi>, opéra en quatre actes de Giuseppe Verdi, donné pour la première fois à
+          l'Opéra  le 20 novembre 1847.</note> qui excitait l’enthousiasme de ce jeune musicien
+        allemand que j’ai vu chez vous. <persName key="Verdi, Giuseppe (1813-1901)"
+        >Verdi</persName>, ou Merdi, fait fureur aujourd’hui : c’est le ressassement de toute la
+        défroque de <persName key="Rossini, Gioacchino Antonio (1792-1868)">Rossini</persName>,
+        moins les idées : rien, mais du bruit. On voudra en avoir votre avis, on le discutera devant
+        vous : il faudra y aller bon gré mal gré, <pb n="3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000116.tif/full/full/0/default.jpg"
+        />mais vous irez sans moi, je vous jure. Je pensais tout le temps à votre pauvre <persName
+          key="Viardot, Pauline Garcia, épouse (1821-1910)">Mme Viardot</persName>, dont la destinée
+        est inévitablement, si elle veut vivre, de chanter désormais à perpétuité la musique de ces
+        gredins-là. Où est <persName key="Chopin, Frédéric (1810-1849)">Chopin</persName>, où est
+          <persName key="Mozart, Wolfgang Amadeus (1756-1791)">Mozart</persName>, où sont les
+        prêtres du Dieu vivant, où êtes-vous ?</p>
+      <p>Vous avez vu, <persName key="Sand, George (1804-1876)">chère amie</persName>, le plus beau de ma peinture, j’entends quant à l’idée, dans
+        l’article en question, qui a pour moi le mérite d’avoir été fait par un <persName key="Ronchaud, Louis de (1816-1887)
+          ">homme</persName> que je ne
+        connais pas et que je ne savais pas au monde<note place="bottom"> Louis de Ronchaud, "La
+          peinture monumentale en France", <hi rend="it">Revue indépendante</hi>, 10-25 novembre
+          1847. L'article traitait notamment des décors conçus par Delacroix pour la Chambre des
+          Députés et pour le Sénat.</note>. Il s’est pris d’un beau feu pour mon mérite et un peu
+        pour ses propres idées, car je crois qu’il a plus regardé au-dedans de lui-même en écrivant
+        toutes ces belles choses, qu’il ne les a réellement vues dans ma peinture. Si ce n’était
+        même à propos de moi qu’il a écrit tout cela (excusez la modestie), je vous dirais que c’est
+        tant pis pour la peinture qui fait voir tant de choses. Ce qui fait le beau dans cette
+        industrie-là consiste surtout dans les choses que la parole n’est pas habile à exprimer.
+        Vous me comprenez du reste et une phrase de votre lettre dit assez combien vous sentez les
+        limites nécessaires à chacun des arts, limites que vos confrères portiers et savetiers
+        franchissent avec une aisance admirable. <persName key="Sand, George (1804-1876)">Chère
+          amie</persName>, revenez vite, ne vous enrhumez pas trop <pb n="4"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000117.tif/full/full/0/default.jpg"
+        />dans vos courses avant de venir. Si vous vous ennuyez encore ici, eh bien, nous nous
+        plaindrons ensemble ! J’allais vous dire une bêtise, une phrase d’Irlandais, à savoir qu’on
+        éprouve du plaisir à partager son ennui avec une personne amusante.</p>
+      
+        <closer>
+          <salute>Je vous embrasse mille fois, <persName key="Sand, George (1804-1876)">vous</persName> ne m’ennuyez jamais, je vous désire et vous attends. Embrassez tout ce qui vous
+        entoure. Préparez ce pauvre <persName key="Chopin, Frédéric (1810-1849)">Chopin</persName> à
+          la rude musique qu’il va trouver par ici, adieu, adieu.</salute>
+        </closer>
+      
+    </body>
+  </text>
+</TEI>

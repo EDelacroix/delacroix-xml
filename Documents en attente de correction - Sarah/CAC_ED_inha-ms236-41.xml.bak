@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, début mars 1845</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 41</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="2" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936,
+            II, p. 211-212</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it"/>, 2005, p. 150</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1845-03-.."/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000093.tif/full/full/0/default.jpg"/>
+      <p>Venir me voir, <persName key="Sand, George (1804-1876)">chère amie</persName>, et moi qui
+        suis forcé de passer à peu près tout mon après-midi dans le <placeName key="France, Paris, faubourg Saint-Germain">faubourg
+          Saint-Germain</placeName><note place="bottom"> Le faubourg Saint-Germain évoque ici, selon
+          Françoise Alexandre, le palais du Luxembourg ou la Chambre des députés (Palais Bourbon),
+          où Delacroix travaille à l'achèvement des bibliothèques (Alexandre, Françoise, <hi
+            rend="it">Correspondance</hi>, 2005, n. 6 de la page 150).</note> ! Mais que cela ne
+        vous décourage pas une autre fois, et dans tous les cas j’irai vous voir <hi rend="u">ce
+          soir</hi> en attendant. Vous savez que j’ai été encore confisqué par le mal de gorge. Je
+        commence à sortir et à respirer. Si vous avez à sortir par hasard ce soir, ne vous gênez
+        pas, <persName key="Sand, George (1804-1876)">chère amie</persName>. J’en serai quitte pour
+        passer. Je tiens dans ce moment votre article sur l’Académie<note place="bottom"> "Réception
+          de Sainte-Beuve à l'Académie française", article paru dans <hi rend="it">La Réforme</hi>
+          le 3 mars 1845. Charles-Augustin Sainte-Beuve (1804-1869) est élu à l'Académie le 14 mars
+          1844 et reçu le 27 février 1845 par Victor Hugo.</note> : personne n’avait pensé avant
+        vous à en dire les seules choses <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000094.tif/full/full/0/default.jpg"
+        />qu’on en puisse dire<note place="bottom">Cette allusion permet de dater la lettre à début mars 1845.</note>.</p>
+      
+      <closer>
+        <salute>À vous, <persName key="Sand, George (1804-1876)">chère amie</persName>.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. D.</persName></signed>
+      </closer>
+
+      
+    </body>
+  </text>
+</TEI>

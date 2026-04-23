@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 30 août 18[55]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 70</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="4" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1937,
+            III, p. 285-287</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 204</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1855-08-30"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000162.tif/full/full/0/default.jpg"/>
+      <opener>
+        <dateline><date when="1855-08-30">Jeudi 30 août</date></dateline>
+        <dateline><add place="margin">[1855]</add></dateline>
+        <salute>Chère <persName key="Sand, George (1804-1876)">amie</persName></salute>
+      </opener>
+
+      <p>si je n’ai pas répondu à <ref type="letter" target="">votre adorable lettre</ref>, c’est
+        que j’ai cru de jour en jour que je pourrais vous demander si je vous trouverais à
+          <placeName key="France, Nohant">Nohant</placeName> pour aller y passer quelques jours
+        auprès de vous. Je viens aujourd’hui vous demander si vous y serez vers le milieu de
+        septembre, et pour aller seulement vous embrasser, c’est le mot : j’ai été entortillé, j’ai
+        gaspillé mon temps de sorte que, ne pouvant partir même au commencement du mois, il faut que
+        j’aille au nord et au midi, chez des cousins, des cousines<note place="bottom"> Delacroix
+          sera, du 12 au 15 septembre, à Croze (Lot) chez les Verninac et, du 19 au 25 septembre, à
+          Strasbourg chez Alexandrine et Guillaume-Auguste Lamey. Il n'aura finalement pas pu venir
+          voir Sand à Nohant, la romancière se rendant au même moment à Paris pour la première de
+            <hi rend="it">Maître Favilla</hi> (voir lettre à Sand du <ref type="letter"
+              target="CAC_ED_inha-ms236-71.xml">4 septembre 1855</ref>) (Alexandre, Françoise <hi rend="it">Correspondance</hi>, 2005, n. 1, p. 289).</note> et je compte aussi,
+        chez la meilleure parente de <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000163.tif/full/full/0/default.jpg"
+        />mon cœur qui est vous, et tout cela dans l’espace de quinze jours. Il faut que je me
+        trouve à <placeName key="France, Paris">Paris</placeName> pour figurer comme juré à
+        l’exposition de tableaux où les peintres des quatre parties du monde sont représentés<note
+          place="bottom">Lors de l'Exposition universelle de 1855 à Paris, Delacroix est membre du
+          jury de la classe dévolue aux peintures, gravures et lithographies (XXVIII<hi rend="sup"
+            >e</hi> classe).</note>, et ce jugement commence le <date when="1855-10-01">1<hi rend="sup">er</hi> octobre</date> ; or il faut que je sois
+        revenu quelques jours avant pour mettre le nez dans tout cela et faire mon métier de juge en
+        conscience. Seriez-vous du 10 au 20 à <placeName key="France, Nohant">Nohant</placeName> ?
+        Je passerais comme la foudre, heureux de vous revoir, désolé de vous quitter, hélas ! comme
+        toujours et pour tout. Bonne <persName key="Sand, George (1804-1876)">chère amie</persName>,
+        je vous aime bien tendrement et ne puis assez vous dire combien je <pb n="3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000163.tif/full/full/0/default.jpg"
+        />suis reconnaissant de votre attachement. Est-il possible qu’on se rencontre si peu dans ce
+        monde, où on nous a fait encore la part si petite pour aimer et vivre dans la confiance
+        d’être aimé ? Je ne vous parle pas longuement du plaisir que m’a fait <ref type="letter"
+          target="">votre lettre</ref> et combien elle m’a intéressé, au point de vue de
+        l’indépendance et je crois aussi de la parfaite sûreté de vos jugements. Le monde vit dans
+        une prévention continuelle sur toute chose : on aime des opinions, mais loin d’aimer les
+        choses, on ne les connaît ni ne les voit : un beau jour on est tout surpris de ce qu’on a
+        adoré sur parole. Vous allez me récapituler tout cela pendant les <pb n="4"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000164.tif/full/full/0/default.jpg"
+        />trois jours de bonheur que je vais trouver près de vous, si la destinée ne vous entraîne
+        pas dans ce moment-là d’un autre côté.</p>
+      
+      <closer>
+        <salute>Adieu, <persName key="Sand, George (1804-1876)">chère amie</persName>, en attendant
+          le moment de vous voir.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">E. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

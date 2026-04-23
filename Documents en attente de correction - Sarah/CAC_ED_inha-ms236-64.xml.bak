@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 8 [septembre] 18[55]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 64</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="2" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 1er août 1930, p. 600</bibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1937,
+            III, p. 113</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 206</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1855-09-08"/>
+          <placeName key="France, Paris">Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000146.tif/full/full/0/default.jpg"/>
+
+      <opener>
+        <dateline>Ce <date when="1855-09-08">samedi 8</date><note place="bottom"> André Joubin date
+            la lettre de mai 1852. Il s'appuye sur la mention de la rue Racine où  George Sand
+            s'installe en janvier 1852, présente à Paris jusqu'au printemps pour obtenir la
+            libération de ses amis républicains incarcérés après le coup d'Etat de décembre 1851
+            (Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1937,
+            III, 1937, p. 113). Françoise Alexandre avance néanmoins qu'en mai 1852, Sand est à
+            Nohant et que compte tenu du calendrier de ses déplacements, la lettre ne peut dater que
+            du 8 septembre 1855. De plus, le 10 septembre, Delacroix part pour le château de Croze
+            (Lot) et compte faire étape à Nohant (cf. <hi rend="it">Journal</hi>, p. 535). En outre,
+            cette lettre serait la réponse d'un courrier du 6 septembre 1855 que George Sand envoie
+            du 3 rue Racine (Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p.
+            289-290).</note></dateline>
+
+        <salute><persName key="Sand, George (1804-1876)">Chère amie</persName></salute>
+      </opener>
+
+      <p>votre <ref type="letter" target=""/>lettre me perce le cœur puisque c’est précisément au
+        moment où vous arriverez que je partirai de mon côté. Vous me consolez un peu en me disant
+        que vous reviendrez dans peu de temps, mais ce n’est pas comme de passer quelques bons
+        moments sous les ombrages de <placeName key="France, Nohant">Nohant</placeName> et près de
+        vous. Enfin, ainsi soit-il puisque rien ne va droit en ce monde. Dépêchez-vous donc,
+          <persName key="Sand, George (1804-1876)">bonne et chère inspirée</persName>, de nous en
+        bâtir un autre avant que nous n’ayons plus ni dents, ni estomac, ni cœur, ni âme pour en
+        profiter et pour sentir.</p>
+      <p>Je vous écris ceci à la <placeName key="France, Paris, rue Racine">rue Racine</placeName>
+        pour que vous ne preniez <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000147.tif/full/full/0/default.jpg"
+        />pas la peine d’écrire ou de venir chez <persName key="Delacroix, Eugène (1798-1863)"/>moi,
+        où je ne serai plus.</p>
+
+      <closer>
+        <salute>À <persName key="Sand, George (1804-1876)">vous</persName> de cœur.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">E. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

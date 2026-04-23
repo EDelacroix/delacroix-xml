@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, [20 avril] 18[41]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 90</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="2" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 1er août 1930</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 108</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1841-04-20"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000185.tif/full/full/0/default.jpg"/>
+        <opener>
+      <salute>Madame G. <persName key="Sand, George (1804-1876)"><hi rend="u">Sand</hi></persName>.</salute>
+        <pb n="2" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000186.tif/full/full/0/default.jpg"/>
+      <dateline><add place="margin">[vers 1842]<note place="bottom"> Datation inscrite au crayon, d'une autre main,
+          correspondant à celle proposée dans <hi rend="it">L'Art vivant</hi>, 1er août 1930. Georges
+          Lubin a cependant daté plus précisément la lettre du 20 avril 1841, la considérant comme
+          une réponse à l'invitation de George Sand à assister à la répétition d'un concert que
+          Chopin doit donner le 26 avril (George Sand, édition Georges Lubin, <hi rend="it"
+            >Correspondance générale</hi>, Garnier, 1970-1991, V, p. 284, n. 3). Lee
+            Johnson et Françoise Alexandre souscrivent à cette date (Johnson, Lee, <hi rend="it">Further Correspondence 1817-1863</hi>, 1991, p. 101, n. 1 et
+            Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 235).</note></add></dateline>
+        </opener>
+      
+      <p>Oh, admirable bonheur ! Moi qui voulais aller ce soir vous voir, <persName
+          key="Sand, George (1804-1876)">chère amie</persName> ! Je serai doublement récompensé. Je
+        tâcherai d’aller dîner avec vous, mais en tout cas je serai de bonne heure.</p> 
+      
+      <closer>
+        <salute>Je <persName key="Sand, George (1804-1876)">vous</persName> remercie bien de cœur.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">E. D.</persName></signed>
+      </closer>
+      
+    </body>
+  </text>
+</TEI>

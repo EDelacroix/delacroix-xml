@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 28 [décembre] 18[51]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 51</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="3" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+            <accMat>mois et année déterminés par Joubin</accMat>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 15 septembre 1930, p. 755</bibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936,
+            II, p. 349-350</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 191</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1851-12-28"/>
+          <placeName key="France, Paris">Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000121.tif/full/full/0/default.jpg"/>
+      <opener>
+        <dateline>Ce <date when="1851-12-28">dimanche 28</date></dateline>
+        <salute><persName key="Sand, George (1804-1876)">Chère amie</persName></salute>
+      </opener>
+
+
+      <p>mille remerciements de cœur de votre bonne <ref type="letter" target="">lettre</ref> ; je commence par le commencement.
+        Aussitôt votre lettre reçue, j’ai examiné ce que je
+        pourrais vous envoyer et parmi des Turcs, chevaux, etc. ébauchés, j’ai trouvé une <rs type="work" key="Cléopâtre et le paysan (J292)
+          ">Cléopâtre
+          contemplant ce fameux ver du Nil</rs> que Shakespeare lui fait apporter par un paysan
+          goguenard<note place="bottom"><hi rend="it">Cléopâtre et le paysan</hi> (1838, huile sur
+          toile. Chapel Hill, Ackland Memorial Art Center). L'oeuvre est exposée au Salon de 1839.
+          Pour la première fois, Delacroix donne la source d'inspiration de son tableau, la tragédie
+          de William Shakespeare, <hi rend="it">Antoine et Cléopâtre</hi>. En 1848, le peintre donne
+          une seconde version à la composition radicalement différente dont il est question dans la
+          lettre. (Jobert, Barthélémy, <hi rend="it">Delacroix</hi>, 1997, p. 248, 295).</note>. Il y avait moins à faire à celui-ci qu’aux
+        autres, quoique je ne puisse vous dissimuler qu’il aurait eu besoin d’un peu plus de travail
+        pour me plaire ; mais cela eût été trop long et je calcule que, parti aujourd’hui (je vous
+        écris après la réception à la diligence), il est impossible que vous ne l’ayez pas au moins
+        pour le 31 si votre conducteur n’y met pas de retard. Je désire donc vivement que cette
+        mauvaise pochade ne vous déplaise <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000122.tif/full/full/0/default.jpg"
+        />pas trop et faites-lui grâce en faveur de l’inspiration qui est mon maître très
+        respecté.</p>
+      <p>Vous avez bien fait de partir : on vous aurait peut-être accusée d’avoir fait des
+          barricades<note place="bottom">George Sand est à Nohant depuis le 6 mars, loin des
+          troubles qui agitent encore Paris après la proclamation de la II<hi rend="sup">e</hi> République le
+          24 février 1848.</note>. Vous dites fort bien que, dans des temps comme ceux-ci, l’esprit
+        de parti ne raisonne pas et que les coups de fusil ou de baïonnette deviennent les seuls
+        arguments qui aient cours. J’espère au moins un peu de repos pendant quelque temps. Votre
+        ami <persName key="Rousseau, Jean-Jacques (1712-1778)">Rousseau</persName>, qui du reste n’avait jamais vu que le feu de la cuisine, exalte quelque part
+        dans un accès d’humeur belliqueuse le mot d’un <persName key="Leszczynski, Stanislas, roi de Pologne (1677-1766)">palatin polonais</persName> qui disait à propos de la
+        turbulente république : <hi rend="it">Malo periculosam libertatem quam quietum
+          servitium</hi> ; ce latin veut dire : « Je préfère une liberté mêlée de danger à une
+        servitude paisible »<note place="bottom"> Jean-Jacques Rousseau, <hi rend="it">Le Contrat
+            Social</hi>, 1762, III, chap. IV.</note>. <pb n="3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000122.tif/full/full/0/default.jpg"
+        />J’en suis venu, hélas, à l’opinion contraire, en considérant surtout que cette liberté
+        achetée à coups de batailles n’est vraiment pas de la liberté, laquelle consiste à aller et
+        venir en paix, à réfléchir, à dîner surtout à ses heures et beaucoup d’autres avantages que
+        les agitations politiques ne respectent pas. Pardonnez-moi mes réflexions rétrogrades,
+          <persName key="Sand, George (1804-1876)">chère amie</persName>, et aimez-moi malgré mon
+        incorrigibilité misanthropique. Laissez-moi, par exemple, vous remercier de l’envoi assidu
+        des livraisons de vos ouvrages, qui vont figurer au premier rang de ma petite bibliothèque
+        et qui seront des consolations de tous les moments, indépendamment du plaisir de penser que
+        tout cela est sorti de vous que j’aime et que j’aimerai toujours.</p>
+        
+      <closer><salute>J’embrasse donc <persName key="Sand, George (1804-1876)">vous</persName> et <persName key="Sand, Maurice (1823-1889)">Maurice</persName> et <persName
+          key="Sand, Solange (1828-1899)">Solange</persName> et envoie à tous vos amis mes dévouées
+        amitiés.</salute>
+          <signed><persName key="Dalcroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

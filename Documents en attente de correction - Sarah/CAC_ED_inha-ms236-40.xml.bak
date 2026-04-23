@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 21 novembre 18[44]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 40</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="4" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 15 septembre 1930, p. 750</bibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936,
+            II, p. 201-203</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 148-149</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1844-11-21"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000090.tif/full/full/0/default.jpg"/>
+      <opener>
+        <dateline><date when="1844-11-21">21 novembre</date></dateline>
+      </opener>
+
+
+      <p>Bonne, bonne, <persName key="Sand, George (1804-1876)">bonne amie</persName>, votre bonne
+        lettre me fait un plaisir extrême et l’espoir de vous embrasser bientôt me ravit. Quoi, vous
+        êtes dans la tristesse et vous avez été atteinte vous-même ! <persName
+          key="Sand, George (1804-1876)">Chère amie</persName>, soignez-vous après ce mal comme
+        quand vous l’aviez. La maladie que j’ai eue il y a deux ans a commencé par une espèce de
+        fièvre muqueuse qui a mené à cette irritation perpétuelle des bronches, dont je sens encore
+        à présent des atteintes. Je bénis donc d’avance <persName key="Papet, Gustave (1812-1892)"
+          >Papet</persName> pour le secours dont il doit vous être à tous<note place="bottom"> Voir
+            <ref type="letter" target="CAC_ED_inha-ms236-28.xml">lettre à George Sand du 26 mai
+            1842</ref>. </note>, comme je l’ai fait pour l’horoscope qu’il a tiré à mon sujet. Sauf
+        cette inflammation ou irritation ou bobo, qui revient quand je me livre à toute mon
+        éloquence, j’ai du reste une santé parfaite et je me porte mieux qu’à 25 ans, et je
+        travaille davantage. Il n’y a que l’indifférence, qu’il m’avait prédite avec le reste, qui
+        n’est pas encore venue. Hélas, cette santé de l’âme je ne la connais pas : je saigne <pb
+          n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000091.tif/full/full/0/default.jpg"
+        />toujours de mille piqûres qui feraient rire la plupart des hommes ; je jouis des plus
+        minces bagatelles et, à côté, j’ai des montagnes de soucis. Indifférent ! J’ai bien vu que
+        je ne puis l’être, quand j’ai vu votre chère écriture. C’était <persName key="Sand, George (1804-1876)">vous</persName> que j’embrassais et avec
+        la tendresse que ce qui est vous me fera toujours éprouver. On dit toujours la paisible
+        amitié : il n’y a pas plus de paisible amitié que de paisible amour ; elle est une passion
+        comme l’amour, elle est aussi fougueuse et souvent ne dure pas davantage. Vous savez que
+        nous n’avons pas tout à fait la même théorie à ce sujet-là. Les amitiés qui durent sont très
+        rares, <persName key="Sand, George (1804-1876)">chère amie</persName>, et je sens à la
+        pensée de celle que j’ai pour vous que j’ai trop souvent cru en ressentir pour d’autres et
+        que ce n’en était point. L’homme, voyez-vous, et j’y persiste, est une vilaine et affreuse
+        bête. L’affreux moi, c'est-à-dire l’amour-propre, l’intérêt, tous ces monstres qui nous
+        empêchent d’être bons, c’est-à-dire de nous aimer dans les autres, sont toujours là près de
+        nous : ils nous donnent le bras en même temps que notre ami ; un mot souvent trop franc est
+        un trait qui alarme ou <pb n="3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000091.tif/full/full/0/default.jpg"
+        />révolte cette vilaine portion de notre nature. Je vous assure, <persName
+          key="Sand, George (1804-1876)">chère amie</persName>, que j’ai fait de vilaines
+        expériences et j’ai du malheur, car personne plus que moi n’a besoin d’épanchement. Je suis
+        bien heureux à présent de la pensée que [je] vais être votre voisin<note place="bottom">
+          Depuis septembre 1842 George Sand était installée au 5 square d'Orléans ; Delacroix
+          installait son atelier-logement au 54 rue Notre-Dame-de-Lorette.</note>. Mais vous allez
+        voir combien j’ai eu d’ennuis à subir pour cela et que je ne suis pas au bout. Les travaux
+        qu’on avait à faire pour moi ont été commencés trop tard, de sorte qu’au moment du
+        déménagement rien n’était prêt, les plâtres humides et les ouvriers partout : j’ai été
+        obligé de louer un second appartement<note place="bottom">L'appartement se trouvait rue de
+          la Rochefoucauld, n° 29 (Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, n.
+          1, p. 149). Fin 1844, Delacroix semble loger définitivement rue Notre-Dame de
+          Lorette.</note> près du premier, de sorte que je ne suis nulle part : je vais dans mon
+        atelier qui n’est pas chez moi et je ne sais quand je pourrai m’établir définitivement<note
+          place="bottom"> À ce sujet, voir la lettre à Hippolyte Gaultron du 6 octobre 1844.</note>. Au moins,
+          <persName key="Sand, George (1804-1876)">chère amie</persName>, n’allez pas déménager
+        encore quand une fois je me serai casé. Le sort est assez malin pour me jouer encore ce
+        tour. Ce nouveau quartier<note place="bottom">Quartier des "Lorettes", "ces femmes qui ne
+          sont ni tout à fait célibataires, ni tout à fait mariées" selon Paul Gavarni, par
+          opposition aux "Grisettes", les ouvrières.</note> est fait pour étourdir un jeune homme
+        aussi ardent que moi. Le premier objet qui a frappé les yeux de ma vertu, en arrivant, ç’a
+        été une magnifique lorette de la grande espèce, toute vêtue de satin et de velours noir, qui
+        en descendant de cabriolet, et avec une insouciance de déesse, m’a <pb n="4"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000092.tif/full/full/0/default.jpg"
+        />laissé voir sa jambe jusqu’au nombril. Je passe sous silence les autres rencontres
+        auxquelles j’ai déjà été exposé et qui me feront peut-être chanceler dans le chemin de la
+        sagesse. Je n’ai vu personne depuis des siècles à qui j’ai pu demander de vos nouvelles. Je
+        viens de recevoir un mot de <persName
+          key="Marliani, Charlotte Folleville, épouse (1790-1850)">Mme Marliani</persName> qui
+        m’apprend son retour de <placeName key="France, Normandie">Normandie</placeName> et je n’ai pu encore aller la voir : je ne serai donc pas
+        encore exposé à parler de votre retour, sur lequel je compte bien, <persName
+          key="Sand, George (1804-1876)">chère amie</persName>, pour le moment où vous me le
+        promettez.</p>
+      <p>Je n’ai pas le courage de <persName key="Sand, George (1804-1876)">vous</persName> gronder
+        pour les excès de travail. J’éprouve bien comme vous que ce n’est qu’à cette condition qu’on
+        peut éviter l’ennui. Je me lance encore à l’heure qu’il est et je commence aujourd’hui même
+        une énorme besogne, qui va m’écraser jusqu’au Salon et pourtant me faire vivre<note
+          place="bottom">Delacroix préparait alors son envoi au Salon de 1845 : la <hi rend="it"
+            >Madeleine dans le désert</hi> (vers 1843-45, huile sur toile, 55,5x45 cm, Paris, Musée
+          national Eugène Delacroix), les <hi rend="it">Dernières paroles de
+            l'empereur Marc-Aurèle</hi> (1843-45, huile sur toile, 256x337,5 cm, Lyon, Musée des
+          Beaux-Arts), la <hi rend="it">Sibylle de Cumes</hi> (ou la <hi rend="it">Sibylle et le
+            rameau d'or</hi> ; 1838, huile sur toile, 130,5x98 cm, New York, Wildenstein et Co.),
+            <hi rend="it">Le Sultan du Maroc</hi> (ou <hi rend="it">Mulay Abd err-Rhahman, sultan du
+            Maroc, sortant de son palais de Méquinez, entouré de sa garde et de ses principaux
+            officiés</hi> ; 1845, huile sur toile, 384x343 cm, Toulouse, Musée des Augustins). À
+          propos de l'envoi de 1845, voir Jobert, Barthélémy, <hi rend="it">Delacroix</hi>, 1997, p.
+          255-257.</note>. Je suis tortue et ne suis jamais si à l’aise que quand je porte une
+        maison.</p>
+      
+      <closer>
+        <salute>Adieu, <persName key="Sand, George (1804-1876)">chère</persName>, je vous embrasse,
+          vous et tous ces enfants et amis que je vais revoir avec vous, et vous encore plus et la
+          dernière.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

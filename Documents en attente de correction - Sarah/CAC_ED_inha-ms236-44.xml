@@ -30,6 +30,7 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Correspondance d’Eugène Delacroix</title>
+        <title type="sub">Le monde littéraire</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -79,12 +80,13 @@
         facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000100.tif/full/full/0/default.jpg"/>
       <opener>
         <address>
-          <addrLine><placeName key="France, Bordeaux">Bordeaux</placeName>, <date when="1846-01-25">25 janvier</date></addrLine>
+          <addrLine><placeName key="France, Bordeaux">Bordeaux</placeName>, <date when="1846-01-25"
+              >25 janvier</date></addrLine>
         </address>
         <salute>Bonne, <persName key="Sand, George (1804-1876)">bonne amie</persName></salute>
       </opener>
 
-      <p>mon cœur se fond à lire votre lettre et <persName key="Sand, George (1804-1876)">vous</persName> me causez un grand plaisir après de bien
+      <p>mon cœur se fond à lire votre lettre et vous me causez un grand plaisir après de bien
         tristes moments. Quels remerciements je vous dois ! Voilà de quoi je me suis privé jusqu’ici
         en ne vous écrivant pas, mais, <persName key="Sand, George (1804-1876)">chère
           amie</persName>, il m’était presque impossible d’écrire, et plus j’aimais les gens, moins
@@ -95,9 +97,9 @@
         peines de la chair et de l’âme trouvent que le papier est un intermédiaire bien froid, et
         pour quoi dire ? Que j’avais du chagrin, vous le saviez bien, <persName
           key="Sand, George (1804-1876)">chère amie</persName>. Oui, je suis arrivé trop tard, j’ai
-        trouvé mon père [sic]<note place="bottom">Delacroix veut dire "mon frère"</note>, mon héros froid et insensible<note
-          place="bottom">Son frère est mort le 30 décembre 1845 à Bordeaux, quelques heures avant
-          l'arrivée de Delacroix à son chevet.</note>. Quand j’ai <pb n="2"
+        trouvé mon père [sic]<note place="bottom">Delacroix veut dire "mon frère"</note>, mon héros
+        froid et insensible<note place="bottom">Son frère est mort le 30 décembre 1845 à Bordeaux,
+          quelques heures avant l'arrivée de Delacroix à son chevet.</note>. Quand j’ai <pb n="2"
           facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000101.tif/full/full/0/default.jpg"
         />embrassé comme un fou ce reste vénérable, rien ne m’a répondu ! <persName
           key="Sand, George (1804-1876)">Pauvre amie</persName> ! Avez-vous joué votre rôle jamais
@@ -124,12 +126,13 @@
           frère</persName>. Que vous êtes bons, tous! Recevez mes remerciements.</p>
       <p>Je n’ai pas pensé quatre fois à la peinture ici, si ce n’est dans les églises où j’aime à
         entrer et où j’ai découvert quelques tableaux. Vous me parlez de gloire, <persName
-          key="Sand, George (1804-1876)">chère amie</persName>. Hélas ! je viens d’enterrer <persName key="Delacroix, Charles Henry (1779-1845)">un homme</persName>
-        que personne ne connaît et qui mérite cependant la plus pure. Tous ces jeunes militaires qui
-        l’entouraient, du reste avec respect, ne le connaissaient pas ; ils ne sont pas de son
-        temps. Il n’y avait pas là un seul de ses compagnons. Quand au bord de la fosse quelqu’un
-        s’est avisé de demander si personne ne faisait de discours, je leur ai dit : Messieurs, il
-        n’y a pas besoin de discours, voilà des coups de fusil qui sont le vrai <pb n="4"
+          key="Sand, George (1804-1876)">chère amie</persName>. Hélas ! je viens d’enterrer
+          <persName key="Delacroix, Charles Henry (1779-1845)">un homme</persName> que personne ne
+        connaît et qui mérite cependant la plus pure. Tous ces jeunes militaires qui l’entouraient,
+        du reste avec respect, ne le connaissaient pas ; ils ne sont pas de son temps. Il n’y avait
+        pas là un seul de ses compagnons. Quand au bord de la fosse quelqu’un s’est avisé de
+        demander si personne ne faisait de discours, je leur ai dit : Messieurs, il n’y a pas besoin
+        de discours, voilà des coups de fusil qui sont le vrai <pb n="4"
           facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000102.tif/full/full/0/default.jpg"
         />discours pour un homme tel que lui.</p>
       <p><persName key="Sand, George (1804-1876)">Chère amie</persName>, aimons-nous donc avec ou
@@ -143,8 +146,8 @@
       <closer>
         <salute>Embrassez vos bons enfants et mon bon <persName key="Chopin, Frédéric (1810-1849)"
             >Chopin</persName>. J’ai bien pensé à lui<note place="bottom">Chopin avait perdu son
-              père en mai 1844.</note> et lui serre bien la main et à <persName key="Sand, George (1804-1876)">vous</persName> mille et mille
-          fois.</salute>
+            père en mai 1844.</note> et lui serre bien la main et à <persName
+            key="Sand, George (1804-1876)">vous</persName> mille et mille fois.</salute>
         <signed><persName key="Delacroix, Eugène (1798-1863)">E.D</persName></signed>
       </closer>
 

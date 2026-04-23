@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 12 janvier 1861</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 86</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="4" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1938,
+            IV, p. 228-229</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 216-217</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1861-01-12"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000178.tif/full/full/0/default.jpg"/>
+      <opener>
+        <dateline>Ce <date when="1861-01-12">12 janvier 1861</date></dateline>
+        <salute>Chère <persName key="Sand, George (1804-1876)">amie</persName>,</salute>
+      </opener>
+
+      <p>J’ai appris, je ne sais plus par qui, que vous étiez tout à fait bien et que vous alliez
+        passer l’hiver je ne sais où pour vous remettre tout à fait<note place="bottom"> Après avoir
+          été gravement malade de la fièvre typhoïde, George Sand part en convalescence à Tamaris
+          (Var) de février à juin 1861. D'après les notes prises durant son séjour, elle écrit <hi
+            rend="it">Tamaris</hi>, publié en 1862, d'abord dans la <hi rend="it">Revue des Deux
+            Mondes</hi>, puis en volume.</note>. Tout ce que vous faites est bien, quoique je ne
+        sois pas édifié sur le séjour des auberges pour remettre la santé. Le bon lit auquel on est
+        habitué, dans le coin où le ciel nous a fait prendre racine, est comme le lait de la
+        nourrice qui vous a mis au monde. Grâce au ciel, ma santé est très bonne et jusqu’ici je me
+        vois dispensé, <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000179.tif/full/full/0/default.jpg"
+        />ainsi que je l’avais appréhendé après deux hivers passés au coin de mon feu, de courir les
+        hasards et d’aller m’exposer aux aventures, pour me préserver de la fièvre. Depuis quatre
+        mois je fais un métier qui m’a rendu cette santé que je croyais perdue. Je me lève le matin,
+        je cours au travail hors de chez moi, je rentre le plus tard que je peux et je recommence le
+        lendemain. Cette distraction continuelle et l’ardeur que je porte à une besogne de cheval de
+        carrosse me font croire que je suis revenu à cet âge charmant où l’on court toujours et
+        surtout chez les traî<pb n="3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000179.tif/full/full/0/default.jpg"
+        />tresses qui nous attirent et nous charment. Rien ne me charme plus que la peinture
+        et voilà que, par-dessus le marché, elle me donne une santé d’homme de trente ans. Elle est
+        mon unique pensée et je n’intrigue que pour être tout à elle, c’est-à-dire que je m’enfonce
+        dans mon travail comme <persName key="Newton, Isaac (1642-1727)">Newton</persName><note
+          place="bottom"> Isaac Newton (1643-1727). Philosophe, mathématicien, physicien,
+          alchimiste, astronome et théoricien anglais. Il est le père de la théorie de la
+          gravitation universelle à laquelle Delacroix fait référence.</note> (qui mourut vierge)
+        dans la fameuse recherche de la gravitation (je crois).</p>
+      <p>Mes pensées gravitent vers vous, <persName key="Sand, George (1804-1876)">chère et bonne et
+          fidèle amie</persName>. Je dis que je n’intrigue pas et cependant je ne vous eusse
+        peut-être pas écrit sans la rencontre que <pb n="4"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000180.tif/full/full/0/default.jpg"
+        />j’ai faite de <persName key="Bertin, François Édouard (1797-1871)">Bertin</persName>, qui
+        m’a conjuré de vous demander sur quoi il devait compter au sujet de la promesse que vous
+        avez bien voulu lui faire de lui envoyer un roman<note place="bottom"> À ce sujet, voir les
+          lettres des <ref type="letter" target="CAC_ED_inha-ms236-82.xml">10</ref> et <ref
+            type="letter" target="CAC_ED_inha-ms236-83.xml">17 décembre 1859</ref> et du <ref
+            type="letter" target="CAC_ED_inha-ms236-84.xml">9 février 1860</ref>. Après l'avoir
+          déclinée, George Sand finit par accepter la proposition de Édouard Bertin de publier à nouveau dans <hi
+            rend="it">Le Journal des débats</hi>. Son roman <hi rend="it">La Famille de
+            Germandre</hi> paraît dans le périodique du 7 au 29 août 1861.</note>. Il le désire
+        vivement et me prie de vous le dire. Je sais que je m’expose à toutes les fureurs de notre
+        ami <persName key="Buloz, François (1804-1877)">Buloz</persName>, s’il vient à découvrir ma
+          requête<note place="bottom"> Après avoir été brouillée avec François Buloz jusqu'en 1858,
+          Sand se remet à publier plusieurs œuvres dans la <hi rend="it">Revue des Deux Mondes</hi>.
+          Le directeur de la revue ne devait donc pas être enchanté par l'idée d'une collaboration
+          de la romancière avec un autre périodique.</note>. Il me fit une scène à cette occasion
+        cet été. Il me croit apparemment inféodé aux intérêts de la revue. Je le traitai comme je
+        devais et il se calma. Dites-moi donc, si vous voulez, à moi, quelles sont vos intentions
+        pour les <hi rend="it">Débats</hi> qui, je vous le répète, sont friands, je le crois sans
+        peine, de ces pages qui ont plus de succès que jamais.</p>
+
+      <closer>
+        <salute>Je n’ai plus de place que pour vous dire que je <persName
+            key="Sand, George (1804-1876)">vous</persName> aimerai toujours<note place="bottom">
+            Delacroix recopie l'intégralité de cette lettre dans son <hi rend="it">Journal</hi>, à
+            la même date du 12 janvier 1861.</note>.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, [22 avril] 18[43]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 33</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="2" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 1er août 1930, p. 600</bibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936,
+            II, p. 134-135</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 133</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1843-04-22"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000075.tif/full/full/0/default.jpg"/>
+      <opener>
+        <address>
+          <addrLine>Madame <persName key="Sand, George (1804-1876)">G. Sand</persName></addrLine>
+          <addrLine><placeName key="France, Paris, place d'Orléans, 5">Place d’Orléans, n° 5</placeName></addrLine>
+          <addrLine><placeName key="France, Paris, rue Saint-Lazare">Rue St Lazare</placeName></addrLine>
+        </address>
+        
+      <pb n="2" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000076.tif/full/full/0/default.jpg"/>
+      <salute><persName key="Sand, George (1804-1876)">Chère amie</persName>,</salute>
+      </opener>
+      
+        <p>excusez-moi. Je ne pourrai aller à <hi rend="it">Lucrèce</hi><note place="bottom"> Première tragédie en vers de
+          François Ponsard, publiée en 1843. Selon Joubin, il est question ici de la première
+          représentation de la pièce, au théâtre de l'Odéon, le 22 avril 1843 (Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936, II, p.
+          134, n. 3).</note><note place="bottom">Nous avons conservé la datation de Joubin, mais selon Françoise Alexandre, il n'est pas
+            sûr que cette invitation concerne la première de la pièce (p. 244, n. 3 de la page 133).</note>. Je me suis cru plus valide ce matin, mais depuis deux heures je me
+        prépare à être comme hier soir, c'est-à-dire une [sic] emplâtre. Je vous regrette plus que Lucrèce,
+        que je trouve trop vertueuse au demeurant.</p>
+     
+     <closer>
+      <salute>Adieu, <persName key="Sand, George (1804-1876)">chère amie</persName>. Que la vie est
+        triste et pour quoi faire !</salute>
+      
+       <signed><persName key="Delacroix, Eugène (1798-1863)">Eug Delacroix</persName></signed>
+     </closer>
+
+    </body>
+  </text>
+</TEI>

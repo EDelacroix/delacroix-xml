@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 3 janvier 1850</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 53</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="4" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi> 2005, p. 178</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1850-01-03"/>
+          <placeName key="France, Paris">Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000125.tif/full/full/0/default.jpg"/>
+      <opener>
+        <dateline>Ce <date when="1850-01-03">3 janvier 1850</date></dateline>
+        <salute><persName key="Sand, George (1804-1876)">Chère amie</persName></salute>
+      </opener>
+
+      <p>j’ai vu votre charmant <hi rend="it">Champi</hi><note place="bottom"><hi rend="it">François
+            le Champi</hi>, pièce de George Sand jouée au théâtre de l'Odéon depuis le 25 novembre
+          1849.</note> : cela m’a tout rafraîchi, non pas au physique, car la salle est toujours
+        tellement pleine que, malgré la protection de <persName
+          key="Bocage, Pierre Tousez, dit (1799-1862)">Bocage</persName>, j’ai eu de la peine à me
+        placer : si vous y venez à 8 heures, vous resterez à la porte ! Il serait bien doux pour un
+        auteur de gagner un rhume à attendre son tour de voir la pièce ! Cela tranche tellement avec
+        toutes les invitations à la mode que cela expliquerait la passion avec laquelle on y va,
+        quand ce ne serait pas un grand effort du talent ; car faire <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000126.tif/full/full/0/default.jpg"
+        /> parler pendant trois heures Berrichon sur les planches accoutumées aux pointes et aux
+        phrasés, et cela sans montrer l’affectation une minute, c’est un tour de force dont je ne
+        vous croyais pas vous-même capable. Votre Madeleine est adorable et Jean Bonin de même sauf
+        (voilà le sacré « mais »), sauf (toujours pour moi qui ne crois pas à la vertu), sauf que
+        je trouve qu’il tourne un peu brusquement à l’honnêteté, ce qui est en général peu paysan et
+        encore moins humain. Si j’osais, j’en dirais autant de la petite Mariette<note
+          place="bottom">Madeleine, Jean, Mariette : personnages de <hi rend="it">François le
+            Champi</hi>.</note> qui prend son parti un peu trop facilement. Vous <pb n="3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000126.tif/full/full/0/default.jpg"
+        />voulez bien que je vous donne mes impressions, lesquelles pourront vous paraître l’effet
+        de la misanthropie ; mais vous n’oublierez pas, <persName key="Sand, George (1804-1876)"
+          >chère amie</persName>, que nos âmes, qui ont tant de points de contact que je bénis, sont
+        tout à fait séparées au sujet du péché originel, auquel je crois sans la moindre
+        plaisanterie : je ne vois que ce moyen d’expliquer la nature humaine ; c’est cette
+        distinction entre nos jugements divers qui me sépare encore plus de votre <persName
+          key="Rousseau, Jean-Jacques (1712-1778)">Rousseau</persName>, qui dit que l’homme est né
+        bon. Lui, je ne l’aime pas et vous, je vous aime. Je vous ai revue avec un vif plaisir de
+          <pb n="4"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000127.tif/full/full/0/default.jpg"
+        />cœur, que je suis sûr que je ressentirai toutes les fois que nous nous reverrons.</p>
+      <p>Vous m’avez demandé de vous dire le résultat de ma candidature, j’ai eu 7 voix sur 37<note
+          place="bottom">Delacroix avait candidaté à l'entrée à l'Institut à la fin de l'année 1849.
+          Il n'y entrera qu'en 1857, après sept tentatives infructueuses.</note>. Ne riez pas : la
+        campagne a été excellente, cela promet merveilles pour l’avenir, à ce que disent mes amis,
+        car j’en ai là quelques-uns : il paraît que c’était le plus difficile à gagner.</p>
+
+      <closer>
+        <salute>Adieux <persName key="Sand, George (1804-1876)">chère</persName> : je n’ai pas
+          encore essayé de votre régime : le jour de l’an, mes fatigues m’ont empêché de mener une
+          vie chrétienne. Suivez-le donc quant à vous, puisqu’il vous conserve, et recevez mille
+          adieux et mille tendresses de cœur.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1876)"></persName>Eug. Delacroix</signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

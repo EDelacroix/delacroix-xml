@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 10 mai 1851</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 54</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="1" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+            <accMat>Datation établie par André Joubin</accMat>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1937, III, p. 69-70</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 179-180</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1851-05-10"/>
+          <placeName key="France, Paris">Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000128.tif/full/full/0/default.jpg"/>
+      
+      <opener>
+        <dateline>Ce <date when="1851-05-10">samedi</date><note place="bottom">André Joubin date la lettre du 7 juin 1851 mais Françoise
+          Alexandre la situe le 10 juin, jour de la première de <hi rend="it">Molière</hi>, drame de
+          George Sand joué au théâtre de la Gaité auquel il est fait référence dans la lettre
+          (Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 276).</note></dateline>
+        <salute><persName key="Sand, George (1804-1876)">Chère amie</persName>,</salute>
+      </opener>
+      
+      <p>Des amis que j’ai ont loué une bonne loge pour voir votre pièce ce soir et me donnent une
+          place ; je regrette bien de n’avoir pas été plus tôt informé ;
+        toutefois je vous renvoie la stalle que vous aviez eu la bonté de m’envoyer. Peut-être
+        serez-vous à temps de faire un autre heureux.</p>
+      <p>J’ai dîné hier chez <persName key="Bixio, Jacques Alexandre (1808-1865)">Bixio</persName>
+        où je me faisais une fête de vous retrouver, pour vous demander pardon après si longtemps de
+        mes longs oublis. J’espère bien que votre indisposition n’aura pas de suite et que le succès
+        vous remettra tout à fait.</p>
+        
+      <closer>
+        <salute>Je <persName key="Sand, George (1804-1876)">vous</persName> embrasse bien en attendant que je puisse vous voir.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName></signed>
+      </closer>
+    </body>
+  </text>
+</TEI>

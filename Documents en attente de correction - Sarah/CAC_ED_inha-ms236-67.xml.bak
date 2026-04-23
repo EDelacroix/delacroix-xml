@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 20 [décembre] 18[52]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 67</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="2" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 15 septembre 1930, p. 754</bibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1937,
+            III, p. 132</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 197</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1852-12-20"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000155.tif/full/full/0/default.jpg"/>
+      <opener>
+        <dateline>Ce <date when="1852-12-20">lundi 20</date></dateline>
+        <dateline><add place="margin">[Décembre 1852]</add></dateline>
+        <salute>Chère <persName key="Sand, George (1804-1876)">amie</persName></salute>
+      </opener>
+
+      <p>vous seriez bien bonne de m’écrire, aussitôt la présente reçue, par <hi rend="u">quelle
+          diligence ou chemin de fer</hi> je dois vous adresser mon envoi<note place="bottom"> Il
+          s'agit de l'envoi de <hi rend="it">Lélia dans la caverne</hi> évoqué dans la lettre à Sand
+          du <ref type="letter" target="CAC_ED_inha-ms236-66.xml">7 décembre 1852.</ref></note> et
+          <hi rend="u">à quelle destination</hi>. Donnez-moi tout de suite ces renseignements-là,
+        pour que vous l’ayez à temps. Recevez mille vœux, puisque l’usage veut qu’on ne soit supposé
+        en faire ou les exprimer que dans ce moment-ci. Je vous souhaite surtout de travailler
+        longtemps, et pour vous et pour nous. Tant que les yeux peuvent voir et la main tenir une
+        plume ou un pinceau, les grands ennemis, l’ennui <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000156.tif/full/full/0/default.jpg"
+        />et la tristesse, sont tenus en échec. Il faut avec cela un peu d’argent et de santé et
+        peut-être pas trop de l’un et de l’autre, parce qu’alors la bête prend le dessus sur la
+        partie raisonnable. Ma bête est bien tranquille à présent parce que mon peu de raison et
+        d’esprit est satisfait.</p>
+      
+      <closer>
+        <salute>Adieu encore, <persName key="Sand, George (1804-1876)">chère</persName>, je vous
+          embrasse tendrement ainsi que <persName key="Sand, Maurice (1823-1889)"
+            >Maurice.</persName></salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+      
+    </body>
+  </text>
+</TEI>

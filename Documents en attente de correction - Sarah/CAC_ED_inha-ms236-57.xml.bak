@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 9 septembre 18[51]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 57</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="3" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1937, III, p.
+            82-83</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 185-186</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1851-09-09"/>
+          <placeName key="France, Dieppe">Dieppe</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000134.tif/full/full/0/default.jpg"/>
+      <opener>
+        <address>
+          <addrLine><placeName key="France, Dieppe">Dieppe</placeName></addrLine>
+        </address>
+        <dateline>ce <date when="1851-09-09">9 septembre</date></dateline>
+      </opener>
+
+      <p>Je ne veux pas tarder, <persName key="Sand, George (1804-1876)">chère amie</persName>, à
+        répondre à votre réponse qui me comble de joie par sa bénignité. Je ne serai pas longtemps
+        ici et je reviendrai ayant obtenu un peu du bien que j’espérais : car pour ce qui est de la
+        fatigue et de mon dérangement à la suite de mon travail, l’air de <placeName
+          key="France, Nohant">Nohant</placeName> y eût été probablement tout aussi bon, sans
+        compter <persName key="Sand, George (1804-1876)">votre présence</persName> ; mais la vraie
+        indisposition, qui est un relâchement de certains ligaments, augmenté par mes stations
+        prolongées sur mon échelle et toujours debout, avait besoin de cet astringent, quitte à
+        recommencer plus tard<note place="bottom"> Fatigué physiquement par ses travaux à la galerie
+          d’Apollon du Louvre, Delacroix prend du repos à Dieppe durant les deux premières semaines
+          de septembre 1851 (Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 279).
+          La vogue des bains de mer, arrivée d’Angleterre dans les années 1820, est à l’origine du
+          développement de l’activité balnéaire de Dieppe et de Boulogne-sur-Mer. Appartenant en
+          majorité à la haute société parisienne, les baigneurs viennent chercher les bienfaits
+          revigorants de l’eau froide et mouvante de la mer du Nord.</note>. Il nous faut assister
+        ainsi à de petites démolitions partielles <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000135.tif/full/full/0/default.jpg"/>
+        de notre frêle machine. À la vérité on en prend plus facilement son parti à mesure qu’on
+        se détache de plus de choses ; tant que j’aimerai à travailler, je ne regretterai pas
+        beaucoup le reste. Je ne sais au juste le temps que me prendra ma retouche sur place, après
+        que <rs type="work" key="Apollon vainqueur du serpent Python (J578)
+          ">la toile</rs> aura été appliquée. Ce temps-là, et quelques jours pour qu’il soit vu par les
+        Pythons de tous les étages, me mènera justement jusqu’au milieu d’<date when="1851-10">octobre</date> et j’arrangerai
+        tout pour m’indemniser de ma privation d’à présent<note place="bottom"> Commandée à
+          Delacroix le 8 mars 1850, la composition centrale de la voûte de la galerie d’Apollon
+          représentant <hi rend="it">Apollon vainqueur du serpent Python</hi>. La toile, peinte en
+          atelier, sera mise en place en septembre et Delacroix y apportera encore quelques
+          retouches avant sa présentation officielle les 16 et 17 octobre 1851 (Alexandre,
+          Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 279).</note>. Il fait un temps
+        superbe ici en <date when="1851-09">septembre</date>, je serais bien malheureux si, dans votre pays plus favorisé du
+        ciel, je ne retrouvais encore quelques beaux jours en <date when="1851-10">octobre</date>.</p>
+
+
+      <closer>
+        <salute>Adieux, <persName key="Sand, George (1804-1876)">chère amie</persName> : j’ai bien
+          pensé à vous hier : j’ai été voir les ruines du <placeName
+            key="France, Arques, château d'arques">château d’Arques</placeName><note place="bottom">
+            Dressé au XII<hi rend="sup">e</hi> siècle sur un éperon rocheux dominant le court de l'Arques, le
+            château d'Arques-la-Bataille (Seine-Maritime) a été démantelé à la fin du
+              XVII<hi rend="sup">e</hi> siècle pour être livré aux carriers. Déjà partiellement ruinée au
+            moment de sa vente comme bien national en 1792, la forteresse fait l'objet d'une
+            campagne de protection emmenée à partir de 1836 par le directeur du musée des Antiquités
+            de Rouen, Achille Deville (1789-1875). Sujet d'une monographie publiée en 1839 par
+            Deville, étudié et restitué par Eugène Viollet-le-Duc dans son tome III du <hi rend="it"
+              >Dictionnaire raisonné de l'architecture française</hi> (1856), le château situé à 7
+            kilomètres de Dieppe est alors l'objet de la promenade des curieux de belles ruines
+            romantiques.</note>, on ne peut guère voir rien de plus grandiose. À propos, il faut que
+          vous lisiez ce que les chroniques disent du fameux <persName key="Ango, Jehan (1480-1551)">Ango</persName><note place="bottom"> Armateur,
+            banquier et entrepreneur dieppois, Jehan Ango (1480-1551) participe activement à
+            l'affirmation de la puissance maritime de Dieppe en finançant les expéditions des terres
+            australes et du Nouveau Monde conduites au nom de François I<hi rend="sup">er</hi> telles
+            l'exploration du fleuve Hudson (1524) et la découverte de l'archipel des Moluques
+            (1530). Anobli et nommé gouverneur de Dieppe (1535) par le roi de France, sa fortune est
+            investie dans la construction du Manoir Ango à Varengeville-sur-Mer entre 1530 et 1544.
+            Décorée par des artistes italiens, la demeure est célébrée comme un chef-d'oeuvre de la
+            Renaissance par Honoré de Balzac dans son roman historique <hi rend="it">Sur Catherine
+              de Médicis</hi>, paru en plusieurs fois de 1830 à 1842.</note>, armateur du seizième
+          siècle qui a reçu ici <persName key="François Ier (1494-1547)">François I<hi rend="sup">er</hi></persName> en roi et qui a fait avec ses vaisseaux la
+          guerre au <persName key="Jean III, roi du Portugal (1502-1557)">roi du Portugal</persName>. De sa vie vous seriez peut-être tentée de faire quelques
+          tableaux comme vous les faites. <persName key="Ango, Jehan (1480-1551)">Il</persName> est mort triste et pauvre : cela complète son histoire
+          pour le roman. Je n’en avais jamais entendu parler.</salute>
+
+        <salute>Je <persName key="Sand, George (1804-1876)">vous</persName> embrasse sur ce, avec l’espoir de vous voir bientôt et bien
+          enchanté.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+    </body>
+  </text>
+</TEI>

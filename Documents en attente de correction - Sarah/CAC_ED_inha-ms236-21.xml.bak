@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, [début juin] 1841</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 21</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="3" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L’Art vivant</hi>, 1er août 1930, p. 598</bibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936, II, p. 74-75.</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 110</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1841-06-.."/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000045.tif/full/full/0/default.jpg"/>
+      <opener>
+        <address>
+          <addrLine><persName key="Sand, George (1804-1876)">Madame G. Sand</persName></addrLine>
+          <addrLine><placeName key="France, Paris, rue Pigale, 16">rue Pigale n° 16</placeName></addrLine>
+        </address>
+        
+        <pb n="2" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000046.tif/full/full/0/default.jpg"/>
+        <salute><persName key="Sand, George (1804-1876)">Chère amie</persName>,</salute>
+      </opener>
+      
+      <p>ma céphalgie m’a repris hier soir et m’a rendu par trop paresseux de sortir. Faites un acte
+        de bonté en <hi rend="u">m’envoyant de suite l’adresse du marchand de gants.</hi></p>
+      <p>On vous rapportera un de ces matins <hi rend="it">Le Compagnon</hi><note place="bottom">Sand, George, <hi rend="it">Compagnon du
+            tour de France</hi>, Paris, Perrotin, 1840, 2 vol. Roman marqué par l’idéologie
+          socialiste.</note>, que j’ai gardé trop longtemps, mais un des volumes fut coupé en deux et je
+        l’ai fait relier.</p>
+      <p>Quoique je ne vous en aie pas parlé, je n’en pense pas moins. J’ai été, <persName
+          key="Sand, George (1804-1876)">chère amie</persName>, ravi d’admiration par le premier
+        volume, qui <hi rend="u">est votre chef-d’œuvre</hi>, et refroidi par le second. Pardonnez à
+        mon sot goût qui est un imbécile dans cette circonstance, <pb n="3" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000047.tif/full/full/0/default.jpg"/> au moins je le désire
+        sincèrement. Il est impossible de s’élever plus haut dans la partie que j’aime et j’ai été
+        touché et exalté aux larmes. Voilà pour cette affaire-là et f[oute]z-vous de tout ce que je vous
+        dis là.</p>
+      
+      <closer>
+        <salute>À bientôt et tout à <persName key="Sand, George (1804-1876)">vous</persName> de
+          cœur.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eu. Delacroix</persName></signed>
+      </closer>
+
+      <postscript>
+        <p><hi rend="u">L’adresse, s’il vous plaît.</hi></p>
+      </postscript>
+
+
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 5 juillet 1842</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 30</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="4" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 1er août 1930, p. 600</bibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936,
+            II, p. 113-115</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 126-127</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1842-07-05"/>
+          <placeName key="France, Paris">Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000068.tif/full/full/0/default.jpg"/>
+      <opener>
+        <address>
+          <addrLine><placeName key="France, Paris">Paris</placeName></addrLine>
+        </address>
+        <dateline><date when="1842-07-05">mardi</date></dateline>
+      </opener>
+
+      <p>Quel changement, <persName key="Sand, George (1804-1876)">chère amie</persName>. Que ce
+        <placeName key="France, Paris">Paris</placeName> est affreux, vous n’avez pas idée de la chaleur et de la
+        poussière qu’on respire ici, mais la tristesse donc ! C’est bien pis encore que tout cela.
+        Il m’a pris depuis que je suis arrivé un accès de tristesse dont je ne puis pas sortir et
+        qui me reprendra toutes les fois que je penserai à <placeName key="France, Nohant">Nohant</placeName> ; et vous
+        ne direz pas que c’est l’effet de l’inconstance naturelle de l’homme, qui n’est point
+        content de son état présent et qui s’embellit en idée le souvenir de celui qui n’est plus.
+        Vous rappelez-vous comment j’appréhendais de me retrouver au milieu de mes ennuis ? Ils sont
+        bien réels et tout les accroît ; la chaleur insupportable de mon atelier, l’ennui du voyage
+        le plus fatigant au milieu de circonstances plus ou moins comiques, qui en font une odyssée
+        bourgeoise que je vous conterai plus tard, mais par-dessus <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000069.tif/full/full/0/default.jpg"
+        />tout le souvenir de ce charmant <placeName key="France, province du Berry">Berry</placeName> où j’ai trouvé tant d’amitié,
+        tant de bonté. Je m’en vais malgré les inconvénients de la chaleur me plonger à en crever
+        dans le travail. C’est le seul remède pour tuer l’ennui qui s’empare de moi. Je vous vois
+        toujours devant mes yeux, vous et les vôtres, à chaque heure du jour je vous suis : je vous
+        vois à table, dans le jardin : je me vois moi-même dans ce cher petit cabinet si frais, si
+        retiré, où je pensais de si loin à tout ce qui m’accable ici ; mais je n’en finirais pas de
+        vous dire mes regrets. Vous reviendrez mais je vous verrai de loin en loin : ce ne sera plus
+        ce charme de tous les jours : et mes tête-à-tête avec <persName
+          key="Chopin, Frédéric (1810-1849)">Chopin</persName>, où les retrouverai-je<note
+          place="bottom"> Dans une lettre du 22 juin 1842, Delacroix écrit depuis Nohant à son ami
+          Pierret : "J'ai des tête-à-tête à perte de vue avec Chopin, que j'aime beaucoup [...] ; c'est
+          le plus vrai artiste que j'aie rencontré. Il est de ceux en petit nombre qu'on peut
+          admirer et estimer".</note> ? Je vous écris mais je ne vous vois point et je m’étais
+        habitué à vous voir. Parlez-moi longuement de vous et de ces chers amis. J’ai vu hier
+        quelqu’un qui s’est beaucoup <pb n="3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000069.tif/full/full/0/default.jpg"
+        />soulagé de maux de tête nerveux en mêlant de l’éther dans de l’eau fraîche. Ne mettez pas
+        l’éther seul, l’eau seule ne suffit pas non plus, mais tous les deux ensemble. C’est une
+        recette d’un très fameux médecin. Voilà que je n’ai pu vous écrire cette pauvre lettre sans
+        être interrompu : recommencer l’histoire de mes regrets serait insipide et insuffisant pour
+        les exprimer. Soignez-vous donc, soignez <persName key="Chopin, Frédéric (1810-1849)"
+          >Chopin</persName>. Peut-être va-t-il travailler à présent que je ne l’interromps plus
+        autant : je suis sûr qu’il a plusieurs fois négligé son travail pour me tenir compagnie.
+        Dites-lui que j’ai fait sa commission pour son monsieur de la place Vendôme, et le tout en
+        bonne forme.</p>
+      <p>Ah Dieu, voilà de la pluie ! Je respire un peu dans ma fournaise. Il me vient un souvenir
+        d’une chose que je vous prie de vouloir bien éclaircir auprès de <persName
+          key="Rollinat, François (1806-1867)">M. Rollinat</persName>. Vous savez qu’il a eu
+        l’extrême bonté de se trouver le matin à l’auberge <pb n="4"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000070.tif/full/full/0/default.jpg"
+        />pour assister à mon départ. J’ai tout à fait oublié de lui demander s’il avait donné des
+        arrhes à la diligence pour la place qu’il avait retenue à mon intention. Faites cela, s’il
+        vous plaît : vous aurez la bonté de lui en tenir compte s’il a déboursé quelque chose et je
+        vous le rendrai à Paris. Je me rappelle à <persName key="Sand, Solange (1828-1899)"
+          >Solange</persName> et à <persName key="Sand, Maurice (1823-1889)">Maurice</persName> et
+        les embrasse tous deux, aussi à <persName key="Chatiron, Hippolyte (1799-1848)">M.
+          Hyppolite</persName>, mon professeur de billard <hi rend="u">après vous</hi>. Je vois
+        encore d’ici les grands coups de queue et j’en frémis encore. Peut-être, au moment où vous
+        lisez ceci, est-il là autour du billard près de vous : faites-lui donc tout de suite mes
+        amitiés.</p>
+
+      <closer>
+        <salute>Je vous embrasse tendrement, <persName key="Sand, George (1804-1876)">chère
+            amie</persName> ; quelques mots de vous de temps en temps : ce sera un parfum d’un autre
+          monde au milieu de cet enfer, où je vous désire pourtant ; mais où, par amour pour vous,
+          je voudrais vous voir le plus tard possible. Adieu encore et mille chers
+          souvenirs.</salute>
+      </closer>
+
+      <postscript>
+        <p><note place="bottom">Eugène Delacroix rentrait de son premier séjour chez George Sand à
+            Nohant</note></p>
+        <p><note>Selon Françoise Alexandre, Delacroix quitte Nohant le 2 juillet 1842 cette lettre
+            ne peut donc dater de fin juin 1842 comme l'envisage Joubin (t. II, p. 113) et pense
+            pouvoir dater cette lettre du 6 juillet 1842 (Alexandre, Françoise, <hi rend="it"
+              >Correspondance</hi>, 2005, p. 242, n. 2 de la page 126). Or la lettre étant écrite un
+            mardi, il ne peut s'agir du 6 juillet qui est un mercredi. Il s'agit donc sans doute du
+            mardi 5 juillet.</note></p>
+      </postscript>
+
+    </body>
+  </text>
+</TEI>

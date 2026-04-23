@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, [27 novembre] 18[51]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 60</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="1" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1937,
+            III, p. 93</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 189</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1851-11-27"/>
+          <placeName key="France, Paris">Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000140.tif/full/full/0/default.jpg"/>
+      <opener>
+        <dateline>Ce <date when="1851-11-27">jeudi</date> matin</dateline>
+      </opener>
+      
+      <p><persName key="Sand, George (1804-1876)">Vous</persName> m’avez fait passer trois heures délicieuses <date when="1851-11-26">hier</date> soir<note place="bottom"> Delacroix
+          assista à la première représentation de la pièce de George Sand, le <hi rend="it">Mariage
+            de Victorine</hi>, le 26 novembre 1851 au théâtre du Gymnase (Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1937, III, p.
+          93).</note>, <persName key="Sand, George (1804-1876)">chère amie</persName>. Vous devez
+        être enchantée, comme nous le sommes tous, du succès. Je n’ai pu aller vous embrasser, du
+        moins je n’ai pas pu le tenter parce que j’avais deux bécasses à reconduire<note
+          place="bottom"> Sans doute Mme de Forget et Mme de Quérelles (Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1937, III, p.
+          93).</note>. J’ai essuyé leurs larmes de mon mieux chemin faisant ; n’entendez là-dessous
+        aucun sens dont ma moralité puisse rougir, au moins : nous ne pensions tous qu’à Victorine.</p>
+        
+       <closer>
+         <salute>Je vous envoie ceci à l’adresse que vous m’avez donnée en <persName key="Sand, George (1804-1876)">vous</persName> embrassant mille fois.</salute>
+         <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+       </closer>
+      
+    </body>
+  </text>
+</TEI>

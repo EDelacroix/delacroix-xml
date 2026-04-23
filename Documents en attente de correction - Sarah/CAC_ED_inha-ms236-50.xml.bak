@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, mars 1848</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 50</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="4" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 15 septembre 1930, p. 756</bibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936,
+            II, p. 342-344</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 174-175</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1848-03-.."/>
+          <placeName key="France, Paris">Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000118.tif/full/full/0/default.jpg"/>
+      <opener>
+        <salute><persName key="Sand, George (1804-1876)">Chère amie</persName>, chère amie</salute>
+      </opener>
+
+      <p>que de choses en peu de jours ! J’ai mis plus de temps à répondre à la meilleure, à la plus
+        affectueuse lettre que l’on en a mis ici à renverser un gouvernement<note place="bottom">
+          Delacroix fait référence aux journées révolutionnaires qui, du 22 au 24 février 1848,
+          conduisent à la chute de la monarchie de Juillet et à la proclamation de la II<hi rend="sup">e</hi>
+          République.</note>. Que je ne vous aie pas écrit depuis huit jours, cela n’a rien
+        d’étonnant ; mais avant, et malgré le plaisir que m’a fait votre cher souvenir, j’ai remis
+        pour des raisons difficiles à dire : j’étais accablé par la tâche de faire des tableaux<note
+          place="bottom">Delacroix exposa six tableaux au Salon de 1848 : <hi rend="it">Le Christ au
+            tombeau</hi> (1848, huile sur toile. Boston, Museum of Fine Arts), <hi rend="it">Mort de
+            Valentin</hi> (1847, huile sur toile. Brême, Kunsthalle), <hi rend="it">Mort de
+            Lara</hi> (1848, huile sur toile. coll. part.), <hi rend="it">Comédiens ou bouffons
+            arabes</hi> (1848, huile sur toile. Tours, musée des Beaux-Arts), <hi rend="it">Le lion
+            dans son antre</hi> (1847, huile sur toile. Oslo, Nasjonalgalleriet), <hi rend="it">Lion
+            dévorant une chèvre</hi> (non localisée).</note> où il y avait véritablement trop à
+        faire et j’étais obligé de le faire sous l’impression de deux événements, de deux chagrins
+        de ma petite existence qui m’ont tenu en échec et attristé tout le temps que je mettais à ma
+        besogne ingrate, car il est toujours ennuyeux <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000119.tif/full/full/0/default.jpg"
+        />de finir. Vous avez dû éprouver de cruels chagrins et si quelques-uns de vos amis vous ont
+        un peu manqué, je suis de ceux que votre tristesse a occupés douloureusement. Ces
+        blessures-là peuvent-elles se cicatriser ? Je crains pour vous, <persName key="Sand, George (1804-1876)">pauvre amie</persName>, qu’elles ne
+        saignent encore longtemps. <persName key="Sand, Solange (1828-1899)">Votre fille</persName>
+        n’est pas faite, à ce qu’il paraît, du même limon que le reste de l’humanité : c’est ce qui
+        a sans doute empêché votre réconciliation quand vous vous êtes revues<note place="bottom"
+          >George Sand s'était brouillée avec sa fille Solange après son mariage en 1847 avec le
+          sculpteur Auguste Clesinger.</note> : de la fierté alors et vis-à-vis d’une mère, voilà ce
+        que je ne puis concevoir. Pour <persName key="Sand, Maurice (1823-1889)">Maurice</persName>,
+        il est radieux. Il sort d’ici, il est comme s’il était ivre : je ne le croyais pas capable
+        de ce degré d’exaltation ; il a de plus fait provision dans sa mémoire de sujets de tableaux
+        qui occuperont sans doute sa vie entière : car s’il a pu se passionner <pb n="3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000119.tif/full/full/0/default.jpg"
+        />pour des figures de soldats qu’il n’a jamais vus, les vrais acteurs qu’il a eus sous les
+        yeux lui ouvrent une carrière toute neuve<note place="bottom">Maurice Sand exposa pour la
+          première fois au Salon en 1848. Ouvert le 15 mars, on pouvait y voir quatre de ses oeuvres
+          : <hi rend="it">Vendée</hi> (huile sur toile) ; <hi rend="it">Pièce de canon
+            embourbée</hi> (huile sur toile) ; <hi rend="it">Le seigneur Cassandre et son valet
+            Pierrot</hi> (huile sur toile) ; <hi rend="it">Six types de l'ancien théâtre de la
+            Foire</hi> (aquarelle).</note>. Bon, voici qu’on m’interrompt encore ! <persName
+          key="Sand, George (1804-1876)">Chère amie</persName>, je reprends ma lettre deux jours
+        après l’avoir commencée. Je suis accablé de fatigue et n’ai rien fait. J’ai eu ici presque
+        continuellement une procession d’allants et de venants et, au milieu de tout cela, peu
+        d’instants pour être à moi-même. Je reviens à vous, <persName key="Sand, George (1804-1876)"
+          >bonne amie</persName>. Vous aurez été sans doute dans le dernier étonnement d’événements
+        qui ont tout maîtrisé et dépassé tous les calculs possibles. Nous avons véritablement vécu
+        cinquante ans en quelques jours : les jeunes gens sont devenus des hommes et je crains que
+        bien des hommes ne deviennent promptement bien caducs. Ainsi le veut le grand dispensateur,
+        qui ne change rien cependant à l’ordre des saisons et qui ne permet pas au plus petit bouton
+        de s’ouvrir avant l’heure marquée. Je voudrais bien <pb n="4"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000120.tif/full/full/0/default.jpg"
+        />voir arriver le moment où nous pourrons causer de tout cela avec un peu de tranquillité.
+        J’avais pensé d’abord que vous pourriez être tentée de venir ici : <persName
+          key="Sand, Maurice (1823-1889)">Maurice</persName> m’a dit que vous n’en aviez pas la
+        pensée. Je préférerais pour mon compte vous voir à <placeName key="France, Nohant">Nohant</placeName>, ce que je ne manquerai pas de
+        faire aux beaux jours si vous y restez vous-même. J’ai été fort chagrin, fort ennuyé depuis
+        quelque temps ; mon humeur s’en est beaucoup ressentie ; c’est ce qui fait que les
+        événements ont eu peut-être moins de prise sur moi. Tout se rassoit et semble se refermer
+        dans de justes bornes. J’espère que les provinces feront comme nous. Les muses, <persName
+          key="Sand, George (1804-1876)">chère amie</persName>, sont, quoi qu’on en dise, amies de
+        la paix : l’excitation de l’esprit fait remuer le pinceau et toucher de travers.</p>
+
+      <closer>
+        <salute>Adieux <persName key="Sand, George (1804-1876)">chère amie</persName>, je vous
+          embrasse bien tendrement. Un mot quand vous aurez le temps et que vous serez revenue de
+          tout ceci : adieux, chère.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
