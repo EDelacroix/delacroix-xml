@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, [24 novembre] 18[53]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 68</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="2" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1937,
+            III, p. 180</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 200</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1853-11-24"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000157.tif/full/full/0/default.jpg"/>
+      <opener>
+        <dateline>Ce <date when="1853-11-24">jeudi</date> soir</dateline>
+        <dateline><add place="margin">[24 novembre 1853]</add></dateline>
+        <salute>Chère <persName key="Sand, George (1804-1876)">amie</persName></salute>
+      </opener>
+
+      <p>j’irai avec bonheur entendre votre <hi rend="it">Mauprat</hi><note place="bottom"> Dans la
+          pièce <hi rend="it">Mauprat</hi>, dont la première représentation eut lieu le 28 novembre
+          185 3 à l'Odéon, George Sand reprend un sujet qu'elle avait déjà traité en 1837 dans le
+          roman du même nom.</note>, mais tout seul, comme un ours fatigué que je suis, le soir, de
+        ma journée et enchanté de me recueillir devant une chose que j’aime. Si donc vous avez la
+        bonté de m’envoyer <hi rend="u">une place</hi>, j’en serai bien heureux<note place="bottom">
+          Comme indiqué dans son <hi rend="it">Journal</hi> à la date du 28 novembre 1853, Delacroix
+          assiste en effet à la première représentation de <hi rend="it">Mauprat</hi>, et s'avère
+          des plus critiques à son encontre (Hanoosh, Michèle, <hi rend="it">Journal</hi>, 2009, I,
+          p. 716-717).</note>. Vous allez bien puisque vous travaillez : nous travaillerons jusqu’à
+        l’agonie ; que faire [d’autre] dans ce monde, à moins de s’enivrer, quand vient le moment où
+        le réel n’est plus à la hauteur du rêve ?</p>
+
+      <closer>
+        <salute>Je vous embrasse bien, <persName key="Sand, George (1804-1876)">chère
+            amie</persName>, en attendant le moment où je vous verrai. <persName
+            key="Sand, Maurice (1823-1889)">Maurice</persName> a fait une jolie composition dans <hi
+            rend="it">La Dernière Aldini</hi><note place="bottom"> Le roman <hi rend="it">La
+              Dernière Aldini</hi> de George Sand est publié pour la première fois en 1838. Il est
+            ici question de sa publication dans le tome VI des <hi rend="it">Oeuvres illustrées</hi>
+            de l'auteur.</note>, une petite femme qui se promène dans une allée où j’ai cru
+          reconnaître <pb n="2"
+            facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000158.tif/full/full/0/default.jpg"
+          />la petite allée couverte de <placeName key="France, Nohant">Nohant</placeName>.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

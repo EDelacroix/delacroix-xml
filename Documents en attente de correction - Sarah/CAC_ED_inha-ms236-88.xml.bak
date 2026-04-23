@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 21 juillet 1863</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 88</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="1" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1938,
+            IV, p. 380</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 222</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1863-07-21"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000182.tif/full/full/0/default.jpg"/>
+      <opener>
+        <dateline><date when="1863-07-21">21 juillet 1863</date></dateline>
+        <salute>Chère <persName key="Sand, George (1804-1876)">amie</persName>,</salute>
+      </opener>
+
+      <p>vous êtes étonnée que je ne vous réponde pas<note place="bottom">Françoise Alexandre en
+          déduit l'existence d'une lettre de Sand à Delacroix au printemps 1863, document
+          aujourd'hui disparu. Dans une lettre du 21 juillet 1863, également disparue mais attestée
+          par le carnet d'enregistrement de George Sand, la romancière devait manifester son
+          étonnement face au silence de Delacroix, tout en lui annonçant la naissance de son
+          petit-fils (Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 298).</note>
+        : écrire m’est insupportable. J’ai été fort malade, je le suis encore<note place="bottom">Il
+          s'agit de la dernière lettre connue que Delacroix écrit à Sand. Il meurt un peu plus de
+          trois semaines plus tard, le 13 août 1863.</note>. Un rhume traîné tout cet hiver a amené
+        des accidents désagréables. Il y a pourtant un mieux sensible. Que je vous remercie de vous
+        être souvenue de moi dans cette joie de famille ! Vous devez être ravie. Longs jours à
+          <persName key="Sand, Marc-Antoine (1863-1864)
+          ">Marc</persName><note place="bottom"> Marc-Antoine, fils de Maurice Sand et
+          Lina Calamatta (1842-1901), né le 14 juillet 1863, meurt en bas âge, le 21 juillet
+          1864.</note>, qu’il soit bon comme vous l’êtes tous ! Je ne vous en dis pas long : jugez
+        qu’il y a deux mois que je ne suis sorti de ma chambre, que je suis d’une faiblesse que je
+        ne croyais pas qu’on pût supporter.</p>
+
+      <closer>
+        <salute>Je <persName key="Sand, George (1804-1876)">vous</persName> embrasse mille
+          fois.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

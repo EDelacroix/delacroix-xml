@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, été 18[44]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 38</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="3" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 1er septembre 1930, p. 706</bibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936,
+            II, p. 174-175</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 145-146</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1844-..-.."/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000085.tif/full/full/0/default.jpg"/>
+      <opener>
+        <salute><persName key="Sand, George (1804-1876)">Chère amie</persName></salute>
+      </opener>
+      <p>votre bonne <ref type="letter" target="">lettre</ref> me fait grand plaisir et grand peine.
+        Elle rouvre une blessure et me montre tout le poids de mes chaînes. Le petit <persName
+          key="Chopin, Frédéric (1810-1849)">Chopin </persName>et <persName
+          key="Sand, Maurice (1823-1889)">Maurice</persName><note place="bottom"> Selon André
+          Joubin, la lettre fut confiée à Chopin et Maurice qui retournaient à Nohant (t. II, n. 1,
+          p. 174) ; selon Alexandre, elle fut transmise à Sand par Chopin après le 3 septembre, son
+          départ de Paris (Alexandre, Françoise, <hi rend="it">Correspondance</hi>2005, n. 4, p.
+          253). Voir note suivante quant à la datation.</note> vous diront la vie que je mène et les
+        obligations qui me retiennent ; et cependant, s’il est un désir sincère au monde, c’est
+        celui qui me ferait aller vous demander quelques jours de repos après un travail qui est
+        fort rude, je vous assure. Heureusement que ma santé est bonne et que je peux suffire. Il va
+        me tomber au mois d’<date when="1844-10">octobre</date> un affreux déménagement à faire<note place="bottom"> Il s'agit
+          du déménagement de son atelier au 54 rue Notre-Dame-de-Lorette. Selon Françoise Alexandre,
+          la datation de Joubin (juin 1844) n’est pas possible du fait de cette allusion de
+          Delacroix à son prochain déménagement du mois d'octobre (Alexandre, Françoise, <hi
+            rend="it">Correspondance</hi>, 2005, n. 4, p. 253). Elle date la lettre des environs du
+          29 août au 3 septembre 1844.</note>. J’avais pensé qu’il pourrait être fait petit à petit,
+        mais l’appartement sera à peine prêt et il est à présent rempli de maçons et de
+        charpentiers. Si vous étiez près de <placeName key="France, Paris">Paris</placeName>, j’aurais été quinze jours chez vous, en détail,
+        avec beaucoup de facilité, parce que quand je suis sur les dents, je vais me reposer deux
+        jours, trois jours, jamais davantage. Vous savez que <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000086.tif/full/full/0/default.jpg"
+        />je ne puis me passer des beaux jours pour terminer mon ouvrage<note place="bottom">
+          Delacroix parle sans doute ici de ses grands travaux décoratifs, les bibliothèques du
+          Palais Bourbon et du Palais du Luxembourg.</note>. Mais je vous en dis bien long
+        inutilement. La vraie preuve, c’est mon chagrin [de] ne vous pas voir et même un coin
+        d’espoir tenace qui me montre, dans le brouillard, la possibilité de m’échapper pour vous
+        voir, quoique je sente que c’est impossible. Pardonnez-moi donc, <persName
+          key="Sand, George (1804-1876)">chère amie</persName>, d’être malheureux. Ce beau <placeName key="France, Nohant">Nohant</placeName>,
+        si beau parce que vous y êtes, envoyez de ma part à tous ces arbres mes tendresses d’ami.
+        Vous savez comme j’aime les jardins, les fleurs. Je crois que c’est pour ça que je vous aime
+        tant. C’est que personne n’a peint comme <persName key="Sand, George (1804-1876)">vous</persName> cette divine nature. À propos, a-t-on tiré le
+        canon quelque part pour votre <hi rend="u">Bonne Déesse de la pauvreté</hi><note
+          place="bottom"><hi rend="it">La bonne Déesse de la pauvreté,</hi> ballade qui paraît dans
+            <hi rend="it">La Revue indépendante</hi>, (t. 12, 1844), dans l'épilogue du roman de
+          George Sand, la <hi rend="it">Comtesse de Rudolstadt</hi>.</note> ? Admi<pb n="3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000086.tif/full/full/0/default.jpg"
+        />rable inspiration, qui m’a tiré des larmes. Le siècle roule avec la même indifférence,
+        dans son cours vulgaire, les banalités, les turpitudes, dont il est si prodigue, et les
+        sublimes élans comme ceux de <persName key="Sand, Solange (1828-1899)">votre chère muse</persName>, que j’embrasse, malgré sa qualité [de]
+        pucelle, avec toute l’ardeur qu’elle mérite.</p>
+
+      <closer>
+        <salute> Adieu, <persName key="Sand, George (1804-1876)">chère femme</persName>, vous venez
+          encore de travailler, vous vous tuerez, <persName key="Sand, George (1804-1876)">chère
+            amie</persName> ! Gardez quelque chose pour nous. Adieu et pardonnez-moi.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug.</persName></signed>
+      </closer>
+      
+      <postscript><p>Ils vous diront mes ennuis et mes embarras. Mille tendresses à <persName
+        key="Sand, Solange (1828-1899)">Solange</persName>.</p></postscript>
+    </body>
+  </text>
+</TEI>

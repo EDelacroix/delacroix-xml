@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 30 mai 1842</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 29</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="4" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 1er août 1930, p. 599</bibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936,
+            II, p. 104-106</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 125-126</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1842-05-30"/>
+          <placeName key="France, Paris">Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000065.tif/full/full/0/default.jpg"/>
+
+      <opener>
+        <address>
+          <addrLine>Madame <persName key="Sand, George (1804-1876)">G. Sand</persName></addrLine>
+          <addrLine>à <placeName key="France, Nohant"
+            ><hi rend="u">Nohant</hi></placeName></addrLine>
+          <addrLine>près <placeName key="France, La Châtre"><hi rend="u">La
+            Châtre</hi></placeName></addrLine>
+          <addrLine><hi rend="u">Indre</hi></addrLine>
+        </address>
+        <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000066.tif/full/full/0/default.jpg"/>
+        <dateline><date when="1842-05-30">Lundi</date>matin</dateline>
+        <salute><persName key="Sand, George (1804-1876)">Chère amie</persName></salute>
+      </opener>
+
+      <p>je reçois votre mille fois trop bonne <ref type="letter" target="">lettre</ref>. Que vous
+        êtes bons tous pour un triste animal qui ne méritera jamais tant d’aimables prévenances ! Et
+        que vous dirai-je pour tout cela, surtout au moment où je suis pris à la gorge ? Enfin, je
+        suis tout accablé de votre bonté et je vous réponds un mot pour vous le dire mais non pas
+        autant que je le sens. Dites à mon cher petit <persName key="Chopin, Frédéric (1810-1849)"
+          >Chopin</persName> que les parties que j’aime, c’est la flânerie dans les allées en
+        parlant de musique et le soir sur un canapé à en entendre quand le Dieu descend sur ses
+        doigts divins. Et <persName key="Sand, George (1804-1876)">chère bonne</persName>, ceci est
+        à la lettre : je ne suis ni chasseur, ni marcheur, ni voisineur : j’ai par-dessus tout en
+        horreur le bruit, le mouvement et qu’on s’occupe de moi. Vous et les vôtres, vous voir, vous
+        entendre, végéter près de vous, c’est mon rêve. Et <hi rend="it">Consuelo</hi><note place="bottom"> Le roman <hi rend="it">Consuelo</hi> de
+          George Sand paraissait par livraisons depuis février 1842 dans <hi rend="it">La Revue
+            indépendante</hi>.</note>
+        <hi rend="it"/>donc ! Je ne vous ai pas dit combien je l’aime. C’est votre type le plus pur,
+        je n’ai pu avoir jusqu’ici que ce que vous m’avez prêté et je suis bien impatient de la
+        suite. Mais couvez-la bien, <pb n="3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000067.tif/full/full/0/default.jpg"
+        />cher génie, cette aimable fille de vos plus belles inspirations<note>Delacroix se permet
+          ici une allusion afin de conseiller à George Sand "de ne pas négliger la composition et la
+          condensation dramatique" (Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005,
+          p.125 et n.3 p.242) qui serait le résultat d'une "facilité de sa plume".</note>. Je ne l’ai pas encore suivie en <placeName key="Allemagne"
+          >Allemagne</placeName>, jugez du plaisir qu’il me reste à avoir. Je pars <hi rend="u"
+          >mercredi</hi> par la diligence, j’ai préféré cela pour toutes sortes de raisons. Cet <hi
+          rend="u">en l’air</hi> du courrier m’agitait les nerfs par avance et puis, malgré l’ennui
+        d’être longtemps en voiture, j’aime à pouvoir en descendre quelques fois pour respirer. Je
+        ne voulais pas non plus vous donner l’ennui de vous déranger pour venir au-devant de moi. Je
+        me serais débrouillé très bien avec les indications que vous m’aviez données. Je me couchais
+        en arrivant et j’allais vous joindre avec l’aurore. Ne bougez, <persName
+          key="Sand, George (1804-1876)">chère amie</persName> : je serai beaucoup plus vermeil et
+        vous n’aurez pas de cahots. Enfin je voudrais pousser le temps par les épaules. Que me
+        dites-vous du mois de <date when="1842-07">juillet</date> ? Grand Dieu, et <persName
+          key="Decazes, Elie (1780-1860">M. le Grand Référendaire</persName>, que dira-t-il dans son
+          Luxembourg<note place="bottom"> Le Grand Référendaire de la Chambre des Pairs, alors le
+          duc Elie Decazes (1780-1860), nommé en 1834, était interlocuteur de Delacroix quant à la
+          commande de la décoration de la bibliothèque du Sénat au palais du Luxembourg.</note> si <hi
+          rend="u">le peintre</hi> n’est pas bientôt à son poste<note place="bottom"> À la
+          bibliothèque du palais du Luxembourg.</note> ? Quand donc <hi rend="u">le peintre</hi>
+        cessera-t-il d’encombrer notre parquet ciré ? disent MM. <pb n="4"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000067.tif/full/full/0/default.jpg"
+        />les pairs<note place="bottom"> Les membres de la Chambre des Pairs</note><note>La Chambre
+          des Pairs, substituée au Sénat impérial en juin 1814, siégeait au palais du
+          Luxembourg.</note>. Nous discuterons tout cela en tournant sous les tilleuls ou autres,
+        que je vois d’avance. Je me fais un <placeName key="France, Nohant"><hi rend="u">Nohant</hi></placeName> en
+        imagination, qui naturellement n’aura pas le moindre rapport avec celui que je vais trouver
+        ; mais vous et tant de bons amis qui y sont, je vous vois d’avance comme vous êtes, et ne
+        puis vous voir assez tôt en réalité. Encore un coup, <persName
+          key="Sand, George (1804-1876)">chère</persName>, ne préparez rien pour moi, ne dérangez
+        rien. La campagne, la paix, la solitude sont mêmes choses dans ma pensée. Le calme près de
+        vous pour mater mes maudits nerfs, un trou dans votre ermitage pour oublier les fatigues de
+          <placeName key="France, Paris">Paris</placeName>, c’est l'idéal pour moi.</p>
+
+      <closer>
+        <salute>Adieux encore ; mille bonnes tendresses à <persName
+            key="Chopin, Frédéric (1810-1849)">Chopin</persName>, à <persName
+            key="Sand, Maurice (1823-1889)">Maurice</persName> et <persName
+            key="Sand, Solange (1828-1899)">Solange</persName> que j’embrasserai pour la peine. À
+          bientôt <persName key="Sand, George (1804-1876)">chère amie</persName> et à vous de
+          cœur.</salute>
+
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

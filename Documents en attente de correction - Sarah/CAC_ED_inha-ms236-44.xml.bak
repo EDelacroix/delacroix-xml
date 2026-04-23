@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 25 janvier 18[46]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 44</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="4" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 15 septembre 1930, p. 753</bibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936,
+            II, p. 259-261</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 161-162</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1846-01-25"/>
+          <placeName key="France, Bordeaux">Bordeaux</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000100.tif/full/full/0/default.jpg"/>
+      <opener>
+        <address>
+          <addrLine><placeName key="France, Bordeaux">Bordeaux</placeName>, <date when="1846-01-25">25 janvier</date></addrLine>
+        </address>
+        <salute>Bonne, <persName key="Sand, George (1804-1876)">bonne amie</persName></salute>
+      </opener>
+
+      <p>mon cœur se fond à lire votre lettre et <persName key="Sand, George (1804-1876)">vous</persName> me causez un grand plaisir après de bien
+        tristes moments. Quels remerciements je vous dois ! Voilà de quoi je me suis privé jusqu’ici
+        en ne vous écrivant pas, mais, <persName key="Sand, George (1804-1876)">chère
+          amie</persName>, il m’était presque impossible d’écrire, et plus j’aimais les gens, moins
+        je sentais le besoin de leur écrire. Il m’a semblé que, quand vous apprendriez mon
+          chagrin<note place="bottom"> Causé par la mort récente de son frère aîné Charles-Henry
+          Delacroix.</note>, vous ne seriez pas étonnée de mon silence. La douleur n’est pas bavarde
+        ma <persName key="Sand, George (1804-1876)">bonne amie</persName>, ces douleurs à fond, ces
+        peines de la chair et de l’âme trouvent que le papier est un intermédiaire bien froid, et
+        pour quoi dire ? Que j’avais du chagrin, vous le saviez bien, <persName
+          key="Sand, George (1804-1876)">chère amie</persName>. Oui, je suis arrivé trop tard, j’ai
+        trouvé mon père [sic]<note place="bottom">Delacroix veut dire "mon frère"</note>, mon héros froid et insensible<note
+          place="bottom">Son frère est mort le 30 décembre 1845 à Bordeaux, quelques heures avant
+          l'arrivée de Delacroix à son chevet.</note>. Quand j’ai <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000101.tif/full/full/0/default.jpg"
+        />embrassé comme un fou ce reste vénérable, rien ne m’a répondu ! <persName
+          key="Sand, George (1804-1876)">Pauvre amie</persName> ! Avez-vous joué votre rôle jamais
+        dans une semblable scène ? Quel moment et que de détails affligeants, et comme il était
+        entouré, et comme il était temps que j’arrive pour faire honorer <persName
+          key="Delacroix, Charles Henry (1779-1845)">ce cher ami</persName> comme il le méritait. Je
+        l’ai conduit dans le même lieu où <persName key="Delacroix, Charles (1741-1805)">notre
+          père</persName> a été enseveli il y a quarante ans<note place="bottom"> Au cimetière
+          bordelais de la Chartreuse.</note>. Singulière destinée ! Le tombeau de <persName
+          key="Delacroix, Charles (1741-1805)">mon père</persName> n’a jamais été achevé et, sous la
+        Restauration, je suppose qu’on l’a enlevé à dessein. Quoi qu’il en soit, il n’y a plus
+        vestige de ses restes. Je me suis donc occupé de réunir ces deux belles mémoires<note
+          place="bottom"> Delacroix acheta un caveau familial dans le cimetière de la Chartreuse,
+          conçut et commanda un tombeau à l'architecte Alexis Roché. Ce dernier subsiste encore
+          aujourd'hui, couronné du buste de Charles Delacroix.</note> et, parmi des détails ignobles
+        qui suivaient nécessairement l’événement de la mort de <persName
+          key="Delacroix, Charles Henry (1779-1845)">mon pauvre frère</persName>, ces autres
+        soins-là m’ont occupé et j’ai <pb n="3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000101.tif/full/full/0/default.jpg"
+        />imaginé quelque chose que je crois simple et convenable, et qui sera exécuté avant la fin
+        de l’été. Du reste je pars demain et je vous embrasserai dans trois ou quatre jours, et avec
+        quel plaisir ! Car il faut bien que vous héritiez d’une bien grande partie de l’amour que
+        j’avais [pour] <persName key="Delacroix, Charles Henry (1779-1845)">mon héroïque
+          frère</persName>. Que vous êtes bons, tous! Recevez mes remerciements.</p>
+      <p>Je n’ai pas pensé quatre fois à la peinture ici, si ce n’est dans les églises où j’aime à
+        entrer et où j’ai découvert quelques tableaux. Vous me parlez de gloire, <persName
+          key="Sand, George (1804-1876)">chère amie</persName>. Hélas ! je viens d’enterrer <persName key="Delacroix, Charles Henry (1779-1845)">un homme</persName>
+        que personne ne connaît et qui mérite cependant la plus pure. Tous ces jeunes militaires qui
+        l’entouraient, du reste avec respect, ne le connaissaient pas ; ils ne sont pas de son
+        temps. Il n’y avait pas là un seul de ses compagnons. Quand au bord de la fosse quelqu’un
+        s’est avisé de demander si personne ne faisait de discours, je leur ai dit : Messieurs, il
+        n’y a pas besoin de discours, voilà des coups de fusil qui sont le vrai <pb n="4"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000102.tif/full/full/0/default.jpg"
+        />discours pour un homme tel que lui.</p>
+      <p><persName key="Sand, George (1804-1876)">Chère amie</persName>, aimons-nous donc avec ou
+        sans gloire. Ce n’est pas la vôtre que j’aime ; c’est vous, c’est le contenu de votre cher
+        jupon. Je vais donc quitter ce funèbre lieu et pourtant cher, car ma première enfance s’y
+        est écoulée<note place="bottom"> La famille Delacroix s'était installée à Bordeaux en avril
+          1803, date à laquelle le père de Delacroix avait été nommé préfet de la Gironde, et ce
+          jusquà début novembre 1805, la mort de ce dernier.</note> et j’y laisse mon dernier
+        parent. Je vous verrai, et bien peu d’autres, avec bonheur.</p>
+
+      <closer>
+        <salute>Embrassez vos bons enfants et mon bon <persName key="Chopin, Frédéric (1810-1849)"
+            >Chopin</persName>. J’ai bien pensé à lui<note place="bottom">Chopin avait perdu son
+              père en mai 1844.</note> et lui serre bien la main et à <persName key="Sand, George (1804-1876)">vous</persName> mille et mille
+          fois.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">E.D</persName></signed>
+      </closer>
+
+      <postscript>
+        <p><persName key="Le Guillou, Jeanne Marie, dite Jenny (1801-1869)">Jenny</persName> vous
+          remercie bien de votre bon souvenir. Que j’ai eu une bonne idée de l’amener et que
+          j’aurais été seul sans elle ! Elle m’a été aussi bien utile car j’ai été très souffrant et
+          je le suis encore.</p>
+      </postscript>
+    </body>
+  </text>
+</TEI>

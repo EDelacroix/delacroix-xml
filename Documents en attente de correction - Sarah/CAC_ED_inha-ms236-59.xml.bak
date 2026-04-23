@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 20 [octobre] 18[51]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 59</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="2" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1937,
+            III, p. 90-91</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 187-188</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1851-10-20"/>
+          <placeName key="France, Paris">Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000138.tif/full/full/0/default.jpg"/>
+
+      <opener>
+        <dateline>Ce <date when="1851-10-20">20</date></dateline>
+        <salute><persName key="Sand, George (1804-1876)">Chère amie</persName></salute>
+      </opener>
+
+      <p>j’ai fini l’<rs type="work" key="Apollon vainqueur du serpent Python (J578)
+        "><hi rend="it">Apollon</hi></rs><note place="bottom"><hi rend="it">Apollon vainqueur
+            du serpent Python</hi>, au plafond de la galerie d'Apollon du Louvre.</note> et je le
+        montre à mes amis et à mes ennemis ; mais quitter le terrain est impossible : comme cela
+        prend un succès auquel je ne m’attendais pas, il faut que j’en tire parti, et tout de suite,
+        pour la poursuite d’un autre objet qui serait également une place importante à décorer<note
+          place="bottom"> Delacroix reçoit en 1851 la commande du décor du salon de la Paix de
+          l'Hôtel de ville de Paris.</note>. Je ne pourrai donc pas aller <persName key="Sand, George (1804-1876)">vous</persName> embrasser à
+          <placeName key="France, Nohant">Nohant</placeName> ! Voyez s’il est possible d’avoir un
+        plaisir complet ! Ce qui augmente mon regret, c’est qu’il y a eu et il peut y avoir encore
+        des temps magnifiques et que je suis fatigué d’avoir eu le nez sur cette besogne depuis plus
+        de six mois. Je voudrais bien surtout, <persName key="Sand, George (1804-1876)">chère
+          amie</persName>, que vous soyez bien persuadée de ce regret quant à ce qui vous concerne,
+        c'est-à-dire le plaisir de vous voir si différemment <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000139.tif/full/full/0/default.jpg"
+        />qu’à <placeName key="France, Paris">Paris</placeName>, où nous ne pouvons nous accrocher
+        qu’en passant. Voyez la drôle de race que celle des artistes : depuis plus d’un an<note
+          place="bottom"> La toile lui a été commandée le 8 mars 1850 et inaugurée les 16 et 17
+          octobre 1851. </note>, pour ce <rs type="work"
+          key="Apollon vainqueur du serpent Python (J578)">tableau</rs> ou la préparation, je me
+        suis donné bien plus de peine que n’en ont les forçats, car l’esprit était attelé avec le
+        corps : tout cela pour que trente personnes à <placeName key="France, Paris"
+          >Paris</placeName> en parlent deux jours ; à présent je n’aspire qu’à remonter à mon
+        échelle, que j’ai maudite cent fois.</p>
+      <p><persName key="Sand, George (1804-1876)">Vous</persName> êtes bien bonne ou c’est votre éditeur : j’ai reçu vos livraisons nouvelles<note
+          place="bottom"> Il s'agit des <hi rend="it">Oeuvres illustrées de George Sand</hi>,
+          illustrées par Théodore Johannot (Joubin, André, <hi rend="it">Correspondance générale de
+            Eugène Delacroix</hi>, 1937, III, p. 91).</note>et vous en remercie bien.</p>
+
+      <closer>
+        <salute>Je vous embrasse en <persName key="Sand, George (1804-1876)">vous</persName> priant
+          de me pardonner.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 12 mai 1847</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 47</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="4" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 15 septembre 1930, p. 754</bibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936,
+            II, p. 314-316</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 169-171</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1847-05-12"/>
+          <placeName key="France, Paris">Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000109.tif/full/full/0/default.jpg"/>
+      <opener>
+        <salute><persName key="Sand, George (1804-1876)">Chère amie</persName></salute>
+      </opener>
+
+      <p>je vous envoie tous les vœux de mon cœur avec l’expression de ma reconnaissance pour <ref type="letter" target="">votre
+        lettre</ref>, si bonne et si confiante. C’est une bien grande affaire sans doute et bien sérieuse
+        : mais enfin l’essentiel, c’est que la <persName key="Sand, Solange (1828-1899)">chère enfant</persName><note place="bottom">Solange, fille de
+          George Sand. Elle épousa le sculpteur Auguste Clésinger (1814-1883) le 20 mai 1847.</note>
+        suit son penchant et qu’il n’est pas possible qu’elle ne trouve pas quelque bonheur. Je dis
+        quelque bonheur car, vous le dites vous-même dans <ref type="letter" target="">votre
+          lettre</ref>, le bonheur lui-même, c’est-à-dire un état stable et permanent, n’est pas
+        dans les choses de ce monde, pas plus que la durée de la jeunesse et de tout ce qui nous
+        rend la vie si douce au début ; le mariage étant chose plus grave encore que toute autre,
+        c’est toujours beaucoup de gagné que d’y entrer par la porte dorée. Un sentiment si pur et
+        si spontané aura moins la chance de s’égarer que <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000110.tif/full/full/0/default.jpg"
+        />les calculs et les entortillements qu’un vieux désabusé comme moi n’eût pas manqué
+        d’employer dans l’accomplissement d’une pareille affaire : car ma prudence n’est que
+        timidité et j’ai bien souvent envié la résolution de tant de gens que j’ai vus se jeter dans
+        les bras du sort sans arrière-pensée et qui ne s’en sont pas plus mal trouvés. Je ne me
+        regarderais pas cependant comme tout à fait digne de la franche amitié que vous m’avez
+        montrée, si je n’introduisais ici une petite pensée de vieillard concernant le chapitre des
+        intérêts, chapitre immense dans la vie : en un mot, que les arrangements précis et matériels
+        soient soumis par vous à quelques-uns des amis sincères que vous avez là-bas, lesquels,
+        étant entendus en affaires, vous feront prendre des arrangements qui ne pourront en aucune
+        manière blesser un galant homme, mais qui auront pour effet d’assurer l’indépendance de
+        <persName key="Sand, Solange (1828-1899)">votre fille</persName> <hi rend="u">autant que cela peut être réglé à l’avance</hi>. Si j’étais assez
+          <pb n="3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000110.tif/full/full/0/default.jpg"
+        />jeune et assez heureux pour mériter de devenir votre fils après avoir été votre ami,
+        j’irais, n’en doutez pas, au-devant de toutes propositions de ce genre et je ne doute pas
+        que celui que vous avez choisi pour cet honneur n’en fasse de même.</p>
+      <p>Pauvre <persName key="Sand, George (1804-1876)">chère amie</persName>, je me suis senti
+        tout tumultueux pour vous répondre et toujours, suivant ma f[outu]e habitude, j’ai remis au
+        lendemain pour écrire l’esprit net et le cœur assuré : mais enfin, sans avoir tout à fait
+        conquis l’un et l’autre, je me mets à vous répéter ce que je vous ai dit en commençant,
+        c'est-à-dire que mes souhaits les plus ardents sont pour <persName key="Sand, Solange (1828-1899)">cette enfant</persName> que j’aime comme je
+        vous aime, et que je veux heureuse autant que qui que ce soit au monde. Pour moi, qui ne
+        peux plus rien espérer d’une chaste épouse, si jamais j’en prenais une, si ce n’est de me
+        faire présenter ma tisane dans mes rhumes et d’avoir une main pour me fermer les yeux, je me
+        sentirai revivre dans la bonne <persName key="Sand, Solange (1828-1899)">Sol</persName> et
+        dans ses petits Solangeaux ; et je ne suis pas inquiet dans leur avènement futur, car vous
+        m’avez dit souvent que <pb n="4"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000111.tif/full/full/0/default.jpg"
+        />vous comptiez bien vous voir entourée d’une nuée de petits-enfants.</p>
+      <p>Oui, je vous verrai à <placeName key="France, Nohant">Nohant</placeName>, <persName
+          key="Sand, George (1804-1876)">chère amie</persName>. Quand ? Dieu le sait là-haut. Je
+        viens d’avoir une toute petite fièvre qui m’a tenu deux mois pleins, non pas tout à fait sur
+        le flanc, mais dans l’incapacité de mettre la main à mes outils. Je vais passer quatre ou
+        cinq jours à <placeName key="France, Champrosay">Champrosay</placeName> pour achever de me remettre
+        en selle et j’aurai un arriéré de travail à remettre à flot. Vous allez planter bien des
+        beaux choux sur le pignon<note place="bottom"> Coutume du Berry à l'occasion d'un
+          mariage.</note>, que je trouverai encore verdoyants quand j’arriverai. <persName
+          key="Marliani, Charlotte Folleville, épouse (1790-1850)">Mme Marliani</persName> vous aura
+        parlé de la santé de <persName key="Chopin, Frédéric (1810-1849)">Chopin</persName>. Il a eu
+        une attaque d’asthme très violente ; mais il est remis à présent, et admirez la civilisation
+        qui semble n’avoir inventé les villes que pour réunir les hommes et qui est cause qu’à la
+        porte de ce <persName key="Chopin, Frédéric (1810-1849)">cher ami</persName>, je n’ai su que
+        huit jours après, et par hasard, qu’il avait été aussi compromis. Le temps qui n’est plus
+        froid va remettre toutes choses.</p>
+
+      <closer>
+        <salute>Adieux, <persName key="Sand, George">chère et bonne amie</persName>, je vous embrasse, vous, bien tendrement et bien
+          sincèrement, et envoie à tout ce qui vous entoure les vœux et les tendresses les plus
+          vives.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

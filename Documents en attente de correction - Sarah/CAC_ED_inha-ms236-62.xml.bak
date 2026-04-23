@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, [février] 18[52]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 62</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="1" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1937, III, p.
+            108</bibl>
+            <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 193</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1852-02-.."/>
+          <placeName key="France, Paris">Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000143.tif/full/full/0/default.jpg"/>
+      <opener>
+        <dateline>Ce <date when="1852-02-..">dimanche</date> matin<note place="bottom">Le dimanche
+            1<hi rend="sup">er</hi> février ou 15 février. D'après le <hi rend="it">Journal</hi> de
+            Delacroix, George Sand de passage à Paris lui rend visite dans son atelier une première
+            fois le lundi 2 février, peut-être à la suite d'une lettre écrite la veille. Cette lettre
+            pourrait également dater du dimanche 15 février, tous deux ne se revoyant pas avant un
+            dîner qui eut lieu le 21 février selon le <hi rend="it">Journal</hi> d'Eugène Delacroix.
+            La lettre serait alors une relance adressée à George Sand (Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p.
+            283).</note></dateline>
+        <salute><persName key="Sand, George (1804-1876)"></persName>Chère amie</salute>
+      </opener>
+   
+      <p>je ne vous vois point, vous êtes ici<note place="bottom">George Sand est
+          arrivée à Paris le 25 janvier 1852 pour plaider la cause d'amis républicains incarcérés
+          après le coup d'Etat de Louis-Napoléon Bonaparte, le 2 décembre 1851 (Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p.
+          283).</note> et vous êtes malade. Je suis moi-même souffrant et pris dans mille lacs.
+        Par-dessus le marché, les heures où nous pouvons nous rencontrer ne cadrent pas avec nos
+        petites existences, comme elles sont taillées. Prenez donc le jour que vous voudrez dans la
+        semaine, excepté <hi rend="u">mercredi et jeudi</hi>, pour dîner avec moi avec <persName
+          key="Sand, Maurice (1823-1889)">Maurice</persName>, MM. <persName
+          key="Manceau, Alexandre Damien (1817-1865)">Manceau</persName> et <persName
+          key="Lambert, Eugène (1825-1900)">Lambert</persName>, s’il est ici. Écrivez-moi cela et
+        comment vous allez. Si vous avez le temps, nous causerons et nous verrons après dîner :
+        sinon vous irez au spectacle. Si nous ne dînons pas trop tard, nous serons plus longtemps
+        ensemble.</p> 
+      
+      <closer>
+        <salute>Adieux, je <persName key="Sand, George (1804-1876)">vous</persName> embrasse bien et vous demande pardon.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+      
+    </body>
+  </text>
+</TEI>

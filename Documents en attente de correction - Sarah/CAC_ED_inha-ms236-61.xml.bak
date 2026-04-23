@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 22 janvier 18[52]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 61</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="3" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1937,
+            III, p. 101-103</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 192-193</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1852-01-22"/>
+          <placeName key="France, Paris">Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000141.tif/full/full/0/default.jpg"/>
+      <opener>
+        <dateline>Ce <date when="1852-01-22">22 janvier</date></dateline>
+        <salute><persName key="Sand, George (1804-1876)">Chère amie</persName></salute>
+      </opener>
+
+      <p>je réponds bien tard à votre bonne, à votre <ref type="letter" target="">excellente lettre</ref> ; j’ai eu à faire beaucoup,
+        non pas pour ces nouvelles fonctions<note place="bottom"> Delacroix avait été nommé
+          commissaire municipal de la Ville de Paris par décret du 27 décembre 1851 (Alexandre, Françoise, <hi rend="it">Correspondance</hi>,
+          2005, p. 282). </note> qui ne me prendront qu’une séance de temps en temps. Je n’ai
+        accepté qu’à condition de ne mettre le nez que dans ce qui me concerne et dans ces parties,
+        il faudrait plutôt que nous soyons six du même bord, qu’un seul. J’ai été pris à la gorge
+        par le <persName key="Berger, Jean-Jacques (1790-1859)">préfet</persName><note place="bottom"> Jean-Jacques Berger (1790-1859), préfet de la Seine du 20
+          décembre 1848 au 22 juin 1853. Il mit en oeuvre les premières mesures de la politique de
+          rénovation urbaine voulue par le prince-président Louis-Napoléon Bonaparte.</note>, qui a
+        imaginé cela tout seul et qui me trouve plus d’esprit qu’aux autres peintres. La ville de
+          <placeName key="France, Paris">Paris</placeName> dépense beaucoup en travaux d’art et,
+        malgré ce que je pourrai dire avec ma faible voix, il se fera encore beaucoup de sottises
+        comme par le passé, mais peut-être parviendrai-je à parer quelques coups ; quant à la
+        rétribution, elle consiste dans l’honneur, <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000142.tif/full/full/0/default.jpg"
+        />et le jour où cela m’ennuierait, je laisserais les choses pour ce qui me concerne à leur
+        cours naturel.</p>
+      <p>Que je suis heureux que vous n’ayez pas été trop mécontente de mon envoi ! J’ai hésité
+        entre deux ou trois petites toiles et il m’a semblé que celle-ci ferait une variété par le
+        sujet. <persName key="Falempin">Falempin</persName>
+        avec une grande ponctualité est venu m’apporter l’argent, que je suis honteux de vous
+        prendre car vous suez comme moi pour en avoir et les temps de révolutions ne sont guère pour
+        enrichir les artistes. Vous n’êtes pas plus contente de votre santé ; je me suis toujours
+        figuré que la contention du travail de nuit, si agréable d’ailleurs, contrarie par trop la
+        bonne nature et en est-il une plus privilégiée que la vôtre ? Un peu de repos, <persName
+          key="Sand, George (1804-1876)">chère amie</persName>, c’est-à-dire à propos. Je vous
+        prêche de la rigueur et contre le travail encore, qui est notre plus grand <pb n="3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000142.tif/full/full/0/default.jpg"
+        />consolateur. Moi qui vous parle, je passe des journées à mon chevalet, auprès d’un poêle
+        brûlant qui me dessèche le cerveau. Cependant j’obtiens de ma paresse de marcher beaucoup le
+        soir : ordinairement cela me donne une assez bonne nuit.</p>
+      
+      <closer>
+          <salute>Mille choses, <persName key="Sand, George (1804-1876)">chère amie</persName>, à ces
+        messieurs qui veulent bien se souvenir de moi. J’embrasse <persName
+          key="Sand, Maurice (1823-1889)">Maurice</persName> et <persName
+          key="Sand, Solange (1828-1899)">Solange</persName> avec sa permission. Pour vous, vous
+        êtes un des seuls êtres auxquels je pense toujours avec bonheur : cela n’a rien d’étonnant
+        pour qui vous a appréciée ; mais il y a quelque chose de plus que l’estime que j’ai de vos
+        qualités : c’est un penchant de cœur et qui ne me quittera pas, à moins que je ne m’oublie
+        moi-même.</salute> 
+          <salute>Je vous embrasse donc bien, <persName key="Sand, George (1804-1876)">chère
+            amie</persName>.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+        </closer>
+      
+    </body>
+  </text>
+</TEI>

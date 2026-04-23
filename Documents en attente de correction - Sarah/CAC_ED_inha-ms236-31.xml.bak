@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 8 juillet 1842</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 31</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="4" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 1er septembre 1930, p. 705</bibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936,
+            II, p. 116-117</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 129</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1842-07-08"/>
+          <placeName key="France, Paris">Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000071.tif/full/full/0/default.jpg"/>
+      <opener>
+        <address>
+          <addrLine>Madame <persName key="Sand, George (1804-1876)">G. Sand</persName></addrLine>
+          <addrLine><placeName key="France, La Châtre"><hi rend="u">à La Châtre</hi></placeName></addrLine>
+          <addrLine><placeName><hi rend="u">Indre</hi></placeName></addrLine>
+        </address>
+        <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000072.tif/full/full/0/default.jpg"/>
+        <dateline><date when="1842-07-08">8 juillet</date></dateline>
+
+        <salute><persName key="Sand, George (1804-1876)">Chère amie</persName></salute>
+      </opener>
+      <p>je reçois votre <ref type="letter" target="">seconde lettre</ref> au moment de vous écrire
+        pour vous accuser réception de la caisse. J’avais effectivement déjà traité de fourbe et
+        d’imposteur celui qui me l’a apportée et qui réclamait le port de ladite : tout est donc
+        pour le mieux et la vertu n’est pas un mot. Je ne suis pas de meilleure humeur qu’en vous
+        écrivant et je vous boude vraiment pour ce que vous m’avez envoyé. J’ai décidément le
+        spleen, <persName key="Sand, George (1804-1876)">ma pauvre amie</persName>. Un mien ami m’a
+        dit avoir passé par cette espèce d’âge critique. Heureusement il m’a assuré que c’était
+        l’affaire de quelques années avant d’arriver au port de l’indifférence, où il paraît que
+        vous êtes parvenue. Cette perspective n’a rien de gai et je suis <pb n="3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000073.tif/full/full/0/default.jpg"
+        />véritablement dans un triste état. C’est une impatience de tout que vous ne sauriez
+        croire. Mon séjour chez vous avait fait trêve et cela me reprend de plus belle<note
+          place="bottom"> Françoise Alexandre note que Delacroix souffre en réalité d'un état
+          dépressif chronique qu'il noie dans le travail de ses créations (Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 129 et n.1 p.243).
+        </note>.</p>
+      <p>Puisque nous sommes en train de restituer, vous direz à <persName
+          key="Chopin, Frédéric (1810-1849)">Chopin</persName> que j’ai à lui un caleçon. La fidèle
+          <persName key="Le Guillou, Jeanne Marie, dite Jenny (1801-1869)">Jenny</persName> n’avait
+        pas tardé à s’apercevoir du déficit dans ma garde-robe. J’avais emporté chez vous un objet
+        auquel je tenais beaucoup, c’est la jolie bourse que m’avait donnée <persName
+          key="Sand, Solange (1828-1899)">Solange</persName>. Il y avait aussi un petit cordon
+          d’Alger<note place="bottom"> Eugène Delacroix avait dû ramener cet objet lors de son
+          voyage au Maroc (1832).</note>. Non pas que j’y tinsse beaucoup, mais c’est que <persName
+          key="Le Guillou, Jeanne Marie, dite Jenny (1801-1869)">ma gouvernante</persName> m’a
+        assuré que ces deux objets étaient ensemble. Je regretterais que la jolie bourse fût dans
+        des épluchures.</p>
+
+      <closer>
+        <salute>Adieu <persName key="Sand, George (1804-1876)">chère amie</persName>, il fait un
+          temps affreux pour les nerfs. En rêvant que vous <pb n="4"
+            facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000073.tif/full/full/0/default.jpg"
+          />me voyiez, avez-vous rêvé que vous étiez la <persName
+            key="Berry, Marie Caroline de Bourbon, duchesse de (1799-1870)">duchesse de
+            Berry</persName> ? Je vous embrasse sincèrement tous mais je suis triste.</salute>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 2 septembre 18[52]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 65</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="4" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+            <accMat>Présence d'un feuillet d'éphéméride du 2 février 1929 annoté au verso de la main
+              d'Aurore Lauth-Sand.</accMat>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 15 septembre 1930, p. 755</bibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1937,
+            III, p. 120-122</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 194-195</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1852-09-02"/>
+          <placeName key="France, Paris">Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000148.tif/full/full/0/default.jpg"/>
+      <opener>
+        <dateline>Ce <date when="1852-09-02">2 septembre [1852]</date></dateline>
+        <salute><persName key="Sand, George (1804-1876)">Chère amie</persName></salute>
+      </opener>
+
+      <p>mille remerciements, mille compliments de cœur de la bonne soirée et du petit chef-d’œuvre
+        d’hier soir. Vous pensez encore de temps en temps à un vilain ingrat qui ne vous marque pas
+        qu’il existe et qui ne demande pas si vous existez, et vous lui montrez que vous vivez bien
+        réellement, au moins par l’esprit. Je vous remercie donc encore : vous serez contente de la
+        manière dont cela est joué et dont le public <hi rend="u">honnête</hi> qui composait la
+        salle a pris et prendra la pièce<note place="bottom"> Le <hi rend="it">Démon du foyer</hi>,
+          pièce de George Sand dont la première est jouée au théâtre du Gymnase le 1<hi rend="sup">er</hi>
+          septembre 1852. </note>. Pas une figure de <hi rend="u">gazetier</hi><note place="bottom">
+          Un des personnages de la pièce est un gazetier. L'insistance de Delacroix rappelle que
+          George Sand était alors en conflit avec les journalistes comme le souligne également
+          Aurore Lauth-Sand dans une note jointe à la lettre : "George Sand était en conflit avec les
+          journalistes, qu'elle appelle les <hi rend="it">gazetiers</hi> dans <hi rend="it">Le Démon
+            du foyer</hi>. Ce mot lui fut violemment reproché dans un article de Jules Lecomte.
+          Réponse de cet article dans <hi rend="it">La Presse</hi> du 10 septembre 1852. L'article
+          de Lecomte a paru dans <hi rend="it">L'Indépendance belge</hi> du 5 septembre (Alexandre,
+          Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 283).</note> n’encombrait les
+        couloirs et ne ricanait à l’orchestre ou ailleurs. Ils vous gardent une rancune qui prouve
+        au moins que vous ne leur ressemblez pas. Impuissance et insolence, les deux termes qui
+        devraient <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000149.tif/full/full/0/default.jpg"
+        />le moins se rencontrer ensemble, telle est la marque que j’espère bien qu’un code futur,
+        qui est encore dans le troisième ciel à venir, leur imprimera sur l’épaule à chaque nouvelle
+        incartade. Ces gens-là croient bonnement qu’ils vous font, que vous êtes leur ouvrage, que
+        ce sont leurs charitables avis qui, vous prenant à la lisière, vous ont ouvert par degrés
+        les portes du temple où ils n’entrent jamais, et ils n’entendent pas se départir de leur
+        tutelle, sous peine de vous abandonner à vos forces et de faire de nouveaux élèves pour la
+        gloire, auxquels naturellement ils vous sacrifient, à ce qu’ils s’imaginent. Vous n’avez
+        donc averti personne. Cela est arrivé comme une bombe. Ce brave <persName key="Arpentigny, Casimir-Stanislas d' (1791-1861)">capitaine</persName><note
+          place="bottom"> Le capitaine d'Arpentigny, ami de George Sand (Joubin, André, <hi
+            rend="it">Correspondance générale de Eugène Delacroix</hi>, 1937, III, p. 121 et
+          Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 283).</note> qui était
+        là m’a dit <pb n="3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000150.tif/full/full/0/default.jpg"
+        />qu’il avait été aussi surpris que moi. J’ai vu <persName key="Sand, Solange (1828-1899)"
+          >Solange</persName> qui m’a dit, à mon grand étonnement, que vous n’étiez pas ici<note
+          place="bottom">Georges Sand séjourne alors à Nohant (Alexandre, Françoise, <hi rend="it"
+            >Correspondance</hi>, 2005, p. 283).</note> et que vous ne viendriez pas tout de suite
+        encore. C’est donc <persName key="Sand, Maurice (1823-1889)">Maurice</persName> que vous
+        avez chargé de monter la pièce ? Il pourrait bien aussi trouver quelqu’un à enlever parmi
+        ces dames, qui sont charmantes, en les fréquentant. Voici ce que je deviens. J’ai fait
+        énormément depuis cinq ou six mois : je n’ai pas le temps de bouger, car j’ai un terme fatal
+        et assigné, ce qui me fait enrager et vivre heureux tout à la fois<note place="bottom">
+          Delacroix travaille alors au salon de la Paix de l'Hôtel de ville de Paris.</note>. On me
+        demande de retourner quinze jours à la mer, car je vieillis et il me faut des toniques, et
+        je n’irai pas probablement<note place="bottom"> Il se rend néanmoins à Dieppe, où il a déjà
+          séjourné deux semaines en septembre 1851, du 6 au 14 septembre 1852 (Alexandre, Françoise,
+            <hi rend="it">Correspondance</hi>, 2005, p. 283).</note>. Tous les soirs, je suis comme
+        un homme qui aurait fait dix lieues à pied et le lendemain je me réveille empressé de courir
+        voir mes pauvres enfants de la veille : je les trouve <pb n="4"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000151.tif/full/full/0/default.jpg"
+        />encore tout humides de mes baisers ; le plus souvent ils me semblent mal léchés,
+        quelquefois je suis satisfait. Ainsi faisant, corrigeant et refaisant j’arrive au bout et
+        quand j’y serai, si j’y arrive, je demanderai à recommencer ; car quand, dans ce monde, on
+        n’a plus d’infante à enlever, il faut travailler ou périr d’ennui.</p>
+
+      <closer>
+        <salute>Adieu <persName key="Sand, George (1804-1876)">chère</persName>, je vous embrasse
+          bien de cœur, vous qui avez toujours été pour moi la bonté, l’indulgence, le dévouement.
+          J’essaye de vous rendre, et j’espère que ce sera jusqu’à la fin de ma vie, ce que je peux
+          contenir de tout cela.</salute>
+        <salute>Adieu encore : soyez <persName key="Sand, George (1804-1876)">heureuse</persName> de
+          votre succès.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)"></persName>Eug. Delacroix</signed>
+      </closer>
+    </body>
+  </text>
+</TEI>

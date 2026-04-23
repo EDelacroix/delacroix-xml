@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 2 août 18[47]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 48</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="4" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 15 septembre 1930, p. 755</bibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936,
+            II, p. 321-323</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 173-174</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1847-08-02"/>
+          <placeName key="France, Champrosay">Champrosay</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000112.tif/full/full/0/default.jpg"/>
+      <opener>
+        <address>
+          <addrLine><placeName key="France, Champrosay">Champrosay</placeName></addrLine>
+        </address>
+        <dateline><date when="1847-08-02"/>2 août</dateline>
+      </opener>
+
+      <p>Le retard de ma lettre, <persName key="Sand, George (1804-1876)">chère amie</persName>,
+        retard que vous ne prendrez pas pour de l’indifférence pour ce que vous souffrez<note
+          place="bottom"> Delacroix fait ici référence à la brouille de George Sand avec sa fille et
+          son gendre, Auguste Clesinger, qu'elle venait de chasser de Nohant. Sand en fait mention
+          dans une lettre à Delacroix du 29 juillet 1847.</note>, vient de ma bêtise à vouloir vous
+        dire assurément si je pourrai aller vous voir ou non. Il vient aussi de la vie décousue que
+        j’ai menée depuis quinze jours, essayant de travailler ici tout en jouissant de la campagne,
+        et revenant aussi de temps en temps à <placeName key="France, Paris">Paris</placeName> pour faire
+        quelques séances de <rs type="work" key="Sénat, Bibliothèque, Coupole (J569)">travail</rs> au <placeName key="France, Paris, Palais Bourbon">palais Bourbon</placeName>. Tout cela
+        n’a abouti qu’à me faire perdre mon temps et par-dessus le marché à me fatiguer, de sorte
+        que je n’ai pas profité de la <placeName key="France, Champrosay">campagne</placeName> et que je
+        n’ai rien fait qui vaille comme travail.</p>
+      <p>Quels tristes détails, <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000113.tif/full/full/0/default.jpg"
+        />et comment en reparler avec vous ? Je sens encore plus combien j’ai eu tort de ne pas vous
+        répondre sur le champ : car je rappelle par ma lettre votre esprit sur de cruels sujets. La
+        vie est si véritablement affreuse pour la plupart du temps, qu’il faut encore s’estimer
+        heureux quand on ne fait que la trouver creuse et inutile. C’est quand d’aussi affreux
+        déchirements viennent la traverser qu’on est tenté de se demander à qui nous sommes servis
+        en pâture, nous et nos tristes cœurs. Végétons donc, fuyons les liens et les affections
+        puisque les uns et les autres amènent presque inévitablement une suite nécessaire de
+        supplices : la mort éteint les uns et nous laisse, pour ce qui nous reste de jours, de
+        cruels regrets ; les passions, la folie brisent les autres ; et le souvenir <pb n="3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000113.tif/full/full/0/default.jpg"
+        />de ceux-ci est le plus cruel.</p>
+      <p>Peut-être à cette heure avez-vous repris un peu de calme. Je le désire bien, <persName
+          key="Sand, George (1804-1876)">chère amie</persName>. Un peu de travail, la tranquillité
+        de votre retraite opéreront sur votre esprit. Peut-être, pardonnez-moi, tout n’est-il pas
+        brisé. Le temps change tout et l’irrévocable est trop affreux pour notre faiblesse.</p>
+      <p><persName key="Sand, George (1804-1876)">Chère amie</persName>, je ne pourrai aller vous
+        voir et vous me voyez tout hésitant à vous le dire : car vous avez besoin plus que jamais
+        des distractions qu’on trouve dans une affection sincère. Je suis dans une impasse d’où je
+        ne peux sortir qu’en m’évertuant beaucoup. Je suis sans le sou : c’est une situation trop
+        commune à trop de monde pour qu’elle puisse me rendre intéressant ; mais le hasard me donne
+        à faire, pour la fin <date when="1847-09">septembre</date>, une répétition d’un de <rs type="work" key="">mes tableaux</rs><note place="bottom">Le
+            <hi rend="it">Corps de garde à Méquinez</hi>, 1846, huile sur toile, 65 x 54 cm.
+          Wuppertal, Von der Heydt Museum. L'oeuvre avait été exposée au Salon de 1847.</note> qui
+        me sera passablement payée. Il la faut dans ce terme et je n’ai que le <pb n="4"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000114.tif/full/full/0/default.jpg"
+        />temps de m’y mettre. J’avais essayé ici ce que je pourrais faire à la campagne et le
+        résultat n’a pas été heureux. Il y a encore quelques petites nécessités et obligations qui
+        me retiennent ici et je vous assure, <persName key="Sand, George (1804-1876)">chère
+          amie</persName>, avec un véritable chagrin. Il y a quinze jours, quand j’ai reçu votre
+        lettre, je me flattais encore d’aller respirer votre air pur et de tâcher de suspendre
+        pendant quelques instants vos ennuis. Je quitte tous les miens quand je vois votre clocher,
+        mais ils ne sont rien en comparaison de ceux que j’aurais voulu vous faire oublier quelque
+        peu.</p>
+
+      <closer>
+        <salute>Aimez-moi de même, <persName key="Sand, George (1804-1876)">chère amie</persName>.
+          Croyez-moi et comptez sur moi. J’embrasse bien <persName key="Sand, Maurice (1823-1889)"
+            >Maurice</persName> et vous, et me rappelle avec regret à tout ce qui vous entoure et
+          que vous aimez.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

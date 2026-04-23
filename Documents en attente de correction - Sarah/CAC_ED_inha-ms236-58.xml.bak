@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 10 octobre 18[51]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 58</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="3" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1937,
+            III, p. 85-86</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 187</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1851-10-10"/>
+          <placeName key="France, Paris">Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000136.tif/full/full/0/default.jpg"/>
+      <opener>
+        <dateline>Ce <date when="1851-10-10">10 octobre</date></dateline>
+      </opener>
+
+      <p>Je n’osais pas vous écrire, <persName key="Sand, George (1804-1876)">chère amie</persName>,
+        parce que je suis en plein dans mes <rs type="work" key="Apollon vainqueur du serpent Python (J578)
+          ">retouches</rs> et que nous sommes déjà au 10. J’en ai encore
+        pour plusieurs jours, indépendamment de ce qu’il faudra pour qu’il sèche un peu avant de le
+        vernir, car il faut bien paraître avec tous ses avantages<note place="bottom"> Delacroix
+          achève la composition centrale de la voûte de la galerie d’Apollon représentant <hi
+            rend="it">Apollon vainqueur du serpent Python</hi>. La toile, peinte en atelier, a été
+          mise en place en dans la deuxième quinzaine de septembre 1851 et Delacroix y apporte
+          encore quelques retouches avant son vernissage et sa présentation officielle au public qui
+          se tiendra les 16 et 17 octobre 1851 (Alexandre, Françoise, <hi rend="it"
+            >Correspondance</hi>, 2005, p. 279).</note>. Et puis il faut bien que je le montre à un
+        certain nombre d’amis et d’importants à qui il faut donner la fleur. Tout cela, bien
+        qu’entraînant du temps, ne m’ôte pas l’espoir d’aller vous embrasser d’abord à <placeName
+          key="France, Nohant">Nohant</placeName> : d’ici à quelques jours je vous écrirai encore et
+        je saurai probablement vous dire positivement ce que je puis faire. Ce que je termine dans
+        ce moment est une grosse affaire pour moi dans ce moment : on m’attend là <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000137.tif/full/full/0/default.jpg"
+        />pour savoir définitivement si je suis peintre ou barbouilleur. Le public, comme vous
+        voyez, et surtout ceux qui lui font son opinion sont quelquefois bien récalcitrants : car il
+        y aura l’année prochaine trente ans juste que je suis sur le tapis et que j’ai exposé pour
+        la première fois<note place="bottom"> Au Salon de 1822, Delacroix expose un <hi rend="it"
+            >Dante et Virgile</hi> ou <hi rend="it">La Barque de Dante</hi> (huile sur toile,
+          189x241,5 cm, Louvre).</note>.</p>
+      <p>Le posage a réussi à merveille : il est un chef-d’œuvre à lui tout seul. Quant au <rs type="work" key="Apollon vainqueur du serpent Python (J578)
+        ">tableau</rs>,
+        que je n’avais vu, depuis six mois et plus que j’y travaillais, que le jour où on a enlevé
+        une partie de l’échafaudage, aucun de mes petits calculs n’a été trompé : les retouches ne
+        portent que sur des misères<note place="bottom"> En raison de ses grandes dimensions, 8
+          mètres par 7,50, la toile fut d'abord pliée en deux et peinte en deux temps dans
+          l'atelier de la rue Notre-Dame-de-Lorette (Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 279). Transportée au
+          Louvre, elle fut marouflée sur le coffrage de la voûte de la galerie d'Apollon, subit
+          quelques retouches et après un temps de séchage, fut vernie.</note>. On s’étonne que le
+        tableau soit arrivé tout juste comme s’il avait été fait pour la place : comme il ne s’est
+        pas fait tout seul, on s’étonnerait moins si on savait les précautions que j’ai <pb n="3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000137.tif/full/full/0/default.jpg"
+        />prises. Vous savez ce que coûtent souvent les moindres détails.</p>
+
+      <closer>
+        <salute>Je vous embrasse donc encore et vous remercie de nouveau. Je me porte comme un
+          charme : la mer a fait merveilles<note place="bottom"> Delacroix a séjourné à Dieppe les
+            quinze premiers jours de septembre 1851, soignant sa fatigue physique par des bains de
+            mer (cf. lettres des <ref type="letter" target="CAC_ED_inha-ms236-56.xml">4</ref> et
+              <ref type="letter" target="CAC_ED_inha-ms236-57.xml">9</ref> septembre 1851).</note>.
+          Mille tendresses à <persName key="Sand, Maurice (1823-1889)">Maurice</persName> et à vos
+          hôtes. À bientôt de toute façon, <persName key="Sand, George (1804-1876)">chère
+            amie</persName>, mais à <placeName key="France, Nohant">Nohant</placeName>
+          j’espère.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+      
+    </body>
+  </text>
+</TEI>

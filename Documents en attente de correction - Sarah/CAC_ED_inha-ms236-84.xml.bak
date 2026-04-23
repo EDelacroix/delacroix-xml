@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 9 [mars] 18[60]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 84</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="1" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1938, IV, p.
+            149-150</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 213-214</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1860-03-09"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000174.tif/full/full/0/default.jpg"/>
+      
+      <opener>
+        <dateline>Ce <date when="1860-03-09">vendredi 9</date></dateline>
+      <dateline><add place="margin">[février 1860]<note place="bottom"> Datation indiquée au
+          crayon, d'une autre main, correspondant à celle reprise par André Joubin (IV, p. 149-150).
+          Elle est cependant erronée, Sand n'étant pas alors à Paris et le 9 février ne tombant pas
+          un vendredi, mais un jeudi. Françoise Alexandre a rétabli qu'il s'agit ici du vendredi 9
+          mars 1860, date à laquelle la romancière est dans la capitale (Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p.
+            294).</note></add></dateline>
+      <salute>Chère <persName key="Sand, George (1804-1876)">amie</persName></salute>
+      </opener>
+      
+      <p>j’espère que vous m’excuserez de ne pas aller vous voir aujourd’hui. Je crains véritablement ce froid si vif,
+        je ne suis pas encore aguerri, il s’en faut bien. Je n’ose espérer que vous soyez assez
+        bonne pour passer un instant avant de partir.</p>
+      <p>Je n’ai vu ni <persName key="Bertin, François Édouard (1797-1871)">Bertin</persName>, ni
+        personne depuis deux mois et demi ; vous savez qu’il désirait beaucoup savoir quand vous
+        seriez à même de vous mettre à ce que vous voudrez bien faire pour son journal<note
+          place="bottom"> À ce sujet, voir les lettres des <ref type="letter"
+            target="CAC_ED_inha-ms236-82.xml">10</ref> et <ref type="letter"
+            target="CAC_ED_inha-ms236-83.xml">17 décembre 1859.</ref></note>.</p>
+      
+      <closer>
+      <salute>Je vous embrasse, <persName key="Sand, George (1804-1876)">bien chère amie</persName>.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">E. Delacroix</persName></signed>
+      </closer>
+      
+    </body>
+  </text>
+</TEI>

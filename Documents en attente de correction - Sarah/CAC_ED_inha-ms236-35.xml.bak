@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, [24 avril] 18[43]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 35</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="1" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 1er août 1930, p. 599</bibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936,
+            II, p. 135</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 134</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1843-04-24"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000079.tif/full/full/0/default.jpg"/>
+      
+      <p>Que vous êtes bonne, <persName key="Sand, George (1804-1876)">chère amie</persName>, de me
+        procurer encore le plaisir de me trouver avec vous : car <hi rend="it">Judith</hi> et son
+          auteur<note place="bottom"> Il s'agit de Mme Delphine de Girardin (née Gay ; 1804-1855)
+          dont la première représentation de sa tragédie <hi rend="it">Judith</hi> a lieu au
+          Théâtre-Français le 24 avril 1843. André Joubin et Françoise Alexandre datent précisément
+          la lettre de cette date.</note>, je n’en donnerais pas ce que je n’ose vous dire ; mais
+        passer près de vous de bons moments, c’est pour moi la comédie, l’opéra, le ballet, si tout
+        cela amusait. Je suis triste comme cent mille ânes et je tâcherai bien d’aller dîner avec
+          <persName key="Sand, George (1804-1876)">vous</persName> pour me remonter un peu.</p>
+
+      <closer>
+        <salute>Je <persName key="Sand, George (1804-1876)">vous</persName> remercie encore et vous envoie mille bonjours de cœur.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">E. Delacroix</persName></signed>
+      </closer>
+
+      <postscript>
+        <p>Ne vous tuez pas, <persName key="Sand, George (1804-1876)">chère</persName>, dormez,
+          mangez et aimez-moi un peu, c’est la sagesse. (Sardanapale)<note place="bottom"> Sans doute
+            une allusion au dernier roi de Ninive, objet de sa toile la <hi rend="it">Mort de
+              Sardanapale</hi> (Paris, musée du Louvre ; exposée au Salon de 1827-28). André Joubin
+            indique qu'en 1843, Delacroix travaillait à la "réduction" de ce tableau (Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936, II,
+            p. 135, n. 2). La petite version de la <hi rend="it">Mort de Sardanapale</hi> aurait
+            plutôt été peinte en 1846, "au moment de la vente du tableau de 1827 au banquier John
+            Wilson" (Jobert, Barthélémy, <hi rend="it">Delacroix</hi>, 1997, p. 295). Cette dernière est aujourd'hui conservée au
+            Philadelphia Museum of Arts, collection McIlhenny (Jobert, Barthélémy, <hi rend="it">Delacroix</hi>, 1997, p. 327, n. 142).</note><note
+            place="bottom">Théophile Gautier rend compte de la pièce dans <hi rend="it">La Presse</hi> du 2 mai
+            suivant, faisant notamment l'éloge de la comédienne Rachel (1821-1858) dans le rôle
+            de Judith. Selon Françoise Alexandre, le mot vaut comme une sorte de seconde
+            signature identifiant Delacroix à Sardanapale, ou plutôt que le conseil de Delacroix à
+              Sand émanerait de Sardanapale (voir Alexandre, Françoise, <hi rend="it">Correspondance</hi>, p. 245, n. 2 de la page 134).</note>.</p>
+      </postscript>
+
+
+
+    </body>
+  </text>
+</TEI>

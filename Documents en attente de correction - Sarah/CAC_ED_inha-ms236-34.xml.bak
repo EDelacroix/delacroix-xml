@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 30 juillet 18[43]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 34</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="3" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 1er août 1930, p. 706</bibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936,
+            II, p. 144-146</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 136-137</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1843-07-30"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000077.tif/full/full/0/default.jpg"/>
+      <opener>
+        <dateline><date when="1843-07-30">30 juillet</date></dateline>
+
+        <salute><persName key="Sand, George (1804-1876)">Chère amie</persName></salute>
+      </opener>
+
+      <p>j’ai trouvé ici en arrivant<note place="bottom"> Delacroix rentrait d'un séjour d'une
+          dizaine de jours à Nohant chez George Sand. Juste avant, il avait passé quelques temps
+          avec son frère aîné à Vichy (voir lettre à Pierret, 21 juillet 1843).</note> tous les
+        ennuis que je prévoyais et de nouveaux encore. Comme il est écrit qu’il n’y aura pas une
+        seule minute qui ne soit gâtée par quelque désagréable pensée, j’ai eu à me battre
+        successivement avec tous ces fantômes qui renaissent sans cesse et dont le dernier sera
+        celui qui me tuera. Je voulais aussi en vous écrivant vous donner des nouvelles de <persName
+          key="Sand, Solange (1828-1899)">Solange</persName>, quoique j’en eusse par <persName
+          key="Marliani, Charlotte Folleville, épouse (1790-1850)">Mme Marliani</persName> à qui
+          <persName key="Rozières, Marie Élizabeth de (v. 1805-1865)">Mlle de Rozières</persName> en
+        avait donné. Elle était superbe et dans une santé parfaite. Enfin hier soir j’ai été à
+        <placeName key="France, Paris, rue de Chaillot, 70">Chaillot</placeName> et je n’ai pas été assez heureux pour la rencontrer<note place="bottom">Comme l'indique Françoise Alexandre, "Solange
+          est à la pension Bascans, à Chaillot, depuis avril 1841" (Alexandre, Françoise, <hi
+            rend="it">Correspondance</hi>, 2005, n. 7 de la p. 136). </note>. Elle était chez
+          <persName key="Auribeau, Olympe d'Hesmivy d' (1804-1884)">Mme d’Oribeau</persName>. Votre
+        lettre pour <persName key="Garcia, Madame">Mme Garcia</persName> a été remise fidèlement dès
+        le jour de mon arrivée.</p>
+      <p>Voici mon itinéraire après vous avoir quittée : <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000078.tif/full/full/0/default.jpg"
+      />mon voyage jusqu’à <placeName key="France, Châteauroux">Châteauroux</placeName> a été assez long parce que mon cocher était un enfant qui
+        s’endormait continuellement, de sorte que j’étais obligé de me réveiller moi-même pour
+        fouetter les chevaux : il faisait donc jour plein quand je suis arrivé. Après m’être couché,
+        j’ai vu quelques instants mon <persName key="Leroy, Ferdinand (1808-1866)
+          ">préfet</persName><note place="bottom"> Il s'agirait de M. Ferdinand
+          Leroy, préfet de l'Indre entre 1842 et 1847, et ami de Delacroix. Dans une lettre de Sand
+          du 19 mai 1843, elle écrit à Delacroix : "faites-moi savoir si votre ami Mr Leroy est
+          dans sa préfecture de Châteauroux" (Alexandre, Françoise, <hi rend="it"
+            >Correspondance</hi>, 2005, p. 134, lettre n° 70).</note><note> La visite de Delacroix à
+          ce préfet pourrait être en rapport avec la création par George Sand du journal <hi
+            rend="it">L'Eclaireur de l'Indre</hi>, dont le premier numéro paraît en septembre 1844
+          (Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936, II,
+          p. 145, n. 4 et Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, n. 10 de la
+          p. 136).</note> et suis parti à midi : mais à <placeName key="France, Vierzon">Vierzon</placeName>,
+        station de deux heures et à <placeName key="France, Orléans">Orléans</placeName>, où j’arrivai le matin vers 4
+        heures, autre station jusqu’à l’heure du chemin de fer. Voilà comment le problème a été
+        résolu ; il en résulte qu’il est à peu près aussi long de prendre le chemin de fer que de
+        continuer tout droit ; reste la commodité du trajet.</p>
+      <p>J’ai vu <persName key="Marliani, Charlotte Folleville, épouse (1790-1850)">Mme
+          Marliani</persName> hier soir, qui était momentanément sans nouvelles et par conséquent
+        inquiète. Elle avait aussi vu <persName key="Sand, Solange (1828-1899)">Solange</persName>
+        que <persName key="Auribeau, Olympe d'Hesmivy d' (1804-1884)">Mme d’Oribeau</persName> lui
+        avait amenée et qu’elle avait trouvée à merveille. J’ai embrassé <persName
+          key="Marliani, Enrico">Enrico</persName> pour vous.</p>
+      <p><persName key="Sand, George (1804-1876)">Chère amie</persName>, je vous enverrai demain <pb
+          n="3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000078.tif/full/full/0/default.jpg"
+        />ou après-demain des échantillons de cigarettes par la diligence. J’ai demandé à <persName
+          key="Marliani, Charlotte Folleville, épouse (1790-1850)">Mme Marliani</persName> de me
+        donner ce qu’elle aurait à vous envoyer, je le joindrai à mon paquet.</p>
+      <p>Adieu, <persName key="Sand, George (1804-1876)">chère</persName>, vous combattez la
+        tristesse et le dessèchement de l’âme par une grande force d’esprit. Je tâche de vous imiter
+        de mon mieux, mais il faut une rude cuirasse, je vous assure.</p>
+
+      <closer>
+        <salute>Je <persName key="Sand, George (1804-1876)">vous</persName> embrasse bien sincèrement en attendant le plaisir de vous revoir et ne puis
+          assez vous remercier de votre charmante bonté pendant mon séjour près de vous.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+      <postscript>
+        <p>Mille tendresses à <persName key="Chopin, Frédéric (1810-1849)">Chopin</persName>, à
+            <persName key="Sand, Maurice (1823-1889)">Maurice</persName>, à <persName
+            key="Chatiron, Hippolyte (1799-1848)">Polyte</persName> : je regrette bien la flânerie,
+          les bonnes causeries et l’amitié de <placeName key="France, Nohant">Nohant</placeName>.</p>
+      </postscript>
+
+      <postscript>
+        <p>Je vous envoie un petit briquet que vous trouverez peut-être encore plus commode que le
+          vôtre en ce qu’il n’y a qu’à frotter l’allumette dessous, le flacon étant sujet à
+          s’évaporer. Essayez. Pour cacheter une lettre, vous fichez l’allumette dans le petit trou
+          qui est sur le couvercle.</p>
+      </postscript>
+
+    </body>
+  </text>
+</TEI>

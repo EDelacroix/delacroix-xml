@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 11 août 18[51]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 55</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="3" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1937,
+            III, p. 74-76</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 181-182</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1851-08-11"/>
+          <placeName key="France, Paris">Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000129.tif/full/full/0/default.jpg"/>
+      <opener>
+        <dateline>Ce <date when="1851-08-11">11 août</date></dateline>
+      </opener>
+
+      <p>Je suis ravi, <persName key="Sand, George (1804-1876)">chère amie</persName>, et de votre
+          cadeau<note place="bottom"><hi rend="it">Portrait de George Sand</hi>, gravé par
+          Alexandre-Damien Manceau d'après un dessin de Thomas Couture. La gravure fut présentée au
+          Salon de 1850.</note> et de votre invitation. Je ne vous ai pas encore répondu parce qu’en
+        acceptant l’un et l’autre, je voulais vous dire quand je pourrais aller vous voir et que je
+        suis en train de décider cela. Vous avez bien deviné en supposant que je travaille comme un
+        nègre : je travaille même davantage, car je crois qu’ils n’agissent pas communément beaucoup
+        de la tête et chez moi, tête, bras et jambes sont en danse. J’achève en un mot <rs type="work" key="Apollon vainqueur du serpent Python (J578)
+          ">un travail</rs>
+        affreux, délicieux, qui sera ce qu’il pourra, mais enfin je l’achève et il est impossible
+        que je le quitte pour toutes les raisons du monde<note place="bottom">Delacroix achève alors
+          son <hi rend="it">Apollon vainqueur du serpent Python</hi> destiné au plafond de la galerie d'Apollon au
+          Louvre. La toile sera mise en place au début du mois d'octobre 1851 (Jobert, 1995, p.
+          213-218).</note>. Mais au mois de <date when="1851-09">septembre</date>, qui est encore agréable à la campagne, je
+        viendrai vous <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000130.tif/full/full/0/default.jpg"
+        />voir et vous remercier avec bonheur. Dites à <persName key="Sand, Maurice (1823-1889)"
+          >Maurice</persName>, pour ne pas vous fatiguer, de m’écrire l’ordre et la marche la plus
+        simple pour arriver.</p>
+      <p>Pour ce qui est du portrait, j’en ai été enchanté : c’est probablement le plus ressemblant
+        qu’on ait fait de vous et il aura une belle place dans mes pénates. Remerciez bien <persName
+          key="Manceau, Alexandre Damien (1817-1865)">M. Manceau</persName> de nous avoir fait à
+        tous ce plaisir. J’ai à regretter la fâcherie du jeune homme qu’il a envoyé me le porter :
+        on lui avait refusé la porte, ce que vous trouverez naturel eu égard à la besogne dans
+        laquelle je nage : sitôt qu’il eut dit qu’il venait de <persName
+          key="Sand, George (1804-1876)">votre part</persName>, je suis accouru et lui ai demandé
+        excuse en conséquence : <pb n="3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000130.tif/full/full/0/default.jpg"
+        />mais rien n’a pu me faire pardonner l’échec qu’il avait cru apparemment avoir éprouvé dans
+        sa dignité et que vous me pardonnez, j’espère. Je vous embrasse donc ainsi que <persName
+          key="Sand, Maurice (1823-1889)">Maurice</persName> et tous les amis, en attendant le
+        moment où je ferai mon entrée à <placeName key="France, Nohant">Nohant</placeName>, après
+        tant d’années<note place="bottom">Delacroix ne s'était pas rendu à Nohant depuis 1846. Le
+          voyage ne se fit pas et le peintre n'y alla plus jamais. </note>. Que vous êtes heureuse
+        d’être à <placeName key="France, Nohant">Nohant</placeName> ! Le sentez-vous ? Il faut
+        vieillir pour apprécier un <placeName key="France, Nohant">Nohant</placeName>. Que n’ai-je
+        la vingtième partie d’un <placeName key="France, Nohant">Nohant</placeName> ! Que n’ai-je
+        une patrie ! c’est-à-dire un lieu où je sois attaché par les habitudes de toute ma vie.</p>
+
+      <closer>
+        <salute>Adieux encore, <persName key="Sand, George (1804-1876)">chère</persName>, et à vous
+          de cœur</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

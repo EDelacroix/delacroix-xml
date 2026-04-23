@@ -29,7 +29,7 @@
         </availability>
       </publicationStmt>
       <seriesStmt>
-        <title type="main">Correspondance d’Eugène Delacroix</title>
+        <title type="main">Correspondance d’Eugène Delacroix</title>         <title type="sub">Le monde littéraire</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -81,7 +81,8 @@
           <addrLine><persName key="Sand, George (1804-1876)"/>Madame G. Sand</addrLine>
           <addrLine>à <placeName key="France, La Châtre">La Châtre</placeName></addrLine>
           <addrLine>Indre</addrLine>
-        </address>
+        </address><stamp><placeName key="France, La Châtre">La Châtre</placeName>, <date
+          when="1841-07-07">7 [illisible]</date></stamp>
       <pb n="2"
         facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000051.tif/full/full/0/default.jpg"/>
         <dateline><date when="1841-07-06">6 juillet</date></dateline>

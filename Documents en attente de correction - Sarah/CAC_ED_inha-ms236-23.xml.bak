@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 6 juillet 1841</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 23</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="3" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L’Art vivant</hi>, 1er août 1930, p. 598</bibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936,
+            II, p. 81-82</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 111</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1841-07-06"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000050.tif/full/full/0/default.jpg"/>
+      <opener>
+        <address>
+          <addrLine><persName key="Sand, George (1804-1876)"/>Madame G. Sand</addrLine>
+          <addrLine>à <placeName key="France, La Châtre">La Châtre</placeName></addrLine>
+          <addrLine>Indre</addrLine>
+        </address><stamp><placeName key="France, La Châtre">La Châtre</placeName>, <date
+          when="1841-07-07">7 [illisible]</date></stamp>
+      <pb n="2"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000051.tif/full/full/0/default.jpg"/>
+        <dateline><date when="1841-07-06">6 juillet</date></dateline>
+        <salute><persName key="Sand, George (1804-1876)">Chère amie</persName>,</salute>
+      </opener>
+      
+      <p>êtes-vous capable de m’envoyer, courrier pour courrier, l’adresse du marchand<note place="bottom">Marchand Jué, situé au 12 faubourg Saint-Denis</note> chez qui vous
+        avez acheté la mèche et le petit briquet que vous m’avez donnés ? Je voudrais donner les
+        pareils à mon <persName key="Delacroix, Charles Henry (1779-1845)">bon frère</persName>, qui
+        est venu me surprendre ici et avec lequel je suis encore pour quelques jours. Sa présence
+        ici, qui m’a causé tant de plaisir, me fait craindre en même temps que mon voyage à
+          <placeName key="France, Nohant">Nohant</placeName> n’en soit abrégé<note place="bottom"> Ce voyage n'eut pas
+          lieu. Delacroix ne se rend à Nohant que l'été suivant, en juin 1842. Ce sera son premier
+          séjour.</note>. J’avais projeté de travailler comme un nègre<note place="bottom">À la
+          bibliothèque du Palais du Luxembourg.</note> jusqu’au moment où je comptais <pb n="3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000052.tif/full/full/0/default.jpg"
+        />aller vous embrasser. Vous pensez bien que, tout le temps qu’il est ici, la palette est au
+        croc et que mon bonheur est de ne le quitter. Cependant je ne désespère pas, <persName
+          key="Sand, George (1804-1876)">chère amie</persName> ; car je vous regrette bien et vous
+        manquerez bien à ma solitude. J’ai eu de vos nouvelles par <persName
+          key="Marliani, Charlotte Folleville, épouse (1790-1850)">Mme Marliani</persName> et par
+          <persName key="Dessauer, Joseph (1798-1876)">Dessauer</persName>, qui m’a dit que vous
+        aviez retrouvé les mille francs. Êtes-vous contente de votre santé ? Donnez-moi des
+        nouvelles de <persName key="Sand, George (1804-1876)">vous</persName>, de <persName key="Sand, Maurice (1823-1889)">Maurice</persName>, de
+          <persName key="Chopin, Frédéric (1810-1849)">Chopin</persName>, que j’embrasse tous.</p>
+      
+      <closer>
+      <salute>Adieu,<persName key="Sand, George (1804-1876)">bonne amie</persName>, je
+        vous embrasse à la hâte pour que la lettre vous arrive promptement. À vous</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+      
+    </body>
+  </text>
+</TEI>

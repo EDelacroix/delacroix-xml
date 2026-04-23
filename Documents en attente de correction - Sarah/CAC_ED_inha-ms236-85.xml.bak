@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 25 novembre 1860</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 85</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="4" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1938,
+            IV, p. 211-213</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 215-216</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1860-11-25"/>
+          <placeName key="France, Champrosay">Champrosay</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000175.tif/full/full/0/default.jpg"/>
+      <opener>
+        <dateline>Ce <date when="1860-11-25">25 novembre 1860</date></dateline>
+        <salute>Chère <persName key="Sand, George (1804-1876)">amie</persName></salute>
+      </opener>
+
+      <p><ref type="letter" target="">votre lettre</ref> m’a comblé de joie mais on avait raison de
+        vouloir vous empêcher de l’écrire<note place="bottom"> George Sand est alors gravement
+          malade de la fièvre typhoïde (Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, n. 2, p. 295).</note> : pour Dieu, défiez-vous des tentations d’écriture et
+        de travail quelconque. J’ai payé cher à plusieurs reprises, après maintes indispositions
+        dont j’ai pris l’habitude, le plaisir de travailler trop tôt et je suis toutes les fois
+        retombé dans la même sottise. Cet hiver, j’ai gardé le coin du feu quatre mois et suis
+        encore retombé, après une tentative de travail, dans une langueur dont je ne me suis tiré
+        que par un régime qui me réussit encore et qui m’a rendu mes forces : c’est de n’être jamais
+        en repos, d’être sans cesse dans le chemin de fer ou <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000176.tif/full/full/0/default.jpg"
+        />grimpé sur mes échelles. À l’heure qu’il est je me porte bien, mais vous n’en êtes encore
+        ni à courir sur la route, ni surtout à reprendre votre divine plume : n’écoutez point les
+        sollicitations de cette imagination charmante qui vous a soufflé <hi rend="it">La Ville
+          noire</hi><note place="bottom">Le roman <hi rend="it">La Ville noire</hi> de George Sand,
+          publié en volume en 1861, était d'abord paru dans la <hi rend="it">Revue des Deux
+            Mondes</hi> entre le 1<hi rend="sup">er</hi> avril et le 1<hi rend="sup">er</hi> mai
+          1860.</note>, votre marquis aimable et philosophe<note place="bottom">Référence au <hi
+            rend="it">Marquis de Villemer</hi>, roman de George Sand qui, avant d'être publié en
+          volume, était paru dans la <hi rend="it">Revue des Deux Mondes</hi> entre le 15 juillet et
+          le 15 septembre 1860. Sand l'adapta au théâtre en 1864.</note> et surtout sa charmante
+        amie et tant d’autres charmants caractères que vous faites vivre pour nous consoler de vivre
+        avec de vrais vivants.</p>
+      <p>Sachez, <persName key="Sand, George (1804-1876)">ma bien chère amie</persName>, que
+        quelques années de trop, qui délient dans l’intelligence certains ressorts, rendent
+        singulièrement lourds ceux qui nous font mouvoir et digérer. Je crois singulièrement au
+        perfectionnement de notre esprit (je parle d’un bon esprit, sain naturel<pb n="3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000176.tif/full/full/0/default.jpg"
+        />lement et surtout juste). Il ne s’affaiblit pas avec l’âge (l’esprit), quand on en a
+        véritablement ; mais ô condition cruelle de l’implacable nature, il n’y a bientôt plus ni
+        corps, ni circulation dans ce corps. Je me rappelle ce mot de <persName
+          key="Thémistocle (528-462 av. J.-C.)">Thémistocle</persName><note place="bottom">Homme
+            d'État et stratège athénien, Thémistocle (528-462 av. J.-C.) s’illustre au cours des
+          deuxièmes guerres médiques opposant la cité d'Athènes à l'empire perse des Achéménides
+          (bataille de Salamine, 480 av. J.-C.). Homme d'État avisé, ses dérives tyranniques
+          poussent les citoyens athéniens à le frapper d'ostracisme en 471. Thémistocle achève sa
+          carrière politique à la cour de Perse où il s'éteint.</note>, c’est bien ancien, que cite
+        le bon <persName key="Poussin, Nicolas (1594-1665)">Poussin</persName> à la fin de sa vie :
+        « l’homme décline et s’en va quand il commence à bien faire »<note place="bottom">Citation
+          issue d'une lettre de Poussin à Paul Fréart de Chantelou (1609-1694) datée du 15 mars
+          1658. La citation exacte, telle qu'elle apparaît dans <hi rend="it">Collection de lettres
+            de Nicolas Poussin</hi>, Paris, Firmin Didot, 1824, est: "[...] l'homme décline et s'en
+          va lorsqu'il est prêt à bien faire".</note>.</p>
+      <p>Bref, vous êtes hors d’affaire : quel bonheur, comme vous le dites si justement, de revoir
+        autour de soi tout ce qu’on aime, et de revenir à cette lumière qui vous montre de si belles
+        choses. Tenons-nous bien, <persName key="Sand, George (1804-1876)">chère amie</persName> :
+        il y a dans ce monde de bien vilains objets, mais enfin que trouverons-nous ensuite ? La <pb
+          n="4"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000177.tif/full/full/0/default.jpg"
+        />nuit, l’affreuse nuit. Il n’y aura pas même, c’est du moins mon triste pressentiment, ces
+        tristes limbes dans lesquels Achille, qui n’était plus qu’une ombre, se promenait en
+        regrettant non pas de n’être plus un héros, mais l’esclave d’un paysan pour endurer le froid
+        ou la chaleur sous ce soleil dont, grâce au ciel, nous jouissons encore (quand il ne pleut
+          pas)<note place="bottom">Dans son <hi rend="it">Journal</hi>, Delacroix recopie, à la date
+          du 25 novembre et avec quelques variantes, le passage allant de "Sachez, ma bien chère
+          amie [...]" à "[...] (quand il ne pleut pas) [...]".</note>.</p>
+
+      <closer>
+        <salute>Je <persName key="Sand, George (1804-1876)">vous</persName> embrasse mille fois ainsi que <persName key="Sand, Maurice (1823-1889)"
+            >Maurice</persName>. J’envoie à <persName key="Manceau, Alexandre Damien (1817-1865)">M.
+            Manceau</persName> mille remerciements de ses bons soins pour vous : dites-lui que je
+          lui recommande de vous empêcher de travailler, bien sérieusement je vous abjure d’avoir
+          cette force. Vous avez des amis autour de vous qui vous distrairont et vous
+          occuperont.</salute>
+        <salute>Encore mille remerciements de cœur de <persName key="Sand, George (1804-1876)">votre</persName> souvenir.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

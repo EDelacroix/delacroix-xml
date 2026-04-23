@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 7 décembre 18[52]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 66</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="3" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1937,
+            III, p. 130-132</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 196</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1852-12-07"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000152.tif/full/full/0/default.jpg"/>
+      <opener>
+        <dateline>Ce <date when="1852-12-07">7 décembre</date></dateline>
+        <salute>Chère <persName key="Sand, George (1804-1876)">amie</persName>,</salute>
+      </opener>
+
+      <p><ref type="letter" target="">votre bonne lettre</ref> m’est parvenue quand j’étais encore souffrant d’une indisposition<note
+          place="bottom">Delacroix souffre alors de maux d'estomac (<hi rend="it">Journal</hi>, 17
+          et 28 novembre 1852).</note> que j’ai due autant au désappointement qu’à une fatigue
+        extérieure. La <placeName key="France, Paris, Hôtel de Ville">salle</placeName> dans laquelle on a appliqué mes peintures est la plus obscure qu’on
+        puisse imaginer<note place="bottom">Il est ici question de la décoration par Delacroix du
+          Salon de la Paix à l'Hôtel de ville de Paris. Dans son <hi rend="it">Journal</hi>, le
+          peintre se plaint également de l'obscurité de la salle (<hi rend="it">Journal</hi>, 19
+          octobre 1852).</note> : il m’a fallu sur place faire un remaniement tel que le dépit de ne
+        pouvoir arriver à temps et des efforts outrés m’ont rendu malade. Oui, <persName
+          key="Sand, George (1804-1876)">chère</persName>, je vous enverrai quelque chose et c’est
+        une chose qui vous avait déjà plu et que vous aviez vue commencée. C’est une petite surprise
+        que je voulais vous faire, à <persName key="Sand, Maurice (1823-1889)">Maurice</persName> et
+        à vous. Vous me permettrez donc d’envoyer ses étrennes à cet enfant-là, que j’aime autant
+        que je vous aime. Le sujet est le même que vous avez déjà, je crois, en pastel ou en
+        aquarelle, <hi rend="it">Lélia dans la caverne</hi><note place="bottom">S'inspirant du roman
+            <hi rend="it">Lélia</hi> (1833) de George Sand, et plus spécifiquement de sa seconde
+          version publiée en 1839, Delacroix exécuta plusieurs versions de <hi rend="it">Lélia
+            devant le corps de son amant dans la caverne du moine</hi>.</note>.</p>
+      <pb n="2"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000153.tif/full/full/0/default.jpg"/>
+      <p>J’ai mené une vie de travail exagéré toute cette <date when="1852">année</date>, voici la seconde que cela dure ; et
+        voyez ce que c’est que la différence des temps : il y a dix ans, j’aurais non seulement
+        dévoré cette besogne mais je serais arrivé à temps. Dans la jeunesse on est toujours sûr de
+        son fait ; plus tard, il faut compter avec les rhumatismes, ou plutôt avec l’inconstante
+        fortune. Elle ne veut plus de vous : elle favorise plutôt les jeunes que les audacieux, quoi
+        qu’en dise le proverbe. Elle est comme le public, qui ne tend la main qu’aux débutants.</p>
+      <p>Faites mes compliments à <persName key="Sand, Maurice (1823-1889)">Maurice</persName> de
+        ses gravures dans la dernière livraison du <hi rend="it">Meunier d’Angibault</hi><note
+          place="bottom"><hi rend="it">Le Meunier d'Angibault</hi> de George Sand est publié pour la
+          première fois en 1845. Il est ici question de sa publication dans le tome IV des <hi
+            rend="it">Oeuvres illustrées</hi> de l'auteur.</note>. Il acquerra très vite l’adresse
+        que les éditeurs demandent et il subsistera un charme naïf d’invention, qui n’était pas dans
+        le bon <persName key="Johannot, Tony (1803-1852)">Johannot</persName><note place="bottom"
+          >Tony Johannot est le contributeur initial aux <hi rend="it">Oeuvres illustrées</hi> de
+          Sand, mais décède quelques temps auparavant, en août 1852. Maurice Sand prend alors sa
+          succession. </note>. Je m’ar-<pb n="3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000153.tif/full/full/0/default.jpg"
+        />rangerai pour vous faire mon petit envoi en temps opportun. Laissez-moi vous embrasser par
+        anticipation, <persName key="Sand, George (1804-1876)">chère amie</persName> dont le tendre
+        souvenir me rend si fier et si heureux dans la solitude où je passe ma vie. La vue d’une
+        lettre de vous est un rayon de bonheur et il en a toujours été ainsi. Jamais la plus petite
+        amertume n’a gâté ce pur sentiment : vous me prenez avec mes petites manies, qui sont
+        l’effet de ma petite santé et de mes petits nerfs, et vous démêlez à travers cela le
+        sentiment profond qui m’attache à vous.</p>
+
+      <closer>
+        <salute>Je <persName key="Sand, George (1804-1876)">vous</persName> embrasse donc encore, en
+          me rappelant à toute votre colonie qui veut bien se souvenir de moi.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)"/>Eug. Delacroix</signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

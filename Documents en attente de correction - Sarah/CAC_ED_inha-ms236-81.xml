@@ -30,6 +30,7 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Correspondance d’Eugène Delacroix</title>
+        <title type="sub">Le monde littéraire</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -96,20 +97,21 @@
           <persName key="Viardot, Pauline Garcia, épouse (1821-1910)">Mme Viardot</persName>, que
         j’ai vue et entendue l’autre jour<note place="bottom"> Comme il l'indique dans son <hi
             rend="it">Journal</hi>, Delacroix assiste à un concert de Pauline Viardot le 15 janvier
-          et l'entend chanter chez elle le 17.</note>. Pardonnez-moi, bien <persName key="Sand, George (1804-1876)">chère amie</persName>. Par une
-        singulière coïncidence, le jour où j’ai été entendre votre pièce au cirque, j’avais
-        justement éludé l’obligation qui m’incombe mercredi<note place="bottom"> Le 12 janvier 1856,
-          Delacroix assiste à une représentation de <hi rend="it">Maître Favilla</hi> au lieu
-          d'aller dîner chez le préfet (<hi rend="it">Journal</hi>, 12 janvier 1856). Au mercredi 30
-          janvier 1856, le peintre note dans son <hi rend="it">Journal</hi>: "Bal du préfet"
-          (Hanoosh, Michèle, <hi rend="it">Journal</hi>, 2009, I, p. 994).</note>, et pour cette fois il n’y a pas moyen.</p>
+          et l'entend chanter chez elle le 17.</note>. Pardonnez-moi, bien <persName
+          key="Sand, George (1804-1876)">chère amie</persName>. Par une singulière coïncidence, le
+        jour où j’ai été entendre votre pièce au cirque, j’avais justement éludé l’obligation qui
+        m’incombe mercredi<note place="bottom"> Le 12 janvier 1856, Delacroix assiste à une
+          représentation de <hi rend="it">Maître Favilla</hi> au lieu d'aller dîner chez le préfet
+            (<hi rend="it">Journal</hi>, 12 janvier 1856). Au mercredi 30 janvier 1856, le peintre
+          note dans son <hi rend="it">Journal</hi>: "Bal du préfet" (Hanoosh, Michèle, <hi rend="it"
+            >Journal</hi>, 2009, I, p. 994).</note>, et pour cette fois il n’y a pas moyen.</p>
 
       <closer>
-        <salute>Laissez-moi <persName key="Sand, George (1804-1876)">vous</persName> embrasser malgré cela, en attendant le plaisir de vous
-          voir.</salute>
+        <salute>Laissez-moi <persName key="Sand, George (1804-1876)">vous</persName> embrasser
+          malgré cela, en attendant le plaisir de vous voir.</salute>
         <signed><persName key="Delacroix, Eugène (1798-1863)">E. Delacroix</persName></signed>
       </closer>
-      
+
     </body>
   </text>
 </TEI>

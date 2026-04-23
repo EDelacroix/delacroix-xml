@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, mai 1843</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 27</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="1" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L’Art vivant</hi>, 1er septembre 1930, p. 705</bibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936, II, p. 98</bibl> 
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 134-135</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1843-05-.."/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000061.tif/full/full/0/default.jpg"/>
+      <opener>
+        <address>
+          <addrLine>
+            <add place="up">J’apprends que vous avez fait de nouvelles
+              merveilles dans <hi rend="it">Consuelo</hi><note place="bottom"> Le roman <hi rend="it"
+                >Consuelo</hi> paraissait par livraisons depuis février 1842 dans <hi rend="it">La Revue
+                  indépendante</hi>, revue fondée en 1841 par George Sand, son ami philosophe Pierre
+                Leroux (1797-1871) et Louis Viardot (1800-1883).</note><note>André Joubin indique que <hi rend="it">Consuelo</hi> avait commencé à paraître en avril 1842
+                  (t.II, p. 98, n. 1) et date donc la lettre de ce mois-ci. Françoise Alexandre indique que
+                  l'allusion à l'absence de Maurice Sand à Paris exclut cette date, et se réfère plutôt à mai 1843, lorsque Maurice descend dans le midi avec son oncle
+                  Hippolyte Chatiron, ce que viendrait confirmer la fatigue évoquée par Delacroix (Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 245, n. 5 de la
+                  page 134).</note>. Mon cœur s’en réjouit autant que mon esprit.</add></addrLine></address>
+        
+        <salute><persName key="Sand, George (1804-1876)">Chère amie</persName></salute>
+      </opener>
+      <p>Je vous aime et vous prie bien de m’aimer, quoique je ne vous vois pas et bien malgré moi. D’abord je suis tantôt
+        bien, tantôt tout à fait bas ; j’ai fait la sottise de me laisser prendre à deux ou trois
+        soirées où je n’ai eu que de la fatigue, qui a influé sur le reste de mes journées. Toutes
+        les fois que je veille, je suis tout à plat pour deux jours et obligé de passer mon temps,
+        le soir qui suit, au coin de mon feu.</p>
+      <closer>
+        <salute>Donnez de vos nouvelles à mon page, puisque <persName
+          key="Sand, Maurice (1823-1889)">Maurice</persName> n’est pas là pour m’en donner, et je
+          <persName key="Sand, George (1804-1876)">vous</persName> embrasse mille fois de cœur, de corps, de volonté, enfin de tout ce que vous me
+          permettez.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+      
+     <postscript>
+       <p>Écrit avec une maudite plume en fer qui me désole. Donnez-moi un mot des nouvelles de
+         <persName key="Chopin, Frédéric (1810-1849)">Chopin</persName> ou plutôt dites cela
+         simplement si on vous trouve.</p>
+     </postscript>
+      
+      <closer>
+        <dateline>
+          <date when="1843-05-..">Vendredi</date>matin</dateline></closer>
+   
+
+    </body>
+  </text>
+</TEI>

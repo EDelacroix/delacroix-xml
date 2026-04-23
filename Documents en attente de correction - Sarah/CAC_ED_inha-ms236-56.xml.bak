@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 4 septembre 18[51]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah JOuan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 56</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="4" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl> André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1937, III,
+            p. 79-81</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 183-184</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1851-09-04"/>
+          <placeName key="France, Dieppe">Dieppe</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000131.tif/full/full/0/default.jpg"/>
+      <opener>
+        <address>
+          <addrLine><placeName key="France, Dieppe">Dieppe</placeName></addrLine>
+        </address>
+        <dateline><date when="1851-09-04">4 septembre</date></dateline>
+        <salute><persName key="Sand, George (1804-1876)">Chère amie</persName></salute>
+      </opener>
+
+      <p>c’est un infidèle qui vous écrit de si loin et qui doit bien vous étonner par les nouvelles
+        qu’il vous donne de lui. Je comptais vous en porter moi-même en vous embrassant par-dessus
+        le marché et me voici ici depuis huit jours, prenant des bains de mer dont je ne sais encore
+        quelle sera la réussite<note place="bottom"> Fatigué physiquement par ses travaux à la
+          galerie d'Apollon du Louvre, Delacroix prend du repos à Dieppe durant les deux premières
+          semaines de septembre 1851 (Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005,
+          p. 279). La vogue des bains de mer, arrivée d'Angleterre dans les années 1820, est à
+          l'origine du développement de l'activité balnéaire de Dieppe et de Boulogne-sur-Mer.
+          Appartenant en majorité à la haute société parisienne, les baigneurs viennent chercher les
+          bienfaits revigorant de l'eau froide et mouvante de la mer du Nord. </note>. Voici ce qui
+        a dérangé tous mes calculs et il faut que vous me pardonniez la trahison que je suis forcé
+        de vous faire, quand vous saurez qu’à la fin de mon terrible et vraiment gigantesque
+        travail, conduit jusqu’à la fin sans cesser un seul instant d’avoir le nez dessus mais non
+        sans une fatigue égale à sa taille, j’ai été pris de toutes sortes d’accidents auxquels un
+        petit médecin gascon que j’ai m’a ordonné péremptoirement d’opposer des bains <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000132.tif/full/full/0/default.jpg"
+        />de mer, comme tonique, sudorifique, apoplectique, homoplastique, etc. Je ne pourrai même
+        pas m’en donner tout mon soûl, attendu que je dois revenir à <placeName key="France, Paris"
+          >Paris</placeName> avant la fin du mois pour présider à l’application de mon <rs
+          type="work" key="Apollon vainqueur du serpent Python(J578)">tableau</rs> au plafond du
+        Louvre et pour ensuite le retoucher sur place<note place="bottom"> Commandée à Delacroix le
+          8 mars 1850, la composition centrale de la voûte de la galerie d'Apollon représentant <hi
+            rend="it">Apollon vainqueur du serpent Python</hi>, n'est pas achevée lors de
+          l'inauguration officielle des restaurations du musée du Louvre le 5 juin 1851. La toile,
+          peinte en atelier, sera mise en place en septembre et Delacroix y apportera encore
+          quelques retouches avant sa présentation officielle les 16 et 17 octobre 1851 (Alexandre,
+          Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 279).</note> : car vous saurez,
+          <persName key="Sand, George (1804-1876)">chère amie</persName>, que le temps que je
+        m’étais fait une si véritable joie de passer avec vous est celui qui devait s’écouler entre
+        la fin de mon <rs
+          type="work" key="Apollon vainqueur du serpent Python(J578)">tableau</rs> et sa complète dessiccation, chose très importante pour l’opération de
+        l’application. Soyez assez bonne pour m’écrire un tout petit mot à <hi rend="u"><placeName key="France, Dieppe">Dieppe</placeName> poste
+          restante</hi> pour me dire que vous me pardonnez comme à une victime <hi rend="u">de
+          l’art</hi>. C’est ce terrible <hi rend="u">l’art</hi> qui est la cause de toutes nos
+        souffrances, sans compter les envieux et les mauvais gueux dont l’œil <pb n="3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000132.tif/full/full/0/default.jpg"
+        />louche d’avance en attendant nos tristes œuvres. Heureusement que nous les faisons un peu
+        pour nous, fort peu pour la postérité que je n’ai pas l’honneur de connaître, mais pour nous
+        aider surtout à oublier un peu nos chagrins. Il est difficile de se figurer, quand on n’a
+        pas passé par là, ce que c’est que l’espèce de travail que m’a demandé cette machine à
+        cause, indépendamment de sa dimension inusitée, de l’état de perplexité où j’étais tenu sans
+        cesse à cause de la nécessité de n’en voir qu’une partie à la fois<note place="bottom"> La
+          toile mesurait 8 mètres sur 7,50 et ne pouvant être entièrement déployée dans l'atelier de
+          la rue Notre-Dame-de-Lorette, elle avait été pliée en deux (Alexandre, Françoise, <hi
+            rend="it">Correspondance</hi>, 2005, p. 279).</note>. De là un certain état de langueur,
+        défaut de circulation, abattement singulier qui m’a un instant inquiété.</p>
+      
+      <closer>
+        <salute>Je vous renouvelle donc mon regret, <persName key="Sand, George (1804-1876)">chère
+            amie</persName>, regret point banal comme le véritable attachement que j’ai pour vous et
+          comme j’en ai si peu grâce au relâchement que les années apportent à tous les liens du
+          monde, grâce surtout à la méchanceté <pb n="4"
+            facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000133.tif/full/full/0/default.jpg"
+          />humaine et à notre propre faiblesse. Je vous embrasse donc bien triste, au contraire de
+          ce que j’aurais fait à <placeName key="France, Nohant">Nohant</placeName>, et bien de
+          cœur.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+      
+      <postscript>
+        <p>Dites à <persName key="Sand, Maurice (1823-1889)">Maurice</persName> que je me promettais
+          de lui donner bien des bons conseils, en tête desquels est celui de travailler beaucoup et
+          d’après nature. Mille choses à <persName key="Lambert, Eugène (1825-1900)"
+            >Lambert</persName> et, si <persName key="Sand, Solange (1828-1899)">Solange</persName>
+          est encore près de vous, embrassez-la pour moi avec <persName
+            key="Sand, Maurice (1823-1889)">Maurice</persName>. Dirons-nous à l’année prochaine ?
+          Mais Dieu sait où nous en serons à cette époque-là.</p>
+      </postscript>
+
+    </body>
+  </text>
+</TEI>

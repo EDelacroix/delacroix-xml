@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, 20 septembre 18[43]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 39</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="4" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 1er septembre 1930, p. 710</bibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936,
+            II, p. 194-195</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 139-140</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1843-09-20"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000087.tif/full/full/0/default.jpg"/>
+      <opener>
+        <address>
+          <addrLine>Madame <persName key="Sand, George (1804-1876">G.Sand</persName></addrLine>
+          <addrLine>à <placeName key="France, Nohant">Nohant</placeName></addrLine>
+          <addrLine>près <placeName key="France, La Châtre">La Châtre</placeName></addrLine>
+          <addrLine><placeName key="France, Indre">Indre</placeName></addrLine>
+
+        </address>
+      </opener>
+      <pb n="2"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000088.tif/full/full/0/default.jpg"/>
+      <p><date when="1843-09-20">20 septembre</date><note place="bottom"> Joubin date la lettre de l'année 1844, ce
+          qu'Alexandre refute du fait de l'allusion aux Viardot qui ne viennent pas à Nohant en
+          cette année, mais qui y ont séjourné l'année précédente, en 1843, du <date>1<hi rend="sup">er</hi>
+            au 18 septembre</date> (Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005,
+          note 5 de la p. 139). Ceci n'est pas incompatible avec l'allusion, plus loin, à l'absence
+          au Salon l'année précédente, soit 1842.</note></p>
+
+      <p>Vous n’êtes pas gentille du tout ! Vous m’aviez promis de m’écrire un peu<note
+          place="bottom"> La dernière lettre de Sand à Delacroix date du 27 juillet (Alexandre,
+          Françoise, <hi rend="it">Correspondance</hi>, 2005, note 6 de la p. 139).</note>.
+          <persName key="Marliani, Charlotte Folleville, épouse (1790-1850)">Mme Marliani</persName>
+        n’est plus ici depuis longtemps et je n’ai pas de vos nouvelles. Ah, <persName
+          key="Sand, George (1804-1876)">Aurore</persName>, <persName key="Sand, George (1804-1876)"
+          >Aurore</persName> ! Quelle conduite, et vous m’accusez d’inconstance ! Faut-il que je
+        dise : <hi rend="it">donne ! donne ! eterni dei !</hi><note place="bottom">Littéralement :
+          "Femmes ! Femmes ! Déesses éternelles !". Cette citation paraît empruntée à la comédie de
+          Beaumarchais <hi rend="it">Le Mariage de Figaro</hi>, acte V, scène III (Alexandre,
+          Françoise, <hi rend="it">Correspondance</hi>, 2005, n. 7, p. 139).</note> Hélas ! je suis
+        moulu, écrasé de besogne et j’ai besoin de consolation. Mais vous êtes peut-être en route
+        pour venir. Avez-vous <persName key="Viardot, Pauline Garcia, épouse (1821-1910)">Mme
+          Viardot</persName><note place="bottom"> Une habituée de Nohant.</note> et m’avez-vous fait
+        faire une étude de <persName key="Meillant, Françoise (1809-1886)"/>Françoise<note
+          place="bottom"> Françoise Meillant, bonne d'enfant à Nohant ; elle aurait servi de modèle
+          pour la sainte Anne de <hi rend="it">L'Education de la Vierge</hi> de Delacroix (Joubin,
+          André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936, II, n. 2, p.
+          194 et Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, n. 8 de la p. 139 ;
+          sur ce tableau voir ci-dessous note 7).</note> ? Non pas une croquade, entendez-vous, mais
+        une vraie étude comme ce qu’elle a fait d’après <persName key="Sand, Maurice (1823-1889)"
+          >Maurice</persName>. <persName key="Meillant, Françoise (1809-1886)">Elle</persName> va me
+        trouver bien exigeant : alors elle m’enverra paître.</p>
+      <p>Je vous assure que si l’on n’a pas <pb n="3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000089.tif/full/full/0/default.jpg"
+        />un peu d’amitié les uns pour les autres, la vie n’est pas bonne à grand-chose. Depuis près
+        de trois semaines je vis comme un ours ; je n’ai pas deux connaissances à
+          <placeName>Paris</placeName> : tout court, tout se baigne ou chasse. Je me couche
+        quelquefois à 8 heures, à la vérité éreinté de mon travail<note place="bottom"> Travaux
+          décoratifs aux palais du Luxembourg et au palais Bourbon.</note> ; mais enfin j’avance et
+        j’espère que, Dieu aidant, je suffirai à la tâche que je m’étais imposée et qui m’effrayait
+        tant à <placeName>Nohant</placeName>. Ce travail m’empêche d’être triste et de penser, comme
+        j’en ai le droit, que vous m’abandonnez tout à fait. Mais tout nous abandonne. Ah !
+          <persName key="Sand, George (1804-1876)">chère amie</persName>, tâchez bien de ne pas
+        vieillir, car le plus affreux n’est pas le vieillard, tout affreux qu’il est ; le plus
+        effray[ant] est d’être délaissé de tout sentiment quelconque. Vous quittez les uns, les
+        autres <pb n="4"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000089.tif/full/full/0/default.jpg"
+        />vous quittent, jusqu’à ce que vous quittiez vous-même ce monde de bêtise et de vanité, <hi
+          rend="it">amen</hi> !</p>
+
+      <closer>
+        <salute>Embrassez <persName key="Chopin, Frédéric (1810-1849)">Chopin</persName> pour moi ;
+          aussi <persName key="Sand, Solange (1828-1899)">Solange</persName> et <persName
+            key="Sand, Maurice (1823-1889)">Maurice</persName>. N’oubliez pas de me rapporter la <hi
+            rend="it">Sainte Anne</hi><note place="bottom"><hi rend="it">L'</hi><hi rend="it"
+              >Education de la Vierge</hi> (sous-titre : <hi rend="it">La leçon de lecture</hi> ;
+            1842), huile sur toile, 95 x 125 cm, Paris, Musée national Eugène Delacroix (achat
+            2003). Delacroix a exécuté ce tableau en juin 1842 au cours de son premier séjour à
+            Nohant chez George Sand et le destinait à l’église du village dont sainte Anne était la
+            patronne.</note>. Si elle me plaît à revoir, je vous demanderai peut-être [de] la mettre
+          au Salon<note place="bottom"> Le jury du Salon de 1845 refusa cette première version de
+              <hi rend="it">L'Education de la Vierge</hi> qui fut conservée par Sand (Jobert,
+            Barthélémy, <hi rend="it">Delacroix</hi>, 1997, p. 255 et p. 293-294).</note>. Je ne
+          voulais rien y mettre, comme l’année dernière, mais je me suis trouvé ici quelques fonds
+          de boutique que je pourrais bien y envoyer, alors le vôtre serait en arrière-garde, sauf
+          révision. Qu’elle vous dise quelque fois toutes les pensées que j’ai eues pour vous en la
+          faisant et je n’aurai pas besoin de vous les rappeler ici. Adieu donc, <persName
+            key="Sand, George (1804-1876)">chère amie</persName>, cette manière-là abrégerait
+          beaucoup les lettres, mais enfin faut-il encore quelquefois prendre la peine de les écrire
+          soi-même. Mille fois adieu et toutes sortes de tendresses bien vraies.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

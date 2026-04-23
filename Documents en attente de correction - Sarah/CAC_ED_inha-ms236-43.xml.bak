@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à George Sand, [26 décembre 1845]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Geneviève Marion</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 236 pièce 43</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="2" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><hi rend="it">L'Art vivant</hi>, 15 septembre 1930, p. 753</bibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936,
+            II, p. 246</bibl>
+          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 159</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1845-12-26"/>
+          <placeName key="France, Paris">Paris</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Sand, George (1804-1876)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000098.tif/full/full/0/default.jpg"/>
+      <opener>
+        <address>
+          <addrLine>Madame <persName key="Sand, George (1804-1876)">G. Sand</persName></addrLine>
+          <addrLine><placeName key="France, Paris, place d'Orléans, 5">Place d’Orléans, n° 5</placeName></addrLine>
+          <addrLine><placeName key="France, Paris, rue Saint-Lazare">
+            Rue St Lazare</placeName></addrLine>
+        </address>
+
+
+        <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000099.tif/full/full/0/default.jpg"/>
+        <dateline><date when="1845-12-26">Vendredi</date> 8 h du soir</dateline>
+        <salute><persName key="Sand, George (1804-1876)">Chère amie</persName></salute>
+      </opener>
+
+
+      <p>je pars pour <placeName key="France, Bordeaux">Bordeaux</placeName><note place="bottom"> Le frère aîné de Delacroix était installé à
+          Bordeaux depuis 1840.</note> demain matin à 7 heures. J’ai reçu hier dans la journée la
+        cruelle nouvelle que la maladie de <persName key="Delacroix, Charles Henry (1779-1845)">mon
+          bon frère</persName> est devenue des plus inquiétantes<note place="bottom"> La santé de
+          son frère inquiétait déjà Delacroix en 1841 : voir lettre à Frédéric Villot, 30 juillet
+          1841. </note>. Je vais revoir encore <persName key="Delacroix, Charles Henry (1779-1845)"
+          >ce dernier</persName><note place="bottom"> Delacroix avait rendu visite à son frère à
+          l'été 1845 lors de son séjour aux Eaux-Bonnes (voir lettre à George Sand de <ref
+            type="letter" target="CAC_ED_inha-ms236-42.xml">fin septembre 1845</ref>). Il n'arrivera
+          malheureusement pas à temps pour le trouver encore en vie comme il l'écrit à George Sand dans sa
+            <ref type="letter" target="CAC_ED_inha-ms236-44.xml">lettre du 25 janvier 1846</ref> : «
+          je suis arrivé trop tard, j’ai trouvé mon [frère], mon héros, froid et insensible ». La
+          mort de Charles-Henry était survenue le 30 décembre, quelques heures avant l’arrivée de
+          Delacroix à Bordeaux.</note>, ce meilleur ami. Plaignez-moi, bonne et <persName
+          key="Sand, George (1804-1876)">chère amie</persName>, et pardonnez-moi de n’avoir pu avoir
+        un seul moment dans cette journée pour aller vous embrasser.</p>
+      
+      <closer>
+        <salute>À <persName key="Sand, George (1804-1876)">vous</persName> mille fois.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+      
+    </body>
+  </text>
+</TEI>
