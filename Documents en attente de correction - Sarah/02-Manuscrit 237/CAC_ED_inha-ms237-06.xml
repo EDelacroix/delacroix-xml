@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Jacques François Haro, 4 décembre 1831</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Thierry Laugée</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 237 pièce 6</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="2" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1935,
+            I, p. 296</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1831-12-04"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Haro, Jacques François (1797-1844)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000014.tif/full/full/0/default.jpg"/>
+      <opener>
+        <address>
+          <addrLine>
+            <add place="bottom"><dateline><date when="1831-12-04">[4 décembre 1831]</date></dateline></add></addrLine>
+          <addrLine><persName key="Haro, Jacques François (1797-1844)">Monsieur Haro</persName>,
+            marchand de couleurs,</addrLine>
+          <addrLine><placeName key="France, Paris, rue du Colombier">Rue du Colombier</placeName>
+            près la <placeName key="France, Paris, rue des Petits Augustins">rue des petits
+              augustins</placeName></addrLine>
+        </address>
+
+        <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000015.tif/full/full/0/default.jpg"/>
+        <salute><persName key="Delacroix, Eugène (1798-1863)">Mr Delacroix</persName> salue bien
+            <persName key="Haro, Jacques François (1797-1844)">Monsieur Haro</persName></salute>
+      </opener>
+
+      <p>et le prie de vouloir bien lui envoyer demain matin <date when="1831-12-05">lundi</date>
+        les toiles de différentes mesures qu’il lui a demandées ainsi que des grosses brosses pour
+        des fonds de différentes grosseurs<note place="bottom">André Joubin précise que Delacroix
+          préparait son matériel en vue d'un voyage au Maroc (Joubin, André, <hi rend="it"
+            >Correspondance générale de Eugène Delacroix</hi>, 1935, I, n. 2, p. 296).</note>.</p>
+
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+  <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Madame Haro, 12 juin 1845</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Thierry Laugée</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 237 pièce 16</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="2" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl><author>Joubin</author>, <title>Correspondance générale</title>, 1936-38, t. II, p. 218</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="18[45]-06-12"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+<body>
+      <p type="special"><persName key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)">Madame Haro</persName>
+      <lb/>Marchande de couleurs
+      <lb/>Rue des Petits Augustins, 26.</p>
+      <p type="special"> </p>
+      <p>M. Delacroix présente ses compliments à <persName key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)">Madame Haro</persName> et la prie de lui envoyer le plus tôt possible la petite étude d’<hi rend="it">Adam et Ève</hi><note place="bottom"> L’étude pour un des pendentifs de la coupole de <hi rend="it">La Théologie</hi> de la bibliothèque de la Chambre des pairs (Palais du Luxembourg), 1845.</note> que M.<persName key="Haro, Étienne François (1827-1897)"> Etienne</persName> a dû coller, et une petite bordure qu’il lui a demandée en même temps. Il est très pressé de l’étude.</p>
+  
+      <lb/><p rend="center" type="special">Ce 12 juin [1845].</p>
+      <p type="special"> </p>
+    </body>
+  </text>
+</TEI>

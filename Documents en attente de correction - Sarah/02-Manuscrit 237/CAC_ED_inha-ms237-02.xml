@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Jacques François Haro, 28 octobre 1827</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Thierry Laugée</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 237 pièce 2</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="2" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1935,
+            I, p. 200</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1827-10-28"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Haro, Jacques François (1797-1844)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000005.tif/full/full/0/default.jpg"/>
+      <opener><salute><persName key="Haro, Jacques François (1797-1844)">Monsieur Haro</persName>,
+        marchand de couleurs,</salute>
+        <address><addrLine><placeName key="France, Paris, rue du Colombier">Rue du Colombier</placeName>, près la <placeName key="France, Paris, rue des Petits Augustins">rue des petits augustins</placeName></addrLine></address>
+      <address>
+        <addrLine>
+          
+          <pb n="2" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000006.tif/full/full/0/default.jpg"/>
+          <add place="above">Les 2 vessies de cobalt en une seule, toutes les autres séparées.</add>
+        </addrLine>
+      </address>
+      
+      <salute><persName key="Delacroix, Eugène (1798-1863)">M. Delacroix</persName> salue <persName
+          key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)">Madame
+        Haro</persName></salute>
+      </opener>
+      
+      <p>et la prie de vouloir bien lui faire broyer sur le champ 6 vessies de
+        blanc de plomb, 6 de jaune de Naples, 2 d’ocre jaune, 2 de cobalt, 2 de noir de pêche, le
+        tout plus liquide que les couleurs qu’on prépare pour tout le monde. Il passera sans faute
+        demain matin <date when="1827-10-29">mardi</date> pour les prendre, à 7 heures. Il la prie de faire en sorte que cela soit
+        tout à fait terminé ce soir<note place="bottom">Cette commande est dédiée à la palette de couleurs nécessaire pour <hi rend="it">La Mort de
+          Sardanapale</hi></note>.</p>
+      
+      <closer>
+        <dateline>Ce <date when="1827-10-28">lundi 28 octobre</date></dateline>
+      </closer>
+    </body>
+  </text>
+</TEI>
