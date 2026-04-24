@@ -72,6 +72,9 @@
   </teiHeader>
   <text>
     <body>
+      <pb n="p.1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000047.tif/full/full/0/default.jpg"/>
+      
+      <opener>
       <address>
         <addrLine><persName
           key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)">Madame
@@ -80,9 +83,11 @@
         <addrLine><placeName key="France, Paris, rue des Petits Augustins, 26">rue des petits Augustins, 26</placeName></addrLine>
       </address>
      
+        <pb n="p.2" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000048.tif/full/full/0/default.jpg"/>
       <salute><persName key="Delacroix, Eugène (1798-1863)">M. Delacroix</persName> a l’honneur de saluer <persName
           key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)">Madame
           Haro</persName></salute>
+      </opener>
       
         <p>et de la prévenir qu’elle l’obligerait beaucoup si elle pouvait envoyer
           chercher <hi rend="it">demain <date when="1845-12-16">mardi 16</date></hi> le <rs type="work" key="">tableau</rs> à restaurer de <persName
@@ -94,6 +99,7 @@
           >Etienne</persName> lui a promis de lui mettre à part les vessies de <hi rend="it">brun de
           Prusse</hi> qu’il a fait dernièrement, mais il n’en voudrait qu’une vessie à la fois pour
         qu’il ne sèche pas.</p>
+      
       <closer>
       <dateline>Ce <date when="1845-12-15">lundi 15 Décembre</date></dateline>
       </closer>
