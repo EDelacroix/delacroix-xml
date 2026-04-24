@@ -7,7 +7,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Lettre d’Eugène Delacroix à Madame Haro, 12 [octobre 1845]</title>
+        <title>Lettre d’Eugène Delacroix à Madame Haro, 17 octobre 1845</title>
         <author key="Delacroix, Eugène (1798-1863)"/>
       </titleStmt>
       <editionStmt>
@@ -37,7 +37,7 @@
             <country>France</country>
             <settlement>Paris</settlement>
             <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
-            <idno>Ms. 237 pièce 19</idno>
+            <idno>Ms. 237 pièce 20</idno>
           </msIdentifier>
           <physDesc>
             <objectDesc form="letter">
@@ -51,7 +51,7 @@
         </msDesc>
         <listBibl>
           <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936,
-            II, p. 241</bibl>
+            II, p. 241-242</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
@@ -59,7 +59,7 @@
       <correspDesc>
         <correspAction type="sent">
           <persName key="Delacroix, Eugène (1798-1863)"/>
-          <date when="1845-10-12"/>
+          <date when="1845-10-17"/>
         </correspAction>
         <correspAction type="received">
           <persName key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)"/>
@@ -72,35 +72,40 @@
   </teiHeader>
   <text>
     <body>
-      
-      <pb n="p.1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000041.tif/full/full/0/default.jpg"/>
+      <pb n="p.1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000043.tif/full/full/0/default.jpg"/>
       <opener>
         <address>
           <addrLine><persName
               key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)">Madame
-              Haro</persName>, marchande de couleurs</addrLine>
-          <addrLine><placeName key="France, Paris, rue des Petits Augustins, 26">rue des petits Augustins, 26</placeName></addrLine>
+              Haro</persName>, marchande de couleurs,</addrLine>
+          <addrLine><placeName key="France, Paris, rue des Petits Augustins, 26">rue des petits
+              Augustins, 26</placeName></addrLine>
         </address>
-        
-        <pb n="p.2" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000042.tif/full/full/0/default.jpg"/>
+
+        <pb n="p.2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000044.tif/full/full/0/default.jpg"/>
         <salute><persName
             key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)"
             >Madame</persName>,</salute>
       </opener>
 
-      <p>Je ne pourrai m’occuper de l’opération des figures à coller que <date when="1845-10-16">jeudi 17</date>. Je m’empresse de
-        vous en prévenir. Ce délai ne vous sera peut-être pas inutile pour les différents travaux de
-        vos ouvriers.</p>
-      <p>J’espère donc que vous pourrez m’envoyer ces messieurs <date when="1845-10-16">jeudi matin</date>.</p>
+      <p>je pensais voir arriver ce matin vos ouvriers pour reprendre nos travaux à la <placeName key="France, Paris, Palais Bourbon, Assemblée nationale">
+          Chambre des
+          Députés</placeName>.</p>
+      <p>N'ayant pas eu de lettre de vous qui soit contraire, j’ai compté sur eux.</p>
+      <p>Il serait temps encore de commencer car la journée s’annonce comme devant être belle. On
+        pourrait probablement placer au moins une figure. Si vous le regardez comme impossible, ayez
+        la complaisance de me faire savoir par le retour des commissionnaires ce que vous avez
+        décidé à cet égard.</p>
 
       <closer>
-        <salute>Recevez <persName
-            key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)"
-            >madame</persName> les assurances de ma considération.</salute>
-        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
-        <dateline>Ce <date when="1845-10-12">Dimanche 12 <add place="inline">[octobre 1845]</add></date></dateline>
+        <salute>Agréez, <persName key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)">Madame</persName>, les assurances de toute ma considération.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug Delacroix</persName></signed>
+        <dateline>Ce <date when="1845-10-17">Jeudi <add place="inline">[17 octobre 1845]</add></date></dateline>
+        <postscript>Vous n’ignorez pas que je n’ai qu’un temps très limité pour cette
+          opération.</postscript>
       </closer>
-
 
     </body>
   </text>
