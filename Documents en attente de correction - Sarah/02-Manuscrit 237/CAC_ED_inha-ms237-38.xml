@@ -7,7 +7,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Lettre d’Eugène Delacroix à Madame Haro, 24 mai 18[47]</title>
+        <title>Lettre d’Eugène Delacroix à Étienne Haro, 9 mars 1853</title>
         <author key="Delacroix, Eugène (1798-1863)"/>
       </titleStmt>
       <editionStmt>
@@ -37,7 +37,7 @@
             <country>France</country>
             <settlement>Paris</settlement>
             <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
-            <idno>Ms. 237 pièce 32</idno>
+            <idno>Ms. 237 pièce 38</idno>
           </msIdentifier>
           <physDesc>
             <objectDesc form="letter">
@@ -50,8 +50,8 @@
           </physDesc>
         </msDesc>
         <listBibl>
-          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936,
-            II, p. 319</bibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1937,
+            III, p. 143</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
@@ -59,10 +59,10 @@
       <correspDesc>
         <correspAction type="sent">
           <persName key="Delacroix, Eugène (1798-1863)"/>
-          <date when="1847-05-24"/>
+          <date when="1853-03-09"/>
         </correspAction>
         <correspAction type="received">
-          <persName key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)"/>
+          <persName key="Haro, Étienne François (1827-1897)"/>
         </correspAction>
       </correspDesc>
       <langUsage>
@@ -72,40 +72,37 @@
   </teiHeader>
   <text>
     <body>
-
-      <pb n="p.1"
-        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000068.tif/full/full/0/default.jpg"/>
+      <pb n="p.1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000083.tif/full/full/0/default.jpg"/>
       <opener>
         <address>
-          <addrLine><persName
-              key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)">Madame
-              Haro</persName></addrLine>
-          <addrLine>Marchande de couleurs</addrLine>
-          <addrLine><placeName key="France, Paris, rue des Petits Augustins, 26">Rue des Petits
+          <addrLine><persName key="Haro, Étienne François (1827-1897)">Monsieur
+            Haro</persName></addrLine>
+          <addrLine>Marchand de couleurs</addrLine>
+          <addrLine><placeName key="France, Paris, rue des Petits Augustins, 26">rue des Petits
               Augustins, 26</placeName></addrLine>
         </address>
-        <stamp><date when="1847-05-25">25 [184]7</date></stamp>
-        <stamp>Levée de Midi</stamp>
+        <stamp><placeName key="France, Paris">Paris</placeName> <date when="1853-03-09">9 mars 53</date></stamp>
+        
+        <dateline>Ce <date when="1853-03-09">mercredi 9 <add place="inline">[mars
+          1853]</add></date></dateline>
 
-        <pb n="p.2" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000069.tif/full/full/0/default.jpg"/>
-        <salute><persName key="Delacroix, Eugène (1798-1863)">M. Delacroix</persName> salue bien
-            <persName key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)"
-            >Madame Haro</persName></salute>
+        <salute>Mon cher <persName key="Haro, Étienne François (1827-1897)"
+          >Monsieur</persName>,</salute>
       </opener>
 
-      <p>et la prie de vouloir bien envoyer chercher au <placeName
-          key="France, Paris, Musée du Louvre">musée</placeName><note place="bottom"> Il s'agit du
-          musée du Louvre, où se tenait le Salon.</note> aussi tôt que possible ses tableaux et les
-        lui rapporter. Elle laisserait au musée le reçu du <rs type="work" key="Corps de garde à Méquinez"><hi rend="u"
-            >Corps de garde marocain</hi></rs><note place="bottom"><hi rend="it">Corps de garde à
-            Méquinez</hi>.</note> mais en tirant elle-même une reconnaissance de ce que le reçu y a
-        été laissé ; le tableau étant acquis par ledit musée<note place="bottom">Aujourd’hui
-          conservé à Wuppertal, au Von der Heydt Museum.</note>.</p>
-      
-      <closer>
-        <dateline>Ce <date when="1847-05-24">24 mai <add place="inline">[1847]</add></date></dateline>
-      </closer>
+      <p>Je ne sais si je vous ai prévenu que la bordure que je vous demandais était pour le Salon.
+        Voici bien des jours perdus et les doreurs ne vont pas vite. Veuillez, quand vous viendrez
+        prendre les mesures, ne pas venir à la chute du jour où l’on peut faire des erreurs qui sont
+        souvent irréparables au dernier moment. Je vous prie également de presser votre parqueteur
+        pour <hi rend="it">les lions</hi> et <hi rend="it">la femme dans la caverne</hi>. Vous
+        m’aviez dit qu’il fallait environ quatre jours pour cette opération. J’ai un très grand
+        besoin du dessin sur papier végétal que je vous ai donné à contrecoller. Je vous demanderai
+        aussi deux vessies de jaune de Naples.</p>
 
+      <closer>
+        <salute>Voilà tout je crois, pour le moment, et vous envoie toutes mes civilités.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
     </body>
   </text>
 </TEI>

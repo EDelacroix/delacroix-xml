@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Étienne Haro, 16 [novembre] 18[50]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Thierry Laugée</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 237 pièce 35</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="4" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1937,
+            III, p. 44-46</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1850-11-16"/>
+          <placeName key="France, Champrosay">Champrosay</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Haro, Étienne François (1827-1897)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="p.1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000075.tif/full/full/0/default.jpg"/>
+      <opener>
+        <address>
+          <addrLine><persName key="Haro, Étienne François (1827-1897)">Monsieur
+            Haro</persName></addrLine>
+          <addrLine>Marchand de couleurs</addrLine>
+          <addrLine><placeName key="France, Paris, rue des Petits Augustins, 18">Rue des Petits
+              Augustins, 18</placeName></addrLine>
+          <addrLine><placeName key="France, Paris">Paris</placeName></addrLine>
+          <stamp><date when="1850-11-17">17 novembre 18[5]0</date></stamp>
+          <stamp><placeName key="France, Draveil">Draveil</placeName></stamp>
+
+          <pb n="p.2"
+            facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000076.tif/full/full/0/default.jpg"/>
+          <addrLine><placeName key="France, Champrosay">Champrosay</placeName></addrLine>
+        </address>
+
+        <dateline><date when="1850-11-16">samedi 16 <add place="inline">[novembre
+          1850]</add></date></dateline>
+        <salute>Mon cher <persName key="Haro, Étienne François (1827-1897)"
+          >Monsieur</persName>,</salute>
+      </opener>
+
+      <p>vous lâchez prise bien facilement sur ce qui vous concerne<note place="bottom">Haro avait
+          convoité la place de restaurateur de tableaux à l'Institut et à l'Ecole des
+          Beaux-Arts.</note> et vous avez une persistance dont je ne saurais assez vous remercier
+        pour ma sotte affaire<note place="bottom"> Delacroix avait sollicité un logement à
+          l'Institut. Celui-ci fut finalement attribué à un bibliothécaire de la Mazarine.</note>.
+        Mais je vous en supplie : laissez ces pleutres de bibliothécaires s’installer comme ils
+        voudront ; après leur avoir donné les meilleurs logements, ils donneront les autres à leurs
+        portiers. Qui peut les retenir ? n’ont ils pas fait une espèce de faux en précipitant ou en
+        simulant la conclusion en leur faveur ? Je suis tout consolé ; pensez à vous dont la
+        position à cause de votre jeunesse dans votre partie demande toutes sortes d’aides. J’ai été
+        bien mal reçu et je m’en suis bien voulu d’être parti, sans insister davantage. Dans le
+        premier moment j’étais si assommé du métier que je faisais, que je n’ai pensé qu’à <pb
+          n="p.3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000077.tif/full/full/0/default.jpg"
+        />mon ennui et à mon désir de venir ici achever deux ou trois petits tableaux. À la vérité
+        vous avez affaire à des gens plus sots que malveillants ; mais l’entêtement est presque
+        toujours plus difficile à forcer que le mauvais vouloir. Je serai à <placeName
+          key="France, Paris">Paris</placeName> à la fin de la semaine où nous allons entrer. Nous
+        verrons le parti que nous pourrons tirer de vos recommandations qui sont puissantes.</p>
+      <p>Remerciez bien <persName key="Sacaley, Jean Julien (1800-1875)">M. Sacaley</persName> de
+        son intérêt : il m’a plu comme je lui ai plu. J’ai reçu un mot de <persName
+          key="Mocquard, Jean François Constant (1791-1864)">M. Mocquard</persName> qui me fait part
+        du triste résultat. Je lui ai la même obligation. Je vous répète que je regrette que
+          <persName key="Forget, Joséphine de (1802-1886)">Mme de Forget</persName> ait été remuer
+        de nouveau tout cela. On est étonné de voir tout ce qu’il faut d’efforts pour faire réussir
+        une chose aussi modeste que juste. Vous parlez très bien dans votre lettre de la résignation
+        qui vous reporte au travail. J’ai toujours <pb n="p.4"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000077.tif/full/full/0/default.jpg"
+        />pensé, et cela m’a sauvé de tous les embarras que c’était là le meilleur protecteur.</p>
+      <p>Aussitôt mon retour, je vous chercherai des lithographies pour M. Lacrosse<note
+          place="bottom"> Non identifié.</note>. Rappelez-le-moi à <placeName key="France, Paris"
+          >Paris</placeName>, car je n’ai pas de mémoire et je serais désolé d’y manquer.</p>
+      <p>N’oubliez pas les cylindres<note place="bottom"> Tubes destinés au transport du
+          tableau.</note> du tableau. Comme les ouvriers sont difficiles à faire marche, il sera bon
+        de s’y prendre de bonne heure.</p>
+
+      <closer>
+        <salute>Recevez, cher <persName key="Haro, Étienne François (1827-1897)"
+          >Monsieur</persName>, mille nouveaux remerciements et bien affectueux.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+      <postscript>
+        <p><persName key="Le Guillou, Jeanne Marie, dite Jenny (1801-1869)">Jenny</persName> qui est
+          bien sensible à votre souvenir vous remercie bien ainsi que <persName
+            key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)">Mme
+            Haro</persName>.</p>
+      </postscript>
+
+    </body>
+  </text>
+</TEI>

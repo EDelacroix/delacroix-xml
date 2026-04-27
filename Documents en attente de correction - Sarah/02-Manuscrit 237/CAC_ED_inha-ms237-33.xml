@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Madame Haro, 21 juillet 1847</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Thierry Laugée</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 237 pièce 33</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="3" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Inédite</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1847-07-21"/>
+          <placeName key="France, Champrosay">Champrosay</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="p.1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000070.tif/full/full/0/default.jpg"/>
+      <opener>
+      <address>
+        <addrLine><persName
+          key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)">Madame
+          Haro</persName></addrLine>
+        <addrLine>Marchande de couleurs</addrLine>
+        <addrLine><placeName key="France, Paris, rue des Petits Augustins, 26">Rue des Petits Augustins, 26</placeName></addrLine>
+        <addrLine><placeName key="France, Paris">Paris</placeName></addrLine>
+        <stamp><date when="1847-07-21">21 juillet 47</date></stamp>
+      
+        <pb n="p.2" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000071.tif/full/full/0/default.jpg"/>
+        <addrLine><placeName key="France, Champrosay">Champrosay</placeName></addrLine>
+      </address>
+        <dateline><date when="1847-07-21">21 juillet <add place="inline">[1847]</add></date></dateline>
+      
+      
+      <salute><persName key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)"
+        >Madame</persName>,</salute>
+      </opener>
+      
+      <p>Je vous serais très obligé de vouloir bien m’envoyer ici <hi rend="u">une très petite
+        bouteille de vernis double</hi>. En la bouchant bien, il suffira de l’envelopper convenablement
+        et vous la feriez mettre à la station du chemin de fer de <placeName key="France, Corbeil">Corbeil</placeName>, <placeName key="France, Corbeil, place Saint-Sulpice">place Saint-Sulpice</placeName>. Le
+        port se paie ici. Vous mettriez sur l’adresse à <hi rend="u"><persName key="">M. Eugène Delacroix</persName>, maison de la ferme à
+        <placeName key="France, Champrosay">Champrosay</placeName>, station de Ris.</hi></p>
+      
+      <closer>
+      <salute>Je vous prie, <persName
+          key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)"
+          >Madame</persName>, d’agréer mes salutations très empressées.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+      
+      <postscript><p>M. <persName key="Haro, Étienne François (1827-1897)">Etienne</persName> m’a
+        promis des toiles de dimensions au dessus de 25<note place="bottom"> Toile de 25 (sols)
+          équivalant à 81,25 x 65 cm (<hi rend="it">Peinture et dessin, vocabulaire typologique et
+            technique</hi>, 2009, vol. 1, p. 271).</note>. Il en a emporté une pour la poncer qu’il
+        ne m’a <pb n="p.3" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000072.tif/full/full/0/default.jpg"/>pas rapportée.</p></postscript>
+      
+    </body>
+  </text>
+</TEI>

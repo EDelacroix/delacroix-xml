@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Étienne Haro, 10 février 18[5]2</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Thierry Laugée</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 237 pièce 37</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="3" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1937,
+            III, p. 105-106</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1852-02-10"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Haro, Étienne François (1827-1897)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+      <pb n="p.1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000080.tif/full/full/0/default.jpg"/>
+      <opener>
+        <address>
+          <addrLine><persName key="Haro, Étienne François (1827-1897)">Monsieur
+            Haro</persName></addrLine>
+          <addrLine>Marchand de couleurs</addrLine>
+          <addrLine><placeName key="France, Paris, rue des Petits Augustins, 26">rue des Petits
+              Augustins, 26</placeName></addrLine>
+        </address>
+
+        <stamp><placeName key="France, Paris">Paris</placeName>
+          <date when="1852-02-10">10 février [5]2</date> [6h]</stamp>
+
+        <pb n="p.2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000081.tif/full/full/0/default.jpg"/>
+
+        <dateline>Ce <date when="1852-02-10">10 février [1852]</date></dateline>
+
+        <salute>Mon cher <persName key="Haro, Étienne François (1827-1897)"
+          >Monsieur</persName>,</salute>
+      </opener>
+
+      <p>Je pense que vous avez pu vous assurer de la dimension du plafond<note place="bottom"> Le
+          plafond du Salon de la Paix de l’Hôtel de ville de Paris.</note>. Il faudrait commander le
+        châssis le plus tôt possible ; je suis en mesure de commencer et mon esquisse est faite.
+        D’après nos calculs, il y aurait 15 pieds<note place="bottom"> 1 pied équivaut à environ
+          32,5 cm.</note> de haut en supprimant les deux pieds<note place="bottom"> 1 pied équivaut
+          à environ 32,5 cm.</note> que nous laisserions de côté, ce qui ferait 17 pieds<note
+          place="bottom">1 pied équivaut à environ 32,5 cm.</note> de large.</p>
+      <p>Je vous prie instamment d’aller le plus vite possible. Vous pouvez commander en même temps
+        les châssis des caissons<note place="bottom">Le plafond du Salon de la Paix était composé
+          de huit caissons rectangulaires entourant le tableau central circulaire.</note>. Il serait
+        important d’utiliser les bois du châssis que j’ai. Pensez à la manière de les employer. Il
+        est entendu que le châssis n’a pas besoin d’être bien soigné, attendu qu’étant clouée de
+        quatre côtés la toile sera encore suffisante si on la compare à celle de l’année
+          dernière<note place="bottom">Pour la peinture centrale du plafond de la galerie d’Apollon
+          du Louvre.</note>.</p>
+      <p>Tout cela sans préjudice de l’entrevue que nous aurons <date when="1852-02-13">vendredi</date> à la ville : tachez
+        d’utiliser les jours qui vous restent jusque-là. Je frémis de la besogne que j’ai à faire,
+        il faudrait donc commencer de bonne heure.</p>
+      <p>Pour les caissons, nous en mettrons deux sur le même châssis. Ils n’ont pas besoin d’être à
+        clefs <pb n="p.3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000082.tif/full/full/0/default.jpg"
+        />par conséquent, car les clefs seraient interieurement et on ne pourrait les chasser. On
+        retendra, s’il est nécessaire, les toiles pendant l’exécution, si elles se relâchent par
+        trop.</p>
+      
+      <closer>
+        <salute>Je vous recommande bien tout cela et vous envoie mes compliments.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+      <postscript>
+        <p>Vous m’avez dit que vous aviez une toile prête pour le plafond<note place="bottom"> Le
+            plafond du Salon de la Paix de l’Hôtel de ville de Paris.</note>. Je ne vous demande pas
+          pour le reste des toiles un aussi grand luxe de perfection que celui que nous avons mis
+          l’année dernière à notre grande toile<note place="bottom"> Pour la peinture centrale du
+            plafond de la galerie d’Apollon du Louvre.</note>, et une qualité ordinaire sera
+          suffisante pour des objets destinés à être marouflés.</p>
+      </postscript>
+
+    </body>
+  </text>
+</TEI>
