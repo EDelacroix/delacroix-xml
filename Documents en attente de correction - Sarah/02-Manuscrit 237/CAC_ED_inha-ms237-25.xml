@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Madame Haro, 24 mars 18[46]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Thierry Laugée</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 237 pièce 25</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="3" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936,
+            II, p. 271-272</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1846-05-24"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+      <pb n="p.1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000053.tif/full/full/0/default.jpg"/>
+      <opener>
+        <address>
+          <addrLine><persName
+              key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)">Madame
+              Haro</persName></addrLine>
+
+          <addrLine>Marchande de couleurs</addrLine>
+          <addrLine><placeName key="France, Paris, rue des Petits Augustins, 26">rue des petits
+              Augustins 26</placeName></addrLine>
+        </address>
+
+        <pb n="p.2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000054.tif/full/full/0/default.jpg"/>
+        <salute><persName
+            key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)"
+            >Madame</persName>,</salute>
+      </opener>
+
+      <p>Vous me rendriez service s’il vous était possible d’envoyer demain M.<persName
+          key="Haro, Étienne François (1827-1897)"> votre fils</persName> avec un ouvrier doreur
+        avec ce qu’il faudrait pour réparer ma bordure <rs type="work"
+          key="Le Naufrage de Don Juan (J276)
+          "><hi rend="u">du naufrage</hi></rs><note place="bottom"><hi rend="it">Le Naufrage de Don
+            Juan</hi>, Paris, Musée du Louvre, RF359.</note> que suis obligé de faire transporter de
+        chez moi et pour laquelle <persName key="Barrat">Barrat</persName><note place="bottom">Selon
+            l'<hi rend="it">Annuaire général du commerce, de l'industrie, de la magistrature et de
+            l'administration</hi> de 1846, Barrat désigne un doreur sur bois présent rue de
+          l'Observance (aujourd'hui rue Antoine-Dubois) à Odéon (Société des annuaires, dir.
+          Henrichs, Paul, <hi rend="it">Annuaire général du commerce, de l'industrie, de la
+            magistrature et de l'administration</hi>, 1846, p. 110).</note> me manque de parole
+        depuis plus de quatre jours malgré mes lettres. Je suis déjà convenu avec Mr <persName
+          key="Haro, Étienne François (1827-1897)">Etienne</persName> qu’il se chargerait de faire
+        porter ce tableau à sa destinataire.</p>
+      <p>Si vous ne pouviez venir que <hi rend="u"><date when="1846-05-26">mardi</date></hi>, je
+        vous serais très obligé que ce soit avant <hi rend="u">9h du matin</hi> pour m’entendre avec
+        lui, me trouvant obligé de sortir de bonne heure. J’ai en outre à lui parler <pb n="p.3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000055.tif/full/full/0/default.jpg"
+        />au sujet du tableau de <persName key="Querelles, Hortense de (1812-1851)">Madame de
+          Querelles</persName> qu’il faudrait vernir et que j’ai vu aujourd’hui.</p>
+      <closer>
+        <salute>Agréez <persName
+            key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)"
+            >madame</persName> mes salutations très empressées,</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+        <dateline>Ce <date when="1846-05-24">dimanche 24</date><note place="bottom"/></dateline>
+      </closer>
+    </body>
+  </text>
+</TEI>

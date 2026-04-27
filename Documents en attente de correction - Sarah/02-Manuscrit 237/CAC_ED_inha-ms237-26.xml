@@ -7,7 +7,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Lettre d’Eugène Delacroix à Étienne Haro, 5 février 1846</title>
+        <title>Lettre d’Eugène Delacroix à Madame Haro, 17 mai 1846</title>
         <author key="Delacroix, Eugène (1798-1863)"/>
       </titleStmt>
       <editionStmt>
@@ -37,7 +37,7 @@
             <country>France</country>
             <settlement>Paris</settlement>
             <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
-            <idno>Ms. 237 pièce 23</idno>
+            <idno>Ms. 237 pièce 26</idno>
           </msIdentifier>
           <physDesc>
             <objectDesc form="letter">
@@ -58,10 +58,10 @@
       <correspDesc>
         <correspAction type="sent">
           <persName key="Delacroix, Eugène (1798-1863)"/>
-          <date when="1846-02-05"/>
+          <date when="1846-05-17"/>
         </correspAction>
         <correspAction type="received">
-          <persName key="Haro, Étienne François (1827-1897)"/>
+          <persName key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)"/>
         </correspAction>
       </correspDesc>
       <langUsage>
@@ -72,26 +72,30 @@
   <text>
     <body>
       
-      <pb n="p.1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000049.tif/full/full/0/default.jpg"/>
+      <pb n="p.1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000056.tif/full/full/0/default.jpg"/>
       <opener>
-        <address>
-          <addrLine><persName key="Haro, Étienne François (1827-1897)">Monsieur Haro</persName>,
-            Marchand de couleurs</addrLine>
-          <addrLine><placeName key="France, Paris, rue des Petits Augustins, 26">rue des petits Augustins, 26</placeName></addrLine>
-        </address>
-        
-        <pb n="p.2" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000050.tif/full/full/0/default.jpg"/>
-        
-        <salute><persName key="Delacroix, Eugène (1798-1863)">M. Delacroix</persName> souhaite bien le bonjour à M. <persName
-            key="Haro, Étienne François (1827-1897)">Haro</persName></salute>
+      <address>
+        <addrLine><persName
+          key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)">Madame
+          Haro</persName>, marchande de couleurs</addrLine>
+        <addrLine><placeName key="France, Paris, rue des Petits Augustins, 26">rue des petits Augustins 26</placeName></addrLine>
+      </address>
+      
+        <pb n="p.2" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000057.tif/full/full/0/default.jpg"/>
+        <salute><persName key="Delacroix, Eugène (1798-1863)">M. Delacroix</persName> salue <persName
+          key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)">Madame
+          Haro</persName></salute> 
       </opener>
       
-      <p>et voudrait le consulter le plutôt possible sur un petit tableau auquel il est arrivé un
-        accident. Il voudrait aussi lui demander des nouvelles du tableau à rentoiler.</p>
+      <p>et la prie de vouloir bien suspendre jusqu’à un nouvel avis l’envoi des
+        personnes qui doivent s’occuper de son grand tableau et qui devaient venir demain mardi. Il
+        lui est impossible d’être présent et il l’avertira pour cet objet en la priant de
+        l’excuser.</p>
       
       <closer>
-        <dateline>Ce <date when="1846-02-05">5 février <add place="inline">[1846]</add></date></dateline>
+        <dateline>Ce <date when="1846-05-17">lundi 17 mai <add place="inline">[1846]</add></date></dateline>
       </closer>
+      
     </body>
   </text>
 </TEI>

@@ -7,7 +7,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Lettre d’Eugène Delacroix à Étienne Haro, 5 février 1846</title>
+        <title>Lettre d’Eugène Delacroix à Madame Haro, 1er mars 18[47]</title>
         <author key="Delacroix, Eugène (1798-1863)"/>
       </titleStmt>
       <editionStmt>
@@ -37,7 +37,7 @@
             <country>France</country>
             <settlement>Paris</settlement>
             <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
-            <idno>Ms. 237 pièce 23</idno>
+            <idno>Ms. 237 pièce 30</idno>
           </msIdentifier>
           <physDesc>
             <objectDesc form="letter">
@@ -58,10 +58,10 @@
       <correspDesc>
         <correspAction type="sent">
           <persName key="Delacroix, Eugène (1798-1863)"/>
-          <date when="1846-02-05"/>
+          <date when="1847-03-01"/>
         </correspAction>
         <correspAction type="received">
-          <persName key="Haro, Étienne François (1827-1897)"/>
+          <persName key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)"/>
         </correspAction>
       </correspDesc>
       <langUsage>
@@ -71,27 +71,37 @@
   </teiHeader>
   <text>
     <body>
-      
-      <pb n="p.1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000049.tif/full/full/0/default.jpg"/>
+
+      <pb n="p.1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000064.tif/full/full/0/default.jpg"/>
       <opener>
         <address>
-          <addrLine><persName key="Haro, Étienne François (1827-1897)">Monsieur Haro</persName>,
-            Marchand de couleurs</addrLine>
-          <addrLine><placeName key="France, Paris, rue des Petits Augustins, 26">rue des petits Augustins, 26</placeName></addrLine>
+          <addrLine><persName
+              key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)">Madame
+              Haro</persName></addrLine>
+          <addrLine>Marchande de couleurs</addrLine>
+          <addrLine><placeName key="France, Paris, rue des Petits Augustins, 26">Rue des Petits
+              Augustins, 26</placeName></addrLine>
+          <addrLine><placeName key="France, Paris, faubourg Saint-Germain">Faubourg
+              Saint-Germain</placeName></addrLine>
         </address>
-        
-        <pb n="p.2" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000050.tif/full/full/0/default.jpg"/>
-        
-        <salute><persName key="Delacroix, Eugène (1798-1863)">M. Delacroix</persName> souhaite bien le bonjour à M. <persName
-            key="Haro, Étienne François (1827-1897)">Haro</persName></salute>
+
+        <pb n="p.2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000065.tif/full/full/0/default.jpg"/>
+        <salute><persName key="Delacroix, Eugène (1798-1863)">M. Delacroix</persName> salue bien
+            <persName key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)"
+            >Madame Haro</persName></salute>
       </opener>
-      
-      <p>et voudrait le consulter le plutôt possible sur un petit tableau auquel il est arrivé un
-        accident. Il voudrait aussi lui demander des nouvelles du tableau à rentoiler.</p>
-      
+
+      <p>et la prie de lui envoyer le plus tôt possible une petite bouteille de vernis double avec
+        une petite vessie du jaune qu’il a demandée à <persName
+          key="Haro, Étienne François (1827-1897)">M. Haro</persName>.</p>
+
       <closer>
-        <dateline>Ce <date when="1846-02-05">5 février <add place="inline">[1846]</add></date></dateline>
+        <dateline>Ce <date when="1847-03-01">1<hi rend="sup">er</hi> mars <add place="inline"
+              >[1847]</add></date></dateline>
       </closer>
+
     </body>
   </text>
 </TEI>

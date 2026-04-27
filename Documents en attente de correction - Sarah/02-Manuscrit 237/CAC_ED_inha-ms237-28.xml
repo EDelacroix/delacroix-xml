@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Madame Haro, 9 août 1846</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Thierry Laugée</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 237 pièce 28</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="2" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936,
+            II, p. 276</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1846-08-09"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+      <pb n="p.1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000060.tif/full/full/0/default.jpg"/>
+      <opener>
+      <address>
+        <addrLine><persName
+          key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)">Madame
+          Haro</persName>, marchande de couleurs,</addrLine>
+        
+        <addrLine><placeName key="France, Paris, rue des Petits Augustins, 26">rue des Petits Augustins 26.</placeName></addrLine>
+      </address> 
+        <stamp><date when="1846-08-09">9 18[illisible]</date></stamp>
+        <stamp>Levée de midi 1/2</stamp>
+      
+        <pb n="p.2" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000061.tif/full/full/0/default.jpg"/>
+      <salute>J’ai l’honneur de saluer <persName
+          key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)">Madame
+          Haro</persName></salute>
+      </opener>
+      
+        <p>et la prie de me renvoyer dans une lettre <hi rend="u">aussitôt réception
+          de la présente</hi>, le reçu que <persName key="Haro, Étienne François (1827-1897)">Mr
+            Etienne</persName> a tiré du Marchand de tableaux en face les bains chinois <note place="bottom">Établissement
+              de bains de l'architecte Samson-Nicolas Lenoir Le Romain (Saint-Germain-en-Laye vers 1728 -
+              Paris 1810) édifié en 1787 ou 1792  à Paris sur le Boulevard des Italiens, n° 25. Outre des
+              bains, l'édifice comprenait un cabinet littéraire, un restaurant et un café. Il fut détruit au
+              plus tard en 1853 ( Gallet (M.), <hi rend="it">Les architectes parisiens du XVIII<hi rend="sup">e</hi>
+                siècle - dictionnaire biographique et critique</hi>, Paris, Éditions Mengès, 1995, p.
+              331-336).</note> pour le tableau du <rs type="work" key="Le Naufrage de Don Juan (J276)
+                ">naufrage</rs><note place="bottom"><hi rend="it">Naufrage de Don Juan</hi>, dit aussi <hi rend="it">Un
+                  Naufrage,</hi> daté de 1840 et exposé au Salon en 1841 (Paris, musée du Louvre).</note>.</p>
+      <p>Je suis obligé de partir<note place="bottom">André Joubin précise qu'il s'agit du départ pour Nohant (Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936,
+        II, n.3, p. 276)</note> sans être présent au roulement du <rs type="work" key="La Mort de Sardanapale (J125)
+        "><hi rend="it">Sardanapale</hi></rs>
+        pour l’emporter chez elle et le remmarger. Je le lui recommande bien. <persName
+          key="Haro, Étienne François (1827-1897)">Mr. Etienne</persName> examinera qu’il a laissé
+        dans beaucoup d’endroits des petites parties du coton qui lui a servi en dévernissant.</p>
+      <p>Il est bien essentiel de les enlever en livrant le tableau.</p>
+      <p>Je la prie d’envoyer le plutôt qu’elle pourra pour cet objet à partir <hi rend="u">du
+        <date when="1846-08-15">15</date></hi>. Elle a l’adresse de <persName key="Wilson, Daniel David, dit Wilson père (1790-1849)
+          ">Mr. Wilson</persName><note place="bottom">Daniel Wilson (1790-1849) ingénieur, industriel et collectionneur, acquiert le tableau
+            directement auprès de l'artiste en 1846, bien que Théophile Silvestre date la
+            transaction de 1845.</note> à qui le tableau est destiné et s’entendra pour l’expédition aussitôt
+        après le remmargement.</p>
+      
+      <closer>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+        <dateline>Ce <date when="1846-08-09">9 août 1846</date></dateline>
+      </closer>
+        
+     </body>
+  </text>
+</TEI>

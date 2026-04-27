@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Madame Haro, 21 mars 18[46]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Thierry Laugée</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 237 pièce 24</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="2" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936,
+            II, p. 266</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1846-03-21"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+      <pb n="p.1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000051.tif/full/full/0/default.jpg"/>
+      <opener>
+      <address>
+        <addrLine><persName
+          key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)">Madame
+          Haro</persName></addrLine>
+          <addrLine>Marchande de couleurs</addrLine>
+        <addrLine><placeName key="France, Paris, rue des Petits Augustins, 26">rue des Petits Augustins 26</placeName></addrLine>
+      </address>
+        
+        <pb n="p.2" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000052.tif/full/full/0/default.jpg"/>
+     
+        <dateline>Ce <date when="1846-03-21">samedi soir 21 mars</date><add place="inlin">[1846]</add></dateline>
+        <salute><persName key="Delacroix, Eugène (1798-1863)">Mr. Delacroix</persName> salue bien <persName
+          key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)">Madame
+          Haro</persName></salute>
+      </opener>
+      
+      <p>et la prie instamment de lui envoyer pour <date when="1846-03-23"><hi rend="u">lundi matin 23</hi></date> une toile de <hi rend="u">60</hi>
+        et une toile de <hi rend="u">50</hi> de la toile imprimée de méthode ordinaire dont <persName
+          key="Haro, Étienne François (1827-1897)">Mr. Etienne</persName> lui a parlé : de plus <hi rend="u">deux
+            vessies fortes</hi> de <hi rend="u">brun de prusse</hi><note place="bottom">Selon Joubin, la toile de 60 est
+          destinée à <hi rend="it">Comédiens et bouffons arabes</hi> (Salon de 1848) et celle de 50
+          pour <hi rend="it">les Femmes d'Alger</hi> (Musée de Montpellier). L'emploi du brun de
+          prusse explique pourquoi ce dernier tableau a noirci.</note>. Il lui sera bien obligé de
+        ne pas manquer : cette toile étant préparée d’avance et pouvant demain dans la matinée être
+        clouée sur des chassis de mesure.</p>
+      <p>Elle ferait reprendre en même temps les toiles imprimées et la terre de pipe pour enlever
+        un peu de l’impression et la teinter très légèrement pour que le crayon blanc puisse
+        <hi rend="u">paraître</hi>.</p>
+      
+    </body>
+  </text>
+</TEI>

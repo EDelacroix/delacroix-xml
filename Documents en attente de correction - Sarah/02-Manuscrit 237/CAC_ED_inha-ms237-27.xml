@@ -7,7 +7,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Lettre d’Eugène Delacroix à Étienne Haro, 5 février 1846</title>
+        <title>Lettre d’Eugène Delacroix à Madame Haro, 19 mai 1846</title>
         <author key="Delacroix, Eugène (1798-1863)"/>
       </titleStmt>
       <editionStmt>
@@ -37,7 +37,7 @@
             <country>France</country>
             <settlement>Paris</settlement>
             <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
-            <idno>Ms. 237 pièce 23</idno>
+            <idno>Ms. 237 pièce 27</idno>
           </msIdentifier>
           <physDesc>
             <objectDesc form="letter">
@@ -50,7 +50,8 @@
           </physDesc>
         </msDesc>
         <listBibl>
-          <bibl>Inédite</bibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936,
+            II, p. 271</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
@@ -58,10 +59,10 @@
       <correspDesc>
         <correspAction type="sent">
           <persName key="Delacroix, Eugène (1798-1863)"/>
-          <date when="1846-02-05"/>
+          <date when="1846-05-19"/>
         </correspAction>
         <correspAction type="received">
-          <persName key="Haro, Étienne François (1827-1897)"/>
+          <persName key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)"/>
         </correspAction>
       </correspDesc>
       <langUsage>
@@ -71,27 +72,43 @@
   </teiHeader>
   <text>
     <body>
-      
-      <pb n="p.1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000049.tif/full/full/0/default.jpg"/>
+
+      <pb n="p.1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000058.tif/full/full/0/default.jpg"/>
       <opener>
         <address>
-          <addrLine><persName key="Haro, Étienne François (1827-1897)">Monsieur Haro</persName>,
-            Marchand de couleurs</addrLine>
-          <addrLine><placeName key="France, Paris, rue des Petits Augustins, 26">rue des petits Augustins, 26</placeName></addrLine>
+          <addrLine><persName
+              key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)">Madame
+              Haro</persName>, marchande de couleurs</addrLine>
+          <addrLine><placeName key="France, Paris, rue des Petits Augustins, 26">rue des petits
+              Augustins, 26</placeName></addrLine>
+          <addrLine><placeName key="France, Paris, faubourg Saint-Germain">Fb St
+            Germain</placeName></addrLine>
         </address>
-        
-        <pb n="p.2" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000050.tif/full/full/0/default.jpg"/>
-        
-        <salute><persName key="Delacroix, Eugène (1798-1863)">M. Delacroix</persName> souhaite bien le bonjour à M. <persName
-            key="Haro, Étienne François (1827-1897)">Haro</persName></salute>
+
+        <pb n="p.2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000059.tif/full/full/0/default.jpg"/>
+        <salute><persName key="Delacroix, Eugène (1798-1863)">M. Delacroix</persName> salue bien
+            <persName key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)"
+            >Madame Haro</persName></salute>
       </opener>
-      
-      <p>et voudrait le consulter le plutôt possible sur un petit tableau auquel il est arrivé un
-        accident. Il voudrait aussi lui demander des nouvelles du tableau à rentoiler.</p>
-      
+
+      <p>et la prie d’envoyer le plutôt possible faire la réparation nécessaire à son tableau de <rs
+          type="work" key="Le Naufrage de Don Juan (J276)
+            "><hi rend="it">Naufrage</hi></rs><note place="bottom"><hi rend="it">Le
+            Naufrage de Don Juan</hi>, Paris, Musée du Louvre, RF 359.</note>, le remettre sur
+        châssis et le vernir.</p>
+      <p>Pour le <rs type="work" key="La Mort de Sardanapale (J125)
+        "><hi rend="it">Sardanapale</hi></rs>, il désire retarder de quelques jours, se trouvant
+        indisposé et craignant dans ce moment l’embarras dans son atelier <note place="bottom"><hi
+            rend="it">La Mort de Sardanapale</hi> est vendu par Eugène Delacroix à Daniel David
+          Wilson (1790-1849) pour 6 000 francs le 20 juillet 1846.</note>.</p>
+
       <closer>
-        <dateline>Ce <date when="1846-02-05">5 février <add place="inline">[1846]</add></date></dateline>
+        <dateline>Ce <date when="1846-05-19">mardi 19 <add place="inline">[mai
+          1846]</add></date></dateline>
       </closer>
+
     </body>
   </text>
 </TEI>
