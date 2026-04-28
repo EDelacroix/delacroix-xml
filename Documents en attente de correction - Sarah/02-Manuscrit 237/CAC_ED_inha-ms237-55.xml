@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix aux membres du jury d'examen des produits de l'industrie à
+          l'Exposition universelle, s.d.</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Thierry Laugée</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 237 pièce 55</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="4" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl> </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="18..-..-.."/>
+        </correspAction>
+        <correspAction type="received"> </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <opener>
+        <salute>À Messieurs les membres du jury d’examen des produits de l’industrie à l’Exposition
+            universelle<note place="bottom"> Exposition universelle de 1855.</note></salute>
+        <salute>Messieurs,</salute>
+      </opener>
+      
+      <p>Je prends la liberté de recommander à votre précieuse attention le mémoire que vous soumet
+          <persName key="Haro, Étienne François (1827-1897)">Mr Haro</persName> relativement aux
+        perfectionnements qu’il a apportés dans la préparation et dans l’application des toiles
+        destinées à recevoir des peintures dans les monuments. Son procédé ne s’oppose nullement à
+        ce que les artistes peignent sur place, moyen dont l’effet est d’approprier davantage les
+        peintures à l’édifice que l’on veut décorer, il suffit pour cela d’appliquer les toiles sur
+        les murs avant de peindre : c’est ce qui m’est arrivé à moi-même dans une composition que
+        j’ai exécutée dans la coupole de la bibliothèque du Sénat il y a près de quinze ans. La
+        surface que j’avais à couvrir présentait le tout le moins homogène et se composait de
+        pierre, de poutres et de plâtres, offrant des inégalités et même des solutions de continuité
+        qui n’eussent fait que l’augmenter avec le temps. La toile qui a été appliquée par les
+        procédés qu’il <persName key="Haro, Étienne François (1827-1897)">M. Haro</persName> a
+        l’honneur de vous soumettre, a remédié à ces inconvénients et permet, dans le cas où une
+        dégradation se manifesterait et réclamerait le secours du charpentier ou du maçon, d’y
+        remédier par l’enlèvement et la ré-application de la toile peinte.</p>
+      <p>C’est surtout contre les effets de l’humidité que <persName
+          key="Haro, Étienne François (1827-1897)">Mr. Haro</persName> a su se prémunir ; ce qui
+        était de premier nécessité dans notre climat. Je ne puis trop pour ma part m’élever contre
+        le préjugé qui a consacré l’usage de peindre sur le mur sans aucun intermédiaire. J’ai pu en
+        apprécier par moi-même les nombreux inconvénients et c’est après avoir apprécié les
+        avantages de l’autre manière lesquels sont incontestables comparés par moi par la meilleure
+        de toutes les expériences, celle du temps, que je [interlinéaire] viens de toute confiance
+        vous recommander les résultats obtenus par <persName
+          key="Haro, Étienne François (1827-1897)">M. Haro</persName>.</p>
+
+      <closer>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+        <p>Membre de la Commission Impériale de l’Exposition universelle.</p>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

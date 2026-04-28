@@ -7,7 +7,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Lettre d’Eugène Delacroix à Étienne Haro, 10 septembre 1860</title>
+        <title>Lettre d’Eugène Delacroix à Étienne Haro, 13 mars 1862</title>
         <author key="Delacroix, Eugène (1798-1863)"/>
       </titleStmt>
       <editionStmt>
@@ -37,7 +37,7 @@
             <country>France</country>
             <settlement>Paris</settlement>
             <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
-            <idno>Ms. 237 pièce 49</idno>
+            <idno>Ms. 237 pièce 52</idno>
           </msIdentifier>
           <physDesc>
             <objectDesc form="letter">
@@ -51,7 +51,7 @@
         </msDesc>
         <listBibl>
           <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1938,
-            IV, p. 196-197</bibl>
+            IV, p. 306</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
@@ -59,8 +59,7 @@
       <correspDesc>
         <correspAction type="sent">
           <persName key="Delacroix, Eugène (1798-1863)"/>
-          <date when="1860-09-10"/>
-          <placeName key="France, Champrosay">Champrosay</placeName>
+          <date when="1862-03-13"/>
         </correspAction>
         <correspAction type="received">
           <persName key="Haro, Étienne François (1827-1897)"/>
@@ -74,44 +73,34 @@
   <text>
     <body>
       <pb n="p.1"
-        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000104.tif/full/full/0/default.jpg"/>
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000109.tif/full/full/0/default.jpg"/>
       <opener>
-        <address>
-          <addrLine><placeName key="France, Champrosay">Champrosay</placeName></addrLine>
-        </address>
-        <dateline>ce <date when="">10 septembre <add place="inline">[1860]</add></date></dateline>
-
+        <dateline>Ce <date when="1862-03-13">13 mars <add place="inline"
+          >[1862]</add></date></dateline>
         <salute>Mon cher <persName key="Haro, Étienne François (1827-1897)"
-          >Monsieur</persName>,</salute>
+          >monsieur</persName>,</salute>
       </opener>
 
-      <p>Votre lettre me fait le plus grand plaisir : vous me dites que mon petit <rs type="work"
-          key="Une femme à sa toilette">souvenir</rs><note place="bottom">Un petit pastel <hi
-            rend="it">Une Femme à sa toilette</hi> que Delacroix offrit à Etienne Haro lors de son
-          mariage, dont il fût le témoin (Robaut, Alfred, <hi rend="it">L'Oeuvre complet de Eugène
-            Delacroix</hi>, 1885, n° 1201, p. 322).</note> vous plait ; c’est ce que je désirais
-        avant tout : n’ayant pas même de couleurs ici pour me reposer plus complètement, je n’avais
-        sous la main que du pastel je ne suis pas bien sûr que dans le transport, quelque peu de
-        poussière sombre ne soit tombée par ci par là où il ne fallait pas : ne collez donc pas
-        définitivement ce papier derrière le cadre pour que je puisse le revoir s’il y a lieu.
-        Mettez un passepartout blanc mais pas trop éclatant et surtout pas trop large : c’est le
-        moyen de tuer <pb n="p.2"
-          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000105.tif/full/full/0/default.jpg"
-        />l’effet d’une peinture ou d’un dessin. L’habitude que nous avons à présent des
-        encadrements énormes nous empêche d’être sensibles à cet inconvénient.</p>
-      <p>Je vais assez bien et bien je vais essayer de retravailler<note place="bottom">À
-          Saint-Sulpice.</note>, mais en venant à <placeName key="France, Paris">Paris</placeName>
-        seulement pour ma séance et en retournant ici. Je doute cependant encore si la fatigue des
-        voyages ne compensera pas en mal le bien de la campagne.</p>
+      <p>Je vous remercie bien sincèrement de la démarche que vous avez bien voulu faire pour moi
+        auprès de Monsieur <persName key="Péreire, Émile (1800-1875)
+          ">Péreire</persName><note place="bottom">Delacroix exprime ici son regret d'avoir
+          réclamé à Emile Péreire, banquier et collectionneur, un supplément de 2000 francs sur les
+          8000 prévus pour la réalisation d'une réplique de la <hi rend="it">Médée furieuse</hi>.
+          Dans une lettre du 13 mars 1862 à Péreire, Delacroix présente ses excuses au commanditaire
+          et lui rembourse l'importante différence.</note>, quoique je regrette beaucoup maintenant
+        qu’elle ait été la suite d’un mouvement de mauvaise humeur que je ne me justifie pas dans ce
+        moment suffisamment à moi-même. Je suis occupé à réparer autant qu’il me sera possible
+        auprès de M. <persName key="Péreire, Émile (1800-1875)
+          ">Pereire</persName>, les effets de cette démarche dont je vous suis toutefois
+        très reconnaissant pour votre <pb n="p.2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000110.tif/full/full/0/default.jpg"
+        />bonne intention,</p>
 
       <closer>
-        <salute>Recevez mes biens sincères et dévouées amitiés.</salute>
+        <salute>et vous prie bien de recevoir l’assurance de mes sentiments dévoués et
+          affectueux.</salute>
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
       </closer>
-      <postscript>
-        <p><persName key="Le Guillou, Jeanne Marie, dite Jenny (1801-1869)">Jenny</persName> vous
-          remercie bien de votre bon souvenir et y est bien sensible.</p>
-      </postscript>
 
     </body>
   </text>

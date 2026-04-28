@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Étienne Haro, 7 novembre 1860</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Thierry Laugée</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 237 pièce 50</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="2" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1938,
+            IV, p. 206-207</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1860-11-07"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Haro, Étienne François (1827-1897)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="p.1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000106.tif/full/full/0/default.jpg"/>
+      <opener>
+        <dateline>Ce <date when="1860-11-07">mercredi 7. nov</date>.</dateline>
+      <salute>Mon cher <persName key="Haro, Étienne François (1827-1897)"
+          >Monsieur</persName>,</salute>
+      </opener>
+      
+      <p>Je vous envoie une peinture sur papier que je désirerais bien que vous puissiez me faire
+        appliquer bien solidement sur toile et sur châssis et le faire faire sous vos yeux, si votre
+        santé ne vous permet pas de le faire encore.</p>
+      <p>Vous auriez le soin de laisser le châssis plus large que le bord de la gravure, de manière
+        à ce que le papier que vous mettrez au bord pour recouvrir n’arrive que juste sans rien
+        cacher. Il y aurait donc par conséquent <hi rend="u">une ligne</hi> ou <hi rend="u"
+          >demi</hi> ligne tout autour qui servirait à être retenu par le cadre. J<hi rend="u">e
+          voudrais bien avoir cela pour mon retour, c’est-à-dire pour le 15.</hi> Je vais faire une
+        dernière promenade malgré le mauvais temps avant de me renfermer pour l’hiver.</p>
+      <p>J’espère que de bons soins vous auront <pb n="p.2" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000107.tif/full/full/0/default.jpg"/>bientôt rétabli et que vous serez à même de vous
+        livrer à vos occupations.</p>
+      <p>Vous savez combien je m’intéresse à tout ce qui vous regarde et j’en serai bien
+        heureux.</p>
+      
+      <closer>
+      <salute>Mille et mille compliments dévoués.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eg Delacroix.</persName></signed>
+      </closer>
+    </body>
+  </text>
+</TEI>
