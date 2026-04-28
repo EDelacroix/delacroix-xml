@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Étienne Haro, 8 juin 1853</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Thierry Laugée</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 237 pièce 39</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="2" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1937,
+            III, p. 161</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1853-06-08"/>
+          <placeName key="France, Champrosay">Champrosay</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Haro, Étienne François (1827-1897)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="p.1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000085.tif/full/full/0/default.jpg"/>
+      <opener>
+        <address>
+          <addrLine><persName key="Haro, Étienne François (1827-1897)">Monsieur
+            Haro</persName></addrLine>
+          <addrLine><placeName key="France, Paris, rue Bonaparte">rue Bonaparte en face la rue des
+              Marais</placeName></addrLine>
+          <addrLine><placeName key="France, Paris">Paris</placeName></addrLine>
+        </address>
+        <stamp><placeName key="France, Draveil">Draveil</placeName></stamp>
+
+        <pb n="p.2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000086.tif/full/full/0/default.jpg"/>
+        <dateline>Ce <date when="">mercredi <add place="inline">[8 juin
+          1853]</add></date></dateline>
+        <addrLine><placeName key="France, Champrosay">Champrosay</placeName></addrLine>
+
+
+        <salute>Mon cher <persName key="Haro, Étienne François (1827-1897)"
+          >Monsieur</persName>,</salute>
+      </opener>
+
+      <p>J’ai le regret à présent de n’avoir pas été tout de suite hier m’informer de la réalité du
+        tracé qui nous inquiète<note place="bottom">Concerne le plafond du Salon de la Paix à
+          l’Hôtel de ville de Paris.</note>. Les idées les plus naturelles ne viennent quelquefois
+        que les dernières. Je vous serai donc bien reconnaissant de faire en sorte que <persName
+          key="Laroche, Jules (1830-1894)">M. Laroche</persName> vienne sans faute demain <date when="1853-06-09">jeudi</date>.
+        J’irai alors <date when="1853-06-10">vendredi</date> à l’Hôtel de ville et je tâcherai dans la journée de venir causer avec
+        vous. Je ne vous en dis pas plus long, car le courrier va partir et j’en profite.</p>
+
+      <closer>
+        <salute>Mille choses dévouées</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">E. Delacroix</persName></signed>
+      </closer>
+
+
+    </body>
+  </text>
+</TEI>

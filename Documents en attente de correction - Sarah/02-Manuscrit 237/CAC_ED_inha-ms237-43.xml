@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Étienne Haro, 1er avril 1857</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Thierry Laugée</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 237 pièce 43</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="2" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1937,
+            III, p. 383</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1857-04-01"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Haro, Étienne François (1827-1897)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="p.1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000093.tif/full/full/0/default.jpg"/>
+      <opener>
+        <address>
+          <addrLine>
+            <persName key="Haro, Étienne François (1827-1897)">Monsieur Haro</persName></addrLine>
+          <addrLine><placeName key="France, Paris, rue Bonaparte, 20">rue Bonaparte
+            20</placeName></addrLine>
+        </address>
+
+        <pb n="p.2" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000094.tif/full/full/0/default.jpg"/>
+        <dateline>Ce <date when="">1er avril [1857]</date> 5h.</dateline>
+        <salute>Mon cher <persName key="Haro, Étienne François (1827-1897)"
+          >monsieur</persName></salute>
+      </opener>
+
+      <p>À peine vous ais-je quitté que j’ai eu du regret de ne pas être convenus tout de suite avec
+        vous d’arrêter le logement<note place="bottom">6, rue de Furstemberg ; emplacement actuel du
+          musée national Eugène Delacroix dans le 6ème arrondissement de Paris. Delacroix écrit à ce
+          propos le 12 juin 1857 à Auguste Lamey qu’il lui faut y faire « énormément de changements
+          et même de constructions ».</note>. Il est vraiment impossible de trouver plus de
+        convenances réunies. Je m’en rapporte donc à vous, pour faire même les concessions
+        nécessaires pour la conclusion. J’envoie exprès ce soir faire ma course dans le quartier
+        pour que vous puissiez mettre à profit la matinée de demain avec le propriétaire. <persName
+          key="Le Guillou, Jeanne Marie, dite Jenny (1801-1869)">Jenny</persName>, à qui je parle de
+        tout cela, vous envoie mille prières pour faire en sorte de nous caser et moi je vous
+        remercie bien cordialement de votre bonne intervention.</p>
+      
+      <closer>
+        <salute>Tout à vous bien sincèrement,</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+      <postscript>
+        <p>N’oubliez pas d’intéresser le portier.</p>
+      </postscript>
+
+
+    </body>
+  </text>
+</TEI>

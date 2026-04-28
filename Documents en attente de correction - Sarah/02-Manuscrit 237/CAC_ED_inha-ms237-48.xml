@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Étienne Haro, 14 août 1860</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Thierry Laugée</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 237 pièce 48</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="2" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1938,
+            IV, p. 191-192</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1860-08-14"/>
+          <placeName key="France, Champrosay">Champrosay</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Haro, Étienne François (1827-1897)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="p.1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000102.tif/full/full/0/default.jpg"/>
+      <opener>
+        <address>
+          <addrLine><placeName key="France, Champrosay">Champrosay</placeName>, ce <date
+              when="1860-08-14">14 août</date> <add place="inline">[1860]</add></addrLine>
+        </address>
+        <salute>Mon cher <persName key="Haro, Étienne François (1827-1897)"
+          >monsieur</persName>,</salute>
+      </opener>
+
+      <p>Julie<note place="bottom">La domestique d'Eugène Delacroix</note> que j’ai envoyée à <placeName key="France, Paris">Paris</placeName>
+        hier, chargée de mes compliments pour vous et pour <persName
+          key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)">Madame
+          Haro</persName> ainsi que ceux de <persName
+          key="Le Guillou, Jeanne Marie, dite Jenny (1801-1869)">Jenny</persName> qui est bien
+        sensible à votre bon souvenir, m’a fait apercevoir, sur l’observation bien naturelle que
+        vous lui avez faite, que j’ai commis l’étourderie de ne pas vous accuser réception de la
+        lettre chargée contenant le mandat sur M. <persName key="Rougemont De Lowenberg, Denis Marie de (1791-1863)
+          ">Rougemont de Loewenberg</persName><note place="bottom">
+          Acquéreur du tableau dont il est question dans la <ref type="letter"
+            target="CAC_ED_inha-ms237-47.xml">lettre à Haro du 5 août 1860</ref>.</note>, et que
+        vous avez eu l’obligeance de m’envoyer. J’avais il est vrai commencé une lettre à cet effet
+        et comme j’en écrivais plusieurs en même temps, je n’y ai plus pensé et croyais <pb n="p.2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000103.tif/full/full/0/default.jpg"
+        />l’avoir envoyée. Veuillez donc m’excuser et recevoir de nouveau tous mes
+        remerciements.</p>
+      <p>Je ne puis encore me décider à revenir malgré le mauvais temps : cela vous explique ma
+        paresse pour aller toucher ma somme. Je ne fais rien ou presque rien voulant me remettre
+        tout à fait : j’avais aussi à présider à quelques restes de travaux à ma petite maison, qui
+        n’auraient jamais été achevés sans cela.</p>
+      <closer>
+        <salute>Recevez de nouveau mon cher <persName key="Haro, Étienne François (1827-1897)"
+            >monsieur </persName>l’assurance de mon sincère dévouement.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

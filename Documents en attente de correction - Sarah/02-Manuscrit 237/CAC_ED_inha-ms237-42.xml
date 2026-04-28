@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Étienne Haro, 15 juin 1856</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Thierry Laugée</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 237 pièce 42</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="2" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1937,
+            III, p. 330</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1856-06-15"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Haro, Étienne François (1827-1897)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+      <pb n="p.1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000091.tif/full/full/0/default.jpg"/>
+      <opener>
+        <address>
+          <addrLine><persName key="Haro, Étienne François (1827-1897)">Monsieur
+            Haro</persName></addrLine>
+
+          <addrLine><placeName key="France, Paris, rue Bonaparte, 26">rue Bonaparte
+            26</placeName></addrLine>
+        </address>
+        <stamp><date when="1856-06-16">16 [juin 56]</date></stamp>
+
+        <pb n="p.2" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000092.tif/full/full/0/default.jpg"/>
+        <dateline>Ce <date when="1856-06-15">dimanche</date></dateline>
+        <salute>Mon cher <persName key="Haro, Étienne François (1827-1897)"
+          >monsieur</persName>,</salute>
+      </opener>
+
+      <p>Je vous prie bien de ne pas manquer de venir <date when="1856-06-17">mardi</date> pour
+        arranger le tableau de la <rs type="work" key="La Sibylle au rameau d'or (J263)
+          "><hi rend="it">Sybille</hi></rs><note place="bottom">Robaut, 918 ; huile sur
+          toile, 1,30 x 0,98 m, New York, Wildenstein. Exposée au Salon de 1845, n° 437, sous le
+          titre <hi rend="it">La Sybille</hi> et en 1851 à la Société des Amis des Arts de Bordeaux, n° 143,
+          sous le titre <hi rend="it">La sibylle de Cumes</hi>. Elle est aujourd'hui connue sous le
+          titre <hi rend="it">La Sibylle au rameau d'or</hi></note> : je devais recommencer mon
+        travail à l’<placeName key="France, Paris, Église Saint-Sulpice">Église</placeName><note place="bottom">Saint-Sulpice.</note> ce jour là : je retarderai au
+        lendemain pour être avec vous pendant l’opération. Venez d’assez bonne heure pour pouvoir
+        terminer dans la journée.</p>
+      
+      <closer>
+        <salute>Mille amitiés bien sincères</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">E. Delacroix</persName></signed>
+        <address>
+          <addrLine><placeName key="France, Paris, Saint-Sulpice"
+            >Saint-Sulpice</placeName></addrLine>
+        </address>
+      </closer>
+    </body>
+  </text>
+</TEI>

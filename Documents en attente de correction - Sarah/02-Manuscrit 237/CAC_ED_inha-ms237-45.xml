@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Étienne Haro, 21 août 1857</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Thierry Laugée</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 237 pièce 45</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="2" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1937,
+            III, p. 405-406</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1857-08-21"/>
+          <placeName key="France, Plombières">Plombières</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Haro, Étienne François (1827-1897)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="p.1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000097.tif/full/full/0/default.jpg"/>
+      <opener>
+        <address>
+          <addrLine><placeName key="France, Plombières">Plombières</placeName></addrLine>
+        </address>
+        <dateline>ce <date when="1857-08-21">21 août 1857</date></dateline>
+        <salute>Mon cher <persName key="Haro, Étienne François (1827-1897)"
+          >monsieur</persName>,</salute>
+      </opener>
+
+      <p>Je vous serais bien obligé de me donner de vos nouvelles et de me dire si vous comptez,
+        comme vous me l’aviez dit, être à <placeName key="France, Paris">Paris</placeName> à la fin
+        du mois. Je le désire bien vivement, car j’ai grand besoin de votre aide pour les
+        dispositions à prendre avec mes entrepreneurs : je ne peux plus reculer la reprise de nos
+        travaux et je crains même de n’avoir pas le temps de finir <del>d’arriver à temps</del>
+        avant la fin de novembre. <persName key="Le Guillou, Jeanne Marie, dite Jenny (1801-1869)"
+          >Jenny</persName> qui est venu me rejoindre ici, m’a dit que vous ne comptiez plus donner
+        autant d’extension à votre voyage. Je pense dans tous les cas, que l’on pourra vous
+        transmettre ma lettre si vous n’êtes pas encore à <placeName key="France, Paris"
+          >Paris</placeName> et que vous serez assez bon pour m’écrire un mot au sujet de vos
+        intentions.</p>
+      <p>Je serai sans faute à <placeName key="France, Paris">Paris</placeName> à la fin du mois ;
+        jusqu’ici je me trouve à merveille <pb n="p.2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000098.tif/full/full/0/default.jpg"
+        />des bains que je prends ici<note place="bottom">Aujourd'hui nommée Plombières-les-Bains,
+          la commune est une station thermale vosgienne réputée au XIXe siècle.</note> : je profite
+        de ce retour de santé pour aller fréquemment faire des excursions dans le <placeName
+          key="France, Paris, faubourg Saint-Germain">faubourg Saint Germain</placeName> afin
+        d’activer les travaux du logement dans ce moment c’est ma grande affaire avec celle de ma
+        santé.</p>
+
+      <closer>
+        <salute>Veuillez me rappeler au souvenir de <persName
+            key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)">madame
+            Haro</persName> si vous êtes à <placeName key="France, Paris">Paris</placeName> et lui
+          présenter mes respects. Recevez en particulier, mon cher <persName
+            key="Haro, Étienne François (1827-1897)">monsieur</persName>, l’assurance de mon bien
+          sincère attachement.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eg Delacroix</persName></signed>
+      </closer>
+
+      <postscript>
+        <p><persName key="Le Guillou, Jeanne Marie, dite Jenny (1801-1869)">Jenny</persName> vous
+          dit mille choses ; elle n’éprouve encore d’effet satisfaisant des eaux.</p>
+      </postscript>
+
+      <closer>
+        <address>
+          <addrLine>Chez Madame [Vve.] <persName key="Parisot">Parisot</persName></addrLine>
+          <addrLine>à <placeName key="France, Plombières">Plombières</placeName></addrLine>
+        </address>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

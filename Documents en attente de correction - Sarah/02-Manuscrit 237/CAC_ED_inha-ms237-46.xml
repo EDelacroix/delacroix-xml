@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Étienne Haro, 6 juin 1860</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Thierry Laugée</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 237 pièce 46</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="1" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1938,
+            IV, p. 183</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1860-06-06"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Haro, Étienne François (1827-1897)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="p.1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000099.tif/full/full/0/default.jpg"/>
+      <opener>
+        <dateline>Ce <date when="1860-06-06">6 juin <add place="inline">[1860]</add></date></dateline>
+      <salute>Mon cher <persName key="Haro, Étienne François (1827-1897)">monsieur</persName></salute>
+      </opener>
+      
+      <p>Je vous envoie un croquis pour essai<note place="bottom"> Il s’agirait d’essais de
+          reproduction de dessins de Delacroix par la photographie. Furne publiait en effet des
+          gravures sur acier. Le peintre a fait plusieurs essais de ce type, on peut noter dans son
+          Journal, le 5 juillet 1860 qu’il avait « donné à M. Charles Nègre deux études avec un
+          petit carton pour essai : - 1. la femme noyée du plafond du Louvre ; - 2 Études pour
+          l’Hercule, id. » (Hannoosh, t. II, p. 1353). Charles Nègre était un élève de Delaroche qui
+          s’adonna à la photographie en tant que pratique artistique autour de 1850, il avait ouvert
+          un atelier de photographie quai Bourbon à Paris.</note> chez <persName
+          key="Furne, Charles Paul (1824- vers 1875)">M. Furne</persName>, je l’ai choisi exprès un
+        peu pâle : on pourra rendre l’épreuve un peu plus noire.</p>
+      <p>J’ai réfléchi à notre conversation en revoyant ce matin mes cartons je crois que je pourrai
+        avoir des séries de compositions comme vous me le conseillez : cela me demandera un travail
+        préparatoire qui ne sera pas aussi considérable que je le croyais.</p>
+      <p>Si vous me faites le plaisir de revenir une fois pour causer de tout cela, seriez vous
+        assez bon pour que ce soit <hi rend="u">aussitôt après votre dîner</hi> de manière à ce que je sois libre vers
+        <hi rend="u">8 heures</hi>.</p>
+      
+      <closer>
+      <salute>Tout à vous bien sincèrement,</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+      
+      <postscript><p>Je n’y serai pas <hi rend="u">demain <date when="1860-06-07">Jeudi 7</date></hi></p></postscript>
+      
+    </body>
+  </text>
+</TEI>

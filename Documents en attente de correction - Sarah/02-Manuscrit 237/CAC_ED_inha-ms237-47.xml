@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Étienne Haro, 5 août 1860</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Thierry Laugée</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 237 pièce 47</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="2" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1938,
+            IV, p. 183</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1860-08-05"/>
+          <placeName key="France, Champosay">Champrosay</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Haro, Étienne François (1827-1897)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="p.1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000100.tif/full/full/0/default.jpg"/>
+      <opener>
+        <address>
+          <addrLine><placeName key="France, Champrosay">Champrosay</placeName> ce <date
+              when="1860-08-05">5 août 1860</date></addrLine>
+        </address>
+        <salute>Mon cher <persName key="Haro, Étienne François (1827-1897)"
+          >monsieur</persName>,</salute>
+      </opener>
+
+      <p>Je ne reçois que dans ce moment la lettre où vous voulez bien m’informer des placements de
+        mon tableau que je suis bien heureux de vous devoir. Recevez tous mes remerciements que je
+        vous ferai d’ici une huitaine à <placeName key="France, Paris">Paris</placeName> j’espère.
+        J’ai été à <placeName key="France, Dieppe">Dieppe</placeName> où j’ai pris un rhume affreux,
+        grâce au mauvais temps. Je me suis réfugié ici où je me soigne mieux : mais le continuel
+        mauvais temps me contrarie beaucoup.</p>
+      <p>Je pense que le reçu dont vous me parlez n’est que celui que je vous ferai et que vous
+        aurez touché en mon nom : s’il fallait vous en envoyer un d’ici ayez la bonté de me
+        l’écrire. Dans tous les cas je vous renouvelle mes sentiments reconnaissant pour ce résultat
+        qui a passé mon attente.</p>
+
+      <closer>
+        <salute>Recevez <pb n="p.2"
+            facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000101.tif/full/full/0/default.jpg"
+          />mille et mille assurances bien affectueuses.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eg Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>
