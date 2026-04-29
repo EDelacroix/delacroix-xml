@@ -75,7 +75,7 @@
       <pb n="p.1"
         facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000111.tif/full/full/0/default.jpg"/>
       <opener>
-        <dateline>Ce <date when="">14 janvier 1863</date>.</dateline>
+        <dateline>Ce <date when="1863-01-14">14 janvier 1863</date>.</dateline>
         <salute><persName
             key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)"
             >Madame</persName>,</salute>
