@@ -8,7 +8,7 @@
     <fileDesc>
       <titleStmt>
         <title>Lettre d’Eugène Delacroix aux membres du jury d'examen des produits de l'industrie à
-          l'Exposition universelle, s.d.</title>
+          l'Exposition universelle, [février] 1855</title>
         <author key="Delacroix, Eugène (1798-1863)"/>
       </titleStmt>
       <editionStmt>
@@ -50,16 +50,21 @@
             </objectDesc>
           </physDesc>
         </msDesc>
-        <listBibl> </listBibl>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1937,
+            III, p. 244-245</bibl>
+        </listBibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <correspDesc>
         <correspAction type="sent">
           <persName key="Delacroix, Eugène (1798-1863)"/>
-          <date when="18..-..-.."/>
+          <date when="1855-02-.."/>
         </correspAction>
-        <correspAction type="received"> </correspAction>
+        <correspAction type="received"> 
+          <persName>Messieurs les membres du jury d'examen des produits de l'industrie à l'Exposition universelle</persName>
+        </correspAction>
       </correspDesc>
       <langUsage>
         <language ident="fr"/>
@@ -68,12 +73,14 @@
   </teiHeader>
   <text>
     <body>
+      <pb n="p.1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000115.tif/full/full/0/default.jpg"/>
       <opener>
         <salute>À Messieurs les membres du jury d’examen des produits de l’industrie à l’Exposition
-            universelle<note place="bottom"> Exposition universelle de 1855.</note></salute>
+            universelle<note place="bottom">Exposition universelle de 1855.</note></salute>
         <salute>Messieurs,</salute>
       </opener>
-      
+
       <p>Je prends la liberté de recommander à votre précieuse attention le mémoire que vous soumet
           <persName key="Haro, Étienne François (1827-1897)">Mr Haro</persName> relativement aux
         perfectionnements qu’il a apportés dans la préparation et dans l’application des toiles
@@ -81,27 +88,32 @@
         ce que les artistes peignent sur place, moyen dont l’effet est d’approprier davantage les
         peintures à l’édifice que l’on veut décorer, il suffit pour cela d’appliquer les toiles sur
         les murs avant de peindre : c’est ce qui m’est arrivé à moi-même dans une composition que
-        j’ai exécutée dans la coupole de la bibliothèque du Sénat il y a près de quinze ans. La
-        surface que j’avais à couvrir présentait le tout le moins homogène et se composait de
-        pierre, de poutres et de plâtres, offrant des inégalités et même des solutions de continuité
-        qui n’eussent fait que l’augmenter avec le temps. La toile qui a été appliquée par les
-        procédés qu’il <persName key="Haro, Étienne François (1827-1897)">M. Haro</persName> a
-        l’honneur de vous soumettre, a remédié à ces inconvénients et permet, dans le cas où une
-        dégradation se manifesterait et réclamerait le secours du charpentier ou du maçon, d’y
-        remédier par l’enlèvement et la ré-application de la toile peinte.</p>
+        j’ai exécutée dans la coupole de la bibliothèque du <placeName
+          key="France, Paris, Palais du Luxembourg, Sénat"> Sénat</placeName> il y a près de quinze
+        ans. La surface <pb n="p.2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000116.tif/full/full/0/default.jpg"
+        />que j’avais à couvrir présentait le tout le moins homogène et se composait de pierre, de
+        poutres et de plâtres, offrant des inégalités et même des solutions de continuité qui
+        n’eussent fait que l’augmenter avec le temps. La toile qui a été appliquée par les procédés
+        qu’il <persName key="Haro, Étienne François (1827-1897)">M. Haro</persName> a l’honneur de
+        vous soumettre, a remédié à ces inconvénients et permet, dans le cas où une dégradation se
+        manifesterait et réclamerait le secours du charpentier ou du maçon, d’y remédier par
+        l’enlèvement et la ré-application de la toile peinte.</p>
       <p>C’est surtout contre les effets de l’humidité que <persName
           key="Haro, Étienne François (1827-1897)">Mr. Haro</persName> a su se prémunir ; ce qui
         était de premier nécessité dans notre climat. Je ne puis trop pour ma part m’élever contre
         le préjugé qui a consacré l’usage de peindre sur le mur sans aucun intermédiaire. J’ai pu en
         apprécier par moi-même les nombreux inconvénients et c’est après avoir apprécié les
-        avantages de l’autre manière lesquels sont incontestables comparés par moi par la meilleure
-        de toutes les expériences, celle du temps, que je [interlinéaire] viens de toute confiance
-        vous recommander les résultats obtenus par <persName
-          key="Haro, Étienne François (1827-1897)">M. Haro</persName>.</p>
+        avantages <pb n="p.3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000116.tif/full/full/0/default.jpg"
+        />de l’autre manière lesquels sont incontestables comparés par moi par la meilleure de
+        toutes les expériences, celle du temps, que je viens de toute confiance vous
+        recommander les résultats obtenus par <persName key="Haro, Étienne François (1827-1897)">M.
+          Haro</persName>.</p>
 
       <closer>
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
-        <p>Membre de la Commission Impériale de l’Exposition universelle.</p>
+        <signed>Membre de la Commission Impériale de l’Exposition universelle.</signed>
       </closer>
 
     </body>
