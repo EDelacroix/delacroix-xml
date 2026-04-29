@@ -30,6 +30,7 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Correspondance d’Eugène Delacroix</title>
+        <title type="sub">La famille Haro</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -81,7 +82,7 @@
               key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)">Madame
               Haro</persName>, marchande de couleurs</addrLine>
           <addrLine><placeName key="France, Paris, rue des Petits Augustins, 26">rue des petits
-              Augustins, 26</placeName></addrLine>
+            Augustins, <hi rend="u">26</hi></placeName></addrLine>
         </address>
 
         <pb n="p.2"

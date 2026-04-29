@@ -30,6 +30,7 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Correspondance d’Eugène Delacroix</title>
+        <title type="sub">La famille Haro</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -71,29 +72,37 @@
   </teiHeader>
   <text>
     <body>
-      <pb n="p.1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000029.tif/full/full/0/default.jpg"/>
+      <pb n="p.1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000029.tif/full/full/0/default.jpg"/>
       <opener>
-      <address><addrLine><persName
-          key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)">Madame
-        Haro</persName>, marchande de couleurs,</addrLine>
-      <addrLine><placeName key="France, Paris, rue des Petits Augustins, 26">rue des petits augustins, 26</placeName></addrLine>
-      </address>
-   <stamp>???</stamp>
-        <pb n="p.2" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000030.tif/full/full/0/default.jpg"/>
+        <address>
+          <addrLine><persName
+              key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)">Madame
+              Haro</persName>, marchande de couleurs,</addrLine>
+          <addrLine><placeName key="France, Paris, rue des Petits Augustins, 26">rue des petits
+              augustins, 26</placeName></addrLine>
+        </address>
+        <stamp>Levée de [20]h du soir</stamp>
+        <stamp><date when="1844-12-08">8 [décembre] 1844</date></stamp>
+        <stamp><placeName key="France, Paris">Paris</placeName> Distribution</stamp>
+
+        <pb n="p.2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000030.tif/full/full/0/default.jpg"/>
         <dateline><date when="1844-12-08">Dimanche</date> 2 heures</dateline>
       </opener>
-      
+
       <p>Je prie <persName
           key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)">Madame
           Haro</persName> de suspendre les toiles avant que je n’aie conféré avec elle ou avec Mr.
           <persName key="Haro, Étienne François (1827-1897)">Etienne</persName>. Depuis ce matin, je
         me suis aperçu que la graine de lin pouvait y nuire. Si les toiles étaient clouées sur les
         châssis, je pense qu’il serait encore temps de suspendre l’impression.</p>
-      
+
       <closer>
-        <dateline>Ce <date when="1844-12-08">8 décembre <add place="inline">1844</add></date></dateline>
+        <dateline>Ce <date when="1844-12-08">8 décembre <add place="inline"
+          >[1844]</add></date></dateline>
       </closer>
- 
+
     </body>
   </text>
 </TEI>

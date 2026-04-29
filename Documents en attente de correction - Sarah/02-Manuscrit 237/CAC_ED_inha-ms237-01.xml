@@ -30,6 +30,7 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Correspondance d’Eugène Delacroix</title>
+        <title type="sub">La famille Haro</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -88,6 +89,8 @@
             près la <placeName key="France, Paris, rue des Petits Augustins"> rue des Petits
               Augustins</placeName>.</addrLine>
         </address>
+        <stamp><date when="1827-08-21">21 Ao[ût] 1827</date></stamp>
+        <stamp>Levée de 9h</stamp>
 
         <pb n="2"
           facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000004.tif/full/full/0/default.jpg"/>
@@ -99,7 +102,7 @@
       <p>et la prévient qu’il suppose pouvoir lui donner un acompte avant 15 jours d’ici<note
           place="bottom">Delacroix travaillait à ce moment sur <hi rend="it">La Mort de
             Sardanapale</hi>. La toile est exposée au Salon parisien de 1827, qui ouvre ses portes à
-          partir du 4 novembre 1827.</note>. C’est le seul arrangement qui dépende de lui et sur
+          partir du 4 novembre.</note>. C’est le seul arrangement qui dépende de lui et sur
         lequel elle puisse compter. S’il est en mesure plutôt, il fera en sorte de la
         satisfaire.</p>
       <closer>

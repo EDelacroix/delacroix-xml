@@ -30,6 +30,7 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Correspondance d’Eugène Delacroix</title>
+        <title type="sub">La famille Haro</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -80,6 +81,9 @@
           Haro</persName>, marchande de couleurs</addrLine>
         <addrLine><placeName key="France, Paris, rue des Petits Augustins, 26">rue des petits Augustins 26</placeName></addrLine>
       </address>
+        <stamp><date when="1846-05-18">18 mai 18[4]6</date></stamp>
+        <stamp>Levée de 10h30 du m[atin]</stamp>
+        <stamp><placeName key="France, Paris">Paris</placeName> Port Payé</stamp>
       
         <pb n="p.2" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000057.tif/full/full/0/default.jpg"/>
         <salute><persName key="Delacroix, Eugène (1798-1863)">M. Delacroix</persName> salue <persName
@@ -88,7 +92,7 @@
       </opener>
       
       <p>et la prie de vouloir bien suspendre jusqu’à un nouvel avis l’envoi des
-        personnes qui doivent s’occuper de son grand tableau et qui devaient venir demain mardi. Il
+        personnes qui doivent s’occuper de son grand tableau et qui devaient venir demain <date when="1846-05-18">mardi</date>. Il
         lui est impossible d’être présent et il l’avertira pour cet objet en la priant de
         l’excuser.</p>
       

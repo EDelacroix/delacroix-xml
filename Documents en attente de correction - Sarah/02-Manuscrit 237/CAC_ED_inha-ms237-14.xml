@@ -30,6 +30,7 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Correspondance d’Eugène Delacroix</title>
+        <title type="sub">La famille Haro</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -79,6 +80,9 @@
           Haro</persName>, marchande en couleurs,</addrLine>
         <addrLine><placeName key="France, Paris, rue des Petits Augustins, 26">rue des petits Augustins, 26</placeName></addrLine>
       </address>
+        <stamp>Levée de 10h30 du matin</stamp>
+        <stamp><date when="1845-01-01">1er janvier 1845</date></stamp>
+        <stamp><placeName key="France, Paris">Paris</placeName> Distribution</stamp>
         
         <pb n="p.2" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000032.tif/full/full/0/default.jpg"/>
       <salute>J’ai l’honneur de saluer <persName

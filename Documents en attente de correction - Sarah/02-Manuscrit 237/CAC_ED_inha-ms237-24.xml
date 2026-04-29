@@ -7,7 +7,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Lettre d’Eugène Delacroix à Madame Haro, 21 mars 18[46]</title>
+        <title>Lettre d’Eugène Delacroix à Madame Haro, 21 mars 1846</title>
         <author key="Delacroix, Eugène (1798-1863)"/>
       </titleStmt>
       <editionStmt>
@@ -30,6 +30,7 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Correspondance d’Eugène Delacroix</title>
+        <title type="sub">La famille Haro</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -82,6 +83,8 @@
           <addrLine>Marchande de couleurs</addrLine>
         <addrLine><placeName key="France, Paris, rue des Petits Augustins, 26">rue des Petits Augustins 26</placeName></addrLine>
       </address>
+        <stamp>15[c]</stamp>
+        <stamp><date when="1846-03-21">Mars</date></stamp>
         
         <pb n="p.2" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000052.tif/full/full/0/default.jpg"/>
      

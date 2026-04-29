@@ -30,6 +30,7 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Correspondance d’Eugène Delacroix</title>
+        <title type="sub">La famille Haro</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -72,30 +73,38 @@
   </teiHeader>
   <text>
     <body>
-      <pb n="1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000005.tif/full/full/0/default.jpg"/>
-      <opener><salute><persName key="Haro, Jacques François (1797-1844)">Monsieur Haro</persName>,
-        marchand de couleurs,</salute>
-        <address><addrLine><placeName key="France, Paris, rue du Colombier">Rue du Colombier</placeName>, près la <placeName key="France, Paris, rue des Petits Augustins">rue des petits augustins</placeName></addrLine></address>
-      <address>
-        <addrLine>
-          
-          <pb n="2" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000006.tif/full/full/0/default.jpg"/>
-          <add place="above">Les 2 vessies de cobalt en une seule, toutes les autres séparées.</add>
-        </addrLine>
-      </address>
-      
-      <salute><persName key="Delacroix, Eugène (1798-1863)">M. Delacroix</persName> salue <persName
-          key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)">Madame
-        Haro</persName></salute>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000005.tif/full/full/0/default.jpg"/>
+      <opener>
+        <salute><persName key="Haro, Jacques François (1797-1844)">Monsieur Haro</persName>,
+          marchand de couleurs,</salute>
+        <address>
+          <addrLine><placeName key="France, Paris, rue du Colombier">Rue du Colombier</placeName>,
+            près la <placeName key="France, Paris, rue des Petits Augustins">rue des petits
+              augustins</placeName></addrLine>
+        </address>
+        <stamp><date when="1827-10-29">29 octobre 1827</date></stamp>
+        <address>
+          <addrLine>
+            <pb n="2"
+              facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000006.tif/full/full/0/default.jpg"/>
+            <add place="above">Les 2 vessies de cobalt en une seule, toutes les autres
+              séparées.</add>
+          </addrLine>
+        </address>
+
+        <salute><persName key="Delacroix, Eugène (1798-1863)">M. Delacroix</persName> salue
+            <persName key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)"
+            >Madame Haro</persName></salute>
       </opener>
-      
-      <p>et la prie de vouloir bien lui faire broyer sur le champ 6 vessies de
-        blanc de plomb, 6 de jaune de Naples, 2 d’ocre jaune, 2 de cobalt, 2 de noir de pêche, le
-        tout plus liquide que les couleurs qu’on prépare pour tout le monde. Il passera sans faute
-        demain matin <date when="1827-10-29">mardi</date> pour les prendre, à 7 heures. Il la prie de faire en sorte que cela soit
-        tout à fait terminé ce soir<note place="bottom">Cette commande est dédiée à la palette de couleurs nécessaire pour <hi rend="it">La Mort de
-          Sardanapale</hi></note>.</p>
-      
+
+      <p>et la prie de vouloir bien lui faire broyer sur le champ 6 vessies de blanc de plomb, 6 de
+        jaune de Naples, 2 d’ocre jaune, 2 de cobalt, 2 de noir de pêche, le tout plus liquide que
+        les couleurs qu’on prépare pour tout le monde. Il passera sans faute demain matin <date
+          when="1827-10-29">mardi</date> pour les prendre, à 7 heures. Il la prie de faire en sorte
+        que cela soit tout à fait terminé ce soir<note place="bottom">Cette commande est dédiée à la
+          palette de couleurs nécessaire pour <hi rend="it">La Mort de Sardanapale</hi></note>.</p>
+
       <closer>
         <dateline>Ce <date when="1827-10-28">lundi 28 octobre</date></dateline>
       </closer>

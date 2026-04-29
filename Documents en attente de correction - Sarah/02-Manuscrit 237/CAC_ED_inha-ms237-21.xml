@@ -7,7 +7,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Lettre d’Eugène Delacroix à Madame Haro, 18 octobre 18[45]</title>
+        <title>Lettre d’Eugène Delacroix à Madame Haro, 18 octobre 1845</title>
         <author key="Delacroix, Eugène (1798-1863)"/>
       </titleStmt>
       <editionStmt>
@@ -30,6 +30,7 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Correspondance d’Eugène Delacroix</title>
+        <title type="sub">La famille Haro</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -82,20 +83,24 @@
           <addrLine><placeName key="France, Paris, rue des Petits Augustins, 26">rue des Petits
               Augustins, 26</placeName></addrLine>
         </address>
-        <stamp/>
+        <stamp><date when="1845-10-19">19 octobre 1845</date></stamp>
+        <stamp>Levée 8h du matin</stamp>
 
-        <pb n="p.2" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000046.tif/full/full/0/default.jpg"/>
+        <pb n="p.2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000046.tif/full/full/0/default.jpg"/>
         <salute><persName key="Delacroix, Eugène (1798-1863)">Mr Delacroix</persName> salue bien
             <persName key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)"
             >Madame Haro</persName></salute>
       </opener>
 
-      <p>et la prie de vouloir bien m’envoyer à la Chambre des Députés que mardi seulement, les
-        personnes pour coller ses figures. Il lui est impossible d’y aller lundi. Il y sera mardi 21
-        à 8h ½.</p>
+      <p>et la prie de vouloir bien m’envoyer à la <placeName
+          key="France, Paris, Palais Bourbon, Assemblée nationale">Chambre des Députés</placeName>
+        que mardi seulement, les personnes pour coller ses figures. Il lui est impossible d’y aller
+        <date when="1845-10-20">lundi</date>. Il y sera <date when="1845-10-21">mardi 21</date> à 8h ½.</p>
 
       <closer>
-        <dateline>Ce <date when="1845-10-18">samedi soir 18 octobre <add place="inline">[1845]</add></date></dateline>
+        <dateline>Ce <date when="1845-10-18">samedi soir 18 octobre <add place="inline"
+            >[1845]</add></date></dateline>
       </closer>
 
     </body>

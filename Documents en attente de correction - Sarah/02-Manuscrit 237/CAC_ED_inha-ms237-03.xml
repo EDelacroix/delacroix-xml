@@ -30,6 +30,7 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Correspondance d’Eugène Delacroix</title>
+        <title type="sub">La famille Haro</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -72,24 +73,34 @@
   </teiHeader>
   <text>
     <body>
-      <pb n="1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000008.tif/full/full/0/default.jpg"/>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000008.tif/full/full/0/default.jpg"/>
       <opener>
         <salute><persName
             key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)">Madame
             Haro</persName>,</salute>
         <salute>Marchande de couleurs,</salute>
-        <address><addrLine><placeName key="France, Paris, rue du Colombier">Rue du Colombier</placeName>, près la <placeName key="France, Paris, rue des Petits Augustins">rue des Petits Augustins</placeName></addrLine></address>
+        <address>
+          <addrLine><placeName key="France, Paris, rue du Colombier">Rue du Colombier</placeName>,
+            près la <placeName key="France, Paris, rue des Petits Augustins">rue des Petits
+              Augustins</placeName></addrLine>
+        </address>
+        <stamp><date when="1827-12-16">16 décembre 1827</date></stamp>
+        <stamp>Levée de 9h</stamp>
       </opener>
 
-      <pb n="2" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000009.tif/full/full/0/default.jpg"/>
+      <pb n="2"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000009.tif/full/full/0/default.jpg"/>
       <p>Je prie bien <persName
-        key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)">Madame Haro</persName> de me faire broyer 6 vessies de blanc de plomb, 6 de jaune de
-        Naples, 2 de cobalt <hi rend="u">double chacune</hi>, 4 ocre jaune, 2 rouge de Van Dyck. 1 terre d’Italie
-        brulée. Il me les faudrait pour demain <date when="1827-12-17">lundi</date> le plutôt possible dans la journée.</p>
-      
+          key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)">Madame
+          Haro</persName> de me faire broyer 6 vessies de blanc de plomb, 6 de jaune de Naples, 2 de
+        cobalt <hi rend="u">double chacune</hi>, 4 ocre jaune, 2 rouge de Van Dyck. 1 terre d’Italie
+        brulée. Il me les faudrait pour demain <date when="1827-12-17">lundi</date> le plutôt
+        possible dans la journée.</p>
+
       <closer>
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
-      <dateline>Ce <date when="1827-12-16">dimanche</date> matin</dateline>
+        <dateline>Ce <date when="1827-12-16">dimanche</date> matin</dateline>
       </closer>
     </body>
   </text>

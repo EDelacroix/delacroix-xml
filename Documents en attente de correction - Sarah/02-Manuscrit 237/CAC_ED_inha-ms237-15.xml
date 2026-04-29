@@ -30,6 +30,7 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Correspondance d’Eugène Delacroix</title>
+        <title type="sub">La famille Haro</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -72,25 +73,34 @@
   </teiHeader>
   <text>
     <body>
-      <pb n="p.1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000033.tif/full/full/0/default.jpg"/>
+      <pb n="p.1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000033.tif/full/full/0/default.jpg"/>
       <address>
         <addrLine><persName
-          key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)">Madame
-        Haro</persName>, marchande en couleurs,</addrLine>
-        <addrLine><placeName key="France, Paris, rue des Petits Augustins, 26">rue des Petits Augustins, 26</placeName></addrLine>
+            key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)">Madame
+            Haro</persName>, marchande en couleurs,</addrLine>
+        <addrLine><placeName key="France, Paris, rue des Petits Augustins, 26">rue des Petits
+            Augustins, 26</placeName></addrLine>
       </address>
-      
-      <pb n="p.2" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000034.tif/full/full/0/default.jpg"/>
+      <stamp><date when="1845-05-23">23 mai 1845</date></stamp>
+      <stamp>Levée de [10]h30 du matin</stamp>
+
+      <pb n="p.2"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000034.tif/full/full/0/default.jpg"/>
       <p>M. Delacroix a l’honneur de saluer <persName
           key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)">Madame
           Haro</persName> et la prévient qu’il lui sera obligé de faire porter sans tarder son
         tableau de la <hi rend="it">Sibylle</hi> chez M. <persName
-          key="Souty, Pierre Prosper (av.1834 - ap. 1857)">Souty</persName>. Le moindre retard
-        pourrait en faire manquer l’envoi.</p>
+          key="Souty, Pierre Prosper (av.1834 - ap. 1857)">Souty</persName><note place="bottom"
+          >Encadreur. André Joubin précise qu'il est aussi le beau-père de Francis Petit, le
+          fondateur de la Galerie Petit (Joubin, André, <hi rend="it">Correspondance générale de
+            Eugène Delacroix</hi>, 1936, II, n. 5, p. 217).</note>. Le moindre retard pourrait en
+        faire manquer l’envoi.</p>
       <p>M. <persName key="Haro, Étienne François (1827-1897)">Etienne</persName> lui a dit qu’il
-        pourrait lui envoyer du <hi rend="u">vernis double</hi> pour faire de la pommade à l’anglaise d’une meilleure
-        qualité que celui qu’elle lui a donné et qui ne prenait pas surtout avec l’huile grasse.</p>
-      
+        pourrait lui envoyer du <hi rend="u">vernis double</hi> pour faire de la pommade à
+        l’anglaise d’une meilleure qualité que celui qu’elle lui a donné et qui ne prenait pas
+        surtout avec l’huile grasse.</p>
+
       <closer>
         <dateline>Ce <date when="1845-05-23">23 mai 1845</date></dateline>
       </closer>

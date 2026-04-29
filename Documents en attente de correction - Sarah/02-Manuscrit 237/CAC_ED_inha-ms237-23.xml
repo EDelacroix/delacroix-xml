@@ -30,6 +30,7 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Correspondance d’Eugène Delacroix</title>
+        <title type="sub">La famille Haro</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -71,26 +72,33 @@
   </teiHeader>
   <text>
     <body>
-      
-      <pb n="p.1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000049.tif/full/full/0/default.jpg"/>
+
+      <pb n="p.1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000049.tif/full/full/0/default.jpg"/>
       <opener>
         <address>
           <addrLine><persName key="Haro, Étienne François (1827-1897)">Monsieur Haro</persName>,
             Marchand de couleurs</addrLine>
-          <addrLine><placeName key="France, Paris, rue des Petits Augustins, 26">rue des petits Augustins, 26</placeName></addrLine>
+          <addrLine><placeName key="France, Paris, rue des Petits Augustins, 26">rue des petits
+              Augustins, 26</placeName></addrLine>
         </address>
-        
-        <pb n="p.2" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000050.tif/full/full/0/default.jpg"/>
-        
-        <salute><persName key="Delacroix, Eugène (1798-1863)">M. Delacroix</persName> souhaite bien le bonjour à M. <persName
-            key="Haro, Étienne François (1827-1897)">Haro</persName></salute>
+        <stamp><date when="1846-02-05">5 février 18[..]</date></stamp>
+        <stamp>Levée de 2[.]h du soir</stamp>
+
+        <pb n="p.2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000050.tif/full/full/0/default.jpg"/>
+
+        <salute><persName key="Delacroix, Eugène (1798-1863)">M. Delacroix</persName> souhaite bien
+          le bonjour à M. <persName key="Haro, Étienne François (1827-1897)"
+          >Haro</persName></salute>
       </opener>
-      
+
       <p>et voudrait le consulter le plutôt possible sur un petit tableau auquel il est arrivé un
         accident. Il voudrait aussi lui demander des nouvelles du tableau à rentoiler.</p>
-      
+
       <closer>
-        <dateline>Ce <date when="1846-02-05">5 février <add place="inline">[1846]</add></date></dateline>
+        <dateline>Ce <date when="1846-02-05">5 février <add place="inline"
+          >[1846]</add></date></dateline>
       </closer>
     </body>
   </text>
