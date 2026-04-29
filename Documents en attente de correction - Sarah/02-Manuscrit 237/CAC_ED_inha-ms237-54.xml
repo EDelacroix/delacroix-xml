@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Monsieur Haro, [10] juillet 1863</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque de l’INHA, collections Jacques
+                            Doucet</institution>
+                        <idno>Ms. 237 pièce 54</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène
+                            Delacroix</hi>, 1938, IV, p. 378</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1863-07-10"/>
+                    <placeName key="France, Champrosay">Champrosay</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Haro, Étienne François (1827-1897)"/>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="p.1"
+                facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000113.tif/full/full/0/default.jpg"/>
+            <opener>
+                <address>
+                    <addrLine><placeName key="France, Champrosay">Champrosay</placeName></addrLine>
+                </address>
+                <dateline>Ce <date when="1863-07-10">vendredi</date></dateline>
+                <salute>Mon cher <persName key="Haro, Étienne François (1827-1897)"
+                        >monsieur</persName></salute>
+            </opener>
+
+
+            <p>je vais beaucoup mieux mais par progrès très lents : ma réclusion m'est bien utile et
+                c'est mon principal remède. Je vous aurais écrit plutôt mais la faiblesse que j'ai
+                me rend pénible toute occupation. Mille remerciements de ce que vous dites de bon
+                pour moi : <persName key="Le Guillou, Jeanne Marie, dite Jenny (1801-1869)"
+                    >Jenny</persName> vous en remercie de coeur ainsi que moi. Je profiterai de
+                votre obligeance pour les commissions dont j'aurais besoin par hasard ; mais ne
+                faisant pas d'autre remède que de suivre un régime, j'espère <pb n="p.2"
+                    facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000114.tif/full/full/0/default.jpg"
+                />que je pourrai continuer. Je ne vous en dit pas long, cher <persName
+                    key="Haro, Étienne François (1827-1897)">monsieur Haro</persName>.</p>
+
+            <closer>
+                <salute>Sachez que je vous suis bien sincèrement reconnaissant. <persName
+                        key="Le Guillou, Jeanne Marie, dite Jenny (1801-1869)">Jenny</persName> se
+                    joint à moi.</salute>
+                <salute>Votre dévoué,</salute>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">Eug.
+                    Delacroix</persName></signed>
+            </closer>
+
+        </body>
+    </text>
+</TEI>
