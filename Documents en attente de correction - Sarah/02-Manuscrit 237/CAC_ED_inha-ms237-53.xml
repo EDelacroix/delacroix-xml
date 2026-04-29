@@ -72,13 +72,15 @@
   </teiHeader>
   <text>
     <body>
-      <pb n="p.1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000111.tif/full/full/0/default.jpg"/>
+      <pb n="p.1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000111.tif/full/full/0/default.jpg"/>
       <opener>
-      <dateline>Ce <date when="">14 janvier 1863</date>.</dateline>
-      <salute><persName key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)"
-          >Madame</persName>,</salute>
+        <dateline>Ce <date when="">14 janvier 1863</date>.</dateline>
+        <salute><persName
+            key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)"
+            >Madame</persName>,</salute>
       </opener>
-      
+
       <p>J’ai reçu avec beaucoup de plaisir la lettre que vous avez bien voulu m’adresser à
         l’occasion du renouvellement de l’année et des bons souhaits que vous voulez bien former
         pour ma santé : je suis heureux de vous envoyer les mêmes vœux pour que vous éprouviez tout
@@ -86,13 +88,18 @@
         pareille circonstance, car comme vous le dites très bien, c’est le bien le plus important et
         sans lequel les autres ne sont rien. La mienne, grâce à Dieu est aussi bonne que possible et
         je remercie bien <persName key="Haro, Étienne François (1827-1897)">monsieur
-          Haro</persName>, de vous en avoir <pb n="p.2" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000112.tif/full/full/0/default.jpg"/>donné des nouvelles.</p>
+        Haro</persName>, de vous en avoir <pb n="p.2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000112.tif/full/full/0/default.jpg"
+        />donné des nouvelles.</p>
       <p><persName key="Le Guillou, Jeanne Marie, dite Jenny (1801-1869)">Madame
           Leguillou</persName> est bien sensible à votre souvenir et me prie de vous envoyer
         l’expression de tous ses sentiments.</p>
-      
+
       <closer>
-        <salute>Agréez <persName key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)">Madame</persName> avec mes remerciements l’assurance de ma bien sincère considération.</salute>
+        <salute>Agréez <persName
+            key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)"
+            >Madame</persName> avec mes remerciements l’assurance de ma bien sincère
+          considération.</salute>
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
       </closer>
     </body>
