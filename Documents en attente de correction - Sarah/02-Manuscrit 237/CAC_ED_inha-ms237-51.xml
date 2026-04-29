@@ -71,16 +71,18 @@
   </teiHeader>
   <text>
     <body>
-      <pb n="p.1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000108.tif/full/full/0/default.jpg"/>
+      <pb n="p.1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000108.tif/full/full/0/default.jpg"/>
       <opener>
-        
-      
-        <dateline>Ce <date when="1860-12-06">6 décembre <add place="inline">[1860]</add></date></dateline>
+
+
+        <dateline>Ce <date when="1860-12-06">6 décembre <add place="inline"
+          >[1860]</add></date></dateline>
       </opener>
-      <p><persName key="Delacroix, Eugène (1798-1863)">M. Delacroix</persName> envoie à <persName key="Haro, Étienne François (1827-1897)">Monsieur
-          Haro</persName> la circulaire de <persName key="Bouchereau, Monsieur">M.
-          Bouchereau</persName>
-        <hi rend="u">du mois de janvier</hi>. Il ignore s’il y en a eu une nouvelle depuis. Dans
+      <p><persName key="Delacroix, Eugène (1798-1863)">M. Delacroix</persName> envoie à <persName
+          key="Haro, Étienne François (1827-1897)">Monsieur Haro</persName> la circulaire de
+          <persName key="Bouchereau, Monsieur">M. Bouchereau</persName>
+        <hi rend="u">du mois de <date when="1861-01">janvier</date></hi>. Il ignore s’il y en a eu une nouvelle depuis. Dans
         tous les cas il se fera une idée des prix d’après les années.</p>
     </body>
   </text>
