@@ -86,7 +86,7 @@
         <stamp><date when="1856-06-16">16 [juin 56]</date></stamp>
 
         <pb n="p.2" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000092.tif/full/full/0/default.jpg"/>
-        <dateline>Ce <date when="1856-06-15">dimanche</date></dateline>
+        <dateline>Ce <date when="1856-06-15">dimanche <add place="inline">[15 juin 1856]</add></date></dateline>
         <salute>Mon cher <persName key="Haro, Étienne François (1827-1897)"
           >monsieur</persName>,</salute>
       </opener>
