@@ -30,6 +30,7 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Correspondance d’Eugène Delacroix</title>
+        <title type="sub">La famille Haro</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -90,7 +91,7 @@
         <pb n="p.2"
           facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000081.tif/full/full/0/default.jpg"/>
 
-        <dateline>Ce <date when="1852-02-10">10 février [1852]</date></dateline>
+        <dateline>Ce <date when="1852-02-10">10 février <add place="inline">[1852]</add></date></dateline>
 
         <salute>Mon cher <persName key="Haro, Étienne François (1827-1897)"
           >Monsieur</persName>,</salute>
@@ -127,7 +128,7 @@
       </closer>
 
       <postscript>
-        <p>Vous m’avez dit que vous aviez une toile prête pour le plafond<note place="bottom"> Le
+        <p>Vous m’avez dit que vous aviez une toile prête pour le plafond<note place="bottom">Le
             plafond du Salon de la Paix de l’Hôtel de ville de Paris.</note>. Je ne vous demande pas
           pour le reste des toiles un aussi grand luxe de perfection que celui que nous avons mis
           l’année dernière à notre grande toile<note place="bottom"> Pour la peinture centrale du
