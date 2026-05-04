@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à XXX, [date jour mois année]</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>[prénom nom]</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Annotation</resp>
+                    <name>[prénom nom]</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Corrections</resp>
+                    <name>[prénom nom]</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">[ex: La famille Haro]</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>[ex : Paris]</settlement>
+                        <institution>[ex : Bibliothèque de l’INHA, collections Jacques
+                            Doucet]</institution>
+                        <idno>[ex: Ms. 237 pièce 55]</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="X" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>[voir Index des ouvrages.excel pour la nomenclature]</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="18XX-XX-XX"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>[Nom prénom]</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="p.1" facs="lien de l'image"/>
+            <opener>
+                <address>
+                    <addrLine>[ex : adresse postale]</addrLine>
+                </address>
+                <dateline><date when="18XX-XX-XX">[ex : date de la lettre en-tête]</date></dateline>
+                <salute>[...]<note place="bottom">[...]</note></salute>
+            </opener>
+
+            <p>[...] <pb n="p.x" facs="xxx"/>
+            </p>
+
+            <closer>
+                <salute>[ex : formule de politesse]</salute>
+                <signed><persName key="Nom prénom (dates)">[ex : Eugène Delacroix]</persName></signed>
+            </closer>
+
+        </body>
+    </text>
+</TEI>
