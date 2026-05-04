@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Victor Hugo, [septembre 1827]</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Annotation</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Corrections</resp>
+                    <name>[prénom nom]</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Le monde littéraire</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country/>
+                        <settlement/>
+                        <institution/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="4" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <provenance>Vente Artcurial 22 juin 2015, lot 102</provenance>
+                    </history>
+                </msDesc>
+                <listBibl>
+                    <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène
+                            Delacroix</hi>, 1935, I, p. 145-146</bibl>
+
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1827-09-.."/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Hugo, Victor (1802-1885)"/>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="p.1" xml:id="p1"/>
+            <opener>
+                <dateline><date when="1827-09-..">Ce mercredi</date></dateline>
+            </opener>
+
+            <p>Je reçois à l'instant, mon cher ami, le journal que vous avez eu la bonté de me
+                remettre chez moi. J'aurais été vous en remercier moi-même si je n'étais tout à fait
+                pris, depuis quelques temps, par la nécessité qui est un plaisir pour moi,
+                d'accompagner mon vieil invalide de frère que je possède à présent, et que je
+                n'avais pas vu depuis plusieurs années<note place="bottom">Il est permis de dater la
+                    lettre grâce à cette mention, puisque Charles Delacroix vient à Paris en
+                    septembre 1827 (Joubin, André, <hi rend="it">Correspondance générale de Eugène
+                        Delacroix</hi>, 1935, I, n. 1, p. 146).</note>. J'ai été assez souffrant
+                tous ces derniers temps, et je n'ai guère vu les amis ni l'atelier.</p>
+            <p>Pour ce qui est de l'article, je n'ai pas méconnu la main obligeante de notre jeune
+                ami <persName key="">M. Pavie</persName>, à qui je vous prie, si vous avez occasion
+                de lui écrire bientôt, de témoigner ma reconnaissance en attendant que je m'acquitte
+                moi-même avec lui. Mes remerciements doivent aussi remonter plus haut et il est bien
+                doux pour moi de penser que c'est à la place que j'ai le bonheur de tenir dans votre
+                estime que je dois une partie de celle de <persName key="">M. Pavie</persName></p>
+
+            <closer>
+                <signed><persName key="Delacroix, Eugène (1798-1863))">E. D.</persName></signed>
+            </closer>
+
+        </body>
+    </text>
+</TEI>

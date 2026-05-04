@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Victor Hugo, [septembre 1827]</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Annotation</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Corrections</resp>
+                    <name>[prénom nom]</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Le monde littéraire</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country/>
+                        <settlement/>
+                        <institution/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="4" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <provenance>Vente Artcurial 22 juin 2015, lot 102</provenance>
+                    </history>
+                </msDesc>
+                <listBibl>
+                    <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène
+                            Delacroix</hi>, 1935, I, p. 198</bibl>
+                    <bibl>Burty, Philippe, <hi rend="it">Lettres de Eugène Delacroix</hi>, 1880, I,
+                        p. 130-131</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1827-09-.."/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Hugo, Victor (1802-1885)"/>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="p.1" xml:id="p1"/>
+            <opener>
+                <dateline><date when="1827-09-..">Ce mercredi</date></dateline>
+            </opener>
+
+            <p>Eh bien ! Envahissement général : Hamlet lève sa tête hideuse. Othello prépare son
+                poignard, essentiellement occiseur et subversif de toute bonne police dramatique. Le
+                Roi Lear va s'arracher les yeux devant un public français. Il serait de la dignité
+                de l'Académie de déclarer incompatible avec la morale publique toute importation de
+                ce genre. Adieu le bon goût ! Apprêtez-vous dans tous les cas une bonne cuirasse
+                sous votre habit. Craignez les poignards classiques, ou plutôt immolez-vous
+                courageusement pour nos plaisirs à nous autres barbares...</p>
+
+            <closer>
+                <signed><persName key="Delacroix, Eugène (1798-1863))">E. D.</persName></signed>
+            </closer>
+
+        </body>
+    </text>
+</TEI>
