@@ -7,7 +7,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Lettre d’Eugène Delacroix à Alexandre Dumas, sans date</title>
+                <title>Lettre d’Eugène Delacroix à Alexandre Dumas, 9 avril 1838</title>
                 <author key="Delacroix, Eugène (1798-1863)"/>
             </titleStmt>
             <editionStmt>
@@ -39,11 +39,10 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <country>France</country>
-                        <settlement>Paris</settlement>
-                        <institution>Bibliothèque de l’INHA, collections Jacques
-                            Doucet</institution>
-                        <idno>Ms. 242 pièce 55</idno>
+                        <country/>
+                        <settlement/>
+                        <institution/>
+                        <idno/>
                     </msIdentifier>
                     <physDesc>
                         <objectDesc form="letter">
@@ -54,9 +53,13 @@
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
+                    <history>
+                        <provenance>Vente Alde 17 octobre 2019, lot 31</provenance>
+                    </history>
                 </msDesc>
                 <listBibl>
-                    <bibl/>
+                    <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène
+                            Delacroix</hi>, 1936, II, p. 54</bibl>
                 </listBibl>
             </sourceDesc>
         </fileDesc>
@@ -64,7 +67,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName key="Delacroix, Eugène (1798-1863)"/>
-                    <date when="18..-..-.."/>
+                    <date when="1838-04-09"/>
                 </correspAction>
                 <correspAction type="received">
                     <persName key="Dumas, Alexandre (1802-1870)"/>
@@ -77,25 +80,33 @@
     </teiHeader>
     <text>
         <body>
-            <pb n="p.1"
-                facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/81/f1/8f/f8/81f18ff8-e5ab-4d60-b971-3a3b62466b56/iiif/0644_doucet_MS242_000117.tif/full/full/0/default.jpg"/>
+            <pb n="p.1" xml:id="pl"/>
             <opener>
                 <address>
                     <addrLine>Monsieur <persName key="Dumas, Alexandre (1802-1870)">Alexandre
                             Dumas</persName></addrLine>
+                    <addrLine><placeName key="France, Paris, rue de Rivoli, 22">Rue de Rivoli, n°22</placeName></addrLine>
                 </address>
+                <stamp><date when="1838-04-10">10 avril 1838</date></stamp>
+                <stamp>Levée de [...] du soir</stamp>
+                <stamp><placeName key="France, Paris">Paris</placeName></stamp>
+                
                 <pb n="p.2"
-                    facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/81/f1/8f/f8/81f18ff8-e5ab-4d60-b971-3a3b62466b56/iiif/0644_doucet_MS242_000118.tif/full/full/0/default.jpg"/>
+                    xml:id="p2"/>
                 <salute>Mon bon ami,</salute>
             </opener>
 
-            <p>je suis forcé de sortir tout à l'heure mais je serai rentré à 1 heure jusqu'à la fin
-                de la journée, je me trompe, jusqu'à 4 heures pouvez vous venir alors ?</p>
+            <p>vous êtes bien bon et je regrette bien de ne pas avoir été là. J'étais effectivement
+                à la campagne quand votre mot est arrivé et je me serais pendu en le recevant
+                puisqu'il était trop tard. Je n'aurai donc garde de manquer l'occasion que vous me
+                donnez de retrouver ce que j'ai perdu.</p>
             <closer>
-                <salute>Excusez moi</salute>
+                <salute>Mille remerciements et amitiés bien vraies.</salute>
                 <signed><persName key="Delacroix, Eugène (1798-1863)">Eug.
                     Delacroix</persName></signed>
+                <dateline>Ce <date when="1838-04-09">9 avril</date></dateline>
             </closer>
+            <postscript><p>Je profiterai de <pb n="p.3" xml:id="p3"/> l'occasion pour mettre la main sur mes deux bras.</p></postscript>
 
         </body>
     </text>
