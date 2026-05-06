@@ -48,7 +48,7 @@
                         <objectDesc form="letter">
                             <supportDesc>
                                 <extent>
-                                    <measure quantity="2" unit="page"/>
+                                    <measure quantity="3" unit="page"/>
                                 </extent>
                             </supportDesc>
                         </objectDesc>
@@ -106,8 +106,14 @@
                     Delacroix</persName></signed>
                 <dateline>Ce <date when="1838-04-09">9 avril</date></dateline>
             </closer>
-            <postscript><p>Je profiterai de <pb n="p.3" xml:id="p3"/> l'occasion pour mettre la main sur mes deux bras.</p></postscript>
-
+            <postscript><p>Je profiterai de <pb n="p.3" xml:id="p3"/> l'occasion pour mettre la main sur <hi rend="u">mes deux bras</hi>.</p></postscript>
+            <postscript>
+                <p>[Dessin de deux bras]</p>
+            </postscript>
+            <postscript>
+                <p><add place="inline">[Eugène Delacroix 1798-1863 dessin des bras d'Ida Ferrier qui avait promis ses deux bras moulés [en] plâtre]</add></p>
+            </postscript>
+            
         </body>
     </text>
 </TEI>
