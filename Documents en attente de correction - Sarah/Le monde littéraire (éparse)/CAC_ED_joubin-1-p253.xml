@@ -7,7 +7,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Lettre d’Eugène Delacroix à Alexandre Dumas, 9 avril 1838</title>
+                <title>Lettre d’Eugène Delacroix à Alexandre Dumas, 4 avril 18[30]</title>
                 <author key="Delacroix, Eugène (1798-1863)"/>
             </titleStmt>
             <editionStmt>
@@ -57,6 +57,7 @@
                 <listBibl>
                     <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène
                             Delacroix</hi>, 1935, I, p. 253-254</bibl>
+
                 </listBibl>
             </sourceDesc>
         </fileDesc>
@@ -64,7 +65,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName key="Delacroix, Eugène (1798-1863)"/>
-                    <date when="1838-04-09"/>
+                    <date when="1830-04-04"/>
                 </correspAction>
                 <correspAction type="received">
                     <persName key="Dumas, Alexandre (1802-1870)"/>
@@ -82,38 +83,38 @@
                 <address>
                     <addrLine>Monsieur <persName key="Dumas, Alexandre (1802-1870)">Alexandre
                             Dumas</persName></addrLine>
-                    <addrLine><placeName key="France, Paris, rue de Rivoli, 22">Rue de Rivoli,
-                            n°22</placeName></addrLine>
+                    <addrLine><placeName
+                            key="France, Paris, rue de l'Université, maison du café Desmares">Rue de
+                            l'Université, maison du café Desmares</placeName></addrLine>
                 </address>
-                <stamp><date when="1838-04-10">10 avril 1838</date></stamp>
-                <stamp>Levée de [...] du soir</stamp>
-                <stamp><placeName key="France, Paris">Paris</placeName></stamp>
 
                 <pb n="p.2" xml:id="p2"/>
-                <salute>Mon bon ami,</salute>
+                <dateline>Ce <date when="1830-04-04">4 avril [1830]</date></dateline>
             </opener>
 
-            <p>vous êtes bien bon et je regrette bien de ne pas avoir été là. J'étais effectivement
-                à la campagne quand votre mot est arrivé et je me serais pendu en le recevant
-                puisqu'il était trop tard. Je n'aurai donc garde de manquer l'occasion que vous me
-                donnez de retrouver ce que j'ai perdu.</p>
+            <p>Que je suis désolé, mon bon ami ! Vous vous êtes donné la peine de passer. Je ne sais
+                plus si j'y étais, mais il fallait violer la portière. Dans tous les cas je lui ai
+                lavé la tête. Imaginez que j'étais de ribotte hier avec <persName
+                    key="Mérimée, Prosper (1803-1870)
+                    ">Mérimée</persName>, <persName
+                    key="Beyle, Henri, dit Stendhal (1783-1842)
+                    ">Beyle</persName> et autres et de plus pris pour la soirée.
+                Jugez de mon désappointement de ne pouvoir vous revoir, vous et votre bel
+                ouvrage.</p>
+            <p>Je m'occupe à choisr un projet dans votre Christine<note place="bottom">Référence à
+                    la pièce de théâtre <hi rend="it">Stockholm, Fontainebleau et Rome</hi>
+                    d'Alexandre Dumas dont la première représentation à l'Odéon se fait le 30 mars
+                    1830. André Joubin suppose que Delacroix évoque ici l'élaboration d'une vignette
+                    "destinée à servir de frontispice à la pièce" (Joubin, André, <hi rend="it"
+                        >Correspondance générale de Eugène Delacroix</hi>, 1935, I, n. 1, p.
+                    253).</note> pour vous servir un plat de ma façon.</p>
+            <p>Vuos m'avez donné des émotions bien vives et qu'on n'est plus accoutumé à trouver au
+                théâtre. Je ne souhaite que d'en reproduire une partie.</p>
             <closer>
-                <salute>Mille remerciements et amitiés bien vraies.</salute>
+                <salute>Adieu et tout vôtre,</salute>
                 <signed><persName key="Delacroix, Eugène (1798-1863)">Eug.
                     Delacroix</persName></signed>
-                <dateline>Ce <date when="1838-04-09">9 avril</date></dateline>
             </closer>
-            <postscript>
-                <p>Je profiterai de <pb n="p.3" xml:id="p3"/> l'occasion pour mettre la main sur <hi
-                        rend="u">mes deux bras</hi>.</p>
-            </postscript>
-            <postscript>
-                <p>[Dessin de deux bras]</p>
-            </postscript>
-            <postscript>
-                <p><add place="inline">[Eugène Delacroix 1798-1863 dessin des bras d'Ida Ferrier qui
-                        avait promis ses deux bras moulés [en] plâtre]</add></p>
-            </postscript>
 
         </body>
     </text>
