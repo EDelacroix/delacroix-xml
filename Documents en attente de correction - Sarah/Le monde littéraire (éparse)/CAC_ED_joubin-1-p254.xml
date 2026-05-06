@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Alexandre Dumas, 9 avril 1838</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Annotation</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Corrections</resp>
+                    <name>[prénom nom]</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Le monde littéraire</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country/>
+                        <settlement/>
+                        <institution/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="3" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <provenance>Vente Alde 17 octobre 2019, lot 31</provenance>
+                    </history>
+                </msDesc>
+                <listBibl>
+                    <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène
+                        Delacroix</hi>, 1936, II, p. 54</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1838-04-09"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Dumas, Alexandre (1802-1870)"/>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="p.1" xml:id="pl"/>
+            <opener>
+                <address>
+                    <addrLine>Monsieur <persName key="Dumas, Alexandre (1802-1870)">Alexandre
+                        Dumas</persName></addrLine>
+                    <addrLine><placeName key="France, Paris, rue de Rivoli, 22">Rue de Rivoli, n°22</placeName></addrLine>
+                </address>
+                <stamp><date when="1838-04-10">10 avril 1838</date></stamp>
+                <stamp>Levée de [...] du soir</stamp>
+                <stamp><placeName key="France, Paris">Paris</placeName></stamp>
+                
+                <pb n="p.2"
+                    xml:id="p2"/>
+                <salute>Mon bon ami,</salute>
+            </opener>
+            
+            <p>vous êtes bien bon et je regrette bien de ne pas avoir été là. J'étais effectivement
+                à la campagne quand votre mot est arrivé et je me serais pendu en le recevant
+                puisqu'il était trop tard. Je n'aurai donc garde de manquer l'occasion que vous me
+                donnez de retrouver ce que j'ai perdu.</p>
+            <closer>
+                <salute>Mille remerciements et amitiés bien vraies.</salute>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">Eug.
+                    Delacroix</persName></signed>
+                <dateline>Ce <date when="1838-04-09">9 avril</date></dateline>
+            </closer>
+            <postscript><p>Je profiterai de <pb n="p.3" xml:id="p3"/> l'occasion pour mettre la main sur <hi rend="u">mes deux bras</hi>.</p></postscript>
+            <postscript>
+                <p>[Dessin de deux bras]</p>
+            </postscript>
+            <postscript>
+                <p><add place="inline">[Eugène Delacroix 1798-1863 dessin des bras d'Ida Ferrier qui avait promis ses deux bras moulés [en] plâtre]</add></p>
+            </postscript>
+            
+        </body>
+    </text>
+</TEI>
+
+
