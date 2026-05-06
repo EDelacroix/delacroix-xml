@@ -48,14 +48,11 @@
                         <objectDesc form="letter">
                             <supportDesc>
                                 <extent>
-                                    <measure quantity="3" unit="page"/>
+                                    <measure quantity="2" unit="page"/>
                                 </extent>
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
-                    <history>
-                        <provenance>Vente Alde 17 octobre 2019, lot 31</provenance>
-                    </history>
                 </msDesc>
                 <listBibl>
                     <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène
@@ -94,14 +91,17 @@
 
                 <pb n="p.2" xml:id="p2"/>
                 <dateline>Ce <date when="1830-04-..">vendredi <add place="inline">[avril
-                    1830]</add></date></dateline>
+                        1830]</add></date></dateline>
                 <salute>Cher ami,</salute>
             </opener>
 
             <p>excusez ma faiblesse et ma sottise ; mais, après avoir retourné et fatigué un papier
                 pendant deux heures, j'ai acquis la certitude qu'il m'était impossible de faire la
-                vignette en question ; mettez-moi à l'épreuve, cher ami, pour un des produits de mon
-                industrie ; mais, pour les pattes de mouches, je suis pétrifié et j'ai la main
+                    vignette<note place="bottom">Référence à la vignette censée servir de frontispice
+                    à la pièce de théâtre d'Alexandre Dumas, <hi rend="it">Stockholm, Fontainebleau
+                        et Rome</hi>.</note> en question ; mettez-moi à l'épreuve, <persName
+                    key="Dumas, Alexandre (1802-1870)">cher ami</persName>, pour un des produits de
+                mon industrie ; mais, pour les pattes de mouches, je suis pétrifié et j'ai la main
                 enchaînée quand je veux y toucher. Je vous renvoie donc votre manuscrit intact,
                 très-enchanté du moins d'avoir fait mes ridicules essais sur d'autres papiers. Je
                 vous écris néanmoins avec une de vos plumes. Je n'ai pas voulu me refuser ce
