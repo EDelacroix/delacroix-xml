@@ -59,7 +59,9 @@
                 </msDesc>
                 <listBibl>
                     <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène
-                        Delacroix</hi>, 1936, II, p. 54</bibl>
+                            Delacroix</hi>, 1935, I, p. 254-255</bibl>
+                    <bibl>Burty, Philippe, <hi rend="it">Lettres de Eugène Delacroix</hi>, 1880, I,
+                        p. 238</bibl>
                 </listBibl>
             </sourceDesc>
         </fileDesc>
@@ -83,39 +85,34 @@
             <pb n="p.1" xml:id="pl"/>
             <opener>
                 <address>
-                    <addrLine>Monsieur <persName key="Dumas, Alexandre (1802-1870)">Alexandre
-                        Dumas</persName></addrLine>
-                    <addrLine><placeName key="France, Paris, rue de Rivoli, 22">Rue de Rivoli, n°22</placeName></addrLine>
+                    <addrLine>À <persName key="Dumas, Alexandre (1802-1870)">Alexandre
+                            Dumas</persName></addrLine>
+                    <addrLine><placeName key="France, Paris, rue de Rivoli, 22">Rue de Rivoli,
+                            n°22</placeName></addrLine>
                 </address>
-                <stamp><date when="1838-04-10">10 avril 1838</date></stamp>
-                <stamp>Levée de [...] du soir</stamp>
-                <stamp><placeName key="France, Paris">Paris</placeName></stamp>
-                
-                <pb n="p.2"
-                    xml:id="p2"/>
-                <salute>Mon bon ami,</salute>
+
+
+                <pb n="p.2" xml:id="p2"/>
+                <dateline>Ce <date when="">vendredi <add place="inline">[avril
+                    1830]</add></date></dateline>
+                <salute>Cher ami,</salute>
             </opener>
-            
-            <p>vous êtes bien bon et je regrette bien de ne pas avoir été là. J'étais effectivement
-                à la campagne quand votre mot est arrivé et je me serais pendu en le recevant
-                puisqu'il était trop tard. Je n'aurai donc garde de manquer l'occasion que vous me
-                donnez de retrouver ce que j'ai perdu.</p>
+
+            <p>excusez ma faiblesse et ma sottise ; mais, après avoir retourné et fatigué un papier
+                pendant deux heures, j'ai acquis la certitude qu'il m'était impossible de faire la
+                vignette en question ; mettez-moi à l'épreuve, cher ami, pour un des produits de mon
+                industrie ; mais, pour les pattes de mouches, je suis pétrifié et j'ai la main
+                enchaînée quand je veux y toucher. Je vous renvoie donc votre manuscrit intact,
+                très-enchanté du moins d'avoir fait mes ridicules essais sur d'autres papiers. Je
+                vous écris néanmoins avec une de vos plumes. Je n'ai pas voulu me refuser ce
+                plaisir, qui est rare pour moi.</p>
+            <p>Encore une fois, pardonnez-moi et ne m'en croyez pas moins bien votre ami pour les
+                objets de grande dimension.</p>
             <closer>
-                <salute>Mille remerciements et amitiés bien vraies.</salute>
-                <signed><persName key="Delacroix, Eugène (1798-1863)">Eug.
-                    Delacroix</persName></signed>
-                <dateline>Ce <date when="1838-04-09">9 avril</date></dateline>
+                <salute>Adieu, adieu.</salute>
             </closer>
-            <postscript><p>Je profiterai de <pb n="p.3" xml:id="p3"/> l'occasion pour mettre la main sur <hi rend="u">mes deux bras</hi>.</p></postscript>
-            <postscript>
-                <p>[Dessin de deux bras]</p>
-            </postscript>
-            <postscript>
-                <p><add place="inline">[Eugène Delacroix 1798-1863 dessin des bras d'Ida Ferrier qui avait promis ses deux bras moulés [en] plâtre]</add></p>
-            </postscript>
-            
+
+
         </body>
     </text>
 </TEI>
-
-
