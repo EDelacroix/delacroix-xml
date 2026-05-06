@@ -84,7 +84,7 @@
         <body>
             <pb n="p.1" xml:id="p1"/>
             <opener>
-                <dateline><date when="1827-09-..">Ce mercredi</date></dateline>
+                <dateline>Ce <date when="1827-09-..">mercredi</date></dateline>
             </opener>
 
             <p>Eh bien ! Envahissement général : Hamlet lève sa tête hideuse. Othello prépare son
