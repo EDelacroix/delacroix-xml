@@ -22,8 +22,7 @@
         </respStmt>
         <respStmt>
           <resp>Corrections</resp>
-          <name>{corrections}</name>
-          <name>{corrections}</name>
+          <name>Gaëlle Lafage</name>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -35,16 +34,16 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Correspondance d'Eugène Delacroix</title>
-
+        <title type="sub">Correspondance avec Joséphine de Forget</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
           <msIdentifier>
-            <country>{cotepays}</country>
-            <settlement>{coteville}</settlement>
-            <institution>{coteinstitution}</institution>
+            <country></country>
+            <settlement></settlement>
+            <institution></institution>
 
-            <idno>2012-A.94 </idno>
+            <idno></idno>
           </msIdentifier>
           <physDesc>
             <objectDesc form="letter">
@@ -71,7 +70,7 @@
 
         </correspAction>
         <correspAction type="received">
-          <persName key="Forget, Joséphine (de) (1802-1882)"/>
+          <persName key="Forget, Joséphine de (1802-1886)"/>
         </correspAction>
 
       </correspDesc>
@@ -83,22 +82,19 @@
   <text>
     <body>
 
-      <pb n="1" xml:id="p1"/>
-
-
       <opener>
         <dateline>
           <pb n="1"/>
           <date>octobre 1845</date></dateline>
-        <salute><persName key="Forget, Joséphine (de) (1802-1882)">Bonne amie</persName>,</salute>
+        <salute><persName key="Forget, Joséphine de (1802-1886)">Bonne amie</persName>,</salute>
       </opener>
       <p>depuis que je vous ai vue, j’ai constamment travaillé, aussi j’avance beaucoup. Hier
-        seulement, je n’avais pas été au <placeName key="Sénat">Luxembourg</placeName><note
+        seulement, je n’avais pas été au <placeName key="France, Paris, Palais du Luxembourg, Sénat">Luxembourg</placeName><note
           place="bottom">Delacroix travaille au décor de la coupole de la bibliothèque du Sénat de
           1840 à 1846.</note> et je croyais me reposer et aller dîner avec vous, mais j’ai été
-        obligé dans la journée de travailler <placeName key="rue Notre-Dame-de-Lorette, n° 58">chez
+        obligé dans la journée de travailler <placeName key="France, Paris, rue Notre-Dame-de-Lorette, 58">chez
           moi</placeName>, à une de mes <rs type="work" key="Assemblée nationale, Bibliothèque"
-          >figures</rs> de la <placeName key="Assemblée nationale, Bibliothèque"
+            >figures</rs> de la <placeName key="France, Paris, Palais Bourbon, Assemblée nationale"
           >Chambre</placeName><note place="bottom">Delacroix travaille au plafond de la bibliothèque
           de l’Assemblée nationale de 1838 à 1847.</note> que je croyais plus avancée et qui doit
         être appliquée des premières<note place="bottom">Les premières toiles à avoir été marouflées
@@ -106,7 +102,7 @@
             (<hi rend="it">L'éducation d’Achille, Alexandre et les poèmes d’Homère, Hésiode et sa
             muse</hi> et <hi rend="it">Ovide chez les Barbares</hi>).</note>. Il en est résulté que
         j’étais extrêmement fatigué. Votre chère lettre me trouve sortant pour aller au <placeName
-          key="Sénat">Luxembourg</placeName>.</p>
+          key="France, Paris, Palais du Luxembourg, Sénat">Luxembourg</placeName>.</p>
       <p>Ou je serai mourant, ou je vous verrai ce soir, non pas pour dîner, je crains, mais pour
         sûr après. Le soleil a l’air de vouloir se débarbouiller. Je vous embrasse mille fois. Je
         suis tiré d’inquiétude pour <persName key="Delacroix, Charles Henry (1779-1845)">mon
@@ -115,7 +111,7 @@
         décembre.</note>.</p>
 
       <closer>
-        <salute>A ce soir, bonne consolation.</salute>
+        <salute>A ce soir, <persName key="Forget, Joséphine de (1802-1886)">bonne consolation</persName>.</salute>
       </closer>
 
     </body>
