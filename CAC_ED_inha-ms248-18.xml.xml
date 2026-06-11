@@ -22,8 +22,8 @@
         </respStmt>
         <respStmt>
           <resp>Corrections</resp>
-          <name>{corrections}</name>
-          <name>{corrections}</name>
+          <name>Gaëlle Lafage</name>
+          <name></name>
         </respStmt>
       </editionStmt>
       <publicationStmt>
@@ -42,7 +42,7 @@
           <msIdentifier>
             <country>France</country>
             <settlement>Paris</settlement>
-            <institution>INHA</institution>
+            <institution>Bibliothèque de l'INHA</institution>
 
             <idno>Ms 248, 18</idno>
           </msIdentifier>
@@ -87,7 +87,7 @@
       <pb n="1" xml:id="p1"/>
       <dateline>
         <pb n="1"/>
-        <placeName key="Valmont, abbaye Notre-Dame-du-Pré">Valmont</placeName>, <date>13
+        <placeName key="France, Valmont">Valmont</placeName>, <date>13
           7bre</date><note place="bottom">La lettre a été écrite lors du voyage de Delacroix à Rouen
           en 1838.</note></dateline>
         <salute><persName key="Villot, Frédéric (1809-1875)">Mon cher ami</persName>,</salute></opener><p>je vous écris
@@ -95,7 +95,7 @@
         délicatesse. Je vis ici éloigné du centre de la civilisation et dans une solitude profonde ;
         vous jugez bien qu’une bonne lettre de vous où vous me parlerez beaucoup de vous, beaucoup
         de la peinture me fera le plus grand plaisir. J’ai revu le <placeName
-          key="Rouen, Musée des Beaux-Arts">musée de Rouen</placeName><note place="bottom">Delacroix
+          key="France, Rouen, Musée des Beaux-Arts">musée de Rouen</placeName><note place="bottom">Delacroix
           s’y était déjà rendu en 1834.</note>, j’y ai découvert un second Véronèse<note
           place="bottom">Véronèse, <hi rend="it">Le Christ arrêtant la peste à la prière de la Vierge, de
             saint Jean-Baptiste, de saint Roch et de saint Sébastien</hi>, dit autrefois <hi rend="it">Une
@@ -122,7 +122,7 @@
           également sans sa lettre du <ref type="letter" target="CAC_ED_inha-ms248-p20">16 septembre
             1840</ref> à Villot évoquée ci-dessus, en précisant qu’il pourrait s’agir d’œuvres du
           Pérugin.</note>, première manière, qui sont incomparables. Il n’y a rien en petits
-        tableaux de lui au <placeName key="Paris, Musée du Louvre">musée de Paris</placeName> qui
+        tableaux de lui au <placeName key="France, Paris, Musée du Louvre">musée de Paris</placeName> qui
         vaille cela. Du reste, ils ont l’air <pb n="2"/> de ne pas se douter à <placeName
           key="Rouen">Rouen</placeName> de la richesse qu’ils possèdent. Ils vous font fête d’une
         grande copie de la Madone de Dresde<note place="bottom">Copie de la <hi rend="it">Madone Sixtine</hi>
@@ -140,10 +140,10 @@
         commandé la <rs type="work" key="Assemblée nationale, Bibliothèque">Bibliothèque de la
           Chambre</rs><note place="bottom">Delacroix travaille au plafond de la bibliothèque de
           l’Assemblée nationale de 1838 à 1847.</note> au milieu de plusieurs autres commandes pour
-          <placeName key="ssemblée nationale">ledit lieu</placeName> ? Je l’ai appris de même et
+          <placeName key="France, Paris, Palais Bourbon, Assemblée nationale">ledit lieu</placeName> ? Je l’ai appris de même et
         j’en ai confirmation pleine et entière. Je me fais donc une fête de vous l’apprendre si vous
         l’ignorez, car je ne doute pas que vous n’en soyez satisfait pour moi. Vous connaissez le
-          <placeName key="Assemblée nationale, Bibliothèque">local</placeName>, soyez donc assez bon
+          <placeName key="France, Paris, Palais Bourbon, Assemblée nationale">local</placeName>, soyez donc assez bon
         dans vos moments de loisir pour vous creuser la tête sur le parti qu’on pourrait tirer de
         cela : cinq coupoles et deux hémicycles à chaque bout. Les sujets auxquels <pb n="3"/>
         j’avais pensé ont des inconvénients et si je trouve une idée meilleure je la prendrai, ce
@@ -153,7 +153,7 @@
         s’endorment d’un sommeil profond à la veille d’une bataille. Quelquefois les pieds me
         démangent de m’en aller. J’ai aussi à m’occuper d’une certaine <rs type="work"
           key="La Prise de Constantinople par les croisés (J274)">prise de Constantinople</rs> pour
-          <placeName key="château de Versailles">Versailles</placeName><note place="bottom"><hi
+          <placeName key="France, Versailles, château de Versailles">Versailles</placeName><note place="bottom"><hi
             rend="it">L’Entrée des Croisés à Constantinople</hi> a finalement été exposée au Salon
           de 1841 et fait partie des collections du musée du Louvre.</note>. Tout cela veut dire que
         c’est moins le cas que jamais de devenir manchot. Il faudra plutôt mettre les bras d’autrui
@@ -183,7 +183,7 @@
           <addrLine>chez <persName key="Bataille, Alexandre (1777-1841)">M. Bataille</persName><note place="bottom">Alexandre Bataille (1777-1841), cousin germain de Delacroix,
             était propriétaire de l’abbaye Notre-Dame-du-Pré de Valmont.</note>
         à
-          <placeName key="Valmont, abbaye Notre-Dame-du-Pré">Valmont</placeName>
+            <placeName key="France, Valmont">Valmont</placeName>
             Seine inférieure</addrLine></address>
       </closer>
     </body>
