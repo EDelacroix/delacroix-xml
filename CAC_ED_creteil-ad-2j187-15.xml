@@ -79,7 +79,7 @@
 
 
       <opener>
-        <dateline><pb n="p.1"
+        <dateline><pb n="1"
             facs="https://api.nakala.fr/iiif/10.34847/nkl.bf33qn78/6da454e2dfac09d5a68e07b6d17e18912f0c8403/full/full/0/default.jpg"
           /> Ce <date when="1861-09-13">vendredi 14</date><note place="bottom">Les informations
             données dans cette lettre : l’été qu’elle passe à Paris où elle s’ennuie, les
@@ -92,11 +92,11 @@
               lettre de Joséphine que l’on peut dater avec certitude du 12 septembre 1860</ref> et à
               laquelle <ref type="letter"
               target="CAC_ED_inha-aut120-1398-04i-3.xml">Delacroix répondit
-              le 23</ref> témoignent de circonstances très différentes. Il est donc très peu
-            probableque cette lettre puisse s’intercaler entre les deux précédentes. De plus,
+              le 23</ref> témoigne de circonstances très différentes. Il est donc très peu
+            probable que cette lettre puisse s’intercaler entre les deux précédentes. De plus,
             Joséphine de Forget voyagea en août 1860 pour visiter des amis et parents en Auvergne et
             Delacroix faisait des allers-retours entre Paris et Champrosay en septembre pour
-            travaillerà son décor de la chapelle de Saint-Sulpice. Joséphine se trompa peut-être de
+            travailler à son décor de la chapelle de Saint-Sulpice. Joséphine se trompa peut-être de
             date en écrivant. Il faudrait alors dater cette lettre du vendredi 13 septembre 1861 ou
             samedi 14. Les lettres que Delacroix lui écrivit en septembre et octobre 1861 (publiées
             par Joubin), l’encourageant à partir pour se changer les idées, pourraient ainsi faire
@@ -106,14 +106,14 @@
         </dateline>
       </opener>
       <p>C’est avec un grand plaisir, <persName key="Delacroix, Eugène (1798-1863)">cher
-          ami</persName><note>Si l’on admet que cette lettre date de septembre 1861, Joséphine
+          ami</persName><note place="bottom">Si l’on admet que cette lettre date de septembre 1861, Joséphine
           évoque alors certainement le séjour de Delacroix à Augerville, chez Berryer. Voir note
           précédente.</note>, que j’ai reçu votre lettre, et de savoir que vous vous portez bien et
         que vous vous plaisez beaucoup dans cette charmante campagne et avec des personnes si
         agréables ; je vous félicite de ces bonnes vacances : je désirerais bien aussi avoir quelque
         fois de ces distractions, mais pour moi les voyages sont plus difficiles à arranger que pour
         vous. Il est vrai que je passe mon été d’une manière bien triste ; je suis bien isolée, <pb
-          n="p.2"
+          n="2"
           facs="https://api.nakala.fr/iiif/10.34847/nkl.bf33qn78/cdacdee13e53a196f7256be3408e6b005e52ab3f/full/full/0/default.jpg"
         /> mais que faire ? On arrange sa vie comme on peut et non comme on veut. Soyez bien
         persuadé que le plus grand bonheur pour moi, et même le seul, c’est de vous voir et je jouis
@@ -122,7 +122,7 @@
         sur les gencives, ce qui produit l’effet d’une rage de dents, et cela pendant deux nuits et
         trois jours, enfin la fluxion est arrivée et les douleurs atroces ont cessé. Aujourd’hui je
         suis encore tout enflée, c’est un froid que j’aurais pris en contemplant mes canards, ma
-        seule <pb n="p.3"
+        seule <pb n="3"
           facs="https://api.nakala.fr/iiif/10.34847/nkl.bf33qn78/253e708d1b6fd490381e7b971c634a4a5d444967/full/full/0/default.jpg"
         /> distraction dans ce moment-ci. Je prendrai demain une médecine et probablement je serai
         quitte de tous ces petits maux.</p>
@@ -133,7 +133,7 @@
           key="Tamberlick, Enrico (1820-1889)">Tamberlick</persName> et <hi rend="u">les restes</hi>
         de <persName key="Mario, Giovanni Matteo de Candia, dit (1810-1883)">Mario</persName><note
           place="bottom">Le ténor Enrico Tamberlick fit ses débuts au Théâtre-Italien en avril 1858
-            dans<hi rend="it">Otello</hi>. Quant à Giovanni Matteo de Candia dit Mario,il parut pour
+            dans <hi rend="it">Otello</hi>. Quant à Giovanni Matteo de Candia dit Mario,il parut pour
           la dernière fois au Théâtre-Italien en janvier 1861, mais chanta encore en 1862 à l’Opéra.
           Cela permet de dater plus précisément cette lettre. Même si les distributions n’étaient
           pas connues très en avance, Joséphine qui allait très régulièrement au Théâtre-Italien
@@ -142,7 +142,7 @@
         j’espère avoir aussi une quinzaine à l’<placeName key="France, Paris, Opéra"
           >Opéra</placeName> : ce sont mes seuls plaisirs, mes seules distractions, et je suis
         fâchée que pour vous le spectacle ne soit pas un grand plaisir comme autrefois.</p>
-      <p><pb n="p.4"
+      <p><pb n="4"
           facs="https://api.nakala.fr/iiif/10.34847/nkl.bf33qn78/4e3a97f89ffe5e190b80c31c10a8b11b99760f45/full/full/0/default.jpg"/>
         <persName key="Forget, Eugène de (1819-1885)">Mon fils</persName> est toujours en <placeName
           key="France, Auvergne">Auvergne</placeName> jouissant avec délices des plaisirs de la
