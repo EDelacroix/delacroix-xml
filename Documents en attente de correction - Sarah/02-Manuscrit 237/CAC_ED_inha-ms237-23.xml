@@ -73,7 +73,7 @@
   <text>
     <body>
 
-      <pb n="p.1"
+      <pb n="1"
         facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000049.tif/full/full/0/default.jpg"/>
       <opener>
         <address>
@@ -85,7 +85,7 @@
         <stamp><date when="1846-02-05">5 février 18[..]</date></stamp>
         <stamp>Levée de 2[.]h du soir</stamp>
 
-        <pb n="p.2"
+        <pb n="2"
           facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000050.tif/full/full/0/default.jpg"/>
 
         <salute><persName key="Delacroix, Eugène (1798-1863)">M. Delacroix</persName> souhaite bien

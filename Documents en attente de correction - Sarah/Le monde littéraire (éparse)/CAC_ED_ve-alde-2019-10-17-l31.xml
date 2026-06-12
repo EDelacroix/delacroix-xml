@@ -82,7 +82,7 @@
     </teiHeader>
     <text>
         <body>
-            <pb n="p.1" xml:id="pl"/>
+            <pb n="1" xml:id="pl"/>
             <opener>
                 <address>
                     <addrLine>Monsieur <persName key="Dumas, Alexandre (1802-1870)">Alexandre
@@ -93,7 +93,7 @@
                 <stamp>Levée de [...] du soir</stamp>
                 <stamp><placeName key="France, Paris">Paris</placeName></stamp>
                 
-                <pb n="p.2"
+                <pb n="2"
                     xml:id="p2"/>
                 <salute>Mon bon ami,</salute>
             </opener>
@@ -108,7 +108,7 @@
                     Delacroix</persName></signed>
                 <dateline>Ce <date when="1838-04-09">9 avril</date></dateline>
             </closer>
-            <postscript><p>Je profiterai de <pb n="p.3" xml:id="p3"/> l'occasion pour mettre la main sur <hi rend="u">mes deux bras</hi>.</p></postscript>
+            <postscript><p>Je profiterai de <pb n="3" xml:id="p3"/> l'occasion pour mettre la main sur <hi rend="u">mes deux bras</hi>.</p></postscript>
             <postscript>
                 <p>[Dessin de deux bras]</p>
             </postscript>

@@ -82,7 +82,7 @@
   </teiHeader>
   <text>
     <body>
-      <pb n="p.1"
+      <pb n="1"
         facs="https://api.nakala.fr/iiif/10.34847/nkl.d9c01j18/faa8e645883e13bd4d69f9c6e5e5d3d241eee538/full/full/0/default.jpg"/>
       <opener>
         <dateline><date>Ce samedi matin</date><note place="bottom">Cette lettre, parles informations
@@ -125,7 +125,7 @@
         campagne, pour calmer ses inquiétudes et la consoler un peu de ne pas être avec vous, mais
         vous avez bien autre chose à songer, ma foi !!! Vous connaissez du reste ma tendresse <hi
           rend="u">quand même</hi>, et vous savez aussi qu’elle ne résiste pas aux moindres preuves
-        de votre affection pour moi : ainsi ma rancune passée, je suis enchantée <pb n="p.2"
+        de votre affection pour moi : ainsi ma rancune passée, je suis enchantée <pb n="2"
           facs="https://api.nakala.fr/iiif/10.34847/nkl.d9c01j18/5f216585cbf3a8530d5648ce73d91f1064c07498/full/full/0/default.jpg"
         /> que vous vous plaisiez autant dans <placeName key="France, Champrosay">votre
           villa</placeName>, que votre santé s’en trouve aussi bien, et que vous ayez employé votre
@@ -152,7 +152,7 @@
         Ce pauvre garçon est bien changé ! Et je ne conçois pas comment une indisposition ait pu le
         mettre dans cet état : je soupçonne (moi seule, et que ceci soit bien entre nous) que son
         nouveau quartier lui aura donné bien des tentations, et qu’il y aura succombé : cela promet
-          <pb n="p.3"
+          <pb n="3"
           facs="https://api.nakala.fr/iiif/10.34847/nkl.d9c01j18/1496fa91496824c5d5bb0ced039775e5c87a0b67/full/full/0/default.jpg"
         /> pour les personnes qui vont habiter ce lieu de perdition !!!</p>
       <p>Si j’avais eu une occasion, et je l’ai regretté, je vous aurais envoyé le nouveau
@@ -181,7 +181,7 @@
         établie ; elle était enchantée de sa nouvelle installation, mais elle doit être fort
         mécontente de ce temps, ne pouvant pas commencer ses bains. <persName
           key="Querelles, Richard de (1811-1846)">Son mari</persName>
-        <pb n="p.4"
+        <pb n="4"
           facs="https://api.nakala.fr/iiif/10.34847/nkl.d9c01j18/7a4a347197c3321775692a8349d6396c1c49c1e7/full/full/0/default.jpg"
         /> a envoyé à <persName key="Dubochet, Jacques Julien (1798-1868)">M. Dubochet</persName>,
         pour <hi rend="it">L’Illustration</hi>, des dessins et articles ; je pense que cela paraîtra

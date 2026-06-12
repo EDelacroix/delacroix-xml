@@ -73,7 +73,7 @@
   </teiHeader>
   <text>
     <body>
-      <pb n="p.1"
+      <pb n="1"
         facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000109.tif/full/full/0/default.jpg"/>
       <opener>
         <dateline>Ce <date when="1862-03-13">13 mars <add place="inline"
@@ -96,7 +96,7 @@
         suffisamment à moi-même. Je suis occupé à réparer autant qu’il me sera possible auprès de M.
           <persName key="Péreire, Émile (1800-1875)
           ">Pereire</persName>, les effets de cette démarche dont je vous suis toutefois
-        très reconnaissant pour votre <pb n="p.2"
+        très reconnaissant pour votre <pb n="2"
           facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000110.tif/full/full/0/default.jpg"
         />bonne intention,</p>
 

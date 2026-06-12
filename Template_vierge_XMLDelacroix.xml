@@ -77,7 +77,7 @@
     </teiHeader>
     <text>
         <body>
-            <pb n="p.1" facs="lien de l'image"/>
+            <pb n="1" facs="lien de l'image"/>
             <opener>
                 <address>
                     <addrLine>[ex : adresse postale]</addrLine>
@@ -86,7 +86,7 @@
                 <salute>[...]<note place="bottom">[...]</note></salute>
             </opener>
 
-            <p>[...] <pb n="p.x" facs="xxx"/>
+            <p>[...] <pb n="x" facs="xxx"/>
             </p>
 
             <closer>

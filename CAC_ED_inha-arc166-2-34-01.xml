@@ -73,7 +73,7 @@
   </teiHeader>
   <text>
     <body>
-      <pb n="p.1"
+      <pb n="1"
         facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/2a/a4/3b/f4/2aa43bf4-49cf-4e4f-9f85-5ed99885b8f9/iiif/1101_doucet_ARCHIVES166_2_34_001-020_000001.tif/full/full/0/default.jpg"/>
       <opener>
         <address>
@@ -81,7 +81,7 @@
             <placeName key="Paris, passage Sainte-Marie">Passage Sainte-Marie</placeName></addrLine>
         </address>
       </opener>
-      <pb n="p.2"
+      <pb n="2"
         facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/2a/a4/3b/f4/2aa43bf4-49cf-4e4f-9f85-5ed99885b8f9/iiif/1101_doucet_ARCHIVES166_2_34_001-020_000002.tif/full/full/0/default.jpg"/>
       <p>Le lion est mort.<note place="bottom">Ce billet, publié par Joubin (I, p.
           225), a été rapproché des études de lion effectuées par Barye et Delacroix au Muséum

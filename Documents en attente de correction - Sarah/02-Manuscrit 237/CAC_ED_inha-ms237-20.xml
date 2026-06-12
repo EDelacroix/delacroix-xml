@@ -73,7 +73,7 @@
   </teiHeader>
   <text>
     <body>
-      <pb n="p.1"
+      <pb n="1"
         facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000043.tif/full/full/0/default.jpg"/>
       <opener>
         <address>
@@ -84,7 +84,7 @@
               Augustins, 26</placeName></addrLine>
         </address>
 
-        <pb n="p.2"
+        <pb n="2"
           facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000044.tif/full/full/0/default.jpg"/>
         <salute><persName
             key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)"

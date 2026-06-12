@@ -35,7 +35,7 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Correspondance d'Eugène Delacroix</title>
-
+        <title type="sub">Les grandes commandes publiques</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -85,7 +85,8 @@
 
       <opener>
         <dateline>
-          <pb n="1" xml:id="p1"/>
+          <pb n="1"
+            facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/60/c0/0f/ad/60c00fad-c872-49c9-a40a-da90fbc817da/iiif/0644_doucet_MS248_000048.tif/full/full/0/default.jpg"/>
           <placeName key="France, Valmont">Valmont</placeName>, <date>13 7bre</date><note
             place="bottom">La lettre a été écrite lors du voyage de Delacroix à Rouen en
             1838.</note></dateline>
@@ -125,22 +126,24 @@
           précisant qu’il pourrait s’agir d’œuvres du Pérugin.</note>, première manière, qui sont
         incomparables. Il n’y a rien en petits tableaux de lui au <placeName
           key="France, Paris, Musée du Louvre">musée de Paris</placeName> qui vaille cela. Du reste,
-        ils ont l’air <pb n="2"/> de ne pas se douter à <placeName key="France, Rouen"
-          >Rouen</placeName> de la richesse qu’ils possèdent. Ils vous font fête d’une grande copie
-        de la Madone de Dresde<note place="bottom">Copie de la <hi rend="it">Madone Sixtine</hi> de
-          Raphaël (inv. SR 51) exécutée dans les années 1650-1670 pour servir de retable dans
-          l’ancienne abbaye de Saint-Amand de Rouen.</note> et ne parlent pas des trois charmants
-        morceaux qui pourrissent là. Je rapporterai un très pâle souvenir du <hi rend="u"
-          >Paul</hi><note place="bottom">Delacroix veut parler de Pierre Paul Rubens et de son <hi
-            rend="it">Adoration des bergers</hi> exécutée vers 1615 pour les Capucins
-          d’Aix-la-Chapelle (inv. 1803.6).</note>. Avez-vous appris par les journaux que le
-          <persName key="Bachasson de Montalivet, Camille (1801-1880)">Ministre</persName><note
-          place="bottom">Camille Bachasson, comte de Montalivet (1801-1880), a été nommé ministre de
-          l’Intérieur le 15 avril, intégrant le ministère Molé II. Il le restera jusqu’en mars 1839.
-          Il avait déjà occupé ce même poste sous les ministères Laffitte (de novembre 1830 à mars
-          1831), Soult I (d’avril à octobre 1832) et Thiers I (de février à septembre 1836).</note>
-        m’avait commandé la <rs type="work" key="Assemblée nationale, Bibliothèque">Bibliothèque de
-          la Chambre</rs><note place="bottom">Delacroix travaille au plafond de la bibliothèque de
+        ils ont l’air <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/60/c0/0f/ad/60c00fad-c872-49c9-a40a-da90fbc817da/iiif/0644_doucet_MS248_000049.tif/full/full/0/default.jpg"
+        /> de ne pas se douter à <placeName key="France, Rouen">Rouen</placeName> de la richesse
+        qu’ils possèdent. Ils vous font fête d’une grande copie de la Madone de Dresde<note
+          place="bottom">Copie de la <hi rend="it">Madone Sixtine</hi> de Raphaël (inv. SR 51)
+          exécutée dans les années 1650-1670 pour servir de retable dans l’ancienne abbaye de
+          Saint-Amand de Rouen.</note> et ne parlent pas des trois charmants morceaux qui
+        pourrissent là. Je rapporterai un très pâle souvenir du <hi rend="u">Paul</hi><note
+          place="bottom">Delacroix veut parler de Pierre Paul Rubens et de son <hi rend="it"
+            >Adoration des bergers</hi> exécutée vers 1615 pour les Capucins d’Aix-la-Chapelle (inv.
+          1803.6).</note>. Avez-vous appris par les journaux que le <persName
+          key="Bachasson de Montalivet, Camille (1801-1880)">Ministre</persName><note place="bottom"
+          >Camille Bachasson, comte de Montalivet (1801-1880), a été nommé ministre de l’Intérieur
+          le 15 avril, intégrant le ministère Molé II. Il le restera jusqu’en mars 1839. Il avait
+          déjà occupé ce même poste sous les ministères Laffitte (de novembre 1830 à mars 1831),
+          Soult I (d’avril à octobre 1832) et Thiers I (de février à septembre 1836).</note> m’avait
+        commandé la <rs type="work" key="Assemblée nationale, Bibliothèque">Bibliothèque de la
+          Chambre</rs><note place="bottom">Delacroix travaille au plafond de la bibliothèque de
           l’Assemblée nationale de 1838 à 1847.</note> au milieu de plusieurs autres commandes pour
           <placeName key="France, Paris, Palais Bourbon, Assemblée nationale">ledit
         lieu</placeName> ? Je l’ai appris de même et j’en ai confirmation pleine et entière. Je me
@@ -149,25 +152,28 @@
           key="France, Paris, Palais Bourbon, Assemblée nationale">local</placeName>, soyez donc
         assez bon dans vos moments de loisir pour vous creuser la tête sur le parti qu’on pourrait
         tirer de cela : cinq coupoles et deux hémicycles à chaque bout. Les sujets auxquels <pb
-          n="3"/> j’avais pensé ont des inconvénients et si je trouve une idée meilleure je la
-        prendrai, ce que je crois très possible. Ce sont des pendentifs, vous savez. [croquis] Il
-        faudrait là une idée féconde qui n’eut pas trop de réalité, pas trop d’allégorie, enfin
-        qu’il y en eut pour tous les goûts. Je fais fort peu de choses ici. Je suis comme ces
-        généraux d’armées qui s’endorment d’un sommeil profond à la veille d’une bataille.
-        Quelquefois les pieds me démangent de m’en aller. J’ai aussi à m’occuper d’une certaine <rs
-          type="work" key="La Prise de Constantinople par les croisés (J274)">prise de
-          Constantinople</rs> pour <placeName key="France, Versailles, château de Versailles"
-          >Versailles</placeName><note place="bottom"><hi rend="it">L’Entrée des Croisés à
-            Constantinople</hi> a finalement été exposée au Salon de 1841 et fait partie des
-          collections du musée du Louvre.</note>. Tout cela veut dire que c’est moins le cas que
-        jamais de devenir manchot. Il faudra plutôt mettre les bras d’autrui au bout des miens. Je
-        vais tâcher de m’organiser en conséquence. Donnez-moi des nouvelles de tout ce qui vous
-        intéresse. Avez-vous quelque travail en train ? Je suppose que vous êtes à <placeName
-          key="France, Champrosay">Champrosay</placeName> et je vous y adresse cette <pb n="4"/>
-        lettre. Je croyais qu’il y avait des choses dont on ne se lassait point et que la mer était
-        au premier rang. Je me suis convaincu du contraire et j’ai reconnu qu’on peut arriver à en
-        avoir assez. De sorte que lorsque, grâce aux chemins de fer et aux ballons, on pourra la
-        voir en trois heures à partir de <placeName key="France, Paris">Paris</placeName>, ce ne
+          n="3"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/60/c0/0f/ad/60c00fad-c872-49c9-a40a-da90fbc817da/iiif/0644_doucet_MS248_000049.tif/full/full/0/default.jpg"
+        /> j’avais pensé ont des inconvénients et si je trouve une idée meilleure je la prendrai, ce
+        que je crois très possible. Ce sont des pendentifs, vous savez. [croquis] Il faudrait là une
+        idée féconde qui n’eut pas trop de réalité, pas trop d’allégorie, enfin qu’il y en eut pour
+        tous les goûts. Je fais fort peu de choses ici. Je suis comme ces généraux d’armées qui
+        s’endorment d’un sommeil profond à la veille d’une bataille. Quelquefois les pieds me
+        démangent de m’en aller. J’ai aussi à m’occuper d’une certaine <rs type="work"
+          key="La Prise de Constantinople par les croisés (J274)">prise de Constantinople</rs> pour
+          <placeName key="France, Versailles, château de Versailles">Versailles</placeName><note
+          place="bottom"><hi rend="it">L’Entrée des Croisés à Constantinople</hi> a finalement été
+          exposée au Salon de 1841 et fait partie des collections du musée du Louvre.</note>. Tout
+        cela veut dire que c’est moins le cas que jamais de devenir manchot. Il faudra plutôt mettre
+        les bras d’autrui au bout des miens. Je vais tâcher de m’organiser en conséquence.
+        Donnez-moi des nouvelles de tout ce qui vous intéresse. Avez-vous quelque travail en train ?
+        Je suppose que vous êtes à <placeName key="France, Champrosay">Champrosay</placeName> et je
+        vous y adresse cette <pb n="4"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/60/c0/0f/ad/60c00fad-c872-49c9-a40a-da90fbc817da/iiif/0644_doucet_MS248_000050.tif/full/full/0/default.jpg"
+        /> lettre. Je croyais qu’il y avait des choses dont on ne se lassait point et que la mer
+        était au premier rang. Je me suis convaincu du contraire et j’ai reconnu qu’on peut arriver
+        à en avoir assez. De sorte que lorsque, grâce aux chemins de fer et aux ballons, on pourra
+        la voir en trois heures à partir de <placeName key="France, Paris">Paris</placeName>, ce ne
         sera plus un plaisir, pas plus que de voir les arbres des <placeName
           key="France, Paris, Jardin des Tuileries">Tuileries</placeName>. Ainsi il faut tout
         acheter. Le plaisir facile n’est pas plus du plaisir que <hi rend="u">toujours du

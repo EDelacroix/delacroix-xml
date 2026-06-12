@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Alexandre Dumas, [avril 1830]</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Annotation</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Corrections</resp>
+                    <name>[prénom nom]</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Le monde littéraire</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country/>
+                        <settlement/>
+                        <institution/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène
+                            Delacroix</hi>, 1935, I, p. 254-255</bibl>
+                    <bibl>Burty, Philippe, <hi rend="it">Lettres de Eugène Delacroix</hi>, 1880, I,
+                        p. 238</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1830-04-.."/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Dumas, Alexandre (1802-1870)"/>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="p.1" xml:id="pl"/>
+            <opener>
+                <address>
+                    <addrLine>À <persName key="Dumas, Alexandre (1802-1870)">Alexandre
+                            Dumas</persName></addrLine>
+                    <addrLine><placeName key="France, Paris, rue de Rivoli, 22">Rue de Rivoli,
+                            n°22</placeName></addrLine>
+                </address>
+
+
+                <pb n="p.2" xml:id="p2"/>
+                <dateline>Ce <date when="1830-04-..">vendredi <add place="inline">[avril
+                        1830]</add></date></dateline>
+                <salute>Cher ami,</salute>
+            </opener>
+
+            <p>excusez ma faiblesse et ma sottise ; mais, après avoir retourné et fatigué un papier
+                pendant deux heures, j'ai acquis la certitude qu'il m'était impossible de faire la
+                    vignette<note place="bottom">Référence à la vignette censée servir de frontispice
+                    à la pièce de théâtre d'Alexandre Dumas, <hi rend="it">Stockholm, Fontainebleau
+                        et Rome</hi>.</note> en question ; mettez-moi à l'épreuve, <persName
+                    key="Dumas, Alexandre (1802-1870)">cher ami</persName>, pour un des produits de
+                mon industrie ; mais, pour les pattes de mouches, je suis pétrifié et j'ai la main
+                enchaînée quand je veux y toucher. Je vous renvoie donc votre manuscrit intact,
+                très-enchanté du moins d'avoir fait mes ridicules essais sur d'autres papiers. Je
+                vous écris néanmoins avec une de vos plumes. Je n'ai pas voulu me refuser ce
+                plaisir, qui est rare pour moi.</p>
+            <p>Encore une fois, pardonnez-moi et ne m'en croyez pas moins bien votre ami pour les
+                objets de grande dimension.</p>
+            <closer>
+                <salute>Adieu, adieu.</salute>
+            </closer>
+
+
+        </body>
+    </text>
+</TEI>

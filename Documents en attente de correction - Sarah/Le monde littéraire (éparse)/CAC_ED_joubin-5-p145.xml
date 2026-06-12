@@ -81,7 +81,7 @@
     </teiHeader>
     <text>
         <body>
-            <pb n="p.1" xml:id="p1"/>
+            <pb n="1" xml:id="p1"/>
             <opener>
                 <dateline><date when="1827-09-.."><add place="inline">[septembre
                     1827]</add></date></dateline>

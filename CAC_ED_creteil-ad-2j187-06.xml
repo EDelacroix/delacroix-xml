@@ -83,7 +83,7 @@
 
 
       <opener>
-        <pb n="p.1"
+        <pb n="1"
           facs="https://api.nakala.fr/iiif/10.34847/nkl.9efczfap/769117d4c2e2850ca899b872bb5ddbdc379317a1/full/full/0/default.jpg"/>
         <address>
           <addrLine><persName key="Delacroix, Eugène (1798-1863)">Monsieur Eugène
@@ -95,7 +95,7 @@
       </opener>
 
 
-      <p><pb n="p.2"
+      <p><pb n="2"
           facs="https://api.nakala.fr/iiif/10.34847/nkl.9efczfap/bcefd6e6c4416f613c865933b246f36e83ae4623/full/full/0/default.jpg"
         />Nous sommes arrivées ce matin, brisées, moulues, après avoir passé deux nuits en voiture ;
         je dis <hi rend="u">nous</hi> car j’ai ramené <persName
@@ -110,7 +110,7 @@
         voir votre bonne mine grasse et fraîche. Si vous êtes libre demain jeudi, venez dîner avec
         nous, nous serons seules, et nous serons bien enchantées de vous voir, et moi <hi rend="u"
           >en particulier</hi> ; j’aurais désiré vous demander demain l’hospitalité, mais cela me
-        paraît difficile à arranger ; mon fils <pb n="p.3"
+        paraît difficile à arranger ; mon fils <pb n="3"
           facs="https://api.nakala.fr/iiif/10.34847/nkl.9efczfap/4bfdc7568e43020a1c7e52b5712b1f2226661f99/full/full/0/default.jpg"/>
         <persName key="Forget, Eugène de (1819-1885)">Eugène</persName> est de retour<note
           place="bottom">Il vivait alors en Auvergne au château familial de Pagnant. </note>, mais

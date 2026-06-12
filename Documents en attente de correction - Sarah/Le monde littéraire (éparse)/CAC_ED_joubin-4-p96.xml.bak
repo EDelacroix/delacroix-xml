@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Alexandre Dumas, 28 avril 1859</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Annotation</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Corrections</resp>
+                    <name>[prénom nom]</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Le monde littéraire</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country/>
+                        <settlement/>
+                        <institution/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity=".." unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène
+                            Delacroix</hi>, 1938, IV, p. 96-97</bibl>
+                    <bibl>Burty, Philippe, <hi rend="it">Lettres de Eugène Delacroix</hi>, 1880, II,
+                        p. 213</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1859-04-28"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Dumas, Alexandre (1802-1870)"/>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="p.1" xml:id="pl"/>
+            <opener>
+                <address>
+                    <addrLine>À <persName key="Dumas, Alexandre (1802-1870)">Alexandre
+                            Dumas</persName></addrLine>
+                </address>
+
+                <dateline>Ce <date when="1859-04-28">28 avril 1859</date></dateline>
+                <salute>Mon cher <persName key="Dumas, Alexandre (1802-1870)"
+                    >ami</persName>,</salute>
+            </opener>
+
+            <p>Je n'ai eu connaissance qu'hier seulement de l'article que vous m'avez consacré dans
+                le feuilleton de l'<hi rend="it">Indépendance</hi><note place="bottom"><hi rend="it"
+                        >L'Indépendance belge</hi>, article du 23 avril 1859 aujourd'hui édité dans
+                        <hi rend="it">L'Art et les artistes contemporains au Salon de
+                    1859</hi>.</note>.</p>
+            <p>La difficulté de se procurer le journal quand le jour où il a paru est passé m'a
+                privé pendant quelques jours du plaisir de le lire et de celui d'avoir à vous en
+                remercier de tout coeur.</p>
+            <p>Vous vous souvenez, <persName key="Dumas, Alexandre (1802-1870)">ami</persName>, d'un
+                vieux camarade ; vous le traitez déjà comme s'il se trouvait installé dans sa petite
+                immortalité, ou plutôt c'est vous qui me la donnez par vos éloges, tout pleins de la
+                chaleur que vous portez partout.</p>
+            <p>Vous vous plaignez avec raison de la tendance des Arts. Nous visions en haut
+                autrefois. Heureux qui pouvait y atteindre ! Je crains que la taille des lutteurs
+                d'aujourd'hui ne leur permette pas même d'en avoir la pensée. Leur petite vérité
+                étroite n'est pas celle des maîtres. Ils la cherchent terre à terre avec un
+                microscope. Adieu la grande brosse, adieu les grands effets des passions à la scène
+                !</p>
+            <p>Aussi, pourquoi vous en allez-vous au <placeName key="Russie, Kamtchatka"
+                    >Kamtchatka</placeName><note place="bottom">André Joubin suppose qu'il s'agit là
+                    d'un voyage imaginaire, comme avait l'habitude de laisser croire Alexandre Dumas (Joubin, André, <hi rend="it">Correspondance
+                        générale de Eugène Delacroix</hi>, 1938, IV, n. 1, p. 97).</note> ? On me
+                dit toutefois que vous en rapportez des trésors.</p>
+
+            <closer>
+                <salute>Je vous embrasse bien, <persName key="Dumas, Alexandre (1802-1870)">cher
+                        ami</persName>, et vous remercie de nouveau.</salute>
+            </closer>
+
+
+        </body>
+    </text>
+</TEI>

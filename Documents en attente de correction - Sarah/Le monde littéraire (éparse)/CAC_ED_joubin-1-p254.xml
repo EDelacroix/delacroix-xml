@@ -79,7 +79,7 @@
     </teiHeader>
     <text>
         <body>
-            <pb n="p.1" xml:id="pl"/>
+            <pb n="1" xml:id="pl"/>
             <opener>
                 <address>
                     <addrLine>À <persName key="Dumas, Alexandre (1802-1870)">Alexandre
@@ -89,7 +89,7 @@
                 </address>
 
 
-                <pb n="p.2" xml:id="p2"/>
+                <pb n="2" xml:id="p2"/>
                 <dateline>Ce <date when="1830-04-..">vendredi <add place="inline">[avril
                         1830]</add></date></dateline>
                 <salute>Cher ami,</salute>

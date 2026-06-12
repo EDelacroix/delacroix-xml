@@ -35,15 +35,16 @@
       <seriesStmt>
         <title type="main">Correspondance d'Eugène Delacroix</title>
         <title type="sub">Correspondance avec Joséphine de Forget</title>
+        
       </seriesStmt>
       <sourceDesc>
         <msDesc>
           <msIdentifier>
-            <country></country>
-            <settlement></settlement>
-            <institution></institution>
+            <country/>
+            <settlement/>
+            <institution/>
 
-            <idno></idno>
+            <idno/>
           </msIdentifier>
           <physDesc>
             <objectDesc form="letter">
@@ -89,17 +90,18 @@
         <salute><persName key="Forget, Joséphine de (1802-1886)">Bonne amie</persName>,</salute>
       </opener>
       <p>depuis que je vous ai vue, j’ai constamment travaillé, aussi j’avance beaucoup. Hier
-        seulement, je n’avais pas été au <placeName key="France, Paris, Palais du Luxembourg, Sénat">Luxembourg</placeName><note
-          place="bottom">Delacroix travaille au décor de la coupole de la bibliothèque du Sénat de
-          1840 à 1846.</note> et je croyais me reposer et aller dîner avec vous, mais j’ai été
-        obligé dans la journée de travailler <placeName key="France, Paris, rue Notre-Dame-de-Lorette, 58">chez
-          moi</placeName>, à une de mes <rs type="work" key="Assemblée nationale, Bibliothèque"
-            >figures</rs> de la <placeName key="France, Paris, Palais Bourbon, Assemblée nationale"
-          >Chambre</placeName><note place="bottom">Delacroix travaille au plafond de la bibliothèque
-          de l’Assemblée nationale de 1838 à 1847.</note> que je croyais plus avancée et qui doit
-        être appliquée des premières<note place="bottom">Les premières toiles à avoir été marouflées
-          sont celles destinées aux quatre pendentifs de la coupole de <hi rend="it">La Poésie</hi>
-            (<hi rend="it">L'éducation d’Achille, Alexandre et les poèmes d’Homère, Hésiode et sa
+        seulement, je n’avais pas été au <placeName key="France, Paris, Palais du Luxembourg, Sénat"
+          >Luxembourg</placeName><note place="bottom">Delacroix travaille au décor de la coupole de
+          la bibliothèque du Sénat de 1840 à 1846.</note> et je croyais me reposer et aller dîner
+        avec vous, mais j’ai été obligé dans la journée de travailler <placeName
+          key="France, Paris, rue Notre-Dame-de-Lorette, 58">chez moi</placeName>, à une de mes <rs
+          type="work" key="Assemblée nationale, Bibliothèque">figures</rs> de la <placeName
+          key="France, Paris, Palais Bourbon, Assemblée nationale">Chambre</placeName><note
+          place="bottom">Delacroix travaille au plafond de la bibliothèque de l’Assemblée nationale
+          de 1838 à 1847.</note> que je croyais plus avancée et qui doit être appliquée des
+          premières<note place="bottom">Les premières toiles à avoir été marouflées sont celles
+          destinées aux quatre pendentifs de la coupole de <hi rend="it">La Poésie</hi> (<hi
+            rend="it">L'éducation d’Achille, Alexandre et les poèmes d’Homère, Hésiode et sa
             muse</hi> et <hi rend="it">Ovide chez les Barbares</hi>).</note>. Il en est résulté que
         j’étais extrêmement fatigué. Votre chère lettre me trouve sortant pour aller au <placeName
           key="France, Paris, Palais du Luxembourg, Sénat">Luxembourg</placeName>.</p>
@@ -111,7 +113,8 @@
         décembre.</note>.</p>
 
       <closer>
-        <salute>A ce soir, <persName key="Forget, Joséphine de (1802-1886)">bonne consolation</persName>.</salute>
+        <salute>A ce soir, <persName key="Forget, Joséphine de (1802-1886)">bonne
+            consolation</persName>.</salute>
       </closer>
 
     </body>

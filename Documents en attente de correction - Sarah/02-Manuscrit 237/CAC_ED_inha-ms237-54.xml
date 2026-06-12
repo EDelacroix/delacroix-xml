@@ -71,7 +71,7 @@
     </teiHeader>
     <text>
         <body>
-            <pb n="p.1"
+            <pb n="1"
                 facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000113.tif/full/full/0/default.jpg"/>
             <opener>
                 <address>
@@ -89,7 +89,7 @@
                 pour moi : <persName key="Le Guillou, Jeanne Marie, dite Jenny (1801-1869)"
                     >Jenny</persName> vous en remercie de coeur ainsi que moi. Je profiterai de
                 votre obligeance pour les commissions dont j'aurais besoin par hasard ; mais ne
-                faisant pas d'autre remède que de suivre un régime, j'espère <pb n="p.2"
+                faisant pas d'autre remède que de suivre un régime, j'espère <pb n="2"
                     facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000114.tif/full/full/0/default.jpg"
                 />que je pourrai continuer. Je ne vous en dit pas long, cher <persName
                     key="Haro, Étienne François (1827-1897)">monsieur Haro</persName>.</p>

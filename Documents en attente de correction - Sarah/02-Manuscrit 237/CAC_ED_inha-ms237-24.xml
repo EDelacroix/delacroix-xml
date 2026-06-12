@@ -74,7 +74,7 @@
   <text>
     <body>
       
-      <pb n="p.1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000051.tif/full/full/0/default.jpg"/>
+      <pb n="1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000051.tif/full/full/0/default.jpg"/>
       <opener>
       <address>
         <addrLine><persName
@@ -86,7 +86,7 @@
         <stamp>15[c]</stamp>
         <stamp><date when="1846-03-21">Mars</date></stamp>
         
-        <pb n="p.2" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000052.tif/full/full/0/default.jpg"/>
+        <pb n="2" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000052.tif/full/full/0/default.jpg"/>
      
         <dateline>Ce <date when="1846-03-21">samedi soir 21 mars</date><add place="inlin">[1846]</add></dateline>
         <salute><persName key="Delacroix, Eugène (1798-1863)">Mr. Delacroix</persName> salue bien <persName

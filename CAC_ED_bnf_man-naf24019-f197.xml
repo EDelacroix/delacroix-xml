@@ -82,7 +82,7 @@
   </teiHeader>
   <text>
     <body>
-      <pb n="p.1" facs="URL"/>
+      <pb n="1" facs="URL"/>
       <opener>
         <address>
           <addrLine><persName key="Boissard de Boisdenier, Joseph Fernand (1813-1866)">Monsieur
@@ -99,7 +99,7 @@
               Master II sous la direction d’Alain Mérot, Université Paris IV – Sorbonne, 2006, p.
               99).</note></addrLine>
         </address>
-        <pb n="p.2" facs="URL"/>
+        <pb n="2" facs="URL"/>
         <salute>Mon cher <persName key="Boissard de Boisdenier, Joseph Fernand (1813-1866)"
             >Monsieur</persName>,</salute>
       </opener>

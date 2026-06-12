@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Alexandre Dumas, sans date</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Annotation</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Corrections</resp>
+                    <name>[prénom nom]</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Le monde littéraire</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque de l’INHA, collections Jacques
+                            Doucet</institution>
+                        <idno>Ms. 242 pièce 55</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl/>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="18..-..-.."/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Dumas, Alexandre (1802-1870)"/>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="p.1"
+                facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/81/f1/8f/f8/81f18ff8-e5ab-4d60-b971-3a3b62466b56/iiif/0644_doucet_MS242_000117.tif/full/full/0/default.jpg"/>
+            <opener>
+                <address>
+                    <addrLine>Monsieur <persName key="Dumas, Alexandre (1802-1870)">Alexandre
+                            Dumas</persName></addrLine>
+                </address>
+                <pb n="p.2"
+                    facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/81/f1/8f/f8/81f18ff8-e5ab-4d60-b971-3a3b62466b56/iiif/0644_doucet_MS242_000118.tif/full/full/0/default.jpg"/>
+                <salute>Mon bon ami,</salute>
+            </opener>
+
+            <p>je suis forcé de sortir tout à l'heure mais je serai rentré à 1 heure jusqu'à la fin
+                de la journée, je me trompe, jusqu'à 4 heures pouvez vous venir alors ?</p>
+            <closer>
+                <salute>Excusez moi</salute>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">Eug.
+                    Delacroix</persName></signed>
+            </closer>
+
+        </body>
+    </text>
+</TEI>

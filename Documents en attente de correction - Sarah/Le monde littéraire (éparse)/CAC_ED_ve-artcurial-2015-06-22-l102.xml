@@ -82,7 +82,7 @@
     </teiHeader>
     <text>
         <body>
-            <pb n="p.1" xml:id="p1"/>
+            <pb n="1" xml:id="p1"/>
             <opener>
                 <dateline>Ce <date when="1827-09-..">mercredi</date></dateline>
             </opener>

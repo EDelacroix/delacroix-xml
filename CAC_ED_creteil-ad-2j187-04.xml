@@ -82,7 +82,7 @@
 
 
       <opener>
-        <dateline><pb n="p.1"
+        <dateline><pb n="1"
             facs="https://api.nakala.fr/iiif/10.34847/nkl.447fd8f9/56c87e247ebcaa24eee5d68561ecabaf519c745f/full/full/0/default.jpg"/>
           <hi rend="u">Ce vendredi 6 heures</hi><note place="bottom">Dans cette lettre non datée,
             Joséphine de Forget écrit qu’elle se rend à la représentation de <hi rend="it"
@@ -106,10 +106,11 @@
           <persName key="Querelles, Hortense de (1812-1851)">Mme de Querelles</persName><note
           place="bottom">Hortense de Querelles, demi-tante de Joséphine de Forget.</note>, ayant
         fort mal à la tête, ne vient pas avec moi, j’ai donc <hi rend="u">une place entière</hi> à
-        vous proposer : on donne <hi rend="it">La Favorite</hi> avec votre ami <persName key="Barroilhet, Paul (1810-1871)"
-          >Barroilhet</persName>, vous resterez le temps que vous voudrez : ne vous gênez pas, et ne
-        me répondez pas ; je serai, comme toujours, fort heureuse de passer quelques instants avec
-        vous, <persName key="Delacroix, Eugène (1798-1863)">mon ami</persName>.</p>
+        vous proposer : on donne <hi rend="it">La Favorite</hi> avec votre ami <persName
+          key="Barroilhet, Paul (1810-1871)">Barroilhet</persName>, vous resterez le temps que vous
+        voudrez : ne vous gênez pas, et ne me répondez pas ; je serai, comme toujours, fort heureuse
+        de passer quelques instants avec vous, <persName key="Delacroix, Eugène (1798-1863)">mon
+          ami</persName>.</p>
       <p>Loge de M. Poirson, seconde de face, la même que l’année dernière.</p>
       <closer>
         <salute>Adieu. Tout à vous de cœur.</salute>

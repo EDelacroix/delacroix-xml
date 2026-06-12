@@ -76,7 +76,7 @@
   <text>
     <body>
       <opener>
-        <pb n="p.1"
+        <pb n="1"
           facs="https://api.nakala.fr/iiif/10.34847/nkl.ce06a219/c5983c9fab3bf2904fddb2180e9296ab236ad218/full/full/0/default.jpg"/>
         <address>
           <addrLine><persName key="Auguste, Jules Robert (1789-1850)">Monsieur
@@ -86,7 +86,7 @@
         </address>
         <salute><persName key="Auguste, Jules Robert (1789-1850)">Monsieur</persName>,</salute>
       </opener>
-      <p><pb n="p.2"
+      <p><pb n="2"
           facs="https://api.nakala.fr/iiif/10.34847/nkl.ce06a219/ab47bbad6552ca5524be4be157a97740b9e55a17/full/full/0/default.jpg"
           /><persName key="Champmartin, Charles Emile (1797-1883)">M. Champmartin</persName> vient
         d’arriver et se propose d’aller vous voir<note place="bottom">Charles-Emile Callande de
@@ -104,7 +104,7 @@
           régulièrement<note place="bottom">Auguste tenait un salon artistique et littéraire où se
           rendaitDelacroix.</note>.</p>
       <closer>
-        <salute>Veuillez agréer, avec mes<pb n="p.3"
+        <salute>Veuillez agréer, avec mes<pb n="3"
             facs="https://api.nakala.fr/iiif/10.34847/nkl.ce06a219/1c8a8701c6c40aa63bc0d15ad2595a7d2eb9dec9/full/full/0/default.jpg"
           /> excuses pour la liberté que je prends, l’assurance de ma considération la plus
           distinguée.</salute>

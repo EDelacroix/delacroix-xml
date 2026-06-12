@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Alexandre Dumas, 4 avril 18[30]</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Annotation</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Corrections</resp>
+                    <name>[prénom nom]</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Le monde littéraire</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country/>
+                        <settlement/>
+                        <institution/>
+                        <idno/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="3" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène
+                            Delacroix</hi>, 1935, I, p. 253-254</bibl>
+
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1830-04-04"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Dumas, Alexandre (1802-1870)"/>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="p.1" xml:id="pl"/>
+            <opener>
+                <address>
+                    <addrLine>Monsieur <persName key="Dumas, Alexandre (1802-1870)">Alexandre
+                            Dumas</persName></addrLine>
+                    <addrLine><placeName
+                            key="France, Paris, rue de l'Université, maison du café Desmares">Rue de
+                            l'Université, maison du café Desmares</placeName></addrLine>
+                </address>
+
+                <pb n="p.2" xml:id="p2"/>
+                <dateline>Ce <date when="1830-04-04">4 avril [1830]</date></dateline>
+            </opener>
+
+            <p>Que je suis désolé, mon bon ami ! Vous vous êtes donné la peine de passer. Je ne sais
+                plus si j'y étais, mais il fallait violer la portière. Dans tous les cas je lui ai
+                lavé la tête. Imaginez que j'étais de ribotte hier avec <persName
+                    key="Mérimée, Prosper (1803-1870)
+                    ">Mérimée</persName>, <persName
+                    key="Beyle, Henri, dit Stendhal (1783-1842)
+                    ">Beyle</persName> et autres et de plus pris pour la soirée.
+                Jugez de mon désappointement de ne pouvoir vous revoir, vous et votre bel
+                ouvrage.</p>
+            <p>Je m'occupe à choisr un projet dans votre Christine<note place="bottom">Référence à
+                    la pièce de théâtre <hi rend="it">Stockholm, Fontainebleau et Rome</hi>
+                    d'Alexandre Dumas dont la première représentation à l'Odéon se fait le 30 mars
+                    1830. André Joubin suppose que Delacroix évoque ici l'élaboration d'une vignette
+                    "destinée à servir de frontispice à la pièce" (Joubin, André, <hi rend="it"
+                        >Correspondance générale de Eugène Delacroix</hi>, 1935, I, n. 1, p.
+                    253).</note> pour vous servir un plat de ma façon.</p>
+            <p>Vuos m'avez donné des émotions bien vives et qu'on n'est plus accoutumé à trouver au
+                théâtre. Je ne souhaite que d'en reproduire une partie.</p>
+            <closer>
+                <salute>Adieu et tout vôtre,</salute>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">Eug.
+                    Delacroix</persName></signed>
+            </closer>
+
+        </body>
+    </text>
+</TEI>

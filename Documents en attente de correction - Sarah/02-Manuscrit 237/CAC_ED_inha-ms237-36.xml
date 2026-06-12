@@ -73,7 +73,7 @@
   </teiHeader>
   <text>
     <body>
-      <pb n="p.1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000078.tif/full/full/0/default.jpg"/>
+      <pb n="1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000078.tif/full/full/0/default.jpg"/>
       <opener>
         <address>
           <addrLine><persName key="Haro, Étienne François (1827-1897)">Monsieur
@@ -83,7 +83,7 @@
         </address>
         <stamp><placeName key="France, Paris">Paris</placeName><date when="1851-10-20">20 oct 51</date></stamp>
         
-        <pb n="p.2" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000079.tif/full/full/0/default.jpg"/>
+        <pb n="2" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000079.tif/full/full/0/default.jpg"/>
 
         <dateline>Ce <date when="1851-10-20">20 octobre <add place="inline">[1851]</add></date></dateline>
 

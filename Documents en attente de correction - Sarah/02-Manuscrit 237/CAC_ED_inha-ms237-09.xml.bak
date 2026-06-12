@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Madame Haro, 17 novembre 18[43]</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">La famille Haro</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque de l’INHA, collections Jacques
+                            Doucet</institution>
+                        <idno>Ms. 237 pièce 09</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène
+                            Delacroix</hi>, 1936, II, p. 156</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1843-11-17"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName
+                        key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)"
+                    />
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="p.1"
+                facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000020.tif/full/full/0/default.jpg"/>
+            <opener>
+                <address>
+                    <addrLine><persName
+                            key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)"
+                            >Madame Haro</persName></addrLine>
+                    <addrLine>Marchande de couleurs</addrLine>
+                    <addrLine><placeName key="France, Paris, rue des Petits Augustins, 26">rue des
+                            petits augustins 26</placeName></addrLine>
+                </address>
+
+                <pb n="p.2"
+                    facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000021.tif/full/full/0/default.jpg"/>
+                <salute><persName
+                        key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)"
+                        >Madame</persName>,</salute>
+            </opener>
+
+            <p>Une nécessité imprévue m'oblige à renoncer à faire le tableau dont je vous ai demandé
+                la toile. Si par hasard vous n'aviez pas coupé ou imprimé la toile vous pourriez
+                l'arrêter sur le champ. Quant au châssis nous le garderions pour l'utiliser plus
+                tard. Si la toile était coupée vous pourriez me la conserver. Nous l'imprimerions au
+                fur et à mesure du besoin.</p>
+
+            <closer>
+                <salute>Agréez <persName
+                        key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)"
+                        >Madame</persName>, mes salutations très empressées.</salute>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">Eug
+                    Delacroix</persName></signed>
+                <dateline>Ce <date when="1843-11-17">17 novembre <add place="inline"
+                        >[1843]</add></date></dateline>
+            </closer>
+
+            <postscript>
+                <p>Je vous écrirai un de ces jours pour faire retendre mes pendentifs<note
+                        place="bottom">André Joubin précise qu'il s'agit là des pendentifs à
+                        destination de la Bibliohtèque de la Chambre, à l'Assemblée nationale
+                        (Joubin, André, <hi rend="it">Correspondance générale de Eugène
+                            Delacroix</hi>, 1936, II, n. 2, p. 156)</note>.</p>
+            </postscript>
+
+        </body>
+    </text>
+</TEI>

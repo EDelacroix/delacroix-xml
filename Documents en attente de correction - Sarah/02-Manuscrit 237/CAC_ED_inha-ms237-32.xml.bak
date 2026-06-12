@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Madame Haro, 24 mai 18[47]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Thierry Laugée</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+        <title type="sub">La famille Haro</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 237 pièce 32</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="2" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936,
+            II, p. 319</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1847-05-24"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+      <pb n="p.1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000068.tif/full/full/0/default.jpg"/>
+      <opener>
+        <address>
+          <addrLine><persName
+              key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)">Madame
+              Haro</persName></addrLine>
+          <addrLine>Marchande de couleurs</addrLine>
+          <addrLine><placeName key="France, Paris, rue des Petits Augustins, 26">Rue des Petits
+              Augustins, 26</placeName></addrLine>
+        </address>
+        <stamp><date when="1847-05-25">25 [184]7</date></stamp>
+        <stamp>Levée de Midi</stamp>
+
+        <pb n="p.2" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000069.tif/full/full/0/default.jpg"/>
+        <salute><persName key="Delacroix, Eugène (1798-1863)">M. Delacroix</persName> salue bien
+            <persName key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)"
+            >Madame Haro</persName></salute>
+      </opener>
+
+      <p>et la prie de vouloir bien envoyer chercher au <placeName
+          key="France, Paris, Musée du Louvre">musée</placeName><note place="bottom"> Il s'agit du
+          musée du Louvre, où se tenait le Salon.</note> aussi tôt que possible ses tableaux et les
+        lui rapporter. Elle laisserait au musée le reçu du <rs type="work" key="Corps de garde à Méquinez"><hi rend="u"
+            >Corps de garde marocain</hi></rs><note place="bottom"><hi rend="it">Corps de garde à
+            Méquinez</hi>.</note> mais en tirant elle-même une reconnaissance de ce que le reçu y a
+        été laissé ; le tableau étant acquis par ledit musée<note place="bottom">Aujourd’hui
+          conservé à Wuppertal, au Von der Heydt Museum.</note>.</p>
+      
+      <closer>
+        <dateline>Ce <date when="1847-05-24">24 mai <add place="inline">[1847]</add></date></dateline>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

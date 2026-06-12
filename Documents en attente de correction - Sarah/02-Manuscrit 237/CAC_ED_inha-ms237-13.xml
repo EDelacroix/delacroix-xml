@@ -72,7 +72,7 @@
   </teiHeader>
   <text>
     <body>
-      <pb n="p.1"
+      <pb n="1"
         facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000029.tif/full/full/0/default.jpg"/>
       <opener>
         <address>
@@ -86,7 +86,7 @@
         <stamp><date when="1844-12-08">8 [décembre] 1844</date></stamp>
         <stamp><placeName key="France, Paris">Paris</placeName> Distribution</stamp>
 
-        <pb n="p.2"
+        <pb n="2"
           facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000030.tif/full/full/0/default.jpg"/>
         <dateline><date when="1844-12-08">Dimanche</date> 2 heures</dateline>
       </opener>

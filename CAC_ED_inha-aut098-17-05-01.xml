@@ -74,7 +74,7 @@
   </teiHeader>
   <text>
     <body>
-      <pb n="p.1"
+      <pb n="1"
         facs="https://api.nakala.fr/iiif/10.34847/nkl.9df12e17/e7888cbd65851d6c8bef65ec4eef2f717319cb42/full/full/0/default.jpg"/>
       <opener>
         <address>
@@ -84,7 +84,7 @@
         <stamp>
           <date when="1846-05-16">16 mai 1846</date>
         </stamp>
-        <pb n="p.2"
+        <pb n="2"
           facs="https://api.nakala.fr/iiif/10.34847/nkl.9df12e17/9516f40ce126ef9bb39f76c417eefa807862e96e/full/full/0/default.jpg"/>
         <salute><persName key="Curmer, Léon (1801-1870)">Monsieur</persName>,</salute>
       </opener>
@@ -116,7 +116,7 @@
             août 1844</ref>.</note>. </p>
       <p>Vous lui aviez aussi parlé d’une vue à faire de <placeName key="Paris, Hôtel Lambert"
           >l’hôtel Lambert</placeName> pour être gravée sur bois. Outre qu’il ne se chargerait pas
-        avec plaisir de ce travail d’architecte qui sort de son genre, il n’y aurait <pb n="p.3"
+        avec plaisir de ce travail d’architecte qui sort de son genre, il n’y aurait <pb n="3"
           facs="https://api.nakala.fr/iiif/10.34847/nkl.9df12e17/a904de636dc849fbf62bf955ec3e290b388ee3e4/full/full/0/default.jpg"
         /> sans doute pas le temps suffisant pour graver le bois, mais il pourrait faire une
         eau-forte d’un des sujets de peinture et pourrait être en mesure de paraître en même temps

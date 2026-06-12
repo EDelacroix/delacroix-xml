@@ -86,7 +86,7 @@
   <text>
     <body>
       <opener>
-        <pb n="p.1"
+        <pb n="1"
           facs="https://api.nakala.fr/iiif/10.34847/nkl.3c0316s8/8e148e14dbad139cdb6a92904428c8854a90b6e0/full/full/0/default.jpg"/>
         <address>
           <persName key="Labouchère, Pierre-Antoine (1807-1873)">Monsieur de Labouchère</persName>
@@ -99,7 +99,7 @@
           <addrLine><placeName key="Paris, rue de La Rochefoucauld, 7">rue de la Rochefoucauld,
               n°7</placeName></addrLine>
         </address>
-        <pb n="p.2"
+        <pb n="2"
           facs="https://api.nakala.fr/iiif/10.34847/nkl.3c0316s8/7ced266e6de33f8db6cac474bf84781410b78464/full/full/0/default.jpg"/>
         <salute><persName key="Labouchère, Pierre-Antoine (1807-1873)">Monsieur</persName>,</salute>
       </opener>
@@ -130,7 +130,7 @@
             Ingres lui ayant succédé au poste de directeur de l’Académie de France à Rome.
           </note>.</dateline>
       </closer>
-      <pb n="p.3"
+      <pb n="3"
         facs="https://api.nakala.fr/iiif/10.34847/nkl.3c0316s8/8acd8f24236cbd89cdd569a04b98d9e44f9756a6/full/full/0/default.jpg"/>
       <add><hi rend="it">(annotation au crayon de Pierre-Antoine Labouchère)</hi>
         <p>C’était la copie, faite par <persName key="Géricault, Théodore (1791-1824)"

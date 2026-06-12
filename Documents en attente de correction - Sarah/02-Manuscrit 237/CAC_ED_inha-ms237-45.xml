@@ -74,7 +74,7 @@
   </teiHeader>
   <text>
     <body>
-      <pb n="p.1"
+      <pb n="1"
         facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000097.tif/full/full/0/default.jpg"/>
       <opener>
         <address>
@@ -97,7 +97,7 @@
           >Paris</placeName> et que vous serez assez bon pour m’écrire un mot au sujet de vos
         intentions.</p>
       <p>Je serai sans faute à <placeName key="France, Paris">Paris</placeName> à la fin du mois ;
-        jusqu’ici je me trouve à merveille <pb n="p.2"
+        jusqu’ici je me trouve à merveille <pb n="2"
           facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000098.tif/full/full/0/default.jpg"
         />des bains que je prends ici<note place="bottom">Aujourd'hui nommée Plombières-les-Bains,
           la commune est une station thermale vosgienne réputée au XIXe siècle.</note> : je profite
