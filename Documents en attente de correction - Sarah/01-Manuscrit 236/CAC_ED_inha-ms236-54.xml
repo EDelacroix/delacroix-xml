@@ -51,8 +51,8 @@
           </physDesc>
         </msDesc>
         <listBibl>
-          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1937, III, p. 69-70</bibl>
-          <bibl>Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 179-180</bibl>
+          <bibl>André Joubin, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1937, III, p. 69-70</bibl>
+          <bibl>Françoise Alexandre, <hi rend="it">Correspondance</hi>, 2005, p. 179-180</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
@@ -80,7 +80,7 @@
         <dateline>Ce <date when="1851-05-10">samedi</date><note place="bottom">André Joubin date la lettre du 7 juin 1851 mais Françoise
           Alexandre la situe le 10 juin, jour de la première de <hi rend="it">Molière</hi>, drame de
           George Sand joué au théâtre de la Gaité auquel il est fait référence dans la lettre
-          (Alexandre, Françoise, <hi rend="it">Correspondance</hi>, 2005, p. 276).</note></dateline>
+          (Françoise Alexandre, <hi rend="it">Correspondance</hi>, 2005, p. 276).</note></dateline>
         <salute><persName key="Sand, George (1804-1876)">Chère amie</persName>,</salute>
       </opener>
       
