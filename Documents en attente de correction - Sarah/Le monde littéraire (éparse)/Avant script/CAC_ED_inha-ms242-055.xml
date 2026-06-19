@@ -7,7 +7,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Lettre d’Eugène Delacroix à Victor Hugo, [septembre 1827]</title>
+                <title>Lettre d’Eugène Delacroix à Alexandre Dumas, sans date</title>
                 <author key="Delacroix, Eugène (1798-1863)"/>
             </titleStmt>
             <editionStmt>
@@ -39,29 +39,24 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <country/>
-                        <settlement/>
-                        <institution/>
-                        <idno/>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque de l’INHA, collections Jacques
+                            Doucet</institution>
+                        <idno>Ms. 242 pièce 55</idno>
                     </msIdentifier>
                     <physDesc>
                         <objectDesc form="letter">
                             <supportDesc>
                                 <extent>
-                                    <measure quantity="4" unit="page"/>
+                                    <measure quantity="2" unit="page"/>
                                 </extent>
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
-                    <history>
-                        <provenance>Vente Artcurial 22 juin 2015, lot 102</provenance>
-                    </history>
                 </msDesc>
                 <listBibl>
-                    <bibl>André Joubin, <hi rend="it">Correspondance générale de Eugène
-                            Delacroix</hi>, 1935, I, p. 198</bibl>
-                    <bibl>Philippe Burty, <hi rend="it">Lettres de Eugène Delacroix</hi>, 1880, I,
-                        p. 130-131</bibl>
+                    <bibl/>
                 </listBibl>
             </sourceDesc>
         </fileDesc>
@@ -69,10 +64,10 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName key="Delacroix, Eugène (1798-1863)"/>
-                    <date when="1827-09-.."/>
+                    <date when="18..-..-.."/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName key="Hugo, Victor (1802-1885)"/>
+                    <persName key="Dumas, Alexandre (1802-1870)"/>
                 </correspAction>
             </correspDesc>
             <langUsage>
@@ -82,21 +77,24 @@
     </teiHeader>
     <text>
         <body>
-            <pb n="1" xml:id="p1"/>
+            <pb n="1"
+                facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/81/f1/8f/f8/81f18ff8-e5ab-4d60-b971-3a3b62466b56/iiif/0644_doucet_MS242_000117.tif/full/full/0/default.jpg"/>
             <opener>
-                <dateline>Ce <date when="1827-09-..">mercredi</date></dateline>
+                <address>
+                    <addrLine>Monsieur <persName key="Dumas, Alexandre (1802-1870)">Alexandre
+                            Dumas</persName></addrLine>
+                </address>
+                <pb n="2"
+                    facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/81/f1/8f/f8/81f18ff8-e5ab-4d60-b971-3a3b62466b56/iiif/0644_doucet_MS242_000118.tif/full/full/0/default.jpg"/>
+                <salute>Mon bon ami,</salute>
             </opener>
 
-            <p>Eh bien ! Envahissement général : Hamlet lève sa tête hideuse. Othello prépare son
-                poignard, essentiellement occiseur et subversif de toute bonne police dramatique. Le
-                Roi Lear va s'arracher les yeux devant un public français. Il serait de la dignité
-                de l'Académie de déclarer incompatible avec la morale publique toute importation de
-                ce genre. Adieu le bon goût ! Apprêtez-vous dans tous les cas une bonne cuirasse
-                sous votre habit. Craignez les poignards classiques, ou plutôt immolez-vous
-                courageusement pour nos plaisirs à nous autres barbares...</p>
-
+            <p>je suis forcé de sortir tout à l'heure mais je serai rentré à 1 heure jusqu'à la fin
+                de la journée, je me trompe, jusqu'à 4 heures pouvez vous venir alors ?</p>
             <closer>
-                <signed><persName key="Delacroix, Eugène (1798-1863)">E. D.</persName></signed>
+                <salute>Excusez moi</salute>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">Eug.
+                    Delacroix</persName></signed>
             </closer>
 
         </body>

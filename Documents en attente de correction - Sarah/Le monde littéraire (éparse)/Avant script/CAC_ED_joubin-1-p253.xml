@@ -7,7 +7,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Lettre d’Eugène Delacroix à Alexandre Dumas, 28 avril 1859</title>
+                <title>Lettre d’Eugène Delacroix à Alexandre Dumas, 4 avril 18[30]</title>
                 <author key="Delacroix, Eugène (1798-1863)"/>
             </titleStmt>
             <editionStmt>
@@ -48,17 +48,16 @@
                         <objectDesc form="letter">
                             <supportDesc>
                                 <extent>
-                                    <measure quantity=".." unit="page"/>
+                                    <measure quantity="3" unit="page"/>
                                 </extent>
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
                 </msDesc>
                 <listBibl>
-                    <bibl>André Joubin, <hi rend="it">Correspondance générale de Eugène
-                            Delacroix</hi>, 1938, IV, p. 96-97</bibl>
-                    <bibl>Philippe Burty, <hi rend="it">Lettres de Eugène Delacroix</hi>, 1880, II,
-                        p. 213</bibl>
+                    <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène
+                            Delacroix</hi>, 1935, I, p. 253-254</bibl>
+
                 </listBibl>
             </sourceDesc>
         </fileDesc>
@@ -66,7 +65,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName key="Delacroix, Eugène (1798-1863)"/>
-                    <date when="1859-04-28"/>
+                    <date when="1830-04-04"/>
                 </correspAction>
                 <correspAction type="received">
                     <persName key="Dumas, Alexandre (1802-1870)"/>
@@ -82,44 +81,40 @@
             <pb n="1" xml:id="pl"/>
             <opener>
                 <address>
-                    <addrLine>À <persName key="Dumas, Alexandre (1802-1870)">Alexandre
+                    <addrLine>Monsieur <persName key="Dumas, Alexandre (1802-1870)">Alexandre
                             Dumas</persName></addrLine>
+                    <addrLine><placeName
+                            key="France, Paris, rue de l'Université, maison du café Desmares">Rue de
+                            l'Université, maison du café Desmares</placeName></addrLine>
                 </address>
 
-                <dateline>Ce <date when="1859-04-28">28 avril 1859</date></dateline>
-                <salute>Mon cher <persName key="Dumas, Alexandre (1802-1870)"
-                    >ami</persName>,</salute>
+                <pb n="2" xml:id="p2"/>
+                <dateline>Ce <date when="1830-04-04">4 avril [1830]</date></dateline>
             </opener>
 
-            <p>Je n'ai eu connaissance qu'hier seulement de l'article que vous m'avez consacré dans
-                le feuilleton de l'<hi rend="it">Indépendance</hi><note place="bottom"><hi rend="it"
-                        >L'Indépendance belge</hi>, article du 23 avril 1859 aujourd'hui édité dans
-                        <hi rend="it">L'Art et les artistes contemporains au Salon de
-                    1859</hi>.</note>.</p>
-            <p>La difficulté de se procurer le journal quand le jour où il a paru est passé m'a
-                privé pendant quelques jours du plaisir de le lire et de celui d'avoir à vous en
-                remercier de tout coeur.</p>
-            <p>Vous vous souvenez, <persName key="Dumas, Alexandre (1802-1870)">ami</persName>, d'un
-                vieux camarade ; vous le traitez déjà comme s'il se trouvait installé dans sa petite
-                immortalité, ou plutôt c'est vous qui me la donnez par vos éloges, tout pleins de la
-                chaleur que vous portez partout.</p>
-            <p>Vous vous plaignez avec raison de la tendance des Arts. Nous visions en haut
-                autrefois. Heureux qui pouvait y atteindre ! Je crains que la taille des lutteurs
-                d'aujourd'hui ne leur permette pas même d'en avoir la pensée. Leur petite vérité
-                étroite n'est pas celle des maîtres. Ils la cherchent terre à terre avec un
-                microscope. Adieu la grande brosse, adieu les grands effets des passions à la scène
-                !</p>
-            <p>Aussi, pourquoi vous en allez-vous au <placeName key="Russie, Kamtchatka"
-                    >Kamtchatka</placeName><note place="bottom">André Joubin suppose qu'il s'agit là
-                    d'un voyage imaginaire, comme avait l'habitude de laisser croire Alexandre Dumas (Joubin, André, <hi rend="it">Correspondance
-                        générale de Eugène Delacroix</hi>, 1938, IV, n. 1, p. 97).</note> ? On me
-                dit toutefois que vous en rapportez des trésors.</p>
-
+            <p>Que je suis désolé, mon bon ami ! Vous vous êtes donné la peine de passer. Je ne sais
+                plus si j'y étais, mais il fallait violer la portière. Dans tous les cas je lui ai
+                lavé la tête. Imaginez que j'étais de ribotte hier avec <persName
+                    key="Mérimée, Prosper (1803-1870)
+                    ">Mérimée</persName>, <persName
+                    key="Beyle, Henri, dit Stendhal (1783-1842)
+                    ">Beyle</persName> et autres et de plus pris pour la soirée.
+                Jugez de mon désappointement de ne pouvoir vous revoir, vous et votre bel
+                ouvrage.</p>
+            <p>Je m'occupe à choisr un projet dans votre Christine<note place="bottom">Référence à
+                    la pièce de théâtre <hi rend="it">Stockholm, Fontainebleau et Rome</hi>
+                    d'Alexandre Dumas dont la première représentation à l'Odéon se fait le 30 mars
+                    1830. André Joubin suppose que Delacroix évoque ici l'élaboration d'une vignette
+                    "destinée à servir de frontispice à la pièce" (Joubin, André, <hi rend="it"
+                        >Correspondance générale de Eugène Delacroix</hi>, 1935, I, n. 1, p.
+                    253).</note> pour vous servir un plat de ma façon.</p>
+            <p>Vuos m'avez donné des émotions bien vives et qu'on n'est plus accoutumé à trouver au
+                théâtre. Je ne souhaite que d'en reproduire une partie.</p>
             <closer>
-                <salute>Je vous embrasse bien, <persName key="Dumas, Alexandre (1802-1870)">cher
-                        ami</persName>, et vous remercie de nouveau.</salute>
+                <salute>Adieu et tout vôtre,</salute>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">Eug.
+                    Delacroix</persName></signed>
             </closer>
-
 
         </body>
     </text>
