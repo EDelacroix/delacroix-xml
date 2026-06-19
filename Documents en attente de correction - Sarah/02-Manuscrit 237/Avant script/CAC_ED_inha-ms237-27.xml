@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Madame Haro, 19 mai 1846</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Thierry Laugée</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+        <title type="sub">La famille Haro</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 237 pièce 27</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="2" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936,
+            II, p. 271</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1846-05-19"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000058.tif/full/full/0/default.jpg"/>
+      <opener>
+        <address>
+          <addrLine><persName
+              key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)">Madame
+              Haro</persName>, marchande de couleurs</addrLine>
+          <addrLine><placeName key="France, Paris, rue des Petits Augustins, 26">rue des petits
+              Augustins, 26</placeName></addrLine>
+          <addrLine><placeName key="France, Paris, faubourg Saint-Germain">Fb St
+            Germain</placeName></addrLine>
+        </address>
+        <stamp><date when="1846-05-19">19 mai</date></stamp>
+
+        <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000059.tif/full/full/0/default.jpg"/>
+        <salute><persName key="Delacroix, Eugène (1798-1863)">M. Delacroix</persName> salue bien
+            <persName key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)"
+            >Madame Haro</persName></salute>
+      </opener>
+
+      <p>et la prie d’envoyer le plutôt possible faire la réparation nécessaire à son tableau de <rs
+          type="work" key="Le Naufrage de Don Juan (J276)
+            "><hi rend="it">Naufrage</hi></rs><note place="bottom"><hi rend="it">Le
+            Naufrage de Don Juan</hi>, Paris, Musée du Louvre, RF 359.</note>, le remettre sur
+        châssis et le vernir.</p>
+      <p>Pour le <rs type="work" key="La Mort de Sardanapale (J125)
+        "><hi rend="it">Sardanapale</hi></rs>, il désire retarder de quelques jours, se trouvant
+        indisposé et craignant dans ce moment l’embarras dans son atelier <note place="bottom"><hi
+            rend="it">La Mort de Sardanapale</hi> est vendu par Eugène Delacroix à Daniel David
+          Wilson (1790-1849) pour 6 000 francs le 20 juillet 1846.</note>.</p>
+
+      <closer>
+        <dateline>Ce <date when="1846-05-19">mardi 19 <add place="inline">[mai
+          1846]</add></date></dateline>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

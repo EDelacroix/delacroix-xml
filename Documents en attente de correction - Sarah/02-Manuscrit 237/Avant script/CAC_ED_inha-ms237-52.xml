@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Étienne Haro, 13 mars 1862</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Thierry Laugée</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+        <title type="sub">La famille Haro</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 237 pièce 52</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="2" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Joubin, André, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1938,
+            IV, p. 306</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1862-03-13"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Haro, Étienne François (1827-1897)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000109.tif/full/full/0/default.jpg"/>
+      <opener>
+        <dateline>Ce <date when="1862-03-13">13 mars <add place="inline"
+          >[1862]</add></date></dateline>
+        <salute>Mon cher <persName key="Haro, Étienne François (1827-1897)"
+          >monsieur</persName>,</salute>
+      </opener>
+
+      <p>Je vous remercie bien sincèrement de la démarche que vous avez bien voulu faire pour moi
+        auprès de Monsieur <persName key="Péreire, Émile (1800-1875)
+          ">Péreire</persName><note place="bottom">Delacroix exprime ici son regret d'avoir
+          réclamé à Emile Péreire, banquier et collectionneur, un supplément de 2000 francs sur les
+          8000 prévus pour la réalisation d'une réplique de la <hi rend="it">Médée furieuse</hi>.
+          Dans une lettre du 13 mars 1862 à Péreire, Delacroix présente ses excuses au commanditaire
+          et lui rembourse l'importante différence. Philippe Burty précise cependant que M. Emile
+          Péreire refuse tout net ce remboursement et contraint Delacroix à conserver la somme
+          totale de 10000 francs (Burty, Philippe, <hi rend="it">Lettres de Eugène Delacroix</hi>,
+          1880, II, p. 326).</note>, quoique je regrette beaucoup maintenant qu’elle ait été la
+        suite d’un mouvement de mauvaise humeur que je ne me justifie pas dans ce moment
+        suffisamment à moi-même. Je suis occupé à réparer autant qu’il me sera possible auprès de M.
+          <persName key="Péreire, Émile (1800-1875)
+          ">Pereire</persName>, les effets de cette démarche dont je vous suis toutefois
+        très reconnaissant pour votre <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000110.tif/full/full/0/default.jpg"
+        />bonne intention,</p>
+
+      <closer>
+        <salute>et vous prie bien de recevoir l’assurance de mes sentiments dévoués et
+          affectueux.</salute>
+        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
+      </closer>
+
+    </body>
+  </text>
+</TEI>

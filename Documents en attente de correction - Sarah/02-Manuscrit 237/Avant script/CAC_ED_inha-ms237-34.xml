@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lettre d’Eugène Delacroix à Madame Haro, 1er mai 18[48]</title>
+        <author key="Delacroix, Eugène (1798-1863)"/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Centre André Chastel — ObTiC</edition>
+        <respStmt>
+          <resp>Transcription</resp>
+          <name>Thierry Laugée</name>
+        </respStmt>
+        <respStmt>
+          <resp>Annotation</resp>
+          <name>Sarah Jouan</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Sorbonne Université, Centre André Chastel</publisher>
+        <date when="2021"/>
+        <availability status="restricted">
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+        <title type="sub">La famille Haro</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
+            <idno>Ms. 237 pièce 34</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="letter">
+              <supportDesc>
+                <extent>
+                  <measure quantity="2" unit="page"/>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+        </msDesc>
+        <listBibl>
+          <bibl>Inédite</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName key="Delacroix, Eugène (1798-1863)"/>
+          <date when="1848-05-01"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)"/>
+        </correspAction>
+      </correspDesc>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000073.tif/full/full/0/default.jpg"/>
+
+      <opener>
+        <address>
+          <addrLine><persName
+              key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)">Madame
+              Haro</persName></addrLine>
+          <addrLine>Marchande de couleurs</addrLine>
+          <addrLine><placeName key="France, Paris, rue des Petits Augustins, 26">Rue des Petits
+              Augustins, 26</placeName></addrLine>
+          <addrLine><placeName key="France, Paris, rue de l'Université, 54">54 rue de
+              l’Université</placeName></addrLine>
+        </address>
+        <stamp><date when="1848-05-01">1 Mai 1848</date></stamp>
+        <stamp>Levée de midi et demi</stamp>
+        <stamp><placeName key="France, Paris">Paris</placeName> Port Payé</stamp>
+
+        <pb n="2"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/d0/1a/25/47/d01a2547-ee27-4d4d-a4a9-844a63cb176f/iiif/0644_doucet_ms237_000074.tif/full/full/0/default.jpg"/>
+        <salute><persName key="Delacroix, Eugène (1798-1863)">M. Delacroix</persName> salue bien
+            <persName key="Haro, Angélique Honorine Clotilde Osmont, épouse (v. 1802 - après 1863)"
+            >Madame Haro</persName></salute>
+      </opener>
+
+      <p>et lui serait très reconnaissant de lui envoyer le plutôt possible, <hi rend="u">demain par exemple</hi> pour
+        descendre un assez grand tableau et voir si on pourrait le dévernir facilement. Il pourrait
+        en même temps lui donner un petit acompte.</p>
+
+      <closer>
+        <dateline>Ce <date when="1848-05-01">mercredi 1<hi rend="sup">er</hi> mai <add
+              place="inline">[1848]</add></date></dateline>
+      </closer>
+      
+      <postscript>
+        <p>Si elle envoie demain, il désirerait que ce fut de bonne heure.</p>
+      </postscript>
+
+    </body>
+  </text>
+</TEI>
