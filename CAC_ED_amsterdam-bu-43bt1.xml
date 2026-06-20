@@ -34,6 +34,7 @@
         <title type="sub"/>
       </seriesStmt>
       <sourceDesc>
+        <p>Ce texte a été établi d'après le manuscrit.</p>
         <msDesc>
           <msIdentifier>
             <country>Pays-Bas</country>
@@ -81,7 +82,7 @@
         <address>
           <addrLine><persName key="Auguste, Jules Robert (1789-1850)">Monsieur
               Auguste</persName><note place="bottom">Jules Robert Auguste, peintre, sculpteur et ami
-              de Delacroix.</note>, <placeName key="Paris, rue des Martyrs, 11">rue des Martyrs n°
+              de Delacroix.</note>, <placeName key="France, Paris, rue des Martyrs, 11">rue des Martyrs n°
               11</placeName>.</addrLine>
         </address>
         <salute><persName key="Auguste, Jules Robert (1789-1850)">Monsieur</persName>,</salute>
