@@ -41,7 +41,7 @@
         <msDesc>
           <msIdentifier>
             <country>Pays-Bas</country>
-            <settlement>Pays-Bas</settlement>
+            <settlement>Amsterdam</settlement>
             <institution>Bibliothèque de l’Université</institution>
             <idno>OTM hs. Dz 47 b</idno>
           </msIdentifier>
@@ -85,7 +85,7 @@
             lithographe Adolphe Mouilleron, très apprécié de Delacroix.</note>,</salute>
       </opener>
       <p>La personne qui a conduit à Paris les Indiens que l’on voit actuellement à la <placeName
-          key="Paris, salle Valentino">salle Valentino</placeName><note place="bottom">Des Indiens
+          key="France, Paris, salle Valentino">salle Valentino</placeName><note place="bottom">Des Indiens
           Iowais, arrivés à Paris en 1845, se produisaient à la salle Valentino, suscitant un fort
           engouement de la part du public parisien (<hi rend="it">Nouvelles lettres</hi>,p. 55).
           Cette précision permet de dater la lettre.</note> m’a chargé de trouver une personne de
@@ -112,9 +112,9 @@
         <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène Delacroix</persName>.</signed>
         <dateline>ce <date when="1845-05-13">13 mai</date>.</dateline>
         <address>
-          <addrLine><placeName key="Paris, rue Notre-Dame-de-Lorette, 54">rue Notre-Dame de Lorette,
+          <addrLine><placeName key="France, Paris, rue Notre-Dame-de-Lorette, 54">rue Notre-Dame de Lorette,
               54</placeName>.</addrLine>
-          <addrLine>le matin <placeName key="Paris, rue de la Rochefoucauld, 29">rue de La
+          <addrLine>le matin <placeName key="France, Paris, rue de la Rochefoucauld, 29">rue de La
               Rochefoucauld, 29</placeName></addrLine>
         </address>
       </closer>
