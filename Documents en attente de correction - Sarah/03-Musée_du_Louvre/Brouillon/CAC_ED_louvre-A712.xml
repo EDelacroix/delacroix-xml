@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Victor Chocquet, 14 mars 1862</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A712 pièces 1 et 2</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1862-03-14"/>
+                    <placeName><settlement key="Paris">Paris</settlement></placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Chocquet, Victor (1821-1891)">Victor Chocquet</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1"/>
+            <opener>
+                <dateline>Ce <date when="1862-03-14">14 mars 1862</date></dateline>
+                <salute>Monsieur, <add place="inline">[Choquet]</add></salute>
+            </opener>
+
+            <p>Je suis vraiment désolé de ne pouvoir me rendre au désir que vous m'exprimez d'une
+                manière si flatteuse pour moi et je serais plus fâché encore si vous supposiez que
+                le prix que vous voulez bien m'offrir fut une raison de vous refuser : la véritable
+                est que depuis quelques années, j'ai tout à fait renoncé à faire des portraits à
+                cause d'une certaine susceptibilité des yeux qui me rend très pénible de copier un
+                modèle en peignant et avec le soin que demande particulièrement le portrait :
+                Veuillez donc, monsieur, recevoir l'expression d'un véritable regret dans cette
+                circonstance où j'aurais été heureux au contraire de réaliser un désir dont je vous
+                remercie.</p>
+
+            <p>agréez en même</p>
+
+            <pb n="2" xml:id="p2"/>
+            <p>temps, Monsieur, l'assurance de mes sentiments les plus distingués.</p>
+
+            <closer>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">Eug
+                    Delacroix</persName></signed>
+            </closer>
+
+            <add place="inline">42</add>
+        </body>
+    </text>
+</TEI>

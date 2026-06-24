@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à M. Bonnet, 9 février 1853</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A689 pièces 1 et 2</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1853-02-09"/>
+                    <settlement key="Paris">Paris</settlement>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Bonnet">M. Bonnet</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1"/>
+            <opener>
+                <dateline>ce <date when="1853-02-09">9 février <add place="inline">[1853]</add></date></dateline>
+                <salute>Mon cher Monsieur,</salute>
+            </opener>
+
+            <p>Je prends la liberté de vous adresser Monsieur Sylvestre lequel s'est chargé d'un
+                travail très intéressant sur les artistes modernes et serait très désireux d'obtenir
+                la permission de photographier le christ que vous avez de moi pour le joindre aux
+                autres photographies importantes de son ouvrage. Il aura soin de mentionner sur les
+                épreuves que l'ouvrage sort de <add place="above">votre</add> cabinet. vous me
+                rendriez en outre un service personnel : car si le tableau sort de vos mains, il
+                tomberait peut-être dans celles d'une personne qui me contesterait le droit de
+                reproduction ou qui le rendrait impossible en l'emportant. Je me propose d'aller
+                revoir vos tableaux demain ou après demain matin avant votre sortie et de</p>
+
+            <pb n="2" xml:id="p2"/>
+            <p>vous serrer la main en même temps.</p>
+
+            <closer>
+                <salute>Adieu cher Monsieur, je vous envoie mille et mille amitiés</salute>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">Eug
+                    Delacroix</persName></signed>
+            </closer>
+
+            <postscript>
+                <p>Une réflexion me vient que vous feriez assez bon <del rend="ink">...</del> pour
+                    lui accorder la même chose pour l'entrée des croisés, que je trouve pour ma part
+                    plus intéressante dans mon œuvre que celle de Versailles. vous m'obligerez
+                    beaucoup.</p>
+            </postscript>
+        </body>
+    </text>
+</TEI>

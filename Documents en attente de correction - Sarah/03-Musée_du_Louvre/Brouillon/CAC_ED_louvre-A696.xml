@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Étienne-François Haro, 20 octobre 1855</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A696 pièces 1 et 2</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1855-10-20"/>
+                    <settlement key="Paris">Paris</settlement>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Haro, Étienne-François (1827-1897)">Étienne-François
+                        Haro</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1"/>
+            <opener>
+                <note place="margin-top-left" rend="pencil">III. 298</note>
+                <note place="margin-top-left" rend="pencil">à Haro.</note>
+                <dateline>Ce <date when="1855-10-20">20 oct.</date>
+                    <note rend="pencil">(1855 ?)</note></dateline>
+            </opener>
+
+            <p>Je suis bien désolé, mon cher Monsieur, d'apprendre le malheur qui vous est arrivé et
+                je vous plains bien sincèrement. Gardez vous de recommencer trop tôt le moindre
+                travail : je ne suis pas médecin, mais je crois qu'après les soins indispensables,
+                le repos est le meilleur moyen de guérison. Je compte passer pour vous voir aussitôt
+                que j'aurai une minute : les travaux de ce jury dans lequel le règlement sur lequel
+                on doit opérer, ne sont pas même fixés et changent tous les jours, sont très
+                fatigants. Je passe des journées entières à examiner les ouvrages, besogne que
+                j'avais déjà faite avant mon départ.</p>
+
+            <p>Heureusement la campagne m'a réussi et je suis en bonne santé : je voudrais pouvoir
+                travailler si je n'avais</p>
+
+            <pb n="2" xml:id="p2"/>
+            <p>rien à regretter. J'ai même la satisfaction, qui est grande pour moi de voir Jenny
+                dans un état un peu meilleur : vous savez l'attachement qu'elle lui <add
+                    place="above">me</add> porte et combien elle le mérite. Elle aura bien du
+                chagrin de votre accident, car elle a pour vous beaucoup d'attachement.</p>
+
+            <p>J'espère donc pouvoir causer avec vous de ce que vous croyez à propos de faire au
+                tableau que je vous envoie : je crois qu'il faudra un rentoilage. je vous parlerai
+                aussi du genre de la bordure.</p>
+
+            <closer>
+                <salute>Agréez l'expression de mon dévouement bien sincère</salute>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">Eug
+                    Delacroix</persName></signed>
+            </closer>
+
+            <postscript>
+                <p>mille respects je vous prie à madame Haro.</p>
+            </postscript>
+
+            <note place="bottom-right" rend="pencil">26</note>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à un ami, de Paris, [février 1846]</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Gemini</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A767 pièce 1</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date xml:id="unknown-date"/>
+                    <placeName key="France, Paris">Paris</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="unknown">[Cher ami]</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A767-1.jpg"/>
+            <opener>
+                <add place="inline">[1846]</add>
+                <salute>Cher ami</salute>
+            </opener>
+
+            <p>je vous renvoie les quittances, et viens vous invoquer pour savoir ce que je dois
+                faire pour ces maudites signatures qu’on me demande de Bordeaux. J’ai déjà été
+                dérangé deux jours pour cela et j’en suis au même point. Le maire, m’a-t-on dit à la
+                mairie ne légalise pas les signatures concernant les successions. Il faut un acte,
+                un pouvoir, que sais-je, de notaire. avez vous un notaire qui puisse faire cela : je
+                n’en ai point. Ce que je voudrais que vous demandassiez au vôtre c’est que je puisse
+                aller chez lui le soir pour faire ce qu’il y aurait à faire, car une course le jour
+                perd la journée entière. je vous envoie tous les papiers sur mon passeport signé :
+                écrivez moi ce que je dois faire.</p>
+
+            <p>Je vous envoie une natte que j’ai rapportée de Bordeaux pour votre atelier ou votre
+                boudoir. — adieu cher ami je vous embrasse.</p>
+
+            <closer>
+                <signed>
+                    <persName key="Delacroix, Eugène (1798-1863)">Eug Delacroix</persName>
+                </signed>
+                <dateline>
+                    <add place="inline">tout à vous, s'il vous plaît.</add>
+                </dateline>
+            </closer>
+
+            <pb n="2" xml:id="p2" facs="CAC_ED_louvre-A767-2.jpg"/>
+            <postscript>
+                <p>— N. B. j’ai reçu du maire de <placeName key="France, Bordeaux">Bordeaux</placeName> une lettre officielle avec délibération
+                    des adjoints me votant des remerciements pour deux petits tableaux que j’ai
+                    donnés à la ville depuis la mort de mon frère. Faut il répondre à cela et
+                    remercier ces honorables ?</p>
+            </postscript>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à un ami, de Bordeaux, Dimanche 25 janvier
+                    1846</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>[Prénom Nom]</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A766 pièces 1 et 2</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1846-01-25"/>
+                    <placeName key="France, Bordeaux">Bordeaux</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="unknown">[Cher ami]</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A766-1.jpg"/>
+            <opener>
+                <dateline><placeName>Bordeaux</placeName>
+                    <date when="1846-01-25">Dimanche 25 janvier <add place="inline"
+                    >[1846]</add></date></dateline>
+                <salute>Cher ami</salute>
+            </opener>
+
+            <p>je vous annonce enfin mon départ, tout a été fait sans perte, tout cela je crois
+                s'arrangera, je vous enverrai les détails à mon retour. Le présent est pour vous
+                prier <underline>de laisser à demeure chez votre portier la clef de mon logement
+                    pour la prendre à notre retour</underline> dont j'ignore cependant le jour
+                précis. J'ai été bien souffrant je le suis encore cependant je suffirai au voyage,
+                j'espère y avoir tout le temps convenable pour me soigner. J'aurais souffert
+                beaucoup probablement si le temps eût été rigoureux : mais il n'y a eu pour ainsi
+                dire aucun froid, seulement des brouillards <pb n="2" xml:id="p2"
+                    facs="CAC_ED_louvre-A766-2.jpg"/> et ce sont eux qui m'ont compromis. Il me
+                tarde bien de vous embrasser il me semblait être ici dans de la glu tant les
+                affaires de cette nature ont besoin de passer par mille formalités : et cependant
+                j'ai été aidé par la bienveillance <add place="above">avec laquelle</add> de la
+                plupart des personnes avec les quelles j'ai eu affaire ici.</p>
+
+            <p>Pardonnez moi de ne pas vous en écrire plus long. Je suis exténué je viens de faire
+                des visites à toute la terre et il m'en reste encore pour demain embrassez moi bien
+                purement cher ami.</p>
+
+            <closer>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">Ey
+                    delacroix</persName></signed>
+                <postscript>
+                    <p>P. S. je pars ce soir lundi 26 à 5<hi rend="sup">h 1/2</hi></p>
+                </postscript>
+            </closer>
+        </body>
+    </text>
+</TEI>

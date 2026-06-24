@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Bocage, 18 février 1850</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A687 pièces 1 et 2</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1850-02-18"/>
+                    <settlement key="Paris">Paris</settlement>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Bocage, Pierre-Martinien Toussaint (1799-1862)">Bocage</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1"/>
+            <opener>
+                <note place="margin-top-left" rend="pencil">316</note>
+                <note place="margin-top-left" rend="pencil">III. 9</note>
+                <note place="margin-top-right" rend="pencil">1850</note>
+                <note place="margin-top-right" rend="ink">Cote treize Trois cent seizième</note>
+                <salute>Mon cher ami,</salute>
+            </opener>
+
+            <p>Veuillez faire prendre chez moi un petit tableau pour votre foyer. Je suis confus de
+                ne pouvoir vous envoyer que cela ; mais ces diables d’amateurs sont jaloux de
+                conserver pour eux, leurs tableaux, dessus tout — le sujet est la dernière scène de
+                la Christine de Dumas, quand le moine et Christine se reconnaissent.</p>
+
+            <closer>
+                <salute rend="left">à vous</salute>
+                <signed rend="right"><persName key="Delacroix, Eugène (1798-1863)">Eug
+                        Delacroix</persName></signed>
+            </closer>
+
+            <postscript>
+                <p>Envoyez moi pour une autre repres<hi rend="sup">on</hi> que le champi que je
+                    connais un billet pour deux personnes. Vous serez bien aimable.</p>
+            </postscript>
+            <note>17</note>
+
+            <pb n="2" xml:id="p2"/>
+            <div type="address">
+                <stamp>Tampon circulaire noir de la poste de Paris : "PARIS 18 FEVR. 50
+                    (60)".</stamp>
+                <stamp>Tampon circulaire vert d'un bureau de distribution de Paris.</stamp>
+
+                <p rend="center">
+                    <address>
+                        <addrLine>Monsieur Bocage</addrLine>
+                        <addrLine>D<hi rend="sup">r</hi>. du théatre de l'odéon</addrLine>
+                        <addrLine>rue Cassette 18</addrLine>
+                        <addrLine>à l'Odeon</addrLine>
+                    </address>
+                </p>
+                <note>Sorti Rue Cassette 18.</note>
+            </div>
+        </body>
+    </text>
+</TEI>

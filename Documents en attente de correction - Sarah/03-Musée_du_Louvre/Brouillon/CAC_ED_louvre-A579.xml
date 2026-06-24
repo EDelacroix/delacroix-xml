@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Charles Pierret, 12 mars 1842</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A579 pièces 1 à 4</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="4" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1842-03-12"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Pierret, Charles (1799-1854)">Charles Pierret</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener>
+                <pb n="4" xml:id="p4"/>
+                <address>
+                    <addrLine>Monsieur Pierret</addrLine>
+                    <addrLine>Rue Tronchet n<hi rend="sup">o</hi>. 13</addrLine>
+                    <addrLine>à Paris</addrLine>
+                </address>
+
+                <pb n="1" xml:id="p1"/>
+                <note place="margin-top-left" rend="pencil">II. 92</note>
+                <dateline>
+                    <date when="1842-03-12">Samedi —</date>
+                </dateline>
+            </opener>
+
+            <p>J'ai reçu ta bonne lettre et je t'en remercie. bien. C'est un très bon accompagnement
+                aux petites promenades aux lectures et à tout ce qui vous dépayse tranquillement à
+                la campagne. J'ai à te présenter une requête de la part de Riesener. Il avait
+                d'abord l'envie de venir à Paris pour voir l'ouverture du salon : mais sa femme
+                était un peu malade quand elle est venue ici et comme le séjour lui réussit il
+                prolongerait son au delà du 15. Je te demande donc, car je suppose que tu ne
+                manqueras pas au poste ce jour là, que tu jettes deux mots à la poste pour nous dire
+                où sont placés ses deux tableaux. <del rend="overstrike">le</del> Comme il faut que
+                la lettre soit avant</p>
+
+            <pb n="2" xml:id="p2"/>
+            <p>deux heures au poste ord<hi rend="sup">re</hi>. ou avant 5<hi rend="sup">h</hi> à la
+                grande poste on a le temps, tu pourrais avoir dans ta poche un morceau de papier
+                préparé sur lequel serait l'adresse et tu mettrais dedans au crayon quelques mots en
+                retournant à ton bureau et tu la mettrais au premier bureau de poste que tu
+                trouveras.</p>
+
+            <p>Je me porte bien sous le rapport du digérer, du dormir &amp;c. quant à la voix c'est
+                toujours de même ou plutôt c'est beaucoup moins qu'il y a 15 jours. quand j'ai
+                commencé a sortir, je n'avais pas senti à quel point j'avais besoin de me ménager
+                sous le rapport de la voix et quoique je n'aie pas alors crié sur les toits, j'ai
+                passé</p>
+
+            <pb n="3" xml:id="p3"/>
+            <p>mes forces sans m'en appercevoir. à présent je suis en quarantaine. dieu sait pour
+                combien de temps.</p>
+
+            <p>Donne moi de nouv de tes nouvelles si tu as le temps. tu pourrais griffonner <add
+                    place="above">d'avance</add> un chiffon de lettre dans la quelle tu laisserais
+                un peu de place pour nous parler du salon. Comment se portent ta femme et les tiens
+                ? es tu chef de division ? Enfin des nouvelles. Et un petit daguerotype : j'en aurai
+                de toute façon, — Je m'occupe aussi à arranger des dessins dans le format du magasin
+                pittoresque pour le bois que je veux faire. Enfin l'idée de y retourner : il me
+                semble que nous vivons là dans la fange dans la grenouille, dans l'imitation. le
+                parisiens ne quitte jamais la forge de platitude, d'applatissement, d'agitation qui
+                ne mène à rien. —</p>
+
+            <closer>
+                <salute>je t'embrasse</salute>
+            </closer>
+        </body>
+    </text>
+</TEI>

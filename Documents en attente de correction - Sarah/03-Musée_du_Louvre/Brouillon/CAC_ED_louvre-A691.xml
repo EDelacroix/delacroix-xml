@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix, 17 janvier 1854</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A691 pièce 1</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="1" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1854-01-17"/>
+                    <settlement key="Paris">Paris</settlement>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Destinataire inconnu</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1"/>
+            <opener>
+                <dateline>ce <date when="1854-01-17">17 janvier</date>. <note rend="pencil"
+                        >(1854)</note></dateline>
+                <salute>Mon cher Monsieur</salute>
+            </opener>
+
+            <p>J'espérais pouvoir montrer mon travail à loisir à mes amis : mais je me suis vu dans
+                la nécessité de le finir pour la fête qu'on doit donner pour le 28 à l'hotel de
+                ville. Je puis le montrer en attendant et au milieu de l'encombrement demain <hi
+                    rend="underline">mercredi</hi> et <hi rend="underline">jeudi</hi> : venez donc
+                m'en dire votre avis, sauf à le revoir quand il sera tout à fait propre si vous avez
+                un instant. J'y serai toute la journée ces deux jours je dois vous dire que le jour
+                s'en va avant deux heures.</p>
+
+            <p>vous prendrez l'escalier de gauche et vous trouverez au 1<hi rend="sup">er</hi>. le
+                    <hi rend="underline">secrétariat</hi> G<hi rend="sup">al</hi> un garçon vous
+                conduira.</p>
+
+            <closer>
+                <salute>Recevez mon cher ami mes amitiés les plus dévouées</salute>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">Eug
+                    Delacroix</persName></signed>
+            </closer>
+            <note place="bottom-right" rend="pencil">21</note>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Hippolyte Gaultron, un mardi</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Gemini</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A779 pièces 1 et 2</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date label="indéterminée"/>
+                    <placeName key="France, Paris">Paris</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Gaultron, Hippolyte (1801-1859)">Hippolyte Gaultron</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A779-1.jpg"/>
+            <opener>
+                <salute>Cher ami,</salute>
+            </opener>
+
+            <p>je suis obligé de faire deux courses avant d’aller à la chambre : allez-y de votre
+                côté. Vous m’y trouverez sûrement entre onze heures et midi.</p>
+
+            <p>L’<hi rend="u">omnibus vert</hi> qui passe rue de Provence vous dépose juste au
+                palais. Vous me demanderez dans la salle où on attend les députés et on vous
+                introduira. Je vous recommande dans la dite salle les plafonds de Vernet qu’on est
+                en train de placer.</p>
+
+            <closer>
+                <salute>à vous</salute>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">E. D.</persName></signed>
+            </closer>
+
+            <pb n="2" xml:id="p2" facs="CAC_ED_louvre-A779-2.jpg"/>
+            <closer>
+                <address>
+                    <addrLine>Monsieur Gaultron</addrLine>
+                </address>
+            </closer>
+        </body>
+    </text>
+</TEI>

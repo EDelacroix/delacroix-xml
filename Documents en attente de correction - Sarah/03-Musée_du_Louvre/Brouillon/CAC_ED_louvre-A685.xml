@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Gustave Planche, 9 août 1842</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A685 pièces 1 à 4</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="4" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1842-08-09"/>
+                    <settlement key="Paris">Paris</settlement>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Planche, Gustave (1808-1857)">Gustave Planche</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1"/>
+            <opener>
+                <dateline>
+                    <date when="1842-08-09">9 aout <add place="inline">[1842]</add></date>
+                </dateline>
+            </opener>
+
+            <p>J’espère mon cher ami que ma lettre vous <lb/>arrivera avant que vous quittiez
+                Naples. J’ai toujours <lb/>tardé pensant vous demander des nouvelles de votre frè-
+                <lb/>-re mais je n’ai pu encore le découvrir. Je me suis adressé <lb/>à Buloz qui
+                n’a pu me donner son adresse : enfin <lb/>je désespérais quand Huet ces jours ci m’a
+                promis <lb/>de me la donner : mais je l’attends encore : ne doutez <lb/>pas que je
+                ne fasse tout pour lui être utile s’il se présentait.</p>
+
+            <p>Par trop de bonté, j’ai été très content de votre <lb/>souvenir : vous êtes heureux
+                là où vous êtes : c’est l’I- <lb/>-talie ! tenez vous y le plus que vous pourrez. —
+                J’ai <lb/>été effectivement très pris cet hiver d’une indisposition <lb/>de la
+                gorge. C’est un effet périodique chez moi et <lb/>qui me prend encore quelquefois :
+                mais j’espère que la <lb/>crise la plus forte est passée ; je ne serais pas aussi
+                secoué <lb/>si je puis aller cet hiver en Italie pour éviter le retour <lb/>du mal :
+                j’en serais bien heureux de vous y trouver encore. <lb/>Mes travaux en ont été
+                naturellement interrompus</p>
+
+            <pb n="2" xml:id="p2"/>
+            <p>de beaucoup ; je serais déjà parti pour voyager.</p>
+
+            <p>Vous me demandez des nouvelles de M<hi rend="sup">lle</hi> Rachel <lb/>et j’ai cru
+                d’abord que vous plaisantiez quand <lb/>vous me parliez de son admiration comme de
+                quelque <lb/>parfum exquis que nous n’aurions pas eu <lb/>d’abord à son sujet. Quant
+                à moi je persiste <lb/>dans mon sentiment et le succès n’y fait <lb/>rien. Je la
+                trouve toujours <hi rend="underline">rarissime</hi> : il n’y a <lb/>rien de plus
+                vrai : probablement rien comme cela de <lb/>nos jours, croyez moi. — Mes travaux de
+                la <lb/>Ch. ont été fort en retard. D'abord, j’ai <lb/>commencé par la faute de
+                laisser couler beaucoup de <lb/>temps sans m'y mettre pour toutes sortes de raisons.
+                <lb/>Ensuite, au moment de m’y mettre, il a fallu <lb/>m’occuper de la bibliothèque
+                des pairs. Bref, ma <lb/>maladie m’a arrêté pendant un temps assez long.
+                <lb/>Maintenant j’ai pour l’un et l’autre une fin de <lb/>travail, mais il y a fort
+                à faire. — J’ai trouvé</p>
+
+            <pb n="3" xml:id="p3"/>
+            <p>pour le Luxembourg un sujet qui soit un peu de la <lb/>banalité de <del rend="ink"
+                    >ces</del> apollon et des muses et qui soit pour <lb/>une bibliothèque. C’est le
+                moment où <hi rend="underline">le Dante</hi>
+                <lb/>comme disaient nos pères et non point <hi rend="underline">Dante</hi> comme
+                <lb/>disent aujourd’hui les savants qui le veulent bien <lb/>faire comme les autres,
+                se présente par Virgile <lb/>à Homère et à quelques grands poètes qui se trouvent
+                <lb/>dans une sorte d’élysée de la façon du poète, où ils <lb/>jouissent d’un <hi
+                    rend="underline">bonheur sérieux</hi> à ce qu’il dit. Bref <lb/>on y voit tous
+                les grands hommes possibles se promenant <lb/>et s’asseyant pour varier leur
+                plaisir. Vous verrez <lb/>cela : cela a pour moi un très grand attrait : mais
+                <lb/>la place est des plus fatigantes.</p>
+
+            <p>Adieu mon cher ami, je désire toujours <lb/>le retour de mon voyage en Italie. Rien
+                de changé ici : les plus <lb/>bêtes et les plus coquins font la loi et tiennent le
+                haut <lb/>bout partout : il faut se faire oublier si on peut, ou <lb/>le faire
+                pardonner ce qui est plus difficile. Adieu <lb/>encore recevez mille amitiés bien
+                sincères.</p>
+
+            <closer>
+                <signed rend="right">
+                    <persName key="Delacroix, Eugène (1798-1863)">Eug Delacroix</persName>
+                </signed>
+            </closer>
+            <note place="bottom-right" rend="pencil">15</note>
+
+            <pb n="4" xml:id="p4"/>
+            <div type="address">
+                <stamp>Tampon circulaire de la poste de Paris à l'encre rouge-marron : "PARIS 10
+                    AOUT 42 (60)".</stamp>
+                <stamp>Tampon d'affranchissement ou de taxe rectangulaire partiel à l'encre rouge :
+                    "P.F.".</stamp>
+                <stamp>Tampon circulaire d'arrivée ou de transit à l'encre rouge, situé au centre de
+                    la page (distribution italienne).</stamp>
+                <stamp>Tampon circulaire noir de la poste de Naples apposé sur le côté gauche lors
+                    de la réception.</stamp>
+
+                <p rend="center">
+                    <address>
+                        <addrLine>Monsieur</addrLine>
+                        <addrLine>Monsieur Gustave Planche</addrLine>
+                        <addrLine>28 S. Lucia</addrLine>
+                        <addrLine><placeName key="Naples">Naples</placeName>.</addrLine>
+                    </address>
+                </p>
+                <note place="center" rend="ink">40</note>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à un collègue, 11 janvier 1858</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A694 pièces 1 et 2</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1858-01-11"/>
+                    <settlement key="Paris">Paris</settlement>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Destinataire inconnu (un collègue)</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1"/>
+            <opener>
+                <note place="margin-top-left" rend="pencil">III. 239</note>
+                <dateline>Ce <date when="1858-01-11">11 janvier 1858</date></dateline>
+                <salute>Monsieur et cher collègue,</salute>
+            </opener>
+
+            <p>Je prends la liberté de vous recommander avec beaucoup d'instance l'examen des
+                lithographies présentées à la commission pour l'industrie par Mr. Bertauts. Vous
+                êtes l'un des membres de cette commission, les plus capables d'apprécier des
+                ouvrages d'artistes : je crois ne vous demander qu'un acte de justice en vous priant
+                d'attirer spécialement l'attention de vos collègues, sur des résultats aussi
+                complets ; personne n'aura mérité par plus d'efforts et de succès l'intérêt de la
+                commission que M. Bertauts. La preuve en est dans la confiance que lui</p>
+
+            <pb n="2" xml:id="p2"/>
+            <p>montrent les artistes qui sont à la tête du dessin lithographique tels que
+                Meissonier, Leroux, Français, Nanteuil. Je n'ose me joindre à ces personnes de
+                talent dans un genre tout-à-fait spécial où elles sont incomparables ; mais pour le
+                tirage des planches les plus délicates, <add place="above">ou</add> pour ranimer les
+                plus désespérées, il n'y a pas de praticien à qui je <add place="above">ne</add>
+                confiasse avec plus de sécurité.</p>
+
+            <p>Mr. Bertauts est en outre l'inventeur d'un procédé pour lithographier sur papier, ce
+                qui permet aux artistes d'emporter en voyage et de lithographier facilement d'après
+                nature.</p>
+
+            <closer>
+                <salute>Veuillez, mon cher collègue, excuser mon insistance et croire à ma haute
+                    considération et aux sentiments les plus affectueux.</salute>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">Eug
+                    Delacroix</persName></signed>
+            </closer>
+            <note place="bottom-right" rend="pencil">24</note>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Jean-Joseph-Auguste Damas-Hinard, 9 mars
+                    1863</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A714 pièces 1, 2 et 3</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="3" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1863-03-09"/>
+                    <placeName><settlement key="Paris">Paris</settlement></placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Damas-Hinard, Jean-Joseph-Auguste (1805-1891)"
+                        >Jean-Joseph-Auguste Damas-Hinard</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1"/>
+            <opener>
+                <add place="inline">IV.368</add>
+                <dateline>Ce <date when="1863-03-09">9 mars 1863</date>.</dateline>
+                <salute>Mon cher Monsieur,</salute>
+            </opener>
+
+            <p>Je n'ai point voulu vous remercier du charmant envoi que vous avez bien voulu me
+                faire, avant de l'avoir apprécié complètement, quoique je fusse bien sûr d'avance de
+                n'y trouver que des opinions sympathiques aux miennes. J'ai comme vous l'adoration
+                de Lafontaine : le peintre comme le philosophe ne peuvent assez admirer ce prodige
+                d'observation et de génie. J'ai eu le bonheur de rencontrer une édition des fables
+                    <hi rend="underline">in quarto</hi> et en caractères énormes : de sorte que
+                quand j'ai les yeux fatigués, je les repose avec cette unique lecture avec un
+                enchantement</p>
+
+            <pb n="2" xml:id="p2"/>
+            <p>égal pour l'esprit. Il est impossible de caractériser avec plus de finesse que vous
+                ne le faites, non seulement les divers mérites, mais encore sa supériorité sur
+                l'homme que vous lui comparez, qui tout éminent qu'il est dans la langue, n'en est
+                pas moins secondaire sous le rapport de l'observation. Il est impossible que cette
+                étude si originale n'ait pas frappé tous ceux qui en auront eu connaissance, et je
+                vous remercie bien en particulier de l'intérêt que vous avez su lui donner.</p>
+
+            <p>Permettez-moi donc de vous exprimer toute ma reconnaissance de ce charmant souvenir
+                ainsi que celle de ma haute considération et de mon cordial dévouement.</p>
+
+            <closer>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">Eug
+                    Delacroix</persName></signed>
+            </closer>
+
+            <add place="inline">44</add>
+
+            <pb n="3" xml:id="p3"/>
+            <div type="envelope">
+                <p>
+                    <address>
+                        <addrLine>Monsieur Damas-Hinard</addrLine>
+                        <addrLine>Secrétaire des Commandements de</addrLine>
+                        <addrLine>S. M. L'Impératrice.</addrLine>
+                        <addrLine>rue de Rivoli 192.</addrLine>
+                    </address>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à un destinataire non identifié, 6 février 1856</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A512 pièces 1 et 2</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1856-02-06"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Monsieur</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1"/>
+            <opener>
+                <dateline><date when="1856-02-06">Ce 6 fevrier 1856.</date></dateline>
+                <salute>Monsieur,</salute>
+            </opener>
+            
+            <p>Je vous serai bien reconnaissant s'il vous était possible d'arrêter <del rend="overstrike">au plus tôt</del> les mesures des panneaux de votre salon de concert avec votre architecte : j'aurais été bien aise d'en faire les esquisses dans le moment où j'ai un peu plus de liberté. Je prévois que je serai forcé d'ici à peu de temps, de me donner tout entier à des travaux qui ajourneraient, contre mon gré le commen-cement <del rend="overstrike">du travail</del> <add place="above">de celui</add> dont vous voulez bien me charger. Les esquisses une fois faites, l'exécution définitive s'en ferait suivie plus, facilement.</p>
+            
+            <p>Veuillez, Monsieur, <unclear>excuser</unclear> mon insistance <pb n="2" xml:id="p2"/> qui est dans l'interet de l'ouvrage que je suis heureux de faire pour vous et agreer en même temps l'assu-rance de la plus haute conside-ration.</p>
+            
+            <closer>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">Ey Delacroix.</persName></signed>
+            </closer>
+        </body>
+    </text>
+</TEI>
+

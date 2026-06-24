@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Adrien Dauzats, ce mercredi 12</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>[Prénom Nom]</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A730</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date label="Incertaine"/>
+                    <placeName key="France, Paris">Paris</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Dauzats, Adrien (1804-1868)">Adrien Dauzats</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A730-1.jpg"/>
+            <opener>
+                <add place="inline">6</add>
+                <salute>mon cher Dauzats,</salute>
+            </opener>
+
+            <p>Je suis pris de la gorge à mon tour et forcé de garder la chambre je ne sais jusqu’à
+                quand. Si par hasard Mr. de Cailleux venait avant que j’aie pu retourner à mon
+                atelier, seriez vous assez bon pour envoyer votre domestique chez moi <hi
+                    rend="underline">rue de la rochefoucauld 29</hi>, à défaut de ma présence je lui
+                procurerai <add place="above">trois</add> de mes tableaux et vous voudriez bien
+                recevoir l’argent de lui. de même pour Asseline à qui je vous prierai bien de faire
+                toutes mes amitiés.</p>
+
+            <p>adieu cher voisin portez vous bien.</p>
+
+            <closer>
+                <dateline>ce mercredi 12.</dateline>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">Eug
+                    Delacroix</persName></signed>
+            </closer>
+
+            <pb n="2" xml:id="p2" facs="CAC_ED_louvre-A730-2.jpg"/>
+            <closer>
+                <address>
+                    <addrLine>Monsieur Dauzats</addrLine>
+                </address>
+            </closer>
+        </body>
+    </text>
+</TEI>

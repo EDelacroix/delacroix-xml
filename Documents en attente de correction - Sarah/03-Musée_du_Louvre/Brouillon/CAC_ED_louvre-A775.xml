@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Hippolyte Gaultron, ce jeudi [janvier
+                    1850]</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Gemini</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A775 pièces 1 à 3</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="3" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1850-01"/>
+                    <placeName key="France, Paris">Paris</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Gaultron, Hippolyte (1805-1878)">Hippolyte Gaultron</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A775-1.jpg"/>
+            <opener>
+
+                <salute>Cher ami,</salute>
+            </opener>
+
+            <p>votre rapport est de la plus grande exactitude et je vous en remercie de tout mon
+                cœur. J’ai bien ri du portrait acheté par l'original, pour 145<hi rend="sup"
+                >ff</hi>. La Cléopâtre a été donnée : je crains fort, si elle est tombée dans les
+                mains d’un marchand, qu’elle ne me revienne pas d'un grand honneur.</p>
+
+            <p>J’ai envoyé hier le billet à Eymaud : il m’a répondu par un mot désolé, disant que
+                cela n’avait pas le caractère d'un billet de commerce, qu'il n'y avait pas de
+                    <underline>bon pour</underline>, etc. et qu’il craignait que cela ne fût pas
+                admis. Il m'a dit qu'il m'écrirait aujourd'hui le résultat de sa consultation avec
+                un avoué. <pb n="2" xml:id="p2" facs="CAC_ED_louvre-A775-2.jpg"/> Quoi qu'il en
+                soit, il faut laisser faire la justice et s'en rapporter à elle. Mornay n'a pas
+                seulement de la légèreté : il a tout ce qui s'ensuit.</p>
+
+            <p>Je vous renvoie votre billet, dont je n'ai plus besoin, et vous renouvelle tous mes
+                remerciements pour vos peines.</p>
+
+            <closer>
+                <salute>Je vous embrasse.</salute>
+                <signed>
+                    <persName key="Delacroix, Eugène (1798-1863)">E. Delacroix</persName>
+                </signed>
+                <dateline>Ce jeudi.</dateline>
+            </closer>
+
+            <pb n="3" xml:id="p3" facs="CAC_ED_louvre-A775-3.jpg"/>
+            <closer>
+                <address>
+                    <addrLine>Monsieur Gaultron</addrLine>
+                    <addrLine>rue Laffitte 41.</addrLine>
+                </address>
+            </closer>
+        </body>
+    </text>
+</TEI>

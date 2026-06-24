@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Frédéric de Mercey, 20 novembre 1855</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A706 pièces 1 et 2</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1855-11-20"/>
+                    <settlement key="Paris">Paris</settlement>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Mercey, Frédéric de (1803-1860)">Frédéric de Mercey</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1"/>
+            <opener>
+                <note place="margin-top-left" rend="pencil">III. 296</note>
+                <dateline>Ce <date when="1855-11-20">20 novembre 1855</date>.</dateline>
+                <salute>Mon cher Monsieur,</salute>
+            </opener>
+
+            <p>J'ai reçu la lettre par laquelle vous voulez bien m'annoncer que Sa Majesté
+                l'Empereur a daigné m'accorder une des grandes médailles d'honneur décernées à la
+                suite de l'exposition universelle.</p>
+
+            <p>Je suis d'autant plus sensible à cette haute marque de bienveillance, que je la dois
+                sans doute en grande partie à l'appui que vous avez bien voulu me donner auprès de
+                Sa Majesté.</p>
+
+            <pb n="2" xml:id="p2"/>
+            <p>Je vous prie d'agréer tous mes remerciements pour cette nouvelle preuve de votre
+                intérêt, et de recevoir l'assurance de ma haute considération et de mon sincère
+                attachement.</p>
+
+            <closer>
+                <salute>Votre très dévoué</salute>
+                <signed>
+                    <persName key="Delacroix, Eugène (1798-1863)">Eug Delacroix</persName>
+                </signed>
+            </closer>
+
+            <note place="bottom-left" rend="pencil">à M. de Mercey</note>
+            <note place="bottom-right" rend="pencil">36</note>
+        </body>
+    </text>
+</TEI>

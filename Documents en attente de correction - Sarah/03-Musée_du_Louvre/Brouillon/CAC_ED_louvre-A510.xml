@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à un ami, 11 mai 1856</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A510 pièces 1 et 2</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1856-05-11"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Inconnu</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1"/>
+            <opener>
+                <dateline><date when="1856-05-11">Ce 11 mai <note place="inline" rend="pencil"
+                            >(1856)</note></date></dateline>
+                <salute>Cher Monsieur et ami,</salute>
+            </opener>
+
+            <p>Je m'étais occupé tout de suite à chercher des <del rend="overstrike">projets</del>
+                <add place="above">sujets</add> pour répondre au désir que vous m'avez si
+                aimablement exprimé de la part de M. <unclear>A.</unclear> Fould. après avoir hésité
+                quelque temps, je me suis rappelé une esquisse que j'ai tracée il ya un an environ
+                dans le projet d'en faire un tableau. Je crois le sujet assez favorable, avec
+                figures, animaux, paysage &amp;c. C'est <hi rend="underlined">ovide exilé chez les
+                    Scythes</hi> auquel des naïfs habitants apportent de fruits, du laitage &amp;c.
+                Il y aurait cet avantage que le tableau est tout composé : pour moi, c'est une
+                avance des plus considérables. si vous étiez assez bon pour passer un de ces jours,
+                je vous montrerais ce projet</p>
+
+            <pb n="2" xml:id="p2"/>
+            <p>et vous en demanderais votre avis.</p>
+
+            <closer>
+                <salute>Recevez en attendant, cher Monsieur avec tous mes remerciements, l'assurance
+                    de mon sincère attachement et de ma haute considération.</salute>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">Eug
+                    Delacroix</persName></signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

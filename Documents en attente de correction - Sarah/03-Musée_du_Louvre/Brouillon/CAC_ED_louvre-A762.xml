@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Gaultron, ce samedi</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>[Prénom Nom]</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A762 pièces 1 à 4</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="4" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date xml:id="unknown-date"/>
+                    <placeName key="France, Paris">Paris</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Gaultron, Hippolyte (1805-1878)">Hippolyte Gaultron</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A762-1.jpg"/>
+            <opener>
+                <add place="top-left">Rapporté / année 1845</add>
+            </opener>
+
+            <p>Comme on ne sait ce qui pourrait arriver, cher ami, et puisqu’il n’y a pas d’occasion
+                à saisir au collet ne pourrait-on dans la chance d’une guerre qui ferait baisser les
+                fonds, mettre son argent chez lafitte et voir venir ?</p>
+
+            <p>Dans l’emploi de l’estompage, la plus grande liberté : <del>quand</del> quand vous
+                avez dessiné et même charbonné votre planche frottez avec de la flanelle, puis
+                redessinez et charbonnez jusqu’à ce que vous ayez modelé à votre fantaisie : puis
+                avec un grattoir vous enlèverez plus ou moins de noir en ayant soin de ne pas aller
+                jusqu’au grain de la pierre. Ce frottage étend et rend vague ce que vous avez trop
+                prononcé dans votre premier jet et dans le vague que cela cause sans effacer
+                néanmoins, cela vous donne le moyen de redessiner encore et de corriger votre idée.
+                quand vous avez gratté et fait des clairs, vous pouvez encore mettre du noir et
+                estomper de nouveau jusqu’à ce que vous ayez rendu votre idée. Risquez un peu, vous
+                trouverez de vous-même toute cette sorcellerie.</p>
+
+            <p>Voudriez-vous me rendre le service <pb n="2" xml:id="p2"
+                    facs="CAC_ED_louvre-A762-2.jpg"/> de passer dans vos courses chez ce bazar bonne
+                nouvelle où vous avez acheté le petit vase et où j’ai fait la sottise de laisser
+                trop longtemps <add place="above">mon</add>
+                <del>compte</del> marino faliero et un tableau d’arabes. Je voudrais les retirer et
+                cela avant de recommencer un nouveau mois (car on paie au mois). Les gens sont de
+                l’espèce de coquins, passez-moi l’expression, qui, j’en ai la certitude, ont demandé
+                un prix supérieur à celui que j’avais fixé ; d’où il résulte qu’ils avaient la
+                chance ou de garder pour eux la différence <add place="above">ou</add> de
+                    <del>de</del> d’avoir plus longtemps dans leur exposition les dits tableaux :
+                mais ce n’est que pour se mettre en garde et examiner de près leurs exigences. vous
+                comprenez bien : si je suis près de la fin du mois je ne voudrais pas en commencer
+                un autre. Je pourrais dès maintenant les faire porter à mon nouveau logement. si
+                bêtement prochain, vous auriez la bonté de m’écrire avec un petit résumé de ce que
+                je leur dois. je m’arrangerai pour qu’on le reçoive au <pb n="3" xml:id="p3"
+                    facs="CAC_ED_louvre-A762-3.jpg"/> logement, le jour où <del>ils</del> ils me le
+                rapporteraient.</p>
+
+            <p>adieu cher je vous embrasse</p>
+
+            <closer>
+                <dateline><add place="inline">Ce samedi</add></dateline>
+            </closer>
+
+            <pb n="4" xml:id="p4" facs="CAC_ED_louvre-A762-4.jpg"/>
+            <closer>
+                <address>
+                    <addrLine>Monsieur Gaultron</addrLine>
+                    <addrLine>rue Laffitte no. 41</addrLine>
+                </address>
+            </closer>
+        </body>
+    </text>
+</TEI>

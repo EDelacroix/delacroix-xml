@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix au Secrétaire général de la préfecture de la Seine,
+                    22 avril 1857</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A704 pièces 1 et 2</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1857-04-22"/>
+                    <settlement key="Paris">Paris</settlement>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Barbier de Saint-Hilaire">Barbier de Saint-Hilaire</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1"/>
+            <opener>
+                <note>M Barbier St hilaire</note>
+                <note>remplacer M E Delacroix</note>
+                <note>me donner un mot pour réponse</note>
+                <note>III. 385</note>
+                <dateline>Ce <date when="1857-04-22">22 avril 1857</date>.</dateline>
+                <salute>Monsieur le Secrétaire Général,</salute>
+            </opener>
+
+            <p>Je reçois la lettre par laquelle vous voulez bien, au nom de Monsieur le Préfet de la
+                Seine, me donner avis des prochaines opérations du
+                conseil de révision auxquelles je serais tenu de participer.</p>
+
+            <p>à peine convalescent après une maladie très grave qui m'éloigne depuis plus de quatre
+                mois de toute espèce de travaux ou d'affaires, il me serait impossible d'assister
+                aux séances du conseil de révision. Je me vois par le même motif obligé de
+                m'absenter du jury d'examen du salon de peinture aussi bien que des séances du
+                conseil municipal. Il faut même que d'ici à peu de jours je quitte Paris pour un
+                temps assez long, à cause des soins que nécessite ma santé.</p>
+
+            <note place="bottom-right" rend="pencil">34</note>
+
+            <pb n="2" xml:id="p2"/>
+            <p>l'impossibilité où je me trouve de faire les démarches nécessaires pour obtenir de
+                quelqu'un de nos collègues qu'il veuille bien me remplacer augmente encore mon
+                embarras.</p>
+
+            <p>c'est avec beaucoup de regret, Monsieur le secrétaire général, que je vous prie de
+                vouloir bien recevoir et faire agréer à Monsieur le Préfet, les excuses
+                malheureusement trop légitimes que je prends la liberté de vous adresser pour la
+                perturbation dont je puis être la cause dans cette occasion.</p>
+
+            <p>Veuillez agréer, Monsieur le secrétaire Général, l'assurance de ma haute
+                considération.</p>
+
+            <closer>
+                <signed>
+                    <persName key="Delacroix, Eugène (1798-1863)">Eµg Delacroix</persName>
+                </signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

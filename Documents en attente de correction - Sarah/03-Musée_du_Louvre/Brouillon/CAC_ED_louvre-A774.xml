@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Hippolyte Gaultron, ce mercredi [janvier
+                    1850]</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Gemini</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A774 pièces 1 et 2</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1850-01"/>
+                    <placeName key="France, Paris">Paris</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Gaultron, Hippolyte (1805-1878)">Hippolyte Gaultron</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A774-1.jpg"/>
+            <opener>
+                <salute>Cher <persName key="Gaultron, Hippolyte (1805-1878)">ami</persName>,</salute>
+            </opener>
+
+            <p>voulez vous bien m'envoyer par le porteur ou me donner vous même si vous venez
+                aujourd’hui, le billet de Mornay.</p>
+
+            <p>J’ai vu Eymaud hier au soir : il m’a dit qu’il le lui fallait pour en extraire la
+                somme exacte, l’époque, etc. afin de faire la demande en collocation.</p>
+
+            <p>Il n'y a pas de temps à perdre : la vente se fait aujourd’hui et demain. Je n’ai pas
+                besoin de vous dire que si vous y allez, vous m’obligerez infiniment de me raconter
+                ce qui s’y sera passé.</p>
+
+            <closer>
+                <salute>Mille amitiés.</salute>
+                <signed>
+                    <persName key="Delacroix, Eugène (1798-1863)">E. Delacroix</persName>
+                </signed>
+                <dateline>Ce mercredi.</dateline>
+            </closer>
+
+            <pb n="2" xml:id="p2" facs="CAC_ED_louvre-A774-2.jpg"/>
+            <closer>
+                <address>
+                    <addrLine>Monsieur Gaultron</addrLine>
+                </address>
+            </closer>
+        </body>
+    </text>
+</TEI>

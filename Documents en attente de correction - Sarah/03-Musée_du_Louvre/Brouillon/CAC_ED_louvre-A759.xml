@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Gaultron, ce samedi</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>[Prénom Nom]</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A759 pièces 1 et 2</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date xml:id="unknown-date"/>
+                    <placeName key="France, Paris">Paris</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Gaultron">Gaultron</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A759-1.jpg"/>
+            <opener>
+                <dateline>
+                    <add place="top">Samedi</add>
+                </dateline>
+                <salute>Cher ami</salute>
+            </opener>
+
+            <p>je me rappelle une recommandation très importante. Comme vous ferez peu de temps dans
+                chaque endroit vous serez obligé de courir par la chaleur dans les rues, soit à
+                Alger soit à Oran etc. vous serez immanquablement accablé par la chaleur. Le moyen
+                par excellence pour dissiper cette énervation qui vous rendrait incapable de
+                résister à la fatigue est de prendre <hi rend="u">beaucoup de café</hi>, mais
+                de celui que vous trouverez dans les cafés des rues qui <hi rend="u">est très
+                    léger</hi>. Croyez en mon expérience. Excusez-moi auprès de vos
+                compagnons d’oser vous donner ce conseil quoiqu’ils soient médecins et qui plus est,
+                conseillez-le leur de ma part s’ils n’y pensent pas.</p>
+
+            <p>Adieu with tendresse</p>
+
+            <closer>
+                <signed>
+                    <persName key="Delacroix, Eugène (1798-1863)">Eug</persName>
+                </signed>
+                <postscript>
+                    <p>aussi de temps en temps <underline>des bains arabes</underline>. Au lieu de
+                        relâcher, ils donnent du ton.</p>
+                </postscript>
+            </closer>
+
+            <pb n="2" xml:id="p2" facs="CAC_ED_louvre-A759-2.jpg"/>
+            <closer>
+                <address>
+                    <addrLine>Monsieur Hypp. Gaultron</addrLine>
+                    <addrLine>quai Voltaire 21.</addrLine>
+                </address>
+            </closer>
+        </body>
+    </text>
+</TEI>

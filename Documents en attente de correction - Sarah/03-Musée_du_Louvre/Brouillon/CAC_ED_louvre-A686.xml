@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Eugène Le Poittevin, [mars 1848]</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A686 pièces 1 à 4</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="4" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1848"/>
+                    <settlement key="Paris">Paris</settlement>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Le Poittevin, Eugène (1806-1870)">Eugène Le Poittevin</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1"/>
+            <opener>
+                <note place="margin-top-left" rend="pencil">1847 ou 1848 ?</note>
+                <note place="margin-top-left" rend="pencil">II. 341</note>
+                <dateline rend="right"><date>Ce mercredi</date>.</dateline>
+                <salute>Mon cher Lepoittevin</salute>
+            </opener>
+            
+            <p>Je vous prie de vouloir bien
+                <lb/>être mon interprète auprès de nos
+                <lb/>confrères de la commission pour la prier
+                <lb/>de m’excuser si je ne puis me rendre à
+                <lb/>la séance de demain. Je suis trop in-
+                <lb/>-disposé pour me permettre une sortie
+                <lb/>surtout le soir : j’en étais déjà la
+                <lb/>dernière fois et il aurait été plus pru-
+                <lb/>-dent à moi de garder la chambre.</p>
+            
+            <p>J’ai réfléchi à un des objets les
+                <lb/>plus intéressants qui se rattachent à
+                <lb/>notre projet d’exposition : j’aurais eu
+                <lb/>à cœur de soumettre mes idées à la
+                <lb/>commission au sujet de la formation du
+                <lb/>Jury. J’ai au reste parlé déjà de ces
+                <lb/>idées à quelques uns d’entre eux qui
+                <lb/>m’ont paru les accueillir. Dans le cas
+                <lb/>où je ne serais pas présent quand il
+                <lb/>sera question de cet article important, je</p>
+            <note place="bottom-right" rend="pencil">16</note>
+            
+            <pb n="2" xml:id="p2"/>
+            <p>prends la liberté d’en dire ici quel-
+                <lb/>-ques mots que vous communiqueriez
+                <lb/>à la commission et qui mettront peut-
+                <lb/>-être sur la voie de quelque chose de
+                <lb/>meilleur encore.</p>
+            
+            <p>Une idée de l’ancien projet quoique
+                <lb/>inexécutable à la pratique, présentait
+                <lb/>un grand avantage : c’était de rendre
+                <lb/>en quelque sorte tout le monde juge
+                <lb/>de tout le monde. on sera frappé en
+                <lb/>même temps du désagrément, de la
+                <lb/>perte de temps et de la difficulté dans
+                <lb/>l’exercice de la fonction de juge, surtout
+                <lb/>quand ils fonctionnent en petit nombre.</p>
+            
+            <p>Je crois qu’il n’y aurait aucun
+                <lb/>inconvénient à faire nommer par
+                <lb/>les exposants <hi rend="underline">Cinquante jurés</hi> tout
+                <lb/>autant, mais qui n’agissant que par
+                <lb/>fractionnements de 5 ou 7 personnes
+                <lb/>au plus (3 à mon avis ne feraient
+                <lb/>que mieux la besogne) ne devraient
+                <lb/>revenir leur tour qu’à des intervalles</p>
+            
+            <pb n="3" xml:id="p3"/>
+            <p>assez éloignés pour leur ôter toute
+                <lb/>latitude. Il serait facile de régulariser
+                <lb/>le retour des fonctions de chacun.</p>
+            
+            <p>On ne peut objecter que 50 artistes
+                <lb/>choisis parmi tous les exposants ne soient
+                <lb/>pas aptes à classer des tableaux. Il n’est
+                <lb/>pas <del rend="ink">du tout</del> nécessaire d’avoir le plus grand
+                <lb/>talent pour avoir une connaissance
+                <lb/><add place="above">décidée</add> du mérite qui ne consis-
+                <lb/>-terait que dans la possibilité d’être
+                <lb/>admis à l’exposition. on aurait aussi
+                <lb/>par ce moyen l’avantage de donner
+                <lb/>cet avantage à un plus grand nombre
+                <lb/> d’artistes. J’ajouterais même qu’il
+                <lb/>couperait court aux critiques qu’on
+                <lb/>ne manque pas de se permettre des
+                <lb/>juges qu’on a nommés soi-même
+                <lb/>et qui ont la bonté d’employer un
+                <lb/>temps précieux pour ne satisfaire
+                <lb/>personne.</p>
+            
+            <closer>
+                <salute>Agréez mon cher confrère</salute>
+                
+                <pb n="4" xml:id="p4"/>
+                <salute>et bon camarade l’assurance de mes sentiments dévoués.</salute>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">Eug Delacroix</persName></signed>
+            </closer>
+        </body>
+    </text>
+</TEI>
+

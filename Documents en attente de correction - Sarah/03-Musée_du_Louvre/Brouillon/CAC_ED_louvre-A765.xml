@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à un ami, de Bordeaux, 9 janvier 1846</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>[Prénom Nom]</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A765 pièces 1 à 3</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="3" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1846-01-09"/>
+                    <placeName key="France, Bordeaux">Bordeaux</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="unknown">[Cher ami]</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A765-1.jpg"/>
+            <opener>
+                <add place="top-left">10</add>
+                <add place="top-left">II, 249</add>
+                <dateline>
+                    <placeName>Bordeaux</placeName>
+                    <date when="1846-01-09">9 janvier <add place="below">1846</add></date>
+                </dateline>
+                <salute>Cher ami</salute>
+            </opener>
+
+            <p>je suis arrivé trop tard le pauvre ami n’étant plus et je l’aurais trouvé vivant si
+                le voyage n’avait été retardé de six ou sept heures. mon bon ami vous aimiez bien
+                votre mère et mon frère était pour moi comme mon frère et comme mon père. vous
+                comprenez donc ce que j’ai à éprouver. J’ai eu la consolation du moins de pouvoir
+                veiller à ce que tous les honneurs possibles fussent rendus à sa mémoire. J’ai été
+                bien touché des regrets <del>auxquelles</del> ont tous les militaires jeunes ou
+                vieux. Sans mon arrivée tout cela aurait été tramé par les viles créatures qui
+                écartent ces fiers amis. on a mis les scellés mais trop tard comme toujours. Il faut
+                donc sous l’ignorance de ce qui peut se trouver que vous ayez l’obligeance de
+                m’envoyer de <pb n="2" xml:id="p2" facs="CAC_ED_louvre-A765-2.jpg"/> l’argent. Je
+                vous demanderais donc 2,000<hi rend="sup">ff</hi>. vous auriez la bonté de me donner
+                avis de la manière dont je les retirerai.</p>
+
+            <p>mon frère a fait un testament par lequel il me fait son héritier sauf qu’il laisse à
+                sa gouvernante une rente viagère de 300<hi rend="sup">ff</hi>. nous ne savons encore
+                ce qu’il laisse. Si je prends la qualité d’héritier bénéficiaire il s'ensuit
+                naturellement que je ne paie cette rente que s’il se trouve un capital suffisant.
+                D’un autre côté je suis dans une grande perplexité car <hi rend="u">d'après le code
+                    civil</hi> à ce que je crois, l’héritier bénéficiaire ne peut retirer
+                d’objets de gré à gré, il faut une vente publique et alors une foule d’objets
+                auxquels je tiens excessivement devient l’objet d’un encan. vous feriez bien bon de
+                me <pb n="3" xml:id="p3" facs="CAC_ED_louvre-A765-3.jpg"/> répondre le plus tôt
+                possible votre opinion ou celle d’un homme compétent <del>et de</del>
+                <del>pour</del> et surtout ce qu’il vous semble que vous feriez à ma place.</p>
+
+            <p>Je ne puis supporter d’écrire dans ma situation. toute lettre me donne une érudition
+                cruelle et j'en ai de toutes sortes. veuillez donc cher ami me rendre le service de
+                prévenir de ma part Bornot en le priant de m'excuser si je ne le fais pas
+                directement. veuillez aussi le dire pour moi à Larrey ou à Mr. Eyma et à ceux de nos
+                amis que vous verrez en attendant que j'envoie des lettres imprimées.</p>
+
+            <p>Une autre chose : j'ai écrit à Mad. de Forget pour lui mettre je crois mon adresse.
+                écrivez la lui dans un petit mot que vous mettrez à la poste.</p>
+
+            <p>Je vous embrasse cher hélas et bien triste.</p>
+
+            <closer>
+                <signed>
+                    <persName key="Delacroix, Eugène (1798-1863)">Ey delacroix</persName>
+                </signed>
+                <address>
+                    <addrLine>Hôtel du commerce</addrLine>
+                    <addrLine>rue des chapelets.</addrLine>
+                </address>
+            </closer>
+        </body>
+    </text>
+</TEI>

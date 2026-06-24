@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Hippolyte Gaultron, ce vendredi [29 mars
+                    1850]</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Gemini</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A776 pièces 1 et 2</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1850-03-29"/>
+                    <placeName key="France, Paris">Paris</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Gaultron, Hippolyte (1805-1878)">Hippolyte Gaultron</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A776-1.jpg"/>
+            <opener>
+                <salute>Cher <persName key="Gaultron, Hippolyte (1805-1878)">ami</persName>,</salute>
+            </opener>
+
+            <p>J’ai reçu votre réponse : quant à M. de Mornay, l’avoué m’a fait dire qu’il fallait
+                être colloqué et qu’on n'avait pas encore le bordereau de la vente. Je vous enverrai
+                à tout hasard et quand le moment sera venu, le papier en question. Il n’y a plus de
+                presse.</p>
+
+            <p>On m’a proposé hier d'acheter pour 6,000<hi rend="sup">ff</hi> la Cléopâtre ; j'ai
+                répondu que j'aimais autant la garder que de la donner à ce prix-là : la vente m’en
+                a dégoûté.</p>
+
+            <p>Si vous n'avez rien de mieux à faire dimanche, venez dîner avec moi. Vous me direz si
+                cela vous va.</p>
+
+            <closer>
+                <salute>mille amitiés.</salute>
+                <signed>
+                    <persName key="Delacroix, Eugène (1798-1863)">E. D.</persName>
+                </signed>
+                <dateline>Ce vendredi.</dateline>
+            </closer>
+
+            <pb n="2" xml:id="p2" facs="CAC_ED_louvre-A776-2.jpg"/>
+            <closer>
+                <address>
+                    <addrLine>Monsieur Gaultron</addrLine>
+                    <addrLine>rue Laffitte 41.</addrLine>
+                </address>
+            </closer>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Hippolyte Gaultron, ce samedi matin</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Gemini</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A769 pièces 1 et 2</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date xml:id="unknown-date"/>
+                    <placeName key="France, Paris">Paris</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Gaultron, Hippolyte (1805-1878)">Hippolyte Gaultron</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A769-1.jpg"/>
+            <opener>
+                <salute>cher <persName key="Gaultron, Hippolyte (1805-1878)">ami</persName>,</salute>
+            </opener>
+
+            <p>ce qui m’arrangerait intimement ce serait d’aller à Valmont le plus tôt possible :
+                ainsi à supposé que Bornot y aille ces jours ci, nous pourrions y aller sur ses
+                talons. Il fait encore chaud, ce qui m'empêche de travailler à la chambre : j’ai
+                donc plus de loisir à présent, plus tard je serai harcelé. Écrivez moi s’ils sont
+                déjà partis et si vous pensez que cela peut s’arranger ainsi : nous pourrions aussi
+                de cette manière rester quelques jours de plus. — tout cela bien entendu soumis à
+                vos arrangements et à vos places.</p>
+
+            <closer>
+                <salute>Je vous embrasse</salute>
+                <dateline>Ce samedi matin.</dateline>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène</persName></signed>
+            </closer>
+
+            <pb n="2" xml:id="p2" facs="CAC_ED_louvre-A769-2.jpg"/>
+            <pb n="3" xml:id="p3"/>
+            <closer>
+                <address>
+                    <addrLine>Monsieur Gaultron</addrLine>
+                    <addrLine><underline>artiste peintre d'Histoires.</underline></addrLine>
+                    <addrLine><underline>rue Laffitte 41.</underline></addrLine>
+                </address>
+            </closer>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Hippolyte Gaultron, Ce samedi matin [21 septembre
+                    1850]</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Gemini</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A771 pièces 1 et 2</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1850-09-21"/>
+                    <placeName key="France, Paris">Paris</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Gaultron, Hippolyte (1801-1859)">Hippolyte Gaultron</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A771-1.jpg"/>
+            <opener>
+                <dateline><date when="1850-09-21">Ce samedi matin <add place="below"><num>22
+                                Septembre 1850</num></add></date></dateline>
+                <salute>Cher ami.</salute>
+            </opener>
+
+            <p>je reçois votre réponse à l’instant et m'empresse de vous avertir de l’impossibilité
+                absolue où je suis de partir avant le moment que je vous ai dit. mon carton destiné
+                à être appliqué à la voûte pour me guider dans mon travail demande encore trois ou
+                quatre jours de plus, chose très importante, j’attends pour commander mon châssis et
+                ma toile le retour d’Haro qui sera dans la semaine. c’est donc pour moi un grand
+                sujet de regret. Je ne peux guère être à Valmont avant samedi ou dimanche et je vous
+                écris cela au plus vite. Ce sera un bien grand regret pour moi je vous assure : mais
+                vous vous rappelez sans doute que je ne pensais même pas être prêt pour cette
+                époque. Je vais amener la pluie à Valmont et ces dames me maudiront. dites leur
+                ainsi qu'à Bornot mille choses pour moi. Peut-être ne serai-je pas si malheureux que
+                l’année dernière au commencement.</p>
+
+            <closer>
+                <salute>à vous mille fois</salute>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">Delacroix</persName></signed>
+            </closer>
+
+            <pb n="2" xml:id="p2" facs="CAC_ED_louvre-A771-2.jpg"/>
+            <closer>
+                <address>
+                    <addrLine>Monsieur Gaultron</addrLine>
+                    <addrLine>chez Mr Bornot</addrLine>
+                    <addrLine>à Valmont</addrLine>
+                    <addrLine>Seine inférieure</addrLine>
+                </address>
+            </closer>
+        </body>
+    </text>
+</TEI>

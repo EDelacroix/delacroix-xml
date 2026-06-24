@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Théodore Gudin, 23 février 1832</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A675 pièces 1 à 4</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="4" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1832-02-23"/>
+                    <settlement key="Tanger">Tanger</settlement>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Gudin, Théodore (1802-1880)">Théodore Gudin</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1"/>
+            <opener>
+                <note place="margin-top-left" rend="pencil">T 312</note>
+                <note place="top-right" rend="pencil">6</note>
+                <dateline rend="center"><settlement key="Tanger">Tanger</settlement>
+                    <date when="1832-02-23">23 fév. <add place="above" rend="pencil"
+                        >(1832)</add></date></dateline>
+                <salute>Mon cher Gudin,</salute>
+            </opener>
+
+            <p>au milieu des choses curieuses et toutes nouvelles pour moi au milieu desquelles je
+                me trouve, je n’oublie pas l’engagement que j’ai contracté avec vous et qu’il est
+                doux de remplir. Vous avez désiré avoir de moi un souvenir de la terre d’Afrique :
+                vous qui en avez si bien saisi le caractère, vous apprendrez avec quelque plaisir,
+                j’espère, tout celui que je trouve ici, au milieu d’un peuple, très différent à
+                beaucoup d’égards des autres peuples mahométans. J’ai été par-dessus tout frappé de
+                l’extrême simplicité de leur costume et en même temps, de la variété qu’ils savent
+                donner à une</p>
+
+            <pb n="2" xml:id="p2"/>
+            <p>l’ajustement des pièces qui le composent. La saison est encore trop peu avancée pour
+                que je puisse juger de toute la beauté du pays. Nous sommes ici depuis un mois
+                environ et nous partons dans deux ou trois jours pour Mequinez où est l’empereur
+                maintenant et où il doit nous recevoir avec toutes sortes de politesse, beaucoup de
+                coups de fusil, courses de chevaux etc. Vous voyez d’ici mon admira-tion. Vous êtes
+                l’homme parfait pour apprécier ce qu’il y a de frappant dans de pareils spectacles.
+                Je plains véritablement à présent les artistes doués de quelque imagination qui ne
+                doivent jamais perdre une idée des merveilles de grâce et de beauté de ces natures
+                vierges, et sublimes. J’ai laissé à Paris</p>
+
+            <pb n="3" xml:id="p3"/>
+            <p>quelques amis auxquels je suis sincèrement attaché : je ne les ai pas quittés sans
+                regret, et néanmoins je ne verrai pas sans tristesse le moment de quitter, sans
+                doute pour toujours, le pays des beaux orangers couverts de fleurs et de fruits, du
+                beau soleil, des beaux yeux et de mille autres beautés que vous connaissez. Adieu,
+                mon cher Gudin j’espère à mon retour que vous me permettrez de vous montrer quelques
+                uns des souvenirs que j’emporterai d’ici. Tout cela est horriblement imparfait quand
+                on est en présence de la nature : mais à une grande distance et dans notre pays tout
+                cela gagnera peut-être.</p>
+
+            <closer>
+                <salute rend="right">Votre mille fois et sincèrement dévoué</salute>
+                <signed rend="right"><persName key="Delacroix, Eugène (1798-1863)">Eug
+                        Delacroix</persName></signed>
+            </closer>
+
+            <pb n="4" xml:id="p4"/>
+            <div type="address">
+                <p rend="center">
+                    <address>
+                        <addrLine>Monsieur</addrLine>
+                        <addrLine><persName key="Gudin, Théodore (1802-1880)">Ch. Gudin</persName>
+                            peintre</addrLine>
+                        <addrLine>rue de la ville l’évêque près la rue de</addrLine>
+                        <addrLine>la Pépinière</addrLine>
+                        <addrLine><settlement key="Paris">à Paris.</settlement></addrLine>
+                    </address>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix et ses amis à Félix Guillemardet, 6 décembre
+                    1830</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A500B pièces 1 à 4</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="4" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Joubin, I, p. 261 (Burty, I, p. 148) ; Dupont, p. 157</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1830-12-06"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Guillemardet, Félix (1796-1842)">Félix Guillemardet</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="4" xml:id="p4"/>
+            <opener>
+                <address>
+                    <addrLine>Monsieur</addrLine>
+                    <addrLine>
+                        <persName key="Guillemardet, Félix (1796-1842)">Félix
+                            Guillemardet.</persName>
+                    </addrLine>
+                    <addrLine>chez M<hi rend="sup">r</hi> Febvre rue de la barre n<hi rend="sup"
+                            >o</hi> 11</addrLine>
+                    <addrLine>à Mâcon Saône et Loire</addrLine>
+                </address>
+
+                <pb n="1" xml:id="p1"/>
+                <note type="historical" place="margin-left">Lettre de M<hi rend="sup">r</hi> D. à F.
+                    Guill. contenue par Duvernay</note>
+                <dateline>Paris <date when="1830-12-06">6. Décembre 1830. jour de la Saint
+                        Nicolas.</date></dateline>
+            </opener>
+
+            <p>Pour fêter la S<hi rend="sup">t</hi>. nicolas, avec Duvernay chez le docteur
+                Desmaisons ce soir nous donnons le plaisir de t'écrire mêlés entre un verre
+                d'anisette et une tasse de Sabayon mad<hi rend="sup">e</hi>. Pierret t'a fait savoir
+                que <seg rend="circled">l'appétit elle est bonne mais les jambes y va mal ce qui
+                    veut dire qu'elle a des engelures aux pieds qui lui font mettre ses escarpins
+                    français comme des babouches turques.</seg>, nous te désirons et te félicitons
+                d'avoir fini avec ton affaire. Paris se tient mieux ou mieux que la Province ou s'il
+                y a des trembleurs, on y voit tant de gens divers qu'on rencontre des esprits
+                rassurés. Au reste on te laisse le plaisir de te pousser des moustaches j'ai une
+                barbe qui fait la queue d'elle de Milon à ma charge a été faite avec du charbon sur
+                le mur du corps de garde de l'artillerie j'apprends que tu vas écumer la bourgogne
+                et rapporter du trésor d'antiquités. que le sabayon est délicieux!!! nous en buvons
+                à ta santé et nous conservons la recette pour t'en faire boire à ton <del
+                    rend="overstrike"><gap reason="illegible" quantity="3" unit="word"/></del></p>
+
+            <pb n="2" xml:id="p2"/>
+            <p>
+                <note place="top">(notre C a commencé par Delacroix —)</note>
+            </p>
+            <p>Je reprends en sous œuvre la présente lettre pour te tenir au courant de la brillante
+                santé qui me caractérise dans le moment actuel. Je n'en sous-signe pas moins pour le
+                quart d'heure du Conseil de discipline où sur ma mauvaise mine on vient de me donner
+                un répit de 4 mois pour la brave garde nationale dont on ne me juge <add
+                    place="above">susceptible</add> de servir avec que quand je serai un peu
+                engraissé de ma personne. Tu ne t'étonneras pas de la présente manière de m'exprimer
+                un tant soit peu inopportune et inattendue dans ma manière d'être d'habitude
+                naturelle, attendu une lettre d'un gendarme de Fouille-toute en Berry que nous
+                venons d'en faire lecture en société où nous nous trouvons qui est très drôle et
+                très insolite pour l'expression des pensées du dit gendarme qui écrit au docteur <pb
+                    n="3" xml:id="p3"/> Desmaisons qui vient de nous faire d'excellent sabayon que
+                nous en avons bu un verre à ta santé.</p>
+
+            <p>Pour finir, j'ai fini, on pense bien à Mâcon, à Montauban et nous avons un mystérieux
+                désir de voir nous faire cette fameuse S<hi rend="sup">te</hi> Sylvestre que c'est
+                ton tour cette année de nous en régaler chez toi. En attendant conserve toi la bonne
+                disposition de ton estomac en parfaite santé qui te sera nécessaire pour digérer les
+                susdits petits pâtés et autres confitures, susnommés de la S<hi rend="sup">te</hi>
+                Sylvestre. Excuse la bassesse imprévue de la langue française que je te témoigne
+                dans cette lettre que ma plume te trace ici de ma main pour croire à la prudence
+                inaltérable avec laquelle mon cœur ne cessera de battre jusqu'à la mort pour tes
+                vertus, de tout ton être, dont je te prie en toute persuasion de me croire
+                capable.</p>
+
+            <closer>
+                <salute>ton inébranlable ami et très soumis</salute>
+                <signed>
+                    <persName key="Delacroix, Eugène (1798-1863)">Eug Delacroix</persName>
+                </signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

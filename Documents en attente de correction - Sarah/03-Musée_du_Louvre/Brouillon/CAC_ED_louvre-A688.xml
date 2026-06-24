@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix au directeur des Beaux-Arts, 19 mars 1851</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A688 pièces 1 et 2</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1851-03-19"/>
+                    <settlement key="Paris">Paris</settlement>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Blanc, Charles (1813-1882)">Charles Blanc</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1"/>
+            <opener>
+                <dateline>ce <date when="1851-03-19">19 mars 1851</date></dateline>
+                <note>dans</note>
+                <salute>Monsieur le Directeur</salute>
+            </opener>
+            
+            <p>En réponse à la notification que vous m'avez faite, l'honneur de me faire de ma désignation comme juré pour les récompenses de l'exposition de 1850, 1851, je me vois forcé de vous prier de vouloir bien présenter à Monsieur le Ministre de l'Intérieur ma démission de cette honorable fonction, fondée sur l'impossibilité où <add place="above">je me trouve</add> <del rend="ink">d'être utile</del> de l'exercer. Les travaux dont je suis chargé pour la galerie d'Apollon dont l'achèvement est prochain, m'obligent à y consacrer tous mes instants. Les trois semaines consécutives employées déjà par moi pour l'examen et le placement des Tableaux ont apporté un retard <add place="above">à l'exécution des</add> <del rend="ink">tableaux</del> tableaux dont je suis chargé : j'espère qu'en cette considération vous voudrez bien être mon interprète auprès de Monsieur le Ministre, et le prier de désigner</p>
+            
+            <pb n="2" xml:id="p2"/>
+            <p>à ma place un des artistes portés ainsi que moi sur les listes de ceux qui ont concouru au choix des tableaux.</p>
+            
+            <closer>
+                <salute>J'ai l'honneur d'être avec la plus haute considération,</salute>
+                <salute>Monsieur le Directeur,</salute>
+                <salute>votre très humble et très obéissant serviteur</salute>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">Eug Delacroix</persName></signed>
+            </closer>
+        </body>
+    </text>
+</TEI>
+

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Adrien Dauzats, 30 avril 1857</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>[Prénom Nom]</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A737 pièces 1 et 2</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1857-04-30"/>
+                    <placeName key="France, Paris">Paris</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Dauzats, Adrien (1804-1868)">Adrien Dauzats</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A737-1.jpg"/>
+            <opener>
+                <dateline>Ce samedi <add place="inline">30 Avril 1857</add></dateline>
+                <salute>cher Dauzats,</salute>
+            </opener>
+
+            <p>j’ai la satisfaction de vous annoncer que le fils de Rohen a obtenu une demi bourse.
+                J’ose dire que cela n’était pas très facile, car les titres des parents ont été
+                passés au crible et il se trouvait un grand nombre de pères dans une situation à
+                inspirer de l’intérêt par leur manque de fortune. Il n’y avait que deux bourses à
+                Louis le Grand qui ont été données à des élèves en meilleure position. celleci est
+                pour S<hi rend="superscript">t</hi>. Louis. si cela contrariait par trop Rohen, peut
+                être pourrait il faire des démarches à ce sujet, mais je crois qu’elles seraient
+                infructueuses.</p>
+
+            <closer>
+                <salute>mille bonnes amitiés</salute>
+                <signed>
+                    <persName key="Delacroix, Eugène (1798-1863)">Eug Delacroix</persName>
+                </signed>
+            </closer>
+
+            <note place="bottom" hand="other">inédit</note>
+
+            <pb n="2" xml:id="p2" facs="CAC_ED_louvre-A737-2.jpg"/>
+            <closer>
+                <address>
+                    <addrLine>Monsieur Dauzats</addrLine>
+                    <addrLine>rue ollivier 14,</addrLine>
+                </address>
+            </closer>
+        </body>
+    </text>
+</TEI>

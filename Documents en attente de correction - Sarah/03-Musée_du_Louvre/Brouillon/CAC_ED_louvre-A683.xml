@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à un destinataire inconnu, 24 février 1840</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A683 pièces 1 et 2</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1840-02-24"/>
+                    <settlement key="Paris">Paris</settlement>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Inconnu">Inconnu</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1"/>
+            <opener>
+                <salute>Monsieur,</salute>
+            </opener>
+
+            <p>Je vous serais infiniment recon- <lb/>-naissant s’il vous était possible de <lb/>me
+                recevoir quelques instants pour vous <lb/>soumettre les croquis du tableau que
+                <lb/>j’ai à exécuter pour <placeName key="Versailles">Versailles</placeName> et dont
+                <lb/>je voudrais m’occuper le plus promptement <lb/>possible. Je prendrais également
+                la liberté <lb/>de vous demander un renseignement égale- <lb/>-ment relatif au Musée
+                de <placeName key="Versailles">Versailles</placeName> qui <lb/>intéresse une
+                personne de ma connaissance <lb/>qui s’est adressée à moi pour l’obtenir. J’ai
+                <lb/>pensé que vous auriez sans doute la</p>
+
+            <pb n="2" xml:id="p2"/>
+            <p>bonté de me donner les éclaircisse- <lb/>-ments que cette personne désire.</p>
+
+            <closer>
+                <salute rend="center">Veuillez agréer, Monsieur, <lb/>les assurances de la haute
+                    considération <lb/><del rend="ink">avec</del> laquelle j’ai l’honneur
+                    d’être,</salute>
+                <salute rend="right">Votre très obéissant <lb/>serviteur</salute>
+                <signed rend="right"><persName key="Delacroix, Eugène (1798-1863)">Eug
+                        Delacroix</persName></signed>
+                <address>
+                    <addrLine>rue des marais s. G.<hi rend="sup">ain</hi></addrLine>
+                    <addrLine>17.</addrLine>
+                </address>
+                <dateline>ce <date when="1840-02-24">24 février 1840</date>.</dateline>
+            </closer>
+        </body>
+    </text>
+</TEI>

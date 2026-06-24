@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix au Ministre de l’Intérieur, 18 octobre 1838</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A682 pièces 1 et 2</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1838-10-18"/>
+                    <settlement key="Paris">Paris</settlement>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Montalivet, Camille de (1801-1880)">Ministre de
+                        l'Intérieur</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1"/>
+            <opener>
+                <note place="margin-top-left" rend="pencil">18 octobre 1838</note>
+                <note place="margin-top-left" rend="pencil">II. 26</note>
+                <note place="top-center" rend="ink">S</note>
+                <note place="top-right" rend="pencil">classer</note>
+                <stamp>Tampon circulaire du Ministère de l'Intérieur portant la mention "MINISTÈRE
+                    DE L'INTÉRIEUR" et la date "21 OCT. 1838".</stamp>
+                <note place="left" rend="ink">
+                    <num>9687</num>
+                    <lb/>
+                    <num>2</num>
+                </note>
+                <note place="left" rend="ink">
+                    <lb/>3<hi rend="sup">e</hi> Divis<hi rend="sup">on</hi>
+                    <lb/>1<hi rend="sup">er</hi> Bureau <lb/>23 8<hi rend="sup">bre</hi> (9524) </note>
+                <salute rend="center">Monsieur le Ministre,</salute>
+            </opener>
+
+            <p>J’éprouve le besoin, dès mon <lb/>arrivée à Paris, de vous exprimer ma re-
+                <lb/>-connaissance pour la distinction flatteuse <lb/>dont vous avez bien voulu
+                m’honorer, <lb/>en me choisissant pour exécuter les <lb/>peintures qui doivent
+                décorer la biblio- <lb/>-thèque du Palais de la Chambre des <lb/>Députés. Voudrez
+                vous bien recevoir <lb/>en même temps l’assurance de tout <lb/>l’empressement que je
+                mettrai à me ren- <lb/>-dre digne de cette marque de votre</p>
+
+            <pb n="2" xml:id="p2"/>
+            <p>bienveillance, par le soin et l’assiduité <lb/>que je m’efforcerai d’apporter à la
+                <lb/>conduite et à l’achèvement de tra- <lb/>-vaux aussi importants.</p>
+
+            <closer>
+                <salute>J’ai l’honneur d’être <lb/>avec un profond respect,</salute>
+                <salute>Monsieur le Ministre</salute>
+                <salute>Votre très humble et très <lb/>obéissant serviteur</salute>
+                <dateline><settlement key="Paris">Paris</settlement> ce <date
+                        when="1838-10-18">18 octobre 1838</date>.</dateline>
+                <signed>
+                    <persName key="Delacroix, Eugène (1798-1863)">Eug Delacroix</persName>
+                </signed>
+            </closer>
+            <note>14</note>
+        </body>
+    </text>
+</TEI>

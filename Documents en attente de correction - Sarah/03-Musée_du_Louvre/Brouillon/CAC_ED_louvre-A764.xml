@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à un ami, d'Eaux-Bonnes, 8 août 1845</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>[Prénom Nom]</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A764 pièces 1 et 2</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1845-08-08"/>
+                    <placeName key="France, Eaux-Bonnes">Eaux-Bonnes</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="unknown">[Cher ami]</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A764-1.jpg"/>
+            <opener>
+                <add place="top-left">9</add>
+                <add place="top-left">
+                    <persName key="Delacroix, Eugène (1798-1863)">II, 231</persName>
+                </add>
+                <dateline>
+                    <placeName>Eaux bonnes</placeName>
+                    <date when="1845-08-08">8 août. <add place="inline">[1845]</add></date>
+                </dateline>
+                <salute>Cher ami,,</salute>
+            </opener>
+
+            <p>je reçois votre paquet et votre bonne lettre. Vous devez en avoir reçu une que je
+                vous écrivais avant hier qui vous dit la vie que je mène ici et je vais vous
+                renvoyer les deux pancartes en vous priant d’en garder une, car je craindrais de la
+                perdre en route : je ne comprends pas ce que ce juif entend par 52 H pour un jour
+                l'éclairage. — lui avez vous parlé au sujet des commodités de la cave qui infectent
+                la maison ; En lui envoyant sa copie du bail, on pourrait revenir la dessus si cela
+                n'est fait. — je vois que vous avez eu de terribles assauts à soutenir : voilà ce
+                qui s'appelle défendre vaillamment ses intérêts ; il dira sans doute que c'est pour
+                sa femme et pour ses enfants.</p>
+
+            <p>Je n’ajoute rien cher ami au tableau de ma vie ici présente je m’ennuie beaucoup <pb
+                    n="2" xml:id="p2" facs="CAC_ED_louvre-A764-2.jpg"/> et aspire à repartir. Je
+                serai à Paris du 20 au 25 au plus tard : je ne crains pour me retarder que la
+                difficulté des voitures à cause du voyage des princes dans le midi.</p>
+
+            <p>J’espère que ce voyage m’aura bien fait. on dit qu’on n’éprouve l’effet complet que
+                quelque temps après. — Le style du billet au portrait est ravissant. nous verrons
+                ces beaux yeux et cette taille sinon charmante quoique loin de son aurore.</p>
+
+            <p>Je vous embrasse de rechef bien cher et vous aime bien.</p>
+
+            <closer>
+                <signed>
+                    <persName key="Delacroix, Eugène (1798-1863)">Eug Delacroix</persName>
+                </signed>
+                <postscript>
+                    <p>Que va faire Larrey a Bagnères ? est ce qu’il est malade ? je ne pourrai
+                        malheureus[ement] pas aller de ce côté. Je ne verrai pas les plus belles
+                        parties, à cause de la nécessité de revenir promptement et de quelques jours
+                        que je veux donner à mon frère. — <add place="bottom" ceally="pencil"
+                            >(lequel meurt en 1845) non : 1846</add></p>
+                </postscript>
+            </closer>
+        </body>
+    </text>
+</TEI>

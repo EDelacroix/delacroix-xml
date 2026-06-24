@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Isidore Geoffroy Saint-Hilaire, 22 août
+                    1841</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A684 pièces 1 et 2</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1841-08-22"/>
+                    <settlement><placeName="France, Paris">Paris</settlement>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Geoffroy Saint-Hilaire, Isidore (1805-1861)">Isidore Geoffroy
+                        Saint-Hilaire</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1"/>
+            <opener>
+                <note place="margin-top-left" rend="pencil">II. 83</note>
+                <note place="margin-top-right" rend="pencil">14 bis</note>
+                <salute>Monsieur,</salute>
+            </opener>
+
+            <p>Je désirerais vivement obtenir la permis- <lb/>-sion de faire des études d’après les
+                animaux <lb/>féroces de la ménagerie du jardin du roi, et à <lb/>cet effet d’être
+                introduit dans l’intérieur du <lb/>bâtiment où ils sont gardés à l’heure du repas.
+                <lb/>Je vous serais bien reconnaissant si vous <lb/><add place="above">étiez assez
+                    bon pour</add>
+                <del rend="ink">voulez bien</del> m’accorder cette faveur le <lb/>plus tôt
+                possible.</p>
+
+            <closer>
+                <salute rend="left">J’ai l’honneur d’être avec une très haute
+                    <lb/>considération</salute>
+                <salute rend="left">Monsieur,</salute>
+                <salute rend="right">votre très obéissant <lb/>serviteur</salute>
+                <signed rend="right"><persName key="Delacroix, Eugène (1798-1863)">Eugène
+                        Delacroix</persName>
+                    <lb/>peintre.</signed>
+                <dateline rend="left">ce <date when="1841-08-22">22 aout 1841</date>.</dateline>
+                <address rend="right">
+                    <addrLine>rue des marais S.<hi rend="sup">t</hi> G.<hi rend="sup">ain</hi>
+                        17.</addrLine>
+                </address>
+            </closer>
+
+            <pb n="2" xml:id="p2"/>
+            <div type="address">
+                <stamp>Tampon circulaire de la poste de Paris à l'encre rouge-orangé, daté du 22
+                    août 1841, frappé sur la suscription.</stamp>
+                <stamp>Tampon circulaire noir de la poste de Paris indiquant la septième levée du
+                    soir ("7e Levée").</stamp>
+                <stamp>Tampon circulaire noir d'arrivée ou de distribution, partiellement lisible
+                    dans le coin inférieur droit.</stamp>
+
+                <p rend="center">
+                    <address>
+                        <addrLine>Monsieur</addrLine>
+                        <addrLine>Monsieur Isidore Geoffroy S.<hi rend="sup">t</hi>
+                            Hilaire</addrLine>
+                        <addrLine>Professeur au jardin du roi</addrLine>
+                        <addrLine>au Jardin du Roi</addrLine>
+                    </address>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Monsieur Lasalle, 16 octobre 1838</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A681 pièces 1 et 2</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1838-10-16"/>
+                    <settlement><placeName="France, Paris">Paris</settlement>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Lasalle, Monsieur">Monsieur Lasalle</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1"/>
+            <opener>
+                <note place="margin-top-left" rend="pencil">II. 25</note>
+                <salute>Mon cher Monsieur,</salute>
+            </opener>
+            
+            <p>Est-ce que vous seriez assez
+                <lb/>aimable pour m’indiquer un
+                <lb/>moment dans la journée de
+                <lb/>demain pour pouvoir vous dire
+                <lb/>un mot sur l’annonce de mes
+                <lb/>peintures. Dites moi où vous serez
+                <lb/>et j’irai vous trouver.</p>
+            
+            <closer>
+                <salute rend="left">Recevez mes amitiés bien
+                    <lb/>reconnaissantes</salute>
+                <signed rend="right"><persName key="Delacroix, Eugène (1798-1863)">Eug Delacroix</persName></signed>
+            </closer>
+            
+            <p rend="left">ce <del rend="overwritten">lundi</del> Mardi 16.
+                <lb/><note rend="pencil">octobre 1838 (?)</note></p>
+            
+            <p rend="right">rue des marais S. G.<hi rend="sup">ain</hi>
+                <lb/>n°. 17.</p>
+            
+            <pb n="2" xml:id="p2"/>
+            <div type="address">
+                <stamp>Tampon circulaire bleu de la poste de Paris avec les mentions de date et de distribution.</stamp>
+                <stamp>Tampon circulaire noir de la Petite Poste (bureau de quartier) situé sur le bord supérieur.</stamp>
+                <stamp>Tampon de passage ou d'arrivée circulaire noir, très estompé, sur le bord supérieur droit.</stamp>
+                <stamp>Empreinte partielle de tampon circulaire noir (en forme de demi-cercle) dans la partie inférieure gauche.</stamp>
+                <stamp>Empreinte partielle de tampon circulaire noir dans la partie inférieure droite.</stamp>
+                
+                <p rend="center">
+                    <address>
+                        <addrLine>Monsieur</addrLine>
+                        <addrLine>Monsieur Lasalle</addrLine>
+                        <addrLine>Rue de la Bourse n°. 6.</addrLine>
+                    </address>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

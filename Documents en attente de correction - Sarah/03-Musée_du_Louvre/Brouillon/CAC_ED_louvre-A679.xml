@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Monsieur Cavé, 6 décembre 1837</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A679 pièces 1 à 3</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="3" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1837-12-06"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Cavé, Hygin-Auguste (1794-1852)">Monsieur Cavé</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="1"/>
+            <opener>
+                <address>
+                    <addrLine>Monsieur Cavé</addrLine>
+                    <addrLine>Place de la Bourse n° 9</addrLine>
+                    <addrLine>bureau de l'artiste</addrLine>
+                </address>
+                <pb n="2" xml:id="2"/>
+                <dateline><date when="1837-12-06">ce mercredi 6 Xbre <note place="inline">[4
+                            décembre 1837]</note></date></dateline>
+                <salute>Cher ami,</salute>
+            </opener>
+
+            <p>je voudrais bien que vous me rendissiez le service suivant : il a paru dans le
+                    <title>courrier</title> il y a quelques jours, et dans le <title>siècle</title>
+                hier un petit article dans lequel on dit que <persName
+                    key="Delacroix, Eugène (1798-1863)">Mr. Delacroix</persName> n'aura pas fini les
+                peintures de la chambre des députés pour l'ouverture de la session. Je ne puis
+                comprendre dans quel but on a mis une annonce si gratuite et qui d'ailleurs est
+                fausse. Si vous connaissez quelqu'un dans le <title>siècle</title> surtout, je ne
+                doute pas que vous ne puissiez faire mettre une petite note comme par exemple :</p>
+
+            <p>« C'est par erreur que nous avons annoncé que les peintures de <persName
+                    key="Delacroix, Eugène (1798-1863)">Mr. Delacroix</persName>
+                <pb n="3" xml:id="3"/> à la chambre des députés ne seraient pas terminées pour
+                l'ouverture de la session. Les travaux qui n'étaient plus que de simples retouches
+                sont achevés et tout prêt pour la réception du roi. »</p>
+
+            <p>Un petit mot de réponse définitive sur ce que vous pouvez faire : mais à coup sûr
+                vous devez connaître quelqu'un dans cette boutique là.</p>
+
+            <closer>
+                <salute>à vous de cœur ami</salute>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">Eug
+                    Delacroix</persName></signed>
+            </closer>
+
+
+
+        </body>
+    </text>
+</TEI>

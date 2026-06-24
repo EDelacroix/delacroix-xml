@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Hippolyte Gaultron, Paris, mardi 11 [août
+                    1846]</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Gemini</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A768 pièces 1 à 3</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="3" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1846-08-11"/>
+                    <placeName key="France, Paris">Paris</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Gaultron, Hippolyte (1805-1878)">Hippolyte Gaultron</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A768-1.jpg"/>
+            <opener>
+                <salute>Cher <persName key="Gaultron, Hippolyte (1805-1878)">ami</persName>,</salute>
+            </opener>
+
+            <p>je me suis décidé à aller vite et je pars pour une 15<hi rend="sup">ne</hi> pour
+                aller respirer en Berry : croyez vous que je n’ai pas en ce moment pour aller vous
+                voir malgré mon désir. mais ce n’est pas pour longtemps. Je voulais vous demander si
+                vous n’éprouviez pas beaucoup de contrariété de la mort de <gap reason="illegible"/>
+                <del>je le</del>
+                <gap reason="illegible"/> part et serais bien fâché si cela devait modifier <add
+                    place="above">votre</add> position. C’est le cas de se tourner vers la peinture
+                cette bonne mère nourricière, qui ne nourrit en général que ceux qui n’en ont pas
+                besoin.</p>
+
+            <p>je vous envoie par Jenny de petits fonds que j’ai ici à tout événement.</p>
+
+            <pb n="2" xml:id="p2" facs="CAC_ED_louvre-A768-2.jpg"/>
+            <p>Je m’étais arrangé pour aller vous porter cela ce matin avant de partir mais les
+                embarras sont arrivés et je ne puis disposer d’une minute. je vous embrasse de cher
+                ami de deux mains.</p>
+
+            <closer>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">Eug
+                    delacroix</persName></signed>
+                <dateline>Ce mardi 11 :</dateline>
+                <postscript>
+                    <p>Il y a dans le sac 1,000<hi rend="sup">ff</hi> en billets plus 400<hi
+                            rend="sup">ff</hi> en argent.</p>
+                    <p><del>il y avait</del></p>
+                </postscript>
+            </closer>
+
+            <pb n="3" xml:id="p3" facs="CAC_ED_louvre-A768-3.jpg"/>
+            <closer>
+                <address>
+                    <addrLine>Monsieur H. Gaultron</addrLine>
+                    <addrLine>rue Laffitte 41.</addrLine>
+                </address>
+            </closer>
+        </body>
+    </text>
+</TEI>

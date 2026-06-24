@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Adrien Dauzats, 1er mai 1862</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>[Prénom Nom]</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A729</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1862-05-01"/>
+                    <placeName key="France, Paris">Paris</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Dauzats, Adrien (1804-1868)">Adrien Dauzats</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A729-1.jpg"/>
+            <opener>
+                <dateline>Ce <date when="1862-05-01">1<hi rend="sup">er</hi> mai
+                    1862</date></dateline>
+                <salute>cher Dauzats</salute>
+            </opener>
+
+            <p>je viens vous prier d’appuyer s’il est possible, à votre Commission une demande de
+                travail que Riesener envoie au ministre d’état : il aura, j’espère, quelques voix
+                encore qui le mettront dans une bonne position. Vous m’obligerez beaucoup en cela si
+                rien ne s’y oppose. Je savais que vous n’étiez pas encore ici : mad. Herbelin qui
+                m’a reçu il y a deux jours avec sa bonté ordinaire, m’a parlé de votre course à
+                Londres : j’ai été effrayé de la fatigue que vous avez à supporter avec les Sauvages
+                : les artistes doivent vous en savoir un double gré. ménagez vous bien : je traîne
+                toujours un peu. Deux ou trois soirées m’ont fatigué</p>
+
+            <pb n="2" xml:id="p2" facs="CAC_ED_louvre-A729-2.jpg"/>
+            <p>comme un voyage de long cours.</p>
+
+            <closer>
+                <salute>adieu cher ami : mille dévoue<lb/>-ments de cœur.</salute>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">Eug
+                    Delacroix</persName></signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

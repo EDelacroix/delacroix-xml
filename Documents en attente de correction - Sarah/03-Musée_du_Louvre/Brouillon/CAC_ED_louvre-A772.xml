@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Hippolyte Gaultron, [14 janvier 1850]</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>[Prénom Nom]</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A772 pièces 1 et 2</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1850-01-14"/>
+                    <placeName key="France, Paris">Paris</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Gaultron, Hippolyte (1805-1878)">Hippolyte Gaultron</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A772-1.jpg"/>
+            <opener>
+                <add place="top-center">Voir Date Vente Mornay / n'est ce pas 1854 ? / <date
+                        when="1850-01-14">14 Janvier 1850.</date></add>
+                <add place="top-right">16</add>
+                <salute>Cher <persName key="Gaultron, Hippolyte (1805-1878)">ami</persName>,</salute>
+            </opener>
+
+            <p>j’ai appris cela ce matin par hasard : notez le tous que M<hi rend="sup">le</hi> de
+                Jouy Mornay de mettre en vente à la fois et dans ce moment plusieurs tableaux dont
+                quelques uns capitaux et sans me prévenir ! Mais, ce n’est rien ; la Cléopâtre ne
+                m’est pas payée : j’ai envoyé tout à l'heure un mot à Eymaud pour le prier, s’il y
+                avait moyen, de mettre opposition pour celui-là. Je suis indigné du procédé et veux
+                lui faire cette avanie. Vous m'offrez d'aller à la vente : en vérité vous me feriez
+                bien plaisir et vous me direz comment cela se passera. Je crains fort que ce soit
+                pitoyable.</p>
+
+            <closer>
+                <salute>mille remerciements cher ami et tendresses</salute>
+                <signed>
+                    <persName key="Delacroix, Eugène (1798-1863)">Eug delacroix</persName>
+                </signed>
+            </closer>
+
+            <pb n="2" xml:id="p2" facs="CAC_ED_louvre-A772-2.jpg"/>
+            <closer>
+                <address>
+                    <addrLine>Monsieur Gaultron</addrLine>
+                </address>
+            </closer>
+        </body>
+    </text>
+</TEI>

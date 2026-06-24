@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brouillon d’une adresse de la Société libre de peinture et de sculpture à
+                    Apollinaire d’Argout, ministre de l’Intérieur, [1831]</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A673 pièces 1 à 7</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="draft">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="7" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1831" cert="medium" label="[1831]"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Argout, Apollinaire d' (1782-1858)">Apollinaire
+                        d'Argout</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1"/>
+            <div type="cover">
+                <note place="top-left" rend="pencil">A. Moreau</note>
+                <note place="top-right" rend="pencil">(en tête)</note>
+                <p rend="center">
+                    <persName key="Delacroix, Eugène (1798-1863)">Eugene Delacroix</persName>
+                    <lb/><date>1831</date>
+                    <lb/>Brouillon d'une Adresse envoyée <lb/>par la Société libre de Peinture
+                    <lb/>à d'Argout ministre <lb/>pour s'opposer à un nouvel <lb/>Empiétement de
+                    l'Institut. </p>
+            </div>
+
+            <pb n="2" xml:id="p2"/>
+            <opener>
+                <note place="top-left" rend="pencil">T. 286</note>
+                <note place="top-right" rend="pencil">23</note>
+                <salute>Monsieur le Ministre,</salute>
+            </opener>
+
+            <p>Les membres de la société libre de peinture et Sculpture demandent à vous soumettre
+                quelques observations relatives aux acquisitions d'objets d'art que le gouvernement
+                se propose de faire à l'exposition du Louvre. Ils ont été conduits à cette démarche
+                par le bruit généralement répandu dans le public, que l'on <del rend="overstrike">se
+                    proposait</del> comptait s'en reposer sur une commission du soin de faire les
+                choix parmi les tableaux et les statues. Cette mesure pouvant avoir les conséquences
+                les plus graves pour tout ce qui touche à l'existence des artistes, il y a lieu
+                d'espérer que vous voudrez bien prendre en considération les observations</p>
+
+            <pb n="3" xml:id="p3"/>
+            <p>à une intolérance extrême, qui se manifeste dans la manière dont ils apprécient
+                mutuellement leurs ouvrages. Il est remarquable que même parmi les personnes qui ne
+                sont point artistes de profession, mais qui suivent seulement avec intérêt les
+                productions des arts, il en est peu qui ne cédassent à une inclination particulière
+                dans le choix qu'elles pourraient être appelées à faire. Presque toutes, épousant un
+                système particulier, portent dans leurs jugements une passion toute naturelle et
+                soutiennent avec chaleur <del rend="overstrike">quelques artistes</del>
+                <add place="above">les</add> objets de leur prédilection.</p>
+
+            <p>Il ya plusieurs mois, les artistes commencèrent à se réunir pour demander diverses
+                réformes et obtenir quelques améliorations <del rend="overstrike">dans les</del>
+                branches de l'admi-nistration qui les concernaient. Plusieurs</p>
+
+            <pb n="4" xml:id="p4"/>
+            <p>assemblées tumultueuses eurent lieu, dans lesquelles il fut impossible de tomber
+                d'accord même pour les points les plus essentiels. Des résolutions étaient prises un
+                jour par une majorité, et le lendemain, une autre majorité que le hasard avait
+                réunie, décidait en sens contraire. Beaucoup de personnes ne demandaient la réforme
+                de certains abus que parce qu'elles n'en profitaient pas. Il y eut des prétentions
+                insoutenables ou qui semblaient telles, parce qu'une grande partie des assistants
+                avait toujours le dessous dans chaque délibération. Après de nombreux tâtonnements,
+                il arriva que deux sociétés rivales se formèrent, qui résumèrent à peu près les
+                exigences de tous les artistes, <del rend="overstrike">et</del>
+                <add place="above">sous l'</add>aspect <add place="above">de chacune</add> de <del
+                    rend="overstrike">leurs</del> travaux depuis leur formation, est là pour
+                constater combien est</p>
+
+            <pb n="5" xml:id="p5"/>
+            <p>tranchée la ligne qui les sépare. Elles pré-sentèrent des demandes exactement
+                différentes à la commission qui avait été nommée par le ministre de l'intérieur pour
+                revoir les règlements de l'école des beaux arts, et dans le sein de cette commission
+                elle même, il est notoire que chacune des opinions fut représentée et soutenue, et
+                les décisions y étant prises à la majorité des suffrages, ce fut le hasard du nombre
+                qui fit triompher l'une ou l'autre.</p>
+
+            <p>C'est sur cet inconvénient <del rend="overstrike">le plus à craindre de tous, que les
+                    soussignés ont l'honneur de fixer votre attention</del>. Dans toute commission,
+                de quelque manière qu'elle soit composée, la passion particulière que protège le
+                secret du vote, la chance d'une réunion plus ou moins favorablement disposée,
+                peuvent écarter le talent et</p>
+
+            <note place="margin-left">
+                <p>⁜ [Les soussignés ont l'honneur <del rend="overstrike">de fixer</del>
+                    <add place="above">d'appeler particulièrement</add> votre attention sur un
+                    inconvénient le plus préjudiciable de tous, celui qui résulte de l'influence
+                    passagère d'une majorité dont les décisions sont néanmoins immuables et toujours
+                    opposées pour l'opinion rivale. —]</p>
+            </note>
+
+            <pb n="6" xml:id="p6"/>
+            <p>décourager à jamais les artistes dans leur carrière si longue et si difficile. Les
+                encouragements du gouvernement sont les seuls qui puissent les soutenir dans
+                plusieurs branches de l'art. Laisser à la passion de leurs rivaux, artistes comme
+                eux, ou à la prévention et à l'attention distraite de personnes étrangères à leur
+                profession, le soin de juger du degré de leur mérite, c'est ébranler toute leur
+                existence. Les hommes du talent et du caractère le plus élevé ne seront pas pour eux
+                des juges moins prévenus. La conviction dans les arts est une autre religion, <add
+                    place="left">qui a aussi ses fanatiques,</add> plus ferme et plus profonde
+                encore chez les hommes éminents. Mais quelque respectable qu'elle puisse être comme
+                opinion particulière et affaire de conscience, elle ne doit point étendre son
+                influence sur ce qui touche à des questions d'un intérêt matériel.</p>
+
+            <pb n="7" xml:id="p7"/>
+            <p>En s'en rapportant à l'administration pour les encouragements à donner, les
+                soussignés ont pensé que c'était la voie qui donnait le moins d'accès à des
+                préférences dictées par l'esprit de coterie. L'autorité ne peut que consulter la
+                voix publique qui désigne suffisamment les hommes remarquables. Son action consiste
+                à tenir une sorte de balance entre des prétentions rivales avec toute la réserve
+                qu'impose cette mission, et l'expérience a déjà prouvé dans plusieurs essais que son
+                influence ne pouvait en aucun cas présenter autant d'inconvénients que le système
+                contraire des jurys et des commissions. Les membres de la société de peinture et
+                sculpture ont l'espoir, Monsieur le Ministre, que vous voudrez bien prendre en
+                considération cette demande qui intéresse à un si haut degré et qui est digne <add
+                    place="above">en tout</add> de <del rend="overstrike">toute</del> votre
+                sollicitude.</p>
+        </body>
+    </text>
+</TEI>

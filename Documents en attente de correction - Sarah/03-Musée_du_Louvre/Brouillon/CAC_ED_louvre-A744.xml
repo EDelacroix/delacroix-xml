@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Adrien Dauzats, ce 11 Xbre 1862</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>[Prénom Nom]</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A744 pièces 1 à 3</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="3" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1862-12-11"/>
+                    <placeName key="France, Paris">Paris</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Dauzats, Adrien (1804-1868)">Adrien Dauzats</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A744-1.jpg"/>
+            <opener>
+                <add place="inline">20</add>
+                <dateline>Ce <date when="1862-12-11">11 décembre</hi>
+                    1862</date></dateline>
+                <salute>Mon cher Dauzats</salute>
+            </opener>
+
+            <p>Riesener m’écrit de nouveau pour me prier de me rappeler au souvenir de vos collègues
+                de la Commission et au vôtre. Il a envoyé une pétition motivée par sa position et
+                par ses travaux au Ministre d’Etat : il craint que l’on n’ait mis cette demande de
+                côté ou qu’elle ne soit pas venue sous les yeux de la Commission. Il a grand besoin
+                d’un travail, n’ayant plus rien sur le chevalet de commandé et se trouvant fort à
+                court. Vous savez combien son talent est digne d’intérêt et vous m’obligeriez
+                personnellement beaucoup en lui tendant la main. S’il</p>
+
+            <pb n="2" xml:id="p2" facs="CAC_ED_louvre-A744-2.jpg"/>
+            <p>faut faire auprès de vous ou de vos messieurs une nouvelle démarche, ou s’il faut
+                qu’il écrive de nouveau au Bureau des Beaux-Arts, veuillez me le faire savoir par un
+                mot.</p>
+
+            <p>Je ne bouge pas du coin de mon feu, fort souffrant des bronches, ce qui m’ôte tout
+                l’agrément d’aller vous voir.</p>
+
+            <closer>
+                <salute>Mille amitiés de cœur.</salute>
+                <signed>
+                    <persName key="Delacroix, Eugène (1798-1863)">Eug Delacroix</persName>
+                </signed>
+            </closer>
+
+            <pb n="3" xml:id="p3" facs="CAC_ED_louvre-A744-3.jpg"/>
+            <closer>
+                <address>
+                    <addrLine>Monsieur</addrLine>
+                    <addrLine>Monsieur Dauzats</addrLine>
+                    <addrLine>rue Ollivier, 14.</addrLine>
+                </address>
+            </closer>
+        </body>
+    </text>
+</TEI>

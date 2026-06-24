@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Charles Pierret, [printemps 1821]</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A611 pièces 1 et 2</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date label="[printemps 1821]"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Pierret, Charles (1799-1854)">Charles Pierret</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <opener>
+                <pb n="2" xml:id="p2"/>
+                <address>
+                    <addrLine>à monsieur</addrLine>
+                    <addrLine>Pierret fils</addrLine>
+                    <addrLine>à Paris</addrLine>
+                </address>
+
+                <pb n="1" xml:id="p1"/>
+                <note place="margin-top-left" rend="pencil">I. 124</note>
+            </opener>
+
+            <p>Je suis le plus grand des étourdis, mon cher ami. Je n'ai pas pensé que <del
+                    rend="overstrike">J</del> Mardi aussi bien que toute la semaine prochaine je
+                serais à l'académie depuis 3 heures jusqu'à 5 passées. Je n'ose vous prier de me
+                sacrifier une de vos soirées. Néanmoins je serai à la maison tous les soirs
+                probablement, &amp; principalement Mardi Lundi ou jeudi. Comme il ne fait plus froid
+                et que je suis installé dans ma chambre nous serons plus à notre aise pour
+                bavarder.</p>
+
+            <p>Je perds beaucoup de temps, beaucoup de toile, beaucoup de couleurs &amp; je ne suis
+                qu'une motte.</p>
+
+            <closer>
+                <salute><del rend="overstrike"><gap reason="illegible" extent="word"/></del>
+                    <add place="above">Je t'attendrai</add></salute>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène</persName></signed>
+                <dateline><note place="inline" rend="pencil">printemps 1821 ?</note></dateline>
+            </closer>
+        </body>
+    </text>
+</TEI>

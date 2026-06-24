@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Henri Duponchel, 3 septembre 1834</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A676 pièces 1 et 2</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1834-09-03"/>
+                    <settlement key="Paris">Paris</settlement>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Duponchel, Henri (1794-1868)">Henri Duponchel</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1"/>
+            <opener>
+                <note place="margin-top-left" rend="pencil">T. 380</note>
+                <note place="margin-top-right" rend="pencil">3. septembre 1834</note>
+                <salute>Mon bon ami,</salute>
+            </opener>
+
+            <p>vous me feriez <lb/>bien plaisir de m’envoyer le plutot <lb/>possible les titres
+                d’ouvrages d’archi- <lb/>tecture <add place="above">modernes</add> que vous me
+                recommandiez <lb/>pour un homme qui voudrait <lb/>étudier lui même pour un cottage
+                <lb/>qu’il construit, et ayant déja quelques <lb/>connaissances en architecture.
+                <lb/>vous rappelez vous ?</p>
+
+            <closer>
+                <salute rend="right">à vous de cœur.</salute>
+                <signed rend="right">
+                    <persName key="Delacroix, Eugène (1798-1863)">Eug Delacroix</persName>
+                </signed>
+            </closer>
+
+            <p>Et plutot s’il se peut. je pars dimanche.</p>
+
+            <p rend="left">ce mercredi matin <lb/><placeName>q. voltaire. 15.</placeName></p>
+
+            <pb n="2" xml:id="p2"/>
+            <div type="address">
+                <p rend="center">
+                    <address>
+                        <addrLine>Monsieur</addrLine>
+                        <addrLine>
+                            <persName key="Duponchel, Henri (1794-1868)">Monsieur
+                                Duponchel</persName>
+                        </addrLine>
+                        <addrLine>d<hi rend="sup">on</hi> de l’opéra ou adm<hi rend="sup">on</hi> de
+                            l’opéra</addrLine>
+                        <addrLine>rue Grange Batelière.</addrLine>
+                    </address>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

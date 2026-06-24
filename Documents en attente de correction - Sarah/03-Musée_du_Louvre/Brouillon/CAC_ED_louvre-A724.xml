@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à [Hurel], 24 septembre 1857</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>[Prénom Nom]</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A724</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="3" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1857-09-24"/>
+                    <placeName key="France, Paris">Paris</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Hurel">Hurel</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1"/>
+            <opener>
+                <add place="inline">Envoyé copie à M. Hurel</add>
+                <dateline>Ce <date when="1857-09-24">24 Sept. 1857</date>.</dateline>
+                <salute>Monsieur, <add place="inline">(à Monsieur Hurel) <lb/>le brouillon de cette
+                        lettre conservé à la <lb/>Bibliothèque d'Art</add></salute>
+            </opener>
+
+            <p>Je ne puis me rendre compte tout-à-fait, en avançant dans les réparations de
+                l'appartement de la rue de Furstemberg, de l'état de dégradation où il se trouvait
+                et qui passe tout ce que j'avais imaginé au premier abord ; je me trouve forcé à des
+                dépenses plus considérables et c'est dans cette considération, comme aussi dans
+                l'intérêt de la bonne tenue de la maison, que j'ai pensé que vous ne trouveriez pas
+                indiscrète la demande que je prends la liberté de vous adresser, de rapproprier
+                autant qu'il sera possible l'extérieur, sur la cour, sur le jardin qui sera
+                également mis en état et sur la porte cochère qui ouvre sur la rue.</p>
+
+            <p>Je me trouve forcé de refaire complètement le plancher de la salle à manger. Cette
+                réparation est de celles que sont ordinairement à la charge des propriétaires. Les
+                poutres de chaque côté</p>
+
+            <pb n="2" xml:id="p2"/>
+            <p>de la pièce, avaient fléchi, au point de détruire entièrement le niveau du sol. Le
+                tapis qui le recouvrait auparavant, avait empêché d'apprécier cet inconvénient. J'y
+                fais mettre un parquet, comme celui des autres pièces, au lieu des carreaux de
+                pierre qui s'y trouvaient.</p>
+
+            <p>Je vous cite ce détail important, Monsieur, parmi d'autres améliorations
+                indispensables, telles que corniches, en menuiserie et glace partout, un beau
+                fourneau dans la cuisine où il n'y en avait aucun, en un mot, aménagements de toutes
+                sortes pour le chauffage ou pour la commodité en général, qui donneront à
+                l'habitation une toute autre valeur. Je désirerais vivement que la maison pût se
+                trouver autant que possible, dans une certaine harmonie avec la nouvelle physionomie
+                de l'appartement du premier.</p>
+
+            <p>Vous avez bien voulu aussi me faire espérer un carreau de verre épais, au soupirail
+                de cave établi dans la cour. cette ouverture rend impraticable le passage qui est
+                au-dessus.</p>
+
+            <closer>
+                <salute>Recevez,</salute>
+            </closer>
+
+            <pb n="3" xml:id="p3"/>
+            <p>Monsieur, l'assurance de mes sentiments les plus distingués.</p>
+
+            <closer>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">Eug
+                    Delacroix</persName></signed>
+            </closer>
+
+            <p>J'ai compté pour adresser cette lettre un peu plus tard. J'ai été pendant trois jours
+                très indisposé.</p>
+
+        </body>
+    </text>
+</TEI>

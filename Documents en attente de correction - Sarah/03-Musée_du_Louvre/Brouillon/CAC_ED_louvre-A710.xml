@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à un ministre, 4 mai 1847</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A710 pièces 1, 2 et 3</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="3" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1847-05-04"/>
+                    <placeName key="France, Paris"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="">Monsieur le Ministre</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1"/>
+            <opener>
+                <dateline>Ce <date when="1847-05-04">4 mai 1847</date>.</dateline>
+                <salute>Monsieur le Ministre,</salute>
+            </opener>
+
+            <p>J'ose joindre ma faible recommandation à celles qui vous sont présentées en faveur de
+                M. Pierret, qui sollicite une place de chef de bureau ou de section dans
+                l'administration des chemins de fer.</p>
+
+            <p>Lié avec lui depuis près de trente ans, je puis garantir à Votre Excellence, autant
+                qu'homme le peut faire pour un autre, sa parfaite probité, sa capacité pour le
+                travail et son entier dévouement.</p>
+
+            <pb n="2" xml:id="p2"/>
+            <p>Une famille nombreuse et intéressante rend sa position digne de tout l'intérêt d'un
+                ministre qui aime à encourager le mérite malheureux.</p>
+
+            <p>Si la considération que Votre Excellence veut bien accorder quelquefois à mes travaux
+                pouvait ajouter quelque poids à ma prière, je bénirais le jour où j'aurais pu être
+                utile à un homme que j'estime au plus haut degré.</p>
+
+            <pb n="3" xml:id="p3"/>
+            <p>Je suis avec le plus profond respect, Monsieur le Ministre, de Votre Excellence, le
+                très humble et très obéissant serviteur.</p>
+
+            <closer>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">Eug.
+                    Delacroix</persName></signed>
+            </closer>
+
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à un ami, d'Eaux-Bonnes, 5 août</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>[Prénom Nom]</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A763 pièces 1 à 4</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="4" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date xml:id="unknown-date"/>
+                    <placeName key="France, Eaux-Bonnes">Eaux-Bonnes</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="unknown">[Cher ami]</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A763-1.jpg"/>
+            <opener>
+
+                <dateline><placeName>Eaux-bonnes</placeName>
+                    <date when="18..-08-05">5 août</date>.</dateline>
+                <salute>Cher ami</salute>
+            </opener>
+
+            <p>je vous écris du fond de mon ennui. Je suis resté jusqu’ici, cependant d’abord, ayant
+                fait la route, l’espoir de tirer plus de fruit de mon déplacement m’a fait
+                obtempérer aux ordres du docteur. Il m’a demandé au moins 20 jours et je les lui
+                donne. Ce lieu n’est pas seulement rempli de malades : mais il l’est aussi d’oisifs,
+                dont l’occupation est de faire des parties dans les environs et de changer de
+                cravate trois ou quatre fois par jour. on rencontre ici tous ces gens qu’on salue à
+                peine à Paris et qui ici s’accrochent à vous d’une manière impitoyable. Je vous
+                écris bien tard quoique j’aie mis la main à la plume plus d’une fois pour cela :
+                mais vous n’avez pas idée de la vie décousue qu’on est obligé de mener ici : les
+                interruptions sont <pb n="2" xml:id="p2" facs="CAC_ED_louvre-A763-2.jpg"/>
+                continuelles. vous êtes astreint à tous les soins qui entraînent les eaux et les
+                voisins de chambrée sont un autre fléau qui vous harcèle. Le temps m’a semblé
+                énormément long ; il me semble que je suis parti depuis trois mois et toutes ces
+                montagnes fort belles et fort pittoresques dont je suis entouré ne suffisent pas
+                pour m’empêcher de regretter mon échafaud au Luxembourg. Je compte partir d’ici le
+                14 c’est-à-dire à peu près dans huit jours. si vous êtes assez gentil pour me
+                répondre ou si vous aviez terminé quelque chose de pressé vous me l’adresseriez
+                    <underline>à Bordeaux chez Mr. L<gap reason="illegible"/> Delacroix allées
+                    d’Amour 63</underline>. Je passerai quelques jours avec lui, mais je serai au
+                plus tard le 20 ou 21 à Paris suivant mon estime.</p>
+
+            <p>je vous ai laissé chargé d’objets bien ennuyeux mon bon ami et en tête d’un homme peu
+                supportable mon clerc ou mon propriétaire. aurons nous pied ou aile de ce qui nous
+                revient ? avec cet honnête c’est chose plus <pb n="3" xml:id="p3"
+                    facs="CAC_ED_louvre-A763-3.jpg"/> que douteuse. Travaillez vous à travers tout
+                cela. J’espère vous ne voyagez pas, profitez du temps. On le dit détestable à Paris.
+                ici c’est comme un fait exprès ; cet endroit est une espèce d’entonnoir dans lequel
+                les nuages se donnent rendez vous. La pluie y est presque continuelle et il est de
+                fait que si ces eaux sont salutaires pour guérir les rhumes obstinés, aucun lieu
+                n’est plus propre à en donner. C’est, comme vous voyez, tout comme la lance
+                d’Achille qui ferait la blessure et qui la guérissait. c’est du reste un triste
+                spectacle que celui de ces agonisants qui se traînent à cette source déjà condamnés
+                par toutes les facultés. on entend de tous côtés des toux déchirantes et en même
+                temps on rencontre des cavalcades d’élégants de Bordeaux et de Carcassonne, mais
+                aussi de Paris dans des toilettes incroyables.</p>
+
+            <p>La beauté de cette nature des Pyrénées n’est pas de celle qu’on peut espérer de
+                rendre avec la peinture d’une manière heureuse. indépendamment de l’impossibilité
+                d’un travail suivi, tout cela est trop gigantesque et on ne <pb n="4" xml:id="p4"
+                    facs="CAC_ED_louvre-A763-4.jpg"/> sait pas où commencer au milieu de ces masses
+                et de cette multitude de détails.</p>
+
+            <p>Un mot à Bordeaux cher ami qui me parle de vous et de ce qui vous intéresse. Je vous
+                embrasserai bientôt j’espère. Recevez ici en attendant mes tendresses bien
+                vraies.</p>
+
+            <closer>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">Ey
+                    delacroix</persName></signed>
+                <postscript>
+                    <p>Je vous demande d’écrire à <placeName key="France, Bordeaux">Bordeaux</placeName> parce qu’il faut 8 grands jours pour
+                        avoir la réponse ici et qu’il est probable que je serai parti.</p>
+                </postscript>
+            </closer>
+        </body>
+    </text>
+</TEI>

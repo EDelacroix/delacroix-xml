@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Dominic Colnaghi, 26 février 1831</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A674 pièces 1 et 2</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1831-02-26"/>
+                    <settlement key="Paris">Paris</settlement>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Colnaghi, Dominic (1788-1879)">Dominic Colnaghi</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1"/>
+            <opener>
+                <note place="margin-top-left" rend="pencil">T. 266</note>
+                <note place="margin-top-left" rend="pencil">2305</note>
+                <dateline rend="right">
+                    <settlement key="Paris">Paris</settlement>
+                    <date when="1831-02-26">26 fevrier 1831.</date>
+                </dateline>
+                <salute>Monsieur,</salute>
+            </opener>
+
+            <p>Je vous serais fort obligé de me faire savoir dans le plus court delai par le moyen
+                de M<hi rend="sup">r</hi> Henry Gangain qui se charge de vous transmettre cette
+                lettre le tableau que vous avez eu la bonté d'avoir chez vous pendant quelque temps
+                et que vous vous etiez chargé de mettre à l'exposition de <hi rend="underlined"
+                    >Somerset House</hi>. Je désirerais que vous fissiez prendre <del
+                    rend="overstrike">le mien</del> chez <hi rend="underlined">M<hi rend="sup"
+                        >r</hi> A. Elmore, 3. John Street Edgware road</hi> un autre tableau qui se
+                trouve chez lui et que je voudrais que vous m'expédiiez <del rend="overstrike"><gap
+                        reason="illegible" quantity="1" unit="character"/></del> en même temps que
+                l'autre, pensant que de cette manière les frais seront moins considérables. M<hi
+                    rend="sup">r</hi> Gangain me promet de s'enten-dre avec vous sur vos déboursés
+                et <add place="above">de</add> régler cette</p>
+
+            <pb n="2" xml:id="p2"/>
+            <div type="address">
+                <note>1831</note>
+                <note>M. Delacroix</note>
+                <note>Paris</note>
+
+                    <address>
+                        <addrLine>
+                            <persName key="Colnaghi, Dominic (1788-1879)">D. Colnaghi Esq<hi
+                                    rend="sup">r</hi></persName>
+                        </addrLine>
+                        <addrLine>
+                            <hi rend="underlined">Pall Mall East.</hi>
+                        </addrLine>
+                        <addrLine>
+                            <settlement key="Londres">London.</settlement>
+                        </addrLine>
+                    </address>
+            </div>
+        </body>
+    </text>
+</TEI>

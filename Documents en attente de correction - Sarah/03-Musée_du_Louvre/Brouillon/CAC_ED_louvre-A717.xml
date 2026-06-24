@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Philippe Andrieu, 18 décembre 1862</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A717 pièces 1, 2 et 3</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="3" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1862-12-18"/>
+                    <placeName>
+                        <settlement key="Paris">Paris</settlement>
+                    </placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Andrieu, Philippe (1821-1887)">Philippe Andrieu</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1"/>
+            <opener>
+                <add place="inline">IV.354</add>
+                <dateline>Paris <date when="1862-12-18">18 X<hi rend="superscript">bre</hi>
+                        1862</date>.</dateline>
+                <salute>Mon cher Andrieu,</salute>
+            </opener>
+
+            <p>Je vous puis mille fois reconnaissant ainsi qu'à Monsieur votre oncle de l'aimable
+                envoi que vous avez eu l'obligeance de me faire. Le pâté est excellent, beaucoup
+                trop bon même pour un estomac aussi peu solide que le mien, et je suis obligé d'en
+                user avec une extrême modération. Je vous remercie aussi de votre bon souvenir et
+                fais des vœux bien sincères pour que vous obteniez la commande que vous sollicitez.
+                Ce serait une excellente occasion de vous exercer et vous mettrait à l'aise pour
+                quelque temps. Une semblable bonne fortune dans ce moment n'arrive pas à beaucoup
+                d'artistes : la plupart se croisent les bras : beaucoup d'entre eux ont tout à fait
+                renoncé</p>
+
+            <pb n="2" xml:id="p2"/>
+            <p>au métier, quoique à vrai dire, je ne sais pas trop quelle autre ressource ils
+                pourraient trouver dans l'état de stagnation où sont toutes choses. Je suis de
+                retour à Paris depuis une vingtaine de jours. À la campagne, loin du bruit, j'avais
+                pu travailler un peu : mais ici cela m'est presque impossible.</p>
+
+            <p>Renouvelez je vous prie à Monsieur votre oncle les assurances de ma considération et
+                de mon respect : j'espère que vous finirez par reconnaître tout ce qu'il a fait pour
+                vous et l'occasion en est peut-être prochaine. Je vous renvoie cette lettre en la
+                mettant à son adresse : celle que vous avez écrite au bas de votre lettre est très
+                difficile à lire et je craindrais de me tromper en l'écrivant. Recevez,</p>
+
+            <pb n="3" xml:id="p3"/>
+            <p>mon cher Andrieu, l'assurance de mes sentiments d'estime et d'amitié bien
+                sincère.</p>
+
+            <closer>
+                <signed>
+                    <persName key="Delacroix, Eugène (1798-1863)">Eug Delacroix</persName>
+                </signed>
+            </closer>
+
+            <p>Je n'ai pas encore eu l'occasion de communiquer à Gaultron ce que vous me dites pour
+                lui : mais ce sera fait.</p>
+
+        </body>
+    </text>
+</TEI>

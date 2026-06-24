@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Champfleury, 5 mai [s.d.]</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A660 pièces 1 à 3</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="3" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1854-05-05" cert="medium" label="5 mai"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Champfleury (1821-1889)">Champfleury</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1"/>
+            <opener>
+                <note place="margin-top-left" rend="pencil">52</note>
+                <note place="margin-top-left" rend="pencil">III p. 66</note>
+                <dateline><date>Ce 5 mai</date></dateline>
+                <salute>Mon cher Monsieur,</salute>
+            </opener>
+
+            <p>Je ne voulais pas répondre tout de suite parce que je n'ai pu réunir qu'hier les
+                lithographies de l'Hamlet. Je ne croyais plus en avoir d'exemplaire complet : il me
+                restait une certaine quantité d'épreuves qui avaient été tirées en nombre supérieur,
+                je ne sais pas quelle raison. De plus je n'étais pas à portée de faire cette
+                recherche comme je l'aurais voulu : mon atelier est encombré par une toile de 24
+                pieds qui m'a forcé à reléguer au grenier tous mes cartons, et celui où j'ai
+                retrouvé ces dessins était oublié depuis longtemps. À qui voulez vous que je donne
+                avec plaisir ces croquis</p>
+
+            <pb n="2" xml:id="p2"/>
+            <p>si ce n'est à ceux à qui ils font plaisir ? Je les avais fait tirer à un petit nombre
+                et bien m'en avait pris, car ils n'ont pas eu de succès, et sont loin de m'avoir
+                indemnisé des frais de tirage.</p>
+
+            <p>Je vous les aurais envoyés, si vous ne me disiez que vous voulez venir chez moi : je
+                m'acquitterai aussi plus tard de tout ce que je devrais vous dire sur ce que vous
+                écrivez sur moi. Je ne lis aucun journal : mon regret est donc de ne pouvoir jamais
+                rien savoir dans ce genre et j'avoue avec plaisir que je le regrette beaucoup. Vous
+                seriez bien aimable si vous pouviez m'indiquer comment je peux <del
+                    rend="overstrike">atteindre</del>
+                <add place="above">courir</add> après quelques uns de vos articles. Vous ai-je
+                remercié de ce que vous avez dit dans <hi rend="underlined">votre volume</hi> : il
+                ya deux ans que</p>
+
+            <pb n="3" xml:id="p3"/>
+            <p>je remets cette obligation.</p>
+
+            <p>Si vous pouviez venir dans la matinée vous seriez plus assuré de me trouver.</p>
+
+            <closer>
+                <salute>Recevez cher Monsieur les assurances de mon sincère dévouement</salute>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">Eug
+                    Delacroix</persName></signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

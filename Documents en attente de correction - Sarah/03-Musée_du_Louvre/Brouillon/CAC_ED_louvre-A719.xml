@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Philippe Andrieu, 25 mai 1853</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A719 pièces 1, 2 et 3</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="3" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1853-05-25"/>
+                    <placeName>
+                        <settlement key="Champrosay">Champrosay</settlement>
+                    </placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Andrieu, Philippe (1821-1887)">Philippe Andrieu</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1"/>
+            <opener>
+                <dateline>Champrosay par Draveil <lb/>Seine et Oise <lb/><date when="1853-05-25">25
+                        mai 1853</date>.</dateline>
+                <salute>Mon cher Andrieu,</salute>
+            </opener>
+
+            <p>Je n'ai reçu qu'à présent votre dernière lettre. Elle était à Paris et moi à la
+                campagne où j'ai passé beaucoup de temps avec de la pluie et par conséquent peu de
+                distractions. Maintenant que le temps est plus beau et que vous m'annoncez que votre
+                travail peut se prolonger encore, je vais profiter de quelques jours de plus et
+                comme à mon retour à Paris, j'aurai quelques touches à donner pour finir quelques
+                petits tableaux que je ne veux pas laisser en arrière en reprenant mon grand
+                travail, je vous</p>
+
+            <pb n="2" xml:id="p2"/>
+            <p>engage à rester le temps qu'il vous faudra pour terminer votre copie convenablement.
+                quand je serai de retour à Paris vers la fin du mois je m'occuperai à redemander les
+                échafauds et à faire préparer la salle : mais nous ne pouvons guère travailler avant
+                le 15 juin. Si vous étiez à Paris quelques jours auparavant nous en profiterions
+                pour nous installer.</p>
+
+            <p>J'ai eu beaucoup de chagrin de votre refus que j'avais prévu si vous vous rappelez
+                mon impression. Il n'y a pas de moyen de convertir les collègues et véritablement il
+                y avait beaucoup à reprendre.</p>
+
+            <pb n="3" xml:id="p3"/>
+            <p>nous causerons de tout cela. Il ne faut pas vous décourager mais penser sérieusement
+                à acquérir ce qui vous manque. J'aurai grand plaisir à vous revoir à l'œuvre. Il
+                faudra que vous portiez là un travail à faire pour vous pendant les moments où vous
+                ne pourrez rien faire pour moi.</p>
+
+            <p>Recevez mon cher Andrieu mes compliments bien dévoués.</p>
+
+            <closer>
+                <signed>
+                    <persName key="Delacroix, Eugène (1798-1863)">E Delacroix</persName>
+                </signed>
+            </closer>
+
+            <p>Jenny vous remercie beaucoup de votre souvenir et ne va pas trop bien. ce qui me
+                chagrine beaucoup.</p>
+
+            <add place="inline">49</add>
+        </body>
+    </text>
+</TEI>

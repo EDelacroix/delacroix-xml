@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Philippe Andrieu, 17 novembre 1860</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A718</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="1" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1860-11-17"/>
+                    <placeName><settlement key="Champrosay">Champrosay</settlement></placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Andrieu, Philippe (1821-1887)">Philippe Andrieu</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1"/>
+            <opener>
+                <add place="inline">IV.210</add>
+                <dateline>Champrosay ce <date when="1860-11-17">17 nov. 1860</date></dateline>
+                <salute>Mon cher Andrieu,</salute>
+            </opener>
+            
+            <p>je ne vois d'autre moyen de guérir mon rhume que de ne pas me promener sur les chemins. Je prends donc le parti de revenir tout à fait à Paris, seulement cela ne peut être avant quelques jours pour des considérations qui me forcent encore à être ici. J'aurai le temps de me remettre à même de continuer notre travail que je désire vivement ne point interrompre qu'il ne soit fini si la chose est possible. travaillez et vous reposez vous comme moi quelques jours. vous avez encore à faire au plafond : continuez si vous n'avez rien à faire de mieux. Je vous avertirai de mon retour.</p>
+            
+            <closer>
+                <salute>à vous bien sincèrement</salute>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">E Delacroix</persName></signed>
+            </closer>
+            
+            <add place="inline">48</add>
+        </body>
+    </text>
+</TEI>
+

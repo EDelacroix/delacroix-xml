@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Auguste Couder, 28 décembre 1856</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A700 pièces 1, 2 et 3</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="3" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1856-12-28"/>
+                    <settlement key="Paris">Paris</settlement>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Couder, Auguste (1789-1873)">Auguste Couder</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1"/>
+            <opener>
+                <note place="margin-top-left" rend="pencil">III. 350</note>
+                <dateline>Ce <date when="1856-12-28">28 décembre 1856</date>.</dateline>
+                <salute>Mon cher <persName key="Couder, Auguste (1789-1873)
+                        ">Monsieur</persName>, <note rend="pencil">(Couder)</note></salute>
+            </opener>
+
+            <p>J'éprouve la plus vive contrariété : quand j'ai eu le plaisir de vous voir il ya
+                trois semaines au moins, je souffrais déjà d'un rhume : mais je pouvais encore aller
+                et venir : depuis plus de douze jours je suis forcé de garder la chambre, l'air
+                extérieur pouvant m'être très funeste et c'est au moment où j'eusse eu besoin d'une
+                grande activité. Je vais mieux cependant et on me fait espérer que je pourrai sortir
+                à la fin de cette semaine. J'éprouve, en attendant le plaisir de vous voir d'une
+                manière ou d'une autre, le besoin de vous remercier du bon accueil</p>
+
+            <note place="bottom-right" rend="pencil">30</note>
+
+            <pb n="2" xml:id="p2"/>
+            <p>que vous m'avez fait et auquel du reste vous m'aviez déjà habitué. J'ai tâché de me
+                rappeler tout ce que vous aviez bien voulu me recommander et jusqu'au moment où j'ai
+                été forcé de m'arrêter, j'ai fait toutes les démarches nécessaires.</p>
+
+            <p>Recevez de nouveau, cher Monsieur, mille remerciements et l'assurance de la plus
+                haute considération.</p>
+
+            <closer>
+                <signed>
+                    <persName key="Delacroix, Eugène (1798-1863)">Eug Delacroix</persName>
+                </signed>
+            </closer>
+
+            <pb n="3" xml:id="p3"/>
+            <note place="inline" rend="pencil">Lettre adressée à M. Aug.<hi rend="sup">te</hi>
+                Couder membre de l'Institut, et donnée par lui.</note>
+        </body>
+    </text>
+</TEI>

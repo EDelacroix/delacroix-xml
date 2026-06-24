@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<?xml-stylesheet type="text/css" href="https://oeuvres.github.io/teinte/author-tei.css" alternate="no" title="TEI générique"?>
+<?xml-stylesheet type="text/css" href="theme/author-delacroix.css"  alternate="yes" title="Delacroix (sans notes)"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Achille Ricourt, 5 mars 1838</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <date when="2021"/>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A680 pièces 1 et 2</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl>Nomenclature interne</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1838-03-05"/>
+                    <settlement key="Paris">Paris</settlement>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Ricourt, Achille (1797-1859)">Achille Ricourt</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1"/>
+            <opener>
+                <note place="margin-top-left" rend="pencil">II. 6</note>
+                <dateline rend="center"><date when="1838-03-05">5 mars 1838</date></dateline>
+                <salute>Mon cher ami,</salute>
+            </opener>
+
+            <p>vous <lb/>avez été bien bon et bien obligeant <lb/>pour moi dans
+                    <title>l’artiste</title> d’hier. <lb/>je vous remercie bien ainsi que <lb/>de ce
+                que vous avez fait auprès <lb/>d’Halévy, Janin etc. que dit <lb/>Pradier ? avez vous
+                quelqu’un <lb/>qui soit très lié avec <hi rend="underlined">Caraffa</hi>. je
+                <lb/>sais qu’il n’a pas d’engagements <lb/>et pourrait être décidé par quelqu’un
+                <lb/>qui serait de ses amis. —</p>
+
+            <closer>
+                <salute rend="left">adieu et bien sincèrement</salute>
+                <salute rend="right">à vous</salute>
+                <signed rend="right"><persName key="Delacroix, Eugène (1798-1863)">Eug
+                        Delacroix</persName></signed>
+            </closer>
+            <note place="bottom-right" rend="pencil">12</note>
+
+            <pb n="2" xml:id="p2"/>
+            <div type="address">
+
+                <stamp> Tampon circulaire de la poste de Paris de couleur bleue, portant la mention
+                    de date et de levée : <mentioned>PARIS / 5 / MARS / 38</mentioned> avec
+                    l'indication de distribution <mentioned>Midi</mentioned>. </stamp>
+                <stamp> Tampon circulaire à date noir, avec le jour au centre : <mentioned>5 / MARS
+                        / 38</mentioned>. </stamp>
+                <stamp> Tampon circulaire noir de la Petite Poste parisienne, partiellement lisible
+                    sur la couronne extérieure. </stamp>
+                <stamp> Fragment d'un tampon circulaire noir sur le bord gauche de la feuille pliée. </stamp>
+                <stamp> Empreinte très partielle et estompée d'un autre tampon circulaire noir. </stamp>
+
+                <p rend="center">
+                    <address>
+                        <addrLine>Monsieur Ricourt.</addrLine>
+                        <addrLine><placeName>Place de la bourse</placeName> n°. 9.</addrLine>
+                        <addrLine>bureau de l’artiste</addrLine>
+                    </address>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
