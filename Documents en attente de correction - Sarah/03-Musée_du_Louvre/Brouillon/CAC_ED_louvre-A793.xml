@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Adolphe Moreau, ce lundi [1854]</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription et Correction</resp>
+                    <name>Gemini</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A793</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1854" cert="medium"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Moreau, Adolphe (1800-1859)">Adolphe Moreau</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A793-1.jpg"/>
+            <opener>
+                <add place="top-left">III, 200</add>
+                <add place="top-right">6 <lb/>
+                    <add>1854(?)</add></add>
+                <dateline>
+                    <date>Ce lundi</date>
+                </dateline>
+                <salute>Cher Monsieur,</salute>
+            </opener>
+
+            <p>vous seriez bien aimable si vous entrevoyiez l’occasion de reprendre avec Amédée
+                Thayer la conversation que vous avez eue l'autre jour, mais au point de vue des
+                nouveaux plafonds qu’il y a à faire au Luxembourg et pour l’un desquels l'architecte
+                me préfère aux autres artistes. Il se fonde sur la coupole que j’ai déjà exécutée
+                dans le même endroit. La commission dont Thayer fait partie incline à en charger un
+                artiste de l’école d'Ingres : or l’architecture dont il s’agit est entièrement dans
+                un caractère opposé à celui de cette école, c’est-à-dire dans le style de Louis XIV,
+                très orné, très chargé et qui</p>
+
+            <pb n="2" xml:id="p2" facs="CAC_ED_louvre-A793-2.jpg"/>
+            <p>demande une peinture analogue à celle que j’ai faite dans la galerie d'Apollon.</p>
+
+            <p>Je ne puis assez vous remercier, cher monsieur, de l’aimable empressement avec lequel
+                vous m’avez parlé de l’article de Gautier : j’y vois avec reconnaissance l’amitié
+                que vous avez pour moi, ce qui me flatte encore plus que l'estime que vous avez pour
+                mes peintures.</p>
+
+            <p>Recevez la nouvelle assurance de mon affection et de mon dévouement.</p>
+
+            <closer>
+                <signed>
+                    <persName key="Delacroix, Eugène (1798-1863)">Eug Delacroix</persName>
+                </signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Hippolyte Gaultron, de Champrosay, 17 septembre
+                    [1849]</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription et Correction</resp>
+                    <name>Gemini</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A786 pièces 1 à 3</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="3" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1849-09-17"/>
+                    <placeName key="France, Champrosay">Champrosay</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Gaultron, Hippolyte (1801-1859)">Hippolyte Gaultron</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A786-1.jpg"/>
+            <opener>
+                <dateline><placeName>Champrosay</placeName>
+                    <date when="1849-09-17">17 7<hi rend="sup">bre</hi>
+                        <add>1849</add></date></dateline>
+                <add place="top-left">II, 398</add>
+                <add place="top-right">28</add>
+                <salute>Cher ami,</salute>
+            </opener>
+
+            <p>je reçois votre lettre et j’irais à Valmont avec grand plaisir : mais impossibilité
+                d'y aller maintenant ; je suis sous le coup de deux ou trois affaires d'intérêt et
+                autres qui exigent impérieusement que je sois ici jusqu’au 1<hi rend="sup">er</hi>
+                octobre ; par conséquent impossibilité de partir avec vous et encore, ce qui fait un
+                contretemps tout à fait détestable, ce serait que vous ne pussiez y rester qu’un peu
+                plus. J'ai retourné le projet dans tous les sens et il n'y a pas moyen à mon très
+                grand regret d'y rien changer.</p>
+
+            <p>Comme je vois que de manière ou d'autre je serai obligé de partir sans vous, je
+                m'arrangerai pour passer une journée environ à Rouen.</p>
+
+            <pb n="2" xml:id="p2" facs="CAC_ED_louvre-A786-2.jpg"/>
+            <p>Je voudrais profiter de mon passage pour y faire quelques croquis ; alors j'écrirais
+                positivement à Bornot le jour de mon arrivée à Alvimare pour lui demander son
+                secours afin d’arriver jusqu'à lui. Si cependant il existait un omnibus pour aller
+                de là jusqu'à Valmont je préférerais ne rien déranger et j'arriverais aussi
+                promptement.</p>
+
+            <p>Écrivez-moi si vous voulez bien les heures de départ de Rouen et celles des arrivées
+                à Alvimare afin que je puisse déjà écrire à Bornot avant d’arriver à Rouen.
+                    <underline>Prenez vous un passeport ?</underline></p>
+
+            <p>Faites donc votre possible pour rester la 1<hi rend="sup">ère</hi> semaine d’octobre
+                :</p>
+
+            <pb n="3" xml:id="p3" facs="CAC_ED_louvre-A786-3.jpg"/>
+            <p>il ferait trop chagrinant de rester là ensemble du tout.</p>
+
+            <p>Répondez-moi à <underline>Champrosay</underline> (<placeName>Seine et
+                    Oise</placeName>.) quand je vais à Paris pour mes affaires on me renvoie
+                aussitôt mes lettres. Renouvelez mes remerciements à Bornot et à la cousine. Je
+                serai bien heureux de les voir là-bas.</p>
+
+            <closer>
+                <salute>Je vous embrasse avec l'espoir de vous y trouver aussi.</salute>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">Eug
+                    Delacroix</persName></signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Adolphe Moreau, de Champrosay, ce 14 avril
+                    [1854]</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription et Correction</resp>
+                    <name>Gemini</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A794 pièces 1 à 3</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="3" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1854-04-14"/>
+                    <placeName key="France, Champrosay">Champrosay</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Moreau, Adolphe (1800-1859)">Adolphe Moreau</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A794-1.jpg"/>
+            <opener>
+                <add place="top-left">III, 204</add>
+                <add place="top-right">7 <lb/>
+                    <add>(1854)</add></add>
+                <dateline>
+                    <placeName>Champrosay</placeName>
+                    <date when="1854-04-14">ce 14 avril</date>
+                </dateline>
+                <salute>Cher Monsieur,</salute>
+            </opener>
+
+            <p>on m’a renvoyé ici à la campagne où je suis venu me reposer quelques jours la lettre
+                dans laquelle vous me témoignez le désir de faire partie du jury pour l'exposition
+                de 1855. Je n’ai pas ici le règlement et je ne m’en rappelle pas les conditions ;
+                j’ignore donc si on prendra pour jurés d'autres personnes que celles qui font partie
+                de la commission déjà nommée. Je crois pour mon compte qu’il en sera ainsi et vous
+                pouvez</p>
+
+            <pb n="2" xml:id="p2" facs="CAC_ED_louvre-A794-2.jpg"/>
+            <p>être assuré que tout ce qui sera en my pouvoir pour réaliser votre désir, je le ferai
+                avec bien du plaisir. J’espère bien que vous n’en doutiez pas non plus que de mon
+                sincère attachement et de mon désir de vous être agréable en toutes choses.</p>
+
+            <p>Votre bien dévoué</p>
+            <closer>
+                <signed>
+                    <persName key="Delacroix, Eugène (1798-1863)">Eug Delacroix</persName>
+                </signed>
+            </closer>
+
+            <p>J’ai bien regretté de ne pas me trouver chez moi quand vous avez pris la peine d’y
+                passer pour me faire part du résultat des démarches que vous aviez bien voulu faire
+                au sujet des peintures du Luxembourg. Je vous en faisais un gré infini et</p>
+
+            <pb n="3" xml:id="p3" facs="CAC_ED_louvre-A794-3.jpg"/>
+            <p>j’avais l’intention de passer chez vous pour vous le dire.</p>
+
+            <p>Je ne sais si Monsieur votre fils aura causé avec notre confrère Ernest Moreau au
+                sujet de l’affaire de son ami au conseil m<hi rend="sup">al</hi>. Il lui dira
+                comment, à la fin de l’affaire, de la manière dont il était impossible de parer le
+                coup de l'adversaire. C’est ce que je lui développerai de vive voix à la première
+                occasion, tout en lui priant de vouloir qu’il n’a pas dépendu de nous de faire
+                tourner l’affaire autrement.</p>
+
+            <p>Je vous reverrai à Paris où vous m’annoncez que vous allez retourner.</p>
+        </body>
+    </text>
+</TEI>
