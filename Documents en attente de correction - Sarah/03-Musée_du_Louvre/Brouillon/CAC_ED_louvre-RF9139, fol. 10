@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Feuillet autographe d’Eugène Delacroix extrait du carnet RF 9139, fol.
+                    10</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+                <respStmt>
+                    <resp>Transcription et encodage</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Carnets d’Eugène Delacroix</title>
+                <title type="sub">RF 9139</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Arts Graphiques</institution>
+                        <idno>RF 9139, fol. 10</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="notebook_page">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="fol10r" facs="CAC_ED_louvre-RF9139, fol. 10-1.jpg"/>
+            <opener>
+                <salute>Mon cher Henri</salute>
+            </opener>
+            
+            <p>je t’aime de tou mon coeur, je pense à tout moment a toi, je</p>
+            <pb n="2" xml:id="fol10v" facs="CAC_ED_louvre-RF9139, fol. 10-2.jpg"/>
+            <p>voudrais te voir pour te caresser. reviens bien vite pour
+                fair notre bonheur.</p>
+            <closer>
+                <signed>
+                    <persName key="Delacroix, Eugène (1798-1863)">Eugene Delacroix</persName>
+                </signed>
+            </closer>
+        </body>
+    </text>
+</TEI>
