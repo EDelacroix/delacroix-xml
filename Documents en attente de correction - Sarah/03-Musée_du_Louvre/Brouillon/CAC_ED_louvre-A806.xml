@@ -5,15 +5,19 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Lettre d’Eugène Delacroix à Adolphe Moreau, ce 8 j[uille]t [1855]</title>
+                <title>Lettre d’Eugène Delacroix à Adolphe Moreau, ce 5 mai 1858</title>
                 <author key="Delacroix, Eugène (1798-1863)"/>
-            </titleStmt>
-            <editionStmt>
-                <edition>Centre André Chastel — ObTiC</edition>
                 <respStmt>
                     <resp>Transcription</resp>
                     <name>Sarah Jouan</name>
                 </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>[Prénom Nom]</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>Sorbonne Université, Centre André Chastel</publisher>
@@ -31,7 +35,7 @@
                         <country>France</country>
                         <settlement>Paris</settlement>
                         <institution>Musée du Louvre, Département des Peintures</institution>
-                        <idno>A798 pièces 1 et 2</idno>
+                        <idno>A806</idno>
                     </msIdentifier>
                     <physDesc>
                         <objectDesc form="letter">
@@ -49,8 +53,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName key="Delacroix, Eugène (1798-1863)"/>
-                    <date when="1855-07-08"/>
-                    <placeName key="France, Champrosay">Champrosay</placeName>
+                    <date when="1858-05-05"/>
                 </correspAction>
                 <correspAction type="received">
                     <persName key="Moreau, Adolphe (1800-1859)">Adolphe Moreau</persName>
@@ -60,46 +63,35 @@
     </teiHeader>
     <text>
         <body>
-            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A798-1.jpg"/>
+            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A806-1.jpg"/>
             <opener>
-
-                <dateline><date when="1855-07-08"><add>[8 juillet 1855]</add></date></dateline>
-                <address><addrLine><placeName>Champrosay par Draveil</placeName>
-                    <lb/>
-                        <placeName>Seine et Oise</placeName>.</addrLine></address>
-                <salute>Cher Monsieur et ami,</salute>
+                <dateline>Ce <date when="1858-05-05">5 mai 1858</date></dateline>
+                <salute>cher Monsieur et ami,</salute>
             </opener>
 
-            <p>je reçois votre lettre et me hâte de vous répondre que j’ai bien du regret de ne
-                pouvoir me rendre à Paris pour voir les lithographies en train malgré tout le désir
-                que j’en aurais : je suis obligé de partir aujourd’hui même pour un petit voyage qui
-                me retiendra une dizaine de jours. N’y aurait-il pas moyen que s'y vous travailliez
-                d'ici là à autre chose et ne reprit son travail qu’après mon retour ? J’éprouve
-                toujours pour moi-même qu’une interruption est excellente dans toute espèce de</p>
+            <p>Je m’empresse de vous transmettre ma lettre à Mr E. Feydeau que je ne puis assez
+                remercier. Vous avez la bonté de lui entendre par lui pour le jour de votre visite
+                d’après les petites convenances que j’ai pris la liberté de vous exprimer, grâces à
+                mon départ prochain</p>
 
-            <pb n="2" xml:id="p2" facs="CAC_ED_louvre-A798-2.jpg"/>
-            <p>besoin pour rafraîchir les idées. Dans le cas ci, il y aurait en outre à craindre que
-                l’on ait à regretter un entraînement dans tous les cas, j’irai chez lui aussitôt mon
-                retour.</p>
-
-            <p>Je n’ai pas encore trouvé par ici <underline>l'Illustration</underline> dont vous me
-                parlez et je la demande à tout le monde. Je vous renouvelle bien sincèrement
-                l'assurance de mon entier dévouement.</p>
+            <p>Je vous renouvelle mes remerciements pour l'aimable empressement que vous avez mis à
+                me donner connaissance du travail de Mr? Feydeau qui j’aurai grand plaisir</p>
+            <pb n="2" xml:id="p2" facs="CAC_ED_louvre-A806-2.jpg"/>
+            <p>à lire.</p>
 
             <closer>
+                <salute>Recevez cher Monsieur et ami la nouvelle assurance de mon dévouement et de ma plus
+                    affectueuse considération.</salute>
                 <signed>
-                    <persName key="Delacroix, Eugène (1798-1863)">E Delacroix.</persName>
+                    <persName key="Delacroix, Eugène (1798-1863)">E Delacroix</persName>
                 </signed>
-                <dateline>
-                    <date when="1855-07-08">ce 8 j<hi rend="sup">et</hi></date>
-                </dateline>
+                <postscript>
+                    <p>Voulez vous bien prendre la peine de <del rend="overstrike">mettre sous la
+                            lett de</del>
+                        <add place="above">mettre sous une enveloppe</add> Mr. Feydeau en la mettant
+                        à son adresse ?</p>
+                </postscript>
             </closer>
-
-            <postscript>
-                <p>tâchez que s'y vous interrompe.</p>
-                <p>P. S. est-ce que vous seriez assez bon pour dire à ces messieurs Moreau et C<hi
-                        rend="sup">ie</hi>. que je suis absent et que je</p>
-            </postscript>
         </body>
     </text>
 </TEI>

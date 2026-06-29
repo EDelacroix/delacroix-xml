@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Adolphe Moreau fils, ce 17 janvier 1862</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+                <respStmt>
+                    <resp>Transcription et encodage</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A809</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="4" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1862-01-17"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Moreau, Adolphe (1827-1882)">Adolphe Moreau fils</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A809-1.jpg"/>
+            <div type="envelope">
+                <p>
+                    <stamp type="postage">EMPIRE FRANC. 5 C. POSTES 5 C.</stamp>
+                    <stamp type="postage">EMPIRE FRANC. 5 C. POSTES 5 C.</stamp>
+                    <stamp type="postmark">PARIS (G) <date when="1862-01-10">10 JANV.
+                        62</date></stamp>
+                    <address>
+                        <addrLine>Monsieur Adolphe Moreau</addrLine>
+                        <addrLine>auditeur au conseil d’état</addrLine>
+                        <addrLine>rue St Georges 3 ou 5</addrLine>
+                    </address>
+                    <add place="top-right" hand="pencil">89bis</add>
+                    <add place="bottom-right" hand="pencil">28</add>
+                </p>
+            </div>
+
+            <pb n="2" xml:id="p2" facs="CAC_ED_louvre-A809-3.jpg"/>
+            <opener>
+                <add place="top-left">IV. 360</add>
+                <add place="top-right">20</add>
+                <dateline>
+                    <date when="1862-01-17">Ce 17 janvier 1862</date>
+                </dateline>
+                <add place="below-date" hand="pencil">(Adolphe Moreau fils)</add>
+                <salute>Mon cher Monsieur,</salute>
+            </opener>
+
+            <p>Recevez mes très sincères excuses du retard que j’ai apporté à répondre à <del
+                    rend="overstrike">votre</del> la lettre <del rend="overstrike">très</del>
+                aimable en date du 3 janvier. J’ai été tout à coup interrompu au milieu de toutes
+                mes occupations par une indisposition qui m’a rendu très incapable de quoi que ce
+                soit. Je vais mieux et me hâte de vous remercier relativement à ce que vous voulez
+                bien me dire d’obligeant sur l’article très incomplet que j’ai fait sur <persName
+                    key="Charlet, Nicolas-Toussaint (1792-1845)">Charlet</persName>. Je vous dois de
+                plus quelques justifications sur mon peu d’empressement à écrire quelque chose sur
+                    <persName key="Decamps, Alexandre-Gabriel (1803-1860)">Decamps</persName> : je
+                vous ai parlé de certains motifs que vous appréciez : je crois en outre que sa
+                perte</p>
+
+            <pb n="3" xml:id="p3" facs="CAC_ED_louvre-A809-4.jpg"/>
+            <p>est trop récente, <del rend="overstrike">pour</del> non seulement pour qu’il puisse
+                être jugé complètement, mais aussi pour qu’un <add place="above">tel</add> jugement
+                ait tout l’intérêt qu’il pourrait avoir plus tard. Permettez-moi d’ajouter que le
+                grand artiste a eu de son vivant la bonne fortune d’être goûté sans conteste du
+                public et des artistes : pas une voix ne s’est élevée contre tous les genres de
+                succès qu’il méritait et qu’il a obtenus. <persName
+                    key="Charlet, Nicolas-Toussaint (1792-1845)">Charlet</persName> n’a point
+                rencontré le même bonheur : l’admiration pour ses œuvres a été renfermée dans un
+                cercle plus restreint, et c’est précisément à cause de son genre, qui dans l’opinion
+                du public paraissait inférieur, qu’il m’a paru importe de <del rend="overstrike"
+                        ><gap reason="illegible"/></del> faire ressortir la grandeur qui s’y a
+                imprimée. Au reste, depuis que j’ai eu le plaisir de vous voir, la figure de
+                    <persName key="Decamps, Alexandre-Gabriel (1803-1860)">Decamps</persName> a
+                grandi</p>
+
+            <pb n="4" xml:id="p4" facs="CAC_ED_louvre-A809-5.jpg"/>
+            <p>dans mon estime après l’exposition des ouvrages en partie ébauches qui ont formé sa
+                dernière vente. J’ai été véritablement enthousiasmé par plusieurs de ces
+                compositions et mon sentiment a été celui de tout le monde.</p>
+
+            <p>Je dois vous dire aussi, que cet article pour lequel j’étais engagé depuis longtemps,
+                m’a donné de l’ennui à s’occuper : écrire est un <del rend="overstrike"><gap
+                        reason="illegible"/></del> métier particulier qu’il faut comme tous les
+                autres pratiquer beaucoup. Je n’en ai eu que la fatigue sans le plaisir, ce que je
+                ne puis dire de la peinture qui est toujours mon passe-temps favori et vers laquelle
+                je retourne sans regretter les palmes littéraires.</p>
+
+            <closer>
+                <salute>Veuillez, mon cher Monsieur, présenter tous mes respects à Madame votre mère, et
+                    agréer en particulier l’assurance de mon affectueux dévouement.</salute>
+                <signed>
+                    <persName key="Delacroix, Eugène (1798-1863)">E Delacroix</persName>
+                </signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

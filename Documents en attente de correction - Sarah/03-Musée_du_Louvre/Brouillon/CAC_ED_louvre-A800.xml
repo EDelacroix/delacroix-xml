@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Adolphe Moreau, [octobre-novembre 1855]</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A800</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="3" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date notBefore="1855-10-01" notAfter="1855-11-30" cert="medium"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Moreau, Adolphe (1800-1859)">Adolphe Moreau</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A800-1.jpg"/>
+            <opener>
+                <add place="top-left">III, 255 <lb/> 1855. E<hi rend="sup">on</hi>. Exposition</add>
+                <add place="top-center">
+                    <num value="17">A 17.</num>
+                </add>
+                <add place="top-right">12 <lb/>
+                    <add>(1855)</add></add>
+                <salute>Mon cher ami,</salute>
+            </opener>
+
+            <p>je reçois votre lettre et je m’empresse de vous rassurer. Les gouttes d’eau en
+                question sont tombées sur le tableau quand il était déjà arrivé et je n’ai pu
+                découvrir par quel accident ; mais, je les ai déjà signalées à mon homme et ce ne
+                sera rien. J’aurais à vous signaler un accident plus grave qui est arrivé,
+                m’écoute-t-on, tellement quand le <del rend="overstrike">beau</del> tableau était
+                placé dans votre bureau : dans la partie droite, heureusement entre le ciel et la
+                mer, il y a des petites gerçures motivées par la présence d’un corps chaud,
+                comme</p>
+
+            <pb n="2" xml:id="p2" facs="CAC_ED_louvre-A800-2.jpg"/>
+            <p>une <underline>lampe</underline> par exemple qui <add place="top-right">ou un
+                    tuyau</add> aurait été pendant quelque temps dans le voisinage de cette partie
+                du tableau. Quand <add place="inline">je l'ai</add> livré à la personne <del
+                    rend="overstrike">dont</del>
+                <add place="inline">de qui</add> vous l’avez acquis, le tableau n’avait pas été
+                verni depuis cinq ou six ans qu’il était fait et était dans un état complètement
+                satisfaisant. Cette place seule a été compromise et je vous la signale d’avance pour
+                que vous ne l’attribuiez pas à l’exposition.</p>
+
+            <p>Je vous remercie bien de ce que vous me dites relativement à l’effet que produit</p>
+
+            <pb n="3" xml:id="p3" facs="CAC_ED_louvre-A800-3.jpg"/>
+            <p>mon tableau. Je vous avoue que j’en ai revu quelques uns avec plaisir, ce qui ne
+                m’est guère ordinaire. Je souhaite comme vous avez la bonté de le faire, que le
+                public ait tant soit peu de l'amitié pour les voir.</p>
+
+            <p>Mille nouvelles assurances de mon dévouement de cœur,</p>
+
+            <closer>
+                <signed>
+                    <persName key="Delacroix, Eugène (1798-1863)">E Delacroix.</persName>
+                </signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Adolphe Moreau</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+                <respStmt>
+                    <resp>Transcription et encodage</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A811</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date label="indéterminée"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Moreau, Adolphe">Adolphe Moreau</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A811-1.jpg"/>
+            <opener>
+                <add place="top-left" hand="pencil">pas de Journal</add>
+                <add place="top-right">3 f. 4h res</add>
+                <salute>Mon cher Monsieur,</salute>
+            </opener>
+
+            <p>J’éprouve le désappointement de ne pouvoir dîner avec vous et profiter de votre
+                aimable invitation. J’ai pris froid avant hier aux italiens et je suis retenu par
+                une espèce de grippe que je craindrais d’aggraver en sortant ce soir. Ce qui me rend
+                si prudent contre mon désir c’est la nécessité où je suis plus que jamais de ne pas
+                perdre plusieurs jours à me soigner, ayant beaucoup de besogne d’ici à une
+                quinzaine. Serez vous assez bon pour m’excuser : sitôt que je serai quitte j’irai
+                vous présenter de vive voix mes regrets d’avoir manqué l’occasion de passer cette
+                soirée avec vous et madame Moreau.</p>
+
+            <closer>
+                <salute>Agréez en même temps <pb n="2" xml:id="p2" facs="CAC_ED_louvre-A811-2.jpg"
+                    />cher Monsieur, l’expression de mes sentiments de bon dévouement.</salute>
+                <signed>
+                    <persName key="Delacroix, Eugène (1798-1863)">E Delacroix</persName>
+                </signed>
+                <postscript>
+                    <p>C S P.</p>
+                </postscript>
+            </closer>
+        </body>
+    </text>
+</TEI>

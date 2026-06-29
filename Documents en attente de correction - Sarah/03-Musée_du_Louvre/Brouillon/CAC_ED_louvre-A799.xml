@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Adolphe Moreau, de Dieppe, 7 octobre
+                    [1855]</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A799</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="3" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1855-10-07"/>
+                    <placeName key="France, Dieppe">Dieppe</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Moreau, Adolphe (1800-1859)">Adolphe Moreau</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A799-1.jpg"/>
+            <opener>
+                <add place="top-left">III, 293</add>
+                <add place="top-right">11 <lb/>
+                    <add>(1855)</add>
+                    <lb/>
+                    <add>(voir Journal III p. 101)</add></add>
+                <dateline>
+                    <placeName>Dieppe</placeName>
+                    <date when="1855-10-07">7 oct.</date>
+                </dateline>
+                <salute>Mon cher ami,</salute>
+            </opener>
+
+            <p>je reçois ici seulement et à présent votre lettre du 27 7<hi rend="sup">bre</hi>.
+                J’ai été pendant une grande partie du mois de 9<hi rend="sup">bre</hi> très dispersé
+                en voyages au nord et au midi et je n’ai presque rien reçu pendant tout ce
+                temps.</p>
+
+            <p>Vous savez combien j’aurais mis de prix à ce que vous fussiez partie du jury : vous
+                vous rappelez que j’ai parlé d’ici de M. de Morny avec le plus grand intérêt et je
+                ne doute pas de ses dispositions, surtout si on pouvait les lui rappeler.
+                Malheureusement pour ma part, je ne pourrai absolument être à Paris que vers le 15
+                qui est l’époque du</p>
+
+            <pb n="2" xml:id="p2" facs="CAC_ED_louvre-A799-2.jpg"/>
+            <p>commencement des opérations du jury. Il nous aurait fallu un plus grand nombre de
+                juges dont l’amour propre ou l’intérêt ne fussent pas en jeu et vous étiez justement
+                un de ces hommes là. Je ne désespère pas de vous y voir par toutes sortes de motifs
+                : il y aura peut-être des membres que l’époque gênera, enfin toutes sortes de
+                raisons de s’absenter peuvent s’offrir et je le désire vivement. Si par hasard, je
+                revenais quelques jours avant le 15, je ferais de mon mieux à cette intention.</p>
+
+            <p>Adieu, cher monsieur et ami, jouissez encore un peu du repos de la campagne.
+                Remerciez bien pour moi votre cher fils de son aimable souvenir et veuillez
+                présenter tous</p>
+
+            <pb n="3" xml:id="p3" facs="CAC_ED_louvre-A799-3.jpg"/>
+            <p>mes hommages à Madame Moreau si elle est dans ce moment près de vous.</p>
+
+            <closer>
+                <salute>Votre bien dévoué</salute>
+                <signed>
+                    <persName key="Delacroix, Eugène (1798-1863)">E Delacroix</persName>
+                </signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Adolphe Moreau, ce 3 avril 1861</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+                <respStmt>
+                    <resp>Transcription et encodage</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A807</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                    <measure quantity="1" unit="envelope"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1861-03-03"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Moreau, Adolphe (1800-1859)">Adolphe Moreau</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A807-1.jpg"/>
+            <opener>
+                <dateline>Ce <date when="1861-04-03">3 avril 1861</date></dateline>
+                <salute>Mon cher Monsieur,</salute>
+            </opener>
+
+            <p>Je ne pourrai malheureusement et à mon très grand regret l’appui que vous voulez bien
+                me demander : je ne ferai pas partie du jury cette année ; mes travaux auxquels j’ai
+                beaucoup sacrifié, ne me permettent pas de distraire de mon temps, tout celui qu’il
+                faudrait pour cet objet. Je ne peux que vous recommander à d’autres personnes de mes
+                confrères, sans me dissimuler combien ces recommandations sont quelquefois peu
+                efficaces auprès de gens qui en ont eux-mêmes pour leur compte. Je ferai <del
+                    rend="overstrike">de mon</del> mon mieux et</p>
+
+            <pb n="2" xml:id="p2" facs="CAC_ED_louvre-A807-2.jpg"/>
+            <p>vous prie bien de croire à mon sincère regret.</p>
+
+
+            <closer>
+                <salute>Agréez, cher Monsieur, tous mes compliments les plus dévoués.</salute>
+                <signed>
+                    <persName key="Delacroix, Eugène (1798-1863)">E Delacroix</persName>
+                </signed>
+            </closer>
+
+            <pb n="3" xml:id="p3" facs="CAC_ED_louvre-A807-3.jpg"/>
+            <div type="envelope">
+                <p>
+                    <add place="top-right">2, bis</add>
+                    <address>
+                        <addrLine>Monsieur A. Moreau</addrLine>
+                        <addrLine>rue Taitbout près</addrLine>
+                        <addrLine>la rue de Provence</addrLine>
+                    </address>
+                    <add place="bottom-right">26</add>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Adolphe Moreau, ce 11 janvier 1857</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+                <respStmt>
+                    <resp>Transcription et encodage</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A803</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="3" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1857-01-11"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Moreau, Adolphe (1800-1859)">Adolphe Moreau</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A803-1.jpg"/>
+            <div type="envelope">
+                <p>
+                    <stamp type="postmark">PARIS <date when="1857-01-11">11 janvier 57</date></stamp>
+                    <stamp type="postage">EMPIRE FRANC. 10 C. POSTES 10 C.</stamp>
+                    <address>
+                        <addrLine>Monsieur Moreau père</addrLine>
+                        <addrLine>rue neuve des mathurins 38.</addrLine>
+                    </address>
+                    <add place="bottom-right">20</add>
+                </p>
+            </div>
+
+            <pb n="2" xml:id="p2" facs="CAC_ED_louvre-A803-3.jpg"/>
+            <opener>
+                <add place="top-left">III. 361</add>
+                <add place="top-right">15</add>
+                <dateline>Ce <date when="1857-01-11">11 janvier <add place="inline">[1857]</add></date></dateline>
+                <salute>cher Monsieur et ami,</salute>
+            </opener>
+
+            <p>J’aurai l’honneur de aller sitôt que je pourrai vous voir à vous embrasser pour le
+                bon résultat auquel vous avez tant contribué. Je vous serre la main d’avance bien
+                cordialement.</p>
+
+            <closer>
+                <salute>Votre bien dévoué</salute>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">E
+                    Delacroix</persName></signed>
+            </closer>
+
+            <pb n="3" xml:id="p3" facs="CAC_ED_louvre-A803-4.jpg"/>
+            <div type="back">
+                <p><add hand="Moreau_Adolphe_père" place="center">Lettre écrite par E. Delacroix
+                        <lb/> à l’occasion de sa nomination <lb/> à l’institut. <lb/> (écriture
+                        d’adolphe moreau <lb/> père)</add></p>
+            </div>
+        </body>
+    </text>
+</TEI>

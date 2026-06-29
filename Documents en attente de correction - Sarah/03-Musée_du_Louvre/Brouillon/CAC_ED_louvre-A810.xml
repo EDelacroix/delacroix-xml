@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Adolphe Moreau fils, ce 26 mars 1863</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+                <respStmt>
+                    <resp>Transcription et encodage</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A810</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1863-03-26"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Moreau, Adolphe (1827-1882)">Adolphe Moreau fils</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A810-1.jpg"/>
+            <div type="envelope">
+                <p>
+                    <stamp type="postage">EMPIRE FRANC. 10 C. POSTES 10 C.</stamp>
+                    <stamp type="postmark">Paris (G) 11h <date when="1863-03-26">26 MARS
+                        63</date></stamp>
+                    <address>
+                        <addrLine>Monsieur Ad. Moreau</addrLine>
+                        <addrLine>5 rue St Georges</addrLine>
+                    </address>
+                    <add place="bottom-right" hand="pencil">30</add>
+                </p>
+            </div>
+
+            <pb n="2" xml:id="p2" facs="CAC_ED_louvre-A810-3.jpg"/>
+            <opener>
+                <add place="top-left">IV. 370</add>
+                <add place="top-right">21</add>
+                <dateline>Ce <date when="1863-03-26">26 mars</date>. <add place="inline"
+                        hand="pencil">(1863)</add></dateline>
+                <salute>Cher Monsieur.</salute>
+            </opener>
+
+            <p>Ce sera si vous le voulez bien le <underline>lundi 6</underline> que j’aurai
+                l’honneur de me rendre à votre invitation. Je n’osais vous demander de l’ajourner à
+                cause d’une petite absence que je dois faire au commencement du mois, mais ce jour
+                me convient parfaitement et je ferai bien heureux de la réunion que vous voulez bien
+                me proposer.</p>
+
+            <closer>
+                <salute>Veuillez présenter à Madame votre mère l’hommage de mon profond respect et croire à
+                    mes sentiments les plus distingués et les plus dévoués.</salute>
+                <signed>
+                    <persName key="Delacroix, Eugène (1798-1863)">E Delacroix</persName>
+                </signed>
+                <add place="bottom-right" hand="pencil">31</add>
+            </closer>
+        </body>
+    </text>
+</TEI>

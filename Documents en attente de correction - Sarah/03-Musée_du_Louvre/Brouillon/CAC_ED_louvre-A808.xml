@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Adolphe Moreau, un jeudi [1861]</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+                <respStmt>
+                    <resp>Transcription et encodage</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A808</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date ocr="1861" cert="medium"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Moreau, Adolphe (1800-1859)">Adolphe Moreau</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A808-1.jpg"/>
+            <opener>
+                <dateline>Ce jeudi</dateline>
+                <salute>Mon cher monsieur,</salute>
+            </opener>
+
+            <p>Je suis très heureux que vous attachiez quelque importance à ces deux ou trois pages
+                d’écriture pour ne pas vous prier de leur faire l’honneur de les conserver. J'aimais
+                et vous les reporter moi-même afin de prendre connaissance du projet dont vous
+                voulez bien m’entretenir : mais je crois vous avoir dit que je ne suis occupé que
+                d’un objet, que je sors dès le matin et ne rentre que fort tard. Je suis donc forcé
+                de vous donner l’ennui de venir à une heure qui ne vous conviendra peut-être pas
+                :</p>
+
+            <pb n="2" xml:id="p2" facs="CAC_ED_louvre-A808-2.jpg"/>
+            <p>s’il vous plaisait de m’indiquer un jour où il vous fut possible de passer chez moi
+                vers 8 h<hi rend="sup">res</hi> du soir vous me trouveriez certainement, j’excepte
+                seulement samedi de cette semaine.</p>
+
+            <closer>
+                <salute>Agréez monsieur, les assurances de ma considération la plus distinguée et la plus
+                    affectueuse.</salute>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">E
+                    Delacroix</persName></signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

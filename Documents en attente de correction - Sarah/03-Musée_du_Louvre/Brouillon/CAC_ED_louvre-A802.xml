@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Lettre d’Eugène Delacroix à Adolphe Moreau, ce 8 j[uille]t [1855]</title>
+                <title>Lettre d’Eugène Delacroix à Adolphe Moreau, ce 21 mai [1856]</title>
                 <author key="Delacroix, Eugène (1798-1863)"/>
             </titleStmt>
             <editionStmt>
@@ -31,13 +31,13 @@
                         <country>France</country>
                         <settlement>Paris</settlement>
                         <institution>Musée du Louvre, Département des Peintures</institution>
-                        <idno>A798 pièces 1 et 2</idno>
+                        <idno>A802</idno>
                     </msIdentifier>
                     <physDesc>
                         <objectDesc form="letter">
                             <supportDesc>
                                 <extent>
-                                    <measure quantity="2" unit="page"/>
+                                    <measure quantity="1" unit="page"/>
                                 </extent>
                             </supportDesc>
                         </objectDesc>
@@ -49,8 +49,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName key="Delacroix, Eugène (1798-1863)"/>
-                    <date when="1855-07-08"/>
-                    <placeName key="France, Champrosay">Champrosay</placeName>
+                    <date when="1856-05-21"/>
                 </correspAction>
                 <correspAction type="received">
                     <persName key="Moreau, Adolphe (1800-1859)">Adolphe Moreau</persName>
@@ -60,46 +59,22 @@
     </teiHeader>
     <text>
         <body>
-            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A798-1.jpg"/>
+            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A802.jpg"/>
             <opener>
-
-                <dateline><date when="1855-07-08"><add>[8 juillet 1855]</add></date></dateline>
-                <address><addrLine><placeName>Champrosay par Draveil</placeName>
-                    <lb/>
-                        <placeName>Seine et Oise</placeName>.</addrLine></address>
-                <salute>Cher Monsieur et ami,</salute>
+                <add place="top-left">III, 322</add> <add place="top-center"><num value="21">Ce 21 mai</num></add> <add place="top-right">14 <lb/> <add>(1856)</add></add>
+                <salute>cher Monsieur et ami,</salute>
             </opener>
-
-            <p>je reçois votre lettre et me hâte de vous répondre que j’ai bien du regret de ne
-                pouvoir me rendre à Paris pour voir les lithographies en train malgré tout le désir
-                que j’en aurais : je suis obligé de partir aujourd’hui même pour un petit voyage qui
-                me retiendra une dizaine de jours. N’y aurait-il pas moyen que s'y vous travailliez
-                d'ici là à autre chose et ne reprit son travail qu’après mon retour ? J’éprouve
-                toujours pour moi-même qu’une interruption est excellente dans toute espèce de</p>
-
-            <pb n="2" xml:id="p2" facs="CAC_ED_louvre-A798-2.jpg"/>
-            <p>besoin pour rafraîchir les idées. Dans le cas ci, il y aurait en outre à craindre que
-                l’on ait à regretter un entraînement dans tous les cas, j’irai chez lui aussitôt mon
-                retour.</p>
-
-            <p>Je n’ai pas encore trouvé par ici <underline>l'Illustration</underline> dont vous me
-                parlez et je la demande à tout le monde. Je vous renouvelle bien sincèrement
-                l'assurance de mon entier dévouement.</p>
-
+            
+            <p>Je suis obligé de vous prier de vouloir bien remettre à Dimanche <time>30<hi rend="sup">e</hi></time> la partie que nous aurions faite d’aller chez M. A. Fould après-demain. Si je ne reçois rien de vous, je regarderai votre silence comme un consentement. J’irai vous prendre <del rend="overstrike">comme con</del> <add place="above">en voiture comme con-</add> <lb/> <add place="inline">-venu.</add></p>
+            
+            <p>Je suis fort occupé de la commande de M. Fould. Je crois que la distribution que nous avons arrêtée sera fort bonne.</p>
+            
+            <p>Recevez de nouveau, avec tous mes remerciements pour votre constante obligeance, l’assurance de mon bien sincère dévouement.</p>
+            
             <closer>
-                <signed>
-                    <persName key="Delacroix, Eugène (1798-1863)">E Delacroix.</persName>
-                </signed>
-                <dateline>
-                    <date when="1855-07-08">ce 8 j<hi rend="sup">et</hi></date>
-                </dateline>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">E Delacroix</persName></signed>
             </closer>
-
-            <postscript>
-                <p>tâchez que s'y vous interrompe.</p>
-                <p>P. S. est-ce que vous seriez assez bon pour dire à ces messieurs Moreau et C<hi
-                        rend="sup">ie</hi>. que je suis absent et que je</p>
-            </postscript>
         </body>
     </text>
 </TEI>
+

@@ -5,7 +5,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Lettre d’Eugène Delacroix à Adolphe Moreau, ce 8 j[uille]t [1855]</title>
+                <title>Lettre d’Eugène Delacroix à Adolphe Moreau, ce 23 novembre [1855]</title>
                 <author key="Delacroix, Eugène (1798-1863)"/>
             </titleStmt>
             <editionStmt>
@@ -31,7 +31,7 @@
                         <country>France</country>
                         <settlement>Paris</settlement>
                         <institution>Musée du Louvre, Département des Peintures</institution>
-                        <idno>A798 pièces 1 et 2</idno>
+                        <idno>A801</idno>
                     </msIdentifier>
                     <physDesc>
                         <objectDesc form="letter">
@@ -49,8 +49,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName key="Delacroix, Eugène (1798-1863)"/>
-                    <date when="1855-07-08"/>
-                    <placeName key="France, Champrosay">Champrosay</placeName>
+                    <date when="1855-11-23"/>
                 </correspAction>
                 <correspAction type="received">
                     <persName key="Moreau, Adolphe (1800-1859)">Adolphe Moreau</persName>
@@ -60,46 +59,21 @@
     </teiHeader>
     <text>
         <body>
-            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A798-1.jpg"/>
+            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A801-1.jpg"/>
             <opener>
-
-                <dateline><date when="1855-07-08"><add>[8 juillet 1855]</add></date></dateline>
-                <address><addrLine><placeName>Champrosay par Draveil</placeName>
-                    <lb/>
-                        <placeName>Seine et Oise</placeName>.</addrLine></address>
-                <salute>Cher Monsieur et ami,</salute>
+                <add place="top-left">1855. <lb/> III, 303</add> <add place="top-center"><num value="23">A 23 nov.</num></add> <add place="top-right">13 <lb/> <add>(1855)</add></add>
+                <salute>cher monsieur et ami,</salute>
             </opener>
-
-            <p>je reçois votre lettre et me hâte de vous répondre que j’ai bien du regret de ne
-                pouvoir me rendre à Paris pour voir les lithographies en train malgré tout le désir
-                que j’en aurais : je suis obligé de partir aujourd’hui même pour un petit voyage qui
-                me retiendra une dizaine de jours. N’y aurait-il pas moyen que s'y vous travailliez
-                d'ici là à autre chose et ne reprit son travail qu’après mon retour ? J’éprouve
-                toujours pour moi-même qu’une interruption est excellente dans toute espèce de</p>
-
-            <pb n="2" xml:id="p2" facs="CAC_ED_louvre-A798-2.jpg"/>
-            <p>besoin pour rafraîchir les idées. Dans le cas ci, il y aurait en outre à craindre que
-                l’on ait à regretter un entraînement dans tous les cas, j’irai chez lui aussitôt mon
-                retour.</p>
-
-            <p>Je n’ai pas encore trouvé par ici <underline>l'Illustration</underline> dont vous me
-                parlez et je la demande à tout le monde. Je vous renouvelle bien sincèrement
-                l'assurance de mon entier dévouement.</p>
-
+            
+            <p>je n’aurais pas manqué de vous faire remettre plutôt les deux tableaux que vous avez eu la bonté de me prêter pour l’exposition et dont vous vous êtes privé si longtemps en ma faveur, si la personne que j’emploie ordinairement pour ces sortes de commission et en qui j'ai grande confiance n'eût été retenue au lit par un accident. Je vous renouvelle par mes remerciements l’assurance de ma vive reconnaissance pour tous les témoignages d’amitié et d’intérêt que vous m’avez donnés ; vous ne doutez pas, j’espère,</p>
+            
+            <pb n="2" xml:id="p2" facs="CAC_ED_louvre-A801-2.jpg"/>
+            <p>que je ne les sente profondément. Vous avez pris la peine, le jour même de la cérémonie, de passer vous-même chez moi et je n’étais pas là pour vous remercier et vous serrer la main. J’ai été et suis encore très souffrant depuis ce moment. Sans cela, j’aurais été vous exprimer tout <del rend="overstrike">ce</del> ce que me fait sentir ce qui m’appartient tout à vous du fond du cœur.</p>
+            
             <closer>
-                <signed>
-                    <persName key="Delacroix, Eugène (1798-1863)">E Delacroix.</persName>
-                </signed>
-                <dateline>
-                    <date when="1855-07-08">ce 8 j<hi rend="sup">et</hi></date>
-                </dateline>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">E Delacroix</persName></signed>
             </closer>
-
-            <postscript>
-                <p>tâchez que s'y vous interrompe.</p>
-                <p>P. S. est-ce que vous seriez assez bon pour dire à ces messieurs Moreau et C<hi
-                        rend="sup">ie</hi>. que je suis absent et que je</p>
-            </postscript>
         </body>
     </text>
 </TEI>
+

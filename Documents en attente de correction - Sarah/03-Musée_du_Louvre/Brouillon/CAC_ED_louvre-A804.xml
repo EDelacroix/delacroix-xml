@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Adolphe Moreau, ce 18 janvier 1857</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+                <respStmt>
+                    <resp>Transcription et encodage</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A804</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="2" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1857-01-18"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Moreau, Adolphe (1800-1859)">Adolphe Moreau</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A804-1.jpg"/>
+            <opener>
+                <dateline>Ce <date when="1857-01-18">18 janvier 1857</date>.</dateline>
+                <salute>Mon cher Monsieur et ami,</salute>
+            </opener>
+
+            <p>j’ai un bien grand regret de ne pouvoir accepter votre aimable invitation pour jeudi
+                me trouvant obligé ce jour là d’aller au bal de l’empereur en uniforme. Au reste
+                peut-être serais-je forcé de m’excuser aussi de ce côté là ; avant-hier je suis
+                sorti pour la première fois et j’ai repris mon mal de gorge. C’est un contrariété
+                beaucoup dans ce moment où j’aurais voulu voir et remercier les personnes qui ont
+                été si bien pour moi dans toute l’affaire de l’institut et <del rend="overstrike">à
+                    la tête de cela</del>, vous en particulier dont le zèle et l’amitié m’ont aidé
+                constamment et si heureusement.</p>
+
+            <p>Veuillez donc,</p>
+
+            <pb n="2" xml:id="p2" facs="CAC_ED_louvre-A804-2.jpg"/>
+            <p>cher Monsieur, m’excuser auprès de Madame Moreau et recevoir mille regrets et
+                l’expression du plus affectueux dévouement.</p>
+
+            <closer>
+                <signed>
+                    <persName key="Delacroix, Eugène (1798-1863)">E Delacroix</persName>
+                </signed>
+            </closer>
+        </body>
+    </text>
+</TEI>
