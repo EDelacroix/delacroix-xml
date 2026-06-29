@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Adolphe Moreau, de Champrosay, ce 27 juin
+                    1855</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A796</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="3" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1855-06-27"/>
+                    <placeName key="France, Champrosay">Champrosay</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Moreau, Adolphe (1800-1859)">Adolphe Moreau</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A796-1.jpg"/>
+            <opener>
+                <add place="top-left">8 <lb/> III, 272</add>
+                <add place="top-right">9</add>
+                <dateline><placeName>Champrosay par Draveil</placeName>
+                    <lb/>
+                    <placeName>Seine et Oise</placeName>
+                    <lb/>
+                    <date when="1855-06-27">Ce 27 juin 1855.</date></dateline>
+                <salute>Cher Monsieur et ami,</salute>
+            </opener>
+
+            <p>Je m’empresse de vous prévenir que je compte donner au premier jour ma démission de
+                membre du jury des récompenses : je serai forcé de m’absenter de Paris très
+                fréquemment tout cet été et je ne pourrais avoir l’assiduité convenable. Ne perdez
+                pas une minute pour faire les démarches nécessaires pour être choisi à ma place ; je
+                serais bien heureux de vous savoir là.</p>
+
+            <p>Vous seriez bien aimable de prier ces Messieurs de m’acheter le plutôt possible
+                    <underline>Six</underline> actions sur le canal de Bourgogne : je vous en
+                demande</p>
+
+            <pb n="2" xml:id="p2" facs="CAC_ED_louvre-A796-2.jpg"/>
+            <p>votre intervention auprès d'eux parce qu’ils guettent les occasions avec soin. Or en
+                se vendant j’y remettrais si je vous serais bien reconnaissant de leur
+                commander.</p>
+
+            <p>Surtout ne perdez pas un moment pour l’affaire du jury. On va le réunir d’ici à peu
+                de jours : je ne puis donc tarder à faire ma démarche, et il sera nécessaire qu’on
+                me remplace tout de suite.</p>
+
+            <p>Votre bien sincèrement affectionné et dévoué</p>
+            <closer>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">E
+                    Delacroix.</persName></signed>
+            </closer>
+
+            <pb n="3" xml:id="p3" facs="CAC_ED_louvre-A798-3.jpg"/>
+            <p>reglerai avec eux aussitôt mon action pour les rentes de Boug<hi rend="sup">ogne</hi>
+                que vous avez eu la bonté de bien demander pour moi ?</p>
+        </body>
+    </text>
+</TEI>

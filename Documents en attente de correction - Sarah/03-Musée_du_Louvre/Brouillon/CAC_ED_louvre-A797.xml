@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://edelacroix.github.io/schema/delacroix.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="theme/lettre.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lettre d’Eugène Delacroix à Adolphe Moreau, de Champrosay, ce 28 [juin
+                    1855]</title>
+                <author key="Delacroix, Eugène (1798-1863)"/>
+            </titleStmt>
+            <editionStmt>
+                <edition>Centre André Chastel — ObTiC</edition>
+                <respStmt>
+                    <resp>Transcription et Correction</resp>
+                    <name>Gemini</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Sorbonne Université, Centre André Chastel</publisher>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"/>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title type="main">Correspondance d’Eugène Delacroix</title>
+                <title type="sub">Destinataires divers</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <idno>A797</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="letter">
+                            <supportDesc>
+                                <extent>
+                                    <measure quantity="3" unit="page"/>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="Delacroix, Eugène (1798-1863)"/>
+                    <date when="1855-06-28"/>
+                    <placeName key="France, Champrosay">Champrosay</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="Moreau, Adolphe (1800-1859)">Adolphe Moreau</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A797-1.jpg"/>
+            <opener>
+                <address><addrLine>Champrosay</addrLine></address>
+                <dateline><date when="1855-06-28">ce 28 <add place="inlin">[juin 1855]</add></date> à <time
+                        rend="underline">5 h. ½</time>
+                <salute>mon cher ami,</salute>
+            </opener>
+
+            <p>après vous avoir écrit hier j’ai reçu une lettre de Paris qui m’annonce que le jury
+                sera convoqué probablement <hi rend="u">Samedi</hi>. Le terme est si court que
+                je trouve plus convenable d’envoyer ma démission ainsi et au dernier moment. Je vous
+                demande mille pardons des démarches que ma première lettre vous aura peut-être fait
+                faire : mais, si je suis forcé de m’absenter comme je le pense, il sera encore temps
+                de vous proposer et je serai plus à même de contribuer à votre choix, ayant plus de
+                temps. Il est probable qu’il y aura un très grand nombre de séances et qu’il y aura
+                de l’occupation plus</p>
+
+            <pb n="2" xml:id="p2" facs="CAC_ED_louvre-A797-2.jpg"/>
+            <p>qu’on n’en voudra.</p>
+
+
+            <closer>
+                <salute>Mille pardons encore et amitiés dévouées,</salute>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">E.
+                    Delacroix</persName></signed>
+            </closer>
+
+            <pb n="3" xml:id="p3" facs="CAC_ED_louvre-A797-3.jpg"/>
+            <closer>
+                <address>
+                    <addrLine>Monsieur Ad. Moreau père</addrLine>
+                    <addrLine><placeName key="France, Paris, rue neuve des mathurins, 38">rue neuve des mathurins 38, Paris</placeName></addrLine>
+                </address>
+            </closer>
+        </body>
+    </text>
+</TEI>
