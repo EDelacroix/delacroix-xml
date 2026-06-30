@@ -86,8 +86,8 @@
                         <persName key="Guillemardet, Félix (1796-1842)">Félix
                             Guillemardet</persName>
                     </addrLine>
-                    <addrLine>chez Monsieur Febvre, rue de la barre n°11</addrLine>
-                    <addrLine>à Mâcon Saône et Loire</addrLine>
+                    <addrLine>chez <persName key="">Monsieur Febvre</persName>, <placeName key="France, Mâcon, rue de la Barre, 11">rue de la barre n°11</placeName></addrLine>
+                    <addrLine>à <placeName key="France, Mâcon">Mâcon Saône et Loire</placeName></addrLine>
                 </address>
                 <stamp><date when="1830-12-09">9 décembre 1830</date></stamp>
                 <stamp><date when="1830-12-11">11 décembre 1830</date></stamp>
