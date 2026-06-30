@@ -86,7 +86,7 @@
                         <persName key="Guillemardet, Félix (1796-1842)">Félix
                             Guillemardet</persName>
                     </addrLine>
-                    <addrLine>chez Monsieur Febvre rue de la barre n°11</addrLine>
+                    <addrLine>chez Monsieur Febvre, rue de la barre n°11</addrLine>
                     <addrLine>à Mâcon Saône et Loire</addrLine>
                 </address>
                 <stamp><date when="1830-12-09">9 décembre 1830</date></stamp>
@@ -106,48 +106,49 @@
                 </address>
             </opener>
 
-            <p>Nous fêtons la Saint Nicolas, avec Delacroix chez le docteur
-                Desmaisons ce soir et nous nous donnons le plaisir de t'écrire un mot entre un verre
-                d'anisette et une tasse de Sambayon. Madame Pierret te fait savoir
-                que l'appétit elle est bonne mais les jambes y va mal. Ce qui
-                    veut dire qu'elle a des engelures aux pieds qui lui font mettre ses escarpins
-                    français comme des babouches turques. Nous te désirons et te félicitons
-                d'en avoir fini avec ton affaire. Paris est bien mieux peureux que la Province ou s'il
-                y a des trembleurs, on y voit tant de gens divers qu'on rencontre des esprits
-                rassurés. Au reste Delacroix te laisse pousser des moustaches. J'ai une
-                barbe qui fait la queue à celle de Milon. À ma charge a été faite avec du charbon sur
-                le mur du corps de garde de l'artillerie. J'espère que tu vas écumer la bourgogne
-                et rapporter du trésor d'antiquités. Que le sabayon est délicieux !!! Nous en buvons
-                à ta santé et nous conservons la recette pour t'en faire boire à la</p>
+            <p>Nous fêtons la Saint Nicolas, avec Delacroix chez le docteur Desmaisons ce soir et
+                nous nous donnons le plaisir de t'écrire un mot entre un verre d'anisette et une
+                tasse de Sambayon. Madame Pierret te fait savoir que l'appétit elle est bonne mais
+                les jambes y va mal. Ce qui veut dire qu'elle a des engelures aux pieds qui lui font
+                mettre ses escarpins français comme des babouches turques. Nous te désirons et te
+                félicitons d'en avoir fini avec ton affaire. Paris est bien mieux peureux que la
+                Province ou s'il y a des trembleurs, on y voit tant de gens divers qu'on rencontre
+                des esprits rassurés. Au reste Delacroix te laisse pousser des moustaches. J'ai une
+                barbe qui fait la queue à celle de Milon. À ma charge a été faite avec du charbon
+                sur le mur du corps de garde de l'artillerie. J'espère que tu vas écumer la
+                bourgogne et rapporter du trésor d'antiquités. Que le sabayon est délicieux !!! Nous
+                en buvons à ta santé et nous conservons la recette pour t'en faire boire à la</p>
 
             <pb n="2" xml:id="p2"/>
-            <p>
-                nôtre.<note place="top">(continuée par Delacroix —)</note>
+            <p> nôtre.<add place="top">(continuée par Delacroix —)</add><note place="bottom">Cette
+                    lettre débute par un mot de Jean-Baptiste Pierret lorsqu'ils se réunissent chez
+                    le Docteur Desmaisons pour la Saint Nicolas le 6 décembre 1830 puis est reprise par Delacroix.</note>
             </p>
             <p>Je reprends en sous œuvre la présente lettre pour te tenir au courant de la brillante
-                santé qui me caractérise dans le moment actuel. Je n'en sors pas moins pour le
-                quart d'heure du Conseil de discipline où sur ma mauvaise mine on vient de me donner
-                un répit de 4 mois pour la brave garde nationale dont on ne me juge <add
-                    place="above">susceptible</add> de servir avec que quand je serai un peu
-                engraissé de ma personne. Tu ne t'étonneras pas de la présente manière de m'exprimer
-                un tant soit peu inopportune et inattendue dans ma manière d'être d'habitude
-                naturelle, attendu une lettre d'un gendarme de <placeName key="France, Fouilletourte">
-                    Fouilletourte</placeName> en Berry que nous
-                venons d'en faire lecture en société où nous nous trouvons qui est très drôle et
-                très insolite pour l'expression des pensées du dit gendarme qui écrit au docteur <pb
-                    n="3" xml:id="p3"/> Desmaisons qui vient de nous faire d'excellent sabayon que
-                nous en avons bu un verre à ta santé.</p>
+                santé qui me caractérise dans le moment actuel. Je n'en sors pas moins pour le quart
+                d'heure du Conseil de discipline où sur ma mauvaise mine on vient de me donner un
+                répit de 4 mois pour la brave garde nationale dont on ne me juge <add place="above"
+                    >susceptible</add> de servir avec que quand je serai un peu engraissé de ma
+                personne. Tu ne t'étonneras pas de la présente manière de m'exprimer un tant soit
+                peu inopportune et inattendue dans ma manière d'être d'habitude naturelle, attendu
+                une lettre d'un gendarme de <placeName key="France, Fouilletourte">
+                    Fouilletourte</placeName> en Berry que nous venons d'en faire lecture en société
+                où nous nous trouvons qui est très drôle et très insolite pour l'expression des
+                pensées du dit gendarme qui écrit au docteur <pb n="3" xml:id="p3"/> Desmaisons qui
+                vient de nous faire d'excellent Sabayon que nous en avons bu un verre à ta
+                santé.</p>
 
-            <p>Pour finir, j'ai fini, on pense bien à Mâcon, à Montauban et nous avons un mystérieux
-                désir de voir nous faire cette fameuse S<hi rend="sup">te</hi> Sylvestre que c'est
-                ton tour cette année de nous en régaler chez toi. En attendant conserve toi la bonne
-                disposition de ton estomac en parfaite santé qui te sera nécessaire pour digérer les
-                susdits petits pâtés et autres confitures, susnommés de la S<hi rend="sup">te</hi>
-                Sylvestre. Excuse la bassesse imprévue de la langue française que je te témoigne
-                dans cette lettre que ma plume te trace ici de ma main pour croire à la prudence
-                inaltérable avec laquelle mon cœur ne cessera de battre jusqu'à la mort pour tes
-                vertus, de tout ton être, dont je te prie en toute persuasion de me croire
-                capable.</p>
+            <p>Pour finir, j'ai fini, ou peu s'en manque, mon <rs type="work"
+                    key="La Liberté guidant le peuple (J144)
+                    ">tableau</rs> et nous avons impatience de te voir nous
+                faire cette fameuse Saint Sylvestre que c'est ton tour cette année de nous en
+                régaler chez toi. En attendant conserve toi la bonne disposition de ton estomac en
+                parfaite santé qui te sera nécessaire pour digérer les susdits petits pâtés et
+                autres confitures susnommés de la Saint Sylvestre. Excuse la bassesse imprévue de
+                langue française que je te témoigne dans cette lettre que ma plume te trace ici de
+                ma main pour croire à la prudence inaltérable avec laquelle mon cœur ne cessera de
+                battre jusqu'à la mort pour tes vertus, de tout ton être, dont je te prie en toute
+                persuasion de me croire capable.</p>
 
             <closer>
                 <salute>ton inébranlable ami et très soumis</salute>

@@ -17,7 +17,7 @@
                     <name>Sarah Jouan</name>
                 </respStmt>
                 <respStmt>
-                    <resp>Correction</resp>
+                    <resp>Annotation</resp>
                     <name>Sarah Jouan</name>
                 </respStmt>
             </editionStmt>
@@ -30,7 +30,7 @@
             </publicationStmt>
             <seriesStmt>
                 <title type="main">Correspondance d’Eugène Delacroix</title>
-                <title type="sub">Destinataires divers</title>
+                <title type="sub">Les amis de jeunesse</title>
             </seriesStmt>
             <sourceDesc>
                 <msDesc>
@@ -38,7 +38,7 @@
                         <country>France</country>
                         <settlement>Paris</settlement>
                         <institution>Musée du Louvre, Département des Peintures</institution>
-                        <idno>A504 pièces 1 à 4</idno>
+                        <idno>A504</idno>
                     </msIdentifier>
                     <physDesc>
                         <objectDesc form="letter">
@@ -51,7 +51,8 @@
                     </physDesc>
                 </msDesc>
                 <listBibl>
-                    <bibl>Nomenclature interne</bibl>
+                    <bibl>André Joubin, <hi rend="it">Correspondance générale de Eugène
+                            Delacroix</hi>, 1935, I, p.5-6</bibl>
                 </listBibl>
             </sourceDesc>
         </fileDesc>
@@ -62,7 +63,7 @@
                     <date when="1813-08-25"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Jules Allan</persName>
+                    <persName key="Allard, Jules">Jules Allard</persName>
                 </correspAction>
             </correspDesc>
             <langUsage>
@@ -74,44 +75,48 @@
         <body>
             <pb n="1" xml:id="p1"/>
             <opener>
-                <dateline><date when="1813-08-25">25 aout ou auguste si cela vous
-                    plait.</date></dateline>
+                <dateline>Le <date when="1813-08-25">25 aout ou <hi rend="u">auguste</hi> si cela
+                        vous plait.</date></dateline>
             </opener>
 
             <p>Que les résolutions humaines sont peu de chose ! Qu'il est vrai que nous ne batissons
-                que sur du sable, que nous voyons s'écrouler pour le brillant édifice qu'il
-                soutenait. <note place="inline">* Continuation de la
-                    métaphore.</note> Si jamais on a parlé philosophie avec raison, je crois que
-                l'occasion en est assez belle &amp; qu'il serait difficile d'en trouver lieu à plus
-                de beaux raisonnements sur l'insta-bilité des choses d'ici bas. Je comptais, mon
-                cher ami te voir samedi dernier ; j'ai vu mes espérances trompées, sans te
-                soupçonner d'inexactitude ; pensant bien que tu avais été retenu par des
-                empêche-ments majeurs. Ce qui m'y contrariait surtout était de ne pouvoir te
-                présenter à M<hi rend="sup">r</hi>. Guillemardet qui eut été enchanté de te voir
-                &amp; qui ne t'attendait pas avec</p>
+                que sur du sable, que nous voyons s'écrouler <hi rend="u">pour le brillant édifice
+                    qu'il soutenait</hi><note place="inline">*Continuation de la métaphore.</note>.
+                Si jamais on a parlé philosophie avec raison, je crois que l'occasion en est assez
+                belle ret qu'il serait difficile d'en trouver lieu à plus de beaux raisonnements sur
+                l'instabilité des choses d'ici bas. Je comptais, mon cher ami, te voir samedi
+                dernier ; j'ai vu mes espérances trompées, sans te soupçonner d'inexactitude ;
+                pensant bien que tu avais été retenu par des empêchements majeurs. Ce qui m'y
+                contrariait surtout était de ne pouvoir te présenter à Monsieur. <persName
+                    key="Guillemardet, Félix (1796-1842)">Guillemardet</persName> qui eut été
+                enchanté de te voir et qui ne t'attendait pas avec</p>
 
             <pb n="2" xml:id="p2"/>
             <p>moins d'impatience que moi. Mais ce n'est pas le pire de l'histoire. Je dois t'avoir
                 parlé dans ma dernière lettre si je ne me trompe, d'un voyage que je me voyais sur
-                le point de faire. Tu me donnes rendez vous pour demain à 11 heures &amp; je pars à
-                six heures du matin ! Je suis au désespoir de ce contretemps. Juge si j'ai sujet de
+                le point de faire. Tu me donnes rendez-vous pour demain à 11 heures et je pars à six
+                heures du matin ! Je suis au désespoir de ce contretemps. Juge si j'ai sujet de
                 philosopher. Il faut cependant bien se consoler en pensant que je serai de retour
-                dans un mois &amp; que nous aurons encore le temps de nous voir amplement avant la
-                fin des vacances. Pour ne pas nous oublier entièrement nous écrirons, je pense,
+                dans un mois et que nous aurons encore le temps de nous voir amplement avant la fin
+                des vacances. Pour ne pas nous oublier entièrement nous écrirons, je pense,
                 régulièrement. L'endroit n'est pas par trop loin et nos portes de lettres nous
                 couteront moins que d'ici à Angoulême.</p>
 
-            <p>J'ai été ce matin <del rend="overstrike">avec</del> chez M<hi rend="sup">r</hi>.
-                Guerin lui faire mes adieux. J'y ai admiré les beaux tableaux qu'il</p>
+            <p>J'ai été ce matin chez <persName key="Guérin, Pierre Narcisse (1774-1833)
+                    ">Monsieur Guérin</persName> lui faire mes adieux. J'y ai admiré les
+                beaux tableaux qu'il</p>
 
             <pb n="3" xml:id="p3"/>
             <p>exposera au Curieux, le salon prochain. J'ai du regret de ne pouvoir cette année
-                étudier chez lui. Mais quand je ne serai plus à ce Lycée je veux y passer quelque
-                temps pour avoir au moins un petit talent d'amateur. <del rend="overstrike"
-                    >mais</del> Je m'aperçois de la longueur énorme de ma lettre. Jamais, je crois,
-                je n'en ai écrit d'aussi volumineuse ; &amp; quand je t'entretiendrais pendant une
-                heure de mille autres sottises qui ne t'intéressent guère je n'en serais pas moins
-                affligé de te quitter, ni plus attaché à ta personne.</p>
+                étudier chez lui<note place="bottom">Pierre-Narcisse Guérin (1774-1833) a ouvert
+                    depuis 1810 un atelier sur Paris qui réunit différents artistes tels Théodore
+                    Géricault, Ary et Henry Scheffer et, finalement, Eugène Delacroix à partir de
+                    1815 avec le soutien de son oncle Henri-François Riesener. </note>. Mais quand
+                je ne serai plus à ce <placeName key="">Lycée</placeName> je veux y passer quelque temps pour avoir au moins un
+                petit talent d'amateur. Je m'aperçois de la longueur énorme de ma lettre. Jamais, je
+                crois, je n'en ai écrit d'aussi volumineuse ; et quand je t'entretiendrais pendant
+                une heure de mille autres sottises qui ne t'intéressent guère je n'en serais pas
+                moins affligé de te quitter, ni plus attaché à ta personne.</p>
 
             <closer>
                 <salute>Sois assuré, mon cher ami, du sincère attachement que je te voue pour la
@@ -122,12 +127,12 @@
 
             <postscript>
                 <p>P.S. tu ne trouveras pas mauvais sans doute que je fasse lire <add place="above"
-                        >cette lettre</add> à guillemardet, qui a diné aujourd'hui avec moi, <del
-                        rend="overstrike"><gap reason="illegible" quantity="1" unit="word"/></del>
-                    &amp; que je regarde déjà comme ton futur ami.</p>
+                        >cette lettre</add> à <persName key="Guillemardet, Félix (1796-1842)"
+                        >Guillemardet</persName>, qui a diné aujourd'hui avec moi, et que je regarde
+                    déjà comme ton futur ami.</p>
                 <p>adresse moi tes lettres,</p>
                 <p>à Vallemont Seine inférieure.</p>
-                <p><del rend="overstrike"><unclear>à revoir</unclear></del> pour que <del
+                <p>à revoir pour que <del
                         rend="overstrike">mes</del>
                     <add place="above">tes</add> lettres me parviennent franc de port tu n'auras
                     qu'à les mettre chez nous. un monsieur se charge de me les faire tenir.</p>
