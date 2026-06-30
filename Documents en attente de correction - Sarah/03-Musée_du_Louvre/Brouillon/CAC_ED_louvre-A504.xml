@@ -52,7 +52,7 @@
                 </msDesc>
                 <listBibl>
                     <bibl>André Joubin, <hi rend="it">Correspondance générale de Eugène
-                            Delacroix</hi>, 1935, I, p.5-6</bibl>
+                            Delacroix</hi>, 1935, I, p. 5-6</bibl>
                 </listBibl>
             </sourceDesc>
         </fileDesc>
@@ -63,7 +63,7 @@
                     <date when="1813-08-25"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName key="Allard, Jules">Jules Allard</persName>
+                    <persName key="Allard, Jules"/>
                 </correspAction>
             </correspDesc>
             <langUsage>
@@ -75,7 +75,7 @@
         <body>
             <pb n="1" xml:id="p1"/>
             <opener>
-                <dateline>Le <date when="1813-08-25">25 aout ou <hi rend="u">auguste</hi> si cela
+                <dateline>Le <date when="1813-08-25">25 août ou <hi rend="u">auguste</hi> si cela
                         vous plait.</date></dateline>
             </opener>
 
@@ -100,27 +100,33 @@
                 dans un mois et que nous aurons encore le temps de nous voir amplement avant la fin
                 des vacances. Pour ne pas nous oublier entièrement nous écrirons, je pense,
                 régulièrement. L'endroit n'est pas par trop loin et nos portes de lettres nous
-                couteront moins que d'ici à Angoulême.</p>
+                coûteront moins que d'ici à Angoulême<note place="bottom">En référence à la
+                    propriété que la mère de Delacroix possède à proximité d'Angoulême.</note>.</p>
 
             <p>J'ai été ce matin chez <persName key="Guérin, Pierre Narcisse (1774-1833)
                     ">Monsieur Guérin</persName> lui faire mes adieux. J'y ai admiré les
                 beaux tableaux qu'il</p>
 
             <pb n="3" xml:id="p3"/>
-            <p>exposera au Curieux, le salon prochain. J'ai du regret de ne pouvoir cette année
-                étudier chez lui<note place="bottom">Pierre-Narcisse Guérin (1774-1833) a ouvert
-                    depuis 1810 un atelier sur Paris qui réunit différents artistes tels Théodore
-                    Géricault, Ary et Henry Scheffer et, finalement, Eugène Delacroix à partir de
-                    1815 avec le soutien de son oncle Henri-François Riesener. </note>. Mais quand
-                je ne serai plus à ce <placeName key="">Lycée</placeName> je veux y passer quelque temps pour avoir au moins un
-                petit talent d'amateur. Je m'aperçois de la longueur énorme de ma lettre. Jamais, je
-                crois, je n'en ai écrit d'aussi volumineuse ; et quand je t'entretiendrais pendant
-                une heure de mille autres sottises qui ne t'intéressent guère je n'en serais pas
-                moins affligé de te quitter, ni plus attaché à ta personne.</p>
+            <p>exposera au Curieux, le salon prochain<note place="bottom">Salon de 1814, dans lequel
+                    Pierre-Narcisse Guérin (1774-1833) expose notamment <hi rend="it"
+                        >Andromaque</hi> et <hi rend="it">Céphale et Aurore</hi>.</note>. J'ai du
+                regret de ne pouvoir cette année étudier chez lui<note place="bottom"
+                    >Pierre-Narcisse Guérin ouvre un atelier sur Paris en 1810, qui réunit
+                    différents artistes tels Théodore Géricault, Ary et Henry Scheffer et,
+                    finalement, Eugène Delacroix à partir de 1815 avec le soutien de son oncle
+                    Henri-François Riesener. </note>. Mais quand je ne serai plus à ce <placeName
+                    key="France, Paris, Lycée Impérial, Louis-le-Grand">Lycée</placeName><note
+                    place="bottom">Il le quitte en juin 1815</note> je veux y passer quelque temps
+                pour avoir au moins un petit talent d'amateur. Je m'aperçois de la longueur énorme
+                de ma lettre. Jamais, je crois, je n'en ai écrit d'aussi volumineuse ; et quand je
+                t'entretiendrais pendant une heure de mille autres sottises qui ne t'intéressent
+                guère je n'en serais pas moins affligé de te quitter, ni plus attaché à ta
+                personne.</p>
 
             <closer>
-                <salute>Sois assuré, mon cher ami, du sincère attachement que je te voue pour la
-                    vie</salute>
+                <salute>Sois assuré, mon cher <persName key="Allard, Jules">ami</persName>, du
+                    sincère attachement que je te voue pour la vie</salute>
                 <signed><persName key="Delacroix, Eugène (1798-1863)">Eugène
                     Delacroix</persName></signed>
             </closer>
@@ -131,24 +137,23 @@
                         >Guillemardet</persName>, qui a diné aujourd'hui avec moi, et que je regarde
                     déjà comme ton futur ami.</p>
                 <p>adresse moi tes lettres,</p>
-                <p>à Vallemont Seine inférieure.</p>
-                <p>à revoir pour que <del
-                        rend="overstrike">mes</del>
-                    <add place="above">tes</add> lettres me parviennent franc de port tu n'auras
-                    qu'à les mettre chez nous. un monsieur se charge de me les faire tenir.</p>
+                <p>à <placeName key="France, Vallemont">Vallemont</placeName> Seine inférieure.</p>
+                <p>à <hi rend="u">[savoir]</hi> pour que tes lettres me parviennent franc de port tu
+                    n'auras qu'à les mettre chez nous. Un monsieur se charge de me les faire
+                    tenir.</p>
             </postscript>
 
             <pb n="4" xml:id="p4"/>
             <div type="envelope">
-                <p>
-                    <address>
-                        <addrLine>A Monsieur</addrLine>
-                        <addrLine>Monsieur Jules Allan</addrLine>
-                        <addrLine>Rue S<hi rend="sup">t</hi>. Jacques N<hi rend="sup">o</hi>.
-                            297</addrLine>
-                        <addrLine>A Paris.</addrLine>
-                    </address>
-                </p>
+                <dateline><date when="1813-08-05">5 auguste 1813</date></dateline>
+                <address>
+                    <addrLine>À Monsieur</addrLine>
+                    <addrLine>Monsieur <persName key="Allard, Jules">Jules
+                        Allard</persName></addrLine>
+                    <addrLine><placeName key="France, Paris, rue Saint Jacques, 297">Rue Saint
+                            Jacques n°297</placeName></addrLine>
+                    <addrLine>À <placeName key="France, Paris">Paris</placeName></addrLine>
+                </address>
             </div>
         </body>
     </text>

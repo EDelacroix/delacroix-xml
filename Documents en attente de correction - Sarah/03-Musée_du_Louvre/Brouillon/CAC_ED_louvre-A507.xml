@@ -17,7 +17,7 @@
                     <name>Sarah Jouan</name>
                 </respStmt>
                 <respStmt>
-                    <resp>Correction</resp>
+                    <resp>Annotation</resp>
                     <name>Sarah Jouan</name>
                 </respStmt>
             </editionStmt>
@@ -38,7 +38,7 @@
                         <country>France</country>
                         <settlement>Paris</settlement>
                         <institution>Musée du Louvre, Département des Peintures</institution>
-                        <idno>A507 pièces 1 et 2</idno>
+                        <idno>A507</idno>
                     </msIdentifier>
                     <physDesc>
                         <objectDesc form="letter">
@@ -51,7 +51,7 @@
                     </physDesc>
                 </msDesc>
                 <listBibl>
-                    <bibl>Nomenclature interne</bibl>
+                    <bibl>André Joubin, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936, II, p. 335</bibl>
                 </listBibl>
             </sourceDesc>
         </fileDesc>
@@ -62,7 +62,7 @@
                     <date when="1845-01-22"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName key="Couture, Thomas (1815-1879)">Thomas Couture</persName>
+                    <persName key="Couture, Thomas (1815-1879)"/>
                 </correspAction>
             </correspDesc>
             <langUsage>

@@ -7,7 +7,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Lettre d’Eugène Delacroix à Monsieur le Vicomte, 25 février 1829</title>
+                <title>Lettre d’Eugène Delacroix à Monsieur le Vicomte Sosthènes de La
+                    Rochefoucauld, 25 février 1829</title>
                 <author key="Delacroix, Eugène (1798-1863)"/>
             </titleStmt>
             <editionStmt>
@@ -17,7 +18,7 @@
                     <name>Sarah Jouan</name>
                 </respStmt>
                 <respStmt>
-                    <resp>Correction</resp>
+                    <resp>Annotation</resp>
                     <name>Sarah Jouan</name>
                 </respStmt>
             </editionStmt>
@@ -38,7 +39,7 @@
                         <country>France</country>
                         <settlement>Paris</settlement>
                         <institution>Musée du Louvre, Département des Peintures</institution>
-                        <idno>A506 pièce 1</idno>
+                        <idno>A506</idno>
                     </msIdentifier>
                     <physDesc>
                         <objectDesc form="letter">
@@ -51,7 +52,8 @@
                     </physDesc>
                 </msDesc>
                 <listBibl>
-                    <bibl>Nomenclature interne</bibl>
+                    <bibl>André Joubin, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1935, I
+                        , p. 237-238</bibl>
                 </listBibl>
             </sourceDesc>
         </fileDesc>
@@ -62,7 +64,8 @@
                     <date when="1829-02-25"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Monsieur le Vicomte</persName>
+                    <persName key="La Rochefoucauld, Sosthènes de (1785-1864)
+                        "/>
                 </correspAction>
             </correspDesc>
             <langUsage>
@@ -74,19 +77,31 @@
         <body>
             <pb n="1" xml:id="p1"/>
             <opener>
-                <note place="margin-top-left" rend="underlined"><unclear>doit</unclear><lb/>Samedi à<lb/>une heure.</note>
+                <note place="margin-top-left" rend="underlined"><unclear>doit</unclear><lb/>Samedi
+                    à<lb/>une heure.</note>
                 <salute>Monsieur le Vicomte,</salute>
             </opener>
-            
-            <p>La lettre par laquelle vous avez bien voulu m'assigner un rendez vous pour prendre connaissance de mon esquisse de la bataille de Nancy, m'arriva le soir du jour que vous m'aviez fixé. Ayant d'ailleurs fait quelques changements à ce que je désirais vous soumettre, je viens vous prier de vouloir bien m'indiquer de nouveau, un jour, où il vous sera possible de me recevoir, pressé que je suis de présenter à votre approbation le commencement d'un ouvrage au quel je désire vivement vous voir attacher votre suffrage.</p>
-            
+
+            <p>La lettre par laquelle vous avez bien voulu m'assigner un rendez-vous pour prendre
+                connaissance de mon <rs type="work" key="Bataille de Nancy (J143)
+                    ">esquisse de la bataille de Nancy</rs><note place="bottom"
+                    >Première oeuvre de commande de Delacroix, la peinture est commandée en 1828 par
+                    Charles X et sera achevée en 1831.</note>, m'arriva le soir du jour que vous m'aviez fixé. Ayant
+                d'ailleurs fait quelques changements à ce que je désirais vous soumettre, je viens
+                vous prier de vouloir bien m'indiquer de nouveau, un jour, où il vous sera possible
+                de me recevoir, pressé que je suis de présenter à votre approbation le commencement
+                d'un ouvrage auquel je désire vivement vous voir attacher votre suffrage.</p>
+
             <closer>
-                <salute>J'ai l'honneur d'être avec respect,<lb/>Monsieur le Vicomte,<lb/>votre très humble et très<lb/>obéissant serviteur,</salute>
-                <signed><persName key="Delacroix, Eugène (1798-1863)">Eug Delacroix</persName></signed>
-                <dateline><date when="1829-02-25">le 25 février 1829.</date></dateline>
-                <address><addrLine>quai voltaire n<hi rend="sup">o</hi>. 15.</addrLine></address>
+                <salute>J'ai l'honneur d'être avec respect,<persName key="La Rochefoucauld, Sosthènes de (1785-1864)">Monsieur le Vicomte</persName>, votre très
+                    humble et très obéissant serviteur,</salute>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">Eug
+                    Delacroix</persName></signed>
+                <dateline><date when="1829-02-25">le 25 février 1829</date></dateline>
+                <address>
+                    <addrLine><placeName key="France, Paris, quai Voltaire, 15">quai Voltaire n°15</placeName></addrLine>
+                </address>
             </closer>
         </body>
     </text>
 </TEI>
-
