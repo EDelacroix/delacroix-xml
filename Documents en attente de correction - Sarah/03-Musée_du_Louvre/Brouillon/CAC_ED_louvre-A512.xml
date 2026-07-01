@@ -50,9 +50,6 @@
                         </objectDesc>
                     </physDesc>
                 </msDesc>
-                <listBibl>
-                    <bibl>Nomenclature interne</bibl>
-                </listBibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -74,22 +71,21 @@
         <body>
             <pb n="1" xml:id="p1"/>
             <opener>
-                <dateline><date when="1856-02-06">Ce 6 fevrier 1856</date></dateline>
+                <dateline>Ce <date when="1856-02-06">6 fevrier 1856</date></dateline>
                 <salute><persName key="Hartmann, André Frédéric (1772-1861)">Monsieur</persName>,</salute>
             </opener>
 
-            <p>Je vous serai bien reconnaissant s'il vous était possible d'arrêter les mesures des panneaux de votre salon de
+            <p>Je vous serais bien reconnaissant s'il vous était possible d'arrêter les mesures des panneaux de votre salon de
                 concert avec votre architecte : j'aurais été bien aise d'en faire les esquisses dans
                 le moment où j'ai un peu plus de liberté. Je prévois que je serai forcé d'ici à peu
                 de temps, de me donner tout entier à des travaux qui ajourneraient, contre mon gré
-                le commencement <del rend="overstrike">du travail</del>
-                <add place="above">de celui</add> dont vous voulez bien me charger. Les esquisses
-                une fois faites, l'exécution définitive s'en ferait suivie plus, facilement.</p>
+                le commencement de celui dont vous voulez bien me charger. Les esquisses
+                une fois faites, l'exécution définitive s'en serait suivie plus facilement.</p>
 
             <closer>
                 <salute>Veuillez, <persName key="Hartmann, André Frédéric (1772-1861)">Monsieur</persName>, excuser mon insistance <pb n="2" xml:id="p2"/>
-                    qui est dans l'interet de l'ouvrage que je suis heureux de faire pour vous et agreer
-                    en même temps l'assurance de la plus haute conside-ration.</salute>
+                    qui est dans l'intérêt de l'ouvrage que je suis heureux de faire pour vous et agréer
+                    en même temps l'assurance de la plus haute considération.</salute>
                 <signed><persName key="Delacroix, Eugène (1798-1863)">Eug.
                     Delacroix.</persName></signed>
             </closer>
