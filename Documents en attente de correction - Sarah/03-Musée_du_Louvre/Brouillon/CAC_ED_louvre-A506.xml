@@ -31,7 +31,7 @@
             </publicationStmt>
             <seriesStmt>
                 <title type="main">Correspondance d’Eugène Delacroix</title>
-                <title type="sub">Destinataires divers</title>
+                <title type="sub">Achats par l’État, les municipalités et les institutions publiques</title>
             </seriesStmt>
             <sourceDesc>
                 <msDesc>
@@ -52,8 +52,8 @@
                     </physDesc>
                 </msDesc>
                 <listBibl>
-                    <bibl>André Joubin, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1935, I
-                        , p. 237-238</bibl>
+                    <bibl>André Joubin, <hi rend="it">Correspondance générale de Eugène
+                            Delacroix</hi>, 1935, I , p. 237-238</bibl>
                 </listBibl>
             </sourceDesc>
         </fileDesc>
@@ -77,8 +77,8 @@
         <body>
             <pb n="1" xml:id="p1"/>
             <opener>
-                <note place="margin-top-left" rend="underlined"><unclear>doit</unclear><lb/>Samedi
-                    à<lb/>une heure.</note>
+                <dateline><date when="1829-02-25">Samedi</date> à <hi rend="u">une
+                    heure</hi>.</dateline>
                 <salute>Monsieur le Vicomte,</salute>
             </opener>
 
@@ -86,20 +86,23 @@
                 connaissance de mon <rs type="work" key="Bataille de Nancy (J143)
                     ">esquisse de la bataille de Nancy</rs><note place="bottom"
                     >Première oeuvre de commande de Delacroix, la peinture est commandée en 1828 par
-                    Charles X et sera achevée en 1831.</note>, m'arriva le soir du jour que vous m'aviez fixé. Ayant
-                d'ailleurs fait quelques changements à ce que je désirais vous soumettre, je viens
-                vous prier de vouloir bien m'indiquer de nouveau, un jour, où il vous sera possible
-                de me recevoir, pressé que je suis de présenter à votre approbation le commencement
-                d'un ouvrage auquel je désire vivement vous voir attacher votre suffrage.</p>
+                    Charles X et sera achevée en 1831.</note>, m'arriva le soir du jour que vous
+                m'aviez fixé. Ayant d'ailleurs fait quelques changements à ce que je désirais vous
+                soumettre, je viens vous prier de vouloir bien m'indiquer de nouveau, un jour, où il
+                vous sera possible de me recevoir, pressé que je suis de présenter à votre
+                approbation le commencement d'un ouvrage auquel je désire vivement vous voir
+                attacher votre suffrage.</p>
 
             <closer>
-                <salute>J'ai l'honneur d'être avec respect,<persName key="La Rochefoucauld, Sosthènes de (1785-1864)">Monsieur le Vicomte</persName>, votre très
-                    humble et très obéissant serviteur,</salute>
-                <signed><persName key="Delacroix, Eugène (1798-1863)">Eug
+                <salute>J'ai l'honneur d'être avec respect,<persName
+                        key="La Rochefoucauld, Sosthènes de (1785-1864)">Monsieur le
+                        Vicomte</persName>, votre très humble et très obéissant serviteur,</salute>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">Eug.
                     Delacroix</persName></signed>
-                <dateline><date when="1829-02-25">le 25 février 1829</date></dateline>
+                <dateline>le <date when="1829-02-25">25 février 1829</date></dateline>
                 <address>
-                    <addrLine><placeName key="France, Paris, quai Voltaire, 15">quai Voltaire n°15</placeName></addrLine>
+                    <addrLine><placeName key="France, Paris, quai Voltaire, 15">quai Voltaire
+                            n°15</placeName></addrLine>
                 </address>
             </closer>
         </body>

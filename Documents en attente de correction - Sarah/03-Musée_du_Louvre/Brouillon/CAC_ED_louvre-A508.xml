@@ -17,7 +17,7 @@
                     <name>Sarah Jouan</name>
                 </respStmt>
                 <respStmt>
-                    <resp>Correction</resp>
+                    <resp>Annotation</resp>
                     <name>Sarah Jouan</name>
                 </respStmt>
             </editionStmt>
@@ -38,7 +38,7 @@
                         <country>France</country>
                         <settlement>Paris</settlement>
                         <institution>Musée du Louvre, Département des Peintures</institution>
-                        <idno>A508 pièces 1 à 3</idno>
+                        <idno>A508</idno>
                     </msIdentifier>
                     <physDesc>
                         <objectDesc form="letter">
@@ -51,7 +51,8 @@
                     </physDesc>
                 </msDesc>
                 <listBibl>
-                    <bibl>Nomenclature interne</bibl>
+                    <bibl>André Joubin, <hi rend="it">Correspondance générale de Eugène
+                            Delacroix</hi>, 1937, III, p. 83-84</bibl>
                 </listBibl>
             </sourceDesc>
         </fileDesc>
@@ -62,7 +63,7 @@
                     <date label="[1851]"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName key="Dauzats, Adrien (1804-1868)">Adrien Dauzats</persName>
+                    <persName key="Dauzats, Adrien (1804-1868)"/>
                 </correspAction>
             </correspDesc>
             <langUsage>
@@ -75,35 +76,41 @@
             <pb n="1" xml:id="p1"/>
             <opener>
                 <address>
-                    <addrLine>Monsieur Dauzats</addrLine>
-                    <addrLine>14 rue Ollivier</addrLine>
+                    <addrLine>Monsieur <persName key="Dauzats, Adrien (1804-1868)"
+                            >Dauzats</persName></addrLine>
+                    <addrLine><placeName key="">14 rue <hi rend="u"
+                        >Ollivier</hi></placeName></addrLine>
                 </address>
 
                 <pb n="2" xml:id="p2"/>
-                <dateline>
-                    <date>Ce jeudi</date>
-                    <note place="inline" rend="pencil">1851</note>
+                <dateline> Ce <date when="">jeudi</date>
+                    <add place="inline">[1851]</add>
                 </dateline>
-                <salute>cher Dauzats,</salute>
+                <salute>cher <persName key="Dauzats, Adrien (1804-1868)"
+                    >Dauzats</persName>,</salute>
             </opener>
 
-            <p>J'ai le regret de ne pouvoir vous donner les deux tableaux le more assis et le doge.
-                Après examen d'experts fait sous mes yeux le premier de ces tableaux a été <hi
-                    rend="underlined">remmargé</hi> c.à.d. que les clous ayant emporté les bords de
-                la toile qui était mauvaise, on y a collé des bords qui sont en mauvais état. <del
-                    rend="overstrike"><gap reason="illegible" quantity="1" unit="word"/></del>
-                voudrais donc qu'il n'y soit fait d'autres réparations, qu'il ne fut roulé que pour
-                aller à une destination <hi rend="underlined">définitive</hi>. le doge a de
-                nouvelles craquelures qui le déshonorent et demandent le mastic, le repeint &amp;
-                sans compter d'autres inconvénients. — je vous offre</p>
+            <p>J'ai le regret de ne pouvoir vous donner les deux tableaux le <rs type="work"
+                    key="La Mort de Marc-Aurèle (J281)
+                    "><hi rend="it">Marc-Aurèle</hi></rs> et le <rs type="work"
+                    key="Le doge Marino Faliero condamné à mort (J112)
+                        "><hi rend="it">Doge</hi></rs>. Après examen d'experts
+                fait sous mes yeux, le premier de ces tableaux a été <hi rend="u">remmargé</hi>
+                c'est-à-dire que les clous ayant emporté les bords de la toile qui était mauvaise,
+                on y a collé des bords qui sont en mauvais état. Je voudrais donc, si je n'y fais
+                d'autres réparations, qu'il ne fut roulé que pour aller à une destination
+                définitive. Le <rs type="work" key="Le doge Marino Faliero condamné à mort (J112)
+                    ">doge</rs> a de nouvelles craquelures qui le déshonorent et
+                demandent le mastic, le repeint sans compter d'autres inconvénients. — je vous
+                offre</p>
 
             <pb n="3" xml:id="p3"/>
             <p>à la place un autre tableau qui ne manque pas d'importance et qu'on peut envoyer sans
-                le rouler bien entendu. c'est <hi rend="underlined">la grèce sur les ruines de
+                le rouler bien entendu. c'est <hi rend="u">la grèce sur les ruines de
                     Missolonghi</hi> de 7 pieds environ. ou une Sibylle haute de 60 ou 80 sur
-                laquelle M<hi rend="sup">d</hi>. la duchesse d'orléans qui se la rappela me fit
-                l'honneur de me complimenter dans la visite où vous l'accompa-gnâtes tous les deux à
-                la rue S<hi rend="sup">t</hi> Lazare.</p>
+                laquelle Madame la duchesse d'orléans qui se la rappela me fit l'honneur de me
+                complimenter dans la visite où vous l'accompa-gnâtes tous les deux à la rue Saint
+                Lazare.</p>
 
             <p>mon bon ami excusez moi donc et écrivez moi pour quel jour précis il vous faut les
                 tableaux qui ont également besoin de réparation</p>
@@ -111,7 +118,7 @@
             <closer>
                 <salute>à vous sincèrement</salute>
                 <signed>
-                    <persName key="Delacroix, Eugène (1798-1863)">Eug Delacroix</persName>
+                    <persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName>
                 </signed>
             </closer>
         </body>
