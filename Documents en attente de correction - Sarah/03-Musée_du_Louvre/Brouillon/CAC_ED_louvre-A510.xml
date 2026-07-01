@@ -7,7 +7,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Lettre d’Eugène Delacroix à un ami, 11 mai 1856</title>
+                <title>Lettre d’Eugène Delacroix à Adolphe Ferdinand Moreau, 11 mars 1856</title>
                 <author key="Delacroix, Eugène (1798-1863)"/>
             </titleStmt>
             <editionStmt>
@@ -17,7 +17,7 @@
                     <name>Sarah Jouan</name>
                 </respStmt>
                 <respStmt>
-                    <resp>Correction</resp>
+                    <resp>Annotation</resp>
                     <name>Sarah Jouan</name>
                 </respStmt>
             </editionStmt>
@@ -38,7 +38,7 @@
                         <country>France</country>
                         <settlement>Paris</settlement>
                         <institution>Musée du Louvre, Département des Peintures</institution>
-                        <idno>A510 pièces 1 et 2</idno>
+                        <idno>A510</idno>
                     </msIdentifier>
                     <physDesc>
                         <objectDesc form="letter">
@@ -51,7 +51,10 @@
                     </physDesc>
                 </msDesc>
                 <listBibl>
-                    <bibl>Nomenclature interne</bibl>
+                    <bibl>André Joubin, <hi rend="it">Correspondance générale de Eugène
+                            Delacroix</hi>, 1937, III, p. 320</bibl>
+                    <bibl>Philippe Burty, <hi rend="it">Lettres de Eugène Delacroix</hi>, 1880, II,
+                        p. 139</bibl>
                 </listBibl>
             </sourceDesc>
         </fileDesc>
@@ -59,10 +62,11 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName key="Delacroix, Eugène (1798-1863)"/>
-                    <date when="1856-05-11"/>
+                    <date when="1856-03-11"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Inconnu</persName>
+                    <persName key="Moreau, Adolphe Ferdinand, père (1800-1859)
+                        "/>
                 </correspAction>
             </correspDesc>
             <langUsage>
@@ -74,29 +78,29 @@
         <body>
             <pb n="1" xml:id="p1"/>
             <opener>
-                <dateline><date when="1856-05-11">Ce 11 mai <note place="inline" rend="pencil"
-                            >(1856)</note></date></dateline>
-                <salute>Cher Monsieur et ami,</salute>
+                <dateline><date when="1856-03-11">Ce 11 mars <add place="inline">
+                        [1856]</add></date></dateline>
+                <salute>Cher <persName key="Moreau, Adolphe Ferdinand, père (1800-1859)">Monsieur et
+                        ami</persName>,</salute>
             </opener>
 
-            <p>Je m'étais occupé tout de suite à chercher des <del rend="overstrike">projets</del>
-                <add place="above">sujets</add> pour répondre au désir que vous m'avez si
-                aimablement exprimé de la part de M. <unclear>A.</unclear> Fould. après avoir hésité
-                quelque temps, je me suis rappelé une esquisse que j'ai tracée il ya un an environ
-                dans le projet d'en faire un tableau. Je crois le sujet assez favorable, avec
-                figures, animaux, paysage &amp;c. C'est <hi rend="underlined">ovide exilé chez les
-                    Scythes</hi> auquel des naïfs habitants apportent de fruits, du laitage &amp;c.
-                Il y aurait cet avantage que le tableau est tout composé : pour moi, c'est une
-                avance des plus considérables. si vous étiez assez bon pour passer un de ces jours,
-                je vous montrerais ce projet</p>
-
-            <pb n="2" xml:id="p2"/>
-            <p>et vous en demanderais votre avis.</p>
+            <p>Je m'étais occupé tout de suite à chercher des sujets pour répondre au désir que vous
+                m'avez si aimablement exprimé de la part de <persName key="Fould, Benoît (1792-1858)
+                    ">Monsieur Benoît Fould</persName>. Après avoir hésité quelque
+                temps, je me suis rappelé une esquisse que j'ai tracée il y a un an environ dans le
+                projet d'en faire un tableau. Je crois le sujet assez favorable, avec figures,
+                animaux, paysages, etc. C'est <hi rend="it">Ovide exilé chez les Scythes</hi> auquel
+                les naïfs habitants apportent de fruits, du laitage, etc. Il y aurait cet avantage
+                que le tableau est tout composé : pour moi, c'est une avance des plus considérables.
+                Si vous étiez assez bon pour passer un de ces jours, je vous montrerais ce projet
+                    <pb n="2" xml:id="p2"/>et vous en demanderais votre avis.<note place="bottom"
+                    >L'oeuvre sera bien commandée par Benoît Fould, puis exposée au Salon de Paris en
+                    1859.</note></p>
 
             <closer>
-                <salute>Recevez en attendant, cher Monsieur avec tous mes remerciements, l'assurance
-                    de mon sincère attachement et de ma haute considération.</salute>
-                <signed><persName key="Delacroix, Eugène (1798-1863)">Eug
+                <salute>Recevez en attendant, cher <persName key="Moreau, Adolphe Ferdinand, père (1800-1859)">Monsieur</persName>, avec tous mes remerciements,
+                    l'assurance du plus sincère attachement et de ma haute considération.</salute>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">Eug.
                     Delacroix</persName></signed>
             </closer>
         </body>
