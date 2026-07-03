@@ -7,7 +7,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Lettre d’Eugène Delacroix à Frédéric Hartmann, 11 mars 1856</title>
+                <title>Lettre d’Eugène Delacroix à André Frédéric Hartmann, 11 mars 1856</title>
                 <author key="Delacroix, Eugène (1798-1863)"/>
             </titleStmt>
             <editionStmt>
@@ -30,7 +30,7 @@
             </publicationStmt>
             <seriesStmt>
                 <title type="main">Correspondance d’Eugène Delacroix</title>
-                <title type="sub">Destinataires divers</title>
+                <title type="sub">Les collectionneurs</title>
             </seriesStmt>
             <sourceDesc>
                 <msDesc>
@@ -50,9 +50,6 @@
                         </objectDesc>
                     </physDesc>
                 </msDesc>
-                <listBibl>
-                    <bibl>Nomenclature interne</bibl>
-                </listBibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -62,7 +59,7 @@
                     <date when="1856-03-11"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Monsieur</persName>
+                    <persName key="Hartmann, André Frédéric (1772-1861)"/>
                 </correspAction>
             </correspDesc>
             <langUsage>
@@ -74,19 +71,31 @@
         <body>
             <pb n="1" xml:id="p1"/>
             <opener>
-                <dateline>Ce <date when="1856-03-11">11 mars 1856.</date></dateline>
-                <salute>Monsieur,</salute>
+                <dateline>Ce <date when="1856-03-11">11 mars 1856</date></dateline>
+                <salute><persName key="Hartmann, André Frédéric (1772-1861)"></persName>Monsieur,</salute>
             </opener>
-            
-            <p>J'ai négligé de prendre l'adresse du décorateur qui est venu <del rend="overstrike"><gap reason="illegible" quantity="1" unit="word"/></del> de votre part, pour s'entendre avec moi sur les mesures des tableaux dont vous avez bien voulu me charger. Je voudrais le prier de suspendre le travail relatif au changement de proportion des cadres sur son plan. Je serai probablement amené à les faire un peu plus larges que je ne pensais, ce qui rentrerait dans son dessin. S'il voulait aussi attendre quelques jours, pour le modèle en petit d'un du panneau qu'il doit faire pour y essayer les esquisses, j'aurais arrêté tout à fait mes grandeurs et <pb n="2" xml:id="p2"/> nous procéderions avec sécurité. Je rentrerais ainsi dans vos intentions en augmentant la proportion des figures, relativement au paysage.</p>
-            
-            <p>Je désirerais que vous eussiez la bonté de m'écrire son nom et son adresse afin que je puisse le prévenir quand je serai prêt et <del rend="overstrike"><gap reason="illegible" quantity="1" unit="word"/></del> <add place="above">lui demander</add> de passer de nouveau : de votre côté, je vous prierais de lui écrire sur le champ pour qu'il ne continue pas sur de fausses données et qu'il attende mon avis.</p>
-            
+
+            <p>J'ai négligé de prendre l'adresse du <persName key="">décorateur</persName> qui est venu de votre part,
+                pour s'entendre avec moi sur les mesures des tableaux dont vous avez bien voulu me
+                charger. Je voudrais le prier de suspendre le travail relatif au changement de
+                proportion des cadres sur son plan. Je serai probablement amené à les faire un peu
+                plus larges que je ne pensais, ce qui rentrerait dans son dessin. S'il voulait aussi
+                attendre quelques jours, pour le modèle en petit d'un du panneau qu'il doit faire
+                pour y essayer les esquisses, j'aurais arrêté mes grandeurs et <pb n="2"
+                    xml:id="p2"/> nous procéderions avec sécurité. Je rentrerais ainsi dans vos
+                intentions en augmentant la proportion des figures, relativement au paysage.</p>
+
+            <p>Je désirerais que vous eussiez la bonté de m'écrire son nom et son adresse afin que
+                je puisse le prévenir quand je serai prêt et lui demander de passer de nouveau : de votre côté, je vous
+                prierais de lui écrire sur le champ pour qu'il ne continue pas sur de fausses
+                données et qu'il attende mon avis.</p>
+
             <closer>
-                <salute>Agréez, Monsieur l'expression de la considération la plus distinguée</salute>
-                <signed><persName key="Delacroix, Eugène (1798-1863)">E Delacroix</persName></signed>
+                <salute>Agréez, <persName key="Hartmann, André Frédéric (1772-1861)">Monsieur</persName> l'expression de la considération la plus
+                    distinguée</salute>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">E
+                    Delacroix</persName></signed>
             </closer>
         </body>
     </text>
 </TEI>
-
