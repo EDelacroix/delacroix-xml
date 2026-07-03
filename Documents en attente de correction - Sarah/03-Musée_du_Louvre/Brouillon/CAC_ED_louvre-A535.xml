@@ -24,7 +24,7 @@
             </publicationStmt>
             <seriesStmt>
                 <title type="main">Correspondance d’Eugène Delacroix</title>
-                <title type="sub">Destinataires divers</title>
+                <title type="sub">Les amis de jeunesse</title>
             </seriesStmt>
             <sourceDesc>
                 <msDesc>
@@ -44,19 +44,22 @@
                         </objectDesc>
                     </physDesc>
                 </msDesc>
+                <listBibl>
+                    <bibl>André Joubin, <hi rend="it">Correspondance générale de Eugène
+                            Delacroix</hi>, 1935, I, p. 153-156 </bibl>
+                </listBibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
                     <persName key="Delacroix, Eugène (1798-1863)"/>
-                    <placeName key="Londres (Royaume-Uni)">Londres</placeName>
+                    <placeName key="Royaume-Uni, Londres"/>
                     <date when="1825-05-27"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName key="Pierret, Jean-Baptiste (1795-1854)">Jean-Baptiste
-                        Pierret</persName>
-                    <persName key="Guillemardet, Félix (1796-1840)">Félix Guillemardet</persName>
+                    <persName key="Pierret, Jean-Baptiste (1795-1854)"/>
+                    <persName key="Guillemardet, Félix (1796-1840)"/>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -65,11 +68,12 @@
         <body>
             <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A535-1.jpg"/>
             <opener>
-                <add place="top-left" hand="pencil">I. 153</add>
-                <note place="top" hand="author">M. M. Guillemardet et Pierret.</note>
+                <persName key="Pierret, Jean-Baptiste (1795-1854)
+                    " "Guillemardet, Félix (1796-1842)
+                    ">Messieurs Guillemardet et Pierret</persName>
                 <note place="top" hand="author">Ceci est pour deux. Londres dimanche.</note>
-                <note place="top" hand="author">mon adresse est : <underline>14 Charles Street.
-                        Middlesex hospital.</underline></note>
+                <address><addrLine>mon adresse est : <underline><placeName key="Royaume-Uni, Londres, Charles Street, 14">14 Charles Street.
+                                Middlesex hospital</placeName></addrLine></address>
                 <salute>Mon cher enfant</salute>
             </opener>
 
@@ -146,9 +150,10 @@
             <pb n="4" xml:id="p4" facs="CAC_ED_louvre-A535-4.jpg"/>
             <div type="envelope">
                 <stamp type="postmark">120 H / 25</stamp>
-                <stamp type="postmark">27 MAI 1825</stamp>
+                <stamp type="postmark">27 mai 1825</stamp>
                 <address>
-                    <addrLine>Monsieur Pierret</addrLine>
+                    <addrLine><persName key="Pierret, Jean-Baptiste (1795-1854)
+                            ">Monsieur Pierret</persName></addrLine>
                     <addrLine>rue de l’université n° 46</addrLine>
                     <addrLine>à Paris</addrLine>
                 </address>
