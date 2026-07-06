@@ -7,7 +7,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Lettre d’Eugène Delacroix à Jacques Félix Frédéric Hartmann, 11 mars 1856</title>
+                <title>Lettre d’Eugène Delacroix à Jacques Félix Frédéric Hartmann, 11 mars
+                    1856</title>
                 <author key="Delacroix, Eugène (1798-1863)"/>
             </titleStmt>
             <editionStmt>
@@ -74,28 +75,35 @@
             <opener>
                 <dateline>Ce <date when="1856-03-11">11 mars 1856</date></dateline>
                 <salute><persName key="Hartmann, Jacques Félix Frédéric (1822-1880)
-                        "></persName>Monsieur,</salute>
+                        "/>Monsieur,</salute>
             </opener>
 
-            <p>J'ai négligé de prendre l'adresse du <persName key="">décorateur</persName> qui est venu de votre part,
-                pour s'entendre avec moi sur les mesures des tableaux dont vous avez bien voulu me
-                charger. Je voudrais le prier de suspendre le travail relatif au changement de
-                proportion des cadres sur son plan. Je serai probablement amené à les faire un peu
-                plus larges que je ne pensais, ce qui rentrerait dans son dessin. S'il voulait aussi
-                attendre quelques jours, pour le modèle en petit d'un des panneaux qu'il doit faire
-                pour y essayer les esquisses, j'aurais arrêté mes grandeurs et <pb n="2"
-                    xml:id="p2"/> nous procéderions avec sécurité. Je rentrerais ainsi dans vos
-                intentions en augmentant la proportion des figures, relativement au paysage.</p>
+            <p>J'ai négligé de prendre l'adresse du décorateur qui est venu de votre part, pour
+                s'entendre avec moi sur les mesures des <rs type="work"
+                    key="Les Quatre saisons (J244-251)
+                    ">tableaux</rs> dont <ref target="CAC_ED_louvre-A512.xml"
+                    >vous avez bien voulu me charger</ref>. Je voudrais le prier de suspendre le
+                travail relatif au changement de proportion des cadres sur son plan. Je serai
+                probablement amené à les faire un peu plus larges que je ne pensais, ce qui
+                rentrerait dans son dessin. S'il voulait aussi attendre quelques jours, pour le
+                modèle en petit d'un des panneaux qu'il doit faire pour y essayer les esquisses,
+                j'aurais arrêté mes grandeurs et <pb n="2" xml:id="p2"/> nous procéderions avec
+                sécurité. Je rentrerais ainsi dans vos intentions en augmentant la proportion des
+                figures, relativement au paysage<note place="bottom">Les dimensions des tableaux
+                    seront continuellement réévaluées. Nous pouvons lire dans la lettre du 21 mai
+                    1861 que Frédéric Hartmann rédige qu'il souhaite tout compte fait réduire les
+                    mensurations des tableaux afin qu'ils soient compris entre 1m20 et 1m30 de
+                    hauteur. La préférence de l'industriel allant pour 1m20.</note>.</p>
 
             <p>Je désirerais que vous eussiez la bonté de m'écrire son nom et son adresse afin que
-                je puisse le prévenir quand je serai prêt et lui demander de passer de nouveau : de votre côté, je vous
-                prierais de lui écrire sur le champ pour qu'il ne continue pas sur de fausses
-                données et qu'il attende mon avis.</p>
+                je puisse le prévenir quand je serai prêt et lui demander de passer de nouveau : de
+                votre côté, je vous prierais de lui écrire sur le champ pour qu'il ne continue pas
+                sur de fausses données et qu'il attende mon avis.</p>
 
             <closer>
                 <salute>Agréez, <persName key="Hartmann, Jacques Félix Frédéric (1822-1880)
-                        ">Monsieur</persName> l'expression de la considération la plus
-                    distinguée</salute>
+                        ">Monsieur</persName> l'expression de la considération la
+                    plus distinguée</salute>
                 <signed><persName key="Delacroix, Eugène (1798-1863)">E.
                     Delacroix</persName></signed>
             </closer>
