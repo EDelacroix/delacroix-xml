@@ -7,7 +7,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Lettre d’Eugène Delacroix à André Frédéric Hartmann, 6 février 1856</title>
+                <title>Lettre d’Eugène Delacroix à Jacques Félix Frédéric Hartmann, 6 février 1856</title>
                 <author key="Delacroix, Eugène (1798-1863)"/>
             </titleStmt>
             <editionStmt>
@@ -59,7 +59,8 @@
                     <date when="1856-02-06"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName key="Hartmann, André Frédéric (1772-1861)"/>
+                    <persName key="Hartmann, Jacques Félix Frédéric (1822-1880)
+                        "/>
                 </correspAction>
             </correspDesc>
             <langUsage>
@@ -72,7 +73,8 @@
             <pb n="1" xml:id="p1"/>
             <opener>
                 <dateline>Ce <date when="1856-02-06">6 fevrier 1856</date></dateline>
-                <salute><persName key="Hartmann, André Frédéric (1772-1861)"
+                <salute><persName key="Hartmann, Jacques Félix Frédéric (1822-1880)
+                        "
                     >Monsieur</persName>,</salute>
             </opener>
 
@@ -80,12 +82,13 @@
                 panneaux de votre salon de concert avec votre architecte : j'aurais été bien aise
                 d'en faire les esquisses dans le moment où j'ai un peu plus de liberté. Je prévois
                 que je serai forcé d'ici à peu de temps, de me donner tout entier à des travaux qui
-                ajourneraient, contre mon gré le commencement de celui dont vous voulez bien me
+                ajourneraient, contre mon gré, le commencement de celui dont vous voulez bien me
                 charger. Les esquisses une fois faites, l'exécution définitive s'en serait suivie
                 plus facilement.</p>
 
             <closer>
-                <salute>Veuillez, <persName key="Hartmann, André Frédéric (1772-1861)"
+                <salute>Veuillez, <persName key="Hartmann, Jacques Félix Frédéric (1822-1880)
+                        "
                         >Monsieur</persName>, excuser mon insistance <pb n="2" xml:id="p2"/> qui est
                     dans l'intérêt de l'ouvrage que je suis heureux de faire pour vous et agréer en
                     même temps l'assurance de la plus haute considération.</salute>
