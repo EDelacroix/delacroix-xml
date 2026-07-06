@@ -7,7 +7,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Lettre d’Eugène Delacroix à André Frédéric Hartmann, 11 mars 1856</title>
+                <title>Lettre d’Eugène Delacroix à Jacques Félix Frédéric Hartmann, 11 mars 1856</title>
                 <author key="Delacroix, Eugène (1798-1863)"/>
             </titleStmt>
             <editionStmt>
@@ -59,7 +59,8 @@
                     <date when="1856-03-11"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName key="Hartmann, André Frédéric (1772-1861)"/>
+                    <persName key="Hartmann, Jacques Félix Frédéric (1822-1880)
+                        "/>
                 </correspAction>
             </correspDesc>
             <langUsage>
@@ -72,7 +73,8 @@
             <pb n="1" xml:id="p1"/>
             <opener>
                 <dateline>Ce <date when="1856-03-11">11 mars 1856</date></dateline>
-                <salute><persName key="Hartmann, André Frédéric (1772-1861)"></persName>Monsieur,</salute>
+                <salute><persName key="Hartmann, Jacques Félix Frédéric (1822-1880)
+                        "></persName>Monsieur,</salute>
             </opener>
 
             <p>J'ai négligé de prendre l'adresse du <persName key="">décorateur</persName> qui est venu de votre part,
@@ -91,9 +93,10 @@
                 données et qu'il attende mon avis.</p>
 
             <closer>
-                <salute>Agréez, <persName key="Hartmann, André Frédéric (1772-1861)">Monsieur</persName> l'expression de la considération la plus
+                <salute>Agréez, <persName key="Hartmann, Jacques Félix Frédéric (1822-1880)
+                        ">Monsieur</persName> l'expression de la considération la plus
                     distinguée</salute>
-                <signed><persName key="Delacroix, Eugène (1798-1863)">E
+                <signed><persName key="Delacroix, Eugène (1798-1863)">E.
                     Delacroix</persName></signed>
             </closer>
         </body>
