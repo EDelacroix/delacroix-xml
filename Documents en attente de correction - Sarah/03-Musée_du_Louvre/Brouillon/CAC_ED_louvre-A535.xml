@@ -72,97 +72,108 @@
         <body>
             <pb n="1" xml:id="p1" facs="CAC_ED_louvre-A535-1.jpg"/>
             <opener>
-                <persName key="Pierret, Jean-Baptiste (1795-1854)
-                    " "Guillemardet, Félix (1796-1842)
-                    ">Messieurs Guillemardet et Pierret</persName>
-                <note place="top" hand="author">Ceci est pour deux. <placeName key="">Londres</placeName> <dateline><date when="">dimanche</date></dateline></note>
-                <address><addrLine>mon adresse est : <underline><placeName key="Royaume-Uni, Londres, Charles Street, 14">14 Charles Street.
-                                Middlesex hospital</placeName></addrLine></address>
+
+                <salute>Messieurs <persName key="Guillemardet, Félix (1796-1842)"
+                        >Guillemardet</persName> et <persName
+                        key="Pierret, Jean-Baptiste (1795-1854)">Pierret</persName>. Ceci est pour
+                    deux.</salute>
+                <address>
+                    <addrLine><placeName key="Royaume-Uni, Londres">Londres</placeName></addrLine>
+                </address>
+                <dateline><date when="1825-05-27">dimanche</date></dateline>
+                <address>
+                    <addrLine>mon adresse est : <placeName
+                            key="Royaume-Uni, Londres, Charles Street, 14">14 Charles Street.
+                            Middlesex hospital</placeName></addrLine>
+                </address>
                 <salute>Mon cher enfant</salute>
             </opener>
 
-            <p>je suis depuis deux ou trois jours dans cette grande <placeName key="Royaume-Uni, Londres">ville</placeName> et je n’ai guère eu le
-                temps de t’écrire parceque je suis fatigué du voyage qui a du reste été très
-                heureux. Le courrier est une façon de voyager que je trouve fort agréable et j’avais
-                affaire à un assez bon diable qui a eu pour moi toutes sortes de complaisances. Je
-                suis arrivé à Calais à 10 h. <add place="above">1/2</add> de soir, parti le
-                lendemain jeudi à 10 h. <add place="above">1/2</add>, et à Douvres à midi <add
-                    place="above">1/2</add> ou une heure. Fort ballotté dans la traversée mais point
-                malade ce qui m’a fait beaucoup de plaisir. J’avais cependant compté là dessus pour
-                me guérir de mon rhume ; c’était un petit vomitif forcé qui m’en eut débarrassé :
-                mais je l’ai encore quoique moins fort. J’ai eu à Douvres le temps de monter sur les
-                falaises dont Thales Fielding a fait une si belle aquarelle que tu te rappelles où
-                on voit le château qui domine la mer. Mes premiers pas en Angleterre m’ont pas
-                charmé. J’étais d’une inquiétude extrême d’entrer dans le port, à peine ai-je été
-                débarqué que je me suis senti beaucoup de dégoût pour tout ce que je voyais, et
-                cette</p>
+            <p>je suis depuis deux ou trois jours dans cette grande <placeName
+                    key="Royaume-Uni, Londres">ville</placeName> et je n’ai guère eu le temps de
+                t’écrire parceque je suis fatigué du voyage qui a du reste été très heureux. Le
+                courrier est une façon de voyager que je trouve fort agréable et j’avais affaire à
+                un assez bon diable qui a eu pour moi toutes sortes de complaisances. Je suis arrivé
+                à Calais à 10 h. <add place="above">1/2</add> de soir, parti le lendemain jeudi à 10
+                h. <add place="above">1/2</add>, et à Douvres à midi <add place="above">1/2</add> ou
+                une heure. Fort ballotté dans la traversée mais point malade ce qui m’a fait
+                beaucoup de plaisir. J’avais cependant compté là dessus pour me guérir de mon rhume
+                ; c’était un petit vomitif forcé qui m’en eut débarrassé : mais je l’ai encore
+                quoique moins fort. J’ai eu à Douvres le temps de monter sur les falaises dont
+                Thales Fielding a fait une si belle aquarelle que tu te rappelles où on voit le
+                château qui domine la mer. Mes premiers pas en Angleterre m’ont pas charmé. J’étais
+                d’une inquiétude extrême d’entrer dans le port, à peine ai-je été débarqué que je me
+                suis senti beaucoup de dégoût pour tout ce que je voyais, et cette</p>
 
             <pb n="2" xml:id="p2" facs="CAC_ED_louvre-A535-2.jpg"/>
-            <p>impression dure encore. Surtout en arrivant à Londres mon idée constante était que je
-                me trouverais bien malheureux d’être obligé d’y reste éternellement. Je suis
-                pourtant d’un naturel assez cosmopolite. Mais je ne doute pas que ce que j’ai trouvé
-                de choquant ne vienne de mon manque d’habitude des usages. Tout naturellement je
-                comparais tout ce que je voyais à la France et je nous aimais bien mieux. C’était
-                une hostilité véritable : j’ai trouvé dans la voiture de Douvres à Londres un visage
-                fameux d’assez de mérite et nous jouissions à dire du mal de l’Angleterre devant un
-                gros goddam d’anglais qui à la vérité n’entendait pas un mot de ce que nous disions,
-                tout d’abord faute de savoir le français ensuite à coup de deux bouteilles de vin de
+            <p>impression dure encore. Surtout en arrivant à <placeName key="Royaume-Uni, Londres"
+                    >Londres</placeName> mon idée constante était que je me trouverais bien
+                malheureux d’être obligé d’y reste éternellement. Je suis pourtant d’un naturel
+                assez cosmopolite. Mais je ne doute pas que ce que j’ai trouvé de choquant ne vienne
+                de mon manque d’habitude des usages. Tout naturellement je comparais tout ce que je
+                voyais à la <placeName key="France">France</placeName> et je nous aimais bien mieux.
+                C’était une hostilité véritable : j’ai trouvé dans la voiture de Douvres à
+                    <placeName key="Royaume-Uni, Londres">Londres</placeName> un visage fameux
+                d’assez de mérite et nous jouissions à dire du mal de l’Angleterre devant un gros
+                goddam d’anglais qui à la vérité n’entendait pas un mot de ce que nous disions, tout
+                d’abord faute de savoir le français ensuite à coup de deux bouteilles de vin de
                 Porto qu’il avait jugé de prendre avant la fin du trajet de Douvres pour se consoler
                 de l’ennui de la route. Ce qui le rendait d’une gaité folle quand il ne ronflait
-                pas. — L’immensité de cette ville me concilie pas. Les ponts sur la rivière sont de
-                perte de vue les uns des autres. Ce qui m’a le plus choqué c’est l’absence de tout
-                ce que nous appelons architecture. Préjugé ou non cela</p>
+                pas. — L’immensité de cette <placeName key="Royaume-Uni, Londres">ville</placeName>
+                me concilie pas. Les ponts sur la rivière sont de perte de vue les uns des autres.
+                Ce qui m’a le plus choqué c’est l’absence de tout ce que nous appelons architecture.
+                Préjugé ou non cela</p>
 
             <pb n="3" xml:id="p3" facs="CAC_ED_louvre-A535-3.jpg"/>
-            <p>me déplait : et puis ils ont une rue de Waterloo qui est un tas de palais d’opéra à
-                la suite l’un de l’autre terminée par un édifice au bout duquel est un clocher comme
-                ceci exactement <figure rend="drawing"><figDesc>Dessin d'un clocher
-                    effilé</figDesc></figure> c’est horrible — Mais il y a de belles boutiques ! un
-                luxe extrême. Le soleil est encore d’une nature particulière. C’est continuellement
-                un jour d’éclipse. — J’ai déjà vu beaucoup en peu de temps. J’ai été hier avec six
-                jeunes gens dont étaient les Fielding à Richmond par la Tamise. Nous avons fait pour
-                y aller six lieues et plus en deux heures <add place="above">1/4</add> et de même en
-                revenant dans un canot à six rames qui mérite à l’enfant de passer le voyage pour le
-                voir. Figure toi un violon d’amateur, tout ce qu’il y a de plus délicat en
-                construction en grâce en vitesse enfin inimaginable. Tout ce que j’ai vu de plus
-                étonnant jusqu’à ce jour ce pays. Je ne puis assez te dire combien ces canots sont
-                charmants. J’ai tenu le gouvernail. Les bords de la Tamise sont charmants, j’ai
-                retrouvé tous les paysages qui viennent à chaque instant sous la main de Pouhier.
-                J’ai vu la pièce de l’invasion en Russie de Napoléon. C’est fort drôle. Ils ont fort
-                bien imité les personnages qui commence tous ses discours par Brave Soldats en
-                criant Gentlemen ! — Mais ces pauvres soldats qu’ils sont amusants. Les uniformes
-                sont plein de bêtises très drôles. — C’est à un théâtre comme français où il y a des
-                chevaux. Ils sont très forts dans les exercices. Fielding m’a retenu un logement
-                fort bien qui ne me revient guère qu’à 40 s. par mois ce qui est très bon marché
-                c’est à dire qu’on dit à tort que Goddam est le fond de la langue. C’est :
-                    <underline>one</underline> Schelling, Sir. Ce qui veut dire : un shelling,
-                monsieur. — C’est ce qui se trouve au bout de toutes les phrases. Je ne parle pas
-                précisément de la conversation qu’on tient dans le palais du roi : mais j’ai pas
-                encore été à portée d’entendre de cette espèce, étant apporté j’ai vu la galerie de
-                West ; pour un <underline>schelling</underline> bien entendu. Il y a beaucoup de
-                choses a dire comme sur tout. Mais on causerons. Je te recommande Thales tout à
-                fait. J’écrirai sous peu à Édouard ce soir pour le presser de venir s’il est
-                possible. Rappelle moi je vous prie à tout ce qui s’am... mon cher à tous deux et
-                qui m’aime par cette raison —</p>
+            <p>me déplait : et puis ils ont une <placeName key="">rue de Waterloo</placeName> qui
+                est un tas de palais d’opéra à la suite l’un de l’autre terminée par un édifice au
+                bout duquel est un clocher comme ceci exactement <add place="inline">
+                    <figure rend="drawing"><figDesc>Dessin d'un clocher
+                    effilé</figDesc></figure></add> c’est horrible — Mais il y a de belles boutiques
+                ! un luxe extrême. Le soleil est encore d’une nature particulière. C’est
+                continuellement un jour d’éclipse. — J’ai déjà vu beaucoup en peu de temps. J’ai été
+                hier avec six jeunes gens dont étaient les Fielding à Richmond par la Tamise. Nous
+                avons fait pour y aller six lieues et plus en deux heures <add place="above"
+                    >1/4</add> et de même en revenant dans un canot à six rames qui mérite à
+                l’enfant de passer le voyage pour le voir. Figure toi un violon d’amateur, tout ce
+                qu’il y a de plus délicat en construction en grâce en vitesse enfin inimaginable.
+                Tout ce que j’ai vu de plus étonnant jusqu’à ce jour ce pays. Je ne puis assez te
+                dire combien ces canots sont charmants. J’ai tenu le gouvernail. Les bords de la
+                Tamise sont charmants, j’ai retrouvé tous les paysages qui viennent à chaque instant
+                sous la main de Pouhier. J’ai vu la pièce de l’invasion en Russie de Napoléon. C’est
+                fort drôle. Ils ont fort bien imité les personnages qui commence tous ses discours
+                par Brave Soldats en criant Gentlemen ! — Mais ces pauvres soldats qu’ils sont
+                amusants. Les uniformes sont plein de bêtises très drôles. — C’est à un théâtre
+                comme français où il y a des chevaux. Ils sont très forts dans les exercices.
+                Fielding m’a retenu un logement fort bien qui ne me revient guère qu’à 40 s. par
+                mois ce qui est très bon marché c’est à dire qu’on dit à tort que Goddam est le fond
+                de la langue. C’est : <hi rend="u">one Schelling, Sir</hi>. Ce qui veut dire : un
+                shelling, monsieur. — C’est ce qui se trouve au bout de toutes les phrases. Je ne
+                parle pas précisément de la conversation qu’on tient dans le palais du roi : mais
+                j’ai pas encore été à portée d’entendre de cette espèce, étant apporté j’ai vu la
+                galerie de West ; pour un <hi rend="u">schelling</hi> bien entendu. Il y a beaucoup
+                de choses a dire comme sur tout. Nous en causerons. Je vous embrasse tous [very].
+                J’écrirai sous peu à <persName key="">Édouard</persName> ce soir pour le presser de
+                venir s’il est possible. Rappelle moi je vous prie à tout ce qui s’am... mon cher à
+                tous deux et qui m’aime par cette raison —</p>
 
             <closer>
                 <salute>votre ami</salute>
                 <signed><persName key="Delacroix, Eugène (1798-1863)">E.
                     Delacroix</persName></signed>
-            </closer>
 
-            <pb n="4" xml:id="p4" facs="CAC_ED_louvre-A535-4.jpg"/>
-            <div type="envelope">
-                <stamp type="postmark">120 H / 25</stamp>
-                <stamp type="postmark">27 mai 1825</stamp>
+                <pb n="4" xml:id="p4" facs="CAC_ED_louvre-A535-4.jpg"/>
+                <stamp>120 H / 25</stamp>
+                <stamp><date when="1825-05-27">27 mai 1825</date></stamp>
                 <address>
                     <addrLine><persName key="Pierret, Jean-Baptiste (1795-1854)
                             ">Monsieur Pierret</persName></addrLine>
-                    <addrLine>rue de l’université n° 46</addrLine>
-                    <addrLine>à Paris</addrLine>
+                    <addrLine><placeName key="France, Paris, rue de l'Université, 46">rue de
+                            l’université n° 46</placeName></addrLine>
+                    <addrLine>à <placeName key="France, Paris">Paris</placeName></addrLine>
                 </address>
+            </closer>
 
-            </div>
         </body>
     </text>
 </TEI>
