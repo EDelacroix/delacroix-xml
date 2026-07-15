@@ -9,7 +9,11 @@
                     [Londres, 27 mai 1825]</title>
                 <author key="Delacroix, Eugène (1798-1863)"/>
                 <respStmt>
-                    <resp>Transcription et encodage</resp>
+                    <resp>Transcription</resp>
+                    <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Annotation</resp>
                     <name>Sarah Jouan</name>
                 </respStmt>
             </titleStmt>
@@ -71,13 +75,13 @@
                 <persName key="Pierret, Jean-Baptiste (1795-1854)
                     " "Guillemardet, Félix (1796-1842)
                     ">Messieurs Guillemardet et Pierret</persName>
-                <note place="top" hand="author">Ceci est pour deux. Londres dimanche.</note>
+                <note place="top" hand="author">Ceci est pour deux. <placeName key="">Londres</placeName> <dateline><date when="">dimanche</date></dateline></note>
                 <address><addrLine>mon adresse est : <underline><placeName key="Royaume-Uni, Londres, Charles Street, 14">14 Charles Street.
                                 Middlesex hospital</placeName></addrLine></address>
                 <salute>Mon cher enfant</salute>
             </opener>
 
-            <p>je suis depuis deux ou trois jours dans cette grande ville et je n’ai guère eu le
+            <p>je suis depuis deux ou trois jours dans cette grande <placeName key="Royaume-Uni, Londres">ville</placeName> et je n’ai guère eu le
                 temps de t’écrire parceque je suis fatigué du voyage qui a du reste été très
                 heureux. Le courrier est une façon de voyager que je trouve fort agréable et j’avais
                 affaire à un assez bon diable qui a eu pour moi toutes sortes de complaisances. Je
