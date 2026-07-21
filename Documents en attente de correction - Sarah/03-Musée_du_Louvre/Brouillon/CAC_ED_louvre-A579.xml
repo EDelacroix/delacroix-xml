@@ -30,7 +30,7 @@
             </publicationStmt>
             <seriesStmt>
                 <title type="main">Correspondance d’Eugène Delacroix</title>
-                <title type="sub">Destinataires divers</title>
+                <title type="sub">Les amis de jeunesse</title>
             </seriesStmt>
             <sourceDesc>
                 <msDesc>
@@ -78,15 +78,16 @@
             <opener>
                 <pb n="4" xml:id="p4"/>
                 <address>
-                    <addrLine>Monsieur Pierret</addrLine>
-                    <addrLine>Rue Tronchet n<hi rend="sup">o</hi>. 13</addrLine>
-                    <addrLine>à Paris</addrLine>
+                    <addrLine>Monsieur <persName key="Pierret, Charles (1799-1854)">Pierret</persName></addrLine>
+                    <addrLine><placeName key="France, Paris, rue Tronchet, 13">Rue Tronchet n° 13</placeName></addrLine>
+                    <addrLine>à <placeName key="France, Paris">Paris</placeName></addrLine>
                 </address>
-
+                <stamp><placeName key="France, Saint-Leu-Taverny">Saint-Leu-Taverny</placeName> <date when="">13 mars 42</date></stamp>
+                <stamp></stamp>
+                
                 <pb n="1" xml:id="p1"/>
-                <note place="margin-top-left" rend="pencil">II. 92</note>
                 <dateline>
-                    <date when="1842-03-12">Samedi —</date>
+                    <date when="1842-03-12">Samedi</date>
                 </dateline>
             </opener>
 
@@ -107,8 +108,8 @@
                 retournant à ton bureau et tu la mettrais au premier bureau de poste que tu
                 trouveras.</p>
 
-            <p>Je me porte bien sous le rapport du digérer, du dormir &amp;c. quant à la voix c'est
-                toujours de même ou plutôt c'est beaucoup moins qu'il y a 15 jours. quand j'ai
+            <p>Je me porte bien sous le rapport du digérer, du dormir. Quant à la voix c'est
+                toujours de même ou plutôt c'est beaucoup moins qu'il y a 15 jours. Quand j'ai
                 commencé a sortir, je n'avais pas senti à quel point j'avais besoin de me ménager
                 sous le rapport de la voix et quoique je n'aie pas alors crié sur les toits, j'ai
                 passé</p>
