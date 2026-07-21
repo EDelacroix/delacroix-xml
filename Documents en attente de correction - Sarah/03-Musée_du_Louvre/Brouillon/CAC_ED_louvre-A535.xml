@@ -157,11 +157,11 @@
                 Mais ces pauvres soldats qu’ils sont amusants. Les uniformes sont plein de bêtises
                 très drôles. — C’est à un théâtre comme français où il y a des chevaux<note
                     place="bottom">Le Astley's Amphitheatre est un théâtre réputé pour ses
-                    "hippodrames". Ces pièces sont alors spectaculaires grâce à l'ajout
-                    de chevaux sur scène. L'acteur figurant dans le rôle de Napoléon, Edward
-                    Alexander Gomersal (1788-1862), est célèbre à cette époque pour sa ressemblance
-                    frappante avec l'Empereur, faisant de lui l'acteur le plus prisé pendant 30 ans
-                    pour ce rôle.</note>. Ils sont très forts dans les exercices. <persName
+                    "hippodrames". Ces pièces sont alors spectaculaires grâce à l'ajout de chevaux
+                    sur scène. L'acteur figurant dans le rôle de Napoléon, Edward Alexander Gomersal
+                    (1788-1862), est célèbre à cette époque pour sa ressemblance frappante avec
+                    l'Empereur, faisant de lui l'acteur le plus prisé pendant 30 ans pour ce
+                    rôle.</note>. Ils sont très forts dans les exercices. <persName
                     key="Fielding, Thales Angelo Vernet (1793-1837)
                     ">Fielding</persName> m’a retenu un logement fort bien qui
                 ne me revient guère qu’à 40 francs par mois, ce qui est très bon marché, n'est-ce
@@ -170,20 +170,24 @@
                 trouve au bout de toutes les phrases. Je ne parle pas précisément de la conversation
                 qu’on tient dans le palais du roi : mais j’ai pas encore été à portée d’entendre de
                 cette espèce. J'ai vu la galerie de <placeName key="West, Benjamin (1738-1820)
-                    ">West</placeName> ; pour un <hi rend="u"
-                    >schelling</hi> bien entendu. Il y a beaucoup de choses à dire, comme pour tout.
-                Nous en causerons. Je vous embrasse tous deux. J’écrirai, je pense, à <persName
-                    key="Édouard">Édouard</persName> ce soir pour le presser de venir s’il est
-                possible.</p>
+                    ">West</placeName><note place="bottom">Benjamin West est un
+                    peintre américain reconnu comme le premier peintre né en Amérique. Il fit
+                    cependant le reste de sa carrière artistique à Londres. Il devient en 1792 le
+                    président de la Royal Academy, institution britannique dont il est l'un des
+                    fondateurs en 1768.</note> ; pour un <hi rend="u">schelling</hi> bien entendu.
+                Il y a beaucoup de choses à dire, comme pour tout. Nous en causerons. Je vous
+                embrasse tous deux. J’écrirai, je pense, à <persName key="Édouard"
+                    >Édouard</persName> ce soir pour le presser de venir s’il est possible.</p>
 
             <closer>
-                <salute>Rappellez moi, je vous prie, à tout ce qui vous est cher à tous deux et
-                    qui me l'est par cette raison. Votre ami,</salute>
+                <salute>Rappellez moi, je vous prie, à tout ce qui vous est cher à tous deux et qui
+                    me l'est par cette raison. Votre ami,</salute>
                 <signed><persName key="Delacroix, Eugène (1798-1863)">E.
                     Delacroix</persName></signed>
 
                 <pb n="4" xml:id="p4" facs="CAC_ED_louvre-A535-4.jpg"/>
                 <stamp>120 F 25</stamp>
+                <stamp><placeName key="Royaume-Uni">Angleterre</placeName></stamp>
                 <stamp><date when="1825-05-27">27 mai 1825</date></stamp>
                 <address>
                     <addrLine><persName key="Pierret, Jean-Baptiste (1795-1854)
