@@ -65,7 +65,7 @@
                     <date when="1842-03-12"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName key="Pierret, Charles (1799-1854)">Charles Pierret</persName>
+                    <persName key="Pierret, Charles (1799-1854)"/>
                 </correspAction>
             </correspDesc>
             <langUsage>
@@ -78,58 +78,57 @@
             <opener>
                 <pb n="4" xml:id="p4"/>
                 <address>
-                    <addrLine>Monsieur <persName key="Pierret, Charles (1799-1854)">Pierret</persName></addrLine>
-                    <addrLine><placeName key="France, Paris, rue Tronchet, 13">Rue Tronchet n° 13</placeName></addrLine>
+                    <addrLine>Monsieur <persName key="Pierret, Charles (1799-1854)"
+                            >Pierret</persName></addrLine>
+                    <addrLine><placeName key="France, Paris, rue Tronchet, 13">Rue Tronchet n°
+                            13</placeName></addrLine>
                     <addrLine>à <placeName key="France, Paris">Paris</placeName></addrLine>
                 </address>
-                <stamp><placeName key="France, Saint-Leu-Taverny">Saint-Leu-Taverny</placeName> <date when="">13 mars 42</date></stamp>
-                <stamp></stamp>
-                
+                <stamp><placeName key="France, Saint-Leu-Taverny">Saint-Leu-Taverny</placeName>
+                    <date when="1842-03-13">13 mars 42</date></stamp>
+                <stamp/>
+
                 <pb n="1" xml:id="p1"/>
                 <dateline>
                     <date when="1842-03-12">Samedi</date>
                 </dateline>
             </opener>
 
-            <p>J'ai reçu ta bonne lettre et je t'en remercie. bien. C'est un très bon accompagnement
-                aux petites promenades aux lectures et à tout ce qui vous dépayse tranquillement à
-                la campagne. J'ai à te présenter une requête de la part de Riesener. Il avait
-                d'abord l'envie de venir à Paris pour voir l'ouverture du salon : mais sa femme
-                était un peu malade quand elle est venue ici et comme le séjour lui réussit il
-                prolongerait son au delà du 15. Je te demande donc, car je suppose que tu ne
-                manqueras pas au poste ce jour là, que tu jettes deux mots à la poste pour nous dire
-                où sont placés ses deux tableaux. <del rend="overstrike">le</del> Comme il faut que
-                la lettre soit avant</p>
+            <p>J'ai reçu ta bonne lettre et je t'en remercie bien. C'est un très bon accompagnement
+                aux petites promenades, aux lectures et à tout ce qu'on a de plaisir tranquille à la
+                campagne. J'ai à te présenter une requête de la part de <persName
+                    key="Riesener, Léon (1808-1878)
+                    ">Riesener</persName>. Il avait d'abord l'envie de revenir à
+                    <placeName key="France, Paris">Paris</placeName> pour voir l'ouverture du Salon
+                : mais sa femme était un peu malade quand elle est venue ici et comme le séjour lui
+                réussit, il le prolongerait au-delà du <date when="1842-03-15">15</date>. Il te
+                demande donc, car je suppose que tu ne manqueras pas au poste ce jour-là, que tu
+                jettes deux mots à la poste pour nous dire où sont placés ses deux tableaux. Comme
+                il faut que la lettre soit avant <pb n="2" xml:id="p2"/>deux heures aux postes
+                ordinaires ou avant cinq heures à la grande poste ou à la Bourse, tu pourrais avoir
+                dans ta poche un morceau de papier préparé sur lequel serait l'adresse et tu
+                mettrais dedans au crayon quelques mots en retournant à ton bureau, et tu les
+                mettrais au premier bureau de poste que tu trouverais.</p>
 
-            <pb n="2" xml:id="p2"/>
-            <p>deux heures au poste ord<hi rend="sup">re</hi>. ou avant 5<hi rend="sup">h</hi> à la
-                grande poste on a le temps, tu pourrais avoir dans ta poche un morceau de papier
-                préparé sur lequel serait l'adresse et tu mettrais dedans au crayon quelques mots en
-                retournant à ton bureau et tu la mettrais au premier bureau de poste que tu
-                trouveras.</p>
+            <p>Je me porte bien sous le rapport du digérer, du dormir, etc. Quant à la voix c'est
+                toujours de même ou plutôt c'est beaucoup moins qu'il y a quinze jours. Quand j'ai
+                commencé à sortir, je n'ai pas su à quel point j'avais besoin de me ménager sous le
+                rapport de la voix et quoique je n'aie pas alors crié sur les toits, j'ai passé <pb
+                    n="3" xml:id="p3"/> mes forces sans m'en apercevoir. À présent je suis en
+                quarantaine. Dieu sait pour combien de temps.</p>
 
-            <p>Je me porte bien sous le rapport du digérer, du dormir. Quant à la voix c'est
-                toujours de même ou plutôt c'est beaucoup moins qu'il y a 15 jours. Quand j'ai
-                commencé a sortir, je n'avais pas senti à quel point j'avais besoin de me ménager
-                sous le rapport de la voix et quoique je n'aie pas alors crié sur les toits, j'ai
-                passé</p>
-
-            <pb n="3" xml:id="p3"/>
-            <p>mes forces sans m'en appercevoir. à présent je suis en quarantaine. dieu sait pour
-                combien de temps.</p>
-
-            <p>Donne moi de nouv de tes nouvelles si tu as le temps. tu pourrais griffonner <add
-                    place="above">d'avance</add> un chiffon de lettre dans la quelle tu laisserais
-                un peu de place pour nous parler du salon. Comment se portent ta femme et les tiens
-                ? es tu chef de division ? Enfin des nouvelles. Et un petit daguerotype : j'en aurai
-                de toute façon, — Je m'occupe aussi à arranger des dessins dans le format du magasin
-                pittoresque pour le bois que je veux faire. Enfin l'idée de y retourner : il me
-                semble que nous vivons là dans la fange dans la grenouille, dans l'imitation. le
-                parisiens ne quitte jamais la forge de platitude, d'applatissement, d'agitation qui
-                ne mène à rien. —</p>
+            <p>Donne-moi de tes nouvelles si tu as le temps. Tu pourrais griffonner d'avance un
+                chiffon de lettre dans laquelle tu laisserais un peu de place pour nous parler du
+                Salon. Comment se portent ta femme et les tiens ? Es-tu chef de division ? Enfin des
+                nouvelles. Je me fais daguérrotyper : j'en aurai de toute façon. Je m'occupe aussi à
+                arranger des dessins dans le format du <hi rend="it">Magasin pittoresque</hi><note>Delacroix participe au numéro...</note> pour
+                le bois que je veux faire. Enfin l'idée de Paris m'épouvante : il me semble que vous
+                vivez là dans la fange, dans les guenilles, dans l'infection. Ne pourrons-nous
+                quitter jamais le foyer de platitude, d'applatissement, d'agitation qui ne mène à
+                rien.</p>
 
             <closer>
-                <salute>je t'embrasse</salute>
+                <salute>Je t'embrasse</salute>
             </closer>
         </body>
     </text>
