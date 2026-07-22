@@ -37,7 +37,8 @@
                     <msIdentifier>
                         <country>France</country>
                         <settlement>Paris</settlement>
-                        <institution>Musée du Louvre, Département des Peintures</institution>
+                        <institution>Musée du Louvre</institution>
+                        <repository>Département des Arts graphiques</repository>
                         <idno>A507</idno>
                     </msIdentifier>
                     <physDesc>
