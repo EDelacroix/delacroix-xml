@@ -30,15 +30,16 @@
             </publicationStmt>
             <seriesStmt>
                 <title type="main">Correspondance d’Eugène Delacroix</title>
-                <title type="sub">Destinataires divers</title>
+                <title type="sub">Les amis de jeunesse</title>
             </seriesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>France</country>
                         <settlement>Paris</settlement>
-                        <institution>Musée du Louvre, Département des Peintures</institution>
-                        <idno>A611 pièces 1 et 2</idno>
+                        <institution>Musée du Louvre</institution>
+                        <repository>Département des Arts graphiques</repository>
+                        <idno>A611</idno>
                     </msIdentifier>
                     <physDesc>
                         <objectDesc form="letter">
