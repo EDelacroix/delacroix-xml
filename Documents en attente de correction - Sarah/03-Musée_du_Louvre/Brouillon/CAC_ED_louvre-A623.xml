@@ -17,7 +17,7 @@
                     <name>Sarah Jouan</name>
                 </respStmt>
                 <respStmt>
-                    <resp>Correction</resp>
+                    <resp>Annotation</resp>
                     <name>Sarah Jouan</name>
                 </respStmt>
             </editionStmt>
@@ -30,15 +30,16 @@
             </publicationStmt>
             <seriesStmt>
                 <title type="main">Correspondance d’Eugène Delacroix</title>
-                <title type="sub">Destinataires divers</title>
+                <title type="sub">Les amis de jeunesse</title>
             </seriesStmt>
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>France</country>
                         <settlement>Paris</settlement>
-                        <institution>Musée du Louvre, Département des Peintures</institution>
-                        <idno>A623 pièces 1 et 2</idno>
+                        <institution>Musée du Louvre</institution>
+                        <repository>Département des Arts graphiques</repository>
+                        <idno>A623</idno>
                     </msIdentifier>
                     <physDesc>
                         <objectDesc form="letter">
@@ -59,10 +60,10 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName key="Delacroix, Eugène (1798-1863)"/>
-                    <date label="[s.d.]"/>
+                    <date when="....-..-.."/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName key="Pierret, Charles (1799-1854)">Charles Pierret</persName>
+                    <persName key="Pierret, Charles (1799-1854)"/>
                 </correspAction>
             </correspDesc>
             <langUsage>
@@ -75,26 +76,25 @@
             <opener>
                 <pb n="2" xml:id="p2"/>
                 <address>
-                    <addrLine>Monsieur Pierret</addrLine>
-                    <addrLine>rue neuve du Luxembourg</addrLine>
-                    <addrLine>n<hi rend="sup">o</hi>. 1. —</addrLine>
+                    <addrLine>Monsieur <persName key="Pierret, Charles (1799-1854)">Pierret</persName></addrLine>
+                    <addrLine><placeName key="France, Paris, rue neuve du Leuxembourg, 1">rue neuve du Luxembourg, n° 1</placeName></addrLine>
                 </address>
 
                 <pb n="1" xml:id="p1"/>
                 <dateline>
                     <date>mardi</date>
                 </dateline>
-                <salute>Cher ami,</salute>
+                <salute>Cher <persName key="Pierret, Charles (1799-1854)">ami</persName>,</salute>
             </opener>
 
-            <p>M<hi rend="sup">lle</hi>. Bastien est au lit et incapable de m'assister ; je suis
+            <p>Madame Bastien est au lit et incapable de m'assister ; je suis
                 donc forcé de remettre notre partie de demain jusqu'à possibilité. J'en suis bien
-                contrarié. J'ai été voir Dimanche soir ton train en bonne fortune</p>
+                contrarié. J'ai été voir dimanche soir ton train en bonne fortune.</p>
 
             <closer>
-                <salute>adieu je t'embrasse</salute>
+                <salute>Adieu je t'embrasse</salute>
                 <signed>
-                    <persName key="Delacroix, Eugène (1798-1863)">Eug</persName>
+                    <persName key="Delacroix, Eugène (1798-1863)">Eug.</persName>
                 </signed>
             </closer>
         </body>
