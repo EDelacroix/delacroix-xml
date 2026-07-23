@@ -7,7 +7,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Lettre d’Eugène Delacroix à Charles Pierret, 12 mars 1842</title>
+                <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, 12 mars 1842</title>
                 <author key="Delacroix, Eugène (1798-1863)"/>
             </titleStmt>
             <editionStmt>
@@ -66,7 +66,7 @@
                     <date when="1842-03-12"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName key="Pierret, Charles (1799-1854)"/>
+                    <persName key="Pierret, Jean-Baptiste (1795-1854)"/>
                 </correspAction>
             </correspDesc>
             <langUsage>
@@ -79,7 +79,7 @@
             <opener>
                 <pb n="4" xml:id="p4"/>
                 <address>
-                    <addrLine>Monsieur <persName key="Pierret, Charles (1799-1854)"
+                    <addrLine>Monsieur <persName key="Pierret, Jean-Baptiste (1795-1854)"
                             >Pierret</persName></addrLine>
                     <addrLine><placeName key="France, Paris, rue Tronchet, 13">Rue Tronchet n°
                             13</placeName></addrLine>
@@ -132,8 +132,7 @@
                     1845. Les gravures sont inspirées de la vie de Götz von Berlichingen, dit la
                     Main de fer, qu'il tire du drame en prose de Goethe écrit en 1773. C'est sa
                     volonté d'améliorer sa technique pour ce format particulier qui provoquera des
-                    délais supplémentaires (<hi rend="it">Magasin Pittoresque</hi>, 1845, p. 140,
-                    141, 164, 165).</note> pour le bois que je veux faire. Enfin l'idée de
+                    délais supplémentaires (<hi rend="it">Magasin Pittoresque</hi>, 1845, p. 140-141 et p. 164-165).</note> pour le bois que je veux faire. Enfin l'idée de
                     <placeName key="France, Paris">Paris</placeName> m'épouvante : il me semble que
                 vous vivez là dans la fange, dans les guenilles, dans l'infection. Ne pourrons-nous
                 quitter jamais le foyer de platitude, d'applatissement, d'agitation qui ne mène à
