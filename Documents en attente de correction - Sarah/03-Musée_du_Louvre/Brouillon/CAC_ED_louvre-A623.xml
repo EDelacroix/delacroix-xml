@@ -7,7 +7,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Lettre d’Eugène Delacroix à Charles Pierret, [s.d.]</title>
+                <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, [1834 ou 1835]</title>
                 <author key="Delacroix, Eugène (1798-1863)"/>
             </titleStmt>
             <editionStmt>
@@ -51,16 +51,13 @@
                         </objectDesc>
                     </physDesc>
                 </msDesc>
-                <listBibl>
-                    <bibl>Nomenclature interne</bibl>
-                </listBibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
                     <persName key="Delacroix, Eugène (1798-1863)"/>
-                    <date when="....-..-.."/>
+                    <date when="1834-..-.."/>
                 </correspAction>
                 <correspAction type="received">
                     <persName key="Pierret, Charles (1799-1854)"/>
@@ -76,8 +73,16 @@
             <opener>
                 <pb n="2" xml:id="p2"/>
                 <address>
-                    <addrLine>Monsieur <persName key="Pierret, Charles (1799-1854)">Pierret</persName></addrLine>
-                    <addrLine><placeName key="France, Paris, rue neuve du Leuxembourg, 1">rue neuve du Luxembourg, n° 1</placeName></addrLine>
+                    <addrLine>Monsieur <persName key="Pierret, Jean-Baptiste (1795-1854)"
+                            >Pierret</persName></addrLine>
+                    <addrLine><placeName key="France, Paris, rue Neuve du Luxembourg, 1">rue neuve
+                            du Luxembourg, n° 1<note place="bottom">L'adresse de Jean-Baptiste
+                                Pierret permet de dater cette lettre entre 1834 et 1837. Cependant,
+                                la mention supplémentaire de Madame Bastien, première domestique de
+                                Delacroix avant Jenny Le Guillou, permet de préciser l'année à 1834
+                                ou au début de l'année 1835. En effet, cette dernière, gouvernante
+                                au service de Delacroix jusqu'à sa mort, entre à son service à
+                                partir de 1835.</note></placeName></addrLine>
                 </address>
 
                 <pb n="1" xml:id="p1"/>
@@ -87,9 +92,16 @@
                 <salute>Cher <persName key="Pierret, Charles (1799-1854)">ami</persName>,</salute>
             </opener>
 
-            <p>Madame Bastien est au lit et incapable de m'assister ; je suis
-                donc forcé de remettre notre partie de demain jusqu'à possibilité. J'en suis bien
-                contrarié. J'ai été voir dimanche soir ton train en bonne fortune.</p>
+            <p>Madame Bastien<note place="bottom">Une autre apparition de Madame Bastien apparaît
+                    dans une lettre du 8 février 1832 lorsque Delacroix est en voyage au Maroc. Il
+                    écrit alors à Pierret et Guillemardet : "Je prie Pierret d'écrire à Bastien de
+                    faire souvent battre mes habits de peur des vers." (André Joubin, <hi rend="it"
+                        >Correspondance générale de Eugène Delacroix</hi>, 1935, I, p. 312). André
+                    Joubin précise à cet égard qu'il s'agit d'un modèle de Delacroix qui sera aussi
+                    pendant une courte durée sa domestique.</note> est au lit et incapable de
+                m'assister ; je suis donc forcé de remettre notre partie de demain jusqu'à
+                possibilité. J'en suis bien contrarié. J'ai été te voir dimanche soir, tu étais en
+                bonne fortune.</p>
 
             <closer>
                 <salute>Adieu je t'embrasse</salute>
