@@ -7,7 +7,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Lettre d’Eugène Delacroix à Charles Pierret, [printemps 1821]</title>
+                <title>Lettre d’Eugène Delacroix à Jean-Baptiste Pierret, [printemps 1821]</title>
                 <author key="Delacroix, Eugène (1798-1863)"/>
             </titleStmt>
             <editionStmt>
@@ -64,7 +64,7 @@
                     <date when="1821-..-.."/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName key="Pierret, Charles (1799-1854)"/>
+                    <persName key="Pierret, Jean-Baptiste (1795-1854)"/>
                 </correspAction>
             </correspDesc>
             <langUsage>
@@ -78,7 +78,7 @@
                 <pb n="2" xml:id="p2"/>
                 <address>
                     <addrLine>à monsieur</addrLine>
-                    <addrLine><persName key="Pierret, Charles (1799-1854)">Pierret</persName>
+                    <addrLine><persName key="Pierret, Jean-Baptiste (1795-1854)">Pierret</persName>
                         fils</addrLine>
                     <addrLine>à <placeName key="France, Paris">Paris</placeName></addrLine>
                 </address>
@@ -86,7 +86,7 @@
                 <pb n="1" xml:id="p1"/>
             </opener>
 
-            <p>Je suis le plus grand des étourdis, mon <persName key="Pierret, Charles (1799-1854)"
+            <p>Je suis le plus grand des étourdis, mon <persName key="Pierret, Jean-Baptiste (1795-1854)"
                     >cher ami</persName>. Je n'ai pas pensé que mardi, aussi bien que toute la
                 semaine prochaine, je serais à l'académie depuis 3 heures jusqu'à 5 passées<note>Il
                     fait ici référence à ses cours dans l'atelier de Pierre Narcisse Guérin qu'il a
