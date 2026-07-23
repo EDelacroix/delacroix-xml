@@ -7,7 +7,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Lettre d’Eugène Delacroix à Champfleury, 5 mai [s.d.]</title>
+                <title>Lettre d’Eugène Delacroix à Jules François Félix Husson, dit Champfleury, 1er
+                    mai [1851]</title>
                 <author key="Delacroix, Eugène (1798-1863)"/>
             </titleStmt>
             <editionStmt>
@@ -17,8 +18,12 @@
                     <name>Sarah Jouan</name>
                 </respStmt>
                 <respStmt>
-                    <resp>Correction</resp>
+                    <resp>Annotation</resp>
                     <name>Sarah Jouan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>[Prénom Nom]</name>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
@@ -37,8 +42,9 @@
                     <msIdentifier>
                         <country>France</country>
                         <settlement>Paris</settlement>
-                        <institution>Musée du Louvre, Département des Peintures</institution>
-                        <idno>A660 pièces 1 à 3</idno>
+                        <institution>Musée du Louvre</institution>
+                        <repository>Département des Arts graphiques</repository>
+                        <idno>A660</idno>
                     </msIdentifier>
                     <physDesc>
                         <objectDesc form="letter">
@@ -51,7 +57,8 @@
                     </physDesc>
                 </msDesc>
                 <listBibl>
-                    <bibl>Nomenclature interne</bibl>
+                    <bibl>André Joubin, <hi rend="it">Correspondance générale de Eugène
+                            Delacroix</hi>, 1937, III, p. 66-67</bibl>
                 </listBibl>
             </sourceDesc>
         </fileDesc>
@@ -59,10 +66,10 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName key="Delacroix, Eugène (1798-1863)"/>
-                    <date when="1854-05-05" cert="medium" label="5 mai"/>
+                    <date when="1851-05-01"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName key="Champfleury (1821-1889)">Champfleury</persName>
+                    <persName key="Champfleury, Jules François Félix Husson, dit (1821-1889)"/>
                 </correspAction>
             </correspDesc>
             <langUsage>
@@ -74,44 +81,51 @@
         <body>
             <pb n="1" xml:id="p1"/>
             <opener>
-                <note place="margin-top-left" rend="pencil">52</note>
-                <note place="margin-top-left" rend="pencil">III p. 66</note>
-                <dateline><date>Ce 5 mai</date></dateline>
-                <salute>Mon cher Monsieur,</salute>
+
+                <dateline>Ce <date when="1851-05-01">1<hi rend="sup">er</hi> mai</date></dateline>
+                <salute>Mon cher <persName
+                        key="Champfleury, Jules François Félix Husson, dit (1821-1889)
+                        ">Monsieur</persName>,</salute>
             </opener>
 
             <p>Je ne voulais pas répondre tout de suite parce que je n'ai pu réunir qu'hier les
-                lithographies de l'Hamlet. Je ne croyais plus en avoir d'exemplaire complet : il me
-                restait une certaine quantité d'épreuves qui avaient été tirées en nombre supérieur,
-                je ne sais pas quelle raison. De plus je n'étais pas à portée de faire cette
-                recherche comme je l'aurais voulu : mon atelier est encombré par une toile de 24
-                pieds qui m'a forcé à reléguer au grenier tous mes cartons, et celui où j'ai
-                retrouvé ces dessins était oublié depuis longtemps. À qui voulez vous que je donne
-                avec plaisir ces croquis</p>
-
-            <pb n="2" xml:id="p2"/>
-            <p>si ce n'est à ceux à qui ils font plaisir ? Je les avais fait tirer à un petit nombre
-                et bien m'en avait pris, car ils n'ont pas eu de succès, et sont loin de m'avoir
-                indemnisé des frais de tirage.</p>
+                lithographies de l'<hi rend="it">Hamlet</hi>. Je ne croyais plus en avoir
+                d'exemplaire complet : il me restait une certaine quantité d'épreuves qui avaient
+                été tirées en nombre supérieur, je ne sais pas quelle raison<note place="bottom"
+                    >Eugène Delacroix fait tirer 80 exemplaires d'un ensemble de lithographies
+                    reprenant l'oeuvre de Shakespeare. Treize sujets sont imprimés dans ce recueil,
+                    dont l'édition pour le compte de Delacroix se fera par le biais de Jean-François
+                    Villain, chez l'éditeur Gihaut frères. Le tirage était de seulement 80
+                    exemplaires, avec 60 éditions sur vélin blanc et 20 sur papier Chine.</note>. De
+                plus je n'étais pas à portée de faire cette recherche comme je l'aurais voulu : mon
+                atelier est encombré par une toile de 24 pieds<note place="bottom">André Joubin
+                    précise qu'il s'agit du Plafond d'Apollon (André Joubin, <hi rend="it"
+                        >Correspondance générale de Eugène Delacroix</hi>, 1937, III, n. 2, p.
+                    66)</note> qui m'a forcé à reléguer au grenier tous mes cartons, et celui où
+                j'ai retrouvé ces dessins était oublié depuis longtemps. À qui voulez vous que je
+                donne avec plaisir ces croquis <pb n="2" xml:id="p2"/>si ce n'est à ceux à qui ils
+                font plaisir ? Je les avais fait tirer à un petit nombre et bien m'en avait pris,
+                car ils n'ont pas eu de succès, et sont loin de m'avoir indemnisé des frais de
+                    tirage<note place="bottom">Selon André Joubin, cette somme s'élevait à 500
+                    francs (André Joubin, <hi rend="it">Correspondance générale de Eugène
+                        Delacroix</hi>, 1937, III, n. 1, p. 66).</note>.</p>
 
             <p>Je vous les aurais envoyés, si vous ne me disiez que vous voulez venir chez moi : je
                 m'acquitterai aussi plus tard de tout ce que je devrais vous dire sur ce que vous
                 écrivez sur moi. Je ne lis aucun journal : mon regret est donc de ne pouvoir jamais
                 rien savoir dans ce genre et j'avoue avec plaisir que je le regrette beaucoup. Vous
-                seriez bien aimable si vous pouviez m'indiquer comment je peux <del
-                    rend="overstrike">atteindre</del>
-                <add place="above">courir</add> après quelques uns de vos articles. Vous ai-je
-                remercié de ce que vous avez dit dans <hi rend="underlined">votre volume</hi> : il
-                ya deux ans que</p>
+                seriez bien aimable si vous pouviez m'indiquer comment je peux courir après quelques
+                uns de vos articles. Vous ai-je remercié de ce que vous avez dit dans les <hi
+                    rend="u">Lenain</hi><note place="bottom"/> : il y a deux ans que <pb n="3"
+                    xml:id="p3"/>je remets cette obligation.</p>
 
-            <pb n="3" xml:id="p3"/>
-            <p>je remets cette obligation.</p>
-
-            <p>Si vous pouviez venir dans la matinée vous seriez plus assuré de me trouver.</p>
+            <p>Si vous pouviez venir dans la matinée, vous seriez plus assuré de me trouver.</p>
 
             <closer>
-                <salute>Recevez cher Monsieur les assurances de mon sincère dévouement</salute>
-                <signed><persName key="Delacroix, Eugène (1798-1863)">Eug
+                <salute>Recevez cher <persName
+                        key="Champfleury, Jules François Félix Husson, dit (1821-1889)"
+                        >Monsieur</persName> les assurances de mon sincère dévouement,</salute>
+                <signed><persName key="Delacroix, Eugène (1798-1863)">Eug.
                     Delacroix</persName></signed>
             </closer>
         </body>
