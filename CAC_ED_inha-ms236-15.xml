@@ -7,7 +7,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Lettre d’Eugène Delacroix à George Sand, fin avril - début mai 1838</title>
+        <title>Lettre d’Eugène Delacroix à George Sand, 1840</title>
         <author key="Delacroix, Eugène (1798-1863)"/>
       </titleStmt>
       <editionStmt>
@@ -18,8 +18,14 @@
         </respStmt>
         <respStmt>
           <resp>Annotation</resp>
-          <name>Sarah Jouan</name>
+          <name>Gaëlle Lafage</name>
         </respStmt>
+        <respStmt>
+          <resp>Corrections</resp>
+          <name>Sarah Jouan</name>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
+
       </editionStmt>
       <publicationStmt>
         <publisher>Sorbonne Université, Centre André Chastel</publisher>
@@ -29,7 +35,8 @@
         </availability>
       </publicationStmt>
       <seriesStmt>
-        <title type="main">Correspondance d’Eugène Delacroix</title>         <title type="sub">Le monde littéraire</title>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+        <title type="sub">Le monde littéraire</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -37,7 +44,7 @@
             <country>France</country>
             <settlement>Paris</settlement>
             <institution>Bibliothèque de l’INHA, collections Jacques Doucet</institution>
-            <idno>Ms. 236 pièce 6</idno>
+            <idno>Ms. 236 pièce 15</idno>
           </msIdentifier>
           <physDesc>
             <objectDesc form="letter">
@@ -50,9 +57,9 @@
           </physDesc>
         </msDesc>
         <listBibl>
-          <bibl><hi rend="it">L’Art vivant</hi>, 1er juillet 1930, p. 525</bibl>
-          <bibl>André Joubin, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936, II, p. 8</bibl>
-          <bibl>Françoise Alexandre, <hi rend="it">Correspondance</hi>, 2005, p. 90</bibl>
+          <bibl><hi rend="it">L’Art vivant</hi>, 1er août 1930, p. 600</bibl>
+          <bibl>André Joubin, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936,
+            II, p. 51</bibl>
         </listBibl>
       </sourceDesc>
     </fileDesc>
@@ -60,7 +67,7 @@
       <correspDesc>
         <correspAction type="sent">
           <persName key="Delacroix, Eugène (1798-1863)"/>
-          <date when="1838-..-.."/>
+          <date when="1840-..-.."/>
         </correspAction>
         <correspAction type="received">
           <persName key="Sand, George (1804-1876)"/>
@@ -73,29 +80,25 @@
   </teiHeader>
   <text>
     <body>
-      <pb n="1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000015.tif/full/full/0/default.jpg"/>
+      <pb n="1"
+        facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000034.tif/full/full/0/default.jpg"/>
       <opener>
-        <salute>Chère <persName key="Sand, George (1804-1876)">Dame</persName>
-          <note place="bottom">Selon Françoise Alexandre, la lettre date de fin avril-début mai
-            1838. "L’apostrophe "chère dame" exclut en tout cas de situer cette lettre après le
-            printemps 1838" (Françoise Alexandre, <hi rend="it">Correspondance</hi>, 2005, p. 227, n. 6 de la page 90).</note>,</salute>
+        <salute><persName key="Sand, George (1804-1876)">Chère amie,</persName></salute>
       </opener>
-      <p>J’ai eu deux jours de migraine affreuse. Vous jugez de l’ennui, indépendamment de celui de
-        ne pas vous voir. L’autre soir je fus chez <persName
-          key="Marliani, Emmanuel Joseph Marie François de Paule-Anaclet, dit Manuel (1799-1873)"
-          >Marliani</persName> mais vous étiez au spectacle et je sentais déjà le commencement de
-        mon martyre. J’ai donc été me coucher, mais je ne croyais pas que ce serait aussi continu.
-        Je ne suis pas encore fameux. Je vous verrai pourtant ce soir chez <persName
-          key="Marliani, Emmanuel Joseph Marie François de Paule-Anaclet, dit Manuel (1799-1873)"
-          ></persName><persName key="Marliani, Charlotte Folleville, épouse (1790-1850)">ces bons amis</persName>.</p>
-      
+      <p> j’ai la douleur de n’être pas libre ce <date when="1840-..-..">soir</date>. J’aurais été
+        bien enchanté de faire la connaissance de ces trois charmantes femmes dont, <persName
+          key="Sand, George (1804-1876)">vous</persName>, <persName key="Sand, Solange (1828-1899)"
+          >Solange</persName> et <persName key="Rozières, Marie Élizabeth de (v. 1805-1865)"
+          >Mademoiselle de Rozières</persName><note place="bottom">Marie de Rozières (ou Rosières),
+          était une élève et assitante de Chopin. Amie de George Sand, elle enseigna le piano à sa
+          fille Solange.</note> : mais sérieusement je suis pris et même enlacé ! Ce qui ne dit
+        pourtant pas que je m’amuserai plus qu’avec vous car je vous préfère et préférerai toujours
+        à tout.</p>
       <closer>
-        <salute>Adieux, <persName key="Sand, George (1804-1876)">belle, bonne et chère
-            dame</persName>, à ce soir.</salute>
-        <signed><persName key="Delacroix, Eugène (1798-1863)">Eug. Delacroix</persName></signed>
-        <dateline>Ce <date when="1838-..-..">jeudi</date></dateline>
+        <salute>Plaignez moi donc, <persName key="Sand, George (1804-1876)">chère amie</persName>,
+          et adieu.</salute>
       </closer>
-      
     </body>
+
   </text>
 </TEI>

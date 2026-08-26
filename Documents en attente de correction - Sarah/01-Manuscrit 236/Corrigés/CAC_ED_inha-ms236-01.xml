@@ -83,7 +83,8 @@
         <pb n="1"
           facs="https://api.nakala.fr/iiif/10.34847/nkl.52fc332r/389207dbb4f978aa17ba5a657ad40dd79ce51e28/full/full/0/default.jpg"/>
         <address>
-          <addrLine> Madame <persName key="Sand, George (1804-1876)">G. Sand</persName></addrLine>
+          <addrLine> <persName key="Sand, George (1804-1876)">Madame</persName></addrLine>
+          <addrLine> <persName key="Sand, George (1804-1876)">Madame G. Sand</persName></addrLine>
           <addrLine><placeName key="France, Paris, quai Malaquais, 19">Quai Malaquais
               n°19</placeName></addrLine>
         </address>
@@ -102,7 +103,7 @@
           rend="it">André</hi><note place="bottom">Titre du roman de George Sand publié en
           livraisons dans la <hi rend="it">Revue des deux Mondes</hi> entre le 15 mars et le 1<hi
             rend="sup">er</hi> avril 1835.</note>, l’autre jour, et qui devait commencer par « femme
-        admirable ! » Mais nous ne sommes pas encore assez vieux amis<note place="bottom"> Delacroix
+        admirable ! etc. » Mais nous ne sommes pas encore assez vieux amis<note place="bottom"> Delacroix
           avait rencontré George Sand durant l’hiver 1834-1835 lorsqu’il fit, à la demande de
           François Buloz, son portrait.</note> pour que j’ose être aussi ridicule avec vous que mon
         humeur du moment me le fait être souvent. Peut-être un jour serai-je plus entreprenant pour

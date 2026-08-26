@@ -84,7 +84,8 @@
 
       <opener>
         <dateline>
-          <pb n="1" xml:id="p1"/> Ce <date when="1856-12-22">lundi matin</date><note place="bottom"
+          <pb n="1" facs="https://api.nakala.fr/iiif/10.34847/nkl.a286q84j/bca90a660e8aed5824d513cea8cb734c1b36406d/full/full/0/default.jpg
+            "/> Ce <date when="1856-12-22">lundi matin</date><note place="bottom"
             >L’allusion de Joséphine de Forget, un peu plus bas, aux visites que Delacroix devait
             effectuer, nous permet de proposer la date du 22 décembre 1856 pour l’écriture de cette
             lettre. En effet, Delacroix tomba malade au milieu du mois de décembre alors qu’il se

@@ -84,7 +84,8 @@
 
       <opener>
         <dateline>
-          <pb n="1" xml:id="p1"/> Ce <date when="1855-06-27">mercredi</date><note place="bottom"
+          <pb n="1" facs="https://api.nakala.fr/iiif/10.34847/nkl.cf4343hl/c82f1522f2a91a2027725e3fff3cab388fec1d52/full/full/0/default.jpg
+            "/> Ce <date when="1855-06-27">mercredi</date><note place="bottom"
             >D’après les événements évoqués dans cette lettre, elle semble pouvoir être datée du
             mercredi 27 juin 1855.</note></dateline>
         <salute><persName key="Delacroix, Eugène (1798-1863)">Mon pauvre ami</persName>,</salute>
@@ -104,13 +105,15 @@
           Forget était morte le 18 juin 1855. </note> ! Cette séparation a été bien horrible pour
         moi, je suis si triste, si isolée dans <placeName key="Paris, rue de la Rochefoucauld, 19"
           >cette grande maison</placeName> ! Je ne forme aucun projet, je suis hébétée par le
-        chagrin ! Je n’ai pas besoin de vous <pb n="2" xml:id="p2"/> exprimer, <persName
+        chagrin ! Je n’ai pas besoin de vous <pb n="2" facs="https://api.nakala.fr/iiif/10.34847/nkl.cf4343hl/ba9974b3cfe854166c8e2a019453424899e19b56/full/full/0/default.jpg
+          "/> exprimer, <persName
           key="Delacroix, Eugène (1798-1863)">cher ami</persName>, combien je suis toujours sensible
         aux preuves d’affection que vous me donnerez ; car nous sommes amis de bien vieille date et
         notre tendresse sera pour toute ma vie un souvenir bien doux à me rappeler ! Je serai donc
         heureuse de vous revoir et surtout de vous savoir en bonne santé : c’est un bien fragile,
         hélas ! Soignez-vous et ne négligez aucune petite indisposition. Quant à moi, je me porte
-        bien, mais je voyagerai un peu cet été, car j’ai grand besoin d’air <pb n="3" xml:id="p3"/>
+        bien, mais je voyagerai un peu cet été, car j’ai grand besoin d’air <pb n="3" facs="https://api.nakala.fr/iiif/10.34847/nkl.cf4343hl/73b02c61ca55a515ffd047c8f2bbccfadfe980bb/full/full/0/default.jpg
+          "/>
         et de mouvement<note place="bottom">Joséphine de Forget séjourna à Pau chez Armand Laity,
           ami et parent de la baronne. Voir à ce sujet <ref type="letter"
             target="CAC_ED_joubin-3-p275">les lettres de Delacroix des 17 juillet</ref> et <ref

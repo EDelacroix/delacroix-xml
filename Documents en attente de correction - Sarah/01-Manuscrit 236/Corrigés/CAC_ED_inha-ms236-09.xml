@@ -29,7 +29,8 @@
         </availability>
       </publicationStmt>
       <seriesStmt>
-        <title type="main">Correspondance d’Eugène Delacroix</title>         <title type="sub">Le monde littéraire</title>
+        <title type="main">Correspondance d’Eugène Delacroix</title>
+        <title type="sub">Le monde littéraire</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -51,7 +52,8 @@
         </msDesc>
         <listBibl>
           <bibl><hi rend="it">L’Art vivant</hi>, 1er juillet 1930, p. 522</bibl>
-          <bibl>André Joubin, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936, II, p. 46</bibl>
+          <bibl>André Joubin, <hi rend="it">Correspondance générale de Eugène Delacroix</hi>, 1936,
+            II, p. 46</bibl>
           <bibl>Françoise Alexandre, <hi rend="it">Correspondance</hi>, 2005, p. 97-98</bibl>
         </listBibl>
       </sourceDesc>
@@ -74,7 +76,8 @@
   <text>
     <body>
       <opener>
-        <pb n="1" facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000020.tif/full/full/0/default.jpg"/>
+        <pb n="1"
+          facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000020.tif/full/full/0/default.jpg"/>
         <salute><persName key="Sand, George (1804-1876)">Amie et sœur bien
           chère</persName>,</salute>
       </opener>

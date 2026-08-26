@@ -84,7 +84,8 @@
 
       <opener>
         <dateline>
-          <pb n="1" xml:id="p1"/> Ce <date when="1855-11-10">samedi 10 novembre</date></dateline>
+          <pb n="1" facs="https://api.nakala.fr/iiif/10.34847/nkl.f77bqma2/8b1cb1bd7819a2e0db25f23dff613c40887b034d/full/full/0/default.jpg
+            "/> Ce <date when="1855-11-10">samedi 10 novembre</date></dateline>
       </opener>
 
 
@@ -100,7 +101,8 @@
           Cerfbeer</persName> qui vous avait vu chez elle<note place="bottom">Delacroix nota dans
           son journal être allé chez Cerfbeer le 5 novembre (<hi rend="it">ibid.</hi>, p.
           969).</note> ; ce n’est que depuis très peu de jours que j’ai appris que vous étiez très
-        fatigué, très enrhumé et je devine que <pb n="2" xml:id="p2"/> vous vous êtes sauvé de
+        fatigué, très enrhumé et je devine que <pb n="2" facs="https://api.nakala.fr/iiif/10.34847/nkl.f77bqma2/4dd1c67fed1fb81acf861d8d6afb5fa4e929ca54/full/full/0/default.jpg
+          "/> vous vous êtes sauvé de
           <placeName key="France, Paris">Paris</placeName> pour fuir les affaires, les importuns et
         pour garder le silence. Reviendrez-vous pour la cérémonie du 15<note place="bottom">Elle
           évoque la cérémonie de distribution des récompenses de l’Exposition universelle de 1855.
@@ -112,7 +114,8 @@
         bonne cuisine, mais trop moderne hélas ! Nous autres vieux, <persName
           key="Delacroix, Eugène (1798-1863)">mon ami</persName>, nous ne pouvons éviter d’être
         envahis par tout ce qui est nouveau, et à mon avis, beaucoup moins bien <pb n="3"
-          xml:id="p3"/> que ce qui existait du temps de nos pères. Cela est fort triste mais
+          facs="https://api.nakala.fr/iiif/10.34847/nkl.f77bqma2/d3a7b3fff850c648da4d96006cfd857bf4b74e83/full/full/0/default.jpg
+          "/> que ce qui existait du temps de nos pères. Cela est fort triste mais
         l’important pour nous, c’est de conserver notre bonne santé : la mienne résiste à tout mais
         la vôtre a besoin de soins, et vous savez, <persName key="Delacroix, Eugène (1798-1863)">mon
           cher ami</persName>, combien je m’y intéresse. Outre mes occupations qui sont nombreuses,
@@ -126,7 +129,8 @@
             Delacroix</ref> qu’il était placé dans une maison de santé.</note>. Vous pensez combien
         cela est cruel pour moi et quelle vie triste je mène ! Si vous n’avez rien à faire à
           <placeName key="France, Augerville">la campagne</placeName>
-        <pb n="4" xml:id="p4"/> sacrifiez-moi quelques instants pour venir causer un peu avec moi.
+        <pb n="4" facs="https://api.nakala.fr/iiif/10.34847/nkl.f77bqma2/85384642970041c5505c8ea8fd8bdafad613b0a8/full/full/0/default.jpg
+          "/> sacrifiez-moi quelques instants pour venir causer un peu avec moi.
         Parlez-moi de votre santé, de vos projets ; avez-vous arrêté un appartement avec atelier ?
         Je pense que vous n’avez pas eu le temps de vous en occuper.</p>
       <p><persName key="Forget, Eugène de (1819-1885)">Eugène</persName> est encore en <placeName
@@ -146,7 +150,7 @@
         <salute>Adieu, <persName key="Delacroix, Eugène (1798-1863)">mon cher bon ami</persName>,
           croyez toujours à ma vieille et bien sincère affection. Je vous embrasse de cœur en
           attendant le plaisir de vous revoir. Je ne vous ai pas écrit pour votre parent, M. de
-          Verninac, parce que, de mon <pb n="5" xml:id="p5"/> côté, je n’avais hélas aucune
+          Verninac, parce que, de mon <pb n="1" facs="https://api.nakala.fr/iiif/10.34847/nkl.f77bqma2/8b1cb1bd7819a2e0db25f23dff613c40887b034d/full/full/180/default.jpg"/> côté, je n’avais hélas aucune
             protection<note place="bottom">Nous ignorons pour quel membre de sa belle-famille et
             dans quel but Delacroix avait fait une demande à son amie. </note>.</salute>
         <salute>Adieu encore, <persName key="Delacroix, Eugène (1798-1863)">cher

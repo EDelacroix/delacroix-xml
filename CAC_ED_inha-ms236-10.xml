@@ -20,6 +20,10 @@
           <resp>Annotation</resp>
           <name>Sarah Jouan</name>
         </respStmt>
+        <respStmt>
+          <resp>Correction</resp>
+          <name>Gaëlle Lafage</name>
+        </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>Sorbonne Université, Centre André Chastel</publisher>
@@ -81,6 +85,7 @@
           <addrLine>
             <placeName key="France, Paris, rue Pigale, 16">rue Pigale n° 16</placeName></addrLine>
         </address>
+        <stamp><date when="1840-02-21">21 février 1840</date></stamp>
         <pb n="2"
           facs="https://bibliotheque-numerique.inha.fr/i/?IIIF=/89/c8/3c/4f/89c83c4f-4146-4989-b32f-3dd739e3c930/iiif/0644_doucet_MS236_000022.tif/full/full/0/default.jpg"/>
         <salute><persName key="Sand, George (1804-1876)">Chère amie</persName>,</salute>

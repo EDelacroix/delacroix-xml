@@ -21,6 +21,10 @@
                     <resp>Annotation</resp>
                     <name>Sarah Jouan</name>
                 </respStmt>
+                <respStmt>
+                    <resp>Correction</resp>
+                    <name>Gaëlle Lafage</name>
+                </respStmt>
             </editionStmt>
             <publicationStmt>
                 <publisher>Sorbonne Université, Centre André Chastel</publisher>
@@ -79,7 +83,8 @@
     </teiHeader>
     <text>
         <body>
-            <pb n="1" xml:id="p1"/>
+            <pb n="1"
+                facs="https://api.nakala.fr/iiif/10.34847/nkl.a3ba1xfy/f78499e541852a93c02e6f3c9fd2202aa89bb23a/full/full/0/default.jpg"/>
             <opener>
                 <address>
                     <addrLine>Monsieur</addrLine>
@@ -87,13 +92,17 @@
                         <persName key="Guillemardet, Félix (1796-1842)">Félix
                             Guillemardet</persName>
                     </addrLine>
-                    <addrLine>chez <persName key="Febvre">Monsieur Febvre</persName>, <placeName key="France, Mâcon, rue de la Barre, 11">rue de la barre n°11</placeName></addrLine>
-                    <addrLine>à <placeName key="France, Mâcon">Mâcon Saône et Loire</placeName></addrLine>
+                    <addrLine>chez <persName key="Febvre">Monsieur Febvre</persName>, <placeName
+                            key="France, Mâcon, rue de la Barre, 11">rue de la barre
+                            n°11</placeName></addrLine>
+                    <addrLine>à <placeName key="France, Mâcon">Mâcon Saône et
+                        Loire</placeName></addrLine>
                 </address>
                 <stamp><date when="1830-12-09">9 décembre 1830</date></stamp>
                 <stamp><date when="1830-12-11">11 décembre 1830</date></stamp>
 
-                <pb n="2" xml:id="p2"/>
+                <pb n="2"
+                    facs="https://api.nakala.fr/iiif/10.34847/nkl.a3ba1xfy/f2bdbc4f974e4275cac5d3ef5b54dc9477a817c1/full/full/0/default.jpg"/>
                 <note place="margin-left">Lettre de Monsieur <persName
                         key="Delacroix, Eugène (1798-1863)">D.</persName> à <persName key="">F.
                         Guill.</persName> contenue par <persName key="Mornay, Charles de (1803-1878)
@@ -120,10 +129,12 @@
                 bourgogne et rapporter du trésor d'antiquités. Que le sabayon est délicieux !!! Nous
                 en buvons à ta santé et nous conservons la recette pour t'en faire boire à la</p>
 
-            <pb n="2" xml:id="p2"/>
+            <pb n="3"
+                facs="https://api.nakala.fr/iiif/10.34847/nkl.a3ba1xfy/ec7fd9cfd0ee42896a9029f7580905b38e97aa4f/full/full/0/default.jpg"/>
             <p> nôtre.<add place="top">(continuée par Delacroix —)</add><note place="bottom">Cette
                     lettre débute par un mot de Jean-Baptiste Pierret lorsqu'ils se réunissent chez
-                    le Docteur Desmaisons pour la Saint Nicolas le 6 décembre 1830 puis est reprise par Delacroix.</note>
+                    le Docteur Desmaisons pour la Saint Nicolas le 6 décembre 1830 puis est reprise
+                    par Delacroix.</note>
             </p>
             <p>Je reprends en sous œuvre la présente lettre pour te tenir au courant de la brillante
                 santé qui me caractérise dans le moment actuel. Je n'en sors pas moins pour le quart
@@ -135,9 +146,10 @@
                 une lettre d'un gendarme de <placeName key="France, Fouilletourte">
                     Fouilletourte</placeName> en Berry que nous venons d'en faire lecture en société
                 où nous nous trouvons qui est très drôle et très insolite pour l'expression des
-                pensées du dit gendarme qui écrit au docteur <pb n="3" xml:id="p3"/> Desmaisons qui
-                vient de nous faire d'excellent Sabayon que nous en avons bu un verre à ta
-                santé.</p>
+                pensées du dit gendarme qui écrit au docteur <pb n="4"
+                    facs="https://api.nakala.fr/iiif/10.34847/nkl.a3ba1xfy/a6a7bf319023410bc41b1ff52b70255f0f70f92d/full/full/0/default.jpg"
+                /> Desmaisons qui vient de nous faire d'excellent Sabayon que nous en avons bu un
+                verre à ta santé.</p>
 
             <p>Pour finir, j'ai fini, ou peu s'en manque, mon <rs type="work"
                     key="La Liberté guidant le peuple (J144)
