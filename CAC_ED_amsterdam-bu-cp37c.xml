@@ -87,7 +87,8 @@
 
       <opener>
         <salute>
-          <pb n="1" xml:id="p1"/>
+          <pb n="1"
+            facs="https://api.nakala.fr/iiif/10.34847/nkl.d267r28t/2ee355188b800ee7bfd71b82c3cb42f2ab1e57dc/full/full/0/default.jpg"/>
           <persName key="Rang-Babut, Louise (1805-1884)">Chère dame</persName>,</salute>
       </opener>
 
@@ -106,9 +107,10 @@
           1845-1846 de <hi rend="it">La Dernière scène de Don Juan</hi> (J[L]101) et de l’esquisse
             du<hi rend="it"> Cardinal de Richelieu disant la messe</hi> (J132). Cette dernière œuvre
           n’était pas payée dans sa totalité en 1849 (<hi rend="it">Nouvelles lettres</hi>, p.
-          65).</note> pour lequel je <pb n="2" xml:id="p2"/> prie de nouveau <persName
-          key="Babut, Théophile (1811-1886)">M. Babut</persName> de vouloir bien recevoir mes
-        excuses à cause de mes retards.</p>
+          65).</note> pour lequel je <pb n="2"
+          facs="https://api.nakala.fr/iiif/10.34847/nkl.d267r28t/56199a9a6559685df481f3787180c8c3e9eee6e7/full/full/0/default.jpg"
+        /> prie de nouveau <persName key="Babut, Théophile (1811-1886)">M. Babut</persName> de
+        vouloir bien recevoir mes excuses à cause de mes retards.</p>
 
 
       <closer>

@@ -89,7 +89,8 @@
       <opener>
         <address>
           <addrLine>
-            <pb n="Enveloppe"/>
+            <pb n="Enveloppe"
+              facs="https://api.nakala.fr/iiif/10.34847/nkl.d2865ur8/e1d226d041798c4521e0140f6989865094f27683/full/full/0/default.jpg"/>
             <persName key="Forget, Joséphine de (1802-1886)">Madame la Baronne de
             Forget</persName></addrLine>
           <addrLine><placeName key="France, Compiègne, Hôtel de la Sous-Préfecture">Hôtel de la
@@ -100,7 +101,8 @@
         <stamp><placeName key="France, Dieppe">Dieppe</placeName>, <date when="1852-09-13">13
             septembre 1852</date></stamp>
         <dateline>
-          <pb n="1" xml:id="p1"/>
+          <pb n="1"
+            facs="https://api.nakala.fr/iiif/10.34847/nkl.d2865ur8/b3086121c3684469b1d48e74c53d489cafd92a39/full/full/0/default.jpg"/>
           <placeName key="France, Dieppe">Dieppe</placeName>, <date when="1852-09-13">13
             septembre</date></dateline>
         <salute><persName key="Forget, Joséphine de (1802-1886)">Chère amie</persName>,</salute>
@@ -116,21 +118,23 @@
         nous aurions pour demain mardi une des grandes marées de l’année. Je n’ai point résisté
         d’autant plus que l’habitude aidant, je me plais infiniment à cette vie paresseuse tandis
         que les premiers jours j’ai été sur le point de me sauver par ennui. Vous n’aimez pas
-          <placeName key="France, Dieppe">Dieppe</placeName>, par conséquent mes éloges du séjour que j’y fais vous
-        paraîtront sans doute tenir au besoin de repos qui était devenu impérieux chez moi. Je
-        trouve pour mon compte qu’il y a assez de variété ici : on a à volonté le monde ou la
-        solitude, quoiqu’à vrai dire ce <pb n="2" xml:id="p2"/> dernier avantage soit le plus rare.
-        Les premiers jours, une grande partie de mon ennui est venu de la peur que j’avais de
-        rencontrer des gens ennuyeux, de sorte que je m’ennuyais de peur de l’ennui. Cela m’a été
-        même une petite et plus véritable leçon qu’elle ne semble. J’ai vu que la solitude, pas plus
-        que la distraction, ne pouvaient être l’état constant d’un homme qui veut jouir de tout
-        l’agrément possible. Il faut entremêler l’une et l’autre, de manière à ce qu’elles se
-        succèdent et qu’il s’ensuive le désir de l’état dans lequel on ne se trouve pas. Il faut
-        donc toujours désirer quelque chose ou l’espérer. Quand on peut espérer ce qu’on désire, on
-        a toute la somme de bonheur accordée à notre machine pensante. Obtenir ce qu’on a désiré est
-        déjà un échelon descendant <pb n="3" xml:id="p3"/> vers l’inquiétude et le malaise et,
-        toujours en descendant, vers la tristesse et même la douleur. Il n’y a pas à sortir de
-        là.</p>
+          <placeName key="France, Dieppe">Dieppe</placeName>, par conséquent mes éloges du séjour
+        que j’y fais vous paraîtront sans doute tenir au besoin de repos qui était devenu impérieux
+        chez moi. Je trouve pour mon compte qu’il y a assez de variété ici : on a à volonté le monde
+        ou la solitude, quoiqu’à vrai dire ce <pb n="2"
+          facs="https://api.nakala.fr/iiif/10.34847/nkl.d2865ur8/ebb30e656ed2612ee8b650af797a622c95d51eef/full/full/0/default.jpg"
+        /> dernier avantage soit le plus rare. Les premiers jours, une grande partie de mon ennui
+        est venu de la peur que j’avais de rencontrer des gens ennuyeux, de sorte que je m’ennuyais
+        de peur de l’ennui. Cela m’a été même une petite et plus véritable leçon qu’elle ne semble.
+        J’ai vu que la solitude, pas plus que la distraction, ne pouvaient être l’état constant d’un
+        homme qui veut jouir de tout l’agrément possible. Il faut entremêler l’une et l’autre, de
+        manière à ce qu’elles se succèdent et qu’il s’ensuive le désir de l’état dans lequel on ne
+        se trouve pas. Il faut donc toujours désirer quelque chose ou l’espérer. Quand on peut
+        espérer ce qu’on désire, on a toute la somme de bonheur accordée à notre machine pensante.
+        Obtenir ce qu’on a désiré est déjà un échelon descendant <pb n="3"
+          facs="https://api.nakala.fr/iiif/10.34847/nkl.d2865ur8/c59a926f3b8068527078799b4ebe9afc6f8ea905/full/full/0/default.jpg"
+        /> vers l’inquiétude et le malaise et, toujours en descendant, vers la tristesse et même la
+        douleur. Il n’y a pas à sortir de là.</p>
       <p>La mer fait toujours mes délices : je fais des stations de trois ou quatre heures sur la
         jetée ou le long de la mer au bord des falaises. On ne peut s’en arracher. Si je menais
         quelque temps cette vie-là en y joignant une occupation intéressante, je me porterais très
@@ -139,16 +143,19 @@
         la journée dont il va falloir traîner le poids ; enfin, je me vois tout prêt à être comme
         tout le monde. Être comme tout le monde : voilà la vraie condition pour être heureux. L’air
         de la mer et la distraction opèrent chez moi ce prodige. Ce qu’il vous faudrait à vous, ce
-        serait le contraire : <pb n="4" xml:id="p4"/> vous périssez d’ennui par ce qui fait le
-        bonheur de la plupart des mortels : ne rien faire. Il vous faudrait le remède opposé au
-        mien, et je ne plaisante pas le moins du monde. Il faut être forcé, enchaîné à quelque
-        tâche, à moins de s’enivrer ou d’être une brute, il faut à toute force s’ennuyer si l’on ne
-        trouve pas le secret de désirer la distraction.</p>
-      <p>Adieu, <persName key="Forget, Joséphine de (1802-1886)">chère amie</persName>, toutes ces réflexions qui peignent peut-être la
-        situation que <placeName key="France, Compiègne">Compiègne</placeName> vous a faite ne vous consoleront pas sans
-        doute, mais elles vous feront passer quelques instants dans une autre situation d’esprit. Je
-        serai à <placeName key="France, Paris">Paris</placeName> jeudi probablement. Si par hasard vous vous y trouvez,
-        j’irai vous embrasser et savoir comment, au fait, vous avez passé ces derniers jours.</p>
+        serait le contraire : <pb n="4"
+          facs="https://api.nakala.fr/iiif/10.34847/nkl.d2865ur8/db86ec4aa56991788dbf90c778cdddd0a9e53650/full/full/0/default.jpg"
+        /> vous périssez d’ennui par ce qui fait le bonheur de la plupart des mortels : ne rien
+        faire. Il vous faudrait le remède opposé au mien, et je ne plaisante pas le moins du monde.
+        Il faut être forcé, enchaîné à quelque tâche, à moins de s’enivrer ou d’être une brute, il
+        faut à toute force s’ennuyer si l’on ne trouve pas le secret de désirer la distraction.</p>
+      <p>Adieu, <persName key="Forget, Joséphine de (1802-1886)">chère amie</persName>, toutes ces
+        réflexions qui peignent peut-être la situation que <placeName key="France, Compiègne"
+          >Compiègne</placeName> vous a faite ne vous consoleront pas sans doute, mais elles vous
+        feront passer quelques instants dans une autre situation d’esprit. Je serai à <placeName
+          key="France, Paris">Paris</placeName> jeudi probablement. Si par hasard vous vous y
+        trouvez, j’irai vous embrasser et savoir comment, au fait, vous avez passé ces derniers
+        jours.</p>
 
 
       <closer>

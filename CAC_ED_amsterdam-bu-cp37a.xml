@@ -84,7 +84,8 @@
 
 
       <opener>
-        <pb n="1" xml:id="p1"/>
+        <pb n="1"
+          facs="https://api.nakala.fr/iiif/10.34847/nkl.aead1bg6/c87ee8b320103563036e2930a64f5aaef0a2d6c4/full/full/0/default.jpg"/>
         <address>
           <addrLine> Monsieur</addrLine>
           <addrLine>Monsieur <hi rend="u">Lefebvre</hi><note place="bottom">Il pourrait s’agir du
@@ -93,7 +94,9 @@
             historiques.</note></addrLine>
         </address>
         <salute>
-          <pb n="2" xml:id="p2"/> Mon cher Monsieur,</salute>
+          <pb n="2"
+            facs="https://api.nakala.fr/iiif/10.34847/nkl.aead1bg6/ac75e5afaf922d21d0c695c245dccb8fb4f2edc2/full/full/0/default.jpg"
+          /> Mon cher Monsieur,</salute>
       </opener>
 
 

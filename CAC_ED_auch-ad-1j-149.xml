@@ -83,7 +83,7 @@
 
 
       <opener>
-        <pb n="1" xml:id="p1"/>
+        <pb n="1" facs="https://api.nakala.fr/iiif/10.34847/nkl.03ab91d2/c637d355bd0869fdfb224f38b0438975d973bd84/full/full/0/default.jpg"/>
         <address>
           <addrLine>À <persName key="Conseil municipal de la ville d’Auch">Messieurs les membres du
               conseil municipal de la ville d’Auch</persName></addrLine>
@@ -103,8 +103,8 @@
         l’effet d’obtenir de votre bonté de vouloir bien lui faire accorder à titre d’encouragement
         les moyens de continuer ses études. Permettez-moi de joindre à sa demande ce témoignage, que
         je crois que les bienfaits de la ville ne sauraient être mieux placés que dans la personne
-        de <persName key="Ginovès, Auguste (1818-1859)">ce jeune homme</persName> qui donne <pb
-          n="2" xml:id="p2"/> de très belles espérances et qui, depuis le peu de temps qu’il étudie
+        de <persName key="Ginovès, Auguste (1818-1859)">ce jeune homme</persName> <pb
+          n="2" facs="https://api.nakala.fr/iiif/10.34847/nkl.03ab91d2/26596ffb50ab0bed2adfd52bfa9151efd02c07fa/full/full/0/default.jpg"/>qui donne de très belles espérances et qui, depuis le peu de temps qu’il étudie
         à <placeName key="France, Paris">Paris</placeName>, a déjà fait des progrès tout à fait
         remarquables. Il est parmi mes élèves un de ceux sur lesquels je compte le plus. Je verrais
         avec bien du regret que la nécessité de se consacrer trop tôt à des travaux lucratifs dût
